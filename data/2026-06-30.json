@@ -1,0 +1,502 @@
+{
+  "date": "2026-06-30",
+  "headline_en": "AI infrastructure took center stage as agents moved deeper into enterprise stacks, coding tools tightened reliability and security, and open-weight models pushed strategy back toward managed compute.",
+  "headline_zh": "AI 基础设施成为今天的主线：agent 更深入企业技术栈，coding 工具开始补可靠性和安全性，open-weight 模型把竞争重心推回托管算力。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2071740419030053227",
+      "en": "Codex and ChatGPT's Thibault Sottiaux said Codex usage limits were being reset and users would get an extra reset after OpenAI found several compounding issues that made usage appear or behave higher than expected. The fixes reduce unnecessary background token consumption, separate auto-review reporting from GPT-5.4 usage, stop failed or rate-limited requests from showing as successful turns, and add monitoring for future background-usage regressions.",
+      "zh": "Codex and ChatGPT 的 Thibault Sottiaux 表示，OpenAI 在发现多个叠加问题导致 Codex 用量显示或消耗异常偏高后，正在重置使用额度，并给用户额外增加一次重置。修复内容包括减少不必要的后台 token 消耗，将 auto-review 的统计从 GPT-5.4 用量中拆出，避免失败或 rate-limited 请求显示为成功 turns，并增加监控以更早发现后台用量回归问题。",
+      "tags": [
+        "Codex",
+        "usage",
+        "monitoring",
+        "GPT-5.4"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2071636285807059315",
+      "en": "Codex and ChatGPT's Thibault Sottiaux announced a replacement for coarse sandbox modes: reusable, inheritable permission profiles with OS-enforced file read, write, and deny rules, per-domain network controls, Unix socket controls, and fail-closed admin allowlists. The direction is explicit least privilege per task for advanced Codex users.",
+      "zh": "Codex and ChatGPT 的 Thibault Sottiaux 宣布用可复用、可继承的 permission profiles 取代粗粒度 sandbox modes，支持 OS 强制执行的文件 read、write、deny 规则、按 domain 控制网络访问、Unix socket 控制，以及 fail-closed 的管理员 allowlists。这个方向是为高级 Codex 用户提供按任务划分的最小权限。",
+      "tags": [
+        "Codex",
+        "sandboxing",
+        "security",
+        "permissions"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "title": null,
+      "url": "https://x.com/levie/status/2071775583072375214",
+      "en": "Box CEO Aaron Levie framed AI regulation around a key strategic bet: whether open-weight models stay close enough to the frontier. If closed models remain far ahead, a vertically integrated and gatekept US stack can work, but if open weights stay a close second, heavy regulation may preserve the frontier market while pushing most token volume to alternative model and hardware stacks controlled by someone else.",
+      "zh": "Box CEO Aaron Levie 将 AI 监管问题归结为一个关键判断：open-weight 模型是否能持续接近 frontier。若 closed models 始终大幅领先，那么美国的垂直整合和准入控制路线可以成立；但如果 open weights 只是略落后，严格监管可能保住 frontier 市场，却把大部分 token 用量推向由别人控制和变现的替代模型与硬件栈。",
+      "tags": [
+        "open weights",
+        "AI regulation",
+        "frontier models",
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Madhu Guru",
+      "role": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": null,
+      "url": "https://x.com/realmadhuguru/status/2071637885154148785",
+      "en": "Former Google product leader Madhu Guru argued that strong open-weight models like GLM could strengthen Google's position rather than weaken it. His view is that enterprises experimenting with fine-tuning open models still need managed reliability, security, support, and compute infrastructure, where Google Cloud and Google's broader compute stack are well positioned.",
+      "zh": "前 Google 产品负责人 Madhu Guru 认为，GLM 这样的强 open-weight 模型可能会增强 Google 的位置，而不是削弱它。他的判断是，企业即便开始 fine-tuning open models，仍然需要托管平台提供可靠性、安全、支持和算力基础设施，而 Google Cloud 以及 Google 更广泛的 compute stack 在这里很有优势。",
+      "tags": [
+        "open-weight models",
+        "Google Cloud",
+        "fine-tuning",
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code @anthropicai",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2071647677591466098",
+      "en": "Claude Code's Boris Cherny previewed a workflow change: subagents will run in the background by default in the next Claude Code version, letting users keep talking to Claude while delegated work continues. Users can still ask for an agent to run in the foreground when they want tighter supervision.",
+      "zh": "Claude Code 的 Boris Cherny 预告了一个工作流变化：下一版 Claude Code 中，subagents 默认会在后台运行，让用户可以在委托任务继续执行时继续和 Claude 对话。用户仍然可以要求 agent 在前台运行，以便更紧密地监督。",
+      "tags": [
+        "Claude Code",
+        "subagents",
+        "agents",
+        "workflow"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": null,
+      "url": "https://x.com/claudeai/status/2071653958905467027",
+      "en": "Claude announced that Claude in Microsoft Foundry is generally available on Azure, giving Azure customers access to Claude Opus 4.8 and Claude Haiku 4.5 with Azure authentication, billing, and commitment retirement. Anthropic operates inference on Azure infrastructure, with prompt caching and extended thinking supported today.",
+      "zh": "Claude 宣布 Claude in Microsoft Foundry 已在 Azure 上 GA，Azure 客户可以使用 Claude Opus 4.8 和 Claude Haiku 4.5，并接入 Azure authentication、billing 和 commitment retirement。Anthropic 在 Azure infrastructure 上运营 inference，目前已支持 prompt caching 和 extended thinking。",
+      "tags": [
+        "Claude",
+        "Azure",
+        "Microsoft Foundry",
+        "enterprise"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": null,
+      "url": "https://x.com/zarazhangrui/status/2071766827345285411",
+      "en": "Builder Zara Zhang shipped an open-source Chrome extension that turns a read-later backlog into scheduled reading time on Google Calendar. Saving five articles automatically creates a 30-minute reading block with links included, with no account, no server, and local-only operation.",
+      "zh": "Builder Zara Zhang 发布了一个 open-source Chrome extension，可以把 read-later 待读列表转成 Google Calendar 上的固定阅读时间。保存 5 篇文章会自动创建一个 30 分钟 reading block，并附上链接；无需账号、无需服务器，全部本地运行。",
+      "tags": [
+        "Chrome extension",
+        "productivity",
+        "local-first",
+        "open source"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": null,
+      "url": "https://x.com/zarazhangrui/status/2071670108033073365",
+      "en": "Builder Zara Zhang highlighted a PM at Anthropic's view that “The market value of writing has gone way up.” Her point is that clear articulation now matters both for steering models effectively while building products and for building an audience, making strong writing less optional in tech.",
+      "zh": "Builder Zara Zhang 提到一位 Anthropic PM 的观点：“The market value of writing has gone way up.” 她的重点是，清晰表达现在既影响产品构建中如何有效 steer models，也影响如何建立受众，因此在 tech 里，优秀写作已经不再是可有可无。",
+      "tags": [
+        "writing",
+        "prompting",
+        "product",
+        "AI skills"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": null,
+      "url": "https://x.com/petergyang/status/2071731343390851519",
+      "en": "Peter Yang argued that plain Claude web remains better for writing and editing than Codex or Claude Code. His hypothesis is that coding-agent system prompts may make those agents weaker writers, a useful reminder that agent scaffolding can improve tool use while degrading prose quality.",
+      "zh": "Peter Yang 认为，在写作和编辑上，普通 Claude web 仍然比 Codex 或 Claude Code 更好。他的猜测是，coding agent 的 system prompts 可能让这些 agent 的写作能力变差，这提醒我们 agent scaffold 可能提升工具使用，却削弱文本表达质量。",
+      "tags": [
+        "Claude",
+        "Codex",
+        "writing",
+        "system prompts"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2071716510389662153",
+      "en": "Vercel CEO Guillermo Rauch announced “20x larger functions on Vercel” and teased that users will be able to deploy “anything and everything” to Vercel. The posts suggest Vercel is expanding the compute envelope for heavier AI and agent workloads.",
+      "zh": "Vercel CEO Guillermo Rauch 宣布 “20x larger functions on Vercel”，并预告用户将可以把 “anything and everything” 部署到 Vercel。这些内容显示 Vercel 正在扩大 compute envelope，以承载更重的 AI 和 agent workloads。",
+      "tags": [
+        "Vercel",
+        "serverless",
+        "deployment",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": null,
+      "url": "https://x.com/trq212/status/2071787401475960892",
+      "en": "Claude Code's Thariq described a writing process built around engineering work, conversations, Claude-assisted brainstorming and research, talks, and repeated rewrites. The useful signal is that technical writing is becoming more iterative and model-assisted, but still grounded in doing the work and pressure-testing ideas with people.",
+      "zh": "Claude Code 的 Thariq 描述了自己的写作流程：先做工程工作，再和很多人交流，用 Claude 做 brainstorm 和 research，写文章，做一两次演讲，然后反复重写。这里的信号是，技术写作正在变得更迭代、更依赖模型辅助，但仍然建立在亲自做事和与人反复检验想法之上。",
+      "tags": [
+        "writing",
+        "Claude",
+        "engineering",
+        "research"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "en": "Anthropic Engineering: Scaling Managed Agents: Decoupling the brain from the hands argues that long-running agents need stable interfaces, not tightly coupled containers. Managed Agents split the system into a durable session log, a stateless harness or “brain,” and sandboxes or tools as “hands,” allowing each component to fail, restart, or be replaced independently. The practical payoff is reliability, security, and latency: credentials no longer need to sit inside the sandbox where generated code runs, failed containers can be treated as tool-call errors, and p50 time-to-first-token dropped roughly 60% while p95 dropped over 90%. The core design lesson is that agent harnesses encode assumptions about model limitations, and those assumptions go stale as models improve, so Anthropic is building interfaces meant to outlast any one harness, sandbox, or context-management strategy.",
+      "zh": "Anthropic Engineering: Scaling Managed Agents: Decoupling the brain from the hands 认为，长时间运行的 agents 需要稳定接口，而不是紧耦合的 containers。Managed Agents 将系统拆成持久 session log、无状态 harness 或 “brain”，以及作为 “hands” 的 sandboxes 或 tools，让每个组件都可以独立失败、重启或替换。实际收益体现在可靠性、安全和延迟上：credentials 不再需要放在生成代码会运行的 sandbox 里，失败的 containers 可以被当作 tool-call errors 处理，p50 time-to-first-token 下降约 60%，p95 下降超过 90%。核心设计经验是，agent harnesses 会编码关于模型能力不足的假设，而这些假设会随着模型进步而过期，因此 Anthropic 正在构建能超越单一 harness、sandbox 或 context-management 策略的接口。",
+      "tags": [
+        "Managed Agents",
+        "agent architecture",
+        "security",
+        "latency"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "en": "Claude Blog: New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels introduces two enterprise-facing controls for Managed Agents: self-hosted sandboxes in public beta and MCP tunnels in research preview. Enterprises can keep sensitive files, packages, repositories, and services inside their own infrastructure or managed sandbox providers while Anthropic keeps the orchestration, context management, and recovery loop on Claude Platform. MCP tunnels let agents reach private MCP servers without public endpoints or inbound firewall rules, using a lightweight gateway that makes a single outbound encrypted connection. The practical implication is clearer separation between model orchestration and enterprise-controlled execution, with supported sandbox options including Cloudflare, Daytona, Modal, and Vercel.",
+      "zh": "Claude Blog: New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels 推出了面向企业的两项 Managed Agents 控制能力：public beta 的 self-hosted sandboxes，以及 research preview 的 MCP tunnels。企业可以把敏感文件、packages、repositories 和 services 留在自己的基础设施或托管 sandbox providers 中，同时由 Anthropic 在 Claude Platform 上保留 orchestration、context management 和 recovery loop。MCP tunnels 让 agents 可以访问私有 MCP servers，而无需公开 endpoints 或开放 inbound firewall rules，只需要部署一个 lightweight gateway 发起单个 outbound encrypted connection。实际意义是 model orchestration 与企业控制的 execution 更清晰地分离，支持的 sandbox 选项包括 Cloudflare、Daytona、Modal 和 Vercel。",
+      "tags": [
+        "Managed Agents",
+        "MCP",
+        "enterprise",
+        "sandboxes"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "en": "Anthropic Engineering: An update on recent Claude Code quality reports traces recent Claude Code degradation reports to three separate product-layer issues, while saying the API and inference layer were unaffected. Anthropic says it “never intentionally degrade[s]” models, then details a mistaken default reasoning-effort reduction, a caching bug that repeatedly dropped older thinking after idle sessions, and a system-prompt instruction to limit verbosity that caused a 3% drop on one broader evaluation. All three have been fixed as of April 20 v2.1.116, and Anthropic is resetting usage limits for subscribers. The post’s practical takeaway is that small harness, caching, and prompt changes can look like model regression, so Anthropic is adding broader per-model evals, ablations, soak periods, gradual rollouts, and tighter prompt-change auditing.",
+      "zh": "Anthropic Engineering: An update on recent Claude Code quality reports 将近期 Claude Code 质量下降反馈归因于三个独立的产品层问题，并表示 API 和 inference layer 未受影响。Anthropic 表示 “never intentionally degrade[s]” models，随后说明了三个问题：错误地下调默认 reasoning effort、一个会在 idle sessions 后反复丢弃 older thinking 的 caching bug，以及一条限制 verbosity 的 system-prompt 指令在更广评测中造成 3% 下降。三个问题都已在 4 月 20 日 v2.1.116 修复，Anthropic 正在为订阅用户重置 usage limits。实际 takeaway 是，harness、caching 和 prompt 的小改动都可能表现得像 model regression，因此 Anthropic 将加入更广的 per-model evals、ablations、soak periods、gradual rollouts 和更严格的 prompt-change auditing。",
+      "tags": [
+        "Claude Code",
+        "postmortem",
+        "quality",
+        "evals"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan",
+      "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
+      "en": "The Takeaway: Intel CEO Lip-Bu Tan is betting that AI demand, agentic workloads, physical AI, and supply-chain fragility make Intel’s old assets newly strategic, but only if the company can move with startup speed.\n\nLip-Bu Tan, former Walden investor and Cadence CEO, described Intel as an iconic company that matters to both the semiconductor ecosystem and the United States. His turnaround playbook starts with culture: faster decisions, direct engineering accountability, simpler products, and obsessive customer listening. His phrase for the operating cadence is blunt: “first of all, you crawl and be humble, listen to customer,” then walk, then run.\n\nThe more interesting point is that Tan sees the AI compute map widening beyond centralized GPU training. Agentic AI and physical AI increase demand for CPUs, edge compute, advanced packaging, foundry capacity, and full-stack systems. He argues CPU demand is rising because reinforcement learning and agent orchestration can benefit from CPU performance, and he wants Intel to combine XPU, advanced packaging, and foundry capabilities into purpose-built silicon for different workloads.\n\nTan’s investor lens is equally concrete: look for bottlenecks. He named interconnect, photonics, EDA, new materials, power conversion, thermal constraints, memory, helium, and packaging as places where AI demand exposes hard infrastructure limits. His startup advice was to target a real customer pain, ideally with a hyperscaler as the first customer, and to expect pivots: “nine of the 10 company I invest, halfway they change their business plan because market have changed.”",
+      "zh": "The Takeaway：Intel CEO Lip-Bu Tan 的赌注是，AI 需求、agentic workloads、physical AI 和供应链脆弱性，让 Intel 的旧资产重新具备战略价值，但前提是公司必须以 startup speed 行动。\n\nLip-Bu Tan 曾是 Walden 投资人和 Cadence CEO，他把 Intel 描述为一家对 semiconductor ecosystem 和美国都至关重要的 iconic company。他的转型手册从文化开始：更快决策、工程直接负责、简化产品、极度重视客户反馈。他对运营节奏的说法很直接：“first of all, you crawl and be humble, listen to customer”，然后 walk，再 run。\n\n更有意思的是，Tan 认为 AI compute map 正在超越集中式 GPU training。Agentic AI 和 physical AI 会提升对 CPUs、edge compute、advanced packaging、foundry capacity 和 full-stack systems 的需求。他认为 CPU demand 正在上升，因为 reinforcement learning 和 agent orchestration 可以受益于 CPU performance，而他希望 Intel 将 XPU、advanced packaging 和 foundry capabilities 组合起来，为不同 workloads 构建 purpose-built silicon。\n\nTan 的投资视角也很具体：寻找 bottlenecks。他点名 interconnect、photonics、EDA、new materials、power conversion、thermal constraints、memory、helium 和 packaging，认为这些都是 AI 需求暴露出的硬基础设施限制。他给 startups 的建议是瞄准真实客户痛点，最好以 hyperscaler 作为第一个客户，并预期会 pivot：“nine of the 10 company I invest, halfway they change their business plan because market have changed.”",
+      "tags": [
+        "Intel",
+        "semiconductors",
+        "AI infrastructure",
+        "foundry"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations",
+      "url": "https://arxiv.org/abs/2606.28556",
+      "en": "IMCBench creates an image-grounded, multi-turn medical conversation benchmark using public clinical images and synthetic patient profiles to test multimodal LLMs in more realistic patient-clinician interactions.",
+      "zh": "IMCBench 使用公开临床图像和合成患者档案，构建了一个 image-grounded、multi-turn medical conversation benchmark，用于在更接近真实的医患互动中测试 multimodal LLMs。",
+      "tags": [
+        "medical AI",
+        "multimodal LLMs",
+        "benchmark",
+        "clinical"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Search for Truth from Reasoning: A Dynamic Representation Editing Framework for Steering LLM Trajectories",
+      "url": "https://arxiv.org/abs/2606.28589",
+      "en": "This paper studies how truth is represented during LLM reasoning chains and proposes dynamic representation editing to steer reasoning trajectories toward more truthful outcomes.",
+      "zh": "这篇论文研究 LLM reasoning chains 中 truth 如何被表示，并提出 dynamic representation editing，用来将 reasoning trajectories 引导向更真实的结果。",
+      "tags": [
+        "LLM reasoning",
+        "representation editing",
+        "truthfulness",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Turn-Averaged SAEs for Feature Discovery and Long-Context Attribution",
+      "url": "https://arxiv.org/abs/2606.28548",
+      "en": "Turn-averaged SAEs compress each human or assistant turn into a fixed set of interpretable features, making long transcripts easier to analyze than token-level SAE activations.",
+      "zh": "Turn-averaged SAEs 将每个 human 或 assistant turn 压缩成固定数量的可解释 features，让长 transcript 比 token-level SAE activations 更容易分析。",
+      "tags": [
+        "SAE",
+        "interpretability",
+        "long context",
+        "feature discovery"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Legal Domain Adaptation of Modern BERT Models",
+      "url": "https://arxiv.org/abs/2606.28538",
+      "en": "Further pre-training ModernBERT on all US court opinions improves legal-domain performance, showing that even very large modern pretraining does not eliminate the value of domain adaptation.",
+      "zh": "在全部美国法院意见书上继续 pre-training ModernBERT 可以提升法律领域表现，说明即使已有大规模现代预训练，domain adaptation 仍然有价值。",
+      "tags": [
+        "ModernBERT",
+        "legal AI",
+        "domain adaptation",
+        "NLP"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Aristotelian Virtue Profiling of LLMs through Ethical Dilemmas",
+      "url": "https://arxiv.org/abs/2606.28683",
+      "en": "VirtueMap profiles LLMs through an Aristotelian virtue-ethics lens by ranking multiple defensible responses to ethical dilemmas instead of forcing a single correct answer.",
+      "zh": "VirtueMap 通过 Aristotelian virtue-ethics 视角为 LLMs 建模，让模型对 ethical dilemmas 中多个可辩护回答排序，而不是强行指定唯一正确答案。",
+      "tags": [
+        "LLM ethics",
+        "evaluation",
+        "virtue ethics",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "A French OSCE Dialogue Dataset and Controllable Virtual Patient System for Clinical Training",
+      "url": "https://arxiv.org/abs/2606.28526",
+      "en": "This work introduces a 240-dialogue French OSCE training dataset and a controllable LLM pipeline for generating virtual-patient conversations for medical-student practice.",
+      "zh": "这项工作提出了一个包含 240 段对话的 French OSCE training dataset，并构建可控 LLM pipeline，用于生成面向医学生练习的 virtual-patient conversations。",
+      "tags": [
+        "medical training",
+        "LLM",
+        "dataset",
+        "French"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Perspectives on Latent Factor Indeterminacy and its Implications for Data Representation",
+      "url": "https://arxiv.org/abs/2606.28854",
+      "en": "The paper uses factor analysis as a minimal generative representation learner to study latent-factor indeterminacy and what it implies for learned data representations.",
+      "zh": "这篇论文将 factor analysis 作为最小化的 generative representation learner，用来研究 latent-factor indeterminacy 以及它对 learned data representations 的影响。",
+      "tags": [
+        "latent factors",
+        "representation learning",
+        "generative models",
+        "theory"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "A Bayesian latent Gaussian process framework for aerodynamic uncertainty quantification",
+      "url": "https://arxiv.org/abs/2606.28871",
+      "en": "This paper builds a Bayesian latent Gaussian process calibration framework to combine biased low-fidelity aerodynamic simulations with sparse, noisy experimental measurements.",
+      "zh": "这篇论文构建了 Bayesian latent Gaussian process calibration framework，用来结合有偏的 low-fidelity aerodynamic simulations 和稀疏、含噪的实验测量。",
+      "tags": [
+        "Gaussian process",
+        "uncertainty",
+        "aerodynamics",
+        "Bayesian"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Connectivity Estimation using Stochastic Graph Heat Modelling",
+      "url": "https://arxiv.org/abs/2606.29098",
+      "en": "The paper extends stochastic graph heat modeling to estimate dynamic, directed, multivariate connectivity in neurophysiological data.",
+      "zh": "这篇论文扩展 stochastic graph heat modeling，用于估计 neurophysiological data 中动态、定向、多变量的 connectivity。",
+      "tags": [
+        "graph modeling",
+        "connectivity",
+        "neurophysiology",
+        "statistics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+      "url": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
+      "en": "The Hacker News reports that Adversa AI's GuardFall research found a decades-old shell trick can bypass safety checks in open-source AI coding and computer-use agents. The bypass reportedly worked against ten of eleven popular agents tested, with only Continue resisting it, underscoring that agent command approval needs real parsing and enforcement rather than brittle command-string checks.",
+      "zh": "The Hacker News 报道称，Adversa AI 的 GuardFall 研究发现，一个存在数十年的 shell 技巧可以绕过 open-source AI coding 和 computer-use agents 的安全检查。据称，该 bypass 在测试的 11 个热门 agents 中对 10 个有效，只有 Continue 抵御了攻击，这说明 agent command approval 需要真正的 parsing 和 enforcement，而不是脆弱的 command-string checks。",
+      "tags": [
+        "AI agents",
+        "security",
+        "shell injection",
+        "coding agents"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+      "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+      "en": "Researchers tested 444 iPhone AI chatbot apps and found 282 exposed paid AI access through network traffic, often via plaintext API keys, reusable tokens, or backend servers that accepted unauthenticated requests. The immediate risk is direct abuse of developers' model accounts by anyone who captures those credentials or open proxy paths.",
+      "zh": "研究人员测试了 444 个 iPhone AI chatbot apps，发现其中 282 个通过网络流量暴露了付费 AI 访问能力，常见形式包括 plaintext API keys、reusable tokens，或接受未认证请求的 backend servers。直接风险是，任何捕获这些 credentials 或 open proxy paths 的人都可以滥用开发者的模型账号。",
+      "tags": [
+        "API keys",
+        "mobile AI",
+        "security",
+        "LLM apps"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Preliminary investigation: KL penalties in RL can increase CoT unfaithfulness",
+      "url": "https://www.lesswrong.com/posts/SdoLsFvZ3AyyWr3ab/preliminary-investigation-kl-penalties-in-rl-can-increase",
+      "en": "LessWrong authors Satvik Golechha, Sid Black, and Joseph Bloom report follow-up experiments from UK AISI's Model Transparency team suggesting KL penalties in RL can increase chain-of-thought unfaithfulness. In their setup, models trained to exploit a code-environment vulnerability learned reward hacking, but the KL-penalized run expressed it with unfaithful CoT while the no-KL run retained faithful CoT.",
+      "zh": "LessWrong 作者 Satvik Golechha、Sid Black 和 Joseph Bloom 汇报了 UK AISI Model Transparency team 的后续实验，认为 RL 中的 KL penalties 可能增加 chain-of-thought unfaithfulness。在他们的设置中，模型被训练后学会利用 code-environment vulnerability 进行 reward hacking，但带 KL penalty 的 run 以不忠实 CoT 表达，而无 KL 的 run 保持了忠实 CoT。",
+      "tags": [
+        "RL",
+        "CoT faithfulness",
+        "model transparency",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "en": "Hugging Face is adding Every Eval Ever results to model pages, making community evaluation results more visible where people already compare and choose models. The value is less about another leaderboard and more about putting eval context directly into model discovery.",
+      "zh": "Hugging Face 正在把 Every Eval Ever results 加到 model pages 上，让 community evaluation results 出现在用户已经用于比较和选择模型的位置。它的价值不只是新增一个 leaderboard，而是把 eval context 直接放进 model discovery 流程里。",
+      "tags": [
+        "Hugging Face",
+        "evals",
+        "model pages",
+        "leaderboards"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "en": "Hugging Face's “Why Specialization Is Inevitable” points to specialization as a core direction for AI systems. With no summary text provided in the data, the safe takeaway is only that the post argues for specialization rather than one-size-fits-all models or workflows.",
+      "zh": "Hugging Face 的 “Why Specialization Is Inevitable” 将 specialization 视为 AI systems 的核心方向。由于数据中没有提供正文摘要，稳妥的 takeaway 只能是这篇文章主张 specialization，而不是 one-size-fits-all 的模型或工作流。",
+      "tags": [
+        "specialization",
+        "AI systems",
+        "Hugging Face"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Structural Proxies",
+      "url": "https://www.lesswrong.com/posts/mKiBhFJs3MoksaBMs/structural-proxies",
+      "en": "LessWrong's “Structural Proxies” reflects on what technical research could increase confidence in powerful AI safety despite not yet having superhuman systems to study. The post frames current safety work as using proxy structures that may or may not stay relevant once the actual systems arrive.",
+      "zh": "LessWrong 的 “Structural Proxies” 思考在还没有 superhuman systems 可研究的情况下，哪些 technical research 能提高我们对 powerful AI safety 的信心。文章将当前 safety work 描述为依赖 proxy structures，而这些 proxies 在真正的系统出现后未必仍然相关。",
+      "tags": [
+        "AI safety",
+        "research strategy",
+        "proxies",
+        "AGI"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Working on a rust based version of spaCy that can run in browser, anyone here interested?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1ujhuoc/working_on_a_rust_based_version_of_spacy_that_can/",
+      "en": "A r/LanguageTechnology poster is rebuilding spaCy's en_core_web_md pipeline in Rust compiled to WASM, aiming to run tokenizer, POS tagging, dependency parsing, lemmatization, NER, and 300-dimensional word vectors entirely client-side. The notable claim is a single self-contained HTML file with model weights and runtime baked in, no backend, no API key, and no data leaving the machine.",
+      "zh": "一位 r/LanguageTechnology 发帖者正在用 Rust 重建 spaCy 的 en_core_web_md pipeline，并编译到 WASM，目标是在客户端完整运行 tokenizer、POS tagging、dependency parsing、lemmatization、NER 和 300 维 word vectors。值得注意的主张是，整个系统是一个自包含 HTML 文件，model weights 和 runtime 都内置其中，无需 backend、无需 API key，也不会有数据离开本机。",
+      "tags": [
+        "spaCy",
+        "Rust",
+        "WASM",
+        "local NLP"
+      ]
+    }
+  ]
+}
