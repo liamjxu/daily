@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily AI Builders Digest</title>
+  <meta name="description" content="A daily, bilingual digest of what top AI builders are saying, plus curated papers, blogs, and discussion." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="title-row">
+        <h1>Daily<span class="dot">.</span> <span style="font-weight:400;color:var(--muted)">AI Builders Digest</span></h1>
+        <div class="date-nav">
+          <button class="icon-btn" id="prevDay" title="Previous day">‹</button>
+          <select id="dateSel"></select>
+          <button class="icon-btn" id="nextDay" title="Next day">›</button>
+        </div>
+      </div>
+      <p class="headline" id="headline"></p>
+      <div class="controls">
+        <div class="seg" id="langSeg">
+          <button data-lang="en">EN</button>
+          <button data-lang="zh">中文</button>
+          <button data-lang="both" class="on">Both</button>
+        </div>
+        <input class="search" id="search" type="search" placeholder="Search summaries, people, tags…" />
+        <button class="icon-btn" id="themeBtn" title="Toggle theme">◐</button>
+      </div>
+      <div class="chips" id="chips"></div>
+    </div>
+  </header>
+
+  <main class="wrap" id="content"></main>
+
+  <footer>
+    Generated daily by Codex from the
+    <a href="https://github.com/zarazhangrui/follow-builders" target="_blank" rel="noopener">Follow Builders</a>
+    feed + personal subscriptions.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
