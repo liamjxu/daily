@@ -1,7 +1,7 @@
 {
   "date": "2026-06-29",
-  "headline_en": "AI builders focused on agent security, compute scarcity, and the changing shape of product and engineering work.",
-  "headline_zh": "AI 从业者今天的焦点集中在 agent 安全、compute 供给紧张，以及产品和工程工作的重塑。",
+  "headline_en": "Agent containment, AI compute buildout, and agent-driven workflows dominated the day, with builders focusing on practical security boundaries, changing product roles, and the economics of scaling intelligence.",
+  "headline_zh": "今天的主线是 agent containment、AI compute 扩建与 agent-driven workflow，行业关注点落在安全边界、产品角色变化以及扩展智能的经济学上。",
   "items": [
     {
       "section": "X",
@@ -10,26 +10,26 @@
       "role": "Box CEO",
       "title": null,
       "url": "https://x.com/levie/status/2071253118252356001",
-      "en": "Box CEO Aaron Levie argued that frontier-level cybersecurity models will become open and broadly available, including outside the U.S. His strategic point: gating advanced models may not make the U.S. safer if competitors catch up anyway, and could instead disadvantage domestic builders. He framed the better path as staying at the frontier and shaping future AI architectures.",
-      "zh": "Box CEO Aaron Levie 认为，frontier 级别的网络安全模型很快会开源并广泛可得，包括在美国之外。他的战略判断是：如果竞争对手无论如何都会追上来，限制先进模型发布未必会让美国更安全，反而可能削弱本土开发者。他认为更好的路径是持续站在 frontier，并主导未来 AI 架构的演进。",
+      "en": "Box CEO Aaron Levie argued that open, highly capable cybersecurity models are coming regardless of gatekeeping, including from China, so restricting frontier releases may weaken U.S. strategic position without meaningfully improving safety. His prescription is to stay at the frontier and shape future AI architectures, rather than assume competitors cannot catch up.",
+      "zh": "Box CEO Aaron Levie 认为，open 且能力很强的 cybersecurity model 无论如何都会出现，包括来自 China，因此限制 frontier model 发布可能削弱美国的战略位置，却未必真正提升安全性。他的建议是持续站在 frontier，并主导未来 AI 架构，而不是假设竞争对手追不上。",
       "tags": [
-        "open models",
-        "cybersecurity",
         "AI policy",
-        "China"
+        "open models",
+        "China",
+        "cybersecurity"
       ]
     },
     {
       "section": "X",
       "category": null,
       "source": "Boris Cherny",
-      "role": "Claude Code @Anthropic",
+      "role": "Claude Code @anthropicai",
       "title": null,
       "url": "https://x.com/bcherny/status/2071379474277613732",
-      "en": "Claude Code's Boris Cherny said AI-era product teams may be reorganizing around five archetypes rather than classic job functions: Prototyper, Builder, Sweeper, Grower, and Maintainer. He sees these patterns inside the Claude Code team, with people often spanning multiple roles across engineering, product, design, and data science. His useful frame: pre-PMF products need more prototyping and building, growing products need builders and growers, and mature products need sweepers, growers, and maintainers.",
-      "zh": "Claude Code 的 Boris Cherny 说，AI 时代的产品团队可能会围绕五类角色重新组织，而不是传统职能：Prototyper、Builder、Sweeper、Grower 和 Maintainer。他在 Claude Code 团队中看到了这些模式，而且工程、产品、设计和 data science 成员往往会跨越多个角色。这个框架的关键在于：pre-PMF 产品更需要 prototyping 和 building，增长中的产品更需要 builders 和 growers，成熟产品则更需要 sweepers、growers 和 maintainers。",
+      "en": "Claude Code's Boris Cherny proposed that future product teams may be organized less by function and more by operating archetype: Prototyper, Builder, Sweeper, Grower, and Maintainer. He argues that healthy teams need different mixes depending on whether a product is pre-PMF, growing, or mature, and that engineers, designers, PMs, and data scientists can each span these roles.",
+      "zh": "Claude Code 的 Boris Cherny 提出，未来产品团队可能不会主要按职能划分，而是按工作 archetype 划分：Prototyper、Builder、Sweeper、Grower 和 Maintainer。他认为，健康团队需要根据产品处于 pre-PMF、增长期还是成熟期来配置不同组合，而且工程师、设计师、PM 和数据科学家都可能跨越这些角色。",
       "tags": [
-        "teams",
+        "team design",
         "Claude Code",
         "product roles",
         "agents"
@@ -42,12 +42,13 @@
       "role": "Codex & ChatGPT @OpenAI",
       "title": null,
       "url": "https://x.com/thsottiaux/status/2071381664853319742",
-      "en": "OpenAI's Thibault Sottiaux said the Codex team was in a Sunday war room investigating reports of unusual usage-limit drains. As the investigation continued, OpenAI reset everyone's Codex usage limits and said users who had recently used a reset would receive more manual resets after the investigation concludes.",
-      "zh": "OpenAI 的 Thibault Sottiaux 表示，Codex 团队周日进入 war room，排查部分用户反馈的异常 usage-limit 消耗问题。在调查进行期间，OpenAI 重置了所有人的 Codex 使用额度，并表示如果用户刚用过 reset，调查结束后还会获得更多 manual resets。",
+      "en": "OpenAI's Thibault Sottiaux said the Codex team was in a Sunday war room investigating whether some users were seeing unexpectedly high usage drains. While the investigation continued, OpenAI reset everyone's Codex usage limits and said affected users would receive more manual resets if needed.",
+      "zh": "OpenAI 的 Thibault Sottiaux 表示，Codex 团队周日进入 war room，排查部分用户是否遇到异常高的 usage drains。在调查继续期间，OpenAI 重置了所有人的 Codex usage limits，并表示如有需要，受影响用户会获得更多 manual resets。",
       "tags": [
         "Codex",
         "usage limits",
-        "OpenAI"
+        "OpenAI",
+        "incident response"
       ]
     },
     {
@@ -57,13 +58,13 @@
       "role": "Practical AI tutorials and interviews for busy people",
       "title": null,
       "url": "https://x.com/petergyang/status/2071292628302434361",
-      "en": "Peter Yang highlighted how Anthropic PMs use agents to get closer to the product. Quoting Jess, product lead for Claude Managed Agents, he said codebase access lets PMs track PRs, merges, and deployments directly instead of constantly asking engineers for status. The deeper point is that agents can make product roles more technically embedded without turning every PM into an engineer.",
-      "zh": "Peter Yang 强调了 Anthropic PM 如何用 agents 更贴近产品。他引用 Claude Managed Agents product lead Jess 的说法：访问 codebase 可以让 PM 直接跟踪 PR、merge 和 deployment，而不是不断向工程师询问进度。更深一层的意思是，agents 能让产品角色更深入技术现场，同时不必把每个 PM 都变成工程师。",
+      "en": "Peter Yang highlighted how Anthropic PMs use agents to get closer to the product: Jess, product lead for Claude Managed Agents, said codebase access lets her track PRs, merges, and deployments directly instead of constantly querying engineers. The interesting shift is that product work becomes more hands-on and stateful when PMs can inspect the system through agents.",
+      "zh": "Peter Yang 重点提到 Anthropic PM 如何用 agents 更贴近产品：Claude Managed Agents 产品负责人 Jess 表示，访问 codebase 让她可以直接跟踪 PR、merge 和 deployment，而不是不断询问工程师。这里的关键变化是，当 PM 能通过 agents 检查系统时，产品工作会变得更 hands-on、更有状态感。",
       "tags": [
-        "PM",
+        "PM workflow",
         "agents",
         "Anthropic",
-        "codebase"
+        "Claude"
       ]
     },
     {
@@ -73,27 +74,12 @@
       "role": "Builder",
       "title": null,
       "url": "https://x.com/zarazhangrui/status/2071319754128978030",
-      "en": "Builder Zara Zhang argued that product work needs much more explanation and distribution than many builders expect: for every hour spent building, spend two explaining, demonstrating, selling, and teaching. She framed this as part of building itself, because contact with reality improves the product.",
-      "zh": "Builder Zara Zhang 认为，产品工作需要比很多 builders 预期更多的解释和分发：每花一小时做产品，就应该花两小时解释、演示、销售和教学。她把这视为构建过程的一部分，因为与现实接触会反过来改进产品。",
+      "en": "Builder Zara Zhang argued that for every hour spent building a product, builders should spend two hours explaining, demonstrating, selling, and teaching it. She framed communication as part of the build loop: telling the world about the product, then refining it after contact with reality.",
+      "zh": "Builder Zara Zhang 认为，花一小时做产品，就应该花两小时解释、演示、销售和教学。她把传播视为 build loop 的一部分：先把产品讲给世界听，再根据现实反馈继续打磨。",
       "tags": [
+        "builder craft",
         "distribution",
-        "product",
-        "builder lessons"
-      ]
-    },
-    {
-      "section": "X",
-      "category": null,
-      "source": "Thariq",
-      "role": "Claude Code @Anthropic",
-      "title": null,
-      "url": "https://x.com/trq212/status/2071419473433854221",
-      "en": "Claude Code's Thariq suggested coding agents may change the economics of working with legacy codebases or porting them. He raised the point in response to a Riot-related item, asking whether agentic coding is making previously painful engineering migration work newly viable.",
-      "zh": "Claude Code 的 Thariq 提出，coding agents 可能正在改变处理或迁移 legacy codebase 的工程成本。他是在回应一条与 Riot 相关的内容时提出这一点，询问 agentic coding 是否让过去很痛苦的迁移工作变得更可行。",
-      "tags": [
-        "coding agents",
-        "legacy code",
-        "migration"
+        "product marketing"
       ]
     },
     {
@@ -103,12 +89,27 @@
       "role": "Vercel CEO",
       "title": null,
       "url": "https://x.com/rauchg/status/2071284129275285580",
-      "en": "Vercel CEO Guillermo Rauch gave a crisp builder-branding take: you do not need a LinkedIn profile as much as you need a page on your own website that describes and links to what you shipped. The practical message is that proof-of-work beats résumé surfaces for technical credibility.",
-      "zh": "Vercel CEO Guillermo Rauch 给出了一个简洁的 builder 品牌观点：你不需要 LinkedIn，至少不如需要在自己的网站上放一个页面，说明并链接到你真正 ship 过的东西。实际含义是，对于技术可信度来说，proof-of-work 比简历式页面更有说服力。",
+      "en": "Vercel CEO Guillermo Rauch's career advice was blunt: builders do not need LinkedIn as much as they need a page on their own website that describes and links to what they have shipped. The emphasis is on proof of work over profile polish.",
+      "zh": "Vercel CEO Guillermo Rauch 的职业建议很直接：builders 与其依赖 LinkedIn，不如在自己的网站上放一个页面，说明并链接自己真正 ship 过的东西。重点是 proof of work，而不是包装个人档案。",
       "tags": [
-        "builder brand",
-        "portfolio",
-        "proof-of-work"
+        "careers",
+        "proof of work",
+        "builders"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code @anthropicai",
+      "title": null,
+      "url": "https://x.com/trq212/status/2071419473433854221",
+      "en": "Claude Code's Thariq suggested that coding agents may be changing the economics of working with or porting legacy codebases. The post frames agentic coding as a potential reason companies might revisit technically painful migrations that previously looked too expensive.",
+      "zh": "Claude Code 的 Thariq 提出，coding agents 可能正在改变处理或迁移 legacy codebase 的工程经济学。这条观点把 agentic coding 视为一种可能原因，让公司重新考虑过去看起来成本太高的痛苦迁移。",
+      "tags": [
+        "coding agents",
+        "legacy code",
+        "migration"
       ]
     },
     {
@@ -118,8 +119,8 @@
       "role": null,
       "title": "How we contain Claude across products",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "en": "Anthropic Engineering: How we contain Claude across products explains how Anthropic limits agent blast radius across claude.ai, Claude Code, and Claude Cowork as models get more capable and access expands. The central lesson is blunt: model-layer defenses help, but containment at the environment layer is what holds when prompts, users, or tool outputs go wrong. Anthropic says Claude Code users approved roughly 93% of permission prompts, prompting auto mode and sandboxing work that reduced permission prompts by 84%; it also says Claude Opus 4.7 held prompt-injection attack success to roughly 0.1% on single attempts and 5-6% after 100 adaptive attempts on Gray Swan's benchmark. The post is unusually concrete about failures: pre-trust config execution, a red-team phish that exfiltrated AWS credentials in 24 of 25 retries, an approved-domain exfiltration path through api.anthropic.com, and VM isolation that blocked enterprise EDR visibility. Its practical guidance: treat allowlists as capability grants, resolve symlinks before path validation, distrust external content even from trusted tools, and match isolation strength to whether the user can meaningfully supervise the agent.",
-      "zh": "Anthropic Engineering: How we contain Claude across products 解释了 Anthropic 如何在 claude.ai、Claude Code 和 Claude Cowork 中限制 agent 的 blast radius，因为模型能力和访问权限都在扩大。核心教训很直接：model-layer defenses 有用，但当 prompt、用户或 tool output 出问题时，真正兜底的是 environment layer 的 containment。Anthropic 表示 Claude Code 用户会批准大约 93% 的权限请求，这推动了 auto mode 和 sandboxing，后者让 permission prompts 减少了 84%；它还称 Claude Opus 4.7 在 Gray Swan benchmark 上把单次 prompt-injection attack success 控制在约 0.1%，100 次 adaptive attempts 后约为 5-6%。这篇文章对失败案例讲得很具体：trust prompt 前的 config 执行、一次 red-team phish 在 25 次重试中 24 次成功 exfiltrate AWS credentials、通过 api.anthropic.com 这个 approved domain 的 exfiltration，以及 VM isolation 让企业 EDR 无法观察内部的问题。它的实践建议是：把 allowlist 视为 capability grant，path validation 前先解析 symlink，即使来自 trusted tools 也不要信任 external content，并根据用户是否能有效监督 agent 来匹配 isolation 强度。",
+      "en": "Anthropic Engineering: How we contain Claude across products explains how Anthropic caps the blast radius of increasingly capable agents across claude.ai, Claude Code, and Claude Cowork. The core claim is that model-layer defenses are useful but insufficient: “The deterministic boundary is what gets hit when everything probabilistic misses.” Anthropic describes three containment patterns: ephemeral gVisor containers for claude.ai code execution, OS-level sandboxes for Claude Code, and a sealed local VM for Claude Cowork. The post is unusually concrete about failures: Claude Code once parsed project-local configuration before the trust prompt, a red-team prompt exfiltrated AWS credentials in 24 of 25 retries, and Cowork's egress allowlist let data escape through api.anthropic.com using an attacker-controlled key. Practical implications are clear: build environment containment first, match isolation strength to the user's ability to supervise, treat allowlisted domains as capability grants, and be skeptical of custom security components. The numbers matter too: Claude Code sandboxing cut permission prompts by 84%, users approved roughly 93% of prompts, Claude Opus 4.7 held single-attempt prompt-injection success to roughly 0.1% on Gray Swan's benchmark, and Claude Code auto mode catches roughly 83% of overeager behaviors before execution.",
+      "zh": "Anthropic Engineering: How we contain Claude across products 解释了 Anthropic 如何在 claude.ai、Claude Code 和 Claude Cowork 中限制越来越强的 agents 的 blast radius。核心观点是 model-layer defenses 有用但不够：“The deterministic boundary is what gets hit when everything probabilistic misses.” Anthropic 描述了三种 containment pattern：claude.ai code execution 使用 ephemeral gVisor containers，Claude Code 使用 OS-level sandboxes，Claude Cowork 使用 sealed local VM。文章对失败案例讲得很具体：Claude Code 曾在 trust prompt 之前解析 project-local configuration，一次 red-team prompt 在 25 次重试中 24 次 exfiltrate AWS credentials，Cowork 的 egress allowlist 让数据通过使用攻击者 key 的 api.anthropic.com 泄露。实际启示很明确：优先构建 environment containment，根据用户监督能力匹配 isolation strength，把 allowlisted domain 当作 capability grant，并谨慎对待自建安全组件。数字也很关键：Claude Code sandboxing 让 permission prompts 减少 84%，用户大约批准 93% 的 prompts，Claude Opus 4.7 在 Gray Swan benchmark 上把单次 prompt-injection 成功率压到约 0.1%，Claude Code auto mode 在执行前拦截约 83% 的 overeager behaviors。",
       "tags": [
         "agent security",
         "Claude",
@@ -134,11 +135,11 @@
       "role": null,
       "title": "The GPU Myth: State of AI Compute 2026 | Stephen Balaban",
       "url": "https://www.youtube.com/watch?v=0NttU4CbyVs",
-      "en": "The Takeaway: Lambda cofounder and CTO Stephen Balaban thinks the AI compute market is still underbuilt, because demand keeps expanding as models turn money into software and scaling laws keep holding. Balaban argues GPU cloud is not a commodity business; it is a vertically integrated stack spanning land, power, data-center construction, HPC networking, storage, orchestration software, financing, and customer utilization. His sharpest correction to the market narrative is that H100s bought in 2023 can lease for more today than when Lambda first deployed them, because usable economic life is longer than skeptics assumed and demand remains intense. As he puts it, 'The people who are the naysayers, you're gonna throw these GPUs out in five years, are completely wrong.' He also makes the case that AI data centers are less latency-sensitive than old cloud regions for many agentic workloads, where cost per token matters more than geography. On agents, he is bullish where feedback is concrete: software, CAD, simulation, and other verifiable domains. He is more skeptical of vague agent workflows that lack automated tests or clear traction signals. His longer-range bet is 'neural software,' where models do not just write code but become the live software interface, with mass adoption perhaps a decade or more away.",
-      "zh": "The Takeaway：Lambda cofounder and CTO Stephen Balaban 认为 AI compute 市场仍然供给不足，因为随着模型把 money 变成 software，且 scaling laws 继续有效，需求还在扩张。Balaban 认为 GPU cloud 不是 commodity business，而是一套垂直整合的 stack，横跨 land、power、data-center construction、HPC networking、storage、orchestration software、financing 和 customer utilization。他对市场叙事最有力的修正是：Lambda 在 2023 年购买的 H100，现在的出租价格可能比最初部署时更高，因为 GPU 的 economic usable life 比怀疑者想象得更长，而需求依然强劲。用他的话说，'The people who are the naysayers, you're gonna throw these GPUs out in five years, are completely wrong.' 他还认为，对很多 agentic workloads 来说，AI data centers 没有传统 cloud regions 那么 latency-sensitive，cost per token 往往比地理位置更重要。对于 agents，他看好反馈明确的领域：software、CAD、simulation 和其他可验证场景。对于缺乏 automated tests 或清晰 traction signals 的模糊 agent workflows，他更谨慎。他更长期的押注是 'neural software'，也就是模型不只是写代码，而是成为实时的软件界面，但大规模采用可能还需要十年或更久。",
+      "en": "The Takeaway: Lambda cofounder and CTO Stephen Balaban thinks AI compute is still underbuilt because scaling laws keep expanding what models can do, turning capital into software and tokens into economic output.\n\nBalaban's central pushback is that GPU cloud was never a commodity. He describes it as a vertically integrated business spanning land entitlement, power, data center construction, HPC cluster design, orchestration software, virtualization, storage, networking, and financing. In his words, “cloud compute is not a commodity service,” and the naysayers who expected GPUs to be thrown out after a few years were “completely wrong.”\n\nThe most useful mental model is the physical pipeline: photons or natural gas become watts, watts run data centers, data centers host GPU clusters, FLOPS become tokens, and tokens become intelligence inside applications. That is why the bottleneck is not only chips; it is “land powered shell,” power commitments, MEP equipment, and the ability to partition large clusters reliably for customers. Balaban says Lambda's one-click cluster product can expose 16 to 4,000 GPUs through a web interface, while many neo-clouds lack the software to run a real on-demand cloud.\n\nHe is also unusually clear about where agents change compute demand. Software agents spend wall-clock time compiling, running tests, searching codebases, and operating in secure environments, so AI clouds need more traditional CPU workloads alongside GPUs. His longer-term bet is stranger: AI will not just write software, it will “become the software,” with neural software and self-assembling software making applications more fluid and personalized. He expects mass adoption of that paradigm in roughly a decade to fifteen years, while the nearer-term opportunity is agentic software development because it has concrete feedback loops through tests.",
+      "zh": "The Takeaway: Lambda cofounder and CTO Stephen Balaban 认为 AI compute 仍然供给不足，因为 scaling laws 还在不断扩展模型能力，把资本转化为软件，把 tokens 转化为经济产出。\n\nBalaban 的核心反驳是，GPU cloud 从来不是 commodity。他把它描述成一个 vertically integrated business，横跨 land entitlement、power、data center construction、HPC cluster design、orchestration software、virtualization、storage、networking 和 financing。用他的话说，“cloud compute is not a commodity service”，那些认为 GPUs 几年后就会被淘汰的人是 “completely wrong”。\n\n最有用的心智模型是物理流水线：photons 或 natural gas 变成 watts，watts 驱动 data centers，data centers 承载 GPU clusters，FLOPS 变成 tokens，tokens 在应用中变成 intelligence。这就是为什么瓶颈不只是芯片，而是 “land powered shell”、power commitments、MEP equipment，以及可靠地为客户切分大规模 clusters 的能力。Balaban 表示，Lambda 的 one-click cluster product 可以通过网页界面提供 16 到 4,000 个 GPUs，而许多 neo-clouds 还缺少运行真正 on-demand cloud 的软件能力。\n\n他对 agents 如何改变 compute demand 也讲得很清楚。Software agents 会把 wall-clock time 花在 compiling、running tests、searching codebases，以及在安全环境中运行，所以 AI clouds 除了 GPUs，还需要更多传统 CPU workloads。他更长期的判断更激进：AI 不只是写软件，而会 “become the software”，neural software 和 self-assembling software 会让应用更流动、更个性化。他预计这个范式大规模采用还需要大约 10 到 15 年，而更近的机会是 agentic software development，因为它可以通过 tests 获得明确反馈循环。",
       "tags": [
-        "GPU",
         "AI compute",
+        "GPUs",
         "Lambda",
         "agents"
       ]
@@ -150,12 +151,12 @@
       "role": null,
       "title": "Recursive Self-Evolving Agents via Held-Out Selection",
       "url": "https://arxiv.org/abs/2606.28374",
-      "en": "Introduces RSEA, a frozen-policy LLM agent that recursively rewrites its strategy, skills, and playbook, then keeps only changes that improve held-out performance.",
-      "zh": "提出 RSEA，一种 frozen-policy LLM agent，会递归改写自己的 strategy、skills 和 playbook，并只保留能提升 held-out performance 的改动。",
+      "en": "This paper introduces RSEA, a self-improving LLM agent that evolves strategy, skills, and playbooks without weight updates, but only keeps changes that improve held-out performance.",
+      "zh": "这篇论文提出 RSEA，一种不更新权重、而是进化 strategy、skills 和 playbooks 的自我改进 LLM agent，并且只保留能提升 held-out performance 的修改。",
       "tags": [
         "agents",
         "self-improvement",
-        "evaluation"
+        "LLM evaluation"
       ]
     },
     {
@@ -165,12 +166,12 @@
       "role": null,
       "title": "Data and Evaluation Closed-Loop for Model Capability Enhancement",
       "url": "https://arxiv.org/abs/2606.28471",
-      "en": "Proposes capability slices to connect benchmark failures back to the data domains and quality labels that may fix them, turning LLM capability improvement into a tighter data-evaluation loop.",
-      "zh": "提出 capability slices，把 benchmark failure 连接回可能修复它们的数据领域和质量标签，让 LLM capability improvement 形成更紧密的 data-evaluation loop。",
+      "en": "This paper proposes capability slices to connect evaluation failures back to data changes, turning model improvement from intuition into a more structured data-evaluation feedback loop.",
+      "zh": "这篇论文提出 capability slices，用来把 evaluation failures 反向连接到 data changes，让模型改进从直觉判断变成更结构化的 data-evaluation feedback loop。",
       "tags": [
         "evaluation",
-        "data",
-        "LLM training"
+        "data curation",
+        "model improvement"
       ]
     },
     {
@@ -180,12 +181,12 @@
       "role": null,
       "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
       "url": "https://arxiv.org/abs/2606.28514",
-      "en": "Builds GPTNT, a benchmark based on Keep Talking And Nobody Explodes, to test multimodal agents under real-time pressure, asymmetric information, and imperfect communication.",
-      "zh": "构建 GPTNT，一个基于 Keep Talking And Nobody Explodes 的 benchmark，用来测试 multimodal agents 在实时压力、信息不对称和沟通不完美条件下的协作能力。",
+      "en": "This paper introduces GPTNT, a benchmark where multimodal agents must coordinate under time pressure and information asymmetry to solve Keep Talking and Nobody Explodes puzzles.",
+      "zh": "这篇论文提出 GPTNT，一个让 multimodal agents 在时间压力和信息不对称下协作解决 Keep Talking and Nobody Explodes puzzles 的 benchmark。",
       "tags": [
-        "multimodal",
-        "agents",
-        "benchmark"
+        "multimodal agents",
+        "benchmark",
+        "collaboration"
       ]
     },
     {
@@ -195,12 +196,12 @@
       "role": null,
       "title": "Developmental Trajectories of Situation Modeling and Mentalizing in Transformer Language Models",
       "url": "https://arxiv.org/abs/2606.28524",
-      "en": "Tracks false-belief and mental-state reasoning across Olmo2 and Pythia training stages, finding that these behaviors depend on scale, emerge late in pretraining, and improve with post-training.",
-      "zh": "追踪 Olmo2 和 Pythia 不同训练阶段中的 false-belief 和 mental-state reasoning，发现这些行为依赖模型规模，在 pretraining 后期才出现，并会通过 post-training 得到改善。",
+      "en": "This paper tracks false-belief and mental-state reasoning across Olmo2 and Pythia training stages, finding that above-chance performance depends on model size, training volume, and post-training.",
+      "zh": "这篇论文跟踪 Olmo2 和 Pythia 在不同训练阶段的 false-belief 与 mental-state reasoning，发现高于随机水平的表现依赖 model size、training volume 和 post-training。",
       "tags": [
-        "LLM behavior",
+        "LLMs",
         "mentalizing",
-        "pretraining"
+        "training dynamics"
       ]
     },
     {
@@ -210,42 +211,12 @@
       "role": null,
       "title": "Spectral Perturbation of the Empirical Fisher Information Matrix under Weight Quantization",
       "url": "https://arxiv.org/abs/2606.28432",
-      "en": "Studies how input shift and weight quantization perturb the empirical Fisher Information Matrix, with theory for when dominant curvature increases relative to a calibration baseline.",
-      "zh": "研究 input shift 和 weight quantization 如何扰动 empirical Fisher Information Matrix，并分析 dominant curvature 何时会相对 calibration baseline 上升。",
+      "en": "This paper studies how distribution shift and weight quantization perturb the empirical Fisher Information Matrix, with a focus on when the top eigenvalue rises relative to calibration.",
+      "zh": "这篇论文研究 distribution shift 和 weight quantization 如何扰动 empirical Fisher Information Matrix，重点关注 top eigenvalue 何时会相对 calibration 上升。",
       "tags": [
         "quantization",
-        "FIM",
-        "robustness"
-      ]
-    },
-    {
-      "section": "Papers",
-      "category": "Papers",
-      "source": "stat.ML updates on arXiv.org",
-      "role": null,
-      "title": "Adaptive Iterative Hard Thresholding for Online High-dimensional Quantile Regression",
-      "url": "https://arxiv.org/abs/2606.28652",
-      "en": "Presents AIHT, an online sparse quantile-regression method that delays thresholding early for support discovery and increases it later for stable refinement.",
-      "zh": "提出 AIHT，一种 online sparse quantile-regression 方法，早期延迟 thresholding 以发现 support，后期提高 thresholding 频率以稳定 refinement。",
-      "tags": [
-        "online learning",
-        "sparsity",
-        "regression"
-      ]
-    },
-    {
-      "section": "Papers",
-      "category": "Papers",
-      "source": "stat.ML updates on arXiv.org",
-      "role": null,
-      "title": "Variance Reduction for Stochastic Gradient Generalized Non-reversible Langevin Monte Carlo Algorithms",
-      "url": "https://arxiv.org/abs/2606.28808",
-      "en": "Analyzes stochastic-gradient non-reversible Langevin Monte Carlo estimators and derives variance characterizations that motivate control-variate-style reduction methods.",
-      "zh": "分析 stochastic-gradient non-reversible Langevin Monte Carlo estimators，并推导 variance characterization，为 control-variate-style reduction methods 提供依据。",
-      "tags": [
-        "Langevin",
-        "Monte Carlo",
-        "variance reduction"
+        "Fisher information",
+        "model robustness"
       ]
     },
     {
@@ -255,12 +226,42 @@
       "role": null,
       "title": "Generating in the Limit with Infinitely Many Hallucinations",
       "url": "https://arxiv.org/abs/2606.28354",
-      "en": "Recasts language generation in the limit as a recall-precision tradeoff, formalizing how broad coverage can come with infinitely many invalid generations.",
-      "zh": "把 language generation in the limit 重新表述为 recall-precision tradeoff，形式化说明更广覆盖如何可能伴随无限多 invalid generations。",
+      "en": "This paper reframes language generation in the limit as a recall-precision tradeoff, allowing broad coverage while explicitly accounting for infinitely many invalid generations.",
+      "zh": "这篇论文把 language generation in the limit 重新表述为 recall-precision tradeoff，允许广覆盖，同时明确处理无限多 invalid generations 的问题。",
       "tags": [
-        "language theory",
         "hallucination",
-        "precision"
+        "language theory",
+        "generation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Adaptive Iterative Hard Thresholding for Online High-dimensional Quantile Regression",
+      "url": "https://arxiv.org/abs/2606.28652",
+      "en": "This paper proposes AIHT, an online sparse quantile-regression method that delays thresholding early for support discovery and increases it later for stable refinement.",
+      "zh": "这篇论文提出 AIHT，一种 online sparse quantile-regression 方法，早期延迟 thresholding 以发现 support，后期提高 thresholding 频率以稳定精修。",
+      "tags": [
+        "online learning",
+        "sparse regression",
+        "quantile regression"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Variance Reduction for Stochastic Gradient Generalized Non-reversible Langevin Monte Carlo Algorithms",
+      "url": "https://arxiv.org/abs/2606.28808",
+      "en": "This paper derives a central limit theorem and variance characterization for stochastic-gradient non-reversible Langevin Monte Carlo, then links variance reduction to operator-form conditions.",
+      "zh": "这篇论文为 stochastic-gradient non-reversible Langevin Monte Carlo 推导 central limit theorem 和方差刻画，并把 variance reduction 连接到 operator-form conditions。",
+      "tags": [
+        "Langevin Monte Carlo",
+        "variance reduction",
+        "stochastic gradients"
       ]
     },
     {
@@ -270,27 +271,42 @@
       "role": null,
       "title": "Extracting Knowledge from an Arabic-English Machine-Readable Dictionary Using Information Extraction",
       "url": "https://arxiv.org/abs/2606.28457",
-      "en": "Uses n-gram and KWIC pattern analysis to extract morphological, syntactic, and semantic lexical information from the Arabic-English Al-Mawrid dictionary.",
-      "zh": "使用 n-gram 和 KWIC pattern analysis，从 Arabic-English Al-Mawrid dictionary 中抽取 morphology、syntax 和 semantics 相关的 lexical information。",
+      "en": "This paper uses n-gram and KWIC analysis to extract morphological, syntactic, and semantic lexical information from the Arabic-English Al-Mawrid machine-readable dictionary.",
+      "zh": "这篇论文使用 n-gram 和 KWIC analysis，从 Arabic-English Al-Mawrid machine-readable dictionary 中抽取 morphological、syntactic 和 semantic lexical information。",
       "tags": [
-        "Arabic NLP",
         "information extraction",
+        "Arabic NLP",
         "lexicons"
       ]
     },
     {
       "section": "Blogs",
       "category": "Blogs",
-      "source": "LessWrong",
+      "source": "Lil'Log",
       "role": null,
-      "title": "Role confusion: sounding like the cause is indistinguishable from being it.",
-      "url": "https://www.lesswrong.com/posts/rJcX5Qc3toMmMqtvk/role-confusion-sounding-like-the-cause-is-indistinguishable",
-      "en": "LessWrong: Role confusion: sounding like the cause is indistinguishable from being it replicates the direction of Prompt Injection as Role Confusion but finds the causal story harder to establish. The author reports that activation steering was too weak to move behavior, while activation patching did move behavior but not specifically, since a random perturbation of equal size did the same. The useful takeaway is cautionary: prompt injection may look mechanistically neat, but current interventions may not yet isolate the cause cleanly.",
-      "zh": "LessWrong: Role confusion: sounding like the cause is indistinguishable from being it 复现了 Prompt Injection as Role Confusion 的主要方向，但发现其 causal story 更难坐实。作者报告说，activation steering 太弱，无法改变行为；activation patching 的确改变了行为，但并不具备特异性，因为同等大小的随机扰动也会产生类似效果。关键 takeaway 是谨慎：prompt injection 看起来可能有清晰的 mechanistic explanation，但当前 intervention 还未必能干净地隔离原因。",
+      "title": "Scaling Laws, Carefully",
+      "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "en": "Lil'Log: Scaling Laws, Carefully is a focused primer on why scaling laws matter in deep learning: training loss tends to fall predictably as model size, dataset size, and compute increase, often following a power-law relationship. The practical value is not the curve itself, but the allocation problem it clarifies: how to spend limited compute between parameters and data. Given the day's broader compute-heavy discussion, this is the conceptual backbone behind why model builders and infrastructure companies keep betting on scale.",
+      "zh": "Lil'Log: Scaling Laws, Carefully 是一篇聚焦 scaling laws 的入门梳理：随着 model size、dataset size 和 compute 增加，training loss 往往会按可预测方式下降，通常呈 power-law 关系。真正有实践价值的不是曲线本身，而是它澄清的 allocation problem：如何在参数和数据之间分配有限 compute。结合今天关于 compute 的讨论，这篇文章提供了模型公司和基础设施公司持续押注 scale 的概念底座。",
       "tags": [
-        "prompt injection",
-        "mechanistic interpretability",
-        "replication"
+        "scaling laws",
+        "deep learning",
+        "compute"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Economic ResearchJun 26, 2026Anthropic Economic Index report: CadencesIn our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "en": "Anthropic Research's latest Economic Index report, Cadences, samples hourly for the first time to examine when people use Claude, what they produce, and how they perceive AI's impact on their work. The high-signal point is methodological: Anthropic is moving from broad AI labor-market claims toward time-patterned usage analysis that can show how AI work varies across the day.",
+      "zh": "Anthropic Research 最新的 Economic Index report, Cadences 首次按小时采样，观察人们何时使用 Claude、产出什么，以及如何感知 AI 对工作的影响。高信号点在方法上：Anthropic 正从宽泛的 AI labor-market 判断，转向能展示一天中 AI work 如何变化的 time-patterned usage analysis。",
+      "tags": [
+        "AI economics",
+        "Claude",
+        "work patterns"
       ]
     },
     {
@@ -300,12 +316,42 @@
       "role": null,
       "title": "DiScoFormer: One transformer for density and score, across distributions",
       "url": "https://huggingface.co/blog/allenai/discoformer",
-      "en": "Hugging Face published DiScoFormer: One transformer for density and score, across distributions. The provided data includes only the title and URL, so the safe signal is the topic itself: a transformer approach for modeling density and score across distributions.",
-      "zh": "Hugging Face 发布了 DiScoFormer: One transformer for density and score, across distributions。给定数据只有标题和 URL，因此能安全提炼的信号是主题本身：一种用于跨 distributions 建模 density 和 score 的 transformer 方法。",
+      "en": "Hugging Face - Blog: DiScoFormer introduces a transformer approach for density and score across distributions. With only the title available, the signal is that Hugging Face is surfacing research infrastructure around distribution modeling rather than a narrow product update.",
+      "zh": "Hugging Face - Blog: DiScoFormer 介绍了一种面向跨分布 density 和 score 的 transformer 方法。由于只有标题可用，高信号点是 Hugging Face 正在呈现围绕 distribution modeling 的研究基础设施，而不是单一产品更新。",
       "tags": [
         "transformers",
         "density modeling",
-        "score modeling"
+        "Hugging Face"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "en": "Hugging Face - Blog: Run a vLLM Server on HF Jobs in One Command points to a developer workflow for launching vLLM on Hugging Face Jobs with a single command. The practical implication is lower friction for serving LLMs without assembling the hosting stack manually.",
+      "zh": "Hugging Face - Blog: Run a vLLM Server on HF Jobs in One Command 指向一个 developer workflow，可以用一条命令在 Hugging Face Jobs 上启动 vLLM。实际意义是降低 LLM serving 的门槛，不必手动拼装 hosting stack。",
+      "tags": [
+        "vLLM",
+        "Hugging Face",
+        "LLM serving"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "en": "Hugging Face - Blog: Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel signals a fine-tuning workflow built around NVIDIA NeMo AutoModel. The useful takeaway is continued tooling convergence between Hugging Face's model ecosystem and NVIDIA's training stack.",
+      "zh": "Hugging Face - Blog: Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel 指向一个围绕 NVIDIA NeMo AutoModel 的 fine-tuning workflow。值得关注的是 Hugging Face 模型生态与 NVIDIA training stack 之间的工具链继续融合。",
+      "tags": [
+        "fine-tuning",
+        "NVIDIA NeMo",
+        "Hugging Face"
       ]
     },
     {
@@ -315,12 +361,42 @@
       "role": null,
       "title": "The Slogan Strikes Again",
       "url": "https://www.lesswrong.com/posts/DStnBgofFK5FFqDJM/the-slogan-strikes-again",
-      "en": "LessWrong: The Slogan Strikes Again revisits the idea that 'Compression is Intelligence' through the lens of LLMs. The post treats the slogan as a useful but non-literal intuition for why training a model to compress human text into weights can produce behavior that looks intelligent within the training domain.",
-      "zh": "LessWrong: The Slogan Strikes Again 通过 LLM 重新审视 'Compression is Intelligence' 这个说法。文章把它视为有用但不能字面理解的直觉，用来解释为什么把人类文本压缩进模型权重的训练目标，会在训练领域内产生看起来像智能的行为。",
+      "en": "LessWrong: The Slogan Strikes Again revisits the slogan “Compression is Intelligence” and applies it to LLMs as compression of the human text corpus into weights. The post's signal is conceptual rather than empirical: it treats the effectiveness of LLMs as a modern example of why compression can look like intelligence within a training domain.",
+      "zh": "LessWrong: The Slogan Strikes Again 重新审视 “Compression is Intelligence” 这句口号，并把 LLMs 看作把人类文本语料压缩进 weights。文章的价值主要是概念性的，而非实证性的：它把 LLMs 的有效性视为一个现代例子，说明为什么 compression 在训练域内会表现得像 intelligence。",
       "tags": [
-        "LLM",
+        "LLMs",
         "compression",
         "intelligence"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Role confusion: sounding like the cause is indistinguishable from being it.",
+      "url": "https://www.lesswrong.com/posts/rJcX5Qc3toMmMqtvk/role-confusion-sounding-like-the-cause-is-indistinguishable",
+      "en": "LessWrong: Role confusion: sounding like the cause is indistinguishable from being it replicates the direction of Prompt Injection as Role Confusion, then finds the mechanistic story harder to validate. Activation steering was too weak to shift behavior, while activation patching moved behavior but was not specific because random perturbations of equal size did the same.",
+      "zh": "LessWrong: Role confusion: sounding like the cause is indistinguishable from being it 复现了 Prompt Injection as Role Confusion 的主要方向，但发现其 mechanistic story 更难验证。Activation steering 太弱，无法改变行为；activation patching 虽然能改变行为，但并不 specific，因为同等大小的随机扰动也能做到。",
+      "tags": [
+        "prompt injection",
+        "mechanistic interpretability",
+        "LLMs"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "矩阵函数近似中的暴力美学",
+      "url": "https://spaces.ac.cn/archives/11787",
+      "en": "Scientific Spaces: 矩阵函数近似中的暴力美学 continues a technical line on efficient computation of matrix powers, roots, and inverse roots. The available summary points to numerical methods for matrix-function approximation, relevant to the mathematical substrate behind optimization and model computation.",
+      "zh": "Scientific Spaces: 矩阵函数近似中的暴力美学 延续了关于矩阵幂、矩阵根和逆根高效计算的技术脉络。摘要显示它关注 matrix-function approximation 的数值方法，与 optimization 和 model computation 背后的数学基础有关。",
+      "tags": [
+        "matrix functions",
+        "numerical methods",
+        "optimization"
       ]
     },
     {
@@ -330,12 +406,13 @@
       "role": null,
       "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
       "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
-      "en": "The Hacker News reported that Microsoft found a malicious Chrome extension impersonating Perplexity. It logged searches and address-bar input through an attacker-controlled server before redirecting users to real results, and Google removed it after responsible disclosure.",
-      "zh": "The Hacker News 报道称，Microsoft 发现了一个冒充 Perplexity 的恶意 Chrome extension。它会把搜索和地址栏输入记录到攻击者控制的服务器，然后再把用户重定向到真实结果；Google 在 responsible disclosure 后将其移除。",
+      "en": "The Hacker News reports that Microsoft found a malicious Chrome extension impersonating Perplexity, logging searches and every character typed into the address bar through an attacker-controlled server before redirecting users to real results. Google removed the extension after responsible disclosure, making this a concrete reminder that AI brand trust is now being abused in browser-level credential and query collection.",
+      "zh": "The Hacker News 报道，Microsoft 发现一个冒充 Perplexity 的恶意 Chrome extension，会把搜索内容以及地址栏输入的每个字符都通过攻击者控制的服务器记录下来，再把用户重定向到真实结果。Google 在 responsible disclosure 后移除了该扩展，这提醒我们 AI brand trust 已经被用于 browser-level credential 和 query collection。",
       "tags": [
         "security",
         "browser extension",
-        "Perplexity"
+        "Perplexity",
+        "phishing"
       ]
     },
     {
@@ -343,14 +420,14 @@
       "category": "Blogs",
       "source": "The Hacker News",
       "role": null,
-      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
-      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-      "en": "The Hacker News reported active exploitation of CVE-2026-46817, a critical Oracle E-Business Suite vulnerability with a CVSS score of 9.8. The flaw affects Oracle Payments and is described as an improper privilege management and authentication issue that could allow takeover of vulnerable instances.",
-      "zh": "The Hacker News 报道 CVE-2026-46817 正在被 actively exploited in the wild，这是一个影响 Oracle E-Business Suite 的 critical vulnerability，CVSS score 为 9.8。该漏洞影响 Oracle Payments，被描述为 improper privilege management 和 authentication 问题，可能导致 vulnerable instances 被接管。",
+      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+      "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+      "en": "The Hacker News says WhatsApp is starting global username reservations so users can connect without directly sharing phone numbers. The relevance is privacy infrastructure at massive scale: an optional identity layer for a service with more than three billion users.",
+      "zh": "The Hacker News 称 WhatsApp 开始全球 username reservations，让用户可以不直接分享电话号码也能建立连接。其相关性在于大规模 privacy infrastructure：为一个拥有超过 30 亿用户的服务提供可选 identity layer。",
       "tags": [
-        "security",
-        "Oracle",
-        "CVE"
+        "privacy",
+        "WhatsApp",
+        "identity"
       ]
     },
     {
@@ -360,11 +437,11 @@
       "role": null,
       "title": "ARR review quality",
       "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uin7u1/arr_review_quality/",
-      "en": "A r/LanguageTechnology post says ARR review quality has dropped noticeably across more than eight submissions and similar reports from colleagues. The author points to inexperienced reviewers, topic-mismatched assignments, and review-rubric problems, asking how the NLP community can reduce low-quality reviews and randomness in assignments.",
-      "zh": "一篇 r/LanguageTechnology 帖子称，在 8 篇以上 ARR 投稿经历以及同事反馈中，ARR review quality 明显下降。作者指出问题可能来自 inexperienced reviewers、topic-mismatched assignments 和 review-rubric problems，并询问 NLP 社区如何减少低质量 reviews 和分配随机性。",
+      "en": "A r/LanguageTechnology post argues that ARR review quality has dropped significantly over the past year, based on the author's experience with 8+ submissions and similar complaints from colleagues. The useful signal is community-level frustration with inexperienced reviewers, poor topic matching, and rubrics that may increase randomness in NLP peer review.",
+      "zh": "一篇 r/LanguageTechnology 帖子认为，过去一年 ARR review quality 明显下降，依据是作者 8 篇以上投稿经历，以及来自不同高校和实验室同事的类似反馈。值得关注的信号是 NLP peer review 中对 inexperienced reviewers、topic matching 不佳和 rubrics 增加随机性的社区层面不满。",
       "tags": [
-        "peer review",
         "NLP",
+        "peer review",
         "ARR"
       ]
     }
