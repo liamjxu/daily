@@ -2,16 +2,19 @@
   {
     "date": "2026-07-01",
     "count": 25,
-    "headline_en": "Frontier AI discourse centered on agentic model releases, evaluation discipline, and the hardware-software economics that make new capabilities practical."
+    "headline_en": "Frontier AI discourse centered on agentic model releases, evaluation discipline, and the hardware-software economics that make new capabilities practical.",
+    "generatedAt": "2026-07-01T12:02:20.363Z"
   },
   {
     "date": "2026-06-30",
     "count": 26,
-    "headline_en": "AI infrastructure was the throughline: agent platforms split orchestration from execution, coding tools tightened controls and usage accounting, and industry voices debated whether open-weight models and domestic compute stacks will reshape where value accrues."
+    "headline_en": "AI infrastructure was the throughline: agent platforms split orchestration from execution, coding tools tightened controls and usage accounting, and industry voices debated whether open-weight models and domestic compute stacks will reshape where value accrues.",
+    "generatedAt": "2026-06-30T15:48:08.411Z"
   },
   {
     "date": "2026-06-29",
     "count": 29,
-    "headline_en": "Agent containment, AI compute buildout, and agent-driven workflows dominated the day, with builders focusing on practical security boundaries, changing product roles, and the economics of scaling intelligence."
+    "headline_en": "Agent containment, AI compute buildout, and agent-driven workflows dominated the day, with builders focusing on practical security boundaries, changing product roles, and the economics of scaling intelligence.",
+    "generatedAt": "2026-06-30T06:15:31.652Z"
   }
 ]

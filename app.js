@@ -45,6 +45,10 @@ async function init() {
     return;
   }
   state.available = new Set(state.index.map((d) => d.date));
+  const newest = state.index[0];
+  if (newest && newest.generatedAt) {
+    $("#lastUpdated").textContent = "Last updated " + formatDateTime(newest.generatedAt);
+  }
   const param = new URLSearchParams(location.search).get("date");
   const start = state.index.find((d) => d.date === param) || state.index[0];
   await loadDate(start.date);
@@ -261,6 +265,12 @@ function applyTheme(theme) {
 function formatDate(iso) {
   const d = new Date(iso + "T00:00:00");
   return d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+}
+
+function formatDateTime(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return d.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" });
 }
 
 init();

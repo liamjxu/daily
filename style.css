@@ -150,4 +150,5 @@ header.top {
 
 .empty { color: var(--muted); text-align: center; padding: 40px 0; }
 footer { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 50px; }
+footer .updated { font-size: 0.78rem; opacity: 0.85; margin-bottom: 6px; }
 footer a { color: var(--accent); text-decoration: none; }
