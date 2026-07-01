@@ -73,9 +73,11 @@ header.top {
 }
 .cal-nav:hover { background: var(--chip); }
 .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
-.cal-dow { text-align: center; font-size: 0.68rem; color: var(--muted); padding: 2px 0; }
+.cal-dow { text-align: center; font-size: 0.68rem; color: var(--muted); padding: 2px 0; min-width: 0; }
 .cal-cell {
-  aspect-ratio: 1; border: 0; background: transparent; color: var(--muted);
+  position: relative; height: 30px; min-width: 0; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  border: 0; background: transparent; color: var(--muted);
   font: inherit; font-size: 0.8rem; border-radius: 7px; cursor: default;
 }
 .cal-cell.empty { visibility: hidden; }
@@ -83,8 +85,8 @@ header.top {
 .cal-cell.has { color: var(--text); cursor: pointer; font-weight: 600; }
 .cal-cell.has:hover { background: var(--accent-soft); color: var(--accent); }
 .cal-cell.has::after {
-  content: ""; display: block; width: 4px; height: 4px; margin: 1px auto 0;
-  border-radius: 50%; background: var(--accent);
+  content: ""; position: absolute; bottom: 3px; left: 50%; transform: translateX(-50%);
+  width: 4px; height: 4px; border-radius: 50%; background: var(--accent);
 }
 .cal-cell.sel { background: var(--accent); color: #fff; }
 .cal-cell.sel::after { background: #fff; }
