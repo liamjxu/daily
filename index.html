@@ -14,7 +14,10 @@
         <h1>Daily<span class="dot">.</span> <span style="font-weight:400;color:var(--muted)">AI Builders Digest</span></h1>
         <div class="date-nav">
           <button class="icon-btn" id="prevDay" title="Previous day">‹</button>
-          <select id="dateSel"></select>
+          <div class="cal-wrap">
+            <button class="date-btn" id="dateBtn" aria-haspopup="true" aria-expanded="false"></button>
+            <div class="cal-pop" id="calPop" hidden></div>
+          </div>
           <button class="icon-btn" id="nextDay" title="Next day">›</button>
         </div>
       </div>

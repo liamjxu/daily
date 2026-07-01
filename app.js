@@ -44,31 +44,74 @@ async function init() {
     $("#content").innerHTML = '<p class="empty">No digests yet. Check back after the next run.</p>';
     return;
   }
-  buildDateSelector();
+  state.available = new Set(state.index.map((d) => d.date));
   const param = new URLSearchParams(location.search).get("date");
   const start = state.index.find((d) => d.date === param) || state.index[0];
   await loadDate(start.date);
 }
 
-function buildDateSelector() {
-  const sel = $("#dateSel");
-  sel.innerHTML = "";
-  for (const d of state.index) {
-    const o = el("option");
-    o.value = d.date;
-    o.textContent = formatDate(d.date);
-    sel.appendChild(o);
-  }
-}
-
 async function loadDate(date) {
   state.date = date;
-  $("#dateSel").value = date;
   const res = await fetch(`data/${date}.json`, { cache: "no-cache" });
   state.digest = await res.json();
+  $("#dateBtn").textContent = formatDate(date);
+  const [y, m] = date.split("-").map(Number);
+  state.calYM = { y, m: m - 1 }; // calendar opens on the shown day's month
   buildChips();
   render();
   updateDateButtons();
+}
+
+// ---- Calendar popover ----------------------------------------------------
+
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const DOW = ["S", "M", "T", "W", "T", "F", "S"];
+
+function toggleCal(show) {
+  const pop = $("#calPop");
+  const open = show ?? pop.hidden;
+  pop.hidden = !open;
+  $("#dateBtn").setAttribute("aria-expanded", String(open));
+  if (open) renderCalendar();
+}
+
+function renderCalendar() {
+  const pop = $("#calPop");
+  const { y, m } = state.calYM;
+  pop.innerHTML = "";
+
+  const head = el("div", "cal-head");
+  const prev = el("button", "cal-nav", "‹");
+  const next = el("button", "cal-nav", "›");
+  prev.onclick = (e) => { e.stopPropagation(); shiftMonth(-1); };
+  next.onclick = (e) => { e.stopPropagation(); shiftMonth(1); };
+  head.append(prev, el("span", "cal-title", `${MONTHS[m]} ${y}`), next);
+  pop.appendChild(head);
+
+  const grid = el("div", "cal-grid");
+  for (const d of DOW) grid.appendChild(el("span", "cal-dow", d));
+
+  const first = new Date(y, m, 1).getDay();
+  const days = new Date(y, m + 1, 0).getDate();
+  for (let i = 0; i < first; i++) grid.appendChild(el("span", "cal-cell empty"));
+  for (let day = 1; day <= days; day++) {
+    const iso = `${y}-${String(m + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    const has = state.available.has(iso);
+    const cell = el("button", "cal-cell" + (has ? " has" : " none") + (iso === state.date ? " sel" : ""), String(day));
+    if (has) cell.onclick = (e) => { e.stopPropagation(); toggleCal(false); loadDate(iso); };
+    else cell.disabled = true;
+    grid.appendChild(cell);
+  }
+  pop.appendChild(grid);
+}
+
+function shiftMonth(delta) {
+  let { y, m } = state.calYM;
+  m += delta;
+  if (m < 0) { m = 11; y--; }
+  if (m > 11) { m = 0; y++; }
+  state.calYM = { y, m };
+  renderCalendar();
 }
 
 // ---- Rendering -------------------------------------------------------------
@@ -190,7 +233,10 @@ function wireControls() {
     localStorage.setItem("theme", next);
   };
 
-  $("#dateSel").onchange = (e) => loadDate(e.target.value);
+  $("#dateBtn").onclick = (e) => { e.stopPropagation(); toggleCal(); };
+  document.addEventListener("click", (e) => {
+    if (!$("#calPop").hidden && !e.target.closest(".cal-wrap")) toggleCal(false);
+  });
   $("#prevDay").onclick = () => step(1); // older
   $("#nextDay").onclick = () => step(-1); // newer
 }
