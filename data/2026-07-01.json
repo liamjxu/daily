@@ -1,0 +1,393 @@
+{
+  "date": "2026-07-01",
+  "headline_en": "Frontier AI discourse centered on agentic model releases, evaluation discipline, and the hardware-software economics that make new capabilities practical.",
+  "headline_zh": "今天的前沿 AI 讨论集中在 agentic 模型发布、评测方法，以及让新能力真正落地的硬件和软件经济性。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2072046374045249671",
+      "en": "Box CEO Aaron Levie said Box tested Anthropic's Claude Sonnet 5 on the Box AI Complex Work Eval, an agentic benchmark for end-to-end enterprise document work. Sonnet 5 beat Sonnet 4.6 in several enterprise domains, including Energy (+4.7pp), Retail (+4.4pp), and Professional Services (+2.6pp), with examples spanning financing due diligence, overhaul cost analysis, and SKU revenue analysis. Levie said Sonnet 5 will be available in Box AI Studio for customers building custom agents.",
+      "zh": "Box CEO Aaron Levie 表示，Box 在 Box AI Complex Work Eval 上测试了 Anthropic 的 Claude Sonnet 5，这是一个面向端到端企业文档工作的 agentic benchmark。Sonnet 5 在多个企业领域超过 Sonnet 4.6，包括 Energy（+4.7pp）、Retail（+4.4pp）和 Professional Services（+2.6pp），案例涵盖融资尽调、检修成本分析和 SKU 收入分析。Levie 表示 Sonnet 5 将在 Box AI Studio 中开放，供客户构建 custom agents。",
+      "tags": [
+        "agents",
+        "evals",
+        "Claude Sonnet 5",
+        "enterprise AI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": "AI assistant by Anthropic",
+      "title": null,
+      "url": "https://x.com/claudeai/status/2072017457057853480",
+      "en": "Claude announced that Sonnet 5 is now the default model for Free and Pro users and is available to Max, Team, and Enterprise users across Claude apps and the Claude Platform. Claude described Sonnet 5 as a major improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work, with performance close to Opus 4.8 at lower prices and introductory pricing through August 31.",
+      "zh": "Claude 宣布 Sonnet 5 现在是 Free 和 Pro 用户的默认模型，并已在 Claude apps 和 Claude Platform 上向 Max、Team、Enterprise 用户开放。Claude 称 Sonnet 5 相比 Sonnet 4.6 在 reasoning、tool use、coding 和 knowledge work 上有显著提升，性能接近 Opus 4.8，但价格更低，并提供截至 8 月 31 日的 introductory pricing。",
+      "tags": [
+        "Claude Sonnet 5",
+        "tool use",
+        "reasoning",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2072172275017879829",
+      "en": "Box CEO Aaron Levie argued that the Fable restoration and likely GPT-5.6 review process may become the precedent for frontier releases with major coding, cyber, bio, or other risk capabilities. He welcomed the emerging shared industry framework and deeper U.S. government collaboration, but warned that risk judgments will remain subjective and could slow incremental model releases if every update faces the same review burden.",
+      "zh": "Box CEO Aaron Levie 认为，Fable 恢复上线以及可能到来的 GPT-5.6 审查流程，可能会成为具备重要 coding、cyber、bio 或其他风险能力的 frontier model 发布先例。他认可正在形成的行业共享框架和更深入的美国政府协作，但也提醒风险判断仍然主观，如果每次增量模型更新都面临同样审查负担，可能会拖慢发布节奏。",
+      "tags": [
+        "model policy",
+        "AI safety",
+        "frontier labs",
+        "GPT-5.6"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2071966055308607765",
+      "en": "Vercel CEO Guillermo Rauch announced Vercel Services, which lets teams collocate a Python backend API, an ExpressJS server, and a React SPA in one Vercel project. The workflow supports local development with `vc dev`, single deploy and rollback, shared observability, monitoring, debugging, and internal networking, aligning with Vercel's broader push toward the agentic web.",
+      "zh": "Vercel CEO Guillermo Rauch 宣布 Vercel Services，让团队可以在一个 Vercel project 中同时放置 Python backend API、ExpressJS server 和 React SPA。这个工作流支持用 `vc dev` 本地开发、统一 deploy 和 rollback、共享 observability、monitoring、debugging，以及 internal networking，也呼应了 Vercel 对 agentic web 的推进。",
+      "tags": [
+        "agentic web",
+        "developer tools",
+        "Vercel"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code at Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2072185565076988326",
+      "en": "Claude Code's Thariq clarified that updated classifiers may still flag a small fraction of routine coding and debugging tasks and route them to Opus. He said Anthropic is continuing to refine safeguards to better separate genuine misuse from legitimate requests and reduce false positives as users regain access.",
+      "zh": "Claude Code 的 Thariq 澄清，更新后的 classifiers 仍可能把少量常规 coding 和 debugging 任务标记出来，并回退到 Opus。他表示 Anthropic 会继续改进 safeguards，更好地区分真实滥用和合法请求，并在用户恢复访问后降低 false positives。",
+      "tags": [
+        "Claude Code",
+        "safety classifiers",
+        "coding agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Amjad Masad",
+      "role": "Replit CEO",
+      "title": null,
+      "url": "https://x.com/amasad/status/2071992110132117740",
+      "en": "Replit CEO Amjad Masad argued that AI is expensive partly because most workloads still run on generic hardware designed before LLMs. He pointed to Etched as a system built from the ground up for modern inference, highlighting the industry shift toward purpose-built serving infrastructure.",
+      "zh": "Replit CEO Amjad Masad 认为，AI 成本高的部分原因是大多数 workload 仍跑在 LLM 之前设计的通用硬件上。他提到 Etched 是从底层为现代 inference 构建的系统，强调行业正在转向专用 serving infrastructure。",
+      "tags": [
+        "inference",
+        "efficient ML",
+        "AI hardware"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2071992799109824562",
+      "en": "Box CEO Aaron Levie pushed back on the simple AI-replaces-jobs narrative, citing Ramp data and Box's survey of 1,600+ mid and large companies. In Box's survey, 58% of respondents expected headcount to rise over three years, rising to 79% among the most mature AI adopters; Levie's interpretation is that AI adoption often expands the amount of work companies can take on.",
+      "zh": "Box CEO Aaron Levie 反驳了简单的 AI 替代就业叙事，并引用 Ramp 数据和 Box 对 1,600 多家中大型公司的调查。Box 调查中，58% 的受访者预计未来三年 headcount 会增长，而在最成熟的 AI adopters 中这一比例升至 79%；Levie 的解读是，AI adoption 往往扩大了公司能承接的工作量。",
+      "tags": [
+        "AI adoption",
+        "enterprise AI",
+        "strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aditya Agarwal",
+      "role": "General Partner at South Park Commons",
+      "title": null,
+      "url": "https://x.com/adityaag/status/2071983952894837062",
+      "en": "South Park Commons General Partner Aditya Agarwal called it strange that models powering U.S. innovation are Chinese open source models. The post is brief, but it captures a live strategic tension around open-source model dependence and where frontier-capable infrastructure is actually coming from.",
+      "zh": "South Park Commons General Partner Aditya Agarwal 说，美国创新所依赖的模型竟然是中国开源模型，这是一种很奇特的状态。这个帖子很短，但抓住了一个现实的战略张力：open-source model 依赖，以及 frontier-capable infrastructure 实际来自哪里。",
+      "tags": [
+        "open models",
+        "China AI",
+        "strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Peter Steinberger",
+      "role": "OpenClaw and OpenAI",
+      "title": null,
+      "url": "https://x.com/steipete/status/2072144627474579925",
+      "en": "Peter Steinberger argued that price per token is not the same as cost per task. For agentic coding and workflow systems, this is the right economic unit: a model can be more expensive per token but cheaper overall if it finishes faster, needs fewer retries, or succeeds on harder tasks.",
+      "zh": "Peter Steinberger 认为，price per token 不等于 cost per task。对于 agentic coding 和 workflow systems 来说，这才是更合适的经济单位：一个模型 token 单价更高，但如果完成更快、重试更少、能解决更难任务，整体成本反而可能更低。",
+      "tags": [
+        "agents",
+        "inference economics",
+        "coding agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Nan Yu",
+      "role": "Head of Product at Linear",
+      "title": null,
+      "url": "https://x.com/thenanyu/status/2071973229070033322",
+      "en": "Linear Head of Product Nan Yu questioned how people define “distillation,” arguing that by one broad interpretation Cursor's early training data could be described as distilled from Claude. The point is a sharp reminder that model-data provenance debates can hinge on definitions as much as on technical facts.",
+      "zh": "Linear Head of Product Nan Yu 质疑大家如何定义“distillation”，并认为如果采用某种宽泛解释，Cursor 早期训练数据也可以被说成是从 Claude distill 出来的。这个观点提醒我们，model-data provenance 的争议不仅取决于技术事实，也很依赖定义本身。",
+      "tags": [
+        "distillation",
+        "model data",
+        "AI policy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code at Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2072000214634742243",
+      "en": "Claude Code's Boris Cherny announced that Claude Desktop is now available on Linux. For developers using Claude across coding workflows, this removes a platform gap in the desktop app.",
+      "zh": "Claude Code 的 Boris Cherny 宣布 Claude Desktop 现已支持 Linux。对于在 coding workflows 中使用 Claude 的开发者来说，这补上了 desktop app 的一个平台缺口。",
+      "tags": [
+        "Claude Desktop",
+        "Linux",
+        "developer tools"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "Y Combinator President and CEO",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2071910876496757145",
+      "en": "Y Combinator President and CEO Garry Tan said GBrain becomes most useful when a personal or company knowledge base reaches 10,000+ Markdown files. The signal is that large, structured text corpora are where personal and organizational retrieval tools start to matter.",
+      "zh": "Y Combinator President and CEO Garry Tan 表示，当个人或公司的 knowledge base 达到 10,000 多个 Markdown files 时，GBrain 才最有用。这里的信号是，大规模、结构化文本语料正是个人和组织 retrieval tools 开始变得重要的地方。",
+      "tags": [
+        "RAG",
+        "knowledge management",
+        "retrieval"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+      "url": "https://www.youtube.com/watch?v=f6D_aiy8qyU",
+      "en": "The Takeaway: Dylan Patel's core claim is that AI's biggest efficiency gains will come from hardware, software, and model architectures being co-designed rather than optimized separately. Patel, founder of SemiAnalysis, argues that inference will become one of the world's largest markets and that static benchmarks cannot keep up with rapidly changing models, drivers, serving stacks, and optimizations. His InferenceX effort is meant to make inference benchmarking “living and breathing,” with daily runs across hardware, models, and configurations so builders can compare Pareto-optimal tradeoffs between interactivity, throughput, cost, and power. The most useful framing is economic: price per token is secondary to cost per task, and fast tokens can be worth far more when human time or tight feedback loops dominate. Patel also pushes against simple GPU-versus-TPU narratives: the winning hardware depends on model architecture, network topology, matrix shapes, attention design, expert structure, and the surrounding software stack. His memorable line is the whole thesis: “the real breakthrough innovation is when you leapfrog a few layers.” He expects memory bandwidth, power density, data center execution, and compute supply to remain central bottlenecks, while model progress keeps expanding the set of economically valuable tasks faster than compute can be deployed.",
+      "zh": "The Takeaway：Dylan Patel 的核心观点是，AI 最大的效率提升会来自 hardware、software 和 model architectures 的协同设计，而不是分层单独优化。SemiAnalysis 创始人 Patel 认为 inference 将成为全球最大的市场之一，而静态 benchmark 跟不上模型、drivers、serving stacks 和 optimization 的快速变化。他的 InferenceX 项目试图让 inference benchmarking 变成“living and breathing”，每天跨硬件、模型和配置运行，帮助 builders 比较 interactivity、throughput、cost 和 power 之间的 Pareto-optimal 取舍。最有用的框架是经济性：price per token 次于 cost per task，当人的时间或快速反馈循环更重要时，fast tokens 的价值会高得多。Patel 也反对简单的 GPU-versus-TPU 叙事：胜出的硬件取决于 model architecture、network topology、matrix shapes、attention design、expert structure 以及周围的软件栈。他最有代表性的一句话概括了整套 thesis：“the real breakthrough innovation is when you leapfrog a few layers.” 他预计 memory bandwidth、power density、data center execution 和 compute supply 仍会是核心瓶颈，而模型进步会继续以快于 compute 部署的速度扩大具备经济价值的任务集合。",
+      "tags": [
+        "inference",
+        "efficient ML",
+        "AI hardware",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "What Drives Interactive Improvement from Feedback?",
+      "url": "https://arxiv.org/abs/2606.30774",
+      "en": "A controlled student-teacher study across math, coding, reasoning, and ARC-style tasks separates real natural-language feedback gains from resampling, format correction, and extra test-time compute in multi-turn language agents.",
+      "zh": "这项跨数学、coding、reasoning 和 ARC 风格任务的 controlled student-teacher study，把多轮 language agents 中真正来自自然语言反馈的收益，与 resampling、format correction 和额外 test-time compute 区分开来。",
+      "tags": [
+        "agents",
+        "evals",
+        "test-time compute",
+        "feedback"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Contrastive Reflection for Iterative Prompt Optimization",
+      "url": "https://arxiv.org/abs/2606.30840",
+      "en": "The paper presents Contrastive Reflection, a prompt-optimization framework for agentic IR workflows that compares failed and nearby successful behaviors to make prompt edits that improve held-out quality without regressions.",
+      "zh": "这篇论文提出 Contrastive Reflection，这是一个面向 agentic IR workflows 的 prompt-optimization 框架，通过比较失败行为和相近的成功行为来修改 prompt，从而提升 held-out quality 并避免 regressions。",
+      "tags": [
+        "agents",
+        "retrieval",
+        "prompt optimization",
+        "evals"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "A Single Rewrite Suffices: Empirical Lessons from Production Skill Description Optimization",
+      "url": "https://arxiv.org/abs/2606.30775",
+      "en": "A production enterprise chat agent study shows that one automated rewrite of overlapping skill descriptions can match manual tuning for routing accuracy, reducing “skill collision” as agents scale.",
+      "zh": "这项 production enterprise chat agent 研究显示，对重叠的 skill descriptions 进行一次自动重写，就能在 routing accuracy 上接近人工调优，从而在 agents 扩展时减少“skill collision”。",
+      "tags": [
+        "agents",
+        "tool routing",
+        "enterprise AI",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Using AI Agents to Automate Black-Box Audits of Personalization Algorithms at Scale",
+      "url": "https://arxiv.org/abs/2606.30801",
+      "en": "The paper proposes using AI agents to run scalable black-box audits of personalization systems, aiming to separate the causal effects of user attributes, behavior, and interaction history more cleanly than scripted sock-puppet audits.",
+      "zh": "这篇论文提出用 AI agents 对 personalization systems 进行可扩展的 black-box audits，目标是比脚本化 sock-puppet audits 更清楚地区分用户属性、行为和交互历史的因果影响。",
+      "tags": [
+        "agents",
+        "auditing",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions",
+      "url": "https://arxiv.org/abs/2606.30790",
+      "en": "The paper introduces Indi-RomCoM, a benchmark for evaluating how well LLMs follow and reason over Romanized Indic-English code-mixed instructions across tasks, languages, and mixing levels.",
+      "zh": "这篇论文提出 Indi-RomCoM，用于评估 LLMs 在多种任务、语言和 code-mixing 程度下，理解并推理 Romanized Indic-English code-mixed instructions 的能力。",
+      "tags": [
+        "benchmarks",
+        "multilingual NLP",
+        "LLM evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "SGD at the Edge of Stability: Stochastic Stabilization with Large Learning Rates",
+      "url": "https://arxiv.org/abs/2606.30930",
+      "en": "The paper gives convergence guarantees for SGD with multiclass cross-entropy in linear and two-layer networks, explaining how stochasticity can stabilize large-learning-rate training at the edge of stability.",
+      "zh": "这篇论文为使用 multiclass cross-entropy 的 linear 和 two-layer networks 中的 SGD 提供收敛保证，解释随机性如何在 edge of stability 下稳定大 learning rate 训练。",
+      "tags": [
+        "optimization",
+        "training dynamics",
+        "efficient ML"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "How Can AI Find My Model? A Model-Finding Experimental Study Considering Data Formats, Embeddings, and Retrieval Strategies",
+      "url": "https://arxiv.org/abs/2606.30846",
+      "en": "The paper experimentally studies how data formats, transformer embeddings, and retrieval strategies affect natural-language discovery of reusable simulation models.",
+      "zh": "这篇论文实验研究 data formats、transformer embeddings 和 retrieval strategies 如何影响用自然语言发现可复用 simulation models。",
+      "tags": [
+        "retrieval",
+        "embeddings",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Most Current Model Organisms Leaks: Perplexity Differencing Often Reveals Finetuning Objectives",
+      "url": "https://www.lesswrong.com/posts/uwqtfxvhYRcyLazeP/most-current-model-organisms-leaks-perplexity-differencing",
+      "en": "LessWrong summarizes work showing that many public model organisms leak their instilled behaviors. The method is simple and useful: generate completions from short general-corpora prefills, compare perplexity against a reference model, and inspect completions with the largest differences, which often reveal fine-tuning objectives. This is concrete alignment and interpretability content, because it suggests current model-organism setups may be easier to reverse-engineer than intended.",
+      "zh": "LessWrong 总结了一项工作，显示许多公开 model organisms 会泄露被植入的行为。方法简单且实用：从短的 general-corpora prefills 生成 completions，与 reference model 比较 perplexity，并检查差异最大的 completions，这些内容往往会暴露 fine-tuning objectives。这是具体的 alignment 和 interpretability 内容，因为它提示当前 model-organism 设置可能比预期更容易被 reverse-engineer。",
+      "tags": [
+        "alignment",
+        "interpretability",
+        "fine-tuning",
+        "model organisms"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+      "url": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+      "en": "The Hacker News reports that Anthropic is putting Claude Fable 5 back online worldwide after the U.S. Commerce Department lifted export controls imposed on Fable and Mythos 5. The restoration covers Claude.ai, the Claude Platform, Claude Code, and Claude Cowork, making this a consequential model-access and safety-governance story rather than a routine product update.",
+      "zh": "The Hacker News 报道称，在美国 Commerce Department 解除针对 Fable 和 Mythos 5 的 export controls 后，Anthropic 正在全球恢复 Claude Fable 5。恢复范围包括 Claude.ai、Claude Platform、Claude Code 和 Claude Cowork，因此这不是普通产品更新，而是一个重要的 model access 与 safety governance 事件。",
+      "tags": [
+        "Fable 5",
+        "model policy",
+        "Claude Code",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+      "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+      "en": "The Hacker News covers “phantom squatting,” where attackers register web domains that LLMs hallucinate and then use them for phishing or malware. The mechanism matters for AI systems because it turns model hallucination into an attack surface: AI tools can accidentally direct users toward domains that did not exist until attackers bought them.",
+      "zh": "The Hacker News 报道了“phantom squatting”：攻击者注册 LLMs 幻觉出来的 web domains，再用这些域名做 phishing 或 malware。这个机制对 AI systems 很重要，因为它把 model hallucination 变成了攻击面：AI tools 可能无意中把用户引向原本不存在、后来被攻击者购买的域名。",
+      "tags": [
+        "AI security",
+        "hallucination",
+        "phishing"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A Black Box Made Less Opaque (part 4)",
+      "url": "https://www.lesswrong.com/posts/Wx2qkD6GgfzfGkjEA/a-black-box-made-less-opaque-part-4",
+      "en": "LessWrong continues an interpretability series by examining how standard weight compression affects Google DeepMind's Gemma 3 4B and 12B models. The useful angle is practical: it connects compression, model performance, and representational interpretability rather than treating quantization as only a serving-cost technique.",
+      "zh": "LessWrong 继续其 interpretability 系列，分析标准 weight compression 如何影响 Google DeepMind 的 Gemma 3 4B 和 12B models。这个角度很实用：它把 compression、model performance 和 representational interpretability 联系起来，而不是只把 quantization 看成降低 serving cost 的技术。",
+      "tags": [
+        "interpretability",
+        "quantization",
+        "Gemma",
+        "efficient ML"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "en": "Hugging Face highlights ScarfBench, a benchmark for testing AI agents on enterprise Java framework migration. The topic is high-signal for practitioners because migration work stresses long-horizon code understanding, tool use, and task completion rather than isolated coding snippets.",
+      "zh": "Hugging Face 介绍 ScarfBench，这是一个用于测试 AI agents 处理 enterprise Java framework migration 的 benchmark。这个主题对 practitioners 很有信号量，因为 migration work 考验的是长程代码理解、tool use 和任务完成能力，而不是孤立的 coding snippets。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "enterprise AI",
+        "code migration"
+      ]
+    }
+  ]
+}
