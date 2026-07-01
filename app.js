@@ -91,13 +91,14 @@ function renderCalendar() {
   const grid = el("div", "cal-grid");
   for (const d of DOW) grid.appendChild(el("span", "cal-dow", d));
 
-  const first = new Date(y, m, 1).getDay();
+  const first = new Date(y, m, 1).getDay(); // 0=Sun .. 6=Sat
   const days = new Date(y, m + 1, 0).getDate();
-  for (let i = 0; i < first; i++) grid.appendChild(el("span", "cal-cell empty"));
   for (let day = 1; day <= days; day++) {
     const iso = `${y}-${String(m + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
     const has = state.available.has(iso);
     const cell = el("button", "cal-cell" + (has ? " has" : " none") + (iso === state.date ? " sel" : ""), String(day));
+    // Offset the 1st into its weekday column instead of using blank cells
+    if (day === 1 && first > 0) cell.style.gridColumnStart = String(first + 1);
     if (has) cell.onclick = (e) => { e.stopPropagation(); toggleCal(false); loadDate(iso); };
     else cell.disabled = true;
     grid.appendChild(cell);

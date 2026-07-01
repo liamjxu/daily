@@ -80,7 +80,6 @@ header.top {
   border: 0; background: transparent; color: var(--muted);
   font: inherit; font-size: 0.8rem; border-radius: 7px; cursor: default; overflow: hidden;
 }
-.cal-cell.empty { visibility: hidden; }
 .cal-cell.none { color: var(--border); }
 .cal-cell.has { color: var(--text); cursor: pointer; font-weight: 600; }
 .cal-cell.has:hover { background: var(--accent-soft); color: var(--accent); }
