@@ -1,0 +1,194 @@
+{
+  "date": "2026-07-05",
+  "headline_en": "AI builders focused on the practical strain of agentic systems: better model handoffs, agent infrastructure, usage economics, evaluation, and organizational change.",
+  "headline_zh": "AI 建设者今天关注 agentic systems 带来的现实压力：更好的模型交接、agent 基础设施、使用经济学、评估和组织变革。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2073563586270781674",
+      "en": "Vercel CEO Guillermo Rauch shared an animation of lifetime Vercel AI Gateway token spend across trillions of tokens from millions of monthly developers. The notable readout is Anthropic’s dominance in this usage slice, alongside visible growth from open-weight AI.",
+      "zh": "Vercel CEO Guillermo Rauch 分享了一段动画，展示 Vercel AI Gateway 历史 token 消耗的竞争格局，数据来自每月数百万开发者产生的数万亿 token。值得关注的是，在这个使用切片中 Anthropic 占据明显优势，同时 open-weight AI 也在增长。",
+      "tags": [
+        "model usage",
+        "AI Gateway",
+        "open weights",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Cat Wu",
+      "role": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": null,
+      "url": "https://x.com/_catwu/status/2073439890482794966",
+      "en": "Anthropic’s Cat Wu said Claude Fable 5 showed better judgment by independently choosing propensity score matching for a retention analysis, matching users by activity to compare like with like. She framed the improvement as broader than analytics, spanning emails and docs in Cowork as well as debugging complex errors in Claude Code.",
+      "zh": "Anthropic 的 Cat Wu 说，Claude Fable 5 在一次留存分析中主动选择了 propensity score matching，按活跃度匹配用户来做同类比较，体现出更好的判断力。她把这种提升描述为跨场景的能力进步，不只体现在分析任务，也包括 Cowork 中的邮件和文档，以及 Claude Code 中复杂错误的调试。",
+      "tags": [
+        "Claude",
+        "agents",
+        "evaluation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Nan Yu",
+      "role": "head of product @linear",
+      "title": null,
+      "url": "https://x.com/thenanyu/status/2073410299680428445",
+      "en": "Linear product head Nan Yu argued that the best bug-finding method is still using the product hard enough to break it. Code review, in his framing, is mainly for architecture and API design, and for controlling technical debt rather than discovering most bugs by inspection.",
+      "zh": "Linear 产品负责人 Nan Yu 认为，发现 bug 最好的办法仍然是亲自使用产品并尝试把它用坏。在他的框架里，code review 主要用于审查架构和 API 设计，以及控制技术债，而不是靠静态阅读代码找出大多数 bug。",
+      "tags": [
+        "engineering",
+        "product quality",
+        "AI coding"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2073551549494596079",
+      "en": "OpenAI’s Thibault Sottiaux asked users what remains surprisingly weak in Codex and should have been solved already. The post is notable less for a claim than for the product signal: Codex is actively soliciting concrete failure modes from heavy users.",
+      "zh": "OpenAI 的 Thibault Sottiaux 向用户征集 Codex 仍然意外做不好的事情，尤其是那些本该早已解决的问题。这条的价值不在于提出结论，而在于产品信号：Codex 正在主动向重度用户收集具体失败模式。",
+      "tags": [
+        "Codex",
+        "AI coding",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "en": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework announces a new Swift package that lets Apple developers route from Apple’s on-device Foundation Models framework to Claude for harder tasks like multi-step reasoning, code generation, web search, and code execution for data analysis. The practical pattern is hybrid: local models handle fast typed tasks such as summarization or extraction, then Claude takes over when the workflow needs deeper reasoning while streaming back into the same SwiftUI view. The package supports typed Swift values from `@Generable` annotations, structured responses, tool calls, and Anthropic API-key auth across iOS 27, iPadOS 27, macOS 27, visionOS 27, and watchOS 27. The key implication for builders is cleaner model handoff: “It’s one experience for the user, backed by the right model for each step.”",
+      "zh": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework 发布了一个新的 Swift package，让 Apple 开发者可以从 Apple 的 on-device Foundation Models framework 切换到 Claude，处理 multi-step reasoning、代码生成、web search 和用于数据分析的代码执行等更复杂任务。实际模式是 hybrid：本地模型负责快速的 typed 任务，比如 summarization 或 extraction，当 workflow 需要更深推理时再交给 Claude，并在同一个 SwiftUI view 中流式返回结果。该 package 支持来自 `@Generable` annotations 的 typed Swift values、structured responses、tool calls，以及通过 Anthropic API key 认证，覆盖 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27。对开发者的关键意义是更干净的模型交接：“It’s one experience for the user, backed by the right model for each step.”",
+      "tags": [
+        "Claude",
+        "Apple",
+        "tool use",
+        "agents"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "The MAD Podcast with Matt Turck",
+      "role": null,
+      "title": "Cloudflare CEO: The Internet's Business Model Is Dead",
+      "url": "https://www.youtube.com/watch?v=UN47z_opfmo",
+      "en": "The Takeaway: Cloudflare CEO Matthew Prince argues that AI agents have already pushed bot traffic past human traffic, forcing the internet to replace an ad model built for human clicks. Prince says Cloudflare’s view across global traffic shows automated traffic crossed the threshold in the first half of 2026, far earlier than the company expected, and could become “a thousand times more bot traffic than human traffic” within five years. That breaks the old bargain because “bots don’t click on ads,” while still imposing real costs on servers, CPUs, GPUs, memory, and networks.\n\nPrince’s more concrete builder point is that the agentic internet needs new infrastructure primitives. Cloudflare Workers uses isolates rather than full containers, which he argues is better suited to cheap, fast, sandboxed agent workloads. AI Gateway gives companies auditability, prompt-level policy injection, cost routing across models, and visibility into problematic outputs. Internally, Cloudflare also uses agents trained on years of incidents to review code releases and configuration changes, which Prince says sharply reduced background incidents because AI checks are uncorrelated with team habits.\n\nThe sharpest strategic claim is organizational: Prince expects most companies to cut measuring and middle-management roles over the next 6 to 12 months as AI makes individual contributors and managers more leveraged. He says Cloudflare cut more than 20% of its team not because the business was struggling, but because the role mix had changed. His advice to mid-career workers is blunt: embrace the tools quickly, because the productivity gap is becoming too large to ignore.",
+      "zh": "The Takeaway: Cloudflare CEO Matthew Prince 认为，AI agents 已经让 bot traffic 超过 human traffic，迫使互联网放弃为人类点击设计的广告模式。Prince 说，Cloudflare 基于全球流量看到 automated traffic 在 2026 年上半年就跨过了这个门槛，比公司此前预期早得多，而且五年内可能变成 “a thousand times more bot traffic than human traffic”。这会打破旧交易，因为 “bots don’t click on ads”，但它们仍然给 servers、CPU、GPU、memory 和 networks 带来真实成本。\n\nPrince 更具体的 builder 观点是，agentic internet 需要新的基础设施原语。Cloudflare Workers 使用 isolates，而不是完整 containers，他认为这种方式更适合廉价、快速、sandboxed 的 agent workloads。AI Gateway 则为公司提供审计能力、prompt-level policy injection、跨模型成本路由，以及对问题输出的可见性。Cloudflare 内部还使用基于多年 incidents 训练的 agents 来审查 code releases 和 configuration changes，Prince 说这显著降低了背景事故，因为 AI checks 与团队习惯并不相关。\n\n最尖锐的战略判断在组织层面：Prince 预计未来 6 到 12 个月，大多数公司都会裁掉一部分 measuring 和 middle-management 岗位，因为 AI 会放大 individual contributors 和 managers 的杠杆。他说 Cloudflare 裁掉超过 20% 团队，并不是因为业务困难，而是因为岗位组合已经变化。他给 mid-career workers 的建议很直接：尽快拥抱这些工具，因为生产力差距已经大到无法忽视。",
+      "tags": [
+        "agents",
+        "AI infrastructure",
+        "AI Gateway",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Reevaluating AI-2027: timelines, takeoff, alignment and China",
+      "url": "https://www.lesswrong.com/posts/rMBc5WR3RvWgJdjCC/reevaluating-ai-2027-timelines-takeoff-alignment-and-china",
+      "en": "LessWrong’s Reevaluating AI-2027 examines the scenario’s dependence on exponential compute growth, superexponential progress in model time horizons, and fast-rising research taste after a Superhuman Coder. It focuses on where the timeline, takeoff, alignment, and China assumptions may be doing too much work.",
+      "zh": "LessWrong 的 Reevaluating AI-2027 重新审视该情景对 exponential compute growth、模型 time horizons 的 superexponential progress，以及 Superhuman Coder 之后 research taste 快速提升的依赖。它重点讨论 timeline、takeoff、alignment 和 China 相关假设中哪些部分可能承担了过多推论重量。",
+      "tags": [
+        "alignment",
+        "timelines",
+        "AI-2027",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A Normal Argument for AI Risk",
+      "url": "https://www.lesswrong.com/posts/SYqWny4t7zYzkye8K/a-normal-argument-for-ai-risk",
+      "en": "LessWrong’s A Normal Argument for AI Risk tries to defend serious AI risk without relying on what the author sees as weak arguments on both sides. The core claim is that even if many popular arguments are badly drawn, highly capable AI may still kill or substantively depower humanity unless specifically designed not to or not built.",
+      "zh": "LessWrong 的 A Normal Argument for AI Risk 试图在不依赖作者认为双方都薄弱的论证的情况下，为严重 AI risk 做辩护。核心观点是，即便许多流行论证画得不好，高能力 AI 仍可能杀死人类或实质性剥夺人类权力，除非它被专门设计为不会这样做，或者根本不被建造。",
+      "tags": [
+        "AI risk",
+        "alignment",
+        "safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "en": "Hugging Face and Cerebras announced work bringing Gemma 4 to real-time voice AI. The item is relevant mainly as a frontier-to-production signal for low-latency voice systems, though the provided data does not include implementation details or benchmarks.",
+      "zh": "Hugging Face 和 Cerebras 宣布将 Gemma 4 用于 real-time voice AI。这个条目的价值主要在于它是低延迟语音系统从前沿走向生产的信号，但提供的数据没有包含实现细节或 benchmark。",
+      "tags": [
+        "voice AI",
+        "Gemma 4",
+        "inference"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "A narrow-waist protocol for agent-to-agent comms, and an empirical study of when structured messages actually beat plain English",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1unkhww/a_narrowwaist_protocol_for_agenttoagent_comms_and/",
+      "en": "A r/LanguageTechnology post points to a narrow-waist protocol for agent-to-agent communication and an empirical comparison of when structured messages outperform plain English. It matches the practical agent-systems question of when formal message schemas are worth the coordination overhead.",
+      "zh": "一条 r/LanguageTechnology 帖子指向一个用于 agent-to-agent communication 的 narrow-waist protocol，以及关于 structured messages 何时优于 plain English 的实证比较。它切中了 practical agent systems 中一个关键问题：什么时候正式 message schemas 值得承担额外协调成本。",
+      "tags": [
+        "agents",
+        "protocols",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "What’s the best way to compare and LLM answer to a Reference Answer",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1umhnob/whats_the_best_way_to_compare_and_llm_answer_to_a/",
+      "en": "A r/LanguageTechnology user asks for better ways to compare an LLM answer with a reference answer beyond exact match, ROUGE-L, BLEU, or simple embedding similarity. The thread is useful as a practitioner-facing evaluation problem: semantic equivalence, rubric-based judging, and task-specific metrics often matter more than surface overlap.",
+      "zh": "一位 r/LanguageTechnology 用户询问，除了 exact match、ROUGE-L、BLEU 或简单 embedding similarity，还有什么更好的方法比较 LLM answer 和 reference answer。这个问题的价值在于它代表了 practitioner-facing evaluation 的典型难题：semantic equivalence、rubric-based judging 和 task-specific metrics 往往比表面重叠更重要。",
+      "tags": [
+        "evaluation",
+        "LLM metrics",
+        "NLP"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Looking for Korean free-text medical records or lists of clinical context words for PII detection",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1unt2s7/looking_for_korean_freetext_medical_records_or/",
+      "en": "A r/LanguageTechnology user is looking for Korean clinical-note context words around PII fields such as dates, names, phone numbers, addresses, hospital IDs, and resident registration numbers. The signal is narrow but relevant to multilingual clinical NLP, de-identification, and information extraction.",
+      "zh": "一位 r/LanguageTechnology 用户在寻找 Korean clinical notes 中围绕 PII 字段出现的 context words，例如 dates、names、phone numbers、addresses、hospital IDs 和 resident registration numbers。这个信号较窄，但对 multilingual clinical NLP、de-identification 和 information extraction 有相关性。",
+      "tags": [
+        "NLP",
+        "PII detection",
+        "clinical NLP",
+        "Korean"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-05T15:06:21.141Z"
+}
