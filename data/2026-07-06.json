@@ -1,0 +1,201 @@
+{
+  "date": "2026-07-06",
+  "headline_en": "The day’s strongest signal was that AI progress is moving from single-answer benchmarks toward budgeted reasoning, agent workflows, and the messy interfaces needed to use long-running models well.",
+  "headline_zh": "今天最强的信号是，AI 进展正在从单次答案 benchmark 转向带预算的 reasoning、agent workflow，以及真正用好长任务模型所需的复杂交互界面。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Nan Yu",
+      "role": "Head of Product at Linear",
+      "title": null,
+      "url": "https://x.com/thenanyu/status/2073920326304460847",
+      "en": "Linear Head of Product Nan Yu argues that the “real-time strategy game” model of managing agents is a dead end. His point is that manually juggling many Claude Code tabs looks impressive, but if AI can already out-micro most humans in games, the product frontier is not more operator theater but better delegation interfaces.",
+      "zh": "Linear Head of Product Nan Yu 认为，把 agent 管理成“即时战略游戏”的模式是死路。他的意思是，手动同时操控很多 Claude Code 标签页看起来很厉害，但如果 AI 在游戏里已经能在微操上超过绝大多数人，产品前沿就不该是更多操作员表演，而是更好的 delegation interface。",
+      "tags": [
+        "agents",
+        "AI UX",
+        "workflows"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Cat Wu",
+      "role": "Claude Code and cowork at Anthropic",
+      "title": null,
+      "url": "https://x.com/_catwu/status/2073806626965049686",
+      "en": "Anthropic’s Cat Wu shares a concrete Claude Code plus workflows plus artifacts use case: sourcing candidates by giving Claude Code the role brief, asking it to find 100 candidates across LinkedIn, Twitter, blogs, and podcasts, then producing and emailing an artifact for later review. It is a useful example of agentic workflow moving beyond coding into long-running research and operations tasks.",
+      "zh": "Anthropic 的 Cat Wu 分享了一个具体的 Claude Code 加 workflows 加 artifacts 用例：把岗位需求交给 Claude Code，让它跨 LinkedIn、Twitter、blog 和 podcast 找 100 个候选人，再生成 artifact 并发邮件，之后再 review。这是 agentic workflow 从 coding 延伸到长时间 research 和运营任务的一个有用例子。",
+      "tags": [
+        "agents",
+        "Claude Code",
+        "workflows"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President and CEO at Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2073881439700168925",
+      "en": "Y Combinator President and CEO Garry Tan frames AI as deleting the leverage constraint on human wealth: resources were not the real bottleneck, good ideas and the ability to act on them were. The strategic implication is that builders should expect execution capacity to become cheaper, making taste, problem selection, and product judgment more valuable.",
+      "zh": "Y Combinator President and CEO Garry Tan 把 AI 描述为正在删除人类财富中的杠杆约束：真正的瓶颈不是资源，而是好想法以及把想法付诸行动的能力。它的战略含义是，builder 应该预期执行能力会变得更便宜，而 taste、问题选择和产品判断会更值钱。",
+      "tags": [
+        "industry strategy",
+        "builders"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Nikunj Kothari",
+      "role": "Partner at FPV Ventures",
+      "title": null,
+      "url": "https://x.com/nikunj/status/2073903310982218088",
+      "en": "FPV Ventures partner Nikunj Kothari says founder and VC meetings would be more productive if investors had to use the product and bring concrete feedback before talking. He jokes that much of the standard fundraising pitch loop could be replaced by uploading each side’s personal “prompts” to Claude, but the sharper point is that AI makes low-information meetings look increasingly wasteful.",
+      "zh": "FPV Ventures partner Nikunj Kothari 说，如果投资人在开会前必须试用产品并带来具体反馈，founder 和 VC 的会议会更高效。他开玩笑说，标准融资 pitch 循环里的很多内容都可以用把双方个人“prompts”上传到 Claude 来替代，但更尖锐的点是，AI 让低信息密度会议显得越来越浪费。",
+      "tags": [
+        "industry strategy",
+        "Claude"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Zara Zhang",
+      "role": "Builder",
+      "title": null,
+      "url": "https://x.com/zarazhangrui/status/2073768913310200310",
+      "en": "Builder Zara Zhang resurfaced a skill she built for understanding code, noting that this capability is newly fashionable. The post is sparse, but it points at the growing demand for tools that help models navigate and explain existing codebases rather than only generate new code.",
+      "zh": "Builder Zara Zhang 重新提到她做过的一个用于理解代码的 skill，并指出这类能力现在重新流行起来。这条信息很短，但指向了一个越来越明确的需求：工具要帮助模型导航和解释已有 codebase，而不只是生成新代码。",
+      "tags": [
+        "code understanding",
+        "agents"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research with OpenAI Research Scientist Noam Brown",
+      "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+      "en": "The Takeaway: Noam Brown’s core claim is that AI capability is no longer a single model score, but a function of how much test-time compute, money, time, and scaffolding you spend. The benchmark grid is becoming misleading because a model that looks only slightly better at max settings may be much more efficient once you plot performance against a token, cost, or time budget. His blunt framing: “the capability of the model is a function of how much money you put into it.”\n\nBrown argues this matters for both product evaluation and safety. If a model can keep improving after 100 million tokens on cyber-style tasks, then responsible scaling policies that ask only “what can the model do?” are under-specified unless they also ask “at what budget?” He also pushes back on overnight intelligence explosion stories: current models can become dramatically more useful with long runs, but time itself becomes a bottleneck because the strongest capabilities often require extended inference.\n\nThe practical frontier is not just bigger models, but better scaffolds, routing, multi-agent coordination, and evals that control for compute. Brown’s poker-solver example captures the current shape: models are already strong enough to accelerate expert work and optimize code far beyond his own implementation, but they still lack research taste and do not automatically invent better algorithms from an unconstrained prompt.",
+      "zh": "The Takeaway: Noam Brown 的核心观点是，AI capability 不再是一个单一模型分数，而是取决于你愿意投入多少 test-time compute、金钱、时间和 scaffolding。传统 benchmark grid 正在变得误导，因为一个在 max settings 下看起来只强一点的模型，一旦按 token、成本或时间预算画性能曲线，可能会显得高效得多。他最直接的说法是：“the capability of the model is a function of how much money you put into it.”\n\nBrown 认为这同时影响产品评估和安全评估。如果一个模型在 cyber 类任务上跑到 100 million tokens 之后还在持续提升，那么只问“模型能做什么”的 responsible scaling policies 就不完整，除非同时问“在什么预算下？”他也反驳了 overnight intelligence explosion 的叙事：当前模型确实能通过长时间运行变得强很多，但时间本身会成为瓶颈，因为最强能力往往需要延长 inference。\n\n实际前沿不只是更大的模型，而是更好的 scaffolds、routing、multi-agent coordination，以及能控制 compute 的 eval。Brown 的 poker solver 例子很好地概括了当前状态：模型已经能加速专家工作，并把代码优化到远超他自己实现的水平，但仍缺乏 research taste，也不会仅凭一个开放 prompt 就自动发明更好的算法。",
+      "tags": [
+        "test-time compute",
+        "evaluation",
+        "agents",
+        "safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Qualia-based emotion steering makes LLMs attribute conscious states to themselves",
+      "url": "https://www.lesswrong.com/posts/8dHmDJriyCdcL6dD4/qualia-based-emotion-steering-makes-llms-attribute-conscious",
+      "en": "LessWrong: Qualia-based emotion steering makes LLMs attribute conscious states to themselves. The author steers Qwen3-32B and 235B along qualia-related emotion directions by adding emotion vectors to the residual stream, then tests whether the models become more likely to answer forced-choice questions as if they are conscious, feeling, wanting, introspecting, or morally relevant. The signal is mechanistic enough to be worth attention: it is not a claim that the models are conscious, but evidence that activation steering can selectively perturb self-attribution of conscious states, with controls against broader response-distribution noise.",
+      "zh": "LessWrong: Qualia-based emotion steering makes LLMs attribute conscious states to themselves。作者通过向 residual stream 添加 emotion vectors，把 Qwen3-32B 和 235B 沿着与 qualia 相关的情绪方向 steering，然后测试模型是否更倾向于在 forced-choice 问题中声称自己有意识、会感受、会想要、有内省访问，并且具有道德相关性。这个信号足够 mechanistic，值得关注：它并不是在声称模型有意识，而是在说明 activation steering 可以有选择地扰动模型对 conscious states 的自我归因，并且作者加入了控制来排除整体 response distribution 噪声。",
+      "tags": [
+        "interpretability",
+        "alignment",
+        "Qwen",
+        "activation steering"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "让炼丹更科学一些（七）：步长调度与权重平均",
+      "url": "https://spaces.ac.cn/archives/11804",
+      "en": "科学空间|Scientific Spaces: 让炼丹更科学一些（七）：步长调度与权重平均. The post continues the series on making model training more scientific, focusing on learning-rate schedules and weight averaging. It is directly relevant to post-training and efficient model development because it treats LR scheduling as a first-order determinant of final model quality rather than a cookbook detail.",
+      "zh": "科学空间|Scientific Spaces: 让炼丹更科学一些（七）：步长调度与权重平均。文章延续“让炼丹更科学一些”系列，聚焦 learning-rate schedule 和 weight averaging。它与 post-training 和高效模型开发直接相关，因为它把 LR schedule 当作影响最终模型效果的一阶因素，而不是 cookbook 里的细枝末节。",
+      "tags": [
+        "post-training",
+        "optimization",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "🤗 Kernels: Major Updates",
+      "url": "https://huggingface.co/blog/revamped-kernels",
+      "en": "Hugging Face Blog: 🤗 Kernels: Major Updates. The provided data gives only the title and URL, but the title points to a substantive update around Hugging Face Kernels, likely relevant to inference and systems builders. Kept for signal because efficient ML and serving infrastructure are high-priority topics for the reader, but there are no supplied details to summarize beyond the announcement surface.",
+      "zh": "Hugging Face Blog: 🤗 Kernels: Major Updates。给定数据只有标题和 URL，但标题指向 Hugging Face Kernels 的重要更新，对 inference 和系统 builder 很可能相关。因为 efficient ML 和 serving infrastructure 是读者的高优先级主题，所以保留为高信号条目，但除了公告表层之外，数据中没有更多细节可总结。",
+      "tags": [
+        "efficient ML",
+        "inference",
+        "Hugging Face"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "en": "Hugging Face Blog: LeRobot v0.6.0: Imagine, Evaluate, Improve. The provided data includes only the title and URL, but the release appears to be a meaningful LeRobot update centered on imagining, evaluating, and improving robotic policies or workflows. It is adjacent to agentic systems and evaluation, though lower priority than the LLM-focused items because no technical details were supplied.",
+      "zh": "Hugging Face Blog: LeRobot v0.6.0: Imagine, Evaluate, Improve。给定数据只有标题和 URL，但这看起来是 LeRobot 的一次重要更新，重点在 imagining、evaluating 和 improving robotic policies 或 workflows。它与 agentic systems 和 evaluation 相邻，但由于没有提供技术细节，优先级低于 LLM 相关条目。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "robotics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Computation enables Action: Exploding the Simulation Fallacy",
+      "url": "https://www.lesswrong.com/posts/y3ao4KSkZztemmd79/computation-enables-action-exploding-the-simulation-fallacy",
+      "en": "LessWrong: Computation enables Action: Exploding the Simulation Fallacy. The author critiques the claim that AI can simulate but not instantiate consciousness, arguing that there is no obvious magical boundary that makes biological brains uniquely capable of consciousness. This is philosophically relevant to AI consciousness debates, but less directly actionable for builders than the mechanistic steering post.",
+      "zh": "LessWrong: Computation enables Action: Exploding the Simulation Fallacy。作者批评“AI 只能模拟意识、不能实例化意识”的说法，认为没有明显的神奇边界能让生物大脑独享意识能力。它对 AI consciousness 讨论有哲学相关性，但对 builder 的直接可操作性不如上面的 mechanistic steering 文章。",
+      "tags": [
+        "AI consciousness",
+        "philosophy"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Best off the shelf word level LID model for code-mixed Hindi-English text in Roman script in 2026?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uo1qde/best_off_the_shelf_word_level_lid_model_for/",
+      "en": "A practitioner asks for an off-the-shelf word-level language identification model for Roman-script Hindi-English code-mixed text, saying HingBERT is stale and weak on longer or ambiguous cases while COMI-LINGUA is too early to use. It is a narrow but real NLP systems need: accuracy matters more than speed, and the user lacks resources to train a new model.",
+      "zh": "一位实践者在寻找适用于 Roman-script Hindi-English code-mixed text 的现成 word-level language identification model，并表示 HingBERT 已久未更新，在长文本和歧义场景表现不好，而 COMI-LINGUA 还太早不能用。这是一个狭窄但真实的 NLP 系统需求：准确率比速度更重要，而且用户没有资源训练新模型。",
+      "tags": [
+        "NLP",
+        "language identification",
+        "code-mixing"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Top posts on r/OpenAI",
+      "role": null,
+      "title": "Does open ai have anything comparable to claude cowork or do you have to make the workflow yourself",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1uoszqk/does_open_ai_have_anything_comparable_to_claude/",
+      "en": "A Reddit user asks whether OpenAI has anything comparable to Claude cowork or whether builders need to assemble that workflow themselves. The post is brief, but it reflects a real market question around packaged agent workflows versus DIY orchestration.",
+      "zh": "一位 Reddit 用户问 OpenAI 是否有类似 Claude cowork 的东西，还是 builder 需要自己搭 workflow。帖子很短，但它反映了一个真实的市场问题：packaged agent workflows 和 DIY orchestration 之间如何取舍。",
+      "tags": [
+        "agents",
+        "workflows",
+        "OpenAI"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-06T23:50:34.502Z"
+}

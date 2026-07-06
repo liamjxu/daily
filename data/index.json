@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-06",
+    "count": 13,
+    "headline_en": "The day’s strongest signal was that AI progress is moving from single-answer benchmarks toward budgeted reasoning, agent workflows, and the messy interfaces needed to use long-running models well.",
+    "generatedAt": "2026-07-06T23:50:34.502Z"
+  },
+  {
     "date": "2026-07-05",
     "count": 12,
     "headline_en": "AI builders focused on the practical strain of agentic systems: better model handoffs, agent infrastructure, usage economics, evaluation, and organizational change.",
