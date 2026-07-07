@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-07",
+    "count": 22,
+    "headline_en": "AI builders converged on agentic workflows, self-improving coding systems, richer evals, and the data environments needed to train models that can work in real organizations.",
+    "generatedAt": "2026-07-07T12:58:56.956Z"
+  },
+  {
     "date": "2026-07-06",
     "count": 13,
     "headline_en": "The day’s strongest signal was that AI progress is moving from single-answer benchmarks toward budgeted reasoning, agent workflows, and the messy interfaces needed to use long-running models well.",

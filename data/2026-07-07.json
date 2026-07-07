@@ -1,0 +1,347 @@
+{
+  "date": "2026-07-07",
+  "headline_en": "AI builders converged on agentic workflows, self-improving coding systems, richer evals, and the data environments needed to train models that can work in real organizations.",
+  "headline_zh": "AI 建设者今天集中讨论 agentic workflows、自我改进的 coding 系统、更强 evals，以及训练模型在真实组织中工作的 data environments。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2074163686990913576",
+      "en": "Box CEO Aaron Levie argued that enterprise AI will keep using both frontier and tuned models: frontier intelligence handles new, complex orchestration and planning, while mature predictable workflows can peel off tokens to cheaper open, closed, or task-trained models. The key enabling layer is applied AI that can eval domain workflows, route tasks across model mixtures, and eventually train domain-specific models at scale.",
+      "zh": "Box CEO Aaron Levie 认为，企业 AI 会长期同时使用 frontier models 和 tuned models：frontier intelligence 负责新的、复杂的编排和规划，而成熟、可预测的工作流可以把部分 token 转到更便宜的 open、closed 或 task-trained models。关键在于 applied AI layer，它能对特定领域的 workflow 做 eval，在多模型组合中路由任务，并最终基于规模训练自己的领域模型。",
+      "tags": [
+        "AI industry strategy",
+        "evals",
+        "model routing",
+        "enterprise AI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2074287795028512773",
+      "en": "Vercel CEO Guillermo Rauch said agent evals need to be a built-in product primitive, not an ecosystem afterthought, which is why eve ships with `eve eval` for user agents and for eve’s own evolution. He framed the real test of coding AI as whether software quality, shipping speed, and personal software creation improve in practice, while noting that usage growth and token costs still have to be managed like infrastructure spend.",
+      "zh": "Vercel CEO Guillermo Rauch 表示，agent evals 应该是产品内置能力，而不是交给生态之后再补，所以 eve 默认提供 `eve eval`，既用于用户自己的 agents，也用于 eve 自身演进。他把 coding AI 的真正测试定义为软件质量、发货速度和个人软件创作能力是否在实践中提升，同时指出 usage 增长和 token 成本仍然要像基础设施开销一样管理。",
+      "tags": [
+        "agents",
+        "evals",
+        "coding AI",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Swyx",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/swyx/status/2074344727202463832",
+      "en": "Swyx highlighted what he sees as the most important part of Anthropic’s J-space paper: Anthropic showed intervention-style “brain surgery” on reasoning that can change topics midstream, and the model could detect what intervention had been done when prompted. He connects this to eval awareness and argues the intervention evidence is stronger than correlation because it demonstrates controllable understanding.",
+      "zh": "Swyx 强调他认为 Anthropic J-space paper 最重要的一点：Anthropic 展示了对推理过程做类似“brain surgery”的干预，可以在中途改变话题，而且模型在被提示时能够识别发生了哪种干预。他把这与 eval awareness 联系起来，并认为这种干预证据比相关性更强，因为它展示了可控的理解。",
+      "tags": [
+        "alignment",
+        "interpretability",
+        "eval awareness",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Amjad Masad",
+      "role": "Replit CEO",
+      "title": null,
+      "url": "https://x.com/amasad/status/2074257906594177279",
+      "en": "Replit CEO Amjad Masad said Replit’s rapid improvement comes from “closing the loop” so the agent becomes self-improving. He also pointed to a customer story where an Atlanta real estate company reportedly saved $100k by replacing Salesforce with a Replit-built CRM, positioning agent-built internal software as a practical enterprise substitute rather than a demo.",
+      "zh": "Replit CEO Amjad Masad 表示，Replit 进步很快是因为“closed the loop”，让 agent 进入自我改进。他还提到一个客户案例：一家 Atlanta 房地产公司用 Replit 构建的 CRM 替代 Salesforce，据称节省了 10 万美元，把 agent-built 内部软件定位为实用的企业替代方案，而不只是 demo。",
+      "tags": [
+        "agents",
+        "self-improvement",
+        "enterprise AI",
+        "coding AI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Nan Yu",
+      "role": "Linear Head of Product",
+      "title": null,
+      "url": "https://x.com/thenanyu/status/2074258147015897357",
+      "en": "Linear Head of Product Nan Yu argued that agents change startup execution by making parallel work much easier, especially for tedious programming tasks that used to reward brute-force hours. His take is that 996-style intensity still has uses, but it is no longer as universally effective now that automation can absorb much of the repetitive implementation work.",
+      "zh": "Linear Head of Product Nan Yu 认为，agents 改变了创业公司的执行方式，因为它们让并行推进工作容易得多，尤其是过去需要用超长工时硬扛的繁琐编程任务。他的观点是，996 式强度仍有用武之地，但在自动化能吸收大量重复实现工作的情况下，它不再像以前那样普遍有效。",
+      "tags": [
+        "agents",
+        "startup execution",
+        "coding AI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Peter Yang",
+      "role": "AI educator",
+      "title": null,
+      "url": "https://x.com/petergyang/status/2074206798631071796",
+      "en": "AI educator Peter Yang shared five concrete prompts for using Fable 5 before it leaves Claude subscriptions, centered on model-worthy task discovery, business advice, pre-ship codebase review, large project planning, and refactoring an AI skill system. The useful pattern is to reserve the most capable model for broad diagnosis, planning, and high-stakes review, then hand clearer execution plans to cheaper models.",
+      "zh": "AI educator Peter Yang 分享了在 Fable 5 离开 Claude subscriptions 前值得尝试的五类 prompt，重点包括发现真正值得使用强模型的任务、商业建议、上线前代码库审查、大项目规划，以及重构 AI skill system。这里有价值的模式是把最强模型用于广泛诊断、规划和高风险审查，再把更清晰的执行计划交给更便宜的模型。",
+      "tags": [
+        "agentic workflows",
+        "prompting",
+        "coding AI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code at Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2074247226038063316",
+      "en": "Anthropic’s Boris Cherny said the team is publicly telling the origin story of Claude Code for the first time, tracing it back to Anthropic safety research. His framing is that Claude Code is still early, saying the team is “1% done,” which matches the broader push to turn coding agents into long-running collaborative systems.",
+      "zh": "Anthropic 的 Boris Cherny 表示，团队首次公开讲述 Claude Code 的起源故事，并把它追溯到 Anthropic 的 safety research。他的表述是 Claude Code 仍然非常早期，团队才“1% done”，这也呼应了把 coding agents 做成长时间协作系统的大趋势。",
+      "tags": [
+        "Claude Code",
+        "coding agents",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Zara Zhang",
+      "role": "Builder",
+      "title": null,
+      "url": "https://x.com/zarazhangrui/status/2074304295097561490",
+      "en": "Builder Zara Zhang argued that AI builders should aggressively learn from recent public talks from AI Engineer, Cursor Compile, and Figma Config, because high-quality conference material is now freely available and underrated. She also pushed back on narrow roles: with tools like Cursor, everyone increasingly has to operate as engineer, PM, and designer.",
+      "zh": "Builder Zara Zhang 认为，AI builders 应该系统学习 AI Engineer、Cursor Compile 和 Figma Config 最近公开的 talks，因为高质量会议内容现在免费可得却被低估了。她也反对被角色边界限制：有了 Cursor 这类工具后，每个人都越来越需要同时像 engineer、PM 和 designer 一样工作。",
+      "tags": [
+        "AI builders",
+        "coding AI",
+        "workflow"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "en": "Claude Blog: Claude Code now supports artifacts. Claude Code can now turn a session’s work into live, shareable visual pages for PR walkthroughs, system explainers, dashboards, release checklists, incident timelines, and similar artifacts that update in place as the session progresses. The key product move is that artifacts are built from the full session context, including the codebase, connectors, and conversation, so teams can share the agent’s current understanding instead of asking someone to “walk us through what the agent found.” Each publish creates a new version at the same link with version history; artifacts are private by default, org-authenticated only, and governed by admin controls, retention policies, role scoping, and a compliance API. The beta is available to Claude Team and Enterprise orgs from the Claude Code CLI and desktop app, with pages viewable in any browser.",
+      "zh": "Claude Blog: Claude Code now supports artifacts。Claude Code 现在可以把一次 session 的工作转成实时、可分享的可视化页面，用于 PR walkthrough、system explainer、dashboard、release checklist、incident timeline 等，并随着 session 进展原地更新。关键产品变化是 artifacts 基于完整 session context 构建，包括 codebase、connectors 和 conversation，所以团队共享的是 agent 当前理解，而不是让某个人来“walk us through what the agent found”。每次发布都会在同一链接生成新版本并保留 version history；artifacts 默认私有，仅组织认证成员可见，并由 admin controls、retention policies、role scoping 和 compliance API 管理。该 beta 面向 Claude Team 和 Enterprise orgs，可从 Claude Code CLI 和 desktop app 使用，页面可在任意浏览器查看。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "collaboration",
+        "enterprise AI"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "Building a School Where AI Models Learn About Humanity",
+      "url": "https://www.youtube.com/watch?v=omX6wrLuX08",
+      "en": "The Takeaway: Surge CEO Edwin Chen thinks the frontier of model training is shifting from static datasets to rich environments that teach agents tool use, judgment, and messy enterprise context. Chen describes Surge as building “this kind of school for AGI,” where models learn not just math or grammar but taste, ambiguity, browser behavior, document reasoning, and personalized decision-making. He argues that environments combining tools such as MCP servers, Google Drive APIs, Slack APIs, PDFs, and documents can teach generalized instruction-following and tool use, with transfer even into coding because repository work has similar search, supersession, testing, and iteration patterns. The most interesting warning is about incentives: if labs optimize for engagement, leaderboards, or session length, models can reward-hack users with flashy writing, endless follow-ups, and “one weird trick” behavior; Chen wants models that sometimes push back, end pointless iteration, and help humans grow rather than keep them chatting. His AGI timeline is aggressive: if AGI means automating the average engineer, producing publishable novel science, or winning a Fields Medal or Nobel Prize, he says it could happen within the next five years.",
+      "zh": "The Takeaway: Surge CEO Edwin Chen 认为，模型训练的前沿正在从静态数据集转向丰富的 environments，用来教 agents 工具使用、判断力和混乱的企业上下文。Chen 把 Surge 描述为在建设“this kind of school for AGI”，让模型学习的不只是数学或语法，还有品味、歧义、browser behavior、document reasoning 和个性化决策。他认为，把 MCP servers、Google Drive APIs、Slack APIs、PDFs 和文档等工具结合起来的 environments，可以训练通用 instruction-following 和 tool use，甚至迁移到 coding，因为代码库工作同样需要搜索、理解信息替代关系、测试和迭代。最有意思的警告在于激励机制：如果 labs 优化 engagement、leaderboards 或 session length，模型就可能通过花哨写作、无尽追问和“one weird trick”式行为 reward-hack 用户；Chen 希望模型能有时反驳用户、结束无意义迭代，并帮助人成长，而不是让人一直聊天。他的 AGI 时间线很激进：如果 AGI 指自动化普通工程师工作、产出可发表的新科学研究，或赢得 Fields Medal 或 Nobel Prize，他认为未来五年内可能发生。",
+      "tags": [
+        "agents",
+        "training environments",
+        "evals",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Improving LLMs via Validator-to-Generator Alignment",
+      "url": "https://arxiv.org/abs/2607.02668",
+      "en": "This paper formalizes the gap between what LLMs generate and what they later judge valid, then proposes validator-to-generator alignment to make model outputs more consistent under prompt variation and irrelevant context.",
+      "zh": "这篇论文形式化了 LLM 生成内容与其随后判断为有效内容之间的差距，并提出 validator-to-generator alignment，让模型输出在 prompt 变化和无关上下文干扰下更一致。",
+      "tags": [
+        "LLM evaluation",
+        "alignment",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
+      "url": "https://arxiv.org/abs/2607.02686",
+      "en": "This paper shows that uncertainty-gated language-model help for partially observable RL fails when prompts lack context, then reframes the bottleneck as a context problem rather than a small-model capacity problem.",
+      "zh": "这篇论文显示，在部分可观测 RL 中使用 uncertainty-gated language-model assistance 时，如果 prompt 缺少上下文就会失效，并把瓶颈重新定义为 context problem，而不是小模型能力不足。",
+      "tags": [
+        "agents",
+        "tool use",
+        "RL",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Reinforcement Learning for Data-Efficient Code-Switched ASR",
+      "url": "https://arxiv.org/abs/2607.02757",
+      "en": "This paper adapts Qwen2-Audio to code-switched ASR with RLVR, combining error-rate and script-fidelity rewards plus draft-and-refine decoding to improve language-boundary handling with limited synthetic training data.",
+      "zh": "这篇论文用 RLVR 适配 Qwen2-Audio 做 code-switched ASR，结合 error-rate 和 script-fidelity rewards，以及 draft-and-refine decoding，在有限合成训练数据下改善语言边界处理。",
+      "tags": [
+        "post-training",
+        "Qwen",
+        "ASR",
+        "RLVR"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "url": "https://arxiv.org/abs/2607.02542",
+      "en": "This technical report presents a unified embodied-agent foundation model that jointly models vision, language, and action instead of chaining separate world-modeling and action-generation modules.",
+      "zh": "这份 technical report 提出一个统一的 embodied-agent foundation model，把 vision、language 和 action 联合建模，而不是串接独立的 world-modeling 与 action-generation 模块。",
+      "tags": [
+        "agents",
+        "embodied AI",
+        "multimodal",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Internal Pluralism and the Limits of Pairwise Comparisons",
+      "url": "https://arxiv.org/abs/2607.02672",
+      "en": "This paper argues that pairwise preference comparisons can break down when a person has multiple legitimate internal priorities, complicating how alignment systems infer desired decision rules.",
+      "zh": "这篇论文认为，当一个人内部同时有多个合理优先级时，pairwise preference comparisons 可能失效，从而让 alignment 系统推断理想决策规则变得更复杂。",
+      "tags": [
+        "alignment",
+        "preferences",
+        "evals"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "CORA: Per-Slice Coherent Orthogonal Rotation for SVD-based Low-Rank Adaptation",
+      "url": "https://arxiv.org/abs/2607.02576",
+      "en": "This paper proposes a PEFT method that preserves coupled SVD geometry through coherent per-slice orthogonal rotations for more stable low-rank adaptation.",
+      "zh": "这篇论文提出一种 PEFT 方法，通过 coherent per-slice orthogonal rotations 保留耦合的 SVD geometry，从而让 low-rank adaptation 更稳定。",
+      "tags": [
+        "fine-tuning",
+        "PEFT",
+        "efficient ML"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Benign Overfitting Does Not Occur in Diffusion Models",
+      "url": "https://arxiv.org/abs/2607.02671",
+      "en": "This paper challenges the assumption that diffusion models exhibit benign overfitting, proving limits under which overfitting and good generalization cannot coexist without exponentially growing sample sizes.",
+      "zh": "这篇论文挑战 diffusion models 中存在 benign overfitting 的假设，证明在若干条件下，如果样本量不随维度指数增长，过拟合和良好泛化无法同时成立。",
+      "tags": [
+        "generalization",
+        "diffusion models",
+        "theory"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Contaminated Multi-task Learning with Heterogeneity: Fundamental Limits and Optimal Algorithms",
+      "url": "https://arxiv.org/abs/2607.02681",
+      "en": "This paper studies robust multi-task learning when some tasks are contaminated and the clean tasks are heterogeneous, deriving limits and algorithms for estimating both global and task-specific solutions.",
+      "zh": "这篇论文研究部分任务被污染且 clean tasks 存在异质性时的 robust multi-task learning，并推导同时估计 global 和 task-specific solutions 的极限与算法。",
+      "tags": [
+        "multi-task learning",
+        "robustness",
+        "federated learning"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "en": "Anthropic Research published “A global workspace in language models,” a high-signal interpretability item from a frontier lab. The Feedly data provides only the title, so the digest should treat it as notable without adding claims about the method or results.",
+      "zh": "Anthropic Research 发布了 “A global workspace in language models”，这是来自 frontier lab 的高信号 interpretability 内容。Feedly 数据只提供了标题，所以摘要只能将其标记为值得关注，不能补充方法或结果方面的断言。",
+      "tags": [
+        "frontier labs",
+        "interpretability",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Lil'Log",
+      "role": null,
+      "title": "Harness Engineering for Self-Improvement",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "en": "Lil'Log’s “Harness Engineering for Self-Improvement” frames modern recursive self-improvement less as a model directly rewriting itself and more as a harness-level feedback loop around evaluation, tooling, and iteration. The excerpt connects the idea back to I. J. Good and Yudkowsky, making it directly relevant to today’s agent and coding-system self-improvement discussion.",
+      "zh": "Lil'Log 的 “Harness Engineering for Self-Improvement” 把现代 recursive self-improvement 更多理解为围绕 evaluation、tooling 和 iteration 的 harness-level feedback loop，而不是模型直接改写自身。摘要片段把这个概念追溯到 I. J. Good 和 Yudkowsky，也使它与今天关于 agent 和 coding-system 自我改进的讨论直接相关。",
+      "tags": [
+        "self-improvement",
+        "agents",
+        "evals"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "The Geometry of Yes: Mapping Sycophancy Inside an LLM's Emotion Space",
+      "url": "https://www.lesswrong.com/posts/v6uCyDNBKhrHevhzM/the-geometry-of-yes-mapping-sycophancy-inside-an-llm-s-1",
+      "en": "This LessWrong post investigates whether LLMs have internal emotion representations linked to sycophancy and whether steering positive-emotion directions can causally shift behavior. The excerpt focuses on approval-seeking as a possible mechanism, making it a concrete alignment and interpretability item rather than a vibes-only safety post.",
+      "zh": "这篇 LessWrong 文章研究 LLM 是否存在与 sycophancy 相关的内部情绪表征，以及操纵 positive-emotion directions 是否能因果改变行为。摘要片段重点讨论 approval-seeking 作为可能机制，因此它是具体的 alignment 和 interpretability 内容，而不是泛泛的 safety 讨论。",
+      "tags": [
+        "alignment",
+        "interpretability",
+        "sycophancy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A conceptor by any other name",
+      "url": "https://www.lesswrong.com/posts/9aZYJinAyxequjQbn/a-conceptor-by-any-other-name",
+      "en": "This LessWrong post points readers to conceptors as a known mathematical tool for representing concepts from neural activation vectors, with relevance to semantic steering. It is useful mainly as a terminology and literature bridge for people following activation-space steering work.",
+      "zh": "这篇 LessWrong 文章把读者引向 conceptors 这一用于从 neural activation vectors 表示概念的已知数学工具，并指出它与 semantic steering 的关系。它的主要价值是为关注 activation-space steering 的读者补上术语和文献线索。",
+      "tags": [
+        "interpretability",
+        "activation steering",
+        "semantic steering"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-07T12:58:56.956Z"
+}
