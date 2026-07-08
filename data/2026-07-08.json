@@ -1,0 +1,364 @@
+{
+  "date": "2026-07-08",
+  "headline_en": "Agent deployment, evaluation, and infrastructure dominated the day, from frontier-model launch teasers to concrete lessons on enterprise data, containment, serving efficiency, and real-world autonomous systems.",
+  "headline_zh": "今天的主线是 agent 部署、评测与基础设施，从 frontier model 发布预告，到企业数据、containment、serving 效率和现实世界自治系统的具体经验。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2074719479377109312",
+      "en": "Box CEO Aaron Levie said enterprise AI agent adoption is running into operating-model, data-fragmentation, metrics, multi-model, and talent bottlenecks. His strongest point is that agents work best when tied to cross-functional processes, while most companies still organize data and authority in silos; if model access becomes commoditized, proprietary business context becomes the real moat.",
+      "zh": "Box CEO Aaron Levie 表示，企业采用 AI agent 正遇到 operating model、数据碎片化、指标、多模型和人才瓶颈。他最核心的观点是，agent 最适合绑定跨职能流程，但多数公司仍按孤岛组织数据和权限；如果模型访问逐渐商品化，专有业务上下文会成为真正的护城河。",
+      "tags": [
+        "agents",
+        "enterprise AI",
+        "data moat",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "AI is cool i guess",
+      "title": null,
+      "url": "https://x.com/sama/status/2074709023807664454",
+      "en": "Sam Altman said GPT-5.6 sol launches Thursday and told builders to start building. The post gives no technical details, but it is a direct frontier-lab release signal.",
+      "zh": "Sam Altman 表示 GPT-5.6 sol 将在周四发布，并让 builders 开始构建。帖子没有提供技术细节，但这是一个直接的 frontier lab 发布信号。",
+      "tags": [
+        "GPT-5.6",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Madhu Guru",
+      "role": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana",
+      "title": null,
+      "url": "https://x.com/realmadhuguru/status/2074734468854899191",
+      "en": "Madhu Guru argued that data and evals are not low-skill plumbing but the strategic core of model development. In his lifecycle, strong upfront opinions become target evals, which then shape pretraining, post-training, RL alignment, checkpoint selection, regression tradeoffs, and GTM decisions.",
+      "zh": "Madhu Guru 认为，数据和 evals 不是低技能的基础工作，而是模型开发的战略核心。在他描述的生命周期里，前期强观点会转化为目标 evals，随后影响 pretraining、post-training、RL alignment、checkpoint 选择、回归取舍和 GTM 决策。",
+      "tags": [
+        "evals",
+        "post-training",
+        "model strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2074630835878453601",
+      "en": "Vercel CEO Guillermo Rauch framed the filesystem as an interface for agent extensibility: define `tools/github.ts`, export `createGitHubTools()`, and the agent gets GitHub powers. He positioned Eve as an open ecosystem of pluggable models, skills, channels, and tools.",
+      "zh": "Vercel CEO Guillermo Rauch 将 filesystem 描述为 agent 扩展性的接口：定义 `tools/github.ts`，导出 `createGitHubTools()`，agent 就能获得 GitHub 能力。他把 Eve 定位为一个由可插拔 models、skills、channels 和 tools 组成的开放生态。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Eve"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": "AI assistant built by Anthropic",
+      "title": null,
+      "url": "https://x.com/claudeai/status/2074548242386178258",
+      "en": "Claude said Anthropic is extending access to Claude Fable 5 on all paid plans through July 12, with up to 50% of the weekly usage limit usable on Fable 5 before switching to credits or another model. Claude also said doubled Cowork usage limits are extended through August 5 for larger delegated work.",
+      "zh": "Claude 表示 Anthropic 将把所有付费计划的 Claude Fable 5 访问延长至 7 月 12 日，用户最多可将每周用量上限的 50% 用在 Fable 5，之后可使用 usage credits 或切换到其他模型。Claude 还表示，Cowork 的双倍用量上限将延长至 8 月 5 日，以支持更大的 delegated work。",
+      "tags": [
+        "Claude Fable 5",
+        "Cowork",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "title": null,
+      "url": "https://x.com/petergyang/status/2074616982197174515",
+      "en": "Peter Yang asked how to decide which authenticated cron jobs should stay local on a Mac Mini versus move to the cloud with apps OAuth’d into Claude or ChatGPT. The useful framing is less about cron itself and more about where agentic automation should live when credentials, local state, reliability, and cloud execution trade off against each other.",
+      "zh": "Peter Yang 提出一个问题：已经在 Mac Mini 上完成 Google Workspace 等认证的 cron jobs，哪些应该留在本地，哪些应该迁到云端并授权给 Claude 或 ChatGPT。这个问题的价值不在 cron 本身，而在于 agentic automation 应该运行在哪里，尤其是 credentials、本地状态、可靠性和云端执行之间的取舍。",
+      "tags": [
+        "agents",
+        "automation",
+        "tool use"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code at Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2074619715826381168",
+      "en": "Thariq showed Claude turning static presentation slides into animated YouTube short clips, with the caveat that transcription was still chaotic and rendering quality was intentionally low for speed. It is a concrete demo of coding-agent workflows expanding from code edits into media generation and report-style production loops.",
+      "zh": "Thariq 展示了 Claude 将静态演示文稿 slide 转成带动画的 YouTube short clips，并说明转录仍然混乱，渲染质量也为了速度被故意压低。这是一个具体信号，说明 coding-agent workflow 正从代码修改扩展到媒体生成和报告式生产循环。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "media generation"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Nikunj Kothari",
+      "role": "Partner at FPV Ventures",
+      "title": null,
+      "url": "https://x.com/nikunj/status/2074530614745960792",
+      "en": "Nikunj Kothari described a practical Fable workflow: generate `/insights` on Claude Code, feed that back in, ask how to maximize Claude Code’s utility in a Fable era, then have it implement the result. It is a lightweight example of using one agent pass to improve the operating procedure for the next.",
+      "zh": "Nikunj Kothari 描述了一个实用的 Fable workflow：在 Claude Code 上生成 `/insights`，再喂回去，询问在 Fable 时代如何最大化 Claude Code 的效用，然后让它实现结果。这是一个轻量例子，展示如何用一次 agent 执行来改进下一次的工作流程。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "workflows"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "en": "Anthropic Engineering: How we contain Claude across products argues that as Claude gains access powerful enough to affect internal services, the central engineering problem is no longer just making failures less likely but capping blast radius. Anthropic contrasts three containment patterns: ephemeral gVisor containers for claude.ai code execution, a human-in-the-loop OS sandbox for Claude Code, and a sealed local VM for Claude Cowork. The post is unusually concrete: users approved about 93% of Claude Code permission prompts, sandboxing cut prompts by 84%, Claude Opus 4.7 holds Gray Swan single-attempt prompt-injection success to roughly 0.1%, and Claude Code auto mode catches roughly 83% of overeager behaviors. The practical lesson is blunt: deterministic environment boundaries beat probabilistic model supervision when credentials, files, sockets, and approved domains become attack surfaces; as the post puts it, “The deterministic boundary is what gets hit when everything probabilistic misses.”",
+      "zh": "Anthropic Engineering: How we contain Claude across products 认为，随着 Claude 获得足以影响内部服务的访问权限，核心工程问题不再只是降低失败概率，而是限制 blast radius。Anthropic 对比了三种 containment 模式：claude.ai 代码执行使用临时 gVisor containers，Claude Code 使用 human-in-the-loop OS sandbox，Claude Cowork 使用 sealed local VM。这篇文章的具体性很强：用户批准了约 93% 的 Claude Code permission prompts，sandboxing 将 prompts 减少了 84%，Claude Opus 4.7 在 Gray Swan 单次 prompt-injection 攻击中的成功率约为 0.1%，Claude Code auto mode 能拦截约 83% 的 overeager behaviors。实际教训很直接：当 credentials、files、sockets 和 approved domains 都变成攻击面时，确定性的环境边界比概率式模型监督更可靠；正如原文所说，“The deterministic boundary is what gets hit when everything probabilistic misses.”",
+      "tags": [
+        "agents",
+        "AI safety",
+        "containment",
+        "Claude"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
+      "url": "https://www.youtube.com/watch?v=6bGxm8gX41o",
+      "en": "The Takeaway: Zipline’s biggest lesson is that autonomy in the real world is mostly infrastructure, safety engineering, operations, and regulation, not the vehicle itself. Zipline co-founder Keller Rinaudo Cliffton and systems engineering and safety lead Eric Watson describe a company that began with lifesaving blood delivery in Rwanda, learned that “the drone is 15% of the complexity,” and built the rest of the stack around inventory, maintenance, aviation integration, demand management, testing, and fleet operations. The numbers are the point: 140 million commercial autonomous miles, 2.5 million deliveries, service to 5,000 hospitals and health facilities across eight countries, and zero safety incidents. The engineering philosophy is concrete: dual flight computers with a third arbiter, centimeter-level navigation robust to solar flares, aggressive failure testing from 49 degrees Celsius down to -25 degrees Celsius, and vertical integration because off-the-shelf parts could not meet the safety and cost bar. The autonomy story also becomes an economics story: one human supervisor moved from one aircraft to as many as 100, and Zipline expects to pass 5,000 flights a day soon, exit the year above 30,000, and push toward a million deliveries a day. Keller’s warning to hardware founders is memorable: assume the system will cost 10x what you think, then ask whether the business still works.",
+      "zh": "The Takeaway: Zipline 最大的经验是，现实世界中的 autonomy 主要不是载具本身，而是 infrastructure、安全工程、运营和监管。Zipline co-founder Keller Rinaudo Cliffton 与 systems engineering and safety lead Eric Watson 描述了一家公司如何从 Rwanda 的救命血液配送起步，逐渐发现 “the drone is 15% of the complexity”，并围绕库存、维护、航空集成、需求管理、测试和 fleet operations 构建其余 stack。关键在数字：1.4 亿 commercial autonomous miles、250 万次配送、服务八个国家的 5,000 家医院和医疗机构，并且 zero safety incidents。工程哲学也很具体：双 flight computers 加第三 arbiter，对 solar flares 仍保持厘米级导航的鲁棒性，从 49 摄氏度到 -25 摄氏度的极限故障测试，以及因为现成零件达不到安全和成本门槛而选择 vertical integration。autonomy 最终也变成经济学问题：一个人类监督者从看一架 aircraft，发展到最多看 100 架；Zipline 预计很快超过每天 5,000 次 flights，年底超过 30,000，并向每天 100 万次 deliveries 推进。Keller 给 hardware founders 的提醒很值得记住：假设系统成本会是你想象的 10 倍，然后再问这个 business 是否仍然成立。",
+      "tags": [
+        "robotics",
+        "autonomy",
+        "AI infrastructure"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Benchmarking KV-Cache Optimizations across Task Quality and System Performance for Long-Context Serving",
+      "url": "https://arxiv.org/abs/2607.05399",
+      "en": "Benchmarks KV-cache quantization, pruning, and merging methods across long-context workloads to compare both answer quality and serving performance on Llama-3.1-8B-Instruct and Mistral-7B-Instruct-v0.3.",
+      "zh": "这篇论文在 long-context workloads 上评测 KV-cache quantization、pruning 和 merging 方法，比较它们在 Llama-3.1-8B-Instruct 与 Mistral-7B-Instruct-v0.3 上的回答质量和 serving 性能。",
+      "tags": [
+        "long-context",
+        "inference optimization",
+        "serving"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
+      "url": "https://arxiv.org/abs/2607.05456",
+      "en": "Introduces a multi-agent bioinformatics manuscript system meant to ground claims in verifiable literature, execute rather than fabricate experiments, and evaluate generated papers with a standardized multidimensional framework.",
+      "zh": "这篇论文提出一个用于 bioinformatics manuscript 的 multi-agent 系统，目标是让 claims 可由文献验证、让实验真正执行而不是编造，并用标准化多维框架评估生成论文。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "bioinformatics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "To Retain or to Adapt? Generalizing Continual Learning",
+      "url": "https://arxiv.org/abs/2607.05609",
+      "en": "Reframes continual learning away from always retaining old tasks and toward minimizing average lifelong error in non-stationary environments where adaptation may matter more than memory.",
+      "zh": "这篇论文把 continual learning 从始终保留旧任务的目标，改写为在非平稳环境中最小化 average lifelong error，其中 adaptation 可能比 memory 更重要。",
+      "tags": [
+        "evaluation",
+        "continual learning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "How Personas Can Influence Agents to Play Split or Steal",
+      "url": "https://arxiv.org/abs/2607.05398",
+      "en": "Tests whether persona prompts actually change open-model agents’ strategic behavior in an iterated Split or Steal game against a fixed virtual human.",
+      "zh": "这篇论文测试 persona prompts 是否真的会改变 open-model agents 在迭代 Split or Steal 博弈中面对固定 virtual human 时的策略行为。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "personas"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming",
+      "url": "https://arxiv.org/abs/2607.05571",
+      "en": "Creates a benchmark for evaluating small language models as K-12 programming tutors in VEX VR, scored against scenario-based pedagogical rubrics.",
+      "zh": "这篇论文创建了一个 benchmark，用于评估 small language models 在 VEX VR 中作为 K-12 编程 tutor 的表现，并基于场景化教学 rubric 打分。",
+      "tags": [
+        "benchmarks",
+        "small models",
+        "education"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective",
+      "url": "https://arxiv.org/abs/2607.05416",
+      "en": "Proposes Ladderpath-based text distance measures that use nested and hierarchical repetitions as compression-style structure for sequence classification.",
+      "zh": "这篇论文提出基于 Ladderpath 的 text distance measures，用嵌套和层级重复作为 compression-style 结构来做序列分类。",
+      "tags": [
+        "NLP",
+        "compression",
+        "text distance"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physical IoT Systems and Beyond",
+      "url": "https://arxiv.org/abs/2607.05563",
+      "en": "Develops a physics-inspired structural attribution approach for explaining behavior in large cyber-physical IoT systems where explicit causal graphs are hard to recover.",
+      "zh": "这篇论文为大型 cyber-physical IoT systems 提出一种 physics-inspired structural attribution 方法，用于在难以恢复显式 causal graphs 的场景中解释系统行为。",
+      "tags": [
+        "interpretability",
+        "causal explanation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Higher-Order Certified Robustness for Regression",
+      "url": "https://arxiv.org/abs/2607.05536",
+      "en": "Extends randomized smoothing ideas to regression with a prediction-centered robustness certificate that aims to use local function geometry and remain computable at test time.",
+      "zh": "这篇论文将 randomized smoothing 思路扩展到 regression，提出 prediction-centered robustness certificate，目标是利用局部函数几何并保持测试时可计算。",
+      "tags": [
+        "robustness",
+        "regression"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "How much slower does takeoff go with 10× less compute?",
+      "url": "https://www.lesswrong.com/posts/7jcPg79p3kD5ir3CL/how-much-slower-does-takeoff-go-with-10-less-compute",
+      "en": "LessWrong estimates that cutting an AGI company’s R&D compute by 10x slows takeoff by about 6x in the median case, with an 80% confidence interval of 3.5x to 8x. The setup explicitly includes compute for experiments, automated researcher agents, and final frontier training runs, making it relevant to debates over compute bottlenecks and AI strategy.",
+      "zh": "LessWrong 估计，将一家 AGI 公司的 R&D compute 削减 10 倍，会让 takeoff 在中位情况下变慢约 6 倍，80% 置信区间为 3.5 倍到 8 倍。其设定明确包含实验 compute、automated researcher agents compute 和最终 frontier training runs compute，因此与 compute bottleneck 和 AI strategy 讨论直接相关。",
+      "tags": [
+        "compute",
+        "AI industry strategy",
+        "agents"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Human Empowerment in an AI Society",
+      "url": "https://www.lesswrong.com/posts/dwpAXgCW6s5aAuiMz/human-empowerment-in-an-ai-society",
+      "en": "LessWrong frames gradual disempowerment as a central advanced-AI failure mode: humans can lose influence not through a sudden rogue takeover, but by steadily delegating power to systems that no longer depend on human participation. The post is worth keeping because it focuses on institutional control and empowerment rather than generic alignment vibes.",
+      "zh": "LessWrong 将 gradual disempowerment 描述为 advanced AI 的核心失败模式之一：人类不一定会因为突然的 rogue takeover 失去影响力，也可能是在持续把权力交给不再依赖人类参与的系统时逐步失控。这篇值得保留，因为它关注 institutional control 和 empowerment，而不是泛泛的 alignment 情绪。",
+      "tags": [
+        "AI safety",
+        "governance",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "url": "https://huggingface.co/blog/skypilot-hf-storage",
+      "en": "Hugging Face and SkyPilot describe a storage workflow for running AI workloads on any cloud while storing artifacts on Hugging Face with zero-egress storage. The title alone suggests practical relevance for teams trying to reduce cloud lock-in and data-transfer cost in ML workflows.",
+      "zh": "Hugging Face 与 SkyPilot 描述了一种 storage workflow：AI workloads 可运行在任意 cloud 上，同时将 artifacts 存储在 Hugging Face，并使用 zero-egress storage。仅从标题看，它对希望降低 cloud lock-in 和数据传输成本的 ML workflows 团队有实践价值。",
+      "tags": [
+        "AI infrastructure",
+        "cloud",
+        "storage"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "en": "Hugging Face announced Hugging Face Models on Foundry Managed Compute. No summary text was provided, so the safe takeaway is that this is a deployment/infrastructure integration aimed at running Hugging Face models on Microsoft Foundry managed compute.",
+      "zh": "Hugging Face 发布了 Hugging Face Models on Foundry Managed Compute。数据中没有提供摘要，因此稳妥结论是：这是一个 deployment/infrastructure integration，面向在 Microsoft Foundry managed compute 上运行 Hugging Face models。",
+      "tags": [
+        "AI infrastructure",
+        "deployment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "en": "Hugging Face announced a one-click path from Hugging Face to Amazon SageMaker Studio. No summary text was provided, but the title indicates a workflow integration for moving model work into SageMaker Studio.",
+      "zh": "Hugging Face 发布了从 Hugging Face 一键进入 Amazon SageMaker Studio 的能力。数据中没有提供摘要，但标题表明这是一个将 model work 转入 SageMaker Studio 的 workflow integration。",
+      "tags": [
+        "AI infrastructure",
+        "deployment"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "I built an SRT translation pipeline using Gemini with multi-language input. Looking for feedback",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uqnfcm/i_built_an_srt_translation_pipeline_using_gemini/",
+      "en": "A r/LanguageTechnology user shared a Gemini-based SRT-to-SRT subtitle translation pipeline built to handle failures in English-to-highly-inflected-language MT, especially grammatical gender and verb moods such as Bulgarian renarrative mood. It is practitioner-level enough to keep because it targets a concrete NLP pain point rather than asking a beginner question.",
+      "zh": "一位 r/LanguageTechnology 用户分享了基于 Gemini 的 SRT-to-SRT 字幕翻译 pipeline，用来处理 English 到高度屈折语言的 MT 失败点，尤其是 grammatical gender 和 Bulgarian renarrative mood 这类 verb moods。这个帖子值得保留，因为它针对具体 NLP 痛点，而不是初学者泛问。",
+      "tags": [
+        "NLP",
+        "machine translation",
+        "Gemini"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-08T12:02:15.978Z"
+}
