@@ -1,0 +1,381 @@
+{
+  "date": "2026-07-09",
+  "headline_en": "Agent infrastructure, coding-agent evaluation, and post-training quality dominated the day, with frontier labs and builders converging on more reliable, secure, and collaborative AI workflows.",
+  "headline_zh": "今天的主线是 agent 基础设施、coding-agent 评估和 post-training 质量，frontier labs 和一线构建者都在转向更可靠、更安全、更协作的 AI workflows。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity.",
+      "title": null,
+      "url": "https://x.com/swyx/status/2074919183947808881",
+      "en": "Swyx argued that most agent labs avoid acknowledging Chinese model usage because government and defense sales make it politically awkward. He highlighted Cognition’s production work as the hard part: building a multilingual propaganda and censorship eval, correcting for it in post-training, and serving cheaply at 1000 tok/s.",
+      "zh": "Swyx 认为，大多数 agent labs 不愿承认自己使用 Chinese models，因为面向政府和国防客户销售会让这件事变得敏感。他特别强调 Cognition 真正做了难的部分：构建 multilingual propaganda and censorship eval，在 post-training 中修正问题，并以低成本实现 1000 tok/s 的服务。",
+      "tags": [
+        "Chinese ML/NLP community work",
+        "post-training",
+        "evals",
+        "serving"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": null,
+      "url": "https://x.com/zarazhangrui/status/2075004775436005687",
+      "en": "Zara Zhang warned that single-player enterprise AI can quietly weaken team culture: one founder bought Codex Max for everyone, after which people got work done by talking to Codex all day while meetings and collaboration faded. Her takeaway is that teams need to move beyond human-agent collaboration toward human-human-agent collaboration.",
+      "zh": "Zara Zhang 警告说，企业里的 single-player AI 可能会悄悄削弱团队文化：一位 founder 给所有成员买了 Codex Max，大家整天和 Codex 对话完成工作，会议取消了，协作也变少了。她的结论是，团队需要从 human-agent collaboration 继续进化到 human-human-agent collaboration。",
+      "tags": [
+        "LLM agents",
+        "agentic workflows",
+        "collaboration",
+        "Codex"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code @anthropicai",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2074997570317779038",
+      "en": "Claude Code’s Boris Cherny announced `/checkup`, a maintenance command that cleans unused skills/MCPs/plugins, deduplicates local and checked-in `CLAUDE.md`, breaks root guidance into nested `CLAUDE.md` files and skills, disables slow hooks, updates Claude Code, enables auto mode, and pre-approves common read-only commands. The command confirms before changing anything, making it a practical agent-workflow hygiene tool.",
+      "zh": "Claude Code 的 Boris Cherny 发布了 `/checkup`，这是一个维护命令，可以清理未使用的 skills/MCPs/plugins，去重本地和 repo 中的 `CLAUDE.md`，把根目录说明拆成嵌套 `CLAUDE.md` 和 skills，关闭慢 hooks，更新 Claude Code，启用 auto mode，并预批准常见只读命令。该命令会在修改前确认，是一个很实用的 agent workflow 清理工具。",
+      "tags": [
+        "Claude Code",
+        "LLM agents",
+        "MCP",
+        "developer tools"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Cat Wu",
+      "role": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": null,
+      "url": "https://x.com/_catwu/status/2074925531519468012",
+      "en": "Cat Wu framed Claude Tag as the move from single-player Claude Code to a multiplayer agent that can monitor team channels, do proactive work, be steered by the whole team, and remember instructions from prior weeks. The post points directly at the next product frontier: agents embedded in team coordination rather than isolated IDE sessions.",
+      "zh": "Cat Wu 把 Claude Tag 描述为从 single-player Claude Code 走向 multiplayer agent 的一步：它可以监控团队 channels，主动完成工作，由整个团队共同引导，并记住几周前的指令。这条信息指向了下一个产品前沿：agent 不再只是孤立的 IDE 会话，而是嵌入团队协作。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "team workflows",
+        "Claude Tag"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "title": null,
+      "url": "https://x.com/amasad/status/2075080984211624154",
+      "en": "Replit CEO Amjad Masad challenged the habit of comparing autonomous agents with hand-written code, arguing that compilers are not judged against engineers hand-writing assembly. The implication is that agent evaluation should focus on task outcomes and leverage, not line-by-line equivalence to traditional software production.",
+      "zh": "Replit CEO Amjad Masad 质疑把 autonomous agents 和 hand-written code 直接比较的习惯，理由是我们也不会拿 compiler 去和手写 assembly 的工程师比较。这里的含义是，agent evaluation 应该关注任务结果和杠杆效应，而不是逐行对齐传统软件生产方式。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "software engineering"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "title": null,
+      "url": "https://x.com/levie/status/2075073587015516228",
+      "en": "Box CEO Aaron Levie said the latest AI models are getting much better at complex knowledge-worker tasks in domains such as legal, professional services, and healthcare. He singled out Grok 4.5 as another strong cost-performance entry and argued that gains in coding, math, reasoning, and vertical training will unlock more enterprise data and document workflows.",
+      "zh": "Box CEO Aaron Levie 表示，最新 AI models 在 legal、professional services、healthcare 等复杂 knowledge-worker tasks 上变得很强。他点名 Grok 4.5 是 cost-performance 上的新强项，并认为 coding、math、reasoning 和垂直领域训练的提升，会释放更多 enterprise data 和 document workflows。",
+      "tags": [
+        "enterprise AI",
+        "Grok 4.5",
+        "knowledge work",
+        "documents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2075018147330232707",
+      "en": "Vercel CEO Guillermo Rauch predicted that AI will make all software native, meaning higher performance and stronger platform affinity rather than generic cross-platform compromise. He also noted Grok 4.5 availability for Vercel customers and pointed to the agent stack coming together for personal productivity agents.",
+      "zh": "Vercel CEO Guillermo Rauch 预测，AI 会让所有软件走向 native，也就是更高性能和更强平台亲和力，而不是泛化的跨平台妥协。他还提到 Grok 4.5 已面向 Vercel customers 可用，并表示 agent stack 正在拼合成可用于个人生产力 agents 的形态。",
+      "tags": [
+        "agents",
+        "Grok 4.5",
+        "software engineering",
+        "Vercel"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
+      "title": null,
+      "url": "https://x.com/trq212/status/2074993112217461020",
+      "en": "Thariq argued that AI should change the engineering default around rewrites: they can now be good, cheap, and fast when the target is testable and verifiable. He caveated that most apps are not as verifiable as Bun, but expects models to keep improving at filling those gaps.",
+      "zh": "Thariq 认为，AI 应该改变软件工程里对 rewrites 的默认看法：当目标系统足够 testable 和 verifiable 时，重写可以同时做到好、便宜、快。他也补充说，大多数应用并不像 Bun 那样容易验证，但 models 会继续提升并弥补这些缺口。",
+      "tags": [
+        "software engineering",
+        "coding agents",
+        "verification"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "en": "Anthropic Engineering: Scaling Managed Agents explains the architecture behind Claude Managed Agents: virtualize the agent into a durable session log, a stateless harness, and swappable sandboxes/tools. The key move is to “decouple the brain from the hands,” so Claude and its harness can fail, restart, and resume from the session log while tool execution runs in separate environments. That improves reliability, security, and enterprise deployment: credentials never need to enter the sandbox, customer resources can stay in a VPC, and the harness can call tools through interfaces like `execute(name, input) → string`. The payoff is concrete, with p50 time-to-first-token dropping roughly 60% and p95 over 90%, because containers are provisioned only when a task needs them.",
+      "zh": "Anthropic Engineering: Scaling Managed Agents 解释了 Claude Managed Agents 背后的架构：把 agent 虚拟化为 durable session log、stateless harness，以及可替换的 sandboxes/tools。关键动作是“decouple the brain from the hands”，让 Claude 和 harness 可以失败、重启，并从 session log 恢复，而工具执行运行在独立环境中。这同时提升了可靠性、安全性和企业部署能力：credentials 不需要进入 sandbox，客户资源可以留在 VPC 中，harness 可以通过 `execute(name, input) → string` 这类接口调用工具。实际收益也很明确：p50 time-to-first-token 下降约 60%，p95 下降超过 90%，因为只有任务真正需要时才会 provision containers。",
+      "tags": [
+        "LLM agents",
+        "agent infrastructure",
+        "MCP",
+        "enterprise AI"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "en": "Claude Blog: New in Claude Managed Agents adds two enterprise-facing capabilities: self-hosted sandboxes in public beta and MCP tunnels in research preview. The practical shift is that the agent loop, orchestration, context management, and recovery stay on Anthropic infrastructure, while tool execution can happen inside infrastructure the customer controls, including Cloudflare, Daytona, Modal, and Vercel. MCP tunnels let agents reach private MCP servers without exposing them publicly: a lightweight gateway makes a single outbound encrypted connection, so internal databases, APIs, knowledge bases, and ticketing systems can become tools. This is a significant security and deployment step for agentic workflows inside companies with existing network policies and audit systems.",
+      "zh": "Claude Blog: New in Claude Managed Agents 增加了两个面向企业的能力：public beta 的 self-hosted sandboxes，以及 research preview 的 MCP tunnels。实际变化是，agent loop、orchestration、context management 和 recovery 仍留在 Anthropic 基础设施上，而 tool execution 可以在客户控制的基础设施内运行，包括 Cloudflare、Daytona、Modal 和 Vercel。MCP tunnels 让 agents 可以访问私有 MCP servers，而不必把它们暴露到公网：一个轻量 gateway 发起单个 outbound encrypted connection，让内部 databases、APIs、knowledge bases 和 ticketing systems 都能成为 tools。对于已有 network policies 和 audit systems 的企业来说，这是 agentic workflows 部署和安全上的重要一步。",
+      "tags": [
+        "LLM agents",
+        "MCP",
+        "enterprise AI",
+        "sandboxes"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "en": "Anthropic Engineering: An update on recent Claude Code quality reports traces perceived Claude Code degradation to three product-layer issues, not the API or inference layer. Anthropic says it “never intentionally degrade[s]” models, then details a default reasoning-effort change from high to medium, a caching bug that repeatedly dropped older thinking after idle sessions, and a verbosity-reduction system prompt that caused a 3% drop on one broader eval. The most useful builder lesson is that agent quality can regress through harness defaults, context management, and prompt constraints even when the underlying model is unchanged. Anthropic says all issues were resolved by April 20 v2.1.116 and plans broader per-model evals, ablations, soak periods, gradual rollouts, and tighter prompt-change auditing.",
+      "zh": "Anthropic Engineering: An update on recent Claude Code quality reports 把 Claude Code 质量下降感知追溯到三个产品层问题，而不是 API 或 inference layer。Anthropic 表示自己“never intentionally degrade[s]” models，并解释了三个原因：默认 reasoning effort 从 high 改到 medium，一个在 idle sessions 后反复丢弃旧 thinking 的 caching bug，以及一个减少 verbosity 的 system prompt 在更广 eval 上造成了 3% drop。对 builders 最有价值的教训是，即使底层模型没变，agent quality 也可能因为 harness defaults、context management 和 prompt constraints 发生回退。Anthropic 表示所有问题已在 April 20 v2.1.116 解决，并计划引入更广的 per-model evals、ablations、soak periods、gradual rollouts 和更严格的 prompt-change auditing。",
+      "tags": [
+        "Claude Code",
+        "evals",
+        "reasoning",
+        "postmortem"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "How a Writer Uses AI Without Losing His Voice",
+      "url": "https://www.youtube.com/watch?v=7ND0lQmLJlA",
+      "en": "The Takeaway: AI can make individual software creation radically cheaper, but serious creative work still needs deliberate separation from the networked, dopamine-driven loop of tools, agents, and feeds. Writer Greg uses Claude and related tools to build “n of one software”: newsletter infrastructure, a private social network called The Good Place, archives, transcript search, and research helpers that support his writing life without touching the prose itself. His sharpest practical distinction is that AI belongs around the writing, not inside the sentence: he uses it for research, TKs, cultural sensitivity checks, security reviews, refactors, and publishing workflows, but says, “I don't ever want it touching the writing.” He is bullish on a “golden age of tool building,” especially for replacing stagnant SaaS, but also sees a new bar for substance: one-shot apps are easy, long-term maintenance and purpose are harder. The most useful habit is environmental design. He keeps a separate writing laptop, avoids the Internet until after lunch, and says the line is “the network,” because once the phone or feed enters the morning, “I feel the chemical shift” and deep attention disappears. His AI philosophy is deliberately non-mystical: be kind to models to preserve your own habits, do not treat chatbots as community, and keep human connection and sleep at the center of life.",
+      "zh": "The Takeaway: AI 可以极大降低个人软件创造成本，但真正严肃的创作仍然需要刻意隔离 tools、agents 和 feeds 带来的联网 dopamine 循环。Writer Greg 用 Claude 等工具构建 “n of one software”：newsletter infrastructure、名为 The Good Place 的私人社交网络、archives、transcript search，以及支持写作生活的 research helpers，但不让 AI 触碰正文。他最清晰的实践边界是，AI 应该围绕写作，而不是进入句子本身：他用它做 research、TKs、cultural sensitivity checks、security reviews、refactors 和 publishing workflows，但他说，“I don't ever want it touching the writing.” 他看好一个 “golden age of tool building”，尤其是替代停滞的 SaaS，但也认为新的质量门槛已经变了：one-shot apps 很容易，长期维护和目的感更难。最有用的习惯是环境设计。他保留一台专门写作的 laptop，午饭后才上网，并说界线在于 “the network”，因为一旦早晨碰到手机或 feed，“I feel the chemical shift”，深度注意力就消失了。他对 AI 的哲学刻意去神秘化：对 models 友善是为了维持自己的习惯，不要把 chatbots 当成 community，生活的中心仍然是 human connection 和 sleep。",
+      "tags": [
+        "agentic workflows",
+        "n-of-one software",
+        "creativity",
+        "AI tools"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
+      "url": "https://arxiv.org/abs/2607.06624",
+      "en": "AgentLens evaluates interactive coding agents by reviewing the full trajectory, including instruction following, tool use, self-verification, recovery, and communication, instead of reducing performance to a pass/fail task score.",
+      "zh": "AgentLens 评估 interactive coding agents 的完整 trajectory，包括 instruction following、tool use、self-verification、recovery 和 communication，而不是把表现压缩成 pass/fail 的任务分数。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "coding agents",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
+      "url": "https://arxiv.org/abs/2607.06720",
+      "en": "This paper models reflection-driven reasoning as approximate inference over reasoning traces and shows when reliable self-reflection can reduce the number of attempts needed for success, sometimes exponentially.",
+      "zh": "这篇论文把 reflection-driven reasoning 建模为对 reasoning traces 的近似推断，并说明在 self-reflection 能可靠定位早期错误时，成功所需的尝试次数可以大幅降低，有时甚至是指数级降低。",
+      "tags": [
+        "LLM reasoning",
+        "test-time compute",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Healthier LLMs: Retrieval-Augmented Generation for Public Health Question Answering",
+      "url": "https://arxiv.org/abs/2607.06641",
+      "en": "This work extends PubHealthBench into a RAG setting to study how retrieval configuration and evaluation beyond multiple-choice affect public-health QA reliability.",
+      "zh": "这项工作把 PubHealthBench 扩展到 RAG setting，用来研究 retrieval configuration 以及超越 multiple-choice 的评估如何影响 public-health QA 的可靠性。",
+      "tags": [
+        "RAG",
+        "retrieval",
+        "evaluation",
+        "public health"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LLM-powered reasoning in agent-based modeling",
+      "url": "https://arxiv.org/abs/2607.06757",
+      "en": "HALE uses LLMs inside agent-based epidemic simulations to predict human decision-making dynamically instead of relying only on static priors.",
+      "zh": "HALE 把 LLMs 放进 agent-based epidemic simulations 中，用来动态预测人类决策，而不是只依赖 static priors。",
+      "tags": [
+        "LLM agents",
+        "simulation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts",
+      "url": "https://arxiv.org/abs/2607.06611",
+      "en": "This paper combines audio features with ASR-generated and automatically translated multilingual transcripts through cross-modal transformers for speech sentiment analysis.",
+      "zh": "这篇论文通过 cross-modal transformers，把 audio features 与 ASR 生成并自动翻译的 multilingual transcripts 结合起来做 speech sentiment analysis。",
+      "tags": [
+        "multimodal",
+        "distillation",
+        "NLP"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Fast determinantal sampling on general spaces and diffusion geometry",
+      "url": "https://arxiv.org/abs/2607.06644",
+      "en": "This paper studies fast determinantal point process sampling on general spaces, aiming to build better minibatches, coresets, and compact dataset representations than i.i.d. sampling.",
+      "zh": "这篇论文研究 general spaces 上的 fast determinantal point process sampling，目标是比 i.i.d. sampling 更好地构建 minibatches、coresets 和紧凑数据表示。",
+      "tags": [
+        "efficient ML",
+        "sampling",
+        "coresets"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Jul 8, 2026AlignmentAn off switch for dual use knowledge in AI models",
+      "url": "https://www.anthropic.com/research/off-switch-dual-use",
+      "en": "Anthropic Research published an alignment item titled “An off switch for dual use knowledge in AI models.” The Feedly data provides only the title and URL, so the safe signal is that Anthropic is focusing on concrete controls for dual-use knowledge rather than broad alignment rhetoric.",
+      "zh": "Anthropic Research 发布了一篇 alignment 文章，标题是 “An off switch for dual use knowledge in AI models”。Feedly 数据只提供了标题和 URL，因此能安全提取的信号是：Anthropic 正在关注 dual-use knowledge 的具体控制机制，而不是泛泛的 alignment 叙事。",
+      "tags": [
+        "alignment",
+        "AI safety",
+        "dual-use"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Optimiser Choice Can Amplify or Suppress Emergent Misalignment",
+      "url": "https://www.lesswrong.com/posts/Wq6CaAbiixoCEzbat/optimiser-choice-can-amplify-or-suppress-emergent-1",
+      "en": "This LessWrong linkpost argues that optimizer choice can strongly affect emergent misalignment after narrow fine-tuning, while model size and family seem to matter much less. The reported mechanism is that optimizers concentrating LoRA updates into fewer directions degrade alignment more, while regularizing toward a flatter spectrum can mitigate the effect.",
+      "zh": "这篇 LessWrong linkpost 认为，在 narrow fine-tuning 之后，optimizer choice 会强烈影响 emergent misalignment，而 model size 和 family 的影响似乎小得多。其机制是，把 LoRA update 集中到更少方向的 optimizers 更容易损害 alignment，而把谱 regularize 得更平坦可以缓解这一问题。",
+      "tags": [
+        "alignment",
+        "fine-tuning",
+        "LoRA",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Announcing our $160M grant from Coefficient Giving",
+      "url": "https://www.lesswrong.com/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
+      "en": "Resolution, formerly Sequent, announced a $160M Coefficient Giving grant to fund rigorous alignment research closer to frontier-lab scale. The structure is $108M base funding plus $52M conditional on hiring success and compute needs, with a small regranting budget for external alignment work and shared infrastructure.",
+      "zh": "Resolution，前身为 Sequent，宣布获得 Coefficient Giving 的 $160M grant，用于把 rigorous alignment research 推到更接近 frontier labs 的规模。资金结构为 $108M base funding，加上取决于招聘成功和 compute needs 的 $52M conditional funding，并包含一小部分 regranting budget，用于支持外部 alignment work 和共享基础设施。",
+      "tags": [
+        "alignment",
+        "funding",
+        "AI safety",
+        "compute"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Interpretability is becoming increasingly uninterpretable",
+      "url": "https://www.lesswrong.com/posts/JiWTjLo2zxsqf2YXF/interpretability-is-becoming-increasingly-uninterpretable",
+      "en": "This LessWrong post questions whether interpretability research is drifting away from its original alignment purpose: making neural networks understandable enough to detect behaviors such as scheming. The useful signal is a critique of the field’s direction, not a new technique.",
+      "zh": "这篇 LessWrong 文章质疑 interpretability research 是否正在偏离它最初的 alignment 目标：让 neural networks 足够可理解，以便检测 scheming 等行为。这里的主要信号是对领域方向的批评，而不是一个新技术。",
+      "tags": [
+        "interpretability",
+        "alignment",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Native-speed vLLM transformers modeling backend",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "en": "Hugging Face published “Native-speed vLLM transformers modeling backend.” The title points to inference and serving efficiency, but the provided data contains no body summary, so no further technical claims should be inferred.",
+      "zh": "Hugging Face 发布了 “Native-speed vLLM transformers modeling backend”。标题指向 inference 和 serving efficiency，但给定数据没有正文摘要，因此不能进一步推断技术细节。",
+      "tags": [
+        "vLLM",
+        "inference optimization",
+        "serving"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "en": "Hugging Face published “Data for Agents.” The title suggests an agent-data resource, but the supplied Feedly item has no summary, so the digest should treat it as a pointer rather than a substantive claim.",
+      "zh": "Hugging Face 发布了 “Data for Agents”。标题暗示这是一个 agent-data 资源，但给定 Feedly item 没有摘要，因此这里只能把它当作一个指针，而不是具体主张。",
+      "tags": [
+        "LLM agents",
+        "data"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-09T12:02:25.984Z"
+}

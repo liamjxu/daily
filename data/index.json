@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-09",
+    "count": 24,
+    "headline_en": "Agent infrastructure, coding-agent evaluation, and post-training quality dominated the day, with frontier labs and builders converging on more reliable, secure, and collaborative AI workflows.",
+    "generatedAt": "2026-07-09T12:02:25.984Z"
+  },
+  {
     "date": "2026-07-08",
     "count": 24,
     "headline_en": "Agent deployment, evaluation, and infrastructure dominated the day, from frontier-model launch teasers to concrete lessons on enterprise data, containment, serving efficiency, and real-world autonomous systems.",
