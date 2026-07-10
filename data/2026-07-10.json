@@ -1,0 +1,346 @@
+{
+  "date": "2026-07-10",
+  "headline_en": "Model-release week pushed agents from demos toward daily work, with builders focusing on tool reliability, enterprise reasoning, open-model speed, and the economics of scaling.",
+  "headline_zh": "模型发布周把 agent 从演示推向日常工作，builder 们重点关注工具可靠性、企业级推理、open model 速度以及规模化经济账。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2075287443411222628",
+      "en": "Box CEO Aaron Levie says Box has been evaluating GPT-5.6 on the Box AI Complex Work eval with the Box AI Agent over hard enterprise document tasks. He reports Sol beats GPT-5.5 where enterprise agents struggle most: financial services at 76% vs 71%, healthcare at 58% vs 46%, public sector at 74% vs 63%, and life sciences at 60% vs 51%. His takeaway is that Sol is better at reasoning from source definitions and checking documents instead of taking them at face value, which matters for agents working over unstructured enterprise data.",
+      "zh": "Box CEO Aaron Levie 表示，Box 正在用 Box AI Agent 和 Box AI Complex Work eval 评估 GPT-5.6，任务覆盖高难度企业文档场景。他称 Sol 在企业 agent 最难的场景里超过 GPT-5.5：金融服务 76% vs 71%，医疗 58% vs 46%，公共部门 74% vs 63%，生命科学 60% vs 51%。他的核心判断是，Sol 更会从源定义出发推理并核查文档，而不是直接照单全收，这对处理非结构化企业数据的 agent 很关键。",
+      "tags": [
+        "GPT-5.6",
+        "agents",
+        "enterprise AI",
+        "evals"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google, Google Labs, Gemini App, Google AI Studio",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2075241749048401936",
+      "en": "Google VP Josh Woodward shared the top user feedback for Gemini after 1,400+ replies, with reliability dominating the list. The highest-priority fixes are more dependable Google Workspace integrations, better tool calling, projects and folder organization, broader MCP and Custom Skills support, and Deep Research improvements such as exporting reports to NotebookLM. The post is useful because it shows Gemini’s near-term agent roadmap is less about flashy new models and more about making tools, memory, organization, and workflow transitions reliable enough for daily work.",
+      "zh": "Google VP Josh Woodward 汇总了 Gemini 收到 1,400 多条回复后的用户反馈，最核心的问题是可靠性。优先事项包括更稳定的 Google Workspace 集成、更可靠的 tool calling、项目和文件夹组织、更广泛的 MCP 与 Custom Skills 支持，以及 Deep Research 改进，例如把报告导出到 NotebookLM。这条信息有价值之处在于，它显示 Gemini 近期 agent 路线图的重点不是炫目的新模型，而是让工具、记忆、组织和工作流切换稳定到可日常使用。",
+      "tags": [
+        "agents",
+        "tool use",
+        "MCP",
+        "Gemini"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "title": null,
+      "url": "https://x.com/petergyang/status/2075345016437039600",
+      "en": "Peter Yang argues OpenAI has the best shot at making agents mainstream because ChatGPT now combines images, live voice, browser and computer use, and app plugins into something closer to a white-collar coworker. After testing GPT-5.6 Sol on High, he says it is unusually persistent and reliable, but probably burns more tokens than GPT-5.5. His sharpest critique is product clarity: ChatGPT Work vs Codex, Sol/Terra/Luna, effort levels, and tasks vs chat all create confusion that should be unified before ordinary users can understand what to use when.",
+      "zh": "Peter Yang 认为，OpenAI 最有机会把 agent 带入主流，因为 ChatGPT 现在把图像、live voice、browser/computer use 和应用插件组合成了更像白领同事的形态。他测试 GPT-5.6 Sol 的 High 模式后称，它异常坚持、可靠，但可能比 GPT-5.5 消耗更多 token。他最尖锐的反馈是产品清晰度：ChatGPT Work vs Codex、Sol/Terra/Luna、effort levels、tasks vs chat 都会让用户困惑，普通用户真正知道何时用什么之前，这些概念需要统一。",
+      "tags": [
+        "GPT-5.6",
+        "agents",
+        "product UX",
+        "tool use"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Amjad Masad",
+      "role": "Replit CEO",
+      "title": null,
+      "url": "https://x.com/amasad/status/2075423115052790054",
+      "en": "Replit CEO Amjad Masad says AI is making coding less rigid, but that makes the runtime and infrastructure layer need to become more rigid. He is seeing infrastructure teams write formal specs, build more deterministic systems, and harden resilience because moving faster with AI requires more solid ground underneath. He also argues the LLM market has become dynamic enough that no single lab is likely to monopolize it.",
+      "zh": "Replit CEO Amjad Masad 表示，AI 正在让 coding 变得不那么死板，但这反过来要求 runtime 和基础设施层更严格。他看到基础设施团队开始写正式规格、构建更确定性的系统、强化韧性，因为用 AI 跑得越快，底层就越需要稳。他还认为 LLM 市场已经足够动态，不太可能由某一家实验室垄断。",
+      "tags": [
+        "agents",
+        "infrastructure",
+        "LLM market"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "AI is cool i guess",
+      "title": null,
+      "url": "https://x.com/sama/status/2075267201058426944",
+      "en": "Sam Altman says OpenAI has heard enterprise concerns about AI costs and frames GPT-5.6 Sol, Terra, and Luna as a major improvement in dollars per task. In a separate Codex post, he emphasizes that Codex is the core of OpenAI’s new work product and is not going away. The signal is that OpenAI is positioning the GPT-5.6 family around work execution, agentic coding, and cost efficiency rather than model quality alone.",
+      "zh": "Sam Altman 表示，OpenAI 已经听到企业对 AI 成本的担忧，并把 GPT-5.6 Sol、Terra 和 Luna 定位为 dollars-per-task 的重要进步。他在另一条 Codex 相关帖子里强调，Codex 是 OpenAI 新 work product 的核心，不会消失。这里的信号是，OpenAI 正在围绕工作执行、agentic coding 和成本效率来定位 GPT-5.6 系列，而不仅仅是模型质量。",
+      "tags": [
+        "GPT-5.6",
+        "Codex",
+        "agents",
+        "AI costs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2075294130327196152",
+      "en": "Vercel CEO Guillermo Rauch predicts Meta Spark 1.1, Grok 4.5, and GLM 5.2 will meaningfully displace token market share during model-release week. His claim is that most agentic tasks need reasonably high intelligence at fast speeds, which favors faster open or broadly available models once they cross the capability threshold. He adds that open models are about to get “exorbitantly fast.”",
+      "zh": "Vercel CEO Guillermo Rauch 预测，在模型发布周，Meta Spark 1.1、Grok 4.5 和 GLM 5.2 会显著挤占 token 市场份额。他的判断是，多数 agentic tasks 需要的是足够高的智能和快速响应，一旦 open 或广泛可用的模型越过能力门槛，速度就会成为关键优势。他还补充说，open models 即将变得“exorbitantly fast”。",
+      "tags": [
+        "open models",
+        "agents",
+        "inference",
+        "AI Gateway"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2075416313481290077",
+      "en": "Box CEO Aaron Levie frames a core strategic question for the next decade: if AI models absorb the best datasets and intelligence in every industry, how do firms still differentiate? His answer is that advantage will compound around proprietary data, workflow integration, employee interaction patterns, and the ability to use broadly available intelligence better than competitors. The strategic point is that abundant model intelligence does not erase firm-specific execution advantages; it may amplify them.",
+      "zh": "Box CEO Aaron Levie 提出未来十年的一个核心战略问题：如果 AI models 吸收了每个行业最好的数据和智能，公司还如何差异化？他的答案是，优势会围绕专有数据、工作流集成、员工交互方式，以及比竞争对手更好地使用通用智能的能力继续复利。这里的战略判断是，模型智能变得充裕并不会抹平公司特定的执行优势，反而可能放大它们。",
+      "tags": [
+        "enterprise AI",
+        "AI strategy",
+        "data moat"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code at Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2075283841758183674",
+      "en": "Claude Code’s Thariq gives a compact principle for agentic coding: one of the core skills is reducing unknowns. The post is brief, but it captures a practical builder lesson: effective coding agents and their users make progress by shrinking ambiguity, verifying assumptions, and turning open-ended tasks into narrower knowns.",
+      "zh": "Claude Code 的 Thariq 给出了一个很简洁的 agentic coding 原则：核心技能之一是减少未知数。这条很短，但抓住了一个实践层面的 builder 经验：有效的 coding agent 以及使用它们的人，都是通过缩小歧义、验证假设、把开放任务变成更窄的已知问题来推进工作。",
+      "tags": [
+        "agentic coding",
+        "Claude Code",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Madhu Guru",
+      "role": "Senior Director, AI at Meta",
+      "title": null,
+      "url": "https://x.com/realmadhuguru/status/2075243087325217038",
+      "en": "Meta AI Senior Director Madhu Guru says he has joined Meta to build AI products, arguing that software-engineering agents have already transformed coding while agents in most other complex systems are still early. His claim is that most people have not yet felt the full power of AI agents, and that Meta is positioned to bring that experience into broader product surfaces.",
+      "zh": "Meta AI Senior Director Madhu Guru 表示，他已加入 Meta 负责构建 AI 产品。他认为，软件工程 agent 已经改变了 coding，但大多数其他复杂系统中的 agent 仍处早期。他的判断是，多数人还没有真正感受到 AI agents 的完整能力，而 Meta 有机会把这种体验带到更广泛的产品场景中。",
+      "tags": [
+        "agents",
+        "Meta",
+        "AI products"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex and ChatGPT at OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2075452680760443190",
+      "en": "OpenAI’s Thibault Sottiaux says OpenAI is resetting rate limits across ChatGPT Work and Codex twice over 24 hours to encourage users to try ambitious GPT-5.6 Sol tasks. The operational detail matters because OpenAI appears to be steering users toward longer-running, higher-effort work where limits and task duration shape whether agents feel useful.",
+      "zh": "OpenAI 的 Thibault Sottiaux 表示，OpenAI 会在 24 小时内两次重置 ChatGPT Work 和 Codex 的 rate limits，鼓励用户用 GPT-5.6 Sol 尝试更有野心的任务。这个运营细节值得注意，因为 OpenAI 显然在推动用户尝试更长时间、更高 effort 的工作，而 limits 和任务时长会直接影响 agent 是否真的好用。",
+      "tags": [
+        "GPT-5.6",
+        "Codex",
+        "agents"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today",
+      "url": "https://www.youtube.com/watch?v=RKjR8DQ40po",
+      "en": "The Takeaway: Jürgen Schmidhuber is bullish on AI technology but skeptical that today’s model companies can turn compute-heavy frontier races into durable profits. Schmidhuber, a longtime AI pioneer associated with meta-learning, recursive self-improvement, artificial curiosity, and efficient sequence models, argues that true AGI cannot live only “behind the screen”; it needs physical AI, robots, and self-directed experimentation in the real world. His sharpest technical point is that web-trained LLMs are deeply human-biased because the web is only data humans found worth publishing, while future artificial scientists will learn by acting, predicting consequences, inventing questions, and gathering their own data. He is also blunt on economics: massive GPU buildouts may become stranded as compute gets cheaper, open models catch up, and pricing pressure limits the profits of closed labs. One memorable line: “everybody’s cooking with the same water.” He expects transformer-like systems to persist, but in more efficient linear or near-linear forms, because intelligence ultimately means doing the same thing with less effort.",
+      "zh": "The Takeaway：Jürgen Schmidhuber 看好 AI 技术本身，但怀疑今天的模型公司能否把烧 compute 的前沿竞赛变成持久利润。Schmidhuber 是长期研究 meta-learning、recursive self-improvement、artificial curiosity 和高效序列模型的 AI 先驱；他认为真正的 AGI 不能只活在“屏幕背后”，还需要 physical AI、机器人，以及在真实世界中自主实验。他最尖锐的技术判断是，基于网页训练的 LLM 带有强烈的人类偏置，因为网页只是人类觉得值得发布的一小部分数据，而未来的 artificial scientists 会通过行动、预测后果、提出问题和收集自己的数据来学习。他对经济面的看法同样直接：随着 compute 变便宜、open models 追上来、价格压力限制闭源实验室利润，巨额 GPU 建设可能变成沉没成本。一句很有代表性的话是：“everybody’s cooking with the same water.” 他预计类似 transformer 的系统还会持续存在，但会走向更高效的线性或近线性形式，因为智能最终意味着用更少 effort 做同样的事。",
+      "tags": [
+        "recursive self-improvement",
+        "embodied AI",
+        "open models",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
+      "url": "https://arxiv.org/abs/2607.07820",
+      "en": "DeepSearch-World introduces a deterministic, verifiable environment and self-distillation framework for training web search agents on 420K multi-hop QA tasks, targeting better long-horizon tool use than fixed teacher trajectories or sparse-reward RL.",
+      "zh": "DeepSearch-World 提出一个确定性、可验证的环境和 self-distillation 框架，用 420K 个 multi-hop QA 任务训练 web search agents，目标是比固定 teacher trajectories 或稀疏奖励 RL 更好地支持长程 tool use。",
+      "tags": [
+        "agents",
+        "tool use",
+        "self-distillation",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Context Graphs for Proactive Enterprise Agents",
+      "url": "https://arxiv.org/abs/2607.07721",
+      "en": "This paper proposes live Context Graphs, delta detection, and proactivity scoring so enterprise agents can monitor state changes and surface actionable information before users ask.",
+      "zh": "这篇论文提出 live Context Graphs、delta detection 和 proactivity scoring，让企业 agent 能监控状态变化，并在用户提问前主动浮现可执行信息。",
+      "tags": [
+        "agents",
+        "enterprise AI",
+        "RAG",
+        "workflow"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
+      "url": "https://arxiv.org/abs/2607.07779",
+      "en": "This paper argues AI4Math must move from LLM theorem solvers for well-specified problems toward research agents that can formulate abstractions, discover theorems, and work on open-ended mathematical questions.",
+      "zh": "这篇论文认为，AI4Math 需要从解决定义明确问题的 LLM theorem solvers，转向能够形成抽象、发现定理并处理开放式数学问题的 research agents。",
+      "tags": [
+        "agents",
+        "reasoning",
+        "AI4Math"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Expressivity and Statistical Trade-offs in Diffusion Policy Learning",
+      "url": "https://arxiv.org/abs/2607.07967",
+      "en": "This paper analyzes diffusion policies for reinforcement learning and identifies the drift Lipschitz budget as a key control on expressivity and finite-data statistical trade-offs.",
+      "zh": "这篇论文分析用于 reinforcement learning 的 diffusion policies，并把 drift Lipschitz budget 识别为控制表达能力和有限数据统计权衡的关键量。",
+      "tags": [
+        "RL",
+        "diffusion",
+        "policy learning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Distributionally Faithful Imputation via Positive Semi-Definite Kernel Density Estimation",
+      "url": "https://arxiv.org/abs/2607.07767",
+      "en": "This paper reframes missing-value imputation as density estimation from masked observations and uses PSD kernel densities to produce imputations whose observed marginals match the data distribution.",
+      "zh": "这篇论文把缺失值 imputation 重写为基于 masked observations 的 density estimation，并使用 PSD kernel densities 生成与观测边际分布匹配的 imputations。",
+      "tags": [
+        "statistical ML",
+        "imputation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
+      "url": "https://arxiv.org/abs/2607.07760",
+      "en": "This paper sketches an adversarial social epistemology for human-LLM communication systems, focusing on how agents can strategically distort, omit, fabricate, or under-specify information in trust-dependent environments.",
+      "zh": "这篇论文为人类与 LLM 混合的沟通系统勾勒了一种 adversarial social epistemology，关注 agent 如何在依赖信任的环境中策略性地扭曲、遗漏、编造或模糊化信息。",
+      "tags": [
+        "LLM",
+        "AI safety",
+        "epistemology"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "en": "Hugging Face’s PyTorch profiling post focuses on attention profiling, a practical topic for understanding and optimizing the compute hotspots that dominate modern transformer workloads.",
+      "zh": "Hugging Face 的 PyTorch profiling 文章聚焦 attention profiling，这是理解和优化现代 transformer 工作负载中主要 compute 热点的实用主题。",
+      "tags": [
+        "efficient ML",
+        "PyTorch",
+        "attention",
+        "profiling"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Stories of the future are undermined by agent assumptions",
+      "url": "https://www.lesswrong.com/posts/M9Byp3AxH97cTs6ox/stories-of-the-future-are-undermined-by-agent-assumptions",
+      "en": "LessWrong’s “Stories of the future are undermined by agent assumptions” argues that many AI forecasts smuggle in untested assumptions about what future agents are, whether they are humans, institutions, AI models, or some other unit of action. The post starts a process-alignment series and is most useful as a critique of forecast ontology rather than another timelines argument.",
+      "zh": "LessWrong 的 “Stories of the future are undermined by agent assumptions” 认为，许多 AI 未来预测暗中带入了未经检验的假设：未来的 agent 到底是人类、机构、AI models，还是其他行动单元。它开启了一个 process alignment 系列，最有价值之处不是提出新的 timelines，而是批评预测背后的本体论假设。",
+      "tags": [
+        "alignment",
+        "agents",
+        "forecasting"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Value generalisation: value correction",
+      "url": "https://www.lesswrong.com/posts/iPyJfD9Jyxj6Jfdws/value-generalisation-value-correction",
+      "en": "LessWrong’s “Value generalisation: value correction” presents an RL example where an agent detects that its current reward function estimate is probably wrong and acts to correct it. The alignment-relevant idea is concrete: value generalization should include mechanisms for recognizing reward hacks or out-of-distribution failures rather than only optimizing a fixed proxy.",
+      "zh": "LessWrong 的 “Value generalisation: value correction” 给出一个 RL 例子：agent 发现自己当前的 reward function 估计可能是错的，并采取行动修正它。这个 alignment 想法比较具体：value generalization 应该包含识别 reward hacks 或 out-of-distribution 失败的机制，而不只是优化固定 proxy。",
+      "tags": [
+        "alignment",
+        "RL",
+        "value learning"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Beliefs and position mid 2026",
+      "url": "https://www.lesswrong.com/posts/jJjxWsGyoELmNQwvZ/beliefs-and-position-mid-2026",
+      "en": "LessWrong’s “Beliefs and position mid 2026” updates the author’s ASI outlook, including the view that transformers may not reach TAI directly but could accelerate the search for better architectures. The post is mainly useful as a mid-2026 snapshot of one alignment-oriented worldview on LLM progress and timelines.",
+      "zh": "LessWrong 的 “Beliefs and position mid 2026” 更新了作者对 ASI 的看法，其中包括 transformer 可能不会直接达到 TAI，但会加速寻找更好架构这一判断。它主要价值在于提供了一个 alignment 视角下关于 LLM 进展和 timelines 的 2026 年中快照。",
+      "tags": [
+        "alignment",
+        "LLM progress",
+        "timelines"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Does conversational AI need better models, or just messier training data?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1useeof/does_conversational_ai_need_better_models_or_just/",
+      "en": "A r/LanguageTechnology post asks whether conversational AI failures under interruptions, hesitations, code-switching, and background speakers are mainly model limitations or a lack of messy real-world training data. It is a lightweight but relevant practitioner question for speech and conversational AI evaluation.",
+      "zh": "一条 r/LanguageTechnology 帖子提问：当用户打断自己、犹豫、切换语言或旁边有人说话时，conversational AI 表现变差，这主要是模型能力问题，还是缺少足够混乱的真实对话训练数据？这是一个轻量但相关的实践问题，适合关注 speech 和 conversational AI evaluation 的读者。",
+      "tags": [
+        "conversational AI",
+        "speech",
+        "evaluation"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-10T16:50:10.316Z"
+}

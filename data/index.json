@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-10",
+    "count": 22,
+    "headline_en": "Model-release week pushed agents from demos toward daily work, with builders focusing on tool reliability, enterprise reasoning, open-model speed, and the economics of scaling.",
+    "generatedAt": "2026-07-10T16:50:10.316Z"
+  },
+  {
     "date": "2026-07-09",
     "count": 24,
     "headline_en": "Agent infrastructure, coding-agent evaluation, and post-training quality dominated the day, with frontier labs and builders converging on more reliable, secure, and collaborative AI workflows.",
