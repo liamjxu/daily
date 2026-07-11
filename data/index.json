@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-11",
+    "count": 9,
+    "headline_en": "Today’s strongest signal is that AI is becoming an economic actor, from agentic commerce and token-metered billing to NLP work on bias, evaluation, and provenance.",
+    "generatedAt": "2026-07-11T13:19:20.274Z"
+  },
+  {
     "date": "2026-07-10",
     "count": 22,
     "headline_en": "Model-release week pushed agents from demos toward daily work, with builders focusing on tool reliability, enterprise reasoning, open-model speed, and the economics of scaling.",

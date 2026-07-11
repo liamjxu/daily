@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-11",
+  "headline_en": "Today’s strongest signal is that AI is becoming an economic actor, from agentic commerce and token-metered billing to NLP work on bias, evaluation, and provenance.",
+  "headline_zh": "今天最值得关注的主线是 AI 正在成为经济主体，从 agentic commerce 和按 token 计费，到 NLP 中的偏见、评测与 provenance 问题。",
+  "items": [
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "The MAD Podcast with Matt Turck",
+      "role": null,
+      "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "en": "The Takeaway: Stripe’s Emily Sense argues that agentic commerce is moving from demos to infrastructure, with agents becoming buyers, payment actors, deployers, and eventually small business operators. She frames the stack around Agentic Commerce Protocol, Link Wallet for agents, shared payment tokens, Machine Payments Protocol, Tempo, Metronome, and Radar, all meant to let agents transact without exposing raw credentials or bankrupting AI vendors through unpaid token usage. The sharpest point is that AI breaks SaaS economics: every prompt has marginal cost, so billing, fraud, accounting, and deployment all need to become real-time systems. Her most memorable warning is token theft: “more than one in six signups at AI companies are this kind of abuse,” and fraudsters can now steal compute value rather than money. She expects the next year’s frontier to be agents as “multifaceted economic actors” that buy, sell, provision infrastructure, and run pieces of businesses end to end.",
+      "zh": "The Takeaway: Stripe 的 Emily Sense 认为，agentic commerce 正在从 demo 走向真实基础设施，agent 会成为买方、支付主体、部署者，最终甚至成为小型业务运营者。她把这套 stack 归结为 Agentic Commerce Protocol、Link Wallet for agents、shared payment tokens、Machine Payments Protocol、Tempo、Metronome 和 Radar，目标是在不暴露原始支付凭证的情况下让 agent 完成交易，同时避免 AI 厂商被未付款的 token 消耗拖垮。最关键的一点是 AI 打破了 SaaS 经济学：每个 prompt 都有边际成本，所以 billing、fraud、accounting 和 deployment 都必须变成实时系统。她对 token theft 的警告最值得记住：“more than one in six signups at AI companies are this kind of abuse”，欺诈者现在偷的是算力价值，而不只是钱。她预计未来一年的前沿会是作为“multifaceted economic actors”的 agent，能够买、卖、配置基础设施，并端到端运行一部分业务。",
+      "tags": [
+        "agents",
+        "agentic commerce",
+        "billing",
+        "AI fraud"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "When Debiasing Backfires: Counterintuitive Side Effects of Preprocessing-Based Stereotype Mitigation",
+      "url": "https://arxiv.org/abs/2607.07937",
+      "en": "Shows that common preprocessing-based stereotype mitigation can reduce targeted bias while increasing stereotyping or counter-stereotyping for other demographic groups, across model families and debiasing strategies.",
+      "zh": "这篇论文指出，常见的基于 preprocessing 的 stereotype mitigation 可能降低目标群体上的偏见，却在其他人口群体上增加 stereotyping 或 counter-stereotyping，并且这种现象跨模型家族和 debiasing 策略都存在。",
+      "tags": [
+        "NLP",
+        "bias",
+        "evaluation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration",
+      "url": "https://arxiv.org/abs/2607.07895",
+      "en": "Introduces a human-LLM workflow for building EspanStereo, a Spanish-language stereotype dataset that captures culturally specific biases across Spanish-speaking countries beyond English-centric resources.",
+      "zh": "这篇论文提出一种 human-LLM 协作流程，用来构建 Spanish-language stereotype dataset EspanStereo，覆盖多个西语国家中英语中心资源难以捕捉的文化特定偏见。",
+      "tags": [
+        "NLP",
+        "LLM evaluation",
+        "bias",
+        "datasets"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "How Do I Know What to Say Next? Barenholtz's Autogenerative Theory as an Enrichment of Harrisean Integrationism",
+      "url": "https://arxiv.org/abs/2607.07891",
+      "en": "Connects Barenholtz’s autogenerative theory with Harrisean Integrationist linguistics to explain how signs sustain open-ended, situated language activity beyond referentialist views of language as code.",
+      "zh": "这篇论文把 Barenholtz 的 autogenerative theory 与 Harrisean Integrationist linguistics 联系起来，试图解释符号如何支撑开放、情境化的语言活动，而不是把语言仅仅看作 referentialist 意义上的代码。",
+      "tags": [
+        "NLP",
+        "linguistics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Measuring Is Not Enough Anymore",
+      "url": "https://www.lesswrong.com/posts/4TMKvGmoAWjXBGwWk/measuring-is-not-enough-anymore",
+      "en": "LessWrong: Measuring Is Not Enough Anymore argues that capability measurement alone is no longer a sufficient AI safety strategy, using METR as a focal example while framing the point as a broader reweighting proposal for safety work. The post is most relevant as a critique of eval-centric risk reduction: if the field over-indexes on measuring autonomy and catastrophic capability, it may underinvest in interventions that directly change deployment incentives, model behavior, or institutional constraints.",
+      "zh": "LessWrong: Measuring Is Not Enough Anymore 认为，仅仅衡量 capability 已经不足以构成 AI safety 策略，并以 METR 为重点案例，把问题扩展为对 safety 工作重心的重新分配建议。它最值得关注之处在于对 eval-centric 风险治理的批评：如果领域过度依赖衡量 autonomy 和 catastrophic capability，可能会低估那些能直接改变部署激励、模型行为或制度约束的干预措施。",
+      "tags": [
+        "AI safety",
+        "evaluation",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Don’t bring an AI detector to a deepfake fight: proving reality through multimodal provenance",
+      "url": "https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving",
+      "en": "LessWrong: Don’t bring an AI detector to a deepfake fight argues that fake-media detection is losing the arms race and should be replaced by default distrust plus cryptographically signed multimodal capture. The useful framing is provenance over detection: platforms and legal regimes should make untagged generated content costly, while signed capture makes ordinary spoofing harder at the source.",
+      "zh": "LessWrong: Don’t bring an AI detector to a deepfake fight 认为，fake-media detection 正在输掉军备竞赛，应该转向默认不信任未证明媒体，并使用 cryptographically signed multimodal capture。它有价值的框架是 provenance over detection：平台和法律制度应提高未标注 generated content 的成本，而 signed capture 则从源头上提高普通伪造的难度。",
+      "tags": [
+        "provenance",
+        "deepfakes",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A Simple Model of AI \"Psychosis\"",
+      "url": "https://www.lesswrong.com/posts/syeJotaNhFjhRz4v7/a-simple-model-of-ai-psychosis",
+      "en": "LessWrong: A Simple Model of AI \"Psychosis\" offers a spectrum model for harmful over-attachment to chatbots, from hypomania-like dynamics to rare mania-induced psychosis. The post is speculative, but it gives a concrete mechanism for why interactive LLMs can amplify delusional or obsessive loops rather than treating the term as a meme or insult.",
+      "zh": "LessWrong: A Simple Model of AI \"Psychosis\" 用一个谱系模型解释人对 chatbot 的有害过度依赖，从类似 hypomania 的状态到少见的 mania-induced psychosis。文章是 speculative 的，但它给出了一个具体机制，说明为什么互动式 LLM 可能放大妄想或强迫循环，而不是把这个词当作梗或骂人标签。",
+      "tags": [
+        "AI safety",
+        "LLM behavior"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/OpenAI",
+      "role": null,
+      "title": "Am I the only one frustrated by the new cache write pricing?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1uthc99/am_i_the_only_one_frustrated_by_the_new_cache/",
+      "en": "A practitioner complains that cache-write pricing penalizes one-shot workloads like document processing, classification, and extraction, where prompts are unique and cache reads never happen. The post is useful signal because it highlights a concrete pricing mismatch between agent/chat-heavy assumptions and common production NLP inference patterns.",
+      "zh": "一位 practitioner 抱怨 cache-write pricing 会惩罚 document processing、classification、extraction 这类一次性 workload，因为每次 prompt 都不同，几乎不会发生 cache read。这条有信号价值，因为它指出了 agent/chat-heavy 定价假设与常见生产级 NLP inference 模式之间的具体错配。",
+      "tags": [
+        "API pricing",
+        "inference",
+        "NLP"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Predicting human preference for generated image pairs using HPSv3 [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/",
+      "en": "A project builder asks for alternatives to HPSv3 after finding limitations in using it to predict human preferences over generated image pairs. The thread is worth keeping as a small but relevant signal on preference modeling and evaluation for generative systems.",
+      "zh": "一位项目开发者在用 HPSv3 预测 generated image pairs 的人类偏好时发现局限，因此询问是否有更好的替代模型。这个帖子值得保留，因为它是关于 generative systems 中 preference modeling 与 evaluation 的一个小但相关的信号。",
+      "tags": [
+        "preference modeling",
+        "evaluation"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-11T13:19:20.274Z"
+}
