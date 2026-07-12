@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-12",
+  "headline_en": "AI agents dominated the day, with builders arguing that cheaper knowledge work expands demand while Booking.com showed how agentic products are starting to matter in real operations.",
+  "headline_zh": "今天的主线是 AI agent：builders 认为更低成本的知识工作会扩大需求，而 Booking.com 展示了 agentic 产品如何开始进入真实业务。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "title": null,
+      "url": "https://x.com/levie/status/2076116544980214164",
+      "en": "Box CEO Aaron Levie argued that AI is producing the opposite of a software-jobs collapse: because software is now cheaper per unit, companies want more of it. His view is that humans remain necessary to decide what to build, maintain systems, and run them over time, so agents will create “more abundance than replacement.”",
+      "zh": "Box CEO Aaron Levie 认为，AI 带来的结果并不是软件岗位崩塌，反而是软件单位成本下降后，企业想要更多软件。他的判断是，人仍然需要决定构建什么、维护系统并长期运营，因此 agent 带来的会是“更多供给”，而不是简单替代。",
+      "tags": [
+        "agents",
+        "AI industry strategy",
+        "software demand"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity.",
+      "title": null,
+      "url": "https://x.com/swyx/status/2076155833428431012",
+      "en": "Swyx framed agentic engineering through Jevons paradox: as coding agents make knowledge work cheaper, total demand for software and other knowledge work should rise rather than fall. He called coding the “herald” for agents spreading into broader work, especially for humans who can wield them well.",
+      "zh": "Swyx 用 Jevons paradox 来解释 agentic engineering：当 coding agents 降低知识工作的成本时，软件和其他知识工作的总需求会增加，而不是减少。他认为 coding 只是 agent 进入更广泛工作的前兆，尤其是对那些能熟练使用 agent 的人来说。",
+      "tags": [
+        "agents",
+        "AI industry strategy",
+        "Jevons paradox"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux positioned GPT 5.6 Sol as a coding-model release aimed at speed, token efficiency, backend strength, frontend quality, and cleaner React output. The post is mainly a product signal: OpenAI is explicitly targeting complaints about “code slop” and frontend implementation quality.",
+      "zh": "OpenAI Codex 和 ChatGPT builder Thibault Sottiaux 将 GPT 5.6 Sol 定位为面向 coding 的模型发布，重点是速度、token efficiency、后端能力、前端质量，以及更干净的 React 输出。这条更像是产品信号：OpenAI 正在直接回应用户对“code slop”和前端实现质量的抱怨。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "coding agents",
+        "frontend"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux shared a CLIProxyAPI workflow for pointing Claude Code-style tooling at GPT 5.6 Sol via a `claudex` alias. The useful bit is practical interoperability: builders can test Sol inside an existing coding-agent workflow without fully switching tools.",
+      "zh": "OpenAI Codex 和 ChatGPT builder Thibault Sottiaux 分享了一个 CLIProxyAPI 工作流，可以通过 `claudex` alias 把 Claude Code 风格的工具指向 GPT 5.6 Sol。这里有价值的是实际互操作性：builders 可以在现有 coding-agent 工作流里测试 Sol，而不必完全换工具。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "coding agents",
+        "tool use"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "AI is cool i guess",
+      "title": null,
+      "url": "https://x.com/sama/status/2075983427019612242",
+      "en": "Sam Altman claimed many benchmarks now suggest GPT 5.6 Sol is “the best model in the world,” while joking that rival attention is the more reliable signal. The post is light on evidence, but it marks OpenAI’s public confidence around Sol’s frontier-model positioning.",
+      "zh": "Sam Altman 称许多 benchmark 都显示 GPT 5.6 Sol 现在是“世界上最好的模型”，同时开玩笑说竞争对手的关注才是更可靠的信号。这条没有提供具体证据，但显示 OpenAI 对 Sol 的 frontier model 定位非常有信心。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "benchmarks",
+        "frontier models"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "en": "The Takeaway: Booking.com CEO Glenn Fogel sees AI agents as a major travel interface shift, but not as a magic shortcut around marketplace scale, supplier operations, regulation, and customer trust. Fogel says Priceline’s Penny agent is already useful for complex trip planning, with adoption doubling monthly in recent months and reported lift in conversion, faster search, shorter paths to booking, lower cancellation, and higher customer success, though it is still too small to move company-level numbers. He is unusually concrete about token economics: Booking has to decide which model to use for which task, how many tokens each interaction consumes, and whether better service translates into long-term loyalty. His sharpest strategic line is anti-moat: “There is no such thing as a moat,” because durable advantage comes from continuously building better services, not assuming inventory or incumbency will protect you. On jobs, he is optimistic about technology overall but worried about speed: new jobs will appear, yet not necessarily at the same rate old ones disappear, so companies need serious AI-literacy and upskilling programs before fear turns into technology rejection.",
+      "zh": "The Takeaway：Booking.com CEO Glenn Fogel 认为 AI agent 会显著改变旅行入口，但它不是绕过 marketplace scale、供应商运营、监管和客户信任的魔法捷径。Fogel 说 Priceline 的 Penny agent 已经能处理复杂旅行规划，最近几个月采用率每月翻倍，并带来 conversion lift、更快搜索、更短预订路径、更低取消率和更高 customer success，不过规模还太小，不足以影响公司整体数字。他对 token economics 的讨论很具体：Booking 必须判断每个任务该用哪个模型、每次交互消耗多少 token，以及更好的服务是否会转化为长期 loyalty。他最锋利的战略判断是反 moat：“There is no such thing as a moat”，因为真正的长期优势来自持续构建更好的服务，而不是假设库存或 incumbency 能保护你。关于就业，他总体看好技术，但担心变化速度：新岗位会出现，但未必与旧岗位消失同步，所以公司需要严肃推进 AI literacy 和 upskilling，避免恐惧演变成对技术的拒绝。",
+      "tags": [
+        "agents",
+        "AI industry strategy",
+        "token economics",
+        "travel"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "WSJ Article Claiming China Has Matched Anthropic Is Obvious Nonsense",
+      "url": "https://www.lesswrong.com/posts/2zSpuGJRk6EyjHAL6/wsj-article-claiming-china-has-matched-anthropic-is-obvious-1",
+      "en": "LessWrong challenges a Wall Street Journal claim that China has matched Anthropic in cybersecurity, calling the headline false and the story misleading. The useful signal is methodological: the post is pushing back on benchmark or capability comparisons that flatten model differences into a dramatic geopolitical headline.",
+      "zh": "LessWrong 质疑 Wall Street Journal 关于中国在 cybersecurity 上已经追平 Anthropic 的说法，认为标题错误、报道误导。这里有价值的信号在方法论层面：这篇文章反对把 benchmark 或能力比较压扁成耸动的地缘政治标题。",
+      "tags": [
+        "benchmarks",
+        "frontier models",
+        "China"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "KISS AI Safety",
+      "url": "https://www.lesswrong.com/posts/JsTRjtqbwN5EtNEiC/kiss-ai-safety",
+      "en": "LessWrong argues that AI safety communication should follow the engineering KISS principle: keep public explanations simple instead of leading with insider terms like “instrumental convergence,” “Omohundro drives,” or “mesa-optimization.” The concrete point is about communication strategy, not technical alignment research: safety advocates should reduce conceptual overhead if they want non-specialists to understand the stakes.",
+      "zh": "LessWrong 认为 AI safety 的公共沟通应该遵循工程里的 KISS principle：解释要简单，不要一上来就使用“instrumental convergence”“Omohundro drives”或“mesa-optimization”等圈内术语。它的具体重点是沟通策略，而不是技术 alignment 研究：如果安全倡议者想让非专业人士理解问题，就应该降低概念门槛。",
+      "tags": [
+        "alignment",
+        "AI safety",
+        "communication"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-12T12:36:04.784Z"
+}
