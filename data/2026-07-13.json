@@ -1,0 +1,316 @@
+{
+  "date": "2026-07-13",
+  "headline_en": "AI builders are converging on inference-time control, agentic workflows, and the infrastructure stack around frontier models, from Codex usage economics to nuclear power for compute.",
+  "headline_zh": "AI 建设者今天集中关注 inference-time control、agentic workflow，以及围绕 frontier model 的基础设施栈，从 Codex 用量经济学到面向 compute 的核能供给。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2076495156757577895",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux said GPT-5.6 Sol is staying in paid ChatGPT subscriptions, including Go, Plus, Pro, Team, and Edu, until OpenAI ships a better model. He also detailed usage-side fixes: inference optimizations should yield about 10% more usage, the context limit was reverted from 372k to 272k after unexpected usage charging, reasoning-effort experiments were rolled back, and multi-agent plus auto-review efficiency fixes are underway.",
+      "zh": "OpenAI Codex 和 ChatGPT 的 Thibault Sottiaux 表示，GPT-5.6 Sol 会继续保留在付费 ChatGPT 订阅中，包括 Go、Plus、Pro、Team 和 Edu，直到 OpenAI 发布更好的模型。他还说明了一组用量侧修复：inference 优化预计带来约 10% 额外可用量，context limit 因意外计费从 372k 回退到 272k，reasoning-effort 实验已经回滚，multi-agent 和 auto-review 的效率修复也在推进。",
+      "tags": [
+        "GPT-5.6",
+        "Codex",
+        "inference optimization",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "title": null,
+      "url": "https://x.com/levie/status/2076338364635287637",
+      "en": "Box CEO Aaron Levie framed enterprise AI value as the layer between frontier models and a company’s proprietary workflows. His argument: firms will need workflow evals, model routing across intelligence tiers, traces that improve internal processes, and systems that make corporate information compound as models improve.",
+      "zh": "Box CEO Aaron Levie 将 enterprise AI 的价值定位在 frontier model 与企业专有 workflow 之间的应用层。他的核心观点是：企业需要 workflow evals、跨不同智能层级的模型路由、能改进内部流程的 trace，以及让企业信息随着模型进步持续复利的系统。",
+      "tags": [
+        "enterprise AI",
+        "evals",
+        "model routing",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2076364176252191222",
+      "en": "Vercel CEO Guillermo Rauch argued that startups and enterprises should make models “a cog in a machine you own.” He pointed to AI SDK, Agent API, and AI Gateway as pieces of an open stack where companies retain control over data, evals, model choice, and the software layer.",
+      "zh": "Vercel CEO Guillermo Rauch 认为，startup 和 enterprise 应该把模型变成“自己掌控的机器中的一个齿轮”。他提到 AI SDK、Agent API 和 AI Gateway，强调公司应保有对 data、evals、model choice 和 software layer 的控制权。",
+      "tags": [
+        "AI SDK",
+        "agents",
+        "evals",
+        "model access"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": null,
+      "url": "https://x.com/zarazhangrui/status/2076300222884626754",
+      "en": "Builder Zara Zhang described a compact agentic coding workflow: use a meeting transcript as the PRD. After discussing a feature with a colleague, she sends the transcript to Codex and has it build the prototype from the conversation itself.",
+      "zh": "Builder Zara Zhang 描述了一个很紧凑的 agentic coding workflow：把会议 transcript 当作 PRD。她和同事讨论功能实现后，把 transcript 发给 Codex，让它直接基于对话构建 prototype。",
+      "tags": [
+        "Codex",
+        "agentic workflow",
+        "prototyping"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "title": null,
+      "url": "https://x.com/amasad/status/2076227936202662357",
+      "en": "Replit CEO Amjad Masad said he is fine-tuning a Qwen-8b model to play chess on Replit, running three parallel experimental branches and seeing real progress. His broader point is that models have become much better at doing ML work, letting someone with strong intuition guide useful experiments even without deep prior ML experience.",
+      "zh": "Replit CEO Amjad Masad 表示，他正在 Replit 上 fine-tuning 一个 Qwen-8b 模型下棋，并行跑三个实验分支且取得了实际进展。他更大的观点是，模型做 ML 工作的能力已经显著增强，让有良好直觉的人即使没有深厚 ML 背景，也能指导出有价值的实验。",
+      "tags": [
+        "Qwen",
+        "fine-tuning",
+        "agentic workflow",
+        "ML automation"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": null,
+      "url": "https://x.com/petergyang/status/2076512796481880270",
+      "en": "Peter Yang argued that when community sentiment turns negative, AI companies should communicate more directly and humanly rather than retreating into corporate language. He contrasted Anthropic’s communication style with what he sees as OpenAI’s more direct community engagement, and guessed that GPT-5.6 Sol is dominating usage relative to Terra or Luna.",
+      "zh": "Peter Yang 认为，当社区情绪转负时，AI 公司应该更直接、更有人味地沟通，而不是退回企业化话术。他将 Anthropic 的沟通方式与他眼中 OpenAI 更直接的社区互动做了对比，并猜测 GPT-5.6 Sol 的使用占比远高于 Terra 或 Luna。",
+      "tags": [
+        "AI communication",
+        "GPT-5.6",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": null,
+      "url": "https://x.com/claudeai/status/2076351399999557669",
+      "en": "Claude said Anthropic is extending Claude Fable 5 access on all paid plans and keeping Claude Code’s weekly rate limits 50% higher through July 19. Users can spend up to half of their weekly usage limit on Fable 5 before switching models or using usage credits.",
+      "zh": "Claude 表示，Anthropic 会把所有付费计划的 Claude Fable 5 access 延长，并将 Claude Code 的 weekly rate limits 继续维持在高出 50% 的水平，直到 7 月 19 日。用户最多可以把每周用量限制的一半用于 Fable 5，之后可切换模型或使用 usage credits。",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "rate limits"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
+      "en": "The Takeaway: Valar Atomics founder and CEO Isaiah Taylor argues that AI-era energy demand makes nuclear a hardware-iteration problem, not a paper-design problem. Valar says it turned on a 100 kilowatt reactor, powered an NVIDIA Blackwell system directly from it, and hosted nuclearwebsite.com from that chip, while Taylor’s broader thesis is that cheap energy induces demand and eventually makes AI-enabled manufacturing much cheaper. The sharpest line is his critique of the sector: “most of the nuclear industry is a modeling and simulation industry,” while Valar is betting on simplicity, vertical integration, passive safety, and a faster “tick rate” from one reactor to the next. For AI builders, the relevant strategic claim is that compute bottlenecks may be shaped less by model architecture alone and more by who can physically deliver abundant, cheap, reliable power on faster timelines than hyperscalers expect.",
+      "zh": "The Takeaway：Valar Atomics founder 和 CEO Isaiah Taylor 认为，在 AI 时代的能源需求下，核能的核心问题是 hardware iteration，而不是纸面设计。Valar 称其启动了一台 100 kilowatt reactor，用它直接给 NVIDIA Blackwell 系统供电，并从这块 chip 托管 nuclearwebsite.com；Taylor 更大的论点是，低价能源会诱发需求，并最终让 AI-enabled manufacturing 变得便宜得多。他最尖锐的判断是：“most of the nuclear industry is a modeling and simulation industry”，而 Valar 押注 simplicity、vertical integration、passive safety，以及从一台 reactor 到下一台 reactor 更快的 “tick rate”。对 AI 建设者来说，关键战略含义是 compute bottleneck 可能不只取决于 model architecture，还取决于谁能以超出 hyperscaler 预期的速度交付充足、便宜、可靠的电力。",
+      "tags": [
+        "AI compute",
+        "energy",
+        "NVIDIA",
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
+      "url": "https://arxiv.org/abs/2607.08774",
+      "en": "CogniConsole argues that LLM reliability depends heavily on inference-time control, introducing a structured interface for task framing, context selection, and programmatic coordination in multi-step interactions.",
+      "zh": "CogniConsole 认为，LLM 可靠性很大程度上取决于 inference-time control，并提出一个用于 task framing、context selection 和 programmatic coordination 的结构化接口，面向多步交互场景。",
+      "tags": [
+        "inference-time control",
+        "LLM systems",
+        "evaluation",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
+      "url": "https://arxiv.org/abs/2607.08894",
+      "en": "GATS combines UCB1 tree search with layered world models so LLM agents can plan more efficiently while reducing LLM calls during inference.",
+      "zh": "GATS 将 UCB1 tree search 与分层 world model 结合，让 LLM agent 能更高效地规划，并减少 inference 阶段的 LLM 调用。",
+      "tags": [
+        "agents",
+        "planning",
+        "world models",
+        "inference efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "HALO: Hybrid Adaptive Latent Reasoning for Language Models",
+      "url": "https://arxiv.org/abs/2607.08775",
+      "en": "HALO adds adaptive latent refinement to a frozen pretrained language model, selectively spending extra computation on tokens that benefit from a second refinement stage.",
+      "zh": "HALO 为冻结的 pretrained language model 增加 adaptive latent refinement，只在受益于第二阶段 refinement 的 token 上选择性花费额外计算。",
+      "tags": [
+        "reasoning",
+        "test-time compute",
+        "efficient ML"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "AgentKGV: Agentic LLM-RAG Framework with Two-Stage Training for the Fact Verification of Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2607.09092",
+      "en": "AgentKGV uses an agentic LLM-RAG pipeline with dynamic routing, iterative query rewriting, and two-stage training to verify knowledge-graph facts more accurately and cheaply at industrial scale.",
+      "zh": "AgentKGV 使用 agentic LLM-RAG pipeline，结合 dynamic routing、iterative query rewriting 和 two-stage training，以更准确、更低成本的方式在工业规模上验证 knowledge graph fact。",
+      "tags": [
+        "RAG",
+        "information extraction",
+        "agents",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "An Emergent Mirage: Is Emergent Misalignment and Realignment Indeed a Robust Phenomenon?",
+      "url": "https://arxiv.org/abs/2607.09053",
+      "en": "This paper reproduces emergent misalignment but finds that both misalignment and realignment are highly sensitive to superficial dataset characteristics, challenging claims that the phenomenon is robust.",
+      "zh": "这篇论文复现了 emergent misalignment，但发现 misalignment 和 realignment 都对表层 dataset 特征高度敏感，从而质疑该现象是否足够稳健。",
+      "tags": [
+        "alignment",
+        "fine-tuning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Influence Diagnostics in High-dimensional M-estimation: Precise Asymptotics",
+      "url": "https://arxiv.org/abs/2607.09250",
+      "en": "This work derives precise high-dimensional asymptotics for leave-one-out influence diagnostics in convex M-estimation under Gaussian design.",
+      "zh": "这项工作为 Gaussian design 下 convex M-estimation 的 leave-one-out influence diagnostics 推导了精确的高维渐近结果。",
+      "tags": [
+        "statistics",
+        "model diagnostics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
+      "url": "https://arxiv.org/abs/2607.08773",
+      "en": "The paper reduces MLP adversarial-robustness certification to a lattice traversal problem over input-containing intervals.",
+      "zh": "这篇论文将 MLP 的 adversarial-robustness certification 归约为在包含输入点的 interval 上进行 lattice traversal 的问题。",
+      "tags": [
+        "AI safety",
+        "robustness",
+        "certification"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Spectrally Deconfounded Gradient Boosting",
+      "url": "https://arxiv.org/abs/2607.09371",
+      "en": "This paper extends spectral deconfounding beyond linear models by modifying gradient-boosting loss dynamics to slow learning in confounding-aligned directions.",
+      "zh": "这篇论文将 spectral deconfounding 从 linear model 扩展到 gradient boosting，通过修改 loss dynamics 来减慢模型在 confounding-aligned direction 上的学习。",
+      "tags": [
+        "deconfounding",
+        "gradient boosting"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "LogSumExp和Softmax的泰勒展开",
+      "url": "https://spaces.ac.cn/archives/11814",
+      "en": "Scientific Spaces looks at Taylor expansions of LogSumExp and Softmax, motivated by the paper “The Key to Going Linear: Analysis-Driven Transformer Linearization” and its direct approximation of Softmax for transformer linearization.",
+      "zh": "科学空间围绕 LogSumExp 和 Softmax 的泰勒展开展开讨论，动机来自论文 “The Key to Going Linear: Analysis-Driven Transformer Linearization” 中直接近似 Softmax 以线性化 transformer 的做法。",
+      "tags": [
+        "Softmax",
+        "transformers",
+        "efficient ML",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "An Epistemic Audit for Existential Risks from AI",
+      "url": "https://www.lesswrong.com/posts/aHJ8MkPTWPDnuFLRL/an-epistemic-audit-for-existential-risks-from-ai",
+      "en": "LessWrong introduces an Epistemic Audit for Existential Risks from AI, a structured tool for mapping and repeatedly reassessing beliefs across the causal chain from capable AI systems getting built to existential risk.",
+      "zh": "LessWrong 介绍了一个面向 AI existential risk 的 Epistemic Audit 工具，用于沿着从 capable AI systems 被构建到 existential risk 的因果链，结构化地记录并反复评估自己的信念。",
+      "tags": [
+        "AI safety",
+        "risk assessment",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "5 \"Plan A\" scenarios",
+      "url": "https://www.lesswrong.com/posts/7HHKaD3BdsfHX7doz/5-plan-a-scenarios",
+      "en": "This LessWrong post explores five “Plan A” scenarios around US-China cooperation to slow transformative AI, emphasizing layered defenses across what is governed, how compliance is verified, and which incentives make the arrangement work.",
+      "zh": "这篇 LessWrong 文章探讨了五种围绕美中合作放缓 transformative AI 的 “Plan A” 场景，重点是 layered defenses：治理对象是什么、如何验证 compliance，以及哪些 incentive 能让安排真正运转。",
+      "tags": [
+        "AI governance",
+        "alignment",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Information Extraction from long documents using 4 bit Quantized 7B Parameter Model",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uv3y5k/information_extraction_from_long_documents_using/",
+      "en": "A practitioner asks how to compare long technical documents by extracting 60-70 dynamic fields from markdown-converted versions using a 4-bit quantized 7B model. The useful signal is the applied constraint mix: long-document information extraction, small local models, changing schemas, and document-version error detection.",
+      "zh": "一位实践者询问如何使用 4-bit quantized 7B model，从转换为 markdown 的长技术文档中抽取 60-70 个动态字段，并比较文档差异。这个问题的有用信号在于约束组合很真实：long-document information extraction、小型本地模型、变化的 schema，以及文档版本错误检测。",
+      "tags": [
+        "information extraction",
+        "quantization",
+        "long-context",
+        "small models"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-13T14:36:45.301Z"
+}
