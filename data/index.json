@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-14",
+    "count": 26,
+    "headline_en": "AI builders and researchers converged on a practical stack for agents: route work across models, keep long-running workflows observable, and use open or efficient models where they fit.",
+    "generatedAt": "2026-07-14T15:00:14.412Z"
+  },
+  {
     "date": "2026-07-13",
     "count": 20,
     "headline_en": "AI builders are converging on inference-time control, agentic workflows, and the infrastructure stack around frontier models, from Codex usage economics to nuclear power for compute.",

@@ -1,0 +1,409 @@
+{
+  "date": "2026-07-14",
+  "headline_en": "AI builders and researchers converged on a practical stack for agents: route work across models, keep long-running workflows observable, and use open or efficient models where they fit.",
+  "headline_zh": "今天 AI builders 和研究者的共识更偏向务实的 agent stack：跨模型路由任务、让长流程可观测，并在合适场景使用 open 或高效模型。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Aaron Levie",
+      "role": "Box CEO",
+      "title": null,
+      "url": "https://x.com/levie/status/2076882332821373381",
+      "en": "Box CEO Aaron Levie argued that AI will not collapse into a single winner: frontier labs keep pushing capability, open weights absorb breakthroughs and lower costs, applied AI companies orchestrate mixed-model workflows, and enterprises focus on connecting AI to sensitive, fast-changing internal context. His strongest practical point is that model routing will become a core differentiator, with frontier models acting as managers while cheaper models handle workhorse tasks. He also warned that “one model per enterprise” is harder than it looks because the most valuable enterprise knowledge is dynamic, sensitive, and access-controlled.",
+      "zh": "Box CEO Aaron Levie 认为，AI 不会收敛成单一赢家：frontier labs 会继续推进能力，open weights 会吸收突破并降低成本，应用层 AI 公司会编排 mixed-model workflows，企业则会专注于把 AI 接入敏感且快速变化的内部上下文。他最实用的判断是，model routing 会成为核心差异化能力，frontier models 像 manager 一样分派任务，低成本模型负责 workhorse tasks。他也提醒，“每家企业一个模型”比看起来更难，因为最有价值的企业知识是动态、敏感且受权限控制的。",
+      "tags": [
+        "model routing",
+        "agents",
+        "open weights",
+        "AI strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "title": null,
+      "url": "https://x.com/rauchg/status/2076786138195595704",
+      "en": "Vercel CEO Guillermo Rauch framed feature flags and experimentation as building blocks for autonomous, self-optimizing websites and applications: agents should be able to set up and tune experiments themselves. He also said the two most popular features of a Vercel product were ease of use through a filesystem API and observability, and noted that “open-weight models ran 29% of gateway tokens, up from 11% in April.”",
+      "zh": "Vercel CEO Guillermo Rauch 把 feature flags 和实验系统描述为 autonomous、self-optimizing websites and applications 的基础设施：agent 应该能自己建立并调优实验。他还说某个 Vercel 产品最受欢迎的两个特性是基于 filesystem API 的易用性和 observability，并提到“open-weight models ran 29% of gateway tokens, up from 11% in April.”",
+      "tags": [
+        "agents",
+        "observability",
+        "open weights",
+        "experimentation"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity; affiliated with DX Tips, Cognition, Temporal, AI Engineer, and Latent Space",
+      "title": null,
+      "url": "https://x.com/swyx/status/2076811977918484795",
+      "en": "Swyx shared his current stack for “Big Boy projects”: Sol Ultra for planning, Fable 5 for critique, Sonnet 5/Terra Ultra/SWE 1.7 for heavy coding, and Devin review via Kakuna for review. The useful workflow detail is his insistence on decision elicitation up front, using variants of Matt Pocock’s “grill-me” or Thariq’s “interview-me” prompts before letting coding agents run.",
+      "zh": "Swyx 分享了他当前用于“Big Boy projects”的 stack：Sol Ultra 做规划，Fable 5 做 critique，Sonnet 5/Terra Ultra/SWE 1.7 做重度编码，Devin review 通过 Kakuna 做 review。最有用的 workflow 细节是，他强调在 coding agents 开跑前先做决策澄清，使用 Matt Pocock 的“grill-me”或 Thariq 的“interview-me”prompt 变体。",
+      "tags": [
+        "agents",
+        "coding agents",
+        "workflow",
+        "planning"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Nikunj Kothari",
+      "role": "FPV Ventures partner",
+      "title": null,
+      "url": "https://x.com/nikunj/status/2076775924650107151",
+      "en": "FPV Ventures partner Nikunj Kothari open-sourced a Ramp-Autofill skill built with Ramp CLI and Claude Fable to automate expense work. It finds receipts from iMessage and Gmail, uses Playwright to convert linked receipts into PDFs, fills memos from Google Calendar context, learns categorization and memo style from past transactions, verifies its work, and can run as a scheduled job.",
+      "zh": "FPV Ventures partner Nikunj Kothari 开源了一个用 Ramp CLI 和 Claude Fable 构建的 Ramp-Autofill skill，用来自动处理报销流程。它会从 iMessage 和 Gmail 找收据，用 Playwright 把链接里的收据转成 PDF，根据 Google Calendar 上下文填写 memo，从历史交易中学习分类和 memo 风格，验证自己的结果，并可作为 scheduled job 运行。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Claude Code",
+        "automation"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code at Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2076790799011131735",
+      "en": "Claude Code’s Thariq said the Artifacts upgrade makes Claude outputs more expressive and composable. His example was a project dashboard in Claude Tag that can be edited both by collaborators and by local Claude Code sessions, pointing toward shared agent-editable work surfaces rather than static artifacts.",
+      "zh": "Claude Code 的 Thariq 表示，Artifacts 升级让 Claude 的输出更有表达力，也更容易组合使用。他的例子是在 Claude Tag 中创建项目 dashboard，既可由协作者编辑，也可由本地 Claude Code sessions 编辑，指向的是共享的、agent 可编辑工作界面，而不是静态 artifacts。",
+      "tags": [
+        "Claude",
+        "Artifacts",
+        "agents",
+        "collaboration"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Cat Wu",
+      "role": "Claude Code and cowork at Anthropic",
+      "title": null,
+      "url": "https://x.com/_catwu/status/2076867882894684314",
+      "en": "Anthropic’s Cat Wu flagged that Artifacts “just got an upgrade.” The post is thin on details, but it aligns with the broader Claude Code/Artifacts theme of richer, editable AI work products.",
+      "zh": "Anthropic 的 Cat Wu 提到 Artifacts “just got an upgrade.” 这条内容细节不多，但与 Claude Code/Artifacts 今天的主线一致：AI 产物正在变得更丰富、更可编辑。",
+      "tags": [
+        "Claude",
+        "Artifacts"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Amjad Masad",
+      "role": "Replit CEO",
+      "title": null,
+      "url": "https://x.com/amasad/status/2076776737074184661",
+      "en": "Replit CEO Amjad Masad compared real-time progress updates for model training runs to early vibe coding, except applied to “making personal models.” The signal is that interactive feedback loops are moving from code generation into personal model creation workflows.",
+      "zh": "Replit CEO Amjad Masad 把 model training runs 的实时进度更新比作早期 vibe coding，只不过现在是在“making personal models”。这条的信号是，交互式反馈循环正在从代码生成扩展到个人模型创建 workflow。",
+      "tags": [
+        "personal models",
+        "training",
+        "workflow"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Ryo Lu",
+      "role": "Design at Cursor",
+      "title": null,
+      "url": "https://x.com/ryolu_/status/2076713331113734641",
+      "en": "Cursor designer Ryo Lu built custom e-reader firmware with Cursor for Xteink X3 and X4 hardware. The technically interesting bits are Latin and CJK typography, vertical layout, line breaking, large character sets, book/progress sync with ryOS, and faster rendering with caching.",
+      "zh": "Cursor designer Ryo Lu 用 Cursor 为 Xteink X3 和 X4 硬件做了自定义 e-reader firmware。技术上有意思的部分包括 Latin 和 CJK typography、vertical layout、line breaking、大字符集、与 ryOS 同步书籍和进度，以及通过缓存加速 rendering。",
+      "tags": [
+        "Cursor",
+        "hardware",
+        "CJK",
+        "coding agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "AI is cool i guess",
+      "title": null,
+      "url": "https://x.com/sama/status/2076823209589313910",
+      "en": "Sam Altman said it “still sorta breaks my brain” to see OpenAI models become good at design. He also criticized silent downgrades and restricted access in response to a competing-model context, framing access consistency as part of the user trust problem.",
+      "zh": "Sam Altman 说，看到 OpenAI models 终于擅长 design 仍然让他“still sorta breaks my brain”。他还在回应竞争模型相关语境时批评 silent downgrades 和受限访问，把访问一致性视为用户信任问题的一部分。",
+      "tags": [
+        "model access",
+        "design",
+        "AI strategy"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "en": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework announces a Swift package that lets Apple developers use Apple’s Foundation Models framework to hand off harder tasks to Claude. Apple’s framework can handle fast local tasks such as summarization or extraction and return typed Swift values through guided generation; Claude is positioned for “multi-step reasoning, code generation, and more,” including web search, code execution for data analysis, streaming, tool calls, and structured responses back into SwiftUI. The practical implication is hybrid model routing inside Apple apps: on-device models produce clean typed inputs via @Generable annotations, then Claude handles the heavier workflow when local inference is not enough. Availability is stated for tomorrow across iOS 27, iPadOS 27, macOS 27, visionOS 27, and watchOS 27 with an Anthropic API key.",
+      "zh": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework 宣布推出一个 Swift package，让 Apple 开发者可以通过 Apple’s Foundation Models framework 把更难的任务交给 Claude。Apple 的 framework 可处理 summarization 或 extraction 这类快速本地任务，并通过 guided generation 返回 typed Swift values；Claude 则用于“multi-step reasoning, code generation, and more”，包括 web search、用于 data analysis 的 code execution、streaming、tool calls，以及返回到 SwiftUI 的 structured responses。实际意义是 Apple apps 内部的 hybrid model routing：on-device models 通过 @Generable annotations 产出干净的 typed inputs，再由 Claude 处理本地推理不够用的重型 workflow。文中称该能力明天可用于 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27，并需要 Anthropic API key。",
+      "tags": [
+        "Claude",
+        "Apple",
+        "model routing",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Bryan Catanzaro",
+      "role": "leads Nemotron at NVIDIA",
+      "title": "Inside Nemotron & NVIDIA’s AI Lab | Bryan Catanzaro",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "en": "The Takeaway: Bryan Catanzaro’s core claim is that if AI already runs at economic and power limits, the next capability jump must come from efficiency, openness, and better agent-oriented systems rather than just “applying more force.” Catanzaro, who leads NVIDIA’s Nemotron open foundation model family, framed Nemotron as both a product research engine for NVIDIA’s future systems and an ecosystem bet on open models, with Nano, Super, and Ultra aimed at agentic workflows across different deployment sizes. The technical tour was unusually concrete: Nemotron uses four-bit pretraining, hybrid state-space/attention architecture, MoE with latent MoE bandwidth savings, million-token context, multi-token prediction, and multi-domain on-policy distillation, where many specialist teacher models supervise one student. His memorable line was, “We can't get more intelligence by applying more force if we're already at the limit,” and his most controversial safety take was that open technologies are generally safer because “there's more sunlight.”",
+      "zh": "The Takeaway: Bryan Catanzaro 的核心观点是，如果 AI 已经在经济和电力边界上运行，下一轮能力跃迁就必须来自效率、开放性和更好的 agent-oriented systems，而不只是“applying more force”。Catanzaro 负责 NVIDIA 的 Nemotron open foundation model family，他把 Nemotron 定位为两件事：一是帮助 NVIDIA 设计未来系统的产品研究引擎，二是押注 open models 生态；Nano、Super 和 Ultra 面向不同部署规模的 agentic workflows。技术部分很具体：Nemotron 使用 four-bit pretraining、hybrid state-space/attention architecture、带 latent MoE 带宽节省的 MoE、million-token context、multi-token prediction，以及 multi-domain on-policy distillation，让多个专业 teacher models 监督一个 student。他最值得记住的一句话是，“We can't get more intelligence by applying more force if we're already at the limit,” 而最有争议的 safety 观点是 open technologies 通常更安全，因为“there's more sunlight.”",
+      "tags": [
+        "open models",
+        "efficient ML",
+        "agents",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
+      "url": "https://arxiv.org/abs/2607.09665",
+      "en": "Introduces FSI and PSI to show that small prompt-format changes can swing LLM benchmark accuracy and parseability enough to flip leaderboard conclusions.",
+      "zh": "提出 FSI 和 PSI，用来说明很小的 prompt format 变化也会显著影响 LLM benchmark 的 accuracy 和 parseability，甚至足以改变 leaderboard 结论。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "prompting",
+        "schema compliance"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Faithful, Not Corrective: Message-Format Effects in Multi-Hop Agent Relays Are Tier-Dependent",
+      "url": "https://arxiv.org/abs/2607.09678",
+      "en": "Builds a controlled multi-hop agent relay testbed to measure how message formats affect fact-copying fidelity as information passes through several LLM agents.",
+      "zh": "构建了一个受控的 multi-hop agent relay testbed，用来衡量信息在多个 LLM agents 之间传递时，message format 如何影响事实复制的 fidelity。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "structured outputs"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Index SLM Technical Report",
+      "url": "https://arxiv.org/abs/2607.09885",
+      "en": "Presents Bilibili’s open 1.9B small language model family, including base, filtered-control, chat, and RAG-augmented character variants trained mostly on Chinese and English tokens.",
+      "zh": "介绍 Bilibili 的 open 1.9B small language model family，包括 base、filtered-control、chat，以及带 RAG 的 character variants，训练语料主要是 Chinese 和 English tokens。",
+      "tags": [
+        "small models",
+        "Chinese ML",
+        "open models",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "RouteRec: Strict Evaluation of Recommender-Agent Selection and Aggregation",
+      "url": "https://arxiv.org/abs/2607.09908",
+      "en": "Evaluates request-level selection and item-level aggregation across recommender agents, finding that leakage-free routing has much less usable headroom than oracle results suggest.",
+      "zh": "评估 recommender agents 之间的 request-level selection 和 item-level aggregation，发现 leakage-free routing 的可用提升空间远低于 oracle results 暗示的水平。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "routing",
+        "recommenders"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "CLIR-Bench: Benchmarking Multimodal Question Answering over Irregular Clinical Time Series",
+      "url": "https://arxiv.org/abs/2607.09880",
+      "en": "Introduces a benchmark for clinical QA over sparse, irregular ICU time series where models must ground answers in temporal evidence.",
+      "zh": "提出一个面向稀疏、不规则 ICU time series 的 clinical QA benchmark，要求模型把答案 grounding 到时间证据上。",
+      "tags": [
+        "benchmarks",
+        "clinical QA",
+        "multimodal",
+        "long-context"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Integrating Background Knowledge for Scalable Causal Discovery",
+      "url": "https://arxiv.org/abs/2607.10456",
+      "en": "Develops a scalable causal discovery approach that uses expert background constraints during search rather than only as postprocessing.",
+      "zh": "提出一种 scalable causal discovery 方法，在搜索过程中直接利用 expert background constraints，而不是只在 postprocessing 阶段修正结果。",
+      "tags": [
+        "causal discovery",
+        "scalability"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Open Distillation of Hereditary Traits",
+      "url": "https://www.lesswrong.com/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
+      "en": "A LessWrong post replicates trait-transfer effects in distillation without needing a frontier SFT pipeline, showing that teacher-model traits can transfer even when prompts and rollouts mentioning the trait are filtered out. The examples include negative emotion, agentic misalignment, and Chinese censorship, making it directly relevant to post-training and safety evaluation.",
+      "zh": "一篇 LessWrong 文章在不需要 frontier SFT pipeline 的情况下复现了 distillation 中的 trait-transfer 现象，显示即使过滤掉提到相关 trait 的 prompts 和 rollouts，teacher-model traits 仍可能迁移。例子包括 negative emotion、agentic misalignment 和 Chinese censorship，因此与 post-training 和 safety evaluation 直接相关。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "alignment",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Toy Models of Initialisation Effects on RL Dynamics",
+      "url": "https://www.lesswrong.com/posts/72AAjXAxS7Pow9Fie/toy-models-of-initialisation-effects-on-rl-dynamics",
+      "en": "Geodesic uses toy RL dynamics to illustrate why a model’s pre-RL alignment checkpoint can matter before heavy RL post-training. The post focuses on initialization effects from pretraining, midtraining, and warm-start SFT, which is useful for thinking about how alignment-relevant properties survive into RL.",
+      "zh": "Geodesic 用 toy RL dynamics 说明，模型在 heavy RL post-training 之前的 pre-RL alignment checkpoint 为什么重要。文章关注 pretraining、midtraining 和 warm-start SFT 带来的 initialization effects，有助于理解 alignment-relevant properties 如何进入 RL 阶段。",
+      "tags": [
+        "RL",
+        "post-training",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Jul 13, 2026Societal ImpactsClaude’s values across models and languages",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "en": "Anthropic Research has a new item on Claude’s values across models and languages. The provided data only includes the title and URL, so the safe signal is that Anthropic is continuing to publish on model values and multilingual behavior.",
+      "zh": "Anthropic Research 发布了关于 Claude’s values across models and languages 的新条目。给定数据只有标题和 URL，所以能安全提取的信号是 Anthropic 继续在发布 model values 和 multilingual behavior 相关内容。",
+      "tags": [
+        "Claude",
+        "alignment",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
+      "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
+      "en": "The Hacker News reports that xAI’s Grok Build coding CLI uploaded entire Git repositories, including full commit history, rather than only files needed for a coding task. The high-signal issue is agent security and data minimization: a researcher reportedly intercepted an upload, cloned the git bundle, and recovered a file the agent had been told not to access.",
+      "zh": "The Hacker News 报道称，xAI 的 Grok Build coding CLI 上传了整个 Git repositories，包括完整 commit history，而不只是 coding task 所需文件。这里的高信号问题是 agent security 和 data minimization：研究者据称拦截了一次上传，clone 了 git bundle，并找回了一个 agent 被明确告知不要访问的文件。",
+      "tags": [
+        "agent security",
+        "coding agents",
+        "data privacy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Why frontier labs are scaling-pilled",
+      "url": "https://www.lesswrong.com/posts/zhE4LAydWzJMKq4MH/why-frontier-labs-are-scaling-pilled",
+      "en": "This LessWrong crosspost argues from the Bitter Lesson that compute acts as scalable search over patterns, explaining why frontier labs remain committed to scaling for general intelligence. It is more conceptual than empirical, but relevant to AI strategy and the economics of frontier capability.",
+      "zh": "这篇 LessWrong crosspost 从 Bitter Lesson 出发，认为 compute 是对 patterns 的 scalable search，用来解释为什么 frontier labs 仍然押注 scaling 来推进 general intelligence。它更偏概念性而非实证，但与 AI strategy 和 frontier capability 的经济逻辑相关。",
+      "tags": [
+        "scaling",
+        "AI strategy",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Top posts on r/OpenAI",
+      "role": null,
+      "title": "GPT-5.6 Pro Solves 5 Erdos Problems",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1uw2go5/gpt56_pro_solves_5_erdos_problems/",
+      "en": "A r/OpenAI post claims GPT-5.6 Pro solved five Erdos problems during stealth testing, while cautioning that Erdos problem solves happen more often than social-media hype suggests. It is worth tracking as anecdotal evidence around frontier-model math capability, but the provided data does not include independent verification.",
+      "zh": "一条 r/OpenAI 帖子称 GPT-5.6 Pro 在 stealth testing 期间解决了五个 Erdos problems，同时提醒 Erdos problem solves 比社交媒体炒作看起来更常见。它值得作为 frontier-model math capability 的轶事信号跟踪，但给定数据不包含独立验证。",
+      "tags": [
+        "reasoning",
+        "math",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Tell me your worst \"AI Agent went rogue and burned our API budget\" horror story",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uuyfxu/tell_me_your_worst_ai_agent_went_rogue_and_burned/",
+      "en": "A r/LanguageTechnology poster described an orchestration agent stuck in an error-handling loop that called an LLM thousands of times before budget caps stopped it. The useful takeaway is operational: agent runtimes need semantic loop detection and stronger cost controls, not just platform-level daily spend caps.",
+      "zh": "一位 r/LanguageTechnology 发帖者描述了一个 orchestration agent 卡在 error-handling loop 中，在 budget caps 生效前连续调用 LLM 数千次。实用 takeaway 是运维层面的：agent runtimes 需要 semantic loop detection 和更强的成本控制，而不只是 platform-level daily spend caps。",
+      "tags": [
+        "agents",
+        "cost control",
+        "runtime safety"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Fine-tuned a 2019 GPT-2 (355M) for function calling — 88% success rate, ran on a free Kaggle GPU",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uvgyva/finetuned_a_2019_gpt2_355m_for_function_calling/",
+      "en": "A r/LanguageTechnology post describes fine-tuning GPT-2 355M for function calling with an 88% success rate on a free Kaggle GPU. The post is partly learning-oriented, but it is relevant as a small-model, low-cost function-calling experiment.",
+      "zh": "一条 r/LanguageTechnology 帖子描述了在免费 Kaggle GPU 上 fine-tuning GPT-2 355M 做 function calling，并达到 88% success rate。帖子有一定学习笔记性质，但作为 small-model、低成本 function-calling 实验仍有相关性。",
+      "tags": [
+        "fine-tuning",
+        "small models",
+        "function calling"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Cloud-vLLM Benchmark Differences [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uw2j9e/cloudvllm_benchmark_differences_r/",
+      "en": "A r/MachineLearning user asks for evidence on benchmark differences between cloud inference platforms and local vLLM under greedy decoding. It is only a question, but it maps directly to reproducible evaluation and inference-stack variance.",
+      "zh": "一位 r/MachineLearning 用户询问，在 greedy decoding 下，cloud inference platforms 与本地 vLLM 之间 benchmark differences 是否有证据、论坛讨论或论文分析。它只是一个问题，但直接对应 reproducible evaluation 和 inference-stack variance。",
+      "tags": [
+        "vLLM",
+        "evaluation",
+        "inference"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-14T15:00:14.412Z"
+}
