@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-15",
+    "count": 16,
+    "headline_en": "Agent platforms, token economics, and ecosystem strategy dominated the day, with Anthropic emphasizing composable agent infrastructure while OpenAI signaled surging GPT-5.6 Sol demand.",
+    "generatedAt": "2026-07-15T14:32:29.896Z"
+  },
+  {
     "date": "2026-07-14",
     "count": 26,
     "headline_en": "AI builders and researchers converged on a practical stack for agents: route work across models, keep long-running workflows observable, and use open or efficient models where they fit.",

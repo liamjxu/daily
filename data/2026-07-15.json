@@ -1,0 +1,251 @@
+{
+  "date": "2026-07-15",
+  "headline_en": "Agent platforms, token economics, and ecosystem strategy dominated the day, with Anthropic emphasizing composable agent infrastructure while OpenAI signaled surging GPT-5.6 Sol demand.",
+  "headline_zh": "今天的主线是 agent 平台、token 经济学和生态策略，Anthropic 强调可组合的 agent 基础设施，OpenAI 则释放出 GPT-5.6 Sol 需求激增的信号。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "CEO, OpenAI",
+      "title": null,
+      "url": "https://x.com/sama/status/2077106587307798989",
+      "en": "OpenAI CEO Sam Altman said GPT-5.6 Sol growth is “insane,” crediting the inference team for keeping up with demand while warning that scaling may come with near-term hiccups. He also noted that this is a reason to favor open-source harnesses, a small but pointed comment on how agent scaffolding and evaluation infrastructure should evolve.",
+      "zh": "OpenAI CEO Sam Altman 表示 GPT-5.6 Sol 的增长“insane”，并把目前还能支撑需求归功于 inference 团队，同时提醒短期内扩容可能会出现一些波动。他还提到这也是支持 open-source harnesses 的理由，这对 agent scaffold 和 eval 基础设施如何演进给出了一个简短但有分量的信号。",
+      "tags": [
+        "GPT-5.6",
+        "compute",
+        "agents",
+        "open-source harnesses"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": "Anthropic's official Claude account",
+      "title": null,
+      "url": "https://x.com/claudeai/status/2077047279689535705",
+      "en": "Claude announced Claude for Teachers, positioning it as a K-12 product that connects through Learning Commons to draft lesson plans and student-facing materials from state standards and high-quality curricula. The account emphasized privacy: Anthropic says it does not train on teacher conversations, and student information is protected under a FERPA-oriented data processing agreement.",
+      "zh": "Claude 发布 Claude for Teachers，把它定位为面向 K-12 的产品：通过 Learning Commons 连接州标准和高质量课程资源，生成 lesson plan 和面向学生的材料。官方也强调隐私：Anthropic 表示不会用教师对话训练模型，学生信息会受到符合 FERPA 方向的数据处理协议保护。",
+      "tags": [
+        "Anthropic",
+        "education",
+        "privacy",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code eng, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2077051280267399550",
+      "en": "Anthropic Claude Code engineer Thariq shared a concrete agentic workflow: he uses Claude Code with Smogon’s npm library and live usage stats to analyze Pokemon Champions matchups, breakpoints, and team theorycrafting. The useful signal is not the game itself, but the pattern: code agents can bind domain libraries, live data, and report generation into a lightweight analysis loop.",
+      "zh": "Anthropic Claude Code 工程师 Thariq 分享了一个具体的 agentic workflow：他用 Claude Code 结合 Smogon 的 npm library 和实时使用统计，分析 Pokemon Champions 的 matchup、breakpoint 和组队思路。真正有价值的不是游戏本身，而是这个模式：code agent 可以把领域库、实时数据和报告生成串成一个轻量分析循环。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "tool use"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Ryo Lu",
+      "role": "Design, Cursor",
+      "title": null,
+      "url": "https://x.com/ryolu_/status/2077162119506833627",
+      "en": "Cursor designer Ryo Lu reflected on what happens when AI begins approximating the creative work people once treated as identity-forming: writing, coding, design, reasoning, and taste-like decisions. His practical point is that AI can accelerate output and raise the floor, but it cannot supply the underlying taste, curiosity, or private motivation that makes work worth doing.",
+      "zh": "Cursor 设计师 Ryo Lu 反思了当 AI 开始逼近那些曾经构成人们身份感的创造性工作时会发生什么：写作、编码、设计、推理，以及类似品味判断的决策。他的实际观点是，AI 可以加速输出、抬高下限，但无法替你提供品味、好奇心，或让一件事值得做的私人动机。",
+      "tags": [
+        "AI work",
+        "design",
+        "Cursor"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "Anthropic's Katelyn Lesse & Angela Jiang: Building an Ecosystem, not a Walled Garden",
+      "url": "https://www.youtube.com/watch?v=vPnVTHYplrQ",
+      "en": "The Takeaway: Anthropic’s platform strategy is moving from raw model access toward composable agent infrastructure, with knowledge, execution, and coordination becoming distinct layers builders can mix and control. Katelyn Lesse and Angela Jiang frame Anthropic Platform as both the internal substrate for Anthropic products and the external API surface for developers building on Claude. Their north star is not a single walled garden, but a set of primitives and standards such as MCP, skills, memory, managed agents, self-hosted sandboxes, and MCP tunnels that let companies build agents close to their own data and infrastructure. The sharpest idea is the “coordination layer”: instead of treating tokens as fungible, Anthropic wants builders to assign tokens jobs such as advising, executing, reflecting, grading, or exploring. Lesse argues that lower-level harness work like prompt caching, context cleanup, and evals still matters, but the bigger gains may come from “strategies” or meta-harnesses that decide how to spend token budgets across models, tools, memory, and verification. Jiang’s memorable framing: “the token has a job.” That points to a future where agent quality is less about one giant prompt and more about production-grade orchestration, routing, verification, and cost control.",
+      "zh": "The Takeaway: Anthropic 的平台策略正在从原始模型访问，走向可组合的 agent 基础设施，其中 knowledge、execution 和 coordination 会成为开发者可以混合和控制的不同层。Katelyn Lesse 和 Angela Jiang 把 Anthropic Platform 定义为双重底座：既支撑 Anthropic 内部产品，也为外部开发者提供基于 Claude 的 API 和平台能力。它们的目标不是单一 walled garden，而是一组 primitives 和 standards，比如 MCP、skills、memory、managed agents、self-hosted sandboxes 和 MCP tunnels，让企业能把 agent 构建在更贴近自身数据和基础设施的位置。最关键的想法是“coordination layer”：不要把 token 都视为可互换资源，而是给 token 分配不同工作，比如 advising、executing、reflecting、grading 或 exploring。Lesse 认为 prompt caching、context 清理、evals 这类底层 harness 工作仍然重要，但更大的收益可能来自“strategies”或 meta-harnesses，也就是决定如何在 model、tool、memory 和 verification 之间分配 token budget。Jiang 最有记忆点的表达是：“the token has a job.” 这指向一个未来：agent 质量不再主要取决于一个巨大的 prompt，而取决于可生产化的 orchestration、routing、verification 和 cost control。",
+      "tags": [
+        "Anthropic",
+        "agents",
+        "MCP",
+        "token economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
+      "url": "https://arxiv.org/abs/2607.11906",
+      "en": "A survey reframes in-context reinforcement learning around non-stationary settings where agents must adapt inside the context window using rewards, transitions, demonstrations, feedback, or retrieved experience without parameter updates.",
+      "zh": "这篇 survey 从非平稳环境重新梳理 in-context reinforcement learning，关注 agent 如何在不更新参数的情况下，通过 context window 内的 rewards、transitions、demonstrations、feedback 或 retrieved experience 完成适应。",
+      "tags": [
+        "agents",
+        "reinforcement learning",
+        "long context"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Scaling Point-in-Time Language Models",
+      "url": "https://arxiv.org/abs/2607.11889",
+      "en": "The paper trains time-bounded language models on chronologically valid corpora to reduce future-information leakage in finance and social-science backtests, showing scale can narrow the gap with unrestricted models.",
+      "zh": "这篇论文在按时间截断的语料上训练 point-in-time language models，以减少金融和社会科学 backtest 中的未来信息泄漏，并显示扩大规模可以缩小它们与 unrestricted models 的性能差距。",
+      "tags": [
+        "evaluation",
+        "contamination",
+        "LLMs"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "CANDI: Contextual Alignment for Niche Domains Question Answering",
+      "url": "https://arxiv.org/abs/2607.11891",
+      "en": "CANDI-QA introduces an expert-curated benchmark for testing whether LLM answers in specialized domains are not just correct, but context-sensitive, user-aware, and aligned to domain needs.",
+      "zh": "CANDI-QA 提出一个专家策划的 benchmark，用来评估 LLM 在专业领域中的回答是否不仅正确，还能做到 context-sensitive、user-aware，并符合领域需求。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "domain QA"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Did We Actually Fix It? An Independent Adversarial Stress-Test of Post-Point-Adjustment Evaluation Metrics for Time-Series Anomaly Detection",
+      "url": "https://arxiv.org/abs/2607.11969",
+      "en": "This paper independently stress-tests replacement metrics for time-series anomaly detection, asking whether post-point-adjustment evaluation fixes actually resist trivial and adversarial no-skill scoring.",
+      "zh": "这篇论文独立 stress-test 时间序列异常检测中的替代指标，检验 post-point-adjustment evaluation 的修复方案是否真的能抵抗 trivial 和 adversarial 的 no-skill scoring。",
+      "tags": [
+        "evaluation",
+        "metrics",
+        "time series"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
+      "url": "https://arxiv.org/abs/2607.11948",
+      "en": "The study tests ontology-amplified distillation for a local Qwen3.6-27B enterprise model under data-residency constraints, combining SFT, ontology-grounded DPO, and contextuality auditing with deliberately small-scale negative results.",
+      "zh": "这项研究在数据驻留约束下测试面向本地 Qwen3.6-27B 企业模型的 ontology-amplified distillation，结合 SFT、ontology-grounded DPO 和 contextuality auditing，并报告小规模 negative results。",
+      "tags": [
+        "Qwen",
+        "distillation",
+        "DPO",
+        "enterprise LLMs"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "G-SHARE: A Guideline-Based Structured Reasoning Framework for Human-Factor Event Diagnosis",
+      "url": "https://arxiv.org/abs/2607.11892",
+      "en": "G-SHARE turns a nine-step nuclear-plant human-factor diagnosis guideline into a multi-stage structured reasoning pipeline to make LLM-assisted event diagnosis more consistent and guideline-aligned.",
+      "zh": "G-SHARE 把核电站 human-factor event diagnosis 的九步指南转化为 multi-stage structured reasoning pipeline，以提升 LLM 辅助事件诊断的一致性和 guideline alignment。",
+      "tags": [
+        "reasoning",
+        "structured diagnosis",
+        "LLMs"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "How Brussels can avoid becoming a digital vassal to US Big Tech",
+      "url": "https://www.lesswrong.com/posts/Y2aArqdLrpJQ2GaEw/how-brussels-can-avoid-becoming-a-digital-vassal-to-us-big",
+      "en": "LessWrong’s “How Brussels can avoid becoming a digital vassal to US Big Tech” argues that a June 2026 US export-control order exposed Europe’s dependence on US-controlled frontier AI access more clearly than any model release. The post’s core claim is that regulation alone cannot give Europe strategic autonomy if model access can be cut off by US policy; the relevant bottleneck is infrastructure, compute, and sovereign capability rather than another layer of compliance rules.",
+      "zh": "LessWrong 的《How Brussels can avoid becoming a digital vassal to US Big Tech》认为，2026 年 6 月的一项美国出口管制命令，比任何模型发布都更清楚地暴露了欧洲对美国控制的 frontier AI access 的依赖。文章的核心观点是，如果模型访问可以被美国政策切断，那么单靠监管无法让欧洲获得战略自主；真正的瓶颈是 infrastructure、compute 和 sovereign capability，而不是再增加一层合规规则。",
+      "tags": [
+        "AI policy",
+        "frontier labs",
+        "compute"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "The Warring States Period: Frontier Labs Edition",
+      "url": "https://www.lesswrong.com/posts/HY6zgwLLTts8mwwXq/the-warring-states-period-frontier-labs-edition",
+      "en": "LessWrong’s “The Warring States Period: Frontier Labs Edition” frames the frontier model market as no longer a clean Anthropic-versus-OpenAI race, citing recent releases from SpaceX and Meta plus an expected Alphabet model. The strategic takeaway is that a multi-player frontier race makes the model layer harder for investors to underwrite and complicates simple AI infrastructure bottleneck trades.",
+      "zh": "LessWrong 的《The Warring States Period: Frontier Labs Edition》把 frontier model 市场描述为不再是 Anthropic 对 OpenAI 的双雄竞争，并提到 SpaceX 和 Meta 的近期发布，以及 Alphabet 预计推出的新模型。它的战略判断是，多玩家的 frontier race 会让投资者更难判断 model layer 的价值，也会让简单押注 AI infrastructure bottleneck 的交易变得更复杂。",
+      "tags": [
+        "frontier labs",
+        "AI strategy",
+        "model layer"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Jul 14, 2026Economic ResearchHow Canada uses Claude: Findings from the Anthropic Economic Index",
+      "url": "https://www.anthropic.com/research/how-canada-uses-claude",
+      "en": "Anthropic Research published “How Canada uses Claude: Findings from the Anthropic Economic Index.” The provided data only includes the title and URL, so the safe signal is that Anthropic extended its Economic Index work to Canadian Claude usage.",
+      "zh": "Anthropic Research 发布《How Canada uses Claude: Findings from the Anthropic Economic Index》。给定数据只包含标题和 URL，因此能安全提取的信号是 Anthropic 将其 Economic Index 工作扩展到了加拿大的 Claude 使用情况。",
+      "tags": [
+        "Anthropic",
+        "Economic Index",
+        "AI adoption"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
+      "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
+      "en": "The Hacker News reports a Windows Cursor flaw where opening a cloned repository can execute a project-root git.exe without a click, approval dialog, or warning, and continue re-running it while the project stays open. For AI coding tools, the important point is the attack surface around trusted developer workflows: repo open events, local credentials, SSH keys, and cloud tokens become part of the risk model.",
+      "zh": "The Hacker News 报道了一个 Windows 上的 Cursor 漏洞：打开 cloned repository 时，项目根目录中的 git.exe 可以在没有点击、approval dialog 或 warning 的情况下执行，并且在项目保持打开时继续重复运行。对 AI coding tools 来说，重点是可信开发流程带来的攻击面：repo open events、本地凭证、SSH keys 和 cloud tokens 都会进入风险模型。",
+      "tags": [
+        "Cursor",
+        "AI security",
+        "developer tools"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Current rule-based procedural semantics projects?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uwgben/current_rulebased_procedural_semantics_projects/",
+      "en": "A r/LanguageTechnology user asked for current open-source, rule-based procedural semantics systems in the spirit of SHRDLU, focused on handcrafted rules for natural-language querying, commanding, and storytelling. It is niche, but relevant as a reminder that not all language-technology work has moved to neural LLMs; some practitioners still want executable symbolic interfaces.",
+      "zh": "一位 r/LanguageTechnology 用户询问是否有类似 SHRDLU 的现期开源 rule-based procedural semantics 系统，重点是用手写规则支持自然语言查询、命令和 storytelling。这个话题很小众，但它提醒我们，并非所有 language technology 都转向了 neural LLMs；仍有人关注可执行的 symbolic interfaces。",
+      "tags": [
+        "symbolic NLP",
+        "procedural semantics"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-15T14:32:29.896Z"
+}
