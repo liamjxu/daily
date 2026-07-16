@@ -1,0 +1,270 @@
+{
+  "date": "2026-07-16",
+  "headline_en": "Agent workflows moved from demos toward durable infrastructure today, with builders emphasizing codified context, shared work surfaces, provenance, and evaluations that test whether AI systems really ground their reasoning.",
+  "headline_zh": "今天的主线是 agent 工作流从演示走向更耐用的基础设施，构建者关注可编码的上下文、共享工作界面、数据 provenance，以及检验 AI 系统是否真正 grounding 推理的评估。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2077460395279692197",
+      "en": "Anthropic's Claude Code creator Boris Cherny argues that the old engineering habit of automation is now even higher leverage because it compounds across agents. His core point is that teams should move domain knowledge out of people's heads and into infrastructure: lint rules, CI, tests, CLAUDE.md, REVIEW.md, skills, docs, comments, and memories that let agents contribute with minimal prompting. He frames rejected AI-generated PRs that miss local architecture or framework choices as automation failures, not merely model failures.",
+      "zh": "Anthropic 的 Claude Code creator Boris Cherny 认为，工程师长期以来的自动化习惯在 agent 时代变得更有杠杆，因为它会在多个 agent 身上复利。他的核心观点是，团队应该把 domain knowledge 从人的脑子里搬进基础设施：lint rules、CI、tests、CLAUDE.md、REVIEW.md、skills、docs、comments 和 memories，让 agent 在很少 prompt 的情况下也能有效贡献。他把 AI 生成的 PR 因不懂本地架构或框架选择而被拒，视为自动化失败，而不只是模型失败。",
+      "tags": [
+        "agents",
+        "tool use",
+        "DevX",
+        "skills"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT engineer, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2077630111499882637",
+      "en": "OpenAI's Codex and ChatGPT engineer Thibault Sottiaux says OpenAI investigated rare GPT-5.6 file-deletion reports and found the common pattern was full-access mode without sandboxing or auto review, combined with a mistaken attempt to override $HOME as a temp directory. OpenAI is updating developer guidance, steering users toward safer permission modes, adding harness safeguards, and plans a detailed post-mortem. He also asked Codex Plus and Pro users whether removing the five-hour limit improves usage or makes weekly-limit management harder.",
+      "zh": "OpenAI 的 Codex 和 ChatGPT engineer Thibault Sottiaux 表示，OpenAI 调查了少量 GPT-5.6 意外删除文件的报告，发现常见模式是用户在没有 sandboxing 或 auto review 的 full-access mode 下运行，同时模型错误地试图把 $HOME 当作临时目录来覆盖。OpenAI 正在更新 developer guidance，引导用户使用更安全的 permission modes，增加 harness safeguards，并计划发布详细 post-mortem。他还询问 Codex Plus 和 Pro 用户，取消五小时限制后体验是否更好，还是让 weekly limit 更难管理。",
+      "tags": [
+        "Codex",
+        "GPT-5.6",
+        "agents",
+        "safety"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs and Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2077471111240204457",
+      "en": "Google Labs and Gemini VP Josh Woodward announced that Gemini Spark is expanding to more Ultra subscribers with four capability upgrades: editing Google Docs, reading comments in Sheets and Slides, over 50% faster performance, and parallel processing across multiple sources. He also highlighted Google's first Gemini Southeast Asia Report, saying active users more than doubled over the last year, 70% of prompts are in native languages, and 40% use only voice, image, or video.",
+      "zh": "Google Labs 和 Gemini VP Josh Woodward 宣布 Gemini Spark 将向更多 Ultra 订阅用户开放，并带来四项升级：编辑 Google Docs、读取 Sheets 和 Slides 评论、性能提升超过 50%，以及跨多个来源并行处理。他还提到 Google 首份 Gemini Southeast Asia Report，称过去一年活跃用户增长超过一倍，70% 的 prompts 使用本地语言，40% 只使用语音、图像或视频。",
+      "tags": [
+        "Gemini",
+        "agents",
+        "multimodal",
+        "Google"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code engineer, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2077539537992229076",
+      "en": "Anthropic Claude Code engineer Thariq compressed an agent-workflow philosophy into: thin prompts, thick artifacts and context, thin skills. Paired with his note that software engineering is the profession of automation, it echoes the broader Claude Code theme that durable context and lightweight reusable skills matter more than verbose prompting.",
+      "zh": "Anthropic Claude Code engineer Thariq 把 agent 工作流哲学压缩成一句话：thin prompts、thick artifacts and context、thin skills。结合他所说的“software engineering is the profession of automation”，这呼应了 Claude Code 生态的核心思路：耐用的上下文和轻量可复用 skills，比冗长 prompt 更重要。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "skills"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2077626565517590618",
+      "en": "Y Combinator CEO Garry Tan argued that skill files are portable and reduce dependency on any single frontier model. The post is brief, but it points at a strategic theme: teams may increasingly encode workflow knowledge in reusable agent-facing artifacts rather than rely only on model-specific behavior.",
+      "zh": "Y Combinator CEO Garry Tan 认为 skill files 具有可移植性，可以降低对单一 frontier model 的依赖。帖子很短，但指向一个战略主题：团队可能会越来越多地把工作流知识编码进可复用、面向 agent 的 artifacts，而不是只依赖某个模型的特定行为。",
+      "tags": [
+        "skills",
+        "agents",
+        "open-source vs closed"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "en": "Claude Blog: Claude Code now supports artifacts. Claude Code can now turn a coding or analysis session into live, shareable visual pages such as PR walkthroughs, incident timelines, dashboards, system explainers, release checklists, license audits, data-flow maps, and architecture views. The key product move is shared state: artifacts use the session's codebase, connectors, and conversation context, then refresh in place at the same link as Claude republishes updates with version history. Anthropic says the beta is available to Claude Team and Enterprise orgs through the Claude Code CLI and desktop app, with pages viewable in any browser. The collaboration promise is explicit: teams should not need someone to “walk us through what the agent found” when everyone can inspect the same evolving artifact.",
+      "zh": "Claude Blog: Claude Code now supports artifacts。Claude Code 现在可以把一次 coding 或 analysis session 转成 live、可分享的可视化页面，例如 PR walkthroughs、incident timelines、dashboards、system explainers、release checklists、license audits、data-flow maps 和 architecture views。关键产品动作是共享状态：artifacts 使用 session 中的 codebase、connectors 和 conversation context，并在 Claude 重新发布更新时通过同一个链接原地刷新，同时保留 version history。Anthropic 表示，该 beta 面向 Claude Team 和 Enterprise orgs，可通过 Claude Code CLI 和 desktop app 使用，页面可在任意浏览器查看。它的协作承诺很明确：当每个人都能查看同一个持续演进的 artifact 时，团队不再需要某个人来“walk us through what the agent found”。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "artifacts",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The Takeaway: Granola CEO Chris Pedregal thinks the first wave of AI apps is only a prelude, and the real prize is owning high-quality work context while letting users bring that context into whatever agents they use. Pedregal says meeting notes are not the end state: “There’s something much bigger,” namely the interface for how people work with AI-native systems. He argues Granola should be best in the world at meeting-adjacent jobs while making its context accessible through API and MCP, because users will combine Granola data with Codex, Claude, custom agents, and internal workflows. The sharpest product insight is latency: agentic features often need precomputation because busy users will not wait 20 seconds, so Granola pregenerates large numbers of meeting briefs even if only a minority are opened. Pedregal frames the desired UX as a handrail: invisible most of the time, but immediately load-bearing when the user reaches for it.",
+      "zh": "The Takeaway: Granola CEO Chris Pedregal 认为第一波 AI apps 只是序章，真正的机会在于拥有高质量的工作上下文，同时允许用户把这些 context 带进他们使用的任何 agent。Pedregal 说 meeting notes 不是终点：“There’s something much bigger”，也就是人们如何与 AI-native systems 一起工作的 interface。他认为 Granola 应该在 meeting-adjacent jobs 上做到世界最好，同时通过 API 和 MCP 开放自己的 context，因为用户会把 Granola data 与 Codex、Claude、custom agents 和内部 workflows 组合起来。最尖锐的产品洞察是 latency：agentic features 往往需要 precomputation，因为忙碌用户不会等 20 秒，所以 Granola 会预先生成大量 meeting briefs，即使只有少数会被打开。Pedregal 把理想 UX 比作 handrail：大多数时候不可见，但用户伸手需要时必须立刻可靠承重。",
+      "tags": [
+        "agents",
+        "MCP",
+        "AI apps",
+        "context"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
+      "url": "https://arxiv.org/abs/2607.13069",
+      "en": "A black-box audit tests whether each step in an LLM chain-of-thought actually depends on the stated premise by substituting predicates and checking whether the reasoning changes.",
+      "zh": "这篇论文提出一种 black-box audit，通过替换 predicates 并检查 reasoning 是否变化，测试 LLM chain-of-thought 的每一步是否真的依赖其声称的 premise。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "CoT",
+        "LLM"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "url": "https://arxiv.org/abs/2607.13037",
+      "en": "OriginBlame tracks author identity through data pipelines at record and token level so removal requests can become precise forget sets instead of broad dataset deletion.",
+      "zh": "OriginBlame 在 data pipelines 中以 record 和 token 粒度追踪作者身份，让 removal requests 可以转化为精确的 forget sets，而不是粗暴删除大块 dataset。",
+      "tags": [
+        "provenance",
+        "unlearning",
+        "datasets"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "url": "https://arxiv.org/abs/2607.13049",
+      "en": "SPINE uses orchestrated multi-agent workflows to build robot-specific context and debug bimanual robot deployment, targeting the expert-calibration bottleneck in embodied AI.",
+      "zh": "SPINE 使用编排好的 multi-agent workflows 来构建 robot-specific context，并调试双臂机器人部署，目标是缓解 embodied AI 中依赖专家校准的瓶颈。",
+      "tags": [
+        "agents",
+        "robotics",
+        "embodied AI"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "TAKE: Trajectory-Aware Knowledge Estimation for Text Dataset Distillation",
+      "url": "https://arxiv.org/abs/2607.11898",
+      "en": "TAKE distills text corpora down to as little as 0.1% of their original size by using training-trajectory-aware influence estimates to select samples that preserve downstream performance.",
+      "zh": "TAKE 使用考虑 training trajectory 的 influence estimates 选择样本，把 text corpora 蒸馏到原始规模最低 0.1%，同时尽量保留下游任务表现。",
+      "tags": [
+        "distillation",
+        "datasets",
+        "NLP"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "I'm Sorry, but I Can't Help with Braille: Revealing Accessibility Failures in State-of-the-Art LLMs",
+      "url": "https://arxiv.org/abs/2607.11893",
+      "en": "A Korean-Braille translation benchmark finds state-of-the-art LLMs produce poor and unstable accessibility-critical outputs, suggesting gaps in Braille-aware tokenization and alignment.",
+      "zh": "这项 Korean-Braille translation benchmark 发现 state-of-the-art LLMs 在 accessibility-critical 输出上表现差且不稳定，说明 Braille-aware tokenization 和 alignment 仍有明显缺口。",
+      "tags": [
+        "LLM",
+        "accessibility",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Price of Fairness in Bandits: A Tight Minimax Characterization",
+      "url": "https://arxiv.org/abs/2607.13402",
+      "en": "This paper characterizes the minimax cost of strict fairness in bandit learning, where early participants should not bear disproportionate exploration losses.",
+      "zh": "这篇论文刻画了 bandit learning 中 strict fairness 的 minimax cost，关注早期参与者不应承担过高 exploration losses 的场景。",
+      "tags": [
+        "bandits",
+        "fairness",
+        "ML theory"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "What building Shippy taught us about building agents",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "en": "Hugging Face Blog: What building Shippy taught us about building agents. The title points to a practical postmortem on agent building from AllenAI's Shippy work, making it the strongest Feedly blog match for the reader's interest in agentic workflows. The provided data does not include details beyond the title and source, so the safe takeaway is that this is worth prioritizing as an agent-building case study rather than treating it as a source of specific technical claims.",
+      "zh": "Hugging Face Blog: What building Shippy taught us about building agents。标题显示这是一篇来自 AllenAI 的 Shippy agent 构建复盘，最贴合读者对 agentic workflows 的兴趣。给定数据没有提供标题和来源之外的细节，所以稳妥的 takeaway 是把它作为一个 agent-building case study 优先阅读，而不是从中提炼具体技术结论。",
+      "tags": [
+        "agents",
+        "Hugging Face",
+        "case study"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "基于排序不等式的相似度指标",
+      "url": "https://spaces.ac.cn/archives/11818",
+      "en": "Scientific Spaces summarizes a paper called “Beyond Cosine Similarity” and records the idea of constructing looser similarity metrics from the rearrangement inequality. For a Chinese ML/NLP reader, the signal is the metric-design angle: rethinking similarity beyond default cosine measures.",
+      "zh": "Scientific Spaces 记录并简评了一篇名为 “Beyond Cosine Similarity” 的论文，核心是基于排序不等式构建更宽松的相似度指标。对关注中文 ML/NLP 社区的读者来说，重点在 metric design：重新思考默认 cosine similarity 之外的相似度定义。",
+      "tags": [
+        "Chinese ML/NLP",
+        "similarity",
+        "metrics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+      "url": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
+      "en": "The Hacker News reports that OpenAI disclosed GPT-Red, an internal automated red-teaming model for finding prompt-injection vulnerabilities before wider deployment. The provided summary says OpenAI uses GPT-Red to adversarially train and harden GPT-5.6 Sol, making this relevant to AI-system security rather than generic CVE noise.",
+      "zh": "The Hacker News 报道称 OpenAI 披露了 GPT-Red，这是一个内部 automated red-teaming model，用来在更广泛部署前发现 prompt-injection vulnerabilities。给定摘要称 OpenAI 使用 GPT-Red 对 GPT-5.6 Sol 进行 adversarial training 和加固，因此它属于 AI-system security，而不是普通 CVE 噪音。",
+      "tags": [
+        "GPT-5.6",
+        "prompt injection",
+        "AI security",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "The fundamental fallacy of language",
+      "url": "https://www.lesswrong.com/posts/MEwhjL2Pfr92tFsme/the-fundamental-fallacy-of-language",
+      "en": "LessWrong's “The fundamental fallacy of language” argues that people mistake sentences for propositions and words for concepts, underestimating the work needed to interpret meaning charitably and precisely. It is not an AI post, but it is relevant background for NLP and LLM evaluation because ambiguity in language is part of what makes model behavior and human judgment hard to pin down.",
+      "zh": "LessWrong 的 “The fundamental fallacy of language” 认为，人们常把 sentences 当成 propositions，把 words 当成 concepts，从而低估了对意义进行善意且精确解释所需的工作。它不是一篇 AI 文章，但对 NLP 和 LLM evaluation 有背景价值，因为语言歧义正是模型行为和人类判断难以固定下来的原因之一。",
+      "tags": [
+        "NLP",
+        "evaluation",
+        "language"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-16T12:01:56.651Z"
+}
