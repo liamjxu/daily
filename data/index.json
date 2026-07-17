@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-17",
+    "count": 23,
+    "headline_en": "AI agents moved from demos toward deployed infrastructure, with the day’s strongest signal around containment, tool-use reliability, post-training, and evaluation under real operational constraints.",
+    "generatedAt": "2026-07-17T12:02:50.413Z"
+  },
+  {
     "date": "2026-07-16",
     "count": 17,
     "headline_en": "Agent workflows moved from demos toward durable infrastructure today, with builders emphasizing codified context, shared work surfaces, provenance, and evaluations that test whether AI systems really ground their reasoning.",

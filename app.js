@@ -1,11 +1,12 @@
 "use strict";
 
-const SECTION_ORDER = ["X", "Official Blogs", "Podcasts", "Papers", "Blogs", "Reddit"];
+const SECTION_ORDER = ["X", "Official Blogs", "Podcasts", "Papers", "RedNote", "Blogs", "Reddit"];
 const SECTION_LABEL = {
   X: "X / Twitter",
   "Official Blogs": "Official Blogs",
   Podcasts: "Podcasts",
   Papers: "Papers",
+  RedNote: "RedNote / 小红书",
   Blogs: "Blogs",
   Reddit: "Reddit",
 };
