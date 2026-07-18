@@ -195,16 +195,41 @@ function card(it) {
 function buildChips() {
   const counts = {};
   for (const it of state.digest.items || []) counts[it.section] = (counts[it.section] || 0) + 1;
+  const sections = SECTION_ORDER.filter((s) => counts[s]);
+  const visibleSecs = sections.filter((s) => !state.hiddenSections.has(s));
+  const allOn = visibleSecs.length === sections.length;
   const box = $("#chips");
   box.innerHTML = "";
-  for (const section of SECTION_ORDER) {
-    if (!counts[section]) continue;
-    const chip = el("button", "chip" + (state.hiddenSections.has(section) ? "" : " on"));
+
+  const allChip = el("button", "chip" + (allOn ? " on" : ""));
+  allChip.innerHTML = `All<span class="ct">${(state.digest.items || []).length}</span>`;
+  allChip.title = "Show every section";
+  allChip.onclick = () => {
+    state.hiddenSections.clear();
+    buildChips();
+    render();
+  };
+  box.appendChild(allChip);
+
+  for (const section of sections) {
+    const visible = !state.hiddenSections.has(section);
+    // When everything is visible no single chip is highlighted — "All" is.
+    const chip = el("button", "chip" + (visible && !allOn ? " on" : ""));
     chip.innerHTML = `${esc(SECTION_LABEL[section])}<span class="ct">${counts[section]}</span>`;
-    chip.onclick = () => {
-      if (state.hiddenSections.has(section)) state.hiddenSections.delete(section);
-      else state.hiddenSections.add(section);
-      chip.classList.toggle("on");
+    chip.title = "Click: only this section · ⌘/Ctrl-click: add or remove it";
+    chip.onclick = (e) => {
+      const solo = visibleSecs.length === 1 && visibleSecs[0] === section;
+      if (e.metaKey || e.ctrlKey || e.shiftKey) {
+        // Multi-select: toggle just this section (hiding the last one = show all)
+        if (visible && visibleSecs.length === 1) state.hiddenSections.clear();
+        else if (visible) state.hiddenSections.add(section);
+        else state.hiddenSections.delete(section);
+      } else if (solo) {
+        state.hiddenSections.clear(); // clicking the soloed chip restores all
+      } else {
+        state.hiddenSections = new Set(sections.filter((s) => s !== section));
+      }
+      buildChips();
       render();
     };
     box.appendChild(chip);
