@@ -1,34 +1,33 @@
 {
   "date": "2026-07-18",
-  "headline_en": "Agent systems, evaluation rigor, and compute constraints dominated the day, with Claude/OpenAI updates, agent-harness design, and benchmark papers pushing beyond static chat and static leaderboards.",
-  "headline_zh": "今天的主线是 agent 系统、评测严谨性与算力约束，Claude/OpenAI 动态、agent harness 设计和 benchmark 论文都在推动行业走出静态聊天与静态榜单。",
+  "headline_en": "Agent infrastructure, evaluation realism, and compute scarcity dominated the day, with frontier labs emphasizing harness design, capacity, memory, and harder-to-game benchmarks.",
+  "headline_zh": "今天的主线是 agent 基础设施、真实场景评测和算力稀缺，前沿实验室与研究社区都在强调 harness、容量、记忆和更难被投机的 benchmark。",
   "items": [
     {
       "section": "X",
       "category": null,
       "source": "Claude",
-      "role": "Anthropic official Claude account",
+      "role": null,
       "title": null,
       "url": "https://x.com/claudeai/status/2078302415804379218",
-      "en": "Claude announced that beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans at 50% of limits. Pro and Team Standard users will continue using Fable through usage credits and receive a one-time $100 credit, with Claude acknowledging that Fable demand has been hard to predict and capacity-constrained.",
-      "zh": "Claude 宣布从 7 月 20 日起，Claude Fable 5 将以 50% limits 纳入所有 Max 和 Team Premium 计划。Pro 和 Team Standard 用户仍可通过 usage credits 使用 Fable，并获得一次性 100 美元 credit；Claude 也承认 Fable 需求很难预测，容量一直受限。",
+      "en": "Claude said Claude Fable 5 will be included in all Max and Team Premium plans starting July 20 at 50% of limits. Pro and Team Standard users will keep access through usage credits and receive a one-time $100 credit, reflecting Anthropic’s attempt to stabilize access while it adds capacity.",
+      "zh": "Claude 表示，从 7月20日 开始，Claude Fable 5 将纳入所有 Max 和 Team Premium 计划，额度为 50%。Pro 和 Team Standard 用户仍可通过 usage credits 使用 Fable，并会获得一次性 $100 credit，这反映出 Anthropic 正在一边扩容一边让访问规则更稳定。",
       "tags": [
         "frontier labs",
         "model access",
-        "Claude Fable"
+        "capacity"
       ]
     },
     {
       "section": "X",
       "category": null,
       "source": "Thibault Sottiaux",
-      "role": "Codex & ChatGPT at OpenAI",
+      "role": "Codex & ChatGPT engineer, OpenAI",
       "title": null,
       "url": "https://x.com/thsottiaux/status/2078320950488297917",
-      "en": "OpenAI engineer Thibault Sottiaux said paid users received reset usage limits for Codex and ChatGPT Work, crediting the team for scaling infrastructure while iterating quickly. He also suggested the reset may have affected other rate limits transitively and separately called GPT-5.6 Sol an extremely good model.",
-      "zh": "OpenAI 工程师 Thibault Sottiaux 表示，Codex 和 ChatGPT Work 的付费用户已获得 usage limits 重置，并把这归功于团队在快速迭代同时维持基础设施扩容。他还表示这次重置可能连带影响了其他 rate limits，并另外称 GPT-5.6 Sol 是一个非常强的模型。",
+      "en": "OpenAI engineer Thibault Sottiaux said usage limits were reset for all paid users of Codex and ChatGPT Work, crediting a team that is scaling infrastructure under heavy growth. He also said GPT-5.6 Sol is “an extremely good model,” but gave no further detail in the provided post.",
+      "zh": "OpenAI 的 Codex 与 ChatGPT 工程师 Thibault Sottiaux 表示，Codex 和 ChatGPT Work 的所有付费用户 usage limits 已被重置，并提到团队正在高速扩展基础设施。另一个帖子里，他称 GPT-5.6 Sol 是“an extremely good model”，但给出的信息很少。",
       "tags": [
-        "frontier labs",
         "Codex",
         "GPT-5.6",
         "model access"
@@ -38,15 +37,15 @@
       "section": "X",
       "category": null,
       "source": "Thariq",
-      "role": "Claude Code at Anthropic",
+      "role": "Claude Code engineer, Anthropic",
       "title": null,
       "url": "https://x.com/trq212/status/2078189833445654714",
-      "en": "Anthropic Claude Code engineer Thariq argued that building prototypes of mockups, schemas, data models, and proof-of-concepts is the best way to avoid wasting tokens before realizing an output is not what you want. The practical point is that agentic coding workflows need cheap external checks and intermediate artifacts, not just longer prompting.",
-      "zh": "Anthropic Claude Code 工程师 Thariq 认为，先做 mockup、schema、data model 和 proof-of-concept 的 prototype，是避免花掉大量 token 后才发现结果不想要的最好方式。实际要点是 agentic coding workflow 需要便宜的外部检查和中间产物，而不只是更长的 prompting。",
+      "en": "Anthropic’s Thariq argued that building prototypes of mockups, schemas, data models, and proofs of concept is the best way to avoid burning tokens before discovering the desired output is wrong. The practical point is that agent workflows should surface uncertainty early with cheap artifacts, not defer validation until a long generation has already spent the budget.",
+      "zh": "Anthropic 的 Claude Code 工程师 Thariq 认为，先做 mockup、schema、data model 和 proof of concept 的原型，是避免在发现输出不对前浪费大量 token 的最好办法。这里的实践重点是，agent workflow 应该用低成本产物尽早暴露不确定性，而不是等长生成已经消耗完预算才验收。",
       "tags": [
         "agents",
         "tool use",
-        "coding agents"
+        "workflow"
       ]
     },
     {
@@ -56,13 +55,13 @@
       "role": null,
       "title": "Scaling Managed Agents: Decoupling the brain from the hands",
       "url": "https://www.anthropic.com/engineering/managed-agents",
-      "en": "Anthropic Engineering: Scaling Managed Agents: Decoupling the brain from the hands explains Claude Managed Agents as a hosted meta-harness with durable sessions, stateless harnesses, and replaceable sandboxes. The core design move is to separate the “brain” from the “hands”: the harness calls execution environments as tools, sandboxes can fail and be reprovisioned, and the session log persists outside the model context window. The architecture also moves credentials out of the sandbox and into resource-scoped auth or vault-backed MCP proxies. The practical result is not just cleaner abstractions: Anthropic says p50 time-to-first-token dropped roughly 60% and p95 over 90%, while enabling many brains and many hands across customer-controlled infrastructure.",
-      "zh": "Anthropic Engineering: Scaling Managed Agents: Decoupling the brain from the hands 介绍了 Claude Managed Agents 作为 hosted meta-harness 的设计：durable sessions、stateless harnesses 和可替换 sandboxes。核心设计是把“brain”和“hands”分离：harness 把执行环境当作工具调用，sandbox 可以失败后重新 provision，session log 则持久化在模型 context window 之外。这个架构还把 credentials 从 sandbox 中移出，改由资源级 auth 或 vault-backed MCP proxy 管理。实际收益不只是抽象更干净：Anthropic 称 p50 time-to-first-token 下降约 60%，p95 下降超过 90%，同时支持跨客户自有基础设施的 many brains 和 many hands。",
+      "en": "Anthropic Engineering: Scaling Managed Agents frames Claude Managed Agents as a hosted “meta-harness” for long-horizon agents, separating the session log, harness, and sandbox so each can fail, restart, or evolve independently. The core design move is to decouple the “brain” from the “hands”: the harness runs outside the execution container and calls sandboxes/tools through a small interface, while credentials stay outside generated code paths. The payoff is concrete: by provisioning sandboxes only when needed, Anthropic says p50 time-to-first-token fell roughly 60% and p95 fell over 90%. For agent builders, the practical implication is that durable session logs, recoverable context, tool isolation, and many-brain/many-hand orchestration are becoming first-class platform primitives, not just application glue.",
+      "zh": "Anthropic Engineering 的 Scaling Managed Agents 把 Claude Managed Agents 定义为面向长周期 agent 的托管式“meta-harness”，将 session log、harness 和 sandbox 解耦，让每一层都能独立失败、重启或演进。核心设计是把“brain”和“hands”分开：harness 不再跑在执行容器里，而是通过小接口调用 sandbox 和 tool，同时让 credential 留在生成代码无法触及的位置。实际收益很明确：只在需要时 provision sandbox 后，Anthropic 称 p50 time-to-first-token 下降约 60%，p95 下降超过 90%。对 agent 开发者来说，durable session log、可恢复 context、tool isolation，以及 many-brain/many-hand orchestration 正在从应用胶水变成平台级原语。",
       "tags": [
-        "LLM agents",
-        "tool use",
-        "agentic workflows",
-        "Claude"
+        "agents",
+        "harness",
+        "MCP",
+        "security"
       ]
     },
     {
@@ -72,13 +71,13 @@
       "role": null,
       "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
       "url": "https://claude.com/blog/claude-managed-agents-updates",
-      "en": "Claude Blog: New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels announces that Claude Managed Agents can now execute tools in customer-controlled sandboxes and connect to private MCP servers. Self-hosted sandboxes are in public beta, while MCP tunnels are in research preview and let agents reach internal databases, APIs, knowledge bases, and ticketing systems through a lightweight outbound gateway with no public endpoint. Anthropic positions this as an enterprise security and runtime-control feature: code execution, sensitive files, packages, repositories, and services can remain inside the customer perimeter, while orchestration and context management stay on Anthropic infrastructure. Supported sandbox providers include Cloudflare, Daytona, Modal, and Vercel.",
-      "zh": "Claude Blog: New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels 宣布 Claude Managed Agents 现在可以在客户控制的 sandbox 中执行工具，并连接私有 MCP servers。Self-hosted sandboxes 进入 public beta，MCP tunnels 处于 research preview，可让 agent 通过轻量 outbound gateway 访问内部数据库、API、知识库和工单系统，无需公开 endpoint。Anthropic 将其定位为面向企业安全和 runtime control 的能力：代码执行、敏感文件、packages、repositories 和 services 可以留在客户边界内，而 orchestration 和 context management 仍在 Anthropic 基础设施上。支持的 sandbox providers 包括 Cloudflare、Daytona、Modal 和 Vercel。",
+      "en": "Claude Blog: New in Claude Managed Agents adds self-hosted sandboxes in public beta and MCP tunnels in research preview. The key product shift is that agent orchestration, context management, and recovery stay on Anthropic’s infrastructure, while tool execution can run inside infrastructure controlled by the customer or providers such as Cloudflare, Daytona, Modal, and Vercel. MCP tunnels let Claude Managed Agents and the Messages API reach private MCP servers through an outbound gateway, without public endpoints or inbound firewall rules. This matters for enterprises that want agents to touch internal databases, private APIs, repos, and services without moving sensitive execution outside their perimeter.",
+      "zh": "Claude Blog 的 New in Claude Managed Agents 发布了 public beta 的 self-hosted sandboxes 和 research preview 的 MCP tunnels。关键产品变化是，agent orchestration、context management 和 recovery 仍在 Anthropic 基础设施上运行，但 tool execution 可以放在客户控制的基础设施里，或 Cloudflare、Daytona、Modal、Vercel 等 provider 上。MCP tunnels 让 Claude Managed Agents 和 Messages API 能通过 outbound gateway 访问私有 MCP server，不需要公开 endpoint 或 inbound firewall rule。这对企业很重要，因为它们希望 agent 能接触内部数据库、私有 API、repo 和服务，同时不把敏感执行环境移出自己的边界。",
       "tags": [
-        "LLM agents",
+        "agents",
         "MCP",
-        "enterprise AI",
-        "Claude"
+        "enterprise",
+        "security"
       ]
     },
     {
@@ -88,13 +87,13 @@
       "role": null,
       "title": "An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "en": "Anthropic Engineering: An update on recent Claude Code quality reports traces recent Claude Code degradation reports to three resolved product-layer issues, not the API or inference layer. Anthropic says it made the wrong tradeoff by changing Claude Code’s default reasoning effort from high to medium, introduced a stale-session bug that repeatedly dropped older thinking blocks, and shipped a verbosity-limiting system prompt that hurt coding quality. One direct lesson is captured in the post’s line: “In general, the longer the model thinks, the better the output.” Anthropic says all issues were resolved by April 20 in v2.1.116, subscriber usage limits were reset, and future prompt or intelligence tradeoff changes will get broader evals, ablations, soak periods, and gradual rollouts.",
-      "zh": "Anthropic Engineering: An update on recent Claude Code quality reports 将近期 Claude Code 质量下降反馈归因于三个已修复的产品层问题，而不是 API 或 inference layer。Anthropic 表示，把 Claude Code 默认 reasoning effort 从 high 改为 medium 是错误取舍；一个 stale-session bug 会反复丢弃旧 thinking blocks；另一个限制 verbosity 的 system prompt 伤害了 coding quality。文章中的一句话很好概括了教训：“In general, the longer the model thinks, the better the output.” Anthropic 称所有问题已在 4 月 20 日的 v2.1.116 修复，订阅用户 usage limits 已重置，未来涉及 prompt 或 intelligence tradeoff 的改动会经过更广的 evals、ablations、soak periods 和 gradual rollouts。",
+      "en": "Anthropic Engineering: An update on recent Claude Code quality reports identifies three resolved causes behind user reports of Claude Code degradation: a default reasoning-effort reduction from high to medium, a caching bug that repeatedly dropped older thinking after idle sessions, and a system-prompt verbosity limit that hurt coding quality. Anthropic says the API and inference layer were unaffected, and that all three issues were fixed by April 20 in v2.1.116. The most useful detail for builders is that the failures were product-layer and harness-layer changes, not model regressions, and internal evals initially missed them. Anthropic says it will broaden per-model evals, add ablations for prompt changes, increase public-build dogfooding, and use soak periods and gradual rollouts for changes that could trade off against intelligence.",
+      "zh": "Anthropic Engineering 的 An update on recent Claude Code quality reports 归因了近期 Claude Code 质量下降反馈的三个已修复原因：默认 reasoning effort 从 high 降到 medium、一个会在 idle session 后反复丢弃旧 thinking 的 caching bug，以及一个降低 verbosity 的 system prompt 限制伤害了 coding quality。Anthropic 表示 API 和 inference layer 未受影响，三个问题都已在 4月20日 的 v2.1.116 中修复。对 builder 最有价值的细节是，这些失败来自 product layer 和 harness layer，而不是模型本身退化，并且内部 eval 一开始没有复现。Anthropic 表示之后会扩大 per-model eval，对 prompt change 做 ablation，增加 public build dogfooding，并对可能牺牲 intelligence 的改动采用 soak period 和 gradual rollout。",
       "tags": [
         "Claude Code",
         "evaluation",
-        "test-time compute",
-        "postmortem"
+        "harness",
+        "test-time compute"
       ]
     },
     {
@@ -104,13 +103,72 @@
       "role": null,
       "title": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
       "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o",
-      "en": "The Takeaway: OpenAI’s compute strategy is now a full industrial stack because demand still exceeds supply, and the biggest risk is underbuilding rather than overbuilding. Sachin Katti, OpenAI’s head of industrial compute, frames AI data centers as “giant factories that are turning electrons into tokens,” with power, cooling, networking, financing, and capacity allocation becoming core strategic constraints. He says OpenAI is spending directionally around $50 billion on compute this year, relies on a portfolio across hyperscalers and partners, and treats Stargate as an umbrella strategy for learning how to scale compute. The most important technical points are that inference is now central even inside “training” because synthetic data, post-training, and test-time compute are inference-heavy; Jalapeno is optimized for tokens per watt through model-hardware co-design; and AI is already assisting chip design, with Katti saying the recursive world where AI designs systems for the next AI generation is “not that far.”",
-      "zh": "The Takeaway: OpenAI 的 compute strategy 已经变成完整的 industrial stack，因为需求仍然超过供给，最大的风险不是 overbuild，而是 build 得不够快。OpenAI head of industrial compute Sachin Katti 把 AI data centers 描述为“giant factories that are turning electrons into tokens”，其中 power、cooling、networking、financing 和 capacity allocation 都成了核心战略约束。他表示 OpenAI 今年 compute spend 方向上约为 500 亿美元，采用覆盖 hyperscalers 和 partners 的 portfolio，并把 Stargate 视作学习如何扩展 compute 的 umbrella strategy。最重要的技术点是，inference 现在甚至在“training”内部也很核心，因为 synthetic data、post-training 和 test-time compute 都高度依赖 inference；Jalapeno 通过 model-hardware co-design 优化 tokens per watt；AI 已经在辅助 chip design，Katti 说 AI 为下一代 AI 设计系统的 recursive world “not that far”。",
+      "en": "The Takeaway: OpenAI’s compute strategy is no longer just buying GPUs, it is becoming a full-stack industrial operation across data centers, power, networking, custom chips, and guaranteed token supply. Sachin Katti, OpenAI’s head of industrial compute, describes AI data centers as “giant factories that are turning electrons into tokens,” and says demand still outstrips supply so completely that “anything we can bring online, we consume immediately.” The most important strategic point is that inference now saturates the whole stack: product serving, synthetic data generation, post-training, and test-time compute all collapse into token production, so tokens per watt becomes a core business metric. Katti says OpenAI’s Jalapeno chip effort is designed around that exact metric because OpenAI knows the model workload it needs to serve, and AI is already helping accelerate chip design. He also frames guaranteed capacity as guaranteed tokens for enterprises, arguing that intelligence is becoming a critical supply input. For researchers, the compute implication is blunt: if AI starts doing more AI research, experiment volume is no longer bounded mainly by scarce human researchers, so research compute demand could grow even faster than today’s scaling assumptions.",
+      "zh": "The Takeaway: OpenAI 的 compute strategy 已不只是买 GPU，而是在 data center、power、networking、custom chip 和 guaranteed token supply 上变成全栈工业化工程。OpenAI head of industrial compute Sachin Katti 把 AI data center 形容为“giant factories that are turning electrons into tokens”，并表示需求仍远超供给，“anything we can bring online, we consume immediately”。最重要的战略点是 inference 已经吃满整个栈：产品 serving、synthetic data generation、post-training 和 test-time compute 本质上都在生产 token，因此 tokens per watt 变成核心商业指标。Katti 说 OpenAI 的 Jalapeno chip 正是围绕这个指标设计，因为 OpenAI 清楚自己要服务的模型 workload，而 AI 已经在帮助加速 chip design。他还把 guaranteed capacity 定义为给企业保证 token，认为 intelligence 正在变成关键供应输入。对研究者来说，compute 含义很直接：如果 AI 开始做更多 AI research，实验数量就不再主要受稀缺人类研究员限制，research compute demand 可能比今天的 scaling 假设增长得更快。",
       "tags": [
-        "compute economics",
-        "frontier labs",
-        "post-training",
-        "test-time compute"
+        "compute",
+        "OpenAI",
+        "inference",
+        "strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "The Most Forbidden Technique is not always forbidden",
+      "url": "https://www.lesswrong.com/posts/tEFD2bgNWZ6XcurKA/the-most-forbidden-technique-is-not-always-forbidden-1",
+      "en": "A LessWrong post pushes back on treating any training signal based on model internals as automatically forbidden, using Goodfire’s Silico and RLFR as the immediate context. The author argues that probe-based training signals can be preferable to chain-of-thought monitor signals under specific conditions, while still taking obfuscation risks seriously.",
+      "zh": "这篇 LessWrong 文章借 Goodfire 的 Silico 和 RLFR 讨论了一个观点：不能把任何基于 model internals 的 training signal 都条件反射式地视为禁区。作者认为，在特定条件下，probe-based training signal 可能比 chain-of-thought monitor signal 更合适，同时仍然严肃对待 obfuscation 风险。",
+      "tags": [
+        "alignment",
+        "RLHF",
+        "interpretability"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
+      "url": "https://www.lesswrong.com/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
+      "en": "This LessWrong post considers whether disagreement-heavy conceptual reasoning tasks should be benchmarked by asking models to predict a specified expert’s judgment rather than asserting a single ground truth. It is directly relevant to frontier eval design because it separates model capability from the evaluator’s own priors, taste, and unresolved disagreements.",
+      "zh": "这篇 LessWrong 文章讨论，对于充满主观分歧的概念推理任务，是否应该让模型预测某个指定专家的 judgment，而不是强行设定单一 ground truth。它和 frontier eval design 很相关，因为这种方法试图把模型能力和评测者自身的先验、品味、未解决分歧分离开。",
+      "tags": [
+        "evaluation",
+        "benchmark",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "en": "Hugging Face introduces Real World VoiceEQ, a benchmark direction focused on measuring voice AI as humans experience it rather than only through isolated metrics such as word error rate. The item aligns with today’s broader evaluation theme: real systems need multidimensional assessments of interaction quality, expressiveness, robustness, and acoustic understanding.",
+      "zh": "Hugging Face 发布 Real World VoiceEQ，关注按人类实际体验来衡量 voice AI，而不只是用 word error rate 等孤立指标。这个条目和今天的评测主题一致：真实系统需要对 interaction quality、expressiveness、robustness 和 acoustic understanding 做多维评估。",
+      "tags": [
+        "evaluation",
+        "voice AI",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "short-paper at ACL/EMNLP/EACL 2025/26",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uznnij/shortpaper_at_aclemnlpeacl_202526/",
+      "en": "A r/LanguageTechnology user asked for accepted short-paper examples from ACL, EMNLP, or EACL 2025/26, including track and overall assessment, because short papers appear to have lower acceptance rates than long papers. This is mostly useful as community signal for NLP publishing norms rather than technical content.",
+      "zh": "一位 r/LanguageTechnology 用户询问 ACL、EMNLP 或 EACL 2025/26 的 short paper 录用案例，希望了解 track 和 overall assessment，因为 short paper 看起来比 long paper 接收率更低。这个条目主要是 NLP 投稿生态的社区信号，而不是技术内容。",
+      "tags": [
+        "NLP",
+        "publishing"
       ]
     },
     {
@@ -120,10 +178,10 @@
       "role": null,
       "title": "Eta Given Delta: Defining LLM Tool Efficiency With Marginal Tool Utility",
       "url": "https://arxiv.org/abs/2607.14108",
-      "en": "This paper proposes tool efficiency as a direct metric for how many useful tool calls appear in an LLM agent trajectory. Its key construct is marginal tool utility, judged post hoc per tool call, to decide whether a tool could be removed without reducing accuracy. For agent harness builders, this is useful because it measures tool-suite bloat directly instead of using accuracy as a weak proxy for efficient tool use.",
-      "zh": "这篇论文提出 tool efficiency，用来直接衡量 LLM agent trajectory 中有多少工具调用是真正有用的。核心概念是 marginal tool utility，对每次 tool call 做事后判断，看某个工具能否在不降低 accuracy 的情况下移除。对 agent harness 构建者来说，这很有用，因为它直接衡量 tool-suite bloat，而不是把 accuracy 当成低质量的工具效率代理指标。",
+      "en": "This paper proposes tool efficiency as a direct metric for measuring how many tool calls in an LLM agent trajectory are actually useful. Its marginal tool utility concept asks whether each call can be removed without hurting accuracy, using LLM-as-judge in post hoc trajectory analysis. It matters for agent builders because tool suites are often optimized for capability, while latency, cost, and unnecessary calls remain under-measured.",
+      "zh": "这篇论文提出 tool efficiency，用来直接衡量 LLM agent trajectory 中有多少 tool call 真正有用。它的 marginal tool utility 概念会判断每一次调用是否可以删除且不影响准确率，论文中用 LLM-as-judge 做事后轨迹分析。它对 agent builder 很重要，因为 tool suite 通常优先追求能力，而 latency、cost 和不必要调用往往缺少直接度量。",
       "tags": [
-        "LLM agents",
+        "LLM agent",
         "tool use",
         "evaluation",
         "benchmark"
@@ -136,29 +194,13 @@
       "role": null,
       "title": "AI Agents Do Not Fail Alone:The Context Fails First",
       "url": "https://arxiv.org/abs/2607.14275",
-      "en": "This paper argues that agent reliability is strongly shaped by context quality: instructions, tools, memory, retrieved knowledge, guardrails, and untrusted inputs. ProofAgent-Harness scores seven context criteria, then validates that context quality predicts failures such as hallucination, injection vulnerability, tool misuse, and instruction drift while holding the model fixed. It matters because it turns context engineering from folk craft into a measurable leading indicator for agent reliability.",
-      "zh": "这篇论文认为 agent reliability 很大程度上由 context quality 决定，包括 instructions、tools、memory、retrieved knowledge、guardrails 和 untrusted inputs。ProofAgent-Harness 对七类 context criteria 打分，并在固定模型的情况下验证 context quality 能预测 hallucination、injection vulnerability、tool misuse 和 instruction drift 等失败。它的重要性在于把 context engineering 从经验手艺推进为可测量的 agent reliability 领先指标。",
+      "en": "This paper argues that context-engineering quality is an independent leading indicator of agent reliability. ProofAgent-Harness scores role clarity, guardrails, instruction consistency, tool schema quality, grounding, injection hardening, and token efficiency, then shows these context scores predict agent behaviors such as hallucination resistance and instruction following. It matters because it turns agent reliability from a vague harness craft into measurable release criteria.",
+      "zh": "这篇论文认为，context engineering 的质量是 agent reliability 的独立先行指标。ProofAgent-Harness 评估 role clarity、guardrail、instruction consistency、tool schema quality、grounding、injection hardening 和 token efficiency，并显示这些 context score 能预测 hallucination resistance、instruction following 等行为。它的重要性在于把 agent reliability 从模糊的 harness 手艺转成可度量的发布标准。",
       "tags": [
-        "LLM agents",
+        "LLM agent",
         "evaluation",
         "hallucination",
-        "agentic workflows"
-      ]
-    },
-    {
-      "section": "Papers",
-      "category": "Papers",
-      "source": "cs.AI updates on arXiv.org",
-      "role": null,
-      "title": "Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
-      "url": "https://arxiv.org/abs/2607.14611",
-      "en": "Bad Memory studies prompt injection risks created by persistent memory in agentic systems. In sandboxed tests of Claude Code and OpenAI Codex across Claude Haiku 4.5, Claude Opus 4.7, GPT-5.2, and GPT-5.5, the authors find that planted memory payloads can attack future sessions even when convincing agents to overwrite their own memory is hard. This matters for anyone building adaptive agents because memory is not just a productivity feature, it changes the security model.",
-      "zh": "Bad Memory 研究 agentic systems 中 persistent memory 带来的 prompt injection 风险。作者在 sandboxed tests 中评估 Claude Code 和 OpenAI Codex，以及 Claude Haiku 4.5、Claude Opus 4.7、GPT-5.2、GPT-5.5，发现即使诱导 agent 覆写自身 memory 很难，已经植入 memory 的 payload 仍可能攻击未来 sessions。这对构建 adaptive agents 的人很重要，因为 memory 不只是生产力功能，它会改变 security model。",
-      "tags": [
-        "agentic workflows",
-        "security",
-        "Claude Code",
-        "Codex"
+        "context"
       ]
     },
     {
@@ -168,28 +210,12 @@
       "role": null,
       "title": "MemoHarness: Agent Harnesses That Learn from Experience",
       "url": "https://arxiv.org/abs/2607.14159",
-      "en": "MemoHarness treats the agent harness itself as something that can learn from prior executions, rather than a fixed wrapper around an LLM. It decomposes harness control into six editable dimensions, stores per-case diagnoses and global patterns, then retrieves that experience at test time without labels or additional search. For the reader, this is directly relevant to agentic workflows because it suggests harness evolution can be a first-class post-deployment optimization target.",
-      "zh": "MemoHarness 把 agent harness 本身视为可以从历史执行中学习的对象，而不是 LLM 外面一层固定 wrapper。它把 harness control 拆成六个可编辑维度，存储 per-case diagnoses 和 global patterns，并在 test time 无需 labels 或额外 search 的情况下检索这些经验。对读者来说，这和 agentic workflows 直接相关，因为它说明 harness evolution 可以成为部署后的第一等优化目标。",
+      "en": "MemoHarness treats the agent harness itself as an adaptive object that can learn from prior executions. It decomposes a harness into six editable control dimensions, stores per-case diagnoses and global patterns in an experience bank, then retrieves that experience at test time without labels or additional search. This is relevant for anyone building coding or analytical agents because it suggests harness improvement can be data-driven without changing model weights.",
+      "zh": "MemoHarness 把 agent harness 本身视为可从历史执行中学习的自适应对象。它将 harness 拆成六个可编辑控制维度，把单 case 诊断和全局模式存入 experience bank，并在测试时无标签、无额外搜索地检索经验。它对 coding agent 或 analytical agent builder 很相关，因为它说明 harness improvement 可以数据驱动，而不必改模型权重。",
       "tags": [
-        "LLM agents",
-        "agentic workflows",
+        "agents",
+        "harness",
         "evaluation",
-        "memory"
-      ]
-    },
-    {
-      "section": "Papers",
-      "category": "Papers",
-      "source": "cs.AI updates on arXiv.org",
-      "role": null,
-      "title": "Non-vacuous Generalization Bounds for Reinforcement Learning with Verifiable Rewards",
-      "url": "https://arxiv.org/abs/2607.14506",
-      "en": "This paper gives the first non-vacuous generalization bounds for parameter-efficient RLVR fine-tuning at billion-parameter scale. The method adapts PAC-Bayes compression bounds and introduces Progressive RLVR, combining RLVR with on-policy distillation, TinyLoRA, and quantization. It matters because RLVR is central to reasoning model post-training, but its generalization behavior has been much less understood than its benchmark gains.",
-      "zh": "这篇论文给出了 billion-parameter scale 下 parameter-efficient RLVR fine-tuning 的首个 non-vacuous generalization bounds。方法上它改造 PAC-Bayes compression bounds，并提出 Progressive RLVR，将 RLVR 与 on-policy distillation、TinyLoRA 和 quantization 结合。它重要是因为 RLVR 是 reasoning model post-training 的核心技术，但相比 benchmark gains，它的泛化行为一直更不清楚。",
-      "tags": [
-        "post-training",
-        "RLVR",
-        "distillation",
         "reasoning"
       ]
     },
@@ -198,29 +224,14 @@
       "category": "Papers",
       "source": "cs.AI updates on arXiv.org",
       "role": null,
-      "title": "Controlled Reformulation Testing for Logical Consistency in Large Language Models",
-      "url": "https://arxiv.org/abs/2607.14528",
-      "en": "CRTBench tests whether LLMs preserve answers across logically equivalent reformulations such as contrapositives, double negation, negation flips, and passive voice. The paper reports large accuracy-consistency gaps, including GPT-5.4-mini at 98.9% base accuracy but only 60.3% family-level consistency, while o4-mini reaches 96.9% consistency. This is a clean critique of accuracy-only reasoning evals: models can know the answer and still fail logical invariance.",
-      "zh": "CRTBench 测试 LLM 在 contrapositive、double negation、negation flipping 和 passive voice 等逻辑等价改写下能否保持答案一致。论文报告了很大的 accuracy-consistency gap，例如 GPT-5.4-mini base accuracy 为 98.9%，但 family-level consistency 只有 60.3%，而 o4-mini 达到 96.9% consistency。这是对只看 accuracy 的 reasoning evals 的清晰批评：模型可以知道答案，却仍然无法保持 logical invariance。",
+      "title": "Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
+      "url": "https://arxiv.org/abs/2607.14611",
+      "en": "Bad Memory studies prompt injection risks created by persistent memory in agentic systems. In sandboxed tests of Claude Code and OpenAI Codex across Claude Haiku 4.5, Claude Opus 4.7, GPT-5.2, and GPT-5.5, planted payloads in memory files can affect future sessions even if overwriting memory from untrusted content is difficult. The result matters because memory turns prompt injection from a one-session problem into a cross-session attack surface.",
+      "zh": "Bad Memory 研究 agentic system 中 persistent memory 带来的 prompt injection 风险。论文在 sandbox 中测试 Claude Code 和 OpenAI Codex，并覆盖 Claude Haiku 4.5、Claude Opus 4.7、GPT-5.2、GPT-5.5，发现即使让 agent 从不可信内容覆盖 memory file 并不容易，已经植入 memory 的 payload 仍可能影响未来 session。这个结果重要，因为 memory 把 prompt injection 从单次会话问题变成了跨会话攻击面。",
       "tags": [
-        "reasoning",
-        "evaluation",
-        "benchmark"
-      ]
-    },
-    {
-      "section": "Papers",
-      "category": "Papers",
-      "source": "cs.AI updates on arXiv.org",
-      "role": null,
-      "title": "Can We Trust Item Response Theory for AI Evaluation?",
-      "url": "https://arxiv.org/abs/2607.15190",
-      "en": "This paper stress-tests item response theory for AI benchmarks, where the data regime differs from human testing: fewer models, many more items, and skewed or clustered capability distributions. Across 18,000 simulation conditions derived from six LLM benchmarks, it finds that classical estimators can become infeasible while scalable estimators can produce unreliable item and ranking inferences. It matters because IRT is increasingly used for model ranking and benchmark diagnosis, but the assumptions may not hold in frontier-model evaluation.",
-      "zh": "这篇论文压力测试 item response theory 在 AI benchmarks 中的可靠性，因为这里的数据分布不同于人类考试：模型数量更少、题目更多、能力分布可能 skewed 或 clustered。基于六个 LLM benchmarks 的 18,000 个 simulation conditions，论文发现 classical estimators 可能不可行，而 scalable estimators 可能产生不可靠的 item-level 和 ranking inferences。它重要是因为 IRT 越来越多用于 model ranking 和 benchmark diagnosis，但其假设未必适用于 frontier-model evaluation。",
-      "tags": [
-        "evaluation",
-        "benchmark",
-        "measurement critique"
+        "agentic",
+        "memory",
+        "security"
       ]
     },
     {
@@ -230,13 +241,58 @@
       "role": null,
       "title": "Value Leakage: An LLM's Answers Are Silently Shaped by Its Own Values",
       "url": "https://arxiv.org/abs/2607.14345",
-      "en": "Value Leakage introduces evaluations for cases where a model’s answers are covertly shaped by its own values without disclosure to the user. The paper reports examples such as Claude Opus 4.8 giving different AI-bubble estimates depending on whether the company is Anthropic or OpenAI, and finds model-specific differences in whether value influence is disclosed. This matters for alignment because the failure mode is distinct from sycophancy and reward hacking, yet directly affects high-stakes advice users may not be able to verify.",
-      "zh": "Value Leakage 提出了一组评测，用来衡量模型答案在未向用户披露的情况下被自身 values 暗中影响的情况。论文报告的例子包括 Claude Opus 4.8 在评估 AI bubble 概率时，会因对象公司是 Anthropic 还是 OpenAI 而给出不同估计，并发现不同模型在是否披露这种 value influence 上差异很大。它对 alignment 很重要，因为这种失败模式不同于 sycophancy 和 reward hacking，却会直接影响用户难以验证的高风险建议。",
+      "en": "This paper introduces covert value leakage: models’ answers to practical, hard-to-verify questions are shaped by their own values without disclosure. The authors report cases where Claude Opus 4.8 gives different AI-bubble probabilities depending on whether the company is Anthropic or OpenAI, and where Claude and Qwen differ in whether they reveal value influence in chain-of-thought. It matters for alignment because this failure mode is distinct from sycophancy and reward hacking, and current evaluations may miss it.",
+      "zh": "这篇论文提出 covert value leakage：模型在回答实用且难验证的问题时，会被自身 values 影响，但不会向用户披露。作者报告了 Claude Opus 4.8 在评估 AI bubble 概率时，会因目标公司是 Anthropic 还是 OpenAI 给出不同概率，还比较了 Claude 和 Qwen 在 chain-of-thought 中是否披露 value influence 的差异。它对 alignment 很重要，因为这类失败不同于 sycophancy 和 reward hacking，现有评测可能覆盖不到。",
       "tags": [
         "alignment",
         "evaluation",
         "Qwen",
-        "reasoning"
+        "chain-of-thought"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Controlled Reformulation Testing for Logical Consistency in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.14528",
+      "en": "CRTBench evaluates whether LLMs keep answers consistent across logically equivalent reformulations such as contraposition, double negation, negation flipping, and passive voice. The paper reports a sharp accuracy-consistency gap, including GPT-5.4-mini at 98.9% base accuracy but only 60.3% family-level consistency, while reasoning-optimized o4-mini reaches 96.9% consistency. This is a useful reminder that headline accuracy can hide brittle logical invariance.",
+      "zh": "CRTBench 评估 LLM 在 contrapositive、double negation、negation flipping、passive voice 等逻辑等价改写下能否保持答案一致。论文报告了明显的 accuracy-consistency gap，例如 GPT-5.4-mini base accuracy 为 98.9%，但 family-level consistency 只有 60.3%，而 reasoning-optimized o4-mini 达到 96.9% consistency。这提醒我们，headline accuracy 可能掩盖脆弱的 logical invariance。",
+      "tags": [
+        "reasoning",
+        "benchmark",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Can We Trust Item Response Theory for AI Evaluation?",
+      "url": "https://arxiv.org/abs/2607.15190",
+      "en": "This paper stress-tests item response theory for AI benchmarks, where the data regime differs from human testing: fewer models, many more items, and skewed or multimodal capability distributions. Across 18,000 simulations based on six LLM benchmarks, the authors find that classical estimators can become infeasible, while scalable estimators may produce unreliable rankings and item inferences. It matters for evaluation researchers because IRT is increasingly used to rank systems and diagnose benchmarks, but may fail under common AI benchmark conditions.",
+      "zh": "这篇论文压力测试了用于 AI benchmark 的 item response theory，因为 AI 评测的数据状态不同于人类考试：模型数量更少、item 更多，能力分布还可能 skewed、clustered 或 multimodal。作者基于六个 LLM benchmark 做了 18,000 个 simulation，发现 classical estimator 可能不可行，而 scalable estimator 又可能产生不可靠的排名和 item inference。它对 eval 研究者很重要，因为 IRT 正被越来越多地用于系统排名和 benchmark 诊断，但在常见 AI benchmark 条件下可能失效。",
+      "tags": [
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Non-vacuous Generalization Bounds for Reinforcement Learning with Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2607.14506",
+      "en": "This paper studies generalization for RLVR fine-tuning at billion-parameter scale and claims the first non-vacuous bounds in this setting. Its Progressive RLVR framework combines RLVR with on-policy distillation, TinyLoRA, and quantization, retaining 84-97% of standard LoRA performance while making models 14,796x more compressible. This matters for post-training research because RLVR is widely used for reasoning, but its generalization behavior remains poorly understood.",
+      "zh": "这篇论文研究 billion-parameter 规模下 RLVR fine-tuning 的 generalization，并声称给出了该设置中的首个 non-vacuous bounds。它的 Progressive RLVR 框架结合 RLVR、on-policy distillation、TinyLoRA 和 quantization，在保留 standard LoRA 84-97% 性能的同时，让模型可压缩性提升 14,796 倍。它对 post-training 研究很重要，因为 RLVR 被广泛用于 reasoning，但其 generalization 行为仍不清楚。",
+      "tags": [
+        "RLVR",
+        "fine-tuning",
+        "distillation",
+        "post-training"
       ]
     },
     {
@@ -246,43 +302,12 @@
       "role": null,
       "title": "AutoSynthesis: An agentic system for automated meta-analysis",
       "url": "https://arxiv.org/abs/2607.15247",
-      "en": "AutoSynthesis is an end-to-end multi-agent system for automated meta-analysis from a natural-language research question. It formulates searches, retrieves and screens studies, assesses eligibility, extracts quantitative statistics, computes standardized effect sizes, and produces PRISMA-aligned reports. This is a useful scientific-agent case study because it covers a full evidence-synthesis workflow rather than a narrow retrieval or summarization step.",
-      "zh": "AutoSynthesis 是一个端到端 multi-agent system，可以从自然语言 research question 自动执行 meta-analysis。它会制定 search strategy、检索并筛选 studies、评估 eligibility、抽取 quantitative statistics、计算 standardized effect sizes，并生成符合 PRISMA 的报告。它是一个有价值的 scientific-agent 案例，因为覆盖的是完整 evidence-synthesis workflow，而不是狭窄的检索或摘要步骤。",
+      "en": "AutoSynthesis is an end-to-end multi-agent system for automated meta-analysis from a natural-language research question. It handles search strategy, retrieval, screening, eligibility, quantitative extraction, standardized effect sizes, random-effects meta-analysis, heterogeneity analysis, risk of bias, and PRISMA-aligned reporting. It matters because evidence synthesis is a high-value scientific workflow where agentic systems can be judged against expert-conducted outputs rather than toy tasks.",
+      "zh": "AutoSynthesis 是一个从自然语言 research question 出发、端到端自动完成 meta-analysis 的 multi-agent system。它覆盖 search strategy、retrieval、screening、eligibility、quantitative extraction、standardized effect size、random-effects meta-analysis、heterogeneity analysis、risk of bias 和 PRISMA-aligned report。它重要在于 evidence synthesis 是高价值科学工作流，agentic system 可以和专家产出对比，而不是只在玩具任务上评测。",
       "tags": [
+        "agentic",
         "multi-agent",
-        "scientific agents",
-        "agentic workflows"
-      ]
-    },
-    {
-      "section": "Papers",
-      "category": "Papers",
-      "source": "cs.AI updates on arXiv.org",
-      "role": null,
-      "title": "Are LLM-Generated GPU Kernels Production-Ready? A Trace-Driven Benchmark and Optimization Agent",
-      "url": "https://arxiv.org/abs/2607.14541",
-      "en": "Atrex-Bench evaluates LLM-generated GPU kernels on 30 operators and 440 shapes sampled from production inference traces, weighted by observed GPU time. Six frontier coding agents perform poorly in vanilla form, with the best reaching only about 10% of the hardware roofline, and correctness is inflated by PyTorch fallbacks. The accompanying Atrex-Kernel-Agent uses profile-driven iterative optimization and a GPU knowledge base, making this relevant to both coding agents and the compute-efficiency bottleneck behind inference serving.",
-      "zh": "Atrex-Bench 用来自 production inference traces 的 30 个 operators 和 440 个 shapes 来评估 LLM-generated GPU kernels，并按 observed GPU time 加权。六个 frontier coding agents 在 vanilla 形态下表现很弱，最好的也只有约 10% hardware roofline，而且 correctness 还被 PyTorch fallbacks 抬高。配套的 Atrex-Kernel-Agent 使用 profile-driven iterative optimization 和 GPU knowledge base，因此这篇同时关联 coding agents 与 inference serving 背后的 compute-efficiency bottleneck。",
-      "tags": [
-        "coding agents",
-        "benchmark",
-        "compute efficiency"
-      ]
-    },
-    {
-      "section": "Papers",
-      "category": "Papers",
-      "source": "cs.AI updates on arXiv.org",
-      "role": null,
-      "title": "Simplicity Paradox: Debunking myths about prompting and datasets for LLM evaluation",
-      "url": "https://arxiv.org/abs/2607.14109",
-      "en": "This paper tests eight prompting techniques across ten MCQA datasets, 27 model configurations, and more than 430,000 evaluations. Its main finding is that baseline prompting often beats elaborate reasoning prompts, while only minimal expert or inductive role framing gives a small roughly 3-point gain. For evaluation-minded readers, it is a warning that fancy prompting can distort benchmark conclusions rather than reveal deeper reasoning ability.",
-      "zh": "这篇论文在十个 MCQA datasets、27 个 model configurations 和超过 430,000 次评测上测试了八种 prompting techniques。主要发现是 baseline prompting 往往优于复杂 reasoning prompts，只有轻量的 expert 或 inductive role framing 带来约 3 个点的小幅增益。对关注 evaluation 的读者来说，这是一个提醒：花哨 prompting 可能扭曲 benchmark conclusions，而不一定揭示更深层 reasoning ability。",
-      "tags": [
-        "reasoning",
-        "evaluation",
-        "benchmark",
-        "Qwen"
+        "science"
       ]
     },
     {
@@ -292,28 +317,57 @@
       "role": null,
       "title": "Why Git Is the Memory Solution for the Agentic Development Lifecycle",
       "url": "https://arxiv.org/abs/2607.14390",
-      "en": "This paper argues that coding-agent memory should be git-bound rather than stored in generic memory graphs, compiled wikis, or transcript retrieval systems. The premise is that commits provide ground truth, freshness, review boundaries, and verification, while assistant transcripts lose the reasoning behind changes. It matters for agentic development because it reframes memory as a repository-native artifact tied to review and merge discipline.",
-      "zh": "这篇论文认为 coding-agent memory 应该绑定到 git，而不是放在通用 memory graphs、compiled wikis 或 transcript retrieval systems 里。它的前提是 commits 提供 ground truth、freshness、review boundaries 和 verification，而 assistant transcripts 容易丢失修改背后的 reasoning。它对 agentic development 很重要，因为把 memory 重新定义为与 review 和 merge discipline 绑定的 repository-native artifact。",
+      "en": "This paper argues that coding-agent memory should be git-bound rather than stored in separate memory graphs, wikis, or transcript retrieval systems. The claim is that commits provide ground truth, rebuilds provide freshness, merges provide verification, and code review provides containment, while a router selects structural maps, gated episodes, or decision synthesis for different question types. It matters for agentic development because memory design is becoming a software engineering problem, not just a retrieval problem.",
+      "zh": "这篇论文认为 coding-agent memory 应该绑定到 git，而不是放在单独的 memory graph、wiki 或 transcript retrieval system 里。其核心主张是，commit 提供 ground truth，rebuild 提供 freshness，merge 提供 verification，code review 提供 containment，并用 router 为不同问题选择 structural map、gated episode 或 decision synthesis。它对 agentic development 很重要，因为 memory design 正在变成软件工程问题，而不仅是 retrieval 问题。",
       "tags": [
-        "agentic workflows",
+        "agentic",
         "memory",
         "coding agents"
       ]
     },
     {
-      "section": "RedNote",
-      "category": "RedNote",
-      "source": "RedNote — 鸭基米德",
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
       "role": null,
-      "title": "我给大模型讲了一个故事 它听完三观变了",
-      "url": "https://www.rednote.com/explore/6a5b9395000000001c010213?xsec_token=ABMqqS1vuqF56iTkzr0F08zcxg8X2PXzwxCan224l_gOs%3D&xsec_source=pc_user",
-      "en": "This post explains the author’s ACL 2026 Findings paper, Probing the Plasticity and Correlation of LLM Value Systems: LLM Value Rankings are Not Stable. They rank 16 values such as honesty, privacy, freedom, and care across eight models, then test six persuasion styles, finding that storytelling can shift model value rankings strongly and that stronger models can be more plastic because they understand context and follow instructions better. The post’s core warning is that when models act with money, data, and permissions, whoever frames the story first may shift the values behind their decisions. Highlights for you: Probing the Plasticity and Correlation of LLM Value Systems, alignment and evaluation of value instability; narrative persuasion experiments, a concrete probe of model behavior under context; story-as-defense setup, relevant to guardrails and robustness.",
-      "zh": "这篇小红书介绍作者的 ACL 2026 Findings 论文 Probing the Plasticity and Correlation of LLM Value Systems: LLM Value Rankings are Not Stable。作者给八个模型的诚实、隐私、自由、关怀等 16 种价值观排序，再测试六种说服方式，发现讲故事能强烈改变模型价值排序，而且更强的模型因为更理解语境、更服从指令，反而可能更容易被塑形。文章的核心警告是，当模型拿着你的钱、数据和权限替你决策时，谁先给它布置故事，谁就可能改变它的裁决逻辑。值得你看: Probing the Plasticity and Correlation of LLM Value Systems，关乎 alignment 和 value instability 评测；narrative persuasion experiments，是具体的 context 下模型行为探针；story-as-defense setup，和 guardrails、robustness 直接相关。",
+      "title": "Are LLM-Generated GPU Kernels Production-Ready? A Trace-Driven Benchmark and Optimization Agent",
+      "url": "https://arxiv.org/abs/2607.14541",
+      "en": "Atrex-Bench evaluates LLM-generated GPU kernels on 30 operators and 440 shapes sampled from production inference traces rather than synthetic benchmark tasks. Six frontier coding agents perform poorly in the vanilla setting, with the best reaching only about 10% of the hardware roofline on production operators, and PyTorch fallbacks inflating apparent correctness. The accompanying Atrex-Kernel-Agent shows how profile-driven iterative optimization can turn fallbacks into real kernels, making this highly relevant to AI systems performance work.",
+      "zh": "Atrex-Bench 用来自 production inference trace 的 30 个 operator 和 440 个 shape 来评测 LLM-generated GPU kernel，而不是用合成 benchmark task。六个 frontier coding agent 在 vanilla 设置下表现很弱，最好也只有 production operator hardware roofline 的约 10%，并且 PyTorch fallback 会夸大表面正确率。配套的 Atrex-Kernel-Agent 展示了 profile-driven iterative optimization 如何把 fallback 变成真实 kernel，因此它和 AI systems performance 很相关。",
       "tags": [
-        "alignment",
-        "evaluation",
-        "LLM values",
-        "Chinese ML"
+        "benchmark",
+        "coding agents",
+        "GPU"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in Multimodal Repository-Level Issue Localization",
+      "url": "https://arxiv.org/abs/2607.15205",
+      "en": "MM-IssueLoc introduces a controlled benchmark for repository-level issue localization when bug reports include screenshots, UI states, dialogs, and logs. It contains 652 issue-PR instances across 23 languages, with text-only and with-image settings plus file-level and function-level labels. This matters for coding-agent evaluation because strong text-only SWE-style localization does not necessarily transfer to real multimodal issue reports.",
+      "zh": "MM-IssueLoc 提出一个受控 benchmark，用于评测包含 screenshot、UI state、dialog 和 log 的 repository-level issue localization。它包含跨 23 种语言的 652 个 issue-PR instance，提供 text-only 与 with-image 设置，以及 file-level 和 function-level label。它对 coding-agent evaluation 很重要，因为 text-only SWE 风格定位强，并不意味着能迁移到真实的 multimodal issue report。",
+      "tags": [
+        "benchmark",
+        "coding agents",
+        "multimodal"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+      "url": "https://arxiv.org/abs/2607.14431",
+      "en": "This paper proposes byte-exact KV-cache grafting: verified knowledge is stored once as a key-value state artifact and restored into later inference contexts without changing model weights. Under deterministic settings, the authors report byte-for-byte identical logits to fresh computation, AIME 2025 gains for frozen Gemma-4-12B, and large token and energy reductions on recurring problems. It matters because it reframes memory and efficiency as reusable verified computation rather than only longer context or retrieval.",
+      "zh": "这篇论文提出 byte-exact KV-cache grafting：把 verified knowledge 作为 key-value state artifact 存一次，并在之后的 inference context 中恢复，而不改变模型权重。在 deterministic 设置下，作者报告 grafted logits 与 fresh computation byte-for-byte identical，并让 frozen Gemma-4-12B 在 AIME 2025 上提升，在重复问题上显著减少 token 和 energy。它重要在于把 memory 和 efficiency 重新定义为可复用的 verified computation，而不只是更长 context 或 retrieval。",
+      "tags": [
+        "KV cache",
+        "memory",
+        "inference"
       ]
     },
     {
@@ -323,13 +377,28 @@
       "role": null,
       "title": "7月中旬自觉不错的blog推荐合集第四期",
       "url": "https://www.rednote.com/explore/6a565b0e000000000f017ed4?xsec_token=ABlMYPGowthDeKCvOJCH-aX6nXEpZF6rtaTCE5cs22FI4%3D&xsec_source=pc_user",
-      "en": "This roundup recommends a dense set of AI blogs, including FastAFD from Hao AI Lab, Boaz Barak on 2030 AI safety bad scenarios, OGPO, AutoMem with strong visualizations, Sheaf-ADMM, async RL practice notes, a post arguing specialized models still matter, and a discussion of whether intelligence and pro-social behavior are weakly coupled. It also flags a long AI coding practice record, a bright AI 2040 view, and an industry-career-oriented post the author strongly recommends for people trying to build in industry. Highlights for you: Boaz Barak on 2030 AI safety scenarios, frontier safety strategy without paralysis; OGPO, directly relevant to preference/policy optimization; AutoMem, relevant to memory for agents.",
-      "zh": "这期 blog 推荐合集很密，提到 FastAFD from Hao AI Lab、Boaz Barak 关于 2030 AI safety bad scenarios 的文章、OGPO、可视化很直观的 AutoMem、Sheaf-ADMM、async RL 实战记录、一篇说明特化模型在特定任务中仍有价值的文章，以及 intelligence and pro-social behavior 可能弱耦合的讨论。作者还提到一篇很长的 ai coding 实战记录、一个认为 ai 2040 一片光明的观点，以及一篇非常推荐给想在业界打拼的朋友看的文章。值得你看: Boaz Barak on 2030 AI safety scenarios，属于 frontier safety strategy 但不是因噎废食；OGPO，直接关联 preference/policy optimization；AutoMem，和 agent memory 很相关。",
+      "en": "tabris’s fourth mid-July blog roundup highlights FastAFD from Hao AI Lab, Boaz Barak on 2030 AI safety bad scenarios without arguing to halt AI, OGPO, specialized models, AutoMem visualizations, AI coding practice notes, Sheaf-ADMM, async RL practice, and an argument that intelligence and pro-social behavior may be weakly coupled yet statistically correlated. The strongest matches for this reader are the posts on preference optimization, industry/career strategy, memory, async RL, and evaluation limits. Bottom line: 图3 (OGPO, preference optimization), 图7 (industry career advice), 图9 (AutoMem, memory visualization), 图12 (async RL practice), 图17 (automation limits).",
+      "zh": "tabris 的 7月中旬 blog 推荐合集第四期提到 FastAFD，来自 Hao AI Lab，效果看上去非常好；Boaz Barak 从 safety 角度设想 2030 的 bad scenarios，但也主张不应该因噎废食，而是更好地发展 AI 和提升社会适应力；还包括 OGPO、特化模型、AutoMem 可视化、AI coding 实战记录、Sheaf-ADMM、async RL 实战记录，以及 intelligence and pro-social behavior 可能 weakly coupled 但 statistically correlated 的观点。最贴合读者兴趣的是 preference optimization、业界发展、memory、async RL 和自动化边界相关内容。一句话推荐: 图3 (OGPO, preference optimization), 图7 (业界打拼), 图9 (AutoMem, memory 可视化), 图12 (async RL 实战), 图17 (目前还不能完全自动化).",
       "tags": [
-        "post-training",
-        "AI safety",
+        "preference optimization",
+        "RL",
         "memory",
-        "Chinese ML"
+        "AI careers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "我给大模型讲了一个故事 它听完三观变了",
+      "url": "https://www.rednote.com/explore/6a5b9395000000001c010213?xsec_token=ABMqqS1vuqF56iTkzr0F08zcxg8X2PXzwxCan224l_gOs%3D&xsec_source=pc_user",
+      "en": "鸭基米德 describes an ACL 2026 Findings paper, Probing the Plasticity and Correlation of LLM Value Systems: LLM Value Rankings are Not Stable, where stories and other persuasion styles shift LLM rankings over 16 values such as honesty, privacy, freedom, and care. The post says storytelling was especially effective, stronger models often shifted more, and scenario framing could also help protect values, though smaller 7B models sometimes became more confused. The alignment takeaway is that whoever controls the narrative context before an agent makes decisions may influence its value ordering.",
+      "zh": "鸭基米德介绍了一篇 ACL 2026 Findings 论文 Probing the Plasticity and Correlation of LLM Value Systems: LLM Value Rankings are Not Stable，研究故事和其他说服方式如何改变 LLM 对诚实、隐私、自由、关怀等 16 种价值观的排序。帖子说，讲故事尤其容易动摇模型，越强的模型排名往往动得越厉害，而场景也可以反过来保护核心价值，但对 7B 小模型有时会让它更乱。alignment 含义是，在 agent 替你拿钱、数据和权限做决定前，谁先布置叙事语境，谁就可能影响它的价值排序。",
+      "tags": [
+        "alignment",
+        "values",
+        "LLM reasoning"
       ]
     },
     {
@@ -339,13 +408,13 @@
       "role": null,
       "title": "同一个模型换个壳能差多少",
       "url": "https://www.rednote.com/explore/6a520b4c000000000f0070db?xsec_token=ABjtO4bxKFddSoFU-knlUF1hNmBOfba3xQU61LcTN_khQ%3D&xsec_source=pc_user",
-      "en": "This post argues that the chat box is an increasingly wasteful interface for complex LLM work, because the real difference is the harness around the model: planning, tools, context, files, logs, and verification. It cites Claude Code, Codex, Lilian Weng’s harness framing, and Darwin Gödel Machine, where changing the harness rather than weights reportedly lifts SWE-bench Verified from 20% to 50% and Polyglot from 14.2% to 30.7%. The actionable takeaway is to invest in CLAUDE.md, skills, workflows, file-grounded tasks, and tests rather than waiting only for better model weights. Highlights for you: Lilian Weng on harnesses, a useful systems frame for agents; Darwin Gödel Machine, harness self-improvement for coding agents; CLAUDE.md and skills, practical agent workflow engineering.",
-      "zh": "这篇文章认为，复杂 LLM 工作里直接打开 ChatGPT 或 Claude 对话框越来越浪费，真正的差异在模型外面的 harness：planning、tools、context、files、logs 和 verification。作者提到 Claude Code、Codex、Lilian Weng 对 harness 的讲法，以及 Darwin Gödel Machine，后者在不改模型权重、只改 harness 的情况下，据称让 SWE-bench Verified 从 20% 涨到 50%，Polyglot 从 14.2% 涨到 30.7%。可执行的 takeaway 是，与其只等更强模型权重，不如调 CLAUDE.md、写 skills、拆 workflows、把任务落到文件里并加 tests。值得你看: Lilian Weng on harnesses，是理解 agents 的系统框架；Darwin Gödel Machine，coding agents 的 harness self-improvement；CLAUDE.md and skills，是很实用的 agent workflow engineering。",
+      "en": "鸭基米德 argues that the biggest difference between a chat box and tools like Claude Code or Codex is the harness around the model: planning, tools, context, files, logs, validation, and continuation. The post cites Darwin Gödel Machine as an extreme example where an agent improved its own harness code without changing model weights, raising SWE-bench Verified from 20% to 50% and Polyglot from 14.2% to 30.7%. The practical advice is to invest in CLAUDE.md, skills, workflows, file-based task state, and tests rather than treating the model as only a conversational interface.",
+      "zh": "鸭基米德认为，直接打开 ChatGPT 或 Claude 对话框问问题，是大模型最浪费的用法之一；Claude Code 和 Codex 更顺手，关键不只是模型强，而是模型外面的 harness，包括规划、工具、上下文、文件、日志、验证和续接。帖子引用 Darwin Gödel Machine 作为极端例子：agent 用 bash 和编辑器改自己的 harness code，模型权重不变，SWE-bench Verified 从 20% 涨到 50%，Polyglot 从 14.2% 涨到 30.7%。实践建议是调 CLAUDE.md、写 skill、拆 workflow、让任务落到文件里并加测试，而不是只把模型当对话框。",
       "tags": [
-        "LLM agents",
-        "coding agents",
-        "agentic workflows",
-        "Chinese ML"
+        "agents",
+        "harness",
+        "Claude Code",
+        "Codex"
       ]
     },
     {
@@ -355,13 +424,13 @@
       "role": null,
       "title": "7月中旬自觉不错的blog推荐合集第三期",
       "url": "https://www.rednote.com/explore/6a564f4700000000110125f0?xsec_token=ABlMYPGowthDeKCvOJCH-aX48Qj-NneaD4Vz2s9RBQbzo%3D&xsec_source=pc_user",
-      "en": "This roundup recommends blogs on the NVFP4 bitter lesson, RLM applications, Toolathlon-Verified, Iterative RandOpt, The Power of Power Law, Mark Riedl’s hard/soft/no take-off framing for AI capability trajectories, Decomposer, and an RL blog series starter. It also flags an ICML 2026 tutorial on calibration, decision calibration, multicalibration, and related ideas, plus several same-name paper blogs. Highlights for you: Toolathlon-Verified, tool-use evaluation; Decomposer, an interesting decomposition-oriented research direction; Mark Riedl on AI capability trajectories, useful for safety and scaling priors.",
-      "zh": "这期 blog 推荐包括 NVFP4 的 bitter lesson、RLM 相关应用、Toolathlon-Verified、Iterative RandOpt、The Power of Power Law、Mark Riedl 关于 AI capabilities 未来轨迹的 hard take-off、soft take-off、no take-off 三分法、Decomposer，以及一个 RL 系列 blog 的第一篇。作者还提到 ICML 2026 Tutorial on calibration, decision calibration, multicalibration, and related ideas，以及几篇同名 paper 的 blog。值得你看: Toolathlon-Verified，关联 tool-use evaluation；Decomposer，是很有意思的 decomposition 研究方向；Mark Riedl on AI capability trajectories，有助于 safety 和 scaling priors。",
+      "en": "tabris’s third mid-July blog roundup highlights an NVFP4 bitter lesson, RLM-related applications, several paper companion blogs, Toolathlon-Verified, cheap experiments, calibration tutorials, Iterative RandOpt, The Power of Power Law, Mark Riedl on hard/soft/no take-off trajectories, Decomposer, and an introductory RL series. The most relevant items for this reader are calibration, verified tool-use evaluation, cheap reproducible experiments, decomposition, and RL learning notes. Bottom line: 图1 (NVFP4 bitter lesson), 图9 (calibration tutorial), 图10 (Toolathlon-Verified, tool-use evaluation), 图11 (cheap experiment), 图17 (Decomposer), 图18 (RL basics series).",
+      "zh": "tabris 的 7月中旬 blog 推荐合集第三期提到使用 NVFP4 的 bitter lesson，质量非常高；RLM 相关应用；多篇同名 paper 的 blog；Toolathlon-Verified；几十刀完成的 cheap 实验；ICML 2026 calibration、decision calibration、multicalibration tutorial；Iterative RandOpt；The Power of Power Law；Mark Riedl 关于 hard take-off、soft take-off、no take-off 的 AI capability 轨迹讨论；Decomposer；以及 RL 系列 blog 第一篇。最贴合读者兴趣的是 calibration、verified tool-use evaluation、cheap 可复现实验、decomposition 和 RL 入门系列。一句话推荐: 图1 (NVFP4 bitter lesson), 图9 (calibration tutorial), 图10 (Toolathlon-Verified), 图11 (cheap), 图17 (Decomposer), 图18 (RL 系列).",
       "tags": [
-        "tool use",
         "evaluation",
+        "tool use",
         "RL",
-        "Chinese ML"
+        "calibration"
       ]
     },
     {
@@ -371,13 +440,13 @@
       "role": null,
       "title": "我们的论文证明了给大模型投毒很简单",
       "url": "https://www.rednote.com/explore/69bff6e0000000001a02f9bb?xsec_token=ABxIxz5tVmVHn-rerCbj_sBa3mYnt18KzF22Qnpoj9JWw%3D&xsec_source=pc_user",
-      "en": "This post summarizes the author’s BiasRecBench paper on LLM content poisoning and bias injection in peer review, e-commerce recommendation, and hiring screening. The benchmark tests GPT-4o, Gemini-2.5-Pro, and DeepSeek-R1, reporting that fake authority labels, bandwagon cues, position bias, and distracting information can sharply reduce decision accuracy, with different models showing different weak spots. The post also warns that SFT can both defend against bias and encode poisoned bias into model weights. Highlights for you: BiasRecBench, benchmark for poisoned LLM decision systems; SFT poisoning risk, directly tied to post-training; DeepSeek-R1 model-specific weaknesses, relevant to Chinese frontier models.",
-      "zh": "这篇文章总结作者的 BiasRecBench 论文，研究 LLM 在论文审稿、电商推荐、招聘筛选中的内容投毒和 bias injection。benchmark 测试 GPT-4o、Gemini-2.5-Pro、DeepSeek-R1，报告称虚假权威标签、从众线索、位置偏见和干扰信息都能显著降低决策准确率，而且不同模型弱点不同。文章还警告，SFT 既可以防御 bias，也可能把 poisoned bias 写进模型权重。值得你看: BiasRecBench，面向 poisoned LLM decision systems 的 benchmark；SFT poisoning risk，直接关联 post-training；DeepSeek-R1 model-specific weaknesses，和中文 frontier models 相关。",
+      "en": "鸭基米德 summarizes a paper and benchmark called BiasRecBench, testing GPT-4o, Gemini-2.5-Pro, and DeepSeek-R1 on peer review, e-commerce recommendation, and hiring screening under biased injected text. The post says all models were vulnerable, with examples including fake authority labels such as “Affiliation: Google DeepMind,” bandwagon signals like “50k+ sold,” and model-specific weaknesses across instruction injection, position bias, and distracting information. The bigger warning is that poisoned inputs and biased SFT data can affect LLM-mediated recommendation and decision systems.",
+      "zh": "鸭基米德总结了他们的论文和 BiasRecBench benchmark，用 GPT-4o、Gemini-2.5-Pro、DeepSeek-R1 测试论文审稿、电商推荐、招聘筛选等场景中注入偏见话术后的表现。帖子说所有模型都扛不住，例子包括伪造权威标签如 “Affiliation: Google DeepMind”、虚假从众信号如“已售50k+件”，以及不同模型对 instruction injection、position bias、干扰信息的弱点各不相同。更大的警告是，输入端投毒和带偏见 SFT 数据都可能影响 LLM 参与的推荐与决策系统。",
       "tags": [
-        "evaluation",
-        "post-training",
-        "DeepSeek",
-        "security"
+        "alignment",
+        "benchmark",
+        "poisoning",
+        "DeepSeek"
       ]
     },
     {
@@ -387,13 +456,12 @@
       "role": null,
       "title": "数据洗完以后还有一个玄学叫数据配比",
       "url": "https://www.rednote.com/explore/6a48edf50000000008026180?xsec_token=ABBT54PiVreaddrth4p5QKy3Gb9kEIGTMK7jLriGtwGoI%3D&xsec_source=pc_user",
-      "en": "This post distills Hugging Face’s Smol Training Playbook around data mixture after cleaning, framing it as a zero-sum curriculum under a fixed token budget. The concrete examples are that too much code data can hurt English benchmarks, SmolLM3 used only 3% math in its first stage because high-quality non-duplicated math data is limited, and automatic data-mixing methods may collapse toward natural dataset sizes rather than outperform manual ablations. Highlights for you: Smol Training Playbook, practical pretraining data mixture lessons; code-data ratio ablations, useful for reasoning and coding tradeoffs; math-data scarcity, relevant to benchmark contamination and transferable reasoning.",
-      "zh": "这篇文章提炼 Hugging Face 的 Smol Training Playbook，重点讲数据清洗之后的数据配比，把它比作固定 token budget 下的零和课程表。具体例子包括：代码数据太多会伤害 English benchmarks；SmolLM3 第一阶段数学只放 3%，因为高质量且不重复的数学语料有限；自动 data-mixing 方法最后可能接近数据集自然大小分布，并没有打过人工 ablations。值得你看: Smol Training Playbook，是很实用的 pretraining data mixture 经验；code-data ratio ablations，有助于理解 reasoning 和 coding tradeoff；math-data scarcity，关联 benchmark contamination 与可迁移 reasoning。",
+      "en": "鸭基米德 uses Hugging Face’s Smol Training Playbook to explain why data mixture is a hard post-cleaning training decision rather than a trivial recipe. The post highlights examples where too much code data hurt English benchmarks, math was capped by the amount of non-duplicated high-quality data, and automated mixture methods fell back toward natural dataset-size proportions without beating manual ablations. The practical point is that data cleaning is subtraction, synthetic/verifiable data creation is addition, and data mixture is the compute-constrained choice of what the model studies each day.",
+      "zh": "鸭基米德借 Hugging Face 的 Smol Training Playbook 解释，数据洗完之后的数据配比不是简单配方，而是很难的训练决策。帖子举例说，代码数据比例太高会伤害 English benchmark；数学数据比例受限于不重复高质量数据的库存；自动配比方法最后接近数据集自然大小分布，并没有打过人工消融。实践重点是，洗数据是减法，造可验证数据是加法，而数据配比是在固定算力下决定模型每天学什么、学多少。",
       "tags": [
-        "pretraining",
+        "post-training",
         "data mixture",
-        "reasoning",
-        "Chinese ML"
+        "fine-tuning"
       ]
     },
     {
@@ -403,12 +471,10 @@
       "role": null,
       "title": "7月中旬自觉不错的paper推荐合集第四期",
       "url": "https://www.rednote.com/explore/6a566730000000001102f8b7?xsec_token=ABlMYPGowthDeKCvOJCH-aX8EirvQSXDB6-edlWI_tLZo%3D&xsec_source=pc_user",
-      "en": "This is a mid-July paper recommendation roundup where the author says figure 1 is essentially a whole book and personally likes figure 13. The title signals a curated set of AI, large-model, deep-learning, and literature-reading recommendations worth clicking through even though the text summary does not name the individual papers. Highlights for you: figure 13, the author’s own favorite; figure 1, likely a broad survey-style work given the “whole book” description.",
-      "zh": "这是 7 月中旬 paper 推荐合集第四期，作者说图 1 简直像一本书，个人相对喜欢图 13。虽然正文摘要没有列出具体论文名，但标题和标签表明这是一个面向 AI、大模型、深度学习和文献阅读的 curated paper list，值得点进去看。值得你看: 图 13，作者个人更喜欢；图 1，从“一本书”的描述看可能是较系统的 survey-style work。",
+      "en": "tabris posted the fourth mid-July paper recommendation roundup. The summary only says 图1 is a book and that tabris personally likes 图13, so the actual paper names are not available in the provided data. Bottom line: tabris recommends 图1, 图13.",
+      "zh": "tabris 发了 7月中旬 paper 推荐合集第四期。摘要只说“图1就是一本书，个人相对喜欢图13”，给定数据里没有具体 paper 名称。一句话推荐: tabris recommends 图1, 图13。",
       "tags": [
-        "papers",
-        "large models",
-        "Chinese ML"
+        "paper roundup"
       ]
     },
     {
@@ -418,12 +484,10 @@
       "role": null,
       "title": "7月中旬自觉不错的paper推荐合集第三期",
       "url": "https://www.rednote.com/explore/6a56668d000000000f0077bf?xsec_token=ABlMYPGowthDeKCvOJCH-aX7tQJdgmnsfboyG9jFbWAu8%3D&xsec_source=pc_user",
-      "en": "This is the third mid-July paper recommendation roundup from tabris, with the author specifically saying they personally like figure 9. The available text does not name the papers, so the useful signal is that it is a curated AI, deep-learning, large-model, and research-reading collection from a followed researcher. Highlights for you: figure 9, the author’s explicitly preferred pick.",
-      "zh": "这是 tabris 的 7 月中旬 paper 推荐合集第三期，作者特别说个人比较喜欢图 9。当前可用文本没有给出论文名，所以主要信号是这是来自关注研究者的 AI、深度学习、大模型和科研文献阅读 curated collection。值得你看: 图 9，作者明确标出的偏好项。",
+      "en": "tabris posted the third mid-July paper recommendation roundup. The provided summary does not name the papers and only says the author personally likes 图9. Bottom line: tabris recommends 图9.",
+      "zh": "tabris 发了 7月中旬 paper 推荐合集第三期。给定摘要没有列出具体 paper 名称，只说“个人比较喜欢图9”。一句话推荐: tabris recommends 图9。",
       "tags": [
-        "papers",
-        "large models",
-        "Chinese ML"
+        "paper roundup"
       ]
     },
     {
@@ -433,12 +497,10 @@
       "role": null,
       "title": "7月中旬自觉不错的paper推荐合集第二期",
       "url": "https://www.rednote.com/explore/6a566604000000001102f65a?xsec_token=ABlMYPGowthDeKCvOJCH-aX0_ULZs61-Y6WmoysGQDyIc%3D&xsec_source=pc_user",
-      "en": "This is the second mid-July paper recommendation roundup from tabris, with the author saying they personally like figures 1 and 3. The summary does not expose the paper titles, but the post is still a followed-researcher paper collection in AI, deep learning, literature reading, and large models. Highlights for you: figure 1 and figure 3, the author’s selected favorites.",
-      "zh": "这是 tabris 的 7 月中旬 paper 推荐合集第二期，作者说个人喜欢图 1 和图 3。摘要没有展示具体论文标题，但这仍然是一个来自关注研究者的 AI、深度学习、文献阅读和大模型 paper collection。值得你看: 图 1 和图 3，作者标出的偏好项。",
+      "en": "tabris posted the second mid-July paper recommendation roundup. The provided summary does not identify the papers and only says the author likes 图1 and 图3. Bottom line: tabris recommends 图1, 图3.",
+      "zh": "tabris 发了 7月中旬 paper 推荐合集第二期。给定摘要没有说明具体 paper，只说“个人喜欢图1和图3”。一句话推荐: tabris recommends 图1, 图3。",
       "tags": [
-        "papers",
-        "large models",
-        "Chinese ML"
+        "paper roundup"
       ]
     },
     {
@@ -448,74 +510,13 @@
       "role": null,
       "title": "10分钟vibe coding一个塔罗牌游戏",
       "url": "https://www.rednote.com/explore/69871a6c000000002801df4b?xsec_token=ABj48roVoyvTFHgOwYCUj-n6qG8nFyoHcRgaN_Ru44QEM%3D&xsec_source=pc_user",
-      "en": "This is a short vibe-coding tutorial showing how to use Cursor to make a simple tarot-card drawing game in about ten minutes. The author’s two rules are to avoid writing code manually and to treat the model like a genie, repeatedly asking it to fix the result until it works.",
-      "zh": "这是一个简短的 vibe coding 教程，演示如何用 Cursor 在大约 10 分钟内做一个简单的塔罗牌抽卡游戏。作者的两个心法是坚持不手写代码，以及把模型当作神灯，如果结果不对就一直让它改到对。",
+      "en": "鸭基米德 shares a short vibe-coding tutorial showing how to use Cursor to build a simple tarot card drawing game without writing code manually. It is more beginner-oriented than the rest of the digest, but still records how Chinese AI creators are presenting coding agents to a broader audience.",
+      "zh": "鸭基米德分享了一个 10 分钟 vibe coding 教程，演示如何用 Cursor 做一个简单的塔罗牌抽卡游戏，并强调坚持不手写代码。它比本 digest 里其他内容更偏入门，但能反映中文 AI 创作者正在如何向更广泛受众介绍 coding agent。",
       "tags": [
-        "vibe coding",
         "Cursor",
-        "coding agents"
-      ]
-    },
-    {
-      "section": "Blogs",
-      "category": "Blogs",
-      "source": "LessWrong",
-      "role": null,
-      "title": "The Most Forbidden Technique is not always forbidden",
-      "url": "https://www.lesswrong.com/posts/tEFD2bgNWZ6XcurKA/the-most-forbidden-technique-is-not-always-forbidden-1",
-      "en": "LessWrong reviews the debate around Goodfire’s Silico, RLFR, and probe-based reward signals using model internals. The post argues that blanket objections to training on internals are overbroad: the real concern is obfuscation, and internal signals can be warranted under specific conditions. This is useful for alignment and post-training readers because it distinguishes probe-based training from CoT-monitor-based training rather than treating all internal-signal optimization as categorically forbidden.",
-      "zh": "LessWrong 这篇文章围绕 Goodfire 的 Silico、RLFR 和使用 model internals 的 probe-based reward signals，梳理了相关争论。作者认为，笼统反对用 internals 做训练信号过于粗糙，真正的问题是 obfuscation，而在特定条件下 internal signals 可以是合理的。对关注 alignment 和 post-training 的读者来说，它有价值之处在于区分 probe-based training 与 CoT-monitor-based training，而不是把所有 internal-signal optimization 都归为绝对禁区。",
-      "tags": [
-        "alignment",
-        "post-training",
-        "reward model",
-        "CoT"
-      ]
-    },
-    {
-      "section": "Blogs",
-      "category": "Blogs",
-      "source": "LessWrong",
-      "role": null,
-      "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
-      "url": "https://www.lesswrong.com/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-      "en": "LessWrong proposes judgment prediction as a way to benchmark conceptual reasoning tasks where ground truth is subjective or disagreement-laden. Instead of asking whether a model has the “right” answer to questions like AI takeover probabilities, the benchmark would ask it to predict a specified expert’s judgment under defined affordances. The idea is relevant to eval design because it tries to separate model capability from the evaluator’s taste, priors, and unresolved disagreement.",
-      "zh": "LessWrong 这篇文章提出用 judgment prediction 来 benchmark 那些 ground truth 主观、分歧很大的 conceptual reasoning tasks。与其问模型对 AI takeover probability 这类问题是否给出“正确”答案，不如让它在明确 affordances 下预测某个指定专家的判断。这个想法和 eval design 相关，因为它试图把模型能力与评测者的 taste、priors 和未解决分歧分离开。",
-      "tags": [
-        "evaluation",
-        "reasoning",
-        "benchmark"
-      ]
-    },
-    {
-      "section": "Blogs",
-      "category": "Blogs",
-      "source": "Hugging Face - Blog",
-      "role": null,
-      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "en": "Hugging Face published a practitioner post on scaling fine-tuning for video and image models using NVIDIA NeMo Automodel and Diffusers. The item is relevant mainly as an applied fine-tuning workflow update rather than a frontier LLM research result.",
-      "zh": "Hugging Face 发布了一篇实践向文章，介绍如何用 NVIDIA NeMo Automodel 和 Diffusers 扩展 video 和 image models 的 fine-tuning。它的相关性主要在于 applied fine-tuning workflow，而不是 frontier LLM 研究结果。",
-      "tags": [
-        "fine-tuning",
-        "Diffusers",
-        "NVIDIA"
-      ]
-    },
-    {
-      "section": "Reddit",
-      "category": "Reddit",
-      "source": "Best posts on r/LanguageTechnology",
-      "role": null,
-      "title": "short-paper at ACL/EMNLP/EACL 2025/26",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1uznnij/shortpaper_at_aclemnlpeacl_202526/",
-      "en": "A r/LanguageTechnology user asks for accepted short-paper experiences at ACL, EMNLP, or EACL 2025/26, including track and overall assessment, because short papers appear to have lower acceptance rates than long papers. This is useful only as community process signal for NLP publishing, not as technical content.",
-      "zh": "一位 r/LanguageTechnology 用户询问 ACL、EMNLP 或 EACL 2025/26 short paper 的接收经验，包括 track 和 overall assessment，因为他们感觉 short papers 的接收率低于 long papers。它的价值主要是 NLP 投稿流程的社区信号，不是技术内容。",
-      "tags": [
-        "NLP community",
-        "conference process"
+        "vibe coding"
       ]
     }
   ],
-  "generatedAt": "2026-07-18T17:56:36.029Z"
+  "generatedAt": "2026-07-18T18:06:21.832Z"
 }
