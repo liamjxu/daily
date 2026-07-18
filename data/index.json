@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-18",
+    "count": 21,
+    "headline_en": "Agent infrastructure, evaluation rigor, and compute constraints dominated the day, with Claude and OpenAI updates converging on the same question: how to make increasingly capable AI systems reliable at scale.",
+    "generatedAt": "2026-07-18T12:02:38.152Z"
+  },
+  {
     "date": "2026-07-17",
     "count": 23,
     "headline_en": "AI agents moved from demos toward deployed infrastructure, with the day’s strongest signal around containment, tool-use reliability, post-training, and evaluation under real operational constraints.",
