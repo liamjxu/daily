@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-19",
+    "count": 16,
+    "headline_en": "Today’s strongest signal is practical agent deployment meeting harder questions about memory, evaluation, post-training data, and whether frontier AI economics can justify the compute buildout.",
+    "generatedAt": "2026-07-19T12:03:13.933Z"
+  },
+  {
     "date": "2026-07-18",
     "count": 34,
     "headline_en": "Agent infrastructure, evaluation realism, and compute scarcity dominated the day, with frontier labs emphasizing harness design, capacity, memory, and harder-to-game benchmarks.",

@@ -1,0 +1,255 @@
+{
+  "date": "2026-07-19",
+  "headline_en": "Today’s strongest signal is practical agent deployment meeting harder questions about memory, evaluation, post-training data, and whether frontier AI economics can justify the compute buildout.",
+  "headline_zh": "今天最强的信号是实用型 agent 部署正在撞上更难的问题：记忆、评测、post-training 数据，以及 frontier AI 的经济账能否撑住算力扩张。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2078702412085498087",
+      "en": "OpenAI’s Thibault Sottiaux says his job is increasingly “delegating to ChatGPT Work,” using dictation to hand off messy operational workflows. His example task: scan thousands of Twitter DMs about ChatGPT Work, extract names, DM links and posts into a spreadsheet, create an 8-12 label taxonomy of each person’s work, and rate workflow sophistication so OpenAI can pick a diverse beta cohort. He positions ChatGPT Work as useful for creating and hosting sites, managing email, summarizing large document sets, and producing docs, sheets, and slides.",
+      "zh": "OpenAI 的 Thibault Sottiaux 说，他现在的工作越来越像是在“delegating to ChatGPT Work”，通过语音把杂乱的运营流程交给模型处理。他举的例子是：扫描数千条关于 ChatGPT Work 的 Twitter DM，把姓名、DM 链接和帖子整理进表格，自动生成 8-12 类工作 taxonomy，并评估每个人工作流的成熟度，以便 OpenAI 选择一个覆盖不同采用阶段的 beta cohort。他把 ChatGPT Work 定位为可以创建和托管网站、管理邮件、总结大量文档，以及生成 docs、sheets 和 slides 的工具。",
+      "tags": [
+        "agents",
+        "tool use",
+        "agentic workflows",
+        "OpenAI"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today",
+      "url": "https://www.youtube.com/watch?v=RKjR8DQ40po",
+      "en": "The Takeaway: Jürgen Schmidhuber is bullish on AI technology but bearish on today’s model-company economics, arguing that physical AI, artificial curiosity, and self-improving robot societies matter more than chatbots behind screens. He says true AGI needs embodiment, because “you can't have AGI just behind the screen,” and frames future artificial scientists as systems that invent their own experiments, gather their own data, and learn world models from action rather than web-scale human text. His contrarian business view is that massive GPU CapEx may backfire: compute gets cheaper roughly on a five-year cycle, open models pressure pricing, and being a few months ahead may not create a durable moat when many self-improvement ideas emerge from academic and open-source labs. On safety, he rejects simple alignment framing because agents that become truly smart will set new goals, but he expects artificial scientists to value life and civilization as rich sources of patterns rather than defaulting to destructive behavior.",
+      "zh": "核心 takeaway：Jürgen Schmidhuber 看好 AI 技术本身，但看空当前模型公司的经济模型，认为 physical AI、artificial curiosity 和自我改进的机器人社会，比屏幕后面的 chatbot 更关键。他说真正的 AGI 需要具身化，因为“you can't have AGI just behind the screen”，并把未来的人工科学家描述成会自己设计实验、收集数据，并通过行动而不是 web-scale 人类文本来学习 world model 的系统。他对商业侧的逆向观点是，巨额 GPU CapEx 可能会反噬：算力大约按五年周期变便宜，open models 会压低定价，只领先几个月未必形成长期 moat，因为很多 self-improvement 思路来自学术和开源社区。安全方面，他不认同简单的 alignment 叙事，因为真正聪明的 agent 会设定新目标，但他预计人工科学家会把生命和文明视为丰富 pattern 的来源，因此更倾向保护而不是破坏。",
+      "tags": [
+        "recursive self-improvement",
+        "AI economics",
+        "agents",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A Solution to Cryptographic Boxes for Unfriendly AI",
+      "url": "https://www.lesswrong.com/posts/PG2RupAvCNqZ5PAvu/a-solution-to-cryptographic-boxes-for-unfriendly-ai",
+      "en": "LessWrong: A Solution to Cryptographic Boxes for Unfriendly AI argues that secure multi-party computation is a better fit than homomorphic encryption for sandboxing dangerous AI under zero computational assumptions. The key claim is that MPC can provide the needed cryptographic isolation while being orders of magnitude faster than fully homomorphic encryption, with only a multiplicative slowdown in the example described. For AI safety readers, this is a concrete technical proposal rather than a broad policy argument.",
+      "zh": "LessWrong: A Solution to Cryptographic Boxes for Unfriendly AI 认为，在零计算假设下 sandbox 危险 AI，secure multi-party computation 比 homomorphic encryption 更合适。核心主张是，MPC 可以提供所需的加密隔离，同时比 fully homomorphic encryption 快几个数量级，在文中例子里只是乘法级别的变慢。对关注 AI safety 的读者来说，这是一种具体技术方案，而不是泛泛的政策讨论。",
+      "tags": [
+        "AI safety",
+        "cryptography",
+        "sandboxing"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+      "en": "The Hacker News reports that a Go botnet called NadMesh is targeting exposed AI services including ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio. The operator’s dashboard claims 3,811 unique AWS keys, making this a practical warning for teams that rapidly stand up AI tooling without hardening network exposure. The important takeaway is operational: local model runners and workflow builders are now part of the cloud-key attack surface.",
+      "zh": "The Hacker News 报道称，一个名为 NadMesh 的 Go botnet 正在攻击暴露在公网的 AI 服务，包括 ComfyUI、Ollama、n8n、Open WebUI、Langflow 和 Gradio。攻击者自己的 dashboard 声称已经拿到 3,811 个独立 AWS keys，这对快速搭建 AI tooling 却没有做好网络隔离的团队是很现实的警告。关键 takeaway 是运营层面的：local model runner 和 workflow builder 已经成为 cloud key 攻击面的一部分。",
+      "tags": [
+        "AI security",
+        "tooling",
+        "cloud"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Takeaways from the Australian AI Safety Forum",
+      "url": "https://www.lesswrong.com/posts/pq78rH7YAM5PQMYXw/takeaways-from-the-australian-ai-safety-forum",
+      "en": "LessWrong: Takeaways from the Australian AI Safety Forum summarizes a July 7-8 forum grounded in the 2026 International AI Safety Report led by Yoshua Bengio with contributions from more than 100 experts. The post highlights uneven but rapid capability gains, frontier strength in math, coding, and science, and growing real-world harms such as scams and fraud. Its value is a compact snapshot of how safety researchers, policymakers, industry practitioners, and civil society are currently framing AI risk.",
+      "zh": "LessWrong: Takeaways from the Australian AI Safety Forum 总结了 7 月 7-8 日举办的 Australian AI Safety Forum，该论坛以 Yoshua Bengio 牵头、100 多位专家参与的 2026 International AI Safety Report 为基础。文章强调能力进展快速但不均衡，frontier models 在数学、编程和科学上表现突出，同时 scams、fraud 等现实伤害也在增加。它的价值在于快速呈现 safety 研究者、政策制定者、产业从业者和 civil society 当前如何组织 AI risk 议题。",
+      "tags": [
+        "AI safety",
+        "evaluation",
+        "policy"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "If you have deployed an NL2SQL solution, how do you evaluate whether it's producing the correct results and performing as expected?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v0oku2/if_you_have_deployed_an_nl2sql_solution_how_do/",
+      "en": "A r/LanguageTechnology post asks how production NL2SQL systems should be evaluated once SQL generation itself is no longer the hard part. The author points out that exact SQL matching is too strict, result-set comparison can pass by luck on weak test data, and stronger evals may need golden sets, LLM judges, adversarial database rows, and semantic or metric layers. This is a useful practitioner-level eval question for anyone shipping LLM interfaces over databases.",
+      "zh": "一篇 r/LanguageTechnology 帖子在问：当生成 SQL 本身已经不再困难时，生产级 NL2SQL 系统到底该怎么评测。作者指出，精确 SQL 字符串匹配太严格，只比 result set 又可能在薄弱测试数据上侥幸通过，因此更强的 eval 可能需要 golden set、LLM judge、对抗性数据库行，以及 semantic 或 metric layer。对任何在数据库上交付 LLM interface 的实践者来说，这是一个很有价值的评测问题。",
+      "tags": [
+        "evaluation",
+        "NL2SQL",
+        "LLM systems"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的blog推荐合集第五期",
+      "url": "https://www.rednote.com/explore/6a5664ca000000001003c9a1?xsec_token=ABlMYPGowthDeKCvOJCH-aX8SNSUGLWolMM0n88e_hBlc%3D&xsec_source=pc_user",
+      "en": "tabris recommends a mid-July blog roundup covering Shilong Liu’s analysis of self-evolving agents, Lilian Weng’s blog, the shift from chatbots to agents, several paper-linked blog posts, a benchmark, a five-level autonomy framework, async RL practice, a project recommendation, inconclusive results on predicting value changes from post-training data, open models such as GLM 5.2 handling the highest task difficulty, Hugging Face’s news aggregation site, and Prism. The items closest to this reader are the self-evolving agents analysis, agent usage shift, autonomy framework, post-training value-change result, open-model capability note, and benchmarks. Bottom line: 图1 (self-evolving agents), 图3 (agents over chatbots), 图6 (autonomy levels), 图11 (post-training value changes), 图12 (open-model task difficulty), 图14 (benchmark).",
+      "zh": "tabris 推荐了一组 7 月中旬 blog：图1 是 Shilong Liu 对 self-evolving agents 的解析，图2 是 Lilian Weng 的 blog，图3 讲人们越来越多以 agents 而非 chatbots 的形式使用 AI，另有若干同名 paper 的 blog、benchmark、五级 autonomy 框架、实战记录、项目推荐、post-training data 预测 value changes 的不确定结果、open models 尤其 GLM 5.2 已能处理最高任务难度、Hugging Face 新闻聚合网站，以及 Prism。最贴近本读者兴趣的是 self-evolving agents、agent 使用形态变化、autonomy 分级、post-training value change、open-model 能力和 benchmark。 一句话推荐: 图1 (self-evolving agents), 图3 (agents over chatbots), 图6 (autonomy levels), 图11 (post-training value changes), 图12 (open-model task difficulty), 图14 (benchmark).",
+      "tags": [
+        "agents",
+        "post-training",
+        "benchmark",
+        "open models"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "Agent的记忆不一定要塞进上下文",
+      "url": "https://www.rednote.com/explore/6a3b9618000000002103e453?xsec_token=ABT8VdQgf30zJCYiHC3f-PoJ8SyQK5EvOxAlWe6Nz8JSs%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that agent memory should not always be retrieved into context like a notebook for an amnesiac assistant. The post explains Parameters as Memory: put stable, long-term, repeatedly used memories into a LoRA adapter instead of appending them as text every time, and use REMO to restructure long conversations into overlapping windows and multiple access paths. On LoCoMo, PAM reports LLaMA-3.1-8B overall F1 of 43.50 versus Memory-R1-GRPO’s 42.16, with BLEU-1 moving from 34.50 to 46.52, and the bigger point is that memory formatting determines whether a model can actually retrieve and use it.",
+      "zh": "鸭基米德认为，agent 记忆不一定总要像失忆助手翻笔记本一样 retrieve 进 context。文章解释了 Parameters as Memory：把稳定、长期、反复会用到的记忆写进 LoRA adapter，而不是每次都作为文本拼到 prompt 后面，并用 REMO 把长对话切成重叠窗口，再改写成多种访问路径。在 LoCoMo 上，PAM 的 LLaMA-3.1-8B overall F1 是 43.50，高于 Memory-R1-GRPO 的 42.16，BLEU-1 从 34.50 到 46.52；更重要的点是，记忆怎么整理，决定了模型以后能不能真的取出并使用。",
+      "tags": [
+        "agents",
+        "memory",
+        "LoRA",
+        "LLM systems"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "人类数据快用完 六份技术报告给出五种办法",
+      "url": "https://www.rednote.com/explore/6a2ada890000000008002f03?xsec_token=AB7e3xs3NOIL7DLvXOqSkfbFl36Vau0DJDhG0uv9LBdtY%3D&xsec_source=pc_user",
+      "en": "鸭基米德 compares six technical reports, MAI, Phi-4, Llama 3, Qwen2.5, Qwen3, and Nemotron-4, to ask what happens as human data runs out. The interesting split is inside Microsoft: MAI-Thinking-1 says pretraining uses no language-model-generated synthetic data and actively removes AI-generated content, while Phi-4 uses 40% synthetic data in 10T training tokens. The post’s distilled consensus is sharp: pretraining learns knowledge and still wants human data, while post-training learns behavior and can use synthetic data when the tasks are verifiable; Epoch AI estimates usable public human text at about 300T tokens, with full use somewhere in the 2026-2032 confidence range.",
+      "zh": "鸭基米德对比了六份技术报告，MAI、Phi-4、Llama 3、Qwen2.5、Qwen3 和 Nemotron-4，讨论人类数据快用完后怎么办。最有意思的分歧来自 Microsoft 内部：MAI-Thinking-1 说预训练不用任何语言模型生成的合成数据，并主动清理 AI 生成内容，而 Phi-4 的 10T 训练 tokens 里合成数据占 40%。文章提炼出的行业共识很清楚：pretraining 学知识，仍然更依赖人类数据；post-training 学行为，在任务可验证时可以大量使用 synthetic data；Epoch AI 估计公开人类文本有效存量约 300T tokens，80% 置信区间是 2026 到 2032 年之间被完全利用。",
+      "tags": [
+        "post-training",
+        "synthetic data",
+        "Qwen",
+        "data"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "技术报告解读系列：微软的MAI怎么洗数据",
+      "url": "https://www.rednote.com/explore/6a217a6e000000002103ccc6?xsec_token=ABD3SZ6qs-bMMnpwHqI7-0BzGTM74SGkIVWEiPvYIgV0o%3D&xsec_source=pc_user",
+      "en": "鸭基米德 starts a technical-report reading series with Microsoft’s MAI-Thinking-1, emphasizing that the most important part is not the scores, AIME 2025 97.0%, LiveCodeBench v6 87.7%, SWE-Bench Pro 52.8%, but the data pipeline. The report stresses no third-party model distillation data, no open-source training sets, and removing AI-generated content; the web cleaning pipeline goes from about 1.2T HTML pages to 423B deduplicated documents, and the 30T-token pretraining mix is heavily tilted toward code at 54.6%. The RL section matters for post-training readers: verified STEM, math, coding tasks, a reward formula penalizing length and language drift, and code-agent environments filtered from 102M public GitHub PRs down to 265,617 validated environments.",
+      "zh": "鸭基米德开启技术报告解读系列，第一篇看 Microsoft 的 MAI-Thinking-1，强调最值得看的不是分数，AIME 2025 97.0%、LiveCodeBench v6 87.7%、SWE-Bench Pro 52.8%，而是数据 pipeline。报告反复强调不用第三方模型蒸馏数据、不用开源训练集，并尽量剔除 AI 生成内容；网页清洗从约 1.2T HTML pages 到 423B 去重文档，30T-token pretraining mix 里 Code 占 54.6%。对 post-training 读者来说，RL 部分尤其关键：可验证 STEM、数学和编程任务，惩罚长度与语言漂移的 reward 公式，以及从 1.02 亿个公开 GitHub PR 筛到 265,617 个已验证 code-agent environments。",
+      "tags": [
+        "post-training",
+        "reward model",
+        "coding agents",
+        "data"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "别笑洗数据，这真是大模型核心工作",
+      "url": "https://www.rednote.com/explore/6a1fffb200000000220098e8?xsec_token=ABF3IH-W5IsCYli9ti3L9r2i99hPNLr0qgc2xUkltqV0w%3D&xsec_source=pc_user",
+      "en": "鸭基米德 uses MiniMax M2’s technical report and practical sentiment-analysis examples to argue that data cleaning is core LLM work, not low-status plumbing. Terminal-Gym turns real StackOverflow programming scenarios into automatically verifiable terminal tasks with Docker environments and tests, showing why modern training data must be both realistic and judgeable. The post also highlights contamination checks, semantic deduplication, difficulty filtering, and synthetic-data shortcut traps, where models learn artifacts of data construction instead of the intended skill.",
+      "zh": "鸭基米德借 MiniMax M2 技术报告和自己做情感分析的例子说明，洗数据不是低级杂活，而是大模型训练的核心工作。Terminal-Gym 把 StackOverflow 里的真实编程场景改造成可自动判对错的终端任务，配 Docker 环境和测试脚本，说明现代训练数据既要真实，也要可验证。文章还强调 benchmark contamination 检查、语义去重、难度筛选，以及 synthetic data 里的捷径陷阱，也就是模型学到的是造数据时留下的规律，而不是目标能力。",
+      "tags": [
+        "evaluation",
+        "data contamination",
+        "synthetic data",
+        "MiniMax"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的blog推荐合集第六期",
+      "url": "https://www.rednote.com/explore/6a429c51000000000f01e500?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4qf93BaSq3jOEZG3UGgWYXU%3D&xsec_source=pc_user",
+      "en": "tabris recommends an early-July blog roundup, with especially strong interest in StudyBench, a same-name paper blog, research showing humans still have advantages on some intellectual tasks while agents still have broad room to improve, BFS-Prover-V2, advice on sharing research work, a benchmark-quality argument that good benchmarks should genuinely reflect the capabilities they claim to measure, parameter decomposition practice, distributed AI inference, vllm-skills, a beginner-friendly hands-on guide, and a post on AI review. For this reader, the strongest matches are StudyBench, agents versus human strengths, benchmark critique, BFS-Prover-V2, inference systems, and AI review. Bottom line: 图1 (StudyBench), 图3 (agent progress gap), 图5 (BFS-Prover-V2), 图8 (benchmark validity), 图10 (distributed AI inference), 图13 (AI review).",
+      "zh": "tabris 推荐了一组 7 月初 blog，其中尤其喜欢 StudyBench，另有同名 paper 的 blog、说明人类在某些智力任务仍有优势且 agent 仍有很大进步空间的研究、BFS-Prover-V2、如何 share your work、关于 good benchmark should genuinely reflect progress on capabilities people thought it measures 的 benchmark 观点、parameter decomposition 实战、distributed AI inferencer 入门、vllm-skills、适合新人的手把手教程，以及关于 AI review 的理解与改进建议。对本读者来说，最贴近的是 StudyBench、agent 与人类能力差距、benchmark 批评、BFS-Prover-V2、inference 系统和 AI review。 一句话推荐: 图1 (StudyBench), 图3 (agent progress gap), 图5 (BFS-Prover-V2), 图8 (benchmark validity), 图10 (distributed AI inference), 图13 (AI review).",
+      "tags": [
+        "agents",
+        "benchmark",
+        "inference",
+        "AI review"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的blog推荐合集第五期",
+      "url": "https://www.rednote.com/explore/6a42946b000000001102c157?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4lXfNSCugaoW6DgdJ2zbWEw%3D&xsec_source=pc_user",
+      "en": "tabris recommends another early-July blog roundup spanning an Andrew Gordon Wilson theory blog, neuroscience-oriented reading, paper-linked blogs, a reliability/topology argument, skepticism about whether we can understand LLMs, infra reading, an interesting benchmark, Cybersecurity Evals, AI decision-making optimism with reservations, theory-driven development, NeMo AutoModel, and forward self-models. The most relevant items for this reader are the theory blog, reliability claim, LLM-understanding skepticism, infra, benchmark, Cybersecurity Evals, theory-driven development, and forward self-models. Bottom line: 图1 (theory), 图4 (reliability), 图5 (LLM interpretability skepticism), 图6 (infra), 图9 (benchmark), 图11 (Cybersecurity Evals), 图14 (theory-driven development), 图16 (forward self-models).",
+      "zh": "tabris 推荐了另一组 7 月初 blog，覆盖 Andrew Gordon Wilson 的 theory blog、面向脑科学读者的内容、同名 paper 的 blog、关于 topology can help implement reliability, but it does not create reliability 的观点、对 we can understand LLM or can not 更偏向 can not 的看法、infra 内容、有意思的 benchmark、Cybersecurity Evals、对把决策权交给 AI 的乐观派观点但作者持保留意见、theory-driven development、NeMo AutoModel，以及 forward self-models。对本读者最相关的是 theory blog、reliability 观点、LLM 理解能力怀疑、infra、benchmark、Cybersecurity Evals、theory-driven development 和 forward self-models。 一句话推荐: 图1 (theory), 图4 (reliability), 图5 (LLM interpretability skepticism), 图6 (infra), 图9 (benchmark), 图11 (Cybersecurity Evals), 图14 (theory-driven development), 图16 (forward self-models).",
+      "tags": [
+        "benchmark",
+        "interpretability",
+        "infra",
+        "theory"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第五期",
+      "url": "https://www.rednote.com/explore/6a5667830000000011005c9a?xsec_token=ABlMYPGowthDeKCvOJCH-aX2tSKr1rX1vCsRtgsNcAvTg%3D&xsec_source=pc_user",
+      "en": "tabris posts a mid-July paper recommendation roundup and says their personal favorite is 图18. Bottom line: tabris recommends 图18.",
+      "zh": "tabris 发了一组 7 月中旬 paper 推荐合集，并说个人相对喜欢图18。一句话推荐: tabris recommends 图18.",
+      "tags": [
+        "papers",
+        "LLM"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的paper推荐合集第五期",
+      "url": "https://www.rednote.com/explore/6a42a097000000000f02b56f?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4rnAE6gdGSkAMcVSCaFK4ew%3D&xsec_source=pc_user",
+      "en": "tabris posts an early-July paper recommendation roundup and notes that although several papers were already recommended through blogs, 图1 is still worth recommending again. Bottom line: tabris recommends 图1.",
+      "zh": "tabris 发了一组 7 月初 paper 推荐合集，并说明虽然不少 paper 已经通过 blog 推荐过，但图1 很值得再次推荐。一句话推荐: tabris recommends 图1.",
+      "tags": [
+        "papers",
+        "LLM"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "V圈这些老头怎么这么多是程序员啊",
+      "url": "https://www.rednote.com/explore/6a2bef3a0000000007010051?xsec_token=ABPSI_SDw_fgoI4nC3twTHE0T85_YJDPNnBNRIvsh9kjw%3D&xsec_source=pc_user",
+      "en": "鸭基米德 analyzes why programmer-heavy fan communities appear around VTubers and SNH48-style idol systems, arguing that these fandoms build real data infrastructure rather than just doing ordinary fan promotion. The sharper AI-adjacent point is that paid fan tiers work like well-documented intimacy systems with predictable inputs and outputs, while future AI companionship may lower the floor of loneliness but not replace the high-end value of real human presence.",
+      "zh": "鸭基米德分析为什么 V 圈和 SNH48 式偶像系统里程序员浓度很高，认为这些粉圈做的不是普通控评打榜，而是真的在建数据基础设施。更贴近 AI 的观点是，付费舰长和总选像一套接口文档清楚的亲密关系系统，输入输出稳定；未来 AI 陪伴也许能把孤独的下限托住，但替代不了真人在场作为高端价值的部分。",
+      "tags": [
+        "AI companionship",
+        "consumer AI",
+        "social systems"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-19T12:03:13.933Z"
+}
