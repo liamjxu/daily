@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-20",
+    "count": 31,
+    "headline_en": "Agentic AI is moving from demos into infrastructure, with tool ecosystems, payment rails, post-training methods, and safety benchmarks converging around agents that can act, spend, and reason at scale.",
+    "generatedAt": "2026-07-20T16:01:30.194Z"
+  },
+  {
     "date": "2026-07-19",
     "count": 16,
     "headline_en": "Today’s strongest signal is practical agent deployment meeting harder questions about memory, evaluation, post-training data, and whether frontier AI economics can justify the compute buildout.",
