@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-21",
+    "count": 26,
+    "headline_en": "Agentic AI dominated the day, with builders and researchers converging on post-training, memory, tool use, benchmark realism, and the hard economics of putting autonomous systems into production.",
+    "generatedAt": "2026-07-21T14:30:26.222Z"
+  },
+  {
     "date": "2026-07-20",
     "count": 31,
     "headline_en": "Agentic AI is moving from demos into infrastructure, with tool ecosystems, payment rails, post-training methods, and safety benchmarks converging around agents that can act, spend, and reason at scale.",

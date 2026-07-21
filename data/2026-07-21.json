@@ -1,0 +1,403 @@
+{
+  "date": "2026-07-21",
+  "headline_en": "Agentic AI dominated the day, with builders and researchers converging on post-training, memory, tool use, benchmark realism, and the hard economics of putting autonomous systems into production.",
+  "headline_zh": "今天的主线是 agentic AI，从 post-training、memory、tool use、benchmark 真实性到自主系统落地的成本经济学，产业和研究都在快速收敛。",
+  "items": [
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "en": "The Takeaway: Booking.com CEO Glenn Fogel sees AI agents as a major travel interface shift, but not as a clean disruption story because travel still depends on marketplace scale, partner operations, regulation, customer trust, and failure handling. He says Booking is already building agentic travel through Priceline’s Penny, whose adoption has doubled every month for the past few months and has shown lift in conversion, faster search, shorter paths to booking, lower cancellation, and higher customer success, while customer-service cost per contact is down about 10% and satisfaction is up. His sharpest line was, “There is no such thing as a moat,” because today’s advantages can disappear unless incumbents keep building better services. The practical lesson for AI companies is that token economics, model routing, human fallback, and end-to-end accountability matter as much as the agent demo.",
+      "zh": "The Takeaway: Booking.com CEO Glenn Fogel 认为 AI agents 会重塑旅行入口，但这不是一个简单的颠覆故事，因为旅游业务仍然依赖 marketplace scale、合作方运营、监管、客户信任和出问题后的兜底能力。他说 Booking 已经通过 Priceline 的 Penny 在做 agentic travel，Penny 最近几个月采用量每月翻倍，并带来了 conversion 提升、更快搜索、更短预订路径、更低取消率和更高 customer success，同时 customer service 每次接触成本下降约 10%，满意度上升。他最尖锐的一句话是，“There is no such thing as a moat”，因为今天的优势如果不持续推出更好的服务，明天就可能消失。对 AI 公司而言，真正落地时 token economics、model routing、人工兜底和端到端责任链，和 agent demo 本身一样重要。",
+      "tags": [
+        "agents",
+        "AI strategy",
+        "token economics",
+        "travel"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "en": "The Hacker News reports that Sysdig linked a second attack on the same Langflow server to JADEPUFFER, an AI-agent-driven operator, now deploying ENCFORGE ransomware. The malware is designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files, making this more relevant than generic security noise for teams running agent and RAG stacks.",
+      "zh": "The Hacker News 报道称，Sysdig 将同一台 Langflow server 上的第二次攻击关联到 AI-agent-driven operator JADEPUFFER，这次攻击部署了 ENCFORGE ransomware。该恶意软件目标是加密 model weights、vector indexes、training datasets 和其他 AI infrastructure files，对运行 agent 和 RAG stack 的团队来说，这比普通安全新闻更值得关注。",
+      "tags": [
+        "AI security",
+        "agents",
+        "RAG",
+        "Langflow"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "en": "The Hacker News says threat actors are exploiting CVE-2026-6875, a critical ServiceNow AI Platform sandbox escape vulnerability with CVSS 9.5. The reported risk is unauthenticated arbitrary code execution, so this is a high-priority operational item for teams exposing AI workflow platforms.",
+      "zh": "The Hacker News 称，攻击者正在利用 CVE-2026-6875，这是 ServiceNow AI Platform 的一个 critical sandbox escape vulnerability，CVSS 评分 9.5。其风险是 unauthenticated arbitrary code execution，因此对暴露 AI workflow platform 的团队来说是高优先级运维事项。",
+      "tags": [
+        "AI security",
+        "ServiceNow",
+        "platform risk"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月末到七月初自觉不错的blog推荐合集第二期",
+      "url": "https://www.rednote.com/explore/6a4279da000000000f01566a?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4v2GLoSAZ7KXfhp4U3ffEgM%3D&xsec_source=pc_user",
+      "en": "tabris’s blog roundup highlights a Lilian Weng tech blog as a must-read, a multimodal benchmark post arguing that accuracy does not directly prove multimodal reasoning, ReplaySSM, OpenHands, Target-SFT, a minimal LLM book, a behavioral-science LLM checklist, RLM-related work, ELF with progressive distillation, IW-OPD, and a TPU architecture explainer. The strongest matches for this reader are the multimodal reasoning critique, ReplaySSM, Target-SFT, OpenHands, RLM, ELF progressive distillation, and IW-OPD. Bottom line: 图1 (Lilian Weng must-read), 图2 (multimodal benchmark critique), 图5 (OpenHands agent practice), 图13 (RLM-related), 图14 (progressive distillation), 图16 (IW-OPD).",
+      "zh": "tabris 的 blog 推荐合集提到，图1 应该是最近最热门的一篇 tech blog，Lilian Weng 出品每一篇都属于必读推荐；图2 结论明确，accuracy on a multimodal benchmark 不直接等于有 multimodal reasoning 证据；图3 intro ReplaySSM，质量极高非常推荐；图5 实质是 OpenHands 的安利；图6 intro Target-SFT，blog 可视化做得好所以推荐直接读 blog；另外还有超极简 LLM book、behavioural science 的 LLM checklist、rlm 相关、ELF with progressive distillation、optimisation、IW-OPD 和 TPU 结构机制介绍。一句话推荐: 图1 (Lilian Weng 必读), 图2 (multimodal benchmark critique), 图5 (OpenHands agent practice), 图13 (rlm 相关), 图14 (progressive distillation), 图16 (IW-OPD)。",
+      "tags": [
+        "reasoning eval",
+        "agents",
+        "post-training",
+        "distillation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "六月末自觉不错的blog推荐合集第一期",
+      "url": "https://www.rednote.com/explore/6a425bde00000000110128e1?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4uUsy_x-SMSVWMu4Qe-gd3E%3D&xsec_source=pc_user",
+      "en": "tabris’s late-June blog roundup recommends FrontisAI research, a Stanford professor’s pessimistic view of AI impact and advice, a clear World-Action Models intro, a Columbia mathematics professor’s argument about AI-driven knowledge collapse in math research, Brain as a self-improving memory system, a honkaku deduction benchmark led by Fable 5, an agentic-RL overview, OSWorld 2.0, Java code migration agent training notes, and an SFT-vs-RL comparison. The most relevant items are the World-Action Models intro, Brain memory system, agentic-RL blog, OSWorld 2.0, code migration agent practice, industry-career advice, and the SFT/RL comparison. Bottom line: 图3 (World-Action Models intro), 图5 (self-improving memory), 图10 (agentic-RL overview), 图13 (OSWorld 2.0), 图15 (code migration agent practice), 图16 (industry-career advice), 图18 (SFT vs RL comparison).",
+      "zh": "tabris 的六月末 blog 推荐合集提到，图1 是很好的 FrontisAI 研究；图2 是 Stanford 一位老师写的，他对 AI impact 持较悲观看法并给出应对建议；图3 是极好的 World-Action Models intro，深入浅出、表达清晰；图5 intro Brain, a self-improving memory system；图7 是 honkaku deduction benchmark，Fable 5 无悬念夺冠；图10 大概是目前最全面的 intro agentic-rl blog，虽然很长但质量很好；图13 intro OSWorld 2.0；图15 是 training Java code migration agent 实战记录；图16 推荐想去业界的朋友看；图18 对比 SFT 和 RL，结论是 dense, linearly separable signal 更适合 SFT，search、sequencing 或 calibration 缺口更适合 RL。一句话推荐: 图3 (World-Action Models intro), 图5 (self-improving memory), 图10 (agentic-RL overview), 图13 (OSWorld 2.0), 图15 (code migration agent practice), 图16 (industry-career advice), 图18 (SFT vs RL comparison)。",
+      "tags": [
+        "agentic RL",
+        "memory",
+        "benchmarks",
+        "frontier jobs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "大模型后训练面试高考卷",
+      "url": "https://www.rednote.com/explore/6a5e2fc0000000001d022bdb?xsec_token=ABdc--w3DiSKG7GvlxZhA-31KVXaRQIVT4FHcnzNeKm3k%3D&xsec_source=pc_user",
+      "en": "鸭基米德 made a mock exam from high-frequency interview questions on LLM post-training, aimed at readers preparing for roles around 大模型, HOWTO, talent programs, Seed, and OpenAI-style interviews.",
+      "zh": "鸭基米德整理了一套大模型后训练面试高频题“高考卷”，面向准备大模型、HOWTO、人才计划、Seed、OpenAI 相关面试的读者。",
+      "tags": [
+        "post-training",
+        "frontier jobs",
+        "interview prep"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第七期",
+      "url": "https://www.rednote.com/explore/6a5668a1000000001101cdc4?xsec_token=ABlMYPGowthDeKCvOJCH-aXxXIXZ7JYqxdS-Qh0Dun4Fc%3D&xsec_source=pc_user",
+      "en": "tabris’s mid-July paper roundup flags a new batch of AI, deep learning, LLM, research-study, and literature-reading papers. Bottom line: tabris recommends 图11.",
+      "zh": "tabris 的 7月中旬 paper 推荐合集第七期，标注了 AI、深度学习、大模型、科研学习和文献阅读方向的一批论文。一句话推荐: tabris recommends 图11。",
+      "tags": [
+        "papers",
+        "LLM"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的paper推荐合集第二期",
+      "url": "https://www.rednote.com/explore/6a429e9000000000110043f1?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4tuV8L0F0DcfYgqZGlkz5Zo%3D&xsec_source=pc_user",
+      "en": "tabris’s early-July paper roundup collects AI, LLM, deep-learning, research-study, and literature-reading papers, with a note that 图16 is a structurally complete book even if not especially outstanding. Bottom line: tabris recommends 图1, 图12.",
+      "zh": "tabris 的七月初 paper 推荐合集第二期，整理了 AI、大模型、深度学习、科研学习和文献阅读方向内容，并提到图16那本书个人认为写得并不算特别出彩，但胜在结构完整，感兴趣也可找来看。一句话推荐: tabris recommends 图1, 图12。",
+      "tags": [
+        "papers",
+        "LLM"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "六月末自觉不错的paper推荐合集第一期",
+      "url": "https://www.rednote.com/explore/6a429d57000000001003f063?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4q-QCv2a2ElghtBHRvYJ5YY%3D&xsec_source=pc_user",
+      "en": "tabris’s late-June paper roundup collects AI, deep-learning, LLM, research-study, and literature-reading papers, with a specific note that 图1 has very strong results and is worth watching. Bottom line: tabris recommends 图14, with 图1 also worth attention.",
+      "zh": "tabris 的六月末 paper 推荐合集第一期，整理了 AI、科研学习、深度学习、大模型和文献阅读方向论文，并特别说图1的效果非常好，可以关注。一句话推荐: tabris recommends 图14，图1也值得关注。",
+      "tags": [
+        "papers",
+        "LLM"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "Claude Opus4.6真成白月光了",
+      "url": "https://www.rednote.com/explore/6a15a225000000000702cdec?xsec_token=ABwQ_zforwt7yhgu6gNkMlBsgT6aq-8J6Yu-Ay5lGMzlU%3D&xsec_source=pc_user",
+      "en": "鸭基米德 vents that recent Claude Code and writing quality feel degraded, while Gemini, GPT, and Doubao-like behavior each have their own frustrating failure modes.",
+      "zh": "鸭基米德吐槽最近 cc 拉完了，写作也开始不讲人话，并觉得 Gemini、GPT 和大号豆包式表现各有各的拉胯点。",
+      "tags": [
+        "Claude",
+        "model quality"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "是没有痛苦就不会有进步吗",
+      "url": "https://www.rednote.com/explore/6a159d8800000000070200dc?xsec_token=ABwQ_zforwt7yhgu6gNkMlBiBEKEj5hypEJuld4FxWWQQ%3D&xsec_source=pc_user",
+      "en": "鸭基米德 frames a “pain law” for AI-era productivity: no matter how much LLMs unlock, personal progress still feels proportional to how much pain one is willing to endure.",
+      "zh": "鸭基米德提出一个“痛苦定律”：不管大模型解放了多少生产力，自己的进步程度似乎仍然和痛苦程度成正比。",
+      "tags": [
+        "LLM",
+        "research mindset"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "一些对于科研方向的评价 不一定错",
+      "url": "https://www.rednote.com/explore/6a11c56f0000000008030c98?xsec_token=AB_Qixi2lBEVMb0SEbTEJFCow7CG2xya1glchaFjoutlg%3D&xsec_source=pc_user",
+      "en": "鸭基米德 offers a short take on research directions in the LLM era, framing turbulent periods as moments where research winners can emerge.",
+      "zh": "鸭基米德对大模型时代的科研方向给出简短评价，核心语气是“乱世出英雄，科研也一样”。",
+      "tags": [
+        "research strategy",
+        "LLM"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "竞争是loser才干的事",
+      "url": "https://www.rednote.com/explore/6a11c7fc0000000008003200?xsec_token=AB_Qixi2lBEVMb0SEbTEJFCiIqY7UEca75hdNxv4MPhlc%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that much competition is meaningless, a short reflection tagged around LLMs, memory, and having one’s own view.",
+      "zh": "鸭基米德认为很多竞争毫无意义，这是一条围绕大模型、记忆和“并且有自己的见解”的短反思。",
+      "tags": [
+        "LLM",
+        "research mindset"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+      "url": "https://arxiv.org/abs/2607.18063",
+      "en": "This paper introduces a 21-scenario benchmark for adaptive multi-round attacks on memoryless LLM defenders, where an autonomous attacker observes prior responses and pivots over up to 15 rounds. Single-turn scoring gives only 0-1% attack success, but adaptive attacks reach 5.4-14.0%, with pooled frontier attackers finding 1.4-2.2x more unique successful attacks than the best single attacker. It matters because agent security evaluations that use fixed attack pools can dramatically understate real multi-turn vulnerability.",
+      "zh": "这篇论文提出了一个包含 21 个场景的 benchmark，用于评估针对 memoryless LLM defender 的 adaptive multi-round attacks，其中 autonomous attacker 会观察前一轮回复并在最多 15 轮内调整策略。只看第一轮时 attack success 只有 0-1%，但自适应攻击达到 5.4-14.0%，多个 frontier attacker 合并后发现的 unique successful attacks 比最佳单个 attacker 多 1.4-2.2 倍。它的重要性在于，使用固定攻击池的 agent security evaluation 可能严重低估真实多轮漏洞。",
+      "tags": [
+        "LLM agent",
+        "benchmark",
+        "evaluation",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Salience Induction against Multi-Hop RAG Agents: Threat and Defense",
+      "url": "https://arxiv.org/abs/2607.17535",
+      "en": "This paper identifies a new attack surface for agentic multi-hop RAG: the salience channel, where true facts are repositioned, emphasized, framed, or moved semantically closer to redirect reasoning without false claims or explicit instructions. Across GPT, Claude, Gemini, DeepSeek, and Qwen families plus ReAct, Reflexion, and tool-calling agents, a 30% edit budget reaches 83.3% attack success, while the strongest baseline defense still leaves 75.7% post-defense ASR. The proposed Salience Normalization defense cuts attack success to 15.3%, making this highly relevant for anyone evaluating RAG agent robustness beyond prompt injection.",
+      "zh": "这篇论文指出 agentic multi-hop RAG 的一个新攻击面：salience channel，也就是通过位置、强调、framing 或 semantic proximity 改写真事实，引导错误推理，但不注入假事实或明确指令。在 GPT、Claude、Gemini、DeepSeek、Qwen 模型族以及 ReAct、Reflexion、tool-calling agents 上，30% edit budget 达到 83.3% attack success，最强 baseline defense 后仍有 75.7% ASR。作者提出的 Salience Normalization 将 attack success 降到 15.3%，对评估 RAG agent robustness 的人非常相关。",
+      "tags": [
+        "LLM agent",
+        "RAG",
+        "evaluation",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Interactive Task Alignment as a POMDP",
+      "url": "https://arxiv.org/abs/2607.16412",
+      "en": "This paper reframes task alignment as a POMDP: instead of executing fully specified instructions, the model must infer a latent user task from partial, evolving, and sometimes inconsistent intent. Across shopping, coding, and professional work settings, current models recover the intended task only 22-32% of the time under ambiguity, while humans reach 48%. The result is a direct critique of agent benchmarks that skip the hardest part of real assistance: negotiating what the task actually is before acting.",
+      "zh": "这篇论文把 task alignment 形式化为 POMDP：模型不是执行完全明确的指令，而是要从不完整、变化中、甚至前后不一致的用户意图里推断 latent task。在 shopping、coding 和 professional work 设置中，当前模型在模糊任务下只能 22-32% 恢复用户真实意图，而人类达到 48%。这个结果直接批评了很多 agent benchmark，因为它们跳过了真实助理里最难的一步：行动前先对齐任务到底是什么。",
+      "tags": [
+        "LLM agent",
+        "alignment",
+        "benchmark",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Verify, Repair, Repeat, or Stop? Robust Stopping for Noisy Verify-Repair Loops in LLM Agents",
+      "url": "https://arxiv.org/abs/2607.17641",
+      "en": "This paper studies noisy verify-repair-repeat loops, where verifiers can falsely accept or reject and repairers can damage already-correct plans. VRR-Stop uses belief filtering and a four-parameter noise model to decide whether another repair has positive true marginal gain, while VRR-Guard provides an estimation-free fallback when verifier discrimination collapses. On GSM8K stress tests, VRR-Stop improves true validity by 60.6 points over fixed five-round repair at only 0.72 average repair rounds, making it a practical contribution for code, math, and tool-use agents.",
+      "zh": "这篇论文研究 noisy verify-repair-repeat loops，其中 verifier 可能误接收或误拒绝，repairer 也可能破坏本来正确的计划。VRR-Stop 用 belief filtering 和四参数噪声模型判断继续 repair 是否有正的 true marginal gain，VRR-Guard 则在 verifier discrimination 失效时提供无需估计的 fallback。在 GSM8K stress tests 上，VRR-Stop 相比固定五轮 repair 将 true validity 提高 60.6 个百分点，平均只需要 0.72 轮 repair，对 code、math 和 tool-use agents 很实用。",
+      "tags": [
+        "LLM agent",
+        "tool use",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory",
+      "url": "https://arxiv.org/abs/2607.17545",
+      "en": "This paper asks when a language agent should keep raw memories versus consolidate them under context-budget pressure. It decomposes operator utility into coverage gained from evidence that would be omitted and replacement harm from compressing evidence that already fits, then implements Offline Abstraction-Safety to choose among retention, Merge, Abstract, and Rewrite. On LongMemEval, consolidation improves accuracy by up to 48% under tight budgets, while retention wins under loose budgets, which gives agent-memory systems a more principled policy than always summarize or always retrieve raw logs.",
+      "zh": "这篇论文研究在 context budget 压力下，language agent 应该保留 raw memories 还是做 consolidation。它把 operator utility 拆成两部分：补上原本会被 budget 挤掉的 evidence 所带来的 coverage gain，以及压缩本来能放进去的 evidence 所造成的 replacement harm，并用 Offline Abstraction-Safety 在 retention、Merge、Abstract、Rewrite 之间选择。在 LongMemEval 上，tight budget 下 consolidation 最高提升 48% accuracy，而 loose budget 下 retention 更好，这给 agent memory system 提供了比“总是总结”或“总是取原始日志”更有原则的策略。",
+      "tags": [
+        "language agent",
+        "memory",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Accurate and Efficient Long-Term Memory for LLM Agents",
+      "url": "https://arxiv.org/abs/2607.16211",
+      "en": "MOSAIC is a structured, conflict-aware long-term memory framework for LLM agents that replaces flat storage with entity-typed graph memory and adds save-time contradiction detection. It uses hash-accelerated dual-path retrieval instead of expensive LLM classification, aiming for low-latency deployment without losing relational context. On LoCoMo it reaches 89.35% accuracy, 27.21 points over the best baseline, which makes it one of the day’s most directly relevant agent-memory papers.",
+      "zh": "MOSAIC 是一个面向 LLM agents 的 structured、conflict-aware long-term memory framework，用 entity-typed graph memory 替代 flat storage，并在保存时做 contradiction detection。它用 hash-accelerated dual-path retrieval 替代昂贵的 LLM classification，目标是在低延迟部署中保留关系上下文。在 LoCoMo 上达到 89.35% accuracy，比最佳 baseline 高 27.21 个百分点，是今天最直接相关的 agent memory 论文之一。",
+      "tags": [
+        "LLM agent",
+        "memory",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Distilled Reinforcement Learning for LLM Post-training",
+      "url": "https://arxiv.org/abs/2607.17247",
+      "en": "Distilled RL combines teacher supervision with reinforcement learning to solve a tension in LLM post-training: RL gives sparse outcome supervision, while on-policy distillation can blindly imitate teacher logits. The method uses reverse importance sampling with clipping, negative sample reset, and sequence-level geometric normalization to selectively transfer knowledge without unconditional imitation. It outperforms standard RL and OPD across within-family and cross-family distillation, making it relevant to post-training pipelines that want both reasoning gains and better credit assignment.",
+      "zh": "Distilled RL 把 teacher supervision 融入 reinforcement learning，解决 LLM post-training 中的一个张力：RL 只有稀疏 outcome supervision，而 on-policy distillation 又可能盲目模仿 teacher logits。方法包含 reverse importance sampling with clipping、negative sample reset 和 sequence-level geometric normalization，用来选择性迁移知识，避免无条件 imitation。它在 within-family 和 cross-family distillation 中都优于 standard RL 和 OPD，对想同时提升 reasoning 和 credit assignment 的 post-training pipeline 很相关。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "alignment",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Trace-Based On-Policy Distillation for Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2607.16872",
+      "en": "TOPD targets reasoning post-training for diffusion LLMs, where SFT needs dense off-policy masked states and RL has sparse rewards or value-modeling overhead. It samples on-policy denoising trajectories from the target model, asks a teacher for token distributions on those partially denoised states, and trains with token-level Reverse-KL on trace-aligned decisions. On MATH500, SDAR-4B-Chat matches the RL-trained TraDo-4B-Instruct with +5.7 static and +4.5 dynamic gains, using 4x fewer rollout rounds and an estimated 96x model-compute speedup to accuracy.",
+      "zh": "TOPD 针对 diffusion LLMs 的 reasoning post-training，因为 SFT 需要 dense 但 off-policy 的 masked states，而 RL 又依赖 sparse rewards 或 value modeling。它从目标模型采样 on-policy denoising trajectories，让 teacher 在对应 partially denoised states 上给出 token distributions，并用 token-level Reverse-KL 训练 trace-aligned decisions。在 MATH500 上，SDAR-4B-Chat 达到 RL-trained TraDo-4B-Instruct 的水平，static evaluation 提升 +5.7，dynamic evaluation 提升 +4.5，只用 4x 更少 rollout rounds，并达到估计 96x 的 to-accuracy model-compute speedup。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "reasoning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Normalized Rewards for Preference Optimization",
+      "url": "https://arxiv.org/abs/2607.16240",
+      "en": "This paper examines why Direct Alignment Algorithms such as DPO can improve outputs while decreasing likelihood assigned to preferred responses. The authors find that much of the likelihood change is driven by a small set of outlier tokens, then add a regularizer preserving total length-normalized probabilities of chosen and rejected responses. Applied to DPO and SimPO, the regularization improves generation-quality versus benchmark-capability trade-offs, including over 20% relative AlpacaEval2 gains and over 9% relative general-benchmark gains on Llama-3.1-8B-Instruct.",
+      "zh": "这篇论文研究为什么 DPO 等 Direct Alignment Algorithms 会在提升输出质量的同时，降低 preferred responses 的 likelihood。作者发现很多 likelihood change 来自少数 outlier tokens，于是加入一个 regularizer，用来保持 chosen 和 rejected responses 的 total length-normalized probabilities。该正则项用于 DPO 和 SimPO 后，改善了 generation quality 与 general benchmark capability 的 trade-off，在 Llama-3.1-8B-Instruct 上带来超过 20% relative AlpacaEval2 提升和超过 9% relative general-benchmark 提升。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "reward model",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
+      "url": "https://arxiv.org/abs/2607.16195",
+      "en": "This paper proposes that RLHF preference labels can encode a structured confound from the annotator’s state, especially under sustained stressful or distressing annotation conditions. It defines rater state shift, rater state confound, and correlated rater state bias, then lays out falsifiable predictions, effect-size thresholds, and an audit protocol. For readers thinking about reward-model data quality, the key point is that preference aggregation may preserve shared state-dependent bias rather than washing it out as random noise.",
+      "zh": "这篇论文提出，RLHF preference labels 可能编码 annotator state 带来的结构性混杂，尤其是在持续压力或 distressing annotation conditions 下。它定义了 rater state shift、rater state confound 和 correlated rater state bias，并给出可证伪预测、effect-size thresholds 和 audit protocol。对关注 reward model 数据质量的读者来说，重点是 preference aggregation 可能保留共享的 state-dependent bias，而不是像随机噪声一样被平均掉。",
+      "tags": [
+        "RLHF",
+        "reward model",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+      "url": "https://arxiv.org/abs/2607.16199",
+      "en": "PlanFlip targets the planning phase of multi-agent LLM systems, showing that one injected planner-context item can cascade into corrupted downstream subtasks. Across nine frontier LLMs and 3,479 episodes, the paper reports that capability can amplify vulnerability, with GPT-5 reaching ASR 0.68, while reasoning-augmented DeepSeek-R1 has StepShift 0.00 across all attacks. The defenses, GoalAnchorCheck and CrossAgentConsensus, reach detection rates up to 1.00, making this a useful benchmark-style paper for multi-agent system builders.",
+      "zh": "PlanFlip 攻击 multi-agent LLM systems 的 planning phase，说明一次注入 planner context 的内容就可能级联污染后续所有 subtasks。在九个 frontier LLM 和 3,479 个 episodes 上，论文报告 capability 可能放大 vulnerability，GPT-5 的 ASR 达到 0.68，而 reasoning-augmented DeepSeek-R1 在所有攻击上的 StepShift 都是 0.00。作者提出的 GoalAnchorCheck 和 CrossAgentConsensus detection rates 最高到 1.00，对 multi-agent system builder 很有 benchmark 价值。",
+      "tags": [
+        "multi-agent",
+        "AI security",
+        "DeepSeek",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "I released a structurally chunked, open EU AI Act corpus for legal AI and RAG",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v1zb10/i_released_a_structurally_chunked_open_eu_ai_act/",
+      "en": "A Reddit user released EU AI Act OpenRAG, a downloadable SQLite corpus of Regulation (EU) 2024/1689 split by the Act’s real structure rather than arbitrary token windows. It includes 933 chunks, embeddings, exact EUR-Lex links, application-date metadata, operator metadata, and conservative legal labels, making it a practical artifact for legal RAG research and engineering.",
+      "zh": "一位 Reddit 用户发布了 EU AI Act OpenRAG，这是 Regulation (EU) 2024/1689 的 downloadable SQLite corpus，按法案真实结构切分，而不是按任意 token window 切分。它包含 933 个 chunks、embeddings、精确 EUR-Lex links、application-date metadata、operator metadata 和保守 legal labels，对 legal RAG research 和 engineering 很实用。",
+      "tags": [
+        "RAG",
+        "legal AI",
+        "dataset"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Reproducing OpenAI’s “persistently beneficial models” - GRPO trait install barely moves. Ideas? [P] [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v2b8rd/reproducing_openais_persistently_beneficial/",
+      "en": "A practitioner is reproducing OpenAI’s persistently beneficial models result on a single RTX 3090 and is stuck before the persistence test because GRPO barely installs the target trait. Their Qwen2.5-7B-Instruct LoRA setup moves a “consistent/traditionalism” trait only +2.4 points, with a 95% CI of +0.2 to +4.8, versus the roughly +15 points needed. The post is useful because it exposes the gritty small-scale RLHF/GRPO failure mode behind papers that look clean at frontier-lab compute.",
+      "zh": "一位实践者在单张 RTX 3090 上复现 OpenAI persistently beneficial models 结果，但在做 persistence test 前就卡住了，因为 GRPO 几乎装不进去目标 trait。他们的 Qwen2.5-7B-Instruct LoRA 设置只把 “consistent/traditionalism” trait 提升 +2.4 分，95% CI 为 +0.2 到 +4.8，而目标约需 +15 分。这个帖子有价值，因为它展示了 frontier-lab compute 下看起来干净的论文结果，在小规模 RLHF/GRPO 复现时会遇到的具体失败模式。",
+      "tags": [
+        "GRPO",
+        "post-training",
+        "RLHF",
+        "Qwen"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-21T14:30:26.222Z"
+}
