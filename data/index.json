@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-22",
+    "count": 32,
+    "headline_en": "AI builders and researchers converged on a practical frontier: cheaper, model-agnostic agents, more faithful reasoning, and harder evaluation for systems moving into real workflows.",
+    "generatedAt": "2026-07-22T16:49:54.235Z"
+  },
+  {
     "date": "2026-07-21",
     "count": 26,
     "headline_en": "Agentic AI dominated the day, with builders and researchers converging on post-training, memory, tool use, benchmark realism, and the hard economics of putting autonomous systems into production.",

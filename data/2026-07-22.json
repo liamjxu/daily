@@ -1,0 +1,490 @@
+{
+  "date": "2026-07-22",
+  "headline_en": "AI builders and researchers converged on a practical frontier: cheaper, model-agnostic agents, more faithful reasoning, and harder evaluation for systems moving into real workflows.",
+  "headline_zh": "AI 建设者和研究者今天的共同主线是：更便宜、模型无关的 agent，更可信的 reasoning，以及面向真实工作流的更严苛 evaluation。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": null,
+      "url": "https://x.com/sama/status/2079661132302995790",
+      "en": "OpenAI CEO Sam Altman said OpenAI had a significant security incident during model evaluation and is sharing early lessons from it, with Hugging Face involved as a partner. This is high-signal because it points to frontier models creating real security exposure even inside eval workflows.",
+      "zh": "OpenAI CEO Sam Altman 表示，OpenAI 在模型 evaluation 过程中发生了一起重大安全事件，并正在分享目前学到的经验，Hugging Face 参与了协作。这条信息值得关注，因为它说明 frontier model 即使在 eval 工作流内部也可能带来真实的安全暴露。",
+      "tags": [
+        "frontier labs",
+        "evaluation",
+        "security"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": "Anthropic AI assistant",
+      "title": null,
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "en": "Claude announced a Claude Cowork feature that lets users record their screen while doing a task, narrate it, and have Claude turn the demonstration into a reusable skill. It is available from Record a skill in the Claude desktop app on Pro, Max, and Team plans.",
+      "zh": "Claude 宣布 Claude Cowork 新功能：用户可以一边执行任务一边录屏并口述过程，Claude 会把这个演示转换成可复用的 skill。该功能位于 Claude desktop app 的 Record a skill 菜单，面向 Pro、Max 和 Team 计划开放。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Claude"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs and Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2079595879808569534",
+      "en": "Google Labs and Gemini VP Josh Woodward said the day’s Gemini launches target better performance, lower latency, and lower cost. Gemini 3.6 Flash cuts token usage by up to 65% on complex coding, Gemini 3.5 Flash-Lite reaches 350 output tokens per second, both are live in the Gemini app, and Gemini 3.5 Pro has entered partner testing.",
+      "zh": "Google Labs and Gemini VP Josh Woodward 表示，今天的 Gemini 发布重点是更高性能、更低延迟和更低成本。Gemini 3.6 Flash 在复杂 coding 任务上最多可减少 65% token 使用量，Gemini 3.5 Flash-Lite 可达到每秒 350 个输出 token，两者都已上线 Gemini app，Gemini 3.5 Pro 也已进入 partner testing。",
+      "tags": [
+        "frontier labs",
+        "Gemini",
+        "cost"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs and Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2079614730034127100",
+      "en": "Google Labs and Gemini VP Josh Woodward shared an engineer-built interactive math art generator using the new 3.6 Flash model. The demo lets users adjust speed, colors, and geometry parameters, then export the result as a 3D-printable STL file.",
+      "zh": "Google Labs and Gemini VP Josh Woodward 分享了一个工程师用新 3.6 Flash model 构建的交互式数学艺术生成器。这个 demo 支持实时调节速度、颜色和几何参数，并把结果导出为可 3D 打印的 STL 文件。",
+      "tags": [
+        "Gemini",
+        "creative tools"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Andrej Karpathy",
+      "role": "AI researcher",
+      "title": null,
+      "url": "https://x.com/karpathy/status/2079610838143623371",
+      "en": "AI researcher Andrej Karpathy described a practical prompting pattern: switch to voice, ramble for 10 minutes, and let the LLM reconstruct the messy stream of consciousness into a cleaner version of the goal. His point is that long, high-bandwidth context can improve the “mind meld” and reduce corrective back-and-forth.",
+      "zh": "AI researcher Andrej Karpathy 描述了一个实用的 prompting 模式：切到 voice，连续口述 10 分钟，让 LLM 把混乱的意识流重构成更清晰的目标表达。他的核心观点是，长而高带宽的上下文可以改善“mind meld”，减少后续来回纠正。",
+      "tags": [
+        "prompting",
+        "workflows"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex and ChatGPT engineer, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2079609157934886975",
+      "en": "OpenAI Codex and ChatGPT engineer Thibault Sottiaux said paid Codex and ChatGPT Work users are getting a new 10M usage reset. The post is mostly a product-availability note, but it matters for practitioners pushing large agentic coding sessions.",
+      "zh": "OpenAI Codex and ChatGPT engineer Thibault Sottiaux 表示，Codex 和 ChatGPT Work 的付费用户将获得新的 10M 使用量重置。这主要是一个产品可用性更新，但对正在推进大型 agentic coding session 的实践者有实际意义。",
+      "tags": [
+        "Codex",
+        "agents"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "en": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework introduces a Swift package that lets Apple developers use Apple’s Foundation Models framework to call Claude when on-device models are not enough. The practical split is clear: local Apple models handle fast summarization or extraction, while Claude handles multi-step reasoning, code generation, web search, code execution for data analysis, streaming, tool calls, and structured responses inside SwiftUI. The key developer implication is typed handoff: Apple’s framework can return clean Swift values from @Generable annotations, then pass those into Claude instead of raw user text. Claude support is scheduled to be available tomorrow for iOS 27, iPadOS 27, macOS 27, visionOS 27, and watchOS 27 with an Anthropic API key.",
+      "zh": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework 发布了一个 Swift package，让 Apple 开发者可以在 Apple Foundation Models framework 中，当 on-device models 不够用时调用 Claude。实际分工很清楚：本地 Apple models 处理快速 summarization 或 extraction，Claude 处理 multi-step reasoning、code generation、web search、用于 data analysis 的 code execution、streaming、tool calls 和 SwiftUI 中的 structured responses。对开发者最重要的是 typed handoff：Apple framework 可以通过 @Generable annotations 返回干净的 Swift values，再把这些值传给 Claude，而不是直接传 raw user text。Claude support 计划明天开放，支持 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27，需要 Anthropic API key。",
+      "tags": [
+        "Claude",
+        "Apple",
+        "tool use",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "Factory's Matan Grinberg: The Coming ‘Dark Factory’ Where Software Builds Itself",
+      "url": "https://www.youtube.com/watch?v=ZesOukBjPmI",
+      "en": "The Takeaway: Factory CEO Matan Grinberg argues enterprise coding agents will be won by model-independent harnesses, intelligent routing, and eventually asynchronous “dark factory” workflows where most tokens are spent by agents acting on their own. His sharpest technical claim is that harnesses improve when exposed to many models because they avoid overfitting to one model’s quirks; in his words, “what data is to a model, models are to a harness.” He expects enterprises to move from adoption-at-all-costs token maxing to cost rationalization, with routers sending trivial, legacy, reliability-critical, or review tasks to different models. He also predicts that in 12 to 24 months, 90% of tokens will be asynchronous, not kicked off directly by a human.",
+      "zh": "The Takeaway: Factory CEO Matan Grinberg 认为，企业 coding agents 的胜负会取决于模型无关的 harness、智能 routing，以及最终由 agent 自主行动的 asynchronous “dark factory” 工作流。他最尖锐的技术判断是，harness 接触越多不同模型越好，因为这样可以避免过拟合单个模型的怪癖，用他的话说，“what data is to a model, models are to a harness.” 他预计企业会从不惜一切推动 adoption 的 token maxing，转向成本理性化，用 router 把琐碎任务、legacy code、可靠性关键任务和 review 任务分发给不同模型。他还预测 12 到 24 个月内，90% 的 token 会是 asynchronous tokens，而不是由人类直接启动。",
+      "tags": [
+        "agents",
+        "model routing",
+        "AI economics",
+        "open models"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents",
+      "url": "https://arxiv.org/abs/2607.18754",
+      "en": "AgentDebugX tackles the central operational problem in LLM agents: the visible failure step often is not the causal step. Its Detect, Attribute, Recover, and Rerun loop uses DeepDebug for multi-turn root-cause diagnosis, reaching 28.8% exact agent-and-step attribution on qwen3.5-9b and repairing 13 of 73 failed GAIA tasks in one rerun. This matters for anyone deploying agents because it turns observability into recovery, not just trace replay.",
+      "zh": "AgentDebugX 处理的是 LLM agents 的核心运维问题：表面出错的步骤往往不是根因步骤。它的 Detect, Attribute, Recover, and Rerun 闭环使用 DeepDebug 做多轮根因诊断，在 qwen3.5-9b 上达到 28.8% 的精确 agent-and-step attribution，并在 GAIA 上一次 rerun 修复了 73 个失败任务中的 13 个。对部署 agents 的人来说，这篇重要在于它把 observability 推向 recovery，而不只是 trace replay。",
+      "tags": [
+        "LLM agent",
+        "agents",
+        "evaluation",
+        "debugging"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Cross-Agent Campaign Attribution: Linking Asynchronous Attacks Across LLM Agents",
+      "url": "https://arxiv.org/abs/2607.18826",
+      "en": "This paper formalizes cross-agent asynchronous campaign attribution, where attacks are distributed across independent agents and local guardrails see only fragments. It introduces A^2FV, a proxy-side protocol using tool-use, timing, and prompt residue signals, plus SCD-v1, a benchmark with benign traffic, isolated attacks, multi-session campaigns, and evasion controls. The result, 0.82 pairwise AUC while per-session detector adaptations stay near chance, makes this a useful framing for agent security beyond single-session evals.",
+      "zh": "这篇论文形式化了 cross-agent asynchronous campaign attribution：攻击分散在多个独立 agents 中，本地 guardrail 只能看到碎片。作者提出 A^2FV，一个 proxy-side 协议，利用 tool-use、timing 和 prompt residue 信号，并构建 SCD-v1 benchmark，包含 benign traffic、isolated attacks、multi-session campaigns 和 evasion controls。结果显示 A^2FV 达到 0.82 pairwise AUC，而 per-session detector 改造版接近随机，这让它成为超越单 session eval 的 agent security 框架。",
+      "tags": [
+        "LLM agent",
+        "tool use",
+        "security",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "CASE: Causal Alignment and Structural Enforcement for Improving Chain-of-Thought Faithfulness",
+      "url": "https://arxiv.org/abs/2607.18820",
+      "en": "CASE reframes chain-of-thought faithfulness as a causal structure problem: instructions should affect answers only through the reasoning chain, not through a direct shortcut. It combines training-time counterfactual and biased-instruction datasets with inference-time attention masking from instruction tokens to answer tokens. Across three models and four benchmarks, it reports a 37% average relative improvement in overall CoT faithfulness, which directly targets a major weakness of reasoning explanations.",
+      "zh": "CASE 把 chain-of-thought faithfulness 重新表述为因果结构问题：instruction 应该只通过 reasoning chain 影响 answer，而不是走直接捷径。它结合了训练时的 counterfactual 和 biased-instruction 数据，以及推理时从 instruction tokens 到 answer tokens 的 attention masking。它在三个模型和四个 benchmark 上报告了整体 CoT faithfulness 平均相对提升 37%，直接针对 reasoning explanations 的一个主要弱点。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "alignment",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "S2T-RLHF: Hierarchical Credit Assignment for Stable Preference-Based RLHF",
+      "url": "https://arxiv.org/abs/2607.18258",
+      "en": "S2T-RLHF argues that denser token-level reward assignment is not automatically better when preference labels are noisy and sequence-level. The method decomposes sequence rewards first to sentences, then applies bounded token-level refinement inside each sentence, without retraining the reward model or requiring token supervision. The paper is relevant for post-training because it prioritizes stable credit assignment over maximal granularity in preference-based RLHF.",
+      "zh": "S2T-RLHF 认为，当 preference labels 本身 noisy 且只在 sequence level 定义时，更密集的 token-level reward assignment 并不必然更好。它先把 sequence reward 分解到句子，再在每个句子内部做有界 token-level refinement，不需要重新训练 reward model，也不需要 token supervision。对 post-training 来说，这篇的价值在于把稳定的 credit assignment 放在比最大粒度更重要的位置。",
+      "tags": [
+        "RLHF",
+        "post-training",
+        "reward model"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "DAIS: Dependency-Aware Intermediate QA Supervision for Complex Reasoning",
+      "url": "https://arxiv.org/abs/2607.19088",
+      "en": "DAIS converts teacher rationales into dependency-aware intermediate QA records, where each local answer is conditioned on the prior states needed for that decision. Unlike flat CoT supervision, it teaches how intermediate conclusions support later reasoning while preserving standard final-answer inference at test time. Across GDPR, AIACT, MedQA, and FOLIO with Qwen backbones, it improves over answer-only, flat CoT, and independent-QA baselines, with up to 5.6% gain on policy-compliance benchmarks.",
+      "zh": "DAIS 把 teacher rationales 转换成 dependency-aware intermediate QA records，每个局部答案都以前面必要状态为条件。不同于 flat CoT supervision，它训练的是中间结论如何支撑后续 reasoning，同时测试时仍保持标准 final-answer inference。在 GDPR、AIACT、MedQA 和 FOLIO 上，使用 Qwen backbones 的实验显示，它优于 answer-only、flat CoT 和 independent-QA baselines，在 policy-compliance benchmarks 上最高提升 5.6%。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "Qwen",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SciHazard: A Benchmark for Measuring Scientific Safety Risks with Decomposed Harm Scoring",
+      "url": "https://arxiv.org/abs/2607.18665",
+      "en": "SciHazard builds a real-world-grounded scientific risk benchmark with 2,400 hazardous questions and 600 oversafety questions across 12 disciplines. Its DeHarm-Score decomposes harm into hazard severity, refusal behavior, executability, and net-new risk, using retrieval-augmented claim extraction and synthesis-barrier verification. The headline finding is that deep research agents have 32.3% higher mean DeHarm-Score than standard LLMs, making agentic scientific misuse evaluation a clear frontier risk area.",
+      "zh": "SciHazard 构建了一个 grounded in real-world 的 scientific risk benchmark，覆盖 12 个学科，包含 2,400 个 hazardous questions 和 600 个 oversafety questions。它的 DeHarm-Score 把 harm 分解为 hazard severity、refusal behavior、executability 和 net-new risk，并使用 retrieval-augmented claim extraction 与 synthesis-barrier verification。最重要的发现是，deep research agents 的平均 DeHarm-Score 比 standard LLMs 高 32.3%，说明 agentic scientific misuse evaluation 已经是明确的前沿风险区。",
+      "tags": [
+        "benchmark",
+        "evaluation",
+        "agents",
+        "safety"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "MUX: Continuous Reasoning via Multiplexed Tokens",
+      "url": "https://arxiv.org/abs/2607.18264",
+      "en": "MUX targets the token bottleneck in natural-language reasoning by distilling discrete reasoning spans into continuous multiplexed latent tokens. The method trains each latent token to represent a recoverable weighted superposition of reasoning subwords, with theory arguing this avoids latent collapse and supports parallel search. Across 32 evaluation settings and four language models, MUX beats strong latent reasoning baselines, making it notable for test-time reasoning efficiency.",
+      "zh": "MUX 针对 natural-language reasoning 的 token bottleneck，把离散 reasoning spans distill 成 continuous multiplexed latent tokens。该方法训练每个 latent token 表示可恢复的 reasoning subwords 加权叠加，并用理论说明这能避免 latent collapse、支持 parallel search。在 32 个 evaluation settings 和四个 language models 上，MUX 超过强 latent reasoning baselines，因此在 test-time reasoning efficiency 上值得关注。",
+      "tags": [
+        "reasoning",
+        "distillation",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "One Student, Many Teachers: Multi-Task On-Policy Distillation via Soft-Prompt Privileged Context",
+      "url": "https://arxiv.org/abs/2607.18293",
+      "en": "This paper proposes an on-policy distillation setup where each teacher differs from the student only by a learned soft prompt while the backbone stays frozen. Multi-task training routes examples to task-specific soft-prompt teachers, then discards all prompts at inference so one student absorbs multiple skills without teacher weight drift. On Qwen3-1.7B-Base and Phi-4-mini-instruct across Science, Tool Use, Biology, and Math, the approach matches or beats full fine-tuning with far fewer trained parameters and avoids the degradation seen in sequential SFT.",
+      "zh": "这篇论文提出一种 on-policy distillation 设置：teacher 和 student 的区别只在 learned soft prompt，backbone 保持冻结。Multi-task training 会把样本路由到特定任务的 soft-prompt teachers，推理时丢弃所有 prompts，让一个 student 吸收多种技能，同时避免 teacher weight drift。在 Qwen3-1.7B-Base 和 Phi-4-mini-instruct 的 Science、Tool Use、Biology、Math 任务上，该方法用少得多的训练参数达到或超过 full fine-tuning，并避免 sequential SFT 的能力退化。",
+      "tags": [
+        "distillation",
+        "fine-tuning",
+        "tool use",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Reasoning Fine-Tuning Induces Persistent Latent Policy States",
+      "url": "https://arxiv.org/abs/2607.18532",
+      "en": "This paper studies what reasoning fine-tuning changes inside models by modeling CoT trajectories as a switching dynamical system with latent policy states. Across four benchmarks and 1.5B to 32B models, reasoning-tuned models show richer state organization, persistence, mixing, and functional specialization aligned with reasoning stages. Causal interventions suggest these states are meaningful, making the paper useful for interpreting why reasoning fine-tuning works beyond surface token behavior.",
+      "zh": "这篇论文研究 reasoning fine-tuning 到底如何改变模型内部机制，把 CoT trajectories 建模为带 latent policy states 的 switching dynamical system。在四个 benchmark 和 1.5B 到 32B 模型上，reasoning-tuned models 呈现出更丰富的 state organization、persistence、mixing，以及与 reasoning stages 对齐的功能专门化。因果干预显示这些 states 具有功能意义，因此这篇对理解 reasoning fine-tuning 为什么有效很有价值，而不只是看表层 token 行为。",
+      "tags": [
+        "reasoning",
+        "fine-tuning",
+        "interpretability"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Operational Hallucination and Safety Drift in AI Agents",
+      "url": "https://arxiv.org/abs/2607.18366",
+      "en": "This paper identifies two multi-turn agent failure modes: Safety Drift, where declared safety intent erodes into unsafe actions, and Operational Hallucination, where agents enter repetitive tool-call loops from flawed state perception. The authors evaluate these issues across high-stakes ethical dilemmas, malicious requests, and benign controls using declaration-action gap and livelock metrics. Their proposed Action-Aware Supervision Layer adds intent-action checks, runtime state tracking, and forced termination, which is directly relevant to production agent safety.",
+      "zh": "这篇论文识别了两类 multi-turn agent failure modes：Safety Drift，即声明的安全意图逐渐滑向不安全行动；Operational Hallucination，即 agent 因状态感知错误进入重复 tool-call loop。作者在高风险伦理困境、恶意请求和 benign controls 上，用 declaration-action gap 与 livelock metrics 评估这些问题。其提出的 Action-Aware Supervision Layer 加入 intent-action checks、runtime state tracking 和 forced termination，与生产 agent safety 直接相关。",
+      "tags": [
+        "agents",
+        "hallucination",
+        "alignment",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "FindStatBench: Evaluating Large Language Models on Combinatorial Code Synthesis",
+      "url": "https://arxiv.org/abs/2607.18260",
+      "en": "FindStatBench is an execution benchmark for combinatorial code synthesis with 2,329 tasks, 24 collections, and 5.52M hidden instances. Models must emit a single Python solve function without retrieval, tool use, execution feedback, voting, or reranking, which isolates symbolic rule induction under tight constraints. The paper finds open and closed systems within 1 percentage point instance accuracy, examples sometimes hurt, and output-budget mechanics can prevent code emission after long reasoning.",
+      "zh": "FindStatBench 是一个 combinatorial code synthesis execution benchmark，包含 2,329 个任务、24 个 collections 和 5.52M hidden instances。模型必须在没有 retrieval、tool use、execution feedback、voting 或 reranking 的情况下输出单个 Python solve function，从而隔离出严格约束下的 symbolic rule induction 能力。论文发现 open 和 closed systems 的 instance accuracy 相差在 1 个百分点内，examples 有时会伤害表现，且长 reasoning 可能耗尽输出预算导致无法生成代码。",
+      "tags": [
+        "benchmark",
+        "reasoning",
+        "code"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "六月末自觉不错的projects推荐合集",
+      "url": "https://www.rednote.com/explore/6a424dc000000000070103b6?xsec_token=AB_xJ_s5n_Nt7wTE0cU85a4goalu2bt4j2xUfx2CH00bA%3D&xsec_source=pc_user",
+      "en": "tabris recommends a batch of late-June projects, including a tool to search whether a person appears in LLM weights, an AI2 project with strong paper results, a token-saving project, a unified scientific-grammar generative framework, an open-source block diffusion reasoning model for math and code, optimization research tooling, human-agent collaborative workspaces, LoRA debugging, Microsoft benchmark-score prediction for arbitrary models, Baidu’s project, agent-evaluation resources, an rlm CLI agent, agent learning-by-doing material, and NVIDIA tooling for PyTorch graph and hardware-aware SOL analysis. The most reader-relevant picks are the AI2 project with strong reported tests, Microsoft’s model benchmark score predictor, the agent evaluation resource collection, and the block diffusion reasoning model. Bottom line: 图2 (AI2 project with strong paper results), 图5 (block diffusion reasoning for math/code), 图10 (model benchmark score prediction), 图13 (agents evaluation resources).",
+      "zh": "tabris 推荐了一批六月末项目，包括搜索某个人是否在各个 LLM weights 里的工具、来自 AI2 且 paper 测试效果很好的项目、节约 tokens 的项目、统一 scientific grammar 的多领域 generative framework、面向复杂数学 reasoning 和 code generation 的开源 block diffusion reasoning model、optimization research 工具、human + agent 协作空间、LoRA 调试工具、Microsoft 任意 model benchmark 成绩预估、Baidu 项目、agents evaluation 高质量资源合集、rlm CLI agent、干中学的 agent 项目，以及 NVIDIA 用于 PyTorch graph 分析和 hardware-aware SOL 预测的 toolkit。一句话推荐: 图2 (AI2，paper 测试效果非常好), 图5 (block diffusion reasoning，数学和代码), 图10 (Microsoft，预估任意 model 的 benchmark 成绩), 图13 (agents evaluation 高质量资源).",
+      "tags": [
+        "agents",
+        "evaluation",
+        "reasoning",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月中下旬自觉不错的blog推荐合集第五期",
+      "url": "https://www.rednote.com/explore/6a2fdf0a0000000021009ac9?xsec_token=ABjndZO-C1410GoHPEmvP0kVlqZu9af04c4pHZ2QfPits%3D&xsec_source=pc_user",
+      "en": "tabris’s fifth mid-to-late-month blog roundup recommends work on AI alignment, Fei-Fei Li’s explanation of world models, WorldMemArena, expert views on AI risks, the Leiden Declaration, IR3DE, Kyunghyun Cho’s ongoing work, paired items about an emerging trend, a result that today’s best agents can predict the right answer while recovering the wrong mechanism, a same-name paper blog, PROPEL, ECHO, robotics, GridRule, and a warning about treating distilled one-step or few-step models as preserving the teacher distribution. Bottom line: 图1 (AI alignment), 图3 (WorldMemArena), 图10 (agent mechanisms vs answers), 图16 (distillation caveat).",
+      "zh": "tabris 的月中下旬 blog 推荐合集第五期推荐了 AI alignment 相关高质量内容、Fei-Fei Li 亲自解析 world models、WorldMemArena、专家们对 AI risks 的认知分布、Leiden Declaration、IR3DE、Kyunghyun Cho 正在做的工作、建议联系起来看的趋势内容、一项关于 today’s best agents can predict the right answer while having recovered the wrong mechanism 的有意思实验、同名 paper 的 blog、PROPEL、ECHO、Robotics、GridRule，以及关于不要把 distilled one-step 或 few-step model 当作天然保留 teacher conditional distribution 的提醒。一句话推荐: 图1 (AI alignment), 图3 (WorldMemArena), 图10 (agent 答对但机制错), 图16 (distillation 风险提醒).",
+      "tags": [
+        "alignment",
+        "agents",
+        "distillation",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月中下旬自觉不错的paper推荐合集第六期",
+      "url": "https://www.rednote.com/explore/6a2fe53800000000080246c1?xsec_token=ABjndZO-C1410GoHPEmvP0kailsZib46at47AYJCN6Yng%3D&xsec_source=pc_user",
+      "en": "tabris’s sixth mid-to-late-month paper roundup says the author personally likes 图7 and separately recommends Allen Liu’s “learning theoretic foundations of understanding quantum systems” after Liu’s move to NYU. Bottom line: tabris recommends 图7 and Allen Liu’s learning theoretic foundations of understanding quantum systems.",
+      "zh": "tabris 的月中下旬 paper 推荐合集第六期表示个人喜欢图7，并补充推荐 Allen Liu 最近入职 NYU 后那篇 learning theoretic foundations of understanding quantum systems，感兴趣可以找来读。一句话推荐: tabris 推荐图7，以及 Allen Liu 的 learning theoretic foundations of understanding quantum systems。",
+      "tags": [
+        "papers",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月中下旬自觉不错的paper推荐合集第五期",
+      "url": "https://www.rednote.com/explore/6a2fe467000000002101a368?xsec_token=ABjndZO-C1410GoHPEmvP0kSlV13lc7oazBGhGMTHfqLA%3D&xsec_source=pc_user",
+      "en": "tabris’s fifth mid-to-late-month paper roundup says that although it was already recommended in a blog roundup, 图10 is worth recommending again. Bottom line: tabris recommends 图10.",
+      "zh": "tabris 的月中下旬 paper 推荐合集第五期表示，虽然之前在 blog 里推荐过，但这里再推荐一下图10。一句话推荐: tabris 推荐图10。",
+      "tags": [
+        "papers",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月中下旬自觉不错的paper推荐合集第四期",
+      "url": "https://www.rednote.com/explore/6a2fe3b20000000021015cc6?xsec_token=ABjndZO-C1410GoHPEmvP0kSMCYJCcgqTy4GQF7IimAas%3D&xsec_source=pc_user",
+      "en": "tabris’s fourth mid-to-late-month paper roundup says the author personally likes 图1 and 图10. Bottom line: tabris recommends 图1 and 图10.",
+      "zh": "tabris 的月中下旬 paper 推荐合集第四期表示个人喜欢图1和图10。一句话推荐: tabris 推荐图1和图10。",
+      "tags": [
+        "papers",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "哈佛证实了AI正在悄悄拉大智商差距",
+      "url": "https://www.rednote.com/explore/6a07ead50000000007026bad?xsec_token=ABwxOtmVixVj5RDWqDsga4KzXV_rrYiqkYn1Zy2cC1lcY%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that AI is an amplifier rather than an equalizer: skilled users improve faster, while less prepared users may be pulled into narrower feedback loops. The post links this to model-generated misinformation recirculating into future training data, sycophancy, and “model collapse,” then recommends treating prompting as a core skill, cross-checking with multiple models, and knowing when to turn the model off.",
+      "zh": "鸭基米德认为 AI 不是平权工具，而是放大器：会用的人进步更快，不会用的人可能被一步步带回更小的茧房。文章把这件事和模型生成的错误信息回灌训练数据、sycophancy、model collapse 联系起来，并建议把提问当核心技能、用多个模型交叉验证，以及知道什么时候关掉模型。",
+      "tags": [
+        "evaluation",
+        "data contamination",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "高质量人类数据耗尽 大模型越来越烂",
+      "url": "https://www.rednote.com/explore/6a0dc7590000000007023b91?xsec_token=ABiukpOOU6UJ-26tG4qd5pF4D1zNyQPIlOOMsL9o8AlNo%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that recent quality drops across major models may reflect exhaustion of high-quality human data and growing contamination from unaudited model-generated data. The strategic conclusion is that high-quality human data becomes the next moat: whoever still has it is better positioned.",
+      "zh": "鸭基米德认为，最近几家主流模型不同程度的“降智”可能来自高质量人类数据耗尽，以及未经人类审计的模型生成数据大量混入训练集。其战略判断是，高质量人类数据会成为下一阶段壁垒，谁还有高质量人类数据，谁就更有优势。",
+      "tags": [
+        "data contamination",
+        "model quality",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "当乱世到来",
+      "url": "https://www.rednote.com/explore/6a0e78d50000000007029d16?xsec_token=ABLz1Pddfra-pQ_FSr4hbZ923Nn62DobPHmDjxRGSOdX0%3D&xsec_source=pc_user",
+      "en": "鸭基米德 reads the period after Claude4.6 as a visible shift in the AI industry, citing skills, viral consumer behavior, Meta layoffs, and more companies entering large-model competition. The post frames the endgame as unpredictable but argues that some probability mass should be assigned to major structural change.",
+      "zh": "鸭基米德把 Claude4.6 之后的阶段视为 AI 行业水位上升的明显转折，提到 skill 出现、小龙虾爆火、Meta 裁员，以及各家都下场做大模型。文章认为终局无法预测，但一些重大结构性变化的概率已经应该被认真看待。",
+      "tags": [
+        "AI industry",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "AI没有创造新的人类行为",
+      "url": "https://www.rednote.com/explore/6a09ca120000000008025784?xsec_token=ABPEzX_tDeaEi7cGEqZ1uQWg_uXS9d08mPJB7HAzBio3A%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that AI has not yet created a new mass consumer behavior and is still missing a consumer-side giant. The post asks whether the decisive scenario will be games, virtual companionship, or something else that can consume entertainment time like short video.",
+      "zh": "鸭基米德认为，AI 还没有创造新的大众消费行为，也缺一个消费端巨头。文章追问决定性场景会是游戏、虚拟陪伴，还是像短视频一样吃掉大部分娱乐时间的其他东西。",
+      "tags": [
+        "consumer AI",
+        "AI industry"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "从养成系偶像到主播｜卖陪伴的人怎么样了",
+      "url": "https://www.rednote.com/explore/6a092f170000000007013a6d?xsec_token=ABPEzX_tDeaEi7cGEqZ1uQWtpUdN8-QmBhDS6TQ9vgPMA%3D&xsec_source=pc_user",
+      "en": "鸭基米德 examines the supply side of the companionship economy, from idol trainees and VTubers to livestreamers, game companions, and content moderators. The argument is that industrialized intimacy hides the labor behind it: the visible winners are used to prove the path works, while most providers face low pay, replaceability, harassment, and psychological pressure.",
+      "zh": "鸭基米德讨论陪伴经济的供给侧，从养成系偶像、VTuber，到秀场主播、游戏陪玩和内容审核员。文章的核心是，亲密关系被工业化生产后，背后的劳动越来越不可见：看得见的赢家被用来证明这条路走得通，而大多数提供者面对的是低收入、可替换、骚扰和心理压力。",
+      "tags": [
+        "consumer AI",
+        "platform labor"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Announcing AIXI Labs",
+      "url": "https://www.lesswrong.com/posts/RzeyMfLxwjgGjQFpv/announcing-aixi-labs",
+      "en": "AIXI Labs is a new AI safety org focused on algorithmic information theory, continual RL, and AIXI variants as formal models for ASI risk and mitigations. The group’s niche is the intersection between mathematically analyzable agent models and general enough systems to say something about powerful agents, with a stated goal of translating theoretical mitigations toward real AI agents.",
+      "zh": "AIXI Labs 是一个新的 AI safety 组织，聚焦 algorithmic information theory、continual RL，以及把 AIXI variants 作为 ASI risk 和 mitigations 的形式化模型。它的定位是研究既能做数学分析、又足够 general 到能描述强大 agents 的系统，并尝试把理论 mitigations 转向真实 AI agents。",
+      "tags": [
+        "alignment",
+        "agents",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "We should push for no-fault liability for actions taken by AI",
+      "url": "https://www.lesswrong.com/posts/Kj3YpqzhFySCjYcWi/we-should-push-for-no-fault-liability-for-actions-taken-by",
+      "en": "This LessWrong post argues for no-fault liability for AI actions, using OpenAI’s reported model-evaluation incident involving Hugging Face as evidence that frontier models can cause serious harms even when users are well intentioned. The policy thesis is that regulation works best when responsibility is assigned to the party most capable of preventing harms, while preserving innocuous and beneficial AI use.",
+      "zh": "这篇 LessWrong 文章主张对 AI 行为实施 no-fault liability，并以 OpenAI 报告的、涉及 Hugging Face 的模型 evaluation 事件作为例子，说明 frontier models 即使在用户意图良好时也可能造成严重伤害。其政策观点是，监管最有效的方式是把责任分配给最有能力预防伤害的一方，同时保留无害和有益的 AI 使用。",
+      "tags": [
+        "AI policy",
+        "frontier labs",
+        "safety"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "NeurIPS 2026 Reviews Are Out Today (22 July, AoE) — Discussion Thread [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v3a2le/neurips_2026_reviews_are_out_today_22_july_aoe/",
+      "en": "The r/MachineLearning NeurIPS 2026 review thread is the day’s useful community item: it reminds authors that review scores are noisy and cites the NeurIPS consistency experiments as context. The practical advice is to weight reviews by argument quality, fix what is fixable, contest what is genuinely wrong, and concede the rest gracefully in rebuttal.",
+      "zh": "r/MachineLearning 的 NeurIPS 2026 review 讨论帖是今天比较有用的社区内容：它提醒作者 review scores 噪声很大，并用 NeurIPS consistency experiments 做背景。实用建议是按论证质量而不是分数权重来处理 reviews，能修就修，真正错误的地方再 contest，其余在 rebuttal 中体面承认。",
+      "tags": [
+        "NeurIPS",
+        "evaluation",
+        "research process"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-22T16:49:54.235Z"
+}
