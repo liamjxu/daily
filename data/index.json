@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-23",
+    "count": 24,
+    "headline_en": "Agent reliability, post-training, and production workflows dominated the day, from Claude Code security to long-horizon memory, reward design, and Chinese platform strategy.",
+    "generatedAt": "2026-07-23T18:13:12.402Z"
+  },
+  {
     "date": "2026-07-22",
     "count": 32,
     "headline_en": "AI builders and researchers converged on a practical frontier: cheaper, model-agnostic agents, more faithful reasoning, and harder evaluation for systems moving into real workflows.",
