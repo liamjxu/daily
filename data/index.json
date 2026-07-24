@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-24",
+    "count": 23,
+    "headline_en": "Agents moved from demos to infrastructure: voice/tool use, live work artifacts, tougher agent evaluations, and post-training reliability dominated the day.",
+    "generatedAt": "2026-07-24T12:06:05.122Z"
+  },
+  {
     "date": "2026-07-23",
     "count": 24,
     "headline_en": "Agent reliability, post-training, and production workflows dominated the day, from Claude Code security to long-horizon memory, reward design, and Chinese platform strategy.",
