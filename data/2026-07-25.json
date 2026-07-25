@@ -1,0 +1,222 @@
+{
+  "date": "2026-07-25",
+  "headline_en": "Claude Opus 5 dominated the day, with parallel signals around agent containment, prompt-injection resistance, agentic commerce, and applied autonomy.",
+  "headline_zh": "今天的主线是 Claude Opus 5，同时围绕 agent containment、prompt-injection 防护、agentic commerce 和现实世界 autonomy 出现了多条高信号进展。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2080699515271528827",
+      "en": "Claude announced that Opus 5 is available on all paid plans and the Claude API at the same price as Opus 4.8, with Fast mode running about 2.5x the default speed. The launch messaging emphasizes both capability and safety: Opus 5 is Claude's most aligned model by Anthropic's automated behavioral audit, stronger than Opus 4.8 on cybersecurity tasks, but still behind Mythos 5 at exploit development.",
+      "zh": "Claude 宣布 Opus 5 已面向所有付费计划和 Claude API 开放，价格与 Opus 4.8 相同，Fast mode 速度约为默认模式的 2.5 倍。发布信息同时强调能力和安全性：按 Anthropic 的 automated behavioral audit，Opus 5 是目前最 aligned 的 Claude 模型，在 cybersecurity tasks 上强于 Opus 4.8，但在 exploit development 上仍明显落后于 Mythos 5。",
+      "tags": [
+        "Frontier lab release",
+        "alignment",
+        "cybersecurity"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2080713091688583312",
+      "en": "Anthropic's Boris Cherny says Opus 5 is notable not just for coding, data analysis, design, biology, and knowledge work, but because it is Anthropic's least prompt-injectable model yet. He says layered defenses across model alignment, prompt-injection probes, and Claude Code Auto Mode can push prompt-injection attack success toward roughly zero.",
+      "zh": "Anthropic 的 Boris Cherny 表示，Opus 5 的重点不只是 coding、data analysis、design、biology 和 knowledge work，而是它是 Anthropic 迄今最不容易被 prompt injection 成功攻击的模型。他说，把 model alignment、prompt-injection probes 和 Claude Code Auto Mode 叠加起来后，prompt-injection attack 的成功率可以降到接近 0。",
+      "tags": [
+        "prompt injection",
+        "agents",
+        "alignment",
+        "Claude Code"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code engineer, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2080710971228918066",
+      "en": "Anthropic's Thariq says the team removed about 80% of the Claude Code system prompt for its newest models and shared lessons for writing system prompts, skills, and Claude.md files. He also frames Opus 5 as a strong daily driver for planning, brainstorming, and difficult bug fixing when paired with Fable.",
+      "zh": "Anthropic 的 Thariq 表示，团队为最新模型移除了约 80% 的 Claude Code system prompt，并分享了编写 system prompts、skills 和 Claude.md 文件的经验。他还把 Opus 5 定位为很强的 daily driver，尤其适合与 Fable 搭配做 planning、brainstorming 和修复困难 bug。",
+      "tags": [
+        "Claude Code",
+        "prompting",
+        "agents",
+        "post-training"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Alex Albert",
+      "role": "Researcher, Anthropic",
+      "title": null,
+      "url": "https://x.com/alexalbert__/status/2080703118086693121",
+      "en": "Anthropic researcher Alex Albert highlighted Opus 5's token efficiency gains across domains while raising the intelligence bar. He says the model now produces near-consultant-level spreadsheets and slide decks, and he prefers it over Fable 5 for many coding tasks.",
+      "zh": "Anthropic researcher Alex Albert 强调 Opus 5 在多个领域提升了 token efficiency，同时继续提高 intelligence bar。他说这个模型现在能产出接近 consultant 水平的 spreadsheets 和 slide decks，并且在许多 coding tasks 上他更偏好 Opus 5 而不是 Fable 5。",
+      "tags": [
+        "Frontier lab release",
+        "coding",
+        "productivity"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs and Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2080771183944073347",
+      "en": "Google's Josh Woodward showed Gemini Spark turning a school-calendar PDF into Google Calendar entries for every \"No School\" day. The useful signal is the workflow pattern: PDF understanding plus tool action inside a consumer productivity loop, live for US Google AI Pro subscribers and expanding globally next.",
+      "zh": "Google 的 Josh Woodward 展示了 Gemini Spark 可以把学校日历 PDF 里的每个 \"No School\" 日期添加到 Google Calendar。这里的高信号点是 workflow pattern：PDF understanding 加 tool action，嵌入一个真实的 consumer productivity 流程，目前已面向美国 Google AI Pro 订阅用户上线，接下来会全球扩展。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Gemini"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President and CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2080699367883980924",
+      "en": "Y Combinator CEO Garry Tan argued that macro productivity gains from AI will require managers and CEOs to approve radically different staffing and workflow plans. His timing view is conservative: expect the transformation to take 10 years, not 2.",
+      "zh": "Y Combinator CEO Garry Tan 认为，AI 带来的宏观 productivity gains 需要 managers 和 CEOs 批准彻底不同的 staffing 和 workflow plans。他对时间线的判断偏保守：这轮转型更可能需要 10 年，而不是 2 年。",
+      "tags": [
+        "AI strategy",
+        "agents",
+        "productivity"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex and ChatGPT engineer, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2080876712439747052",
+      "en": "OpenAI's Thibault Sottiaux says ChatGPT Work is now available globally for all paid plans across mobile, web, and desktop. He describes it as putting a \"jetpack\" on ChatGPT, positioning it as a broad productivity upgrade rather than a narrow feature release.",
+      "zh": "OpenAI 的 Thibault Sottiaux 表示，ChatGPT Work 已在 mobile、web 和 desktop 上面向所有付费计划全球开放。他把它称为给 ChatGPT 装上 \"jetpack\"，更像是一次面向 productivity 的整体升级，而不是单点功能发布。",
+      "tags": [
+        "OpenAI",
+        "productivity",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": null,
+      "url": "https://x.com/sama/status/2080683363174945065",
+      "en": "OpenAI CEO Sam Altman said he wants the US to win in AI across both open-source and proprietary models. The post is brief, but it squarely touches the model-access and national-strategy debate around open and closed AI ecosystems.",
+      "zh": "OpenAI CEO Sam Altman 表示，他希望美国在 open-source 和 proprietary models 两条线上都赢得 AI 竞争。这条内容很短，但直接触及 open 与 closed AI 生态之间的 model access 和 national strategy 讨论。",
+      "tags": [
+        "AI strategy",
+        "open source",
+        "model policy"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "en": "Anthropic Engineering: How we contain Claude across products argues that agent safety has to start with hard environmental boundaries, not just model-layer supervision: \"The deterministic boundary is what gets hit when everything probabilistic misses.\" The post contrasts claude.ai's ephemeral gVisor containers, Claude Code's human-in-the-loop sandbox, and Claude Cowork's local VM, then walks through failures including pre-trust config execution, user-delivered prompt injection, exfiltration through an approved Anthropic API domain, and EDR visibility gaps. The practical lesson is sharp for anyone shipping agents: approval prompts create fatigue, allowlists are capability grants, external content is an attack surface, and custom proxy code is often weaker than hardened sandboxing primitives.",
+      "zh": "Anthropic Engineering: How we contain Claude across products 认为，agent safety 必须先从硬性的 environment boundaries 做起，而不只是依赖 model-layer supervision：\"当所有 probabilistic 防线都漏掉时，deterministic boundary 才是最后被撞上的东西。\" 文章对比了 claude.ai 的 ephemeral gVisor containers、Claude Code 的 human-in-the-loop sandbox，以及 Claude Cowork 的 local VM，并复盘了 pre-trust config execution、用户传入的 prompt injection、通过获批 Anthropic API domain 外泄数据，以及 EDR 可见性缺口等失败案例。对正在 shipping agents 的人来说，核心教训很直接：approval prompts 会造成 fatigue，allowlists 本质上是 capability grants，external content 是 attack surface，而自研 proxy code 往往比成熟 sandboxing primitives 更脆弱。",
+      "tags": [
+        "agent security",
+        "prompt injection",
+        "Claude Code",
+        "agents"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+      "url": "https://www.youtube.com/watch?v=vNpcg_Ma-FA",
+      "en": "The Takeaway: DoorDash's AI strategy is not \"add a chatbot,\" but rebuild local commerce around agentic ordering, domain-specific robotics, and the operational data that only a scaled physical network has. DoorDash co-founders Andy Fang and Stanley Tang say Ask DoorDash already changes behavior: 50% of restaurant-use trajectories lead users to places they have never ordered from before, while grocery baskets are about 40% larger, and agent-first interfaces like DoorDash CLI point toward pantry restocking, office ordering, and other workflows where software can initiate commerce. Their robotics thesis is equally pragmatic: after years of partnerships, DoorDash built DOT in-house because neither sidewalk robots nor robotaxis fit the 3-to-5-mile suburban delivery use case, and Tang's hiring pitch is blunt: \"do you wanna go work on prototypes and demos... or do you wanna work on something where you can actually ship something in the real world?\" The deeper AI lesson is that real-world autonomy bottlenecks move from demos to distributions, then to fleet operations, hardware, merchant integration, and ROI benchmarking, which is why DoorDash's 10 billion historical deliveries and 3 billion annual deliveries are not generic incumbent data but task-specific supervision.",
+      "zh": "The Takeaway: DoorDash 的 AI 策略不是“加一个 chatbot”，而是围绕 agentic ordering、domain-specific robotics，以及只有大规模 physical network 才拥有的 operational data，重构 local commerce。DoorDash co-founders Andy Fang 和 Stanley Tang 表示，Ask DoorDash 已经改变了用户行为：restaurant 场景里 50% 的使用轨迹会让用户下单以前从未点过的店，grocery basket 大约大 40%，而 DoorDash CLI 这样的 agent-first interface 指向 pantry restocking、office ordering 等由软件主动发起 commerce 的 workflow。他们的 robotics 判断也很务实：多年合作后，DoorDash 选择自研 DOT，因为 sidewalk robots 和 robotaxis 都不适合 3 到 5 英里的 suburban delivery use case，Tang 的招聘 pitch 很直接：\"do you wanna go work on prototypes and demos... or do you wanna work on something where you can actually ship something in the real world?\" 更深层的 AI 经验是，现实世界 autonomy 的瓶颈会从 demo 转向 distribution，再转向 fleet operations、hardware、merchant integration 和 ROI benchmarking，因此 DoorDash 的 100 亿历史配送和每年 30 亿配送不是泛泛的 incumbent data，而是 task-specific supervision。",
+      "tags": [
+        "agents",
+        "robotics",
+        "AI strategy",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
+      "url": "https://www.anthropic.com/research/project-pilot",
+      "en": "Anthropic Research published a Frontier Red Team item, \"Project Pilot: Can AI control a drone?\" The title signals a direct test of AI control in a physical-world agent setting, making it relevant to agent capability and safety evaluation.",
+      "zh": "Anthropic Research 发布了 Frontier Red Team 内容 \"Project Pilot: Can AI control a drone?\" 标题指向一次在 physical-world agent 场景中测试 AI control 的工作，因此与 agent capability 和 safety evaluation 直接相关。",
+      "tags": [
+        "agents",
+        "frontier red team",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "SONI: Selective Orthogonalisation via Noise Injection",
+      "url": "https://www.lesswrong.com/posts/ihbn9wwdYP9pKT3ds/soni-selective-orthogonalisation-via-noise-injection",
+      "en": "LessWrong's SONI post proposes Selective Orthogonalisation via Noise Injection, a fine-tuning regime for making a chosen latent direction more geometrically isolated without modifying the loss. The motivating safety angle is that superposition makes concept erasure and activation steering brittle, while SONI aims to preserve overall model performance and improve reliability of downstream interventions.",
+      "zh": "LessWrong 的 SONI 文章提出 Selective Orthogonalisation via Noise Injection，这是一种 fine-tuning regime，用于在不修改 loss 的情况下让选定 latent direction 在几何上更隔离。它的 safety 动机是 superposition 会让 concept erasure 和 activation steering 变得脆弱，而 SONI 试图在保持整体模型性能的同时，提高后续干预的可靠性。",
+      "tags": [
+        "alignment",
+        "interpretability",
+        "fine-tuning"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Can Recursive Self-Report Probing Detect Emergent Misalignment?",
+      "url": "https://www.lesswrong.com/posts/zqcjhJtFpLAuwXbdb/can-recursive-self-report-probing-detect-emergent-1",
+      "en": "This LessWrong post explores whether a model's self-narrative about its own values, goals, and identity can provide an early warning signal for emergent misalignment. It is motivated by work showing that fine-tuning on insecure code can induce broader harmful values, and positions recursive self-report probing as a more accessible complement to behavioral evaluation and activation-space analysis.",
+      "zh": "这篇 LessWrong 文章探讨，模型关于自身 values、goals 和 identity 的 self-narrative，是否能作为 emergent misalignment 的早期预警信号。它的动机来自一类发现：在 insecure code 上 fine-tuning 可能诱发更广泛的 harmful values，因此作者把 recursive self-report probing 定位为 behavioral evaluation 和 activation-space analysis 之外，更容易使用的补充方法。",
+      "tags": [
+        "alignment",
+        "evaluation",
+        "fine-tuning"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "The Viable System Model & Multi-Scale Agency",
+      "url": "https://www.lesswrong.com/posts/ENoAxAXrCvFHW4q3u/the-viable-system-model-and-multi-scale-agency",
+      "en": "This LessWrong essay maps Stafford Beer's Viable System Model from cybernetics onto AI safety questions about multi-scale hierarchical agency. The author frames the model through an Active Inference and information-theoretic lens, aiming to reason about businesses, governments, and other collective intelligences as viable systems.",
+      "zh": "这篇 LessWrong 文章把 cybernetics 中 Stafford Beer 的 Viable System Model，映射到 AI safety 中关于 multi-scale hierarchical agency 的问题上。作者尝试用 Active Inference 和 information theory 的视角重新表述该模型，用来理解 businesses、governments 以及其他 collective intelligences 作为 viable systems 的运行方式。",
+      "tags": [
+        "agents",
+        "AI safety",
+        "multi-agent"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-25T12:02:39.686Z"
+}

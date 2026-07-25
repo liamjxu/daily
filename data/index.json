@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-25",
+    "count": 14,
+    "headline_en": "Claude Opus 5 dominated the day, with parallel signals around agent containment, prompt-injection resistance, agentic commerce, and applied autonomy.",
+    "generatedAt": "2026-07-25T12:02:39.686Z"
+  },
+  {
     "date": "2026-07-24",
     "count": 23,
     "headline_en": "Agents moved from demos to infrastructure: voice/tool use, live work artifacts, tougher agent evaluations, and post-training reliability dominated the day.",
