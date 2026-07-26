@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-26",
+    "count": 10,
+    "headline_en": "AI agents are shifting from flashy demos to hard infrastructure questions: reliability, sandbox boundaries, eval design, and where model-layer value actually holds.",
+    "generatedAt": "2026-07-26T12:02:33.601Z"
+  },
+  {
     "date": "2026-07-25",
     "count": 14,
     "headline_en": "Claude Opus 5 dominated the day, with parallel signals around agent containment, prompt-injection resistance, agentic commerce, and applied autonomy.",
