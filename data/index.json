@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-27",
+    "count": 17,
+    "headline_en": "Agentic systems dominated the day, from ChatGPT taking on real-world coordination work to compact agent models, memory benchmarks, self-evolving RL, and the compute buildout needed to serve them.",
+    "generatedAt": "2026-07-27T12:04:37.468Z"
+  },
+  {
     "date": "2026-07-26",
     "count": 10,
     "headline_en": "AI agents are shifting from flashy demos to hard infrastructure questions: reliability, sandbox boundaries, eval design, and where model-layer value actually holds.",

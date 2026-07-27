@@ -1,0 +1,276 @@
+{
+  "date": "2026-07-27",
+  "headline_en": "Agentic systems dominated the day, from ChatGPT taking on real-world coordination work to compact agent models, memory benchmarks, self-evolving RL, and the compute buildout needed to serve them.",
+  "headline_zh": "今天的主线是 agentic systems，从 ChatGPT 承担真实协调任务，到小型 agent 模型、memory benchmark、自进化 RL，以及支撑这些能力的 compute 基础设施。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": null,
+      "url": "https://x.com/sama/status/2081396796174282900",
+      "en": "OpenAI CEO Sam Altman said ChatGPT work is “remarkable” and that even the word “work” undersells it. His example was highly agentic: from his phone, he asked ChatGPT to use chat history, plan three weekend-trip options for nine people, build a full-stack coordination site, drive group agreement, make reservations, and draft the Gmail announcement.",
+      "zh": "OpenAI CEO Sam Altman 说 ChatGPT work “remarkable”，甚至觉得“work”这个词低估了它。他举的例子很 agentic：他在手机上让 ChatGPT 使用聊天历史，为 9 个人规划三个周末旅行方案，做一个 full-stack 协调网站，推动大家达成一致，之后订位并起草 Gmail 通知邮件。",
+      "tags": [
+        "agents",
+        "ChatGPT",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT engineer, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2081444811647963244",
+      "en": "OpenAI Codex and ChatGPT engineer Thibault Sottiaux framed ChatGPT as a phone-native worker for tedious real-world tasks: negotiating an internet bill, unsubscribing from spam, or finding the best deal. He said it already does at least 20 things for him every day and still surprises him.",
+      "zh": "OpenAI Codex 和 ChatGPT 工程师 Thibault Sottiaux 把 ChatGPT 描述成一个手机上的真实任务执行者，可以谈网费、退订垃圾邮件、找最划算的交易。他说它每天至少帮他做 20 件事，而且仍然会让他惊讶。",
+      "tags": [
+        "agents",
+        "ChatGPT",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "The MAD Podcast with Matt Turck",
+      "role": null,
+      "title": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+      "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o",
+      "en": "The Takeaway: OpenAI’s compute strategy is no longer just buying GPUs, it is becoming a full industrial stack across data centers, power, networking, custom silicon, and capacity markets because demand still exceeds anything the physical world can build. Sachin Katti, OpenAI’s head of industrial compute, argues that AI data centers are “giant factories that are turning electrons into tokens,” with liquid cooling, grid upgrades, gas turbines, eventual nuclear, and Stargate as an umbrella strategy for scaling compute through hyperscalers, Oracle, SoftBank Energy, neoclouds, and OpenAI-designed infrastructure. The most strategic detail is Jalapeno: OpenAI can co-design inference chips around known model workloads, optimizing for tokens per watt, while AI itself is starting to assist chip design. Katti’s core constraint is not overbuilding but underbuilding: “Anytime you have thought you have enough compute, we can slow down,” the result has been regret, because inference now dominates even parts of training through synthetic data, post-training, and test-time compute.",
+      "zh": "The Takeaway：OpenAI 的 compute 策略已经不只是买 GPU，而是在 data center、power、networking、custom silicon 和 capacity market 上形成完整工业栈，因为需求仍然超过物理世界能建设的速度。OpenAI head of industrial compute Sachin Katti 认为 AI data center 是“giant factories that are turning electrons into tokens”，背后需要 liquid cooling、grid upgrades、gas turbines、未来的 nuclear，以及以 Stargate 为总称的 compute 扩张策略，覆盖 hyperscalers、Oracle、SoftBank Energy、neoclouds 和 OpenAI 自己设计的基础设施。最有战略含量的是 Jalapeno：OpenAI 可以围绕已知 model workload 协同设计 inference chip，核心指标是 tokens per watt，同时 AI 已经开始辅助 chip design。Katti 的核心担忧不是过度建设，而是建设不足：“Anytime you have thought you have enough compute, we can slow down”，最后都会后悔，因为 inference 现在也贯穿 synthetic data、post-training 和 test-time compute 等训练环节。",
+      "tags": [
+        "compute",
+        "OpenAI",
+        "inference",
+        "custom silicon"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Mode",
+      "url": "https://arxiv.org/abs/2607.22083",
+      "en": "Nanbeige4.2-3B is a compact general agentic model with 3B non-embedding parameters aimed at code-agent, office-agent, complex tool-use, reasoning, and alignment tasks. The system combines 28T-token pretraining, a Looped Transformer, diverse executable SFT trajectories, mixed-mode RLHF, length-controlled reasoning RL, and agentic RL with outcome and process rewards. It matters because it claims larger-model agentic performance in a local-assistant-sized model, outperforming Qwen3.5-9B and Gemma4-12B on diverse agentic benchmarks.",
+      "zh": "Nanbeige4.2-3B 是一个 3B non-embedding parameters 的紧凑型通用 agentic model，面向 code-agent、office-agent、复杂 tool-use、reasoning 和 alignment 任务。系统结合了 28T token pretraining、Looped Transformer、多样化可执行 SFT trajectories、mixed-mode RLHF、length-controlled reasoning RL，以及带 outcome 和 process rewards 的 agentic RL。它重要在于声称用本地助手级别的小模型实现大模型级 agentic 表现，并在多个 agentic benchmarks 上超过 Qwen3.5-9B 和 Gemma4-12B。",
+      "tags": [
+        "agents",
+        "tool use",
+        "RLHF",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings",
+      "url": "https://arxiv.org/abs/2607.21962",
+      "en": "This paper rebuilds agent-memory evaluation by generating ground-truth life scripts before any conversations, avoiding label extraction and contamination problems from post-hoc chat data. Its corpus includes validity intervals, volatility classes, source-channel distinctions, injection probes, and as-of-date questions, then compares memory architectures over short and long horizons. The key finding is a tenure crossover: curated-map memory leads at three weeks but drops from 96% to 72% by nine weeks, while a provenance-typed graph rises to 90%, making this directly relevant to long-running personal agents.",
+      "zh": "这篇论文把 agent memory evaluation 反过来做：先生成带 ground truth 的 life scripts，再生成对话，从而避开从聊天记录事后抽取答案带来的 label error 和 contamination 问题。它的语料包含 validity intervals、volatility classes、source-channel 区分、injection probes 和 as-of-date questions，并在短期和长期 horizon 上比较不同 memory architectures。关键发现是 tenure crossover：curated-map memory 三周时领先，但九周后从 96% 降到 72%，而 provenance-typed graph 升到 90%，这对长期运行的 personal agents 很相关。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+      "url": "https://arxiv.org/abs/2607.22511",
+      "en": "CausalForge targets automated theoretical research in causal inference using Lean rather than an unreliable LLM reviewer as the final arbiter. It combines Causalean, a 7,035-declaration Lean library for causal inference, with CausalSmith, an agentic loop that selects topics, proposes results, formalizes statements, constructs proofs, and presents artifacts for human inspection. The important move is pairing machine-checked proofs with a statement audit, acknowledging that proof validity is not the same as scientific claim fidelity.",
+      "zh": "CausalForge 面向 causal inference 的自动化理论研究，用 Lean 而不是不可靠的 LLM reviewer 作为最终验证器。它结合了 Causalean，一个包含 7,035 个 machine-checked declarations 的 causal inference Lean library，以及 CausalSmith，一个会选题、提出结果、形式化陈述、构造证明并交给人类检查的 agentic loop。关键点是把 machine-checked proofs 和 statement audit 结合起来，承认证明有效不等于科学主张被忠实形式化。",
+      "tags": [
+        "agents",
+        "automated research",
+        "evaluation",
+        "formal methods"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "url": "https://arxiv.org/abs/2607.22529",
+      "en": "Skill Self-Play proposes a co-evolutionary RL framework where a proposer, solver, and dynamic skill controller jointly expand an LLM’s capabilities. The core idea is that skills provide verifiable execution in specific scenarios while routing across skills preserves open-ended task diversity, bridging the gap between environment-bound training and unreliable open-ended self-generation. It matters for post-training because it frames reusable agent skills as the unit for scalable self-evolution across tool-use and reasoning benchmarks.",
+      "zh": "Skill Self-Play 提出一个 co-evolutionary RL 框架，让 proposer、solver 和 dynamic skill controller 共同扩展 LLM 能力。核心思路是 skill 能在具体场景中提供可验证执行，而跨 skill 的动态 routing 保留开放任务多样性，从而连接 environment-bound training 和不可靠的 open-ended self-generation。它对 post-training 很重要，因为它把可复用 agent skills 作为 tool-use 和 reasoning benchmarks 上可扩展自进化的训练单元。",
+      "tags": [
+        "post-training",
+        "agents",
+        "tool use",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.21971",
+      "en": "MetaEvolve trains LLMs for iterative self-evolution by explicitly cultivating meta-skills such as self-reflection with environment feedback. In coding, it synthesizes evolution trajectories containing programs, fitness scores, and prior attempts, then applies RL with verifiable rewards from test execution plus inference-time evolutionary search. The reported gains are large: +10.01% absolute on in-distribution coding tasks and +24.12% on out-of-distribution tasks over the strongest baseline, making it a strong post-training result for test-time improvement loops.",
+      "zh": "MetaEvolve 通过显式培养 self-reflection with environment feedback 等 meta-skills，让 LLM 学会迭代式自进化。它在 coding 场景中合成 evolution trajectories，包含 programs、fitness scores 和 prior attempts，再用来自 test execution 的 verifiable rewards 做 RL，并在 inference-time 做 evolutionary search。报告的提升很大：在 in-distribution coding tasks 上比最强 baseline 高 10.01% absolute，在 out-of-distribution tasks 上高 24.12%，是一个关于 test-time improvement loops 的强 post-training 结果。",
+      "tags": [
+        "post-training",
+        "RL",
+        "test-time compute",
+        "coding"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "LeAct: Learning to Reason from Expert Actions",
+      "url": "https://arxiv.org/abs/2607.21856",
+      "en": "LeAct treats the chain of thought behind expert-system actions as a latent variable and trains a student to recover reasoning that increases its probability of matching those actions. Instead of relying on human rationales or stronger-model distillation, it uses expert systems such as game engines, planners, theorem provers, and robotics solvers as supervision sources. This matters because it turns silent expert actions into reasoning data, with results including solver-floor performance on small games, a 5x closer gap to the solver at larger scale, +60 mbb/g in Flop Hold’em, and improvement over direct imitation in robotics.",
+      "zh": "LeAct 把 expert-system actions 背后的 chain of thought 当作 latent variable，训练 student 生成能提高其复现 expert action 概率的 reasoning。它不依赖人工 rationale 或更强模型蒸馏，而是把 game engines、planners、theorem provers 和 robotics solvers 等 expert systems 作为监督来源。它的重要性在于把沉默的 expert actions 转成 reasoning data，结果包括在小型博弈中达到 solver numerical floor，在更大规模上比最强 expert-iteration baseline 距 solver 近 5 倍，在 Flop Hold’em 中 +60 mbb/g，并在 robotics probe 上优于 direct imitation。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "distillation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.21653",
+      "en": "Molt is a PyTorch-native framework for agentic reinforcement learning designed to keep algorithm changes understandable and editable end to end. It uses one asynchronous loop for multimodal and mixture-of-experts policies while preserving token, policy-version, and model-semantics consistency, and it avoids training on tokens the agent did not generate. For agentic RL researchers, the appeal is practical: a leaner stack that is statistically comparable to a state-of-the-art Megatron-based system under a matched asynchronous protocol.",
+      "zh": "Molt 是一个 PyTorch-native 的 agentic reinforcement learning 框架，目标是让算法改动能端到端被理解和修改。它用一个 asynchronous loop 训练 multimodal 和 mixture-of-experts policies，同时保持 token、policy version 和 model semantics 一致，并避免训练 agent 没有生成过的 token。对 agentic RL 研究者来说，它的价值很实际：在 matched asynchronous protocol 下，一个更轻量的 stack 仍能与 state-of-the-art Megatron-based 系统统计上相当。",
+      "tags": [
+        "agents",
+        "RL",
+        "training frameworks",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Agentic Evaluation of Copyright Law Compliance",
+      "url": "https://arxiv.org/abs/2607.21799",
+      "en": "Copyright-Bench evaluates whether LLM agents comply with copyright law while doing realistic commercial tasks such as website development, merchandise design, and pitch deck production. The benchmark forces agents to choose between legal public-domain content and infringing copyrighted content under user-preference and time-pressure variations. The finding is operationally important: agents still select copyrighted works even when legal alternatives exist, and open-weight models’ violation rates rise under certain preferences and simulated time pressure.",
+      "zh": "Copyright-Bench 评估 LLM agents 在执行 website development、merchandise design 和 pitch deck production 等真实商业任务时是否遵守 copyright law。该 benchmark 让 agent 在合法 public-domain content 和会侵权的 copyrighted content 之间选择，并加入 user-preference 和 time-pressure 变化。结论很有现实意义：即使存在合法替代品，agents 仍会选择 copyrighted works，而且 open-weight models 在某些用户偏好和模拟时间压力下违规率会上升。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "copyright",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Zero-Shot Mission-Level Evaluation for Aerial MLLM Agents",
+      "url": "https://arxiv.org/abs/2607.22014",
+      "en": "MissionBench evaluates whether general-purpose MLLMs can carry out long-horizon aerial embodied missions from one high-level instruction without aerial-specific fine-tuning. It includes 120 missions across five simulated 3D environments and four task families, requiring planning, navigation, and outcome reporting from egocentric observations and action history. Across 22 models, the best system solves fewer than 35% of missions versus 84.4% for humans, showing that closed-loop mission competence remains a hard benchmark for embodied agents.",
+      "zh": "MissionBench 评估通用 MLLMs 是否能在没有 aerial-specific fine-tuning 的情况下，仅凭一个 high-level instruction 完成长时程空中 embodied missions。它包含 5 个模拟 3D environments、4 类任务、共 120 个 missions，要求模型基于 egocentric observations 和 action history 完成 planning、navigation 和 outcome reporting。在 22 个模型中，最强系统成功率不到 35%，而人类为 84.4%，说明 closed-loop mission competence 仍是 embodied agents 的硬 benchmark。",
+      "tags": [
+        "agents",
+        "embodied AI",
+        "evaluation",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "J-CoT: Chain-of-Thought in J-Space",
+      "url": "https://arxiv.org/abs/2607.21981",
+      "en": "J-CoT proposes a recurrent reasoning interface that carries intermediate state through J-space, a vocabulary-indexed coordinate system inside hidden representations, rather than natural-language rationales or full dense latent vectors. At each cycle boundary, the model converts hidden state into vocabulary-indexed coefficients, carries them as a J-thought, then maps them back for the next computation step. This matters because it keeps reasoning linguistically grounded without forcing fluent CoT text, and reports matching or exceeding latent-reasoning baselines under matched settings.",
+      "zh": "J-CoT 提出一种 recurrent reasoning interface，通过 hidden representations 内部的 J-space，也就是 vocabulary-indexed coordinate system，传递中间状态，而不是依赖自然语言 rationale 或完整 dense latent vectors。每个 cycle 边界处，模型把 hidden state 转成 vocabulary-indexed coefficients，作为 J-thought 传递，再映射回下一步计算。它的重要性在于保持 reasoning 与语言空间关联，但不强迫生成流畅 CoT 文本，并在 matched settings 下达到或超过 latent-reasoning baselines。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "latent reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Adversarial Prompts for Acceptance Collapse in Speculative Decoding",
+      "url": "https://arxiv.org/abs/2607.21804",
+      "en": "This paper identifies a new operational vulnerability in speculative decoding: prompt suffixes can collapse verifier acceptance by pushing draft-model probability mass toward tokens the target model rejects. ADSD uses a verifier-aligned surrogate called Soft-Collapse plus a target-preservation objective, preserving task quality while degrading inference speed. On GSM8K, it increases mean sample time by 62.3%, making speculative decoding reliability a concrete adversarial surface rather than just an efficiency detail.",
+      "zh": "这篇论文指出 speculative decoding 的一个新运行风险：prompt suffix 可以通过把 draft model 的概率质量推向 target model 不接受的 token，来压垮 verifier acceptance。ADSD 使用名为 Soft-Collapse 的 verifier-aligned surrogate，再加上 target-preservation objective，在保持任务质量的同时拖慢 inference。它在 GSM8K 上让 mean sample time 增加 62.3%，说明 speculative decoding reliability 是一个真实 adversarial surface，而不只是效率实现细节。",
+      "tags": [
+        "speculative decoding",
+        "inference",
+        "adversarial",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Can we teach a model to encode a semantic feature on a chosen manifold in just three channels?",
+      "url": "https://www.lesswrong.com/posts/ZwEer94AefjdW4933/can-we-teach-a-model-to-encode-a-semantic-feature-on-a",
+      "en": "LessWrong: “Can we teach a model to encode a semantic feature on a chosen manifold in just three channels?” explores a BlueDot Technical AI Safety Puzzle task: training a small five-layer MLP to encode the country feature through a chosen nonlinear three-dimensional manifold. The post focuses on whether the classifier actually relies on that constrained code, making it a compact mechanistic-interpretability exercise around feature geometry rather than a generic model demo.",
+      "zh": "LessWrong: “Can we teach a model to encode a semantic feature on a chosen manifold in just three channels?” 探索 BlueDot Technical AI Safety Puzzle 的一个任务：训练一个小型五层 MLP，让 country feature 通过指定的 nonlinear three-dimensional manifold 编码。文章关注 classifier 是否真的依赖这个受约束的 code，因此它更像是围绕 feature geometry 的小型 mechanistic interpretability 练习，而不是普通模型 demo。",
+      "tags": [
+        "interpretability",
+        "AI safety",
+        "representation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月底分享之自觉不错的blog第二篇",
+      "url": "https://www.rednote.com/explore/6a64dbed000000001f01ffc2?xsec_token=ABDUq_KHx31fejzSwSN4g__EfiC9s7OMCRu0Y8ff3paxA%3D&xsec_source=pc_user",
+      "en": "tabris shares a second month-end roundup of blogs he found worthwhile, spanning a high-quality 3x3 framework, architecture analysis, an AI safety research tracker, text latents as generative objects, DeepMind on agents for science, agentic world models, VidaForge, AlayaWorld, compute scaling, FilmWorld, imagination models, Apple-π, and FLUX 3. He especially recommends 图1 as high quality and useful for concrete case-by-case analysis, calls 图10 the best agentic-world-models introduction, and notes 图14 argues for continuing to scale compute. Bottom line: 图1 (high-quality 3x3 framework), 图5 (DeepMind on agents for science), 图10 (best agentic-world-models introduction), 图14 (compute scaling), 图15 (agentic novel-to-film generation).",
+      "zh": "tabris 分享了第二篇月底自觉不错的 blog 合集，覆盖一个高质量 3×3 framework、架构分析、AI safety research tracker、text latents as generative objects、DeepMind 大谈 agents 对 science 的意义、agentic world models、VidaForge、AlayaWorld、继续扩大算力、FilmWorld、imagination models、Apple-π 和 FLUX 3。他特别说 图1 质量很高，作者自制的 3×3 framework 对具体情况具体分析很有帮助，也说 图10 是最好的 agentic-world-models introduction，并提到 图14 认为应该继续扩大算力。一句话推荐: 图1 (高质量 3×3 framework), 图5 (DeepMind 谈 agents 对 science 的意义), 图10 (最好的 agentic-world-models introduction), 图14 (扩大算力), 图15 (agentic novel-to-film generation).",
+      "tags": [
+        "agents",
+        "AI safety",
+        "world models",
+        "compute"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月底分享之自觉不错的paper第二篇",
+      "url": "https://www.rednote.com/explore/6a64eea80000000009036b83?xsec_token=ABDUq_KHx31fejzSwSN4g__IKELtB1wdmYvfCp0El-d0s%3D&xsec_source=pc_user",
+      "en": "tabris shares a second month-end roundup of papers he found worthwhile, saying 图1 can be skimmed and that he personally likes 图14. He connects the discussion to Thinking Machines’ Inkling release and Yifan Zhang’s line “RoPE is dead, long live GRAPE,” while adding that truly good research will eventually influence frontier models even if the shift is not immediate. Bottom line: tabris recommends 图14.",
+      "zh": "tabris 分享了第二篇月底自觉不错的 paper 合集，说 图1 随手翻翻就行，个人喜欢 图14。他把话题连到 Thinking Machines 发布 Inkling 时 Yifan Zhang 的说法：“RoPE is dead, long live GRAPE”，并表示虽然没那么快，但真正好的研究终会影响最前沿的模型。一句话推荐: tabris recommends 图14.",
+      "tags": [
+        "papers",
+        "frontier models",
+        "RoPE",
+        "GRAPE"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-27T12:04:37.468Z"
+}
