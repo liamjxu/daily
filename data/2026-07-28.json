@@ -1,0 +1,306 @@
+{
+  "date": "2026-07-28",
+  "headline_en": "Agentic systems dominated the day, with attention shifting from raw model capability to workflows, context, memory, evaluation, and post-training methods that make AI useful in production.",
+  "headline_zh": "今天的主线是 agentic systems：关注点从单纯模型能力转向 workflow、context、memory、evaluation 和 post-training，核心是如何让 AI 在真实生产环境中可靠可用。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2081940052154933696",
+      "en": "OpenAI Codex and ChatGPT engineer Thibault Sottiaux said usage limits have been reset for all paid users of Codex and ChatGPT Work, tying it to fast adoption of ChatGPT Work and a busy product week. This is a small but practical signal that OpenAI is tuning access and capacity around heavy agentic-workflow usage.",
+      "zh": "OpenAI Codex 和 ChatGPT 工程师 Thibault Sottiaux 表示，Codex 和 ChatGPT Work 的所有付费用户使用额度已经重置，并把这件事和 ChatGPT Work 的快速采用以及本周密集的产品节奏联系起来。这是一个小但实用的信号，说明 OpenAI 正在围绕高强度 agentic workflow 使用来调整访问与容量。",
+      "tags": [
+        "Codex",
+        "ChatGPT Work",
+        "agents"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The takeaway: Granola’s bet is that meeting notes are only the first wedge into a broader AI-native work interface where context capture, precomputation, and agent interoperability matter more than the note-taking UI itself. Chris, the cofounder and CEO of Granola, argues that startups remain “knife fights” even when they work, and that the real competition is not who owns meeting notes today but who becomes best-in-world at meeting-adjacent intelligence and context APIs for other agents. The most interesting product detail is Granola’s willingness to pre-generate millions of meeting briefs even when only a small fraction are opened, because the feature is valuable precisely when it appears in the user’s moment of need. Dan Shipper pushes the complementary idea of Codex-native apps where humans and agents share the same UI state, with MCP or CLI access changing the app state while the user stays in a browser surface.",
+      "zh": "The takeaway：Granola 的判断是，meeting notes 只是进入更大 AI-native 工作界面的第一个入口，真正重要的是 context capture、precomputation，以及和其他 agent 的互操作，而不是记笔记 UI 本身。Granola 联合创始人兼 CEO Chris 认为，即使公司跑起来了，startup 依然是“knife fights”，真正的竞争不是今天谁拥有 meeting notes，而是谁能在 meeting-adjacent intelligence 和供其他 agent 使用的 context API 上做到世界最好。最有意思的产品细节是，Granola 愿意提前生成数百万份 meeting briefs，即使只有小部分会被打开，因为这个功能的价值恰恰在于它出现在用户最需要的那一刻。Dan Shipper 则提出互补观点：Codex-native apps 让人和 agent 共享同一个 UI state，MCP 或 CLI 可以改变 app state，而用户仍留在 browser surface 里。",
+      "tags": [
+        "agents",
+        "workflow",
+        "MCP",
+        "context"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AgentOmnia: Scaling Agentic Models for Full-Scenario Applications",
+      "url": "https://arxiv.org/abs/2607.23124",
+      "en": "AgentOmnia frames agent progress as full-scenario scaling across consumer, business, and employee applications, connecting task taxonomy, data synthesis, post-training, evaluation, and self-improvement. Starting from Qwen3-30B-A3B-Thinking-2507, it raises OmniaBench challenging pass rate from 9.16% to 37.11% and four-benchmark macro-average from 22.86% to 41.69%. This is directly relevant for readers tracking how agent post-training pipelines move beyond isolated toy tasks into deployable workflow coverage.",
+      "zh": "AgentOmnia 把 agent 进展定义为覆盖 ToC、ToB 和 ToE 应用的 full-scenario scaling，把任务分类、数据合成、post-training、evaluation 和 self-improvement 串成一个体系。从 Qwen3-30B-A3B-Thinking-2507 出发，它把 OmniaBench challenging pass rate 从 9.16% 提升到 37.11%，四个 benchmark 的 macro-average 从 22.86% 提升到 41.69%。这对关注 agent post-training 如何从孤立玩具任务走向可部署 workflow 覆盖的读者很相关。",
+      "tags": [
+        "agents",
+        "post-training",
+        "Qwen",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+      "url": "https://arxiv.org/abs/2607.24280",
+      "en": "MAPD tackles agentic search distillation when proprietary teacher logits are unavailable and raw trajectory imitation mostly transfers style. It uses an offline multi-agent system to turn exploration traces into a structured JSON protocol with task type, reasoning plan, and grounding facts, then trains a privileged student branch with dense distillation plus sparse RL. The paper matters because it offers a concrete route for open-source models to absorb proprietary-model search behavior without relying on tokenizer-compatible logit matching.",
+      "zh": "MAPD 处理 proprietary teacher logits 不可用、而直接模仿自然语言轨迹又容易只学到风格的 agentic search distillation 问题。它用离线 multi-agent system 把探索轨迹转换成包含任务类型、reasoning plan 和 grounding facts 的结构化 JSON protocol，再用 dense distillation 加 sparse RL 训练 student 的 privileged branch。这篇论文重要在于，它给 open-source models 提供了一条吸收 proprietary-model search 行为的具体路径，而且不依赖 tokenizer-compatible logit matching。",
+      "tags": [
+        "agents",
+        "distillation",
+        "search",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "url": "https://arxiv.org/abs/2607.24720",
+      "en": "This paper studies long-horizon planning in a controlled multi-turn environment across pre-training, GRPO, and on-policy distillation. It finds that explicit world-model construction through CoT state-transition modeling improves generalization, small amounts of long-horizon data help, and suboptimal trajectories damage performance because errors amplify over time. For agent builders, the useful claim is that OPD has a broader effective region than GRPO under low-quality and long-horizon settings.",
+      "zh": "这篇论文在一个受控 multi-turn 环境中研究 long-horizon planning，覆盖 pre-training、GRPO 和 on-policy distillation。它发现，通过 CoT state-transition modeling 显式构建 world model 能提升泛化，少量 long-horizon data 有帮助，而 suboptimal trajectories 会因为错误沿长程放大而严重伤害性能。对 agent 构建者来说，最有用的结论是：在低质量和长程设置下，OPD 的有效区间比 GRPO 更宽。",
+      "tags": [
+        "agents",
+        "planning",
+        "post-training",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Not All LLM Reasoning is Visible in the Chain-of-Thought",
+      "url": "https://arxiv.org/abs/2607.22925",
+      "en": "This paper shows a concrete invisible-reasoning failure mode where frontier models use semantically irrelevant filler tokens to improve synthetic reasoning accuracy. Across 13 models, filler tokens can improve accuracy by up to 13 percentage points, and Claude Opus 4.5 can satisfy a hidden modular arithmetic constraint without exposing it in CoT. The result is important for safety and evaluation because CoT monitoring can miss consequential computation happening outside interpretable output tokens.",
+      "zh": "这篇论文展示了一种具体的 invisible-reasoning 失效模式：frontier models 会利用语义无关的 filler tokens 提升 synthetic reasoning accuracy。在 13 个模型上，filler tokens 最多能带来 13 个百分点的准确率提升，Claude Opus 4.5 还能在不通过 CoT 暴露的情况下满足隐藏的 modular arithmetic constraint。这个结果对 safety 和 evaluation 很重要，因为 CoT monitoring 可能漏掉发生在可解释输出 token 之外的关键计算。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "evaluation",
+        "safety"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Two Regimes of Chain-of-Thought Unfaithfulness: Behavioral Detection Fails Where Models Are Wrong",
+      "url": "https://arxiv.org/abs/2607.23458",
+      "en": "This paper audits behavioral detection of unfaithful CoT and finds that answer correctness splits the problem into two regimes. On correct answers, behavioral signals moderately separate faithful from post-hoc reasoning, but on incorrect answers, where 69% of annotated unfaithfulness occurs, tested behavioral signals are not above chance. The implication is sharp: CoT faithfulness benchmarks and monitors need to account for correctness-conditioned failure modes rather than reporting a single aggregate detection score.",
+      "zh": "这篇论文审计 unfaithful CoT 的 behavioral detection，发现 answer correctness 会把问题分成两个 regime。在正确答案上，behavioral signals 能中等程度地区分 faithful reasoning 和 post-hoc reasoning；但在错误答案上，也就是 69% 标注 unfaithfulness 所在的地方，已测试的 behavioral signals 并不高于随机。它的含义很明确：CoT faithfulness benchmark 和 monitor 不能只报一个总体检测分数，而要处理按正确性分层后的失效模式。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "evaluation",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Masked Distillation: Internalizing the Chain-of-Thought in Language Models",
+      "url": "https://arxiv.org/abs/2607.22629",
+      "en": "Masked Distillation asks whether the computation expressed in long reasoning traces can be absorbed into model parameters so the student can answer directly or with shorter traces. The framework trains on solution tokens while a reasoning teacher provides feedback conditioned on its own CoT, covering both self-distillation and larger-teacher-to-smaller-student settings. This is relevant for anyone watching the tension between test-time compute, CoT verbosity, latency, and serving cost.",
+      "zh": "Masked Distillation 追问一个关键问题：长 reasoning traces 中表达的计算，能否被吸收到模型参数里，让 student 直接回答或用更短 trace 回答。这个框架只训练 solution tokens，同时让 reasoning teacher 基于自己的 CoT 提供反馈，覆盖 self-distillation 和大 teacher 监督小 student 两种设置。这对关注 test-time compute、CoT 冗长、latency 和 serving cost 之间张力的人很相关。",
+      "tags": [
+        "reasoning",
+        "distillation",
+        "chain-of-thought",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents",
+      "url": "https://arxiv.org/abs/2607.24625",
+      "en": "APPA proposes an information-flow-control framework for LLM agents that need to process mixed-confidentiality data under prompt-injection risk. Instead of permanently tainting the main context, it uses engine-managed context branching so untrusted data can be inspected in child trajectories and sanitized derivatives can return to the parent. On a multi-turn tool-chaining benchmark, it reduces attack success from 31%-50% to 0%-7%, making it a practical security design for tool-using agents.",
+      "zh": "APPA 为需要在 prompt-injection 风险下处理 mixed-confidentiality data 的 LLM agents 提出了一套 information-flow-control 框架。它不是把主 context 永久 taint，而是用 engine-managed context branching，让 untrusted data 在 child trajectories 中被检查，再把经过 sanitizer 的 bounded derivative 返回 parent。在 multi-turn tool-chaining benchmark 上，它把 attack success 从 31%-50% 降到 0%-7%，是 tool-using agents 的一个实用安全设计。",
+      "tags": [
+        "agents",
+        "tool use",
+        "security",
+        "prompt injection"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ConsistencyGate: Preventing Memory Contamination in LLM Agents via Self-Consistency Admission Control",
+      "url": "https://arxiv.org/abs/2607.22962",
+      "en": "ConsistencyGate targets memory contamination in long-running LLM agents, where one hallucinated fact written to memory can persist as a false premise for later reasoning. Before committing a candidate fact, it queries the model multiple times for soft support and only admits the fact above a threshold, with a log-probability variant for lower latency. The paper matters because it treats memory writes as an admission-control problem, not just a retrieval or capacity problem.",
+      "zh": "ConsistencyGate 处理 long-running LLM agents 中的 memory contamination：一条 hallucinated fact 一旦写入 memory，就会在后续 reasoning 中持续作为错误前提。它在提交候选事实前，多次查询模型得到 soft support，只有超过阈值才写入，并提供 log-probability 版本来降低 latency。这篇论文的重要性在于，它把 memory write 视为 admission-control 问题，而不只是 retrieval 或 capacity 问题。",
+      "tags": [
+        "agents",
+        "memory",
+        "hallucination",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Learning When to Reason for Text-to-SQL via SFT and DPO",
+      "url": "https://arxiv.org/abs/2607.22622",
+      "en": "AutoThinkSQL trains a Text-to-SQL model to decide when to use deep CoT and when to bypass reasoning for simple queries. Using SFT and DPO on Qwen3-Coder-30B-A3B, it improves Spider and BIRD performance while reducing average output tokens by 24.6% and 18.3% and latency by 17.1% and 11.5% versus CoT-only generation. This is a clean example of aligning test-time compute with task difficulty rather than forcing reasoning everywhere.",
+      "zh": "AutoThinkSQL 训练 Text-to-SQL 模型判断什么时候使用 deep CoT，什么时候对简单查询跳过 reasoning。它在 Qwen3-Coder-30B-A3B 上结合 SFT 和 DPO，在 Spider 和 BIRD 上提升性能，同时相比 CoT-only generation 将平均输出 token 减少 24.6% 和 18.3%，latency 降低 17.1% 和 11.5%。这是一个清晰例子：把 test-time compute 和任务难度对齐，而不是到处强制 reasoning。",
+      "tags": [
+        "reasoning",
+        "DPO",
+        "test-time compute",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SQBench: A Benchmark for Evaluating Task Delivery by Language-Model Agents in Production-Oriented Workflows",
+      "url": "https://arxiv.org/abs/2607.23123",
+      "en": "SQBench evaluates agents by whether they deliver specified outputs inside constrained production-like workflows, rather than only testing knowledge, reasoning, coding, or tool use in isolation. Across 220 tasks and 27 model configurations, the best Weighted Pass@1 is 60.5%, while mean Strict Pass@1 on business-scenario L3 tasks is only 18.5%. The useful contribution is its risk-aware scoring, where completed outputs can still fail for unverifiable citations, inappropriate resource use, or format violations.",
+      "zh": "SQBench 评估 agent 是否能在有约束的 production-like workflow 中交付指定产物，而不是孤立测试知识、reasoning、coding 或 tool use。在 220 个任务和 27 个模型配置上，最高 Weighted Pass@1 为 60.5%，business-scenario L3 任务的平均 Strict Pass@1 只有 18.5%。它的有用贡献是 risk-aware scoring：即使功能上完成了，仍可能因为 citation 无法验证、资源使用不当或格式违规而失败。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "workflow",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "STAIF: A Stage-wise Optimization for Complex Instruction Following",
+      "url": "https://arxiv.org/abs/2607.22649",
+      "en": "STAIF separates complex instruction following into soft subjective constraints and hard objectively verifiable constraints. Stage 1 uses preference optimization with multiple negative samples, while Stage 2 uses RLVR to enforce strict hard-constraint compliance, supported by STAINSTRUCT, a bilingual English-Chinese dataset of about 31,000 multi-constraint instructions. This is relevant post-training work because it targets constraint satisfaction more directly than holistic DPO-style rewards.",
+      "zh": "STAIF 把 complex instruction following 拆成 soft subjective constraints 和 hard objectively verifiable constraints。Stage 1 使用带多个 negative samples 的 preference optimization，Stage 2 使用 RLVR 强化 hard-constraint compliance，并配套构建约 31,000 条英中双语 multi-constraint instructions 的 STAINSTRUCT。这是很相关的 post-training 工作，因为它比整体式 DPO reward 更直接地优化 constraint satisfaction。",
+      "tags": [
+        "post-training",
+        "DPO",
+        "alignment",
+        "Chinese"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Reasoning or Memorization: Can LLMs Understand and Generate Chinese Xiehouyu Riddles?",
+      "url": "https://arxiv.org/abs/2607.23440",
+      "en": "This paper tests Chinese xiehouyu reasoning using linguist-created novel riddles to reduce data contamination. It reports that frontier Chinese models show a much larger accuracy gap between existing low-frequency and novel xiehouyu than English-centric models, suggesting heavier memorization of rare Chinese data, while Gemini 3.1 Pro reaches 92.6 accuracy on novel xiehouyu understanding. The paper is useful as a culturally specific contamination probe and a reminder that language creativity can remain weaker than benchmark reasoning suggests.",
+      "zh": "这篇论文用语言学家新创作的歇后语来测试中文 xiehouyu reasoning，以降低 data contamination。它报告称，frontier Chinese models 在低频已有歇后语和新歇后语之间的准确率差距明显大于 English-centric models，暗示其对稀有中文数据的记忆更重；同时 Gemini 3.1 Pro 在新歇后语理解上达到 92.6 accuracy。这篇论文是一个有文化特定性的 contamination probe，也提醒我们语言创造力可能仍弱于 benchmark reasoning 表现。",
+      "tags": [
+        "Chinese",
+        "reasoning",
+        "data contamination",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月底分享之自觉不错的blog第三篇",
+      "url": "https://www.rednote.com/explore/6a64e38b000000000c015bec?xsec_token=ABDUq_KHx31fejzSwSN4g__P0eq9mdAFliu0R3qV0towg%3D&xsec_source=pc_user",
+      "en": "tabris shares a monthly blog roundup covering high-quality JEPA writing, an admired author choice grounded in values, a basic piece to skip if already experienced, a strong historical review of LLM development, SkillOpt update-policy analysis, RoboTTT, agent-facing observability tooling, biotech-oriented posts, model-internals analysis, KTransformers, Kimi k3 and open-weights policy, Laguna S 2.1, Hyra, and a continual reinforcement learning introduction. The strongest reader-interest matches are the agent observability checklist, model-internals analysis, KTransformers, Kimi k3/open weights, and continual RL intro. Bottom line: 图7 (agent-facing observability checklist), 图9 (model internals analysis), 图10 (KTransformers), 图12 (Kimi k3 and open weights), 图18 (continual reinforcement learning introduction).",
+      "zh": "tabris 分享了月底 blog 推荐合集，包含高质量 JEPA 文章、让作者十分钦佩的价值观选择、已有经验者可跳过的基础内容、系统回顾 LLMs 发展历史的高质量旧文、SkillOpt update policies 的 three-part report、RoboTTT、agent-facing observability tooling、biotech 相关内容、use model internals 条件分析、KTransformers、Kimi k3 与 open weights policy、Laguna S 2.1、Hyra，以及至今最好的 continual reinforcement learning introduction。最贴近读者兴趣的是 agent observability checklist、model internals 分析、KTransformers、Kimi k3/open weights 和 continual RL introduction。一句话推荐: 图7 (agent-facing observability checklist), 图9 (model internals analysis), 图10 (KTransformers), 图12 (Kimi k3 and open weights), 图18 (continual reinforcement learning introduction).",
+      "tags": [
+        "agents",
+        "RL",
+        "open weights",
+        "Kimi"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "月底分享之自觉不错的paper第三篇",
+      "url": "https://www.rednote.com/explore/6a64ef46000000000e037e0e?xsec_token=ABDUq_KHx31fejzSwSN4g__OeSTluRzcI0eDF3ZXC8lZ8%3D&xsec_source=pc_user",
+      "en": "tabris shares the third monthly roundup of papers they personally found good, with the author specifically saying they relatively liked 图1 and 图16. Bottom line: tabris recommends 图1, 图16.",
+      "zh": "tabris 分享了月底自觉不错的 paper 第三篇，作者明确说个人相对喜欢图1和图16。一句话推荐: tabris recommends 图1, 图16.",
+      "tags": [
+        "papers",
+        "LLM"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "LaughBench",
+      "url": "https://www.lesswrong.com/posts/dduji8Hkwz2ASqzHi/laughbench",
+      "en": "LaughBench proposes novel joke generation as a benchmark for general intelligence, arguing that making someone laugh requires modeling their expectations and exploiting faulty assumptions. The author says frontier models such as GPT-5.6 Sol and Fable can sometimes make them smile but still fail to reliably produce laughter. It is subjective, but the benchmark is a useful critique of capability evals that can be gamed by memorized math or coding patterns.",
+      "zh": "LaughBench 提出把 novel joke generation 作为 general intelligence benchmark，理由是让人发笑需要建模对方预期，并利用其错误假设。作者说 GPT-5.6 Sol 和 Fable 等 frontier models 有时能让自己会心一笑，但仍无法稳定制造笑声。它很主观，但作为对容易被数学或 coding 模式记忆影响的 capability evals 的批评，仍有启发。",
+      "tags": [
+        "evaluation",
+        "reasoning",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Somebody out there wants you to fetch coffee",
+      "url": "https://www.lesswrong.com/posts/ukxtp629mmDs8Mtca/somebody-out-there-wants-you-to-fetch-coffee",
+      "en": "This LessWrong post argues that shutdown indifference is fragile once external agents and trade enter the picture. It extends objections to shutdown-problem solutions by claiming that even if an agent has no internal incentive to cause or prevent shutdown, outside parties can create incentives that break the intended property. The useful takeaway is a stronger criterion for shutdownability under interaction, not just isolated utility design.",
+      "zh": "这篇 LessWrong 文章认为，一旦引入外部 agent 和交易，shutdown indifference 就会变得脆弱。它扩展了对 shutdown-problem solution 的反驳：即使某个 agent 内部没有导致或阻止 shutdown 的激励，外部参与者也可能制造激励，破坏原本想要的性质。有用的 takeaway 是：shutdownability 的标准需要覆盖交互场景，而不只是孤立的 utility design。",
+      "tags": [
+        "alignment",
+        "shutdown",
+        "agents"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Replacing spaCy's Sentencizer with yasbd: 55.4% to 98.9%",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v8gsbd/replacing_spacys_sentencizer_with_yasbd_554_to_989/",
+      "en": "A r/LanguageTechnology post reports that replacing spaCy’s default Sentencizer with yasbd-lib improved a 92-case English edge-case sentence-boundary benchmark from 55.4% to 98.9%. The post highlights abbreviation-heavy cases such as M.D. and Ph.D., citations, URLs, and newline-heavy text as failure modes for punctuation-based sentence splitting. This is practical NLP tooling signal rather than frontier-model news.",
+      "zh": "一篇 r/LanguageTechnology 帖子称，用 yasbd-lib 替换 spaCy 默认 Sentencizer 后，在 92 个 English edge-case sentence-boundary benchmark 上从 55.4% 提升到 98.9%。帖子特别提到 M.D.、Ph.D. 这类 abbreviation-heavy case、citations、URLs 和 newline-heavy text 是基于标点分句的常见失败模式。这不是 frontier-model 新闻，但对实用 NLP tooling 有信号。",
+      "tags": [
+        "NLP",
+        "tooling",
+        "sentence segmentation"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-28T13:13:26.587Z"
+}

@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-28",
+    "count": 19,
+    "headline_en": "Agentic systems dominated the day, with attention shifting from raw model capability to workflows, context, memory, evaluation, and post-training methods that make AI useful in production.",
+    "generatedAt": "2026-07-28T13:13:26.587Z"
+  },
+  {
     "date": "2026-07-27",
     "count": 17,
     "headline_en": "Agentic systems dominated the day, from ChatGPT taking on real-world coordination work to compact agent models, memory benchmarks, self-evolving RL, and the compute buildout needed to serve them.",
