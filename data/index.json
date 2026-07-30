@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-30",
+    "count": 31,
+    "headline_en": "Agent evaluation, post-training durability, and practical model integration dominated the day, with stronger focus on measurable workflows over generic AI hype.",
+    "generatedAt": "2026-07-30T13:32:13.988Z"
+  },
+  {
     "date": "2026-07-29",
     "count": 24,
     "headline_en": "Agent reliability dominated the day, from Sol usage-efficiency fixes and agent-security incidents to a dense arXiv drop on tool use, evaluation, post-training, and multi-agent benchmarks.",
