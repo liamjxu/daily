@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-07-31",
+    "count": 32,
+    "headline_en": "The day’s signal clustered around agents leaving demos for real operations, with cheaper frontier APIs, physical-world deployments, and sharper evaluations for RAG, tool use, memory, post-training, and safety.",
+    "generatedAt": "2026-07-31T22:17:46.982Z"
+  },
+  {
     "date": "2026-07-30",
     "count": 31,
     "headline_en": "Agent evaluation, post-training durability, and practical model integration dominated the day, with stronger focus on measurable workflows over generic AI hype.",
