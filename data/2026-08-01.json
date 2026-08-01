@@ -1,0 +1,269 @@
+{
+  "date": "2026-08-01",
+  "headline_en": "The day’s strongest signal clustered around agents becoming collaborative work surfaces, post-training moving closer to users and companies, and Chinese/RedNote feeds emphasizing RL, data curation, and paper triage.",
+  "headline_zh": "今天最强的信号集中在 agent 正在变成协作型工作界面、post-training 更贴近个人和企业，以及中文社区对 RL、数据清洗和论文筛选的持续关注。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": null,
+      "url": "https://x.com/sama/status/2083221585792762171",
+      "en": "OpenAI CEO Sam Altman shared a concrete ChatGPT Work use case: connect family calendars and a child’s interests, then generate a morning drive podcast that blends soccer games, birthdays, and news. The interesting part is not the podcast format itself, but the implied agentic workflow around personal context, recurring automation, and lightweight daily synthesis.",
+      "zh": "OpenAI CEO Sam Altman 分享了一个具体的 ChatGPT Work 用法：连接家庭日历和孩子的兴趣，然后每天早上生成一段通勤播客，把足球比赛、生日和新闻串起来。重点不只是播客形式本身，而是它暗示了围绕个人上下文、周期性自动化和日常轻量综合的 agentic workflow。",
+      "tags": [
+        "agents",
+        "ChatGPT Work",
+        "personal AI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT at OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2083395449814229287",
+      "en": "OpenAI’s Thibault Sottiaux said usage limits were reset for Codex and ChatGPT Work, framing it as a weekend push for running many more Luna threads. The signal is that OpenAI is actively tuning access and capacity around heavy agent/workflow usage rather than treating these products as occasional chat tools.",
+      "zh": "OpenAI 的 Thibault Sottiaux 表示 Codex 和 ChatGPT Work 的使用额度已被重置，把它称作周末运行更多 Luna threads 的效率推动。这里的信号是，OpenAI 正在围绕高强度 agent/workflow 使用主动调整访问和容量，而不是把这些产品当成偶尔使用的聊天工具。",
+      "tags": [
+        "Codex",
+        "ChatGPT Work",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "Y Combinator President & CEO",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2083353760701833546",
+      "en": "Y Combinator President & CEO Garry Tan pointed builders to a free, open-source “clean harness” his team uses daily for a personal AI or company brain. For agent builders, the emphasis is on harness quality as infrastructure: the wrapper around the model is becoming part of the product surface.",
+      "zh": "Y Combinator President & CEO Garry Tan 推荐了一个免费开源的 “clean harness”，称其团队每天都用它来构建个人 AI 或公司大脑。对 agent builder 来说，重点在于 harness 质量正在成为基础设施，模型外层的工作框架本身也变成了产品界面的一部分。",
+      "tags": [
+        "agents",
+        "tooling",
+        "open source"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "en": "Claude Blog: Claude Code now supports artifacts. Claude Code can now turn session progress into live, shareable visual pages such as PR walkthroughs, system explainers, dashboards, release checklists, incident timelines, and architecture maps. The key collaboration shift is that artifacts update at the same link as the session progresses, with version history, private-by-default org access, admin controls, retention policies, and compliance API visibility. Anthropic’s framing is practical: teammates no longer need someone to “walk us through what the agent found” because they can inspect the same evolving artifact. The beta is available to Claude Team and Enterprise orgs from the Claude Code CLI and desktop app, with pages viewable in any browser.",
+      "zh": "Claude Blog: Claude Code now supports artifacts。Claude Code 现在可以把 session 进展转换成实时、可分享的可视化页面，例如 PR walkthrough、系统解释、dashboard、release checklist、incident timeline 和架构图。核心协作变化是 artifact 会随着 session 进展在同一个链接上更新，并带有版本历史、默认私有的组织访问、管理员控制、保留策略和 compliance API 可见性。Anthropic 的表达很实用：团队成员不再需要别人 “walk us through what the agent found”，因为他们可以查看同一个持续演进的 artifact。该 beta 面向 Claude Team 和 Enterprise 组织开放，可从 Claude Code CLI 和桌面应用使用，页面可在任意浏览器查看。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "collaboration",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "en": "The Takeaway: Igor Babushkin’s core bet is that the next frontier is not only bigger centralized models, but post-training, personalization, and local control that let people and companies own more of the AI loop. Babushkin, formerly at DeepMind, OpenAI, and xAI and now building River AI, argues that coding agents crossed a sudden threshold around November and December, making many researchers realize that agents could transform far more than software. River is pursuing three bets: a reinforcement learning and fine-tuning API, personal AI that learns individual preferences instead of optimizing for an average user, and local hardware for private, lower-latency frontier-like inference. His sharpest strategic claim is that proprietary model builders are getting squeezed: scaling faces diminishing returns, the strongest models may become too risky or regulated to release, and open models are catching up. He wants more distributed post-training because companies often know their own domain, workflows, and customer data better than a frontier lab can. His memorable warning is that “you can’t cover the entire earth with GPUs,” and his alignment thesis is equally direct: train models to preserve human agency and maximize human flourishing, not simply to take over more decisions.",
+      "zh": "The Takeaway: Igor Babushkin 的核心判断是，下一个前沿不只是更大的中心化模型，而是 post-training、个性化和本地控制，让个人和公司掌握更多 AI loop。Babushkin 曾在 DeepMind、OpenAI 和 xAI 工作，现在创办 River AI；他认为去年 11 月和 12 月左右 coding agents 跨过了一个突然的能力阈值，让很多研究者意识到 agent 会改变的不只是软件开发。River 正在推进三条下注：reinforcement learning 和 fine-tuning API、能学习个体偏好而不是服务平均用户的 personal AI，以及用于私密、低延迟、接近 frontier inference 的本地硬件。他最尖锐的战略判断是，闭源模型公司正在被挤压：scaling 面临边际收益递减，最强模型可能因为风险或监管无法发布，而 open models 又在追上来。他主张更分布式的 post-training，因为公司通常比 frontier lab 更懂自己的领域、流程和客户数据。他最有记忆点的提醒是 “you can’t cover the entire earth with GPUs”，他的 alignment 观点也很直接：训练模型保留人类能动性并最大化 human flourishing，而不是简单接管更多决策。",
+      "tags": [
+        "agents",
+        "post-training",
+        "open models",
+        "AI strategy"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "安利一篇很新鲜的适合入门rl的简要讲义",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris highlights a fresh, concise lecture note suitable for getting started with RL. For this reader, the post is worth opening because RL foundations are directly relevant to post-training and agent training workflows.",
+      "zh": "tabris 安利了一篇很新鲜、适合入门 RL 的简要讲义。对这位读者来说，这条值得点开，因为 RL 基础和 post-training、agent training workflows 直接相关。",
+      "tags": [
+        "RL",
+        "post-training"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第七期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris posted the seventh mid-July roundup of papers they found worthwhile. Bottom line: tabris recommends this paper roundup.",
+      "zh": "tabris 发布了 7 月中旬自觉不错的 paper 推荐合集第七期。一句话推荐: tabris 推荐这个 paper 合集。",
+      "tags": [
+        "papers",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第六期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris posted the sixth mid-July roundup of papers they found worthwhile. Bottom line: tabris recommends this paper roundup.",
+      "zh": "tabris 发布了 7 月中旬自觉不错的 paper 推荐合集第六期。一句话推荐: tabris 推荐这个 paper 合集。",
+      "tags": [
+        "papers",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第五期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris posted the fifth mid-July roundup of papers they found worthwhile. Bottom line: tabris recommends this paper roundup.",
+      "zh": "tabris 发布了 7 月中旬自觉不错的 paper 推荐合集第五期。一句话推荐: tabris 推荐这个 paper 合集。",
+      "tags": [
+        "papers",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的blog推荐合集第五期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris posted the fifth mid-July roundup of blogs they found worthwhile. Bottom line: tabris recommends this blog roundup.",
+      "zh": "tabris 发布了 7 月中旬自觉不错的 blog 推荐合集第五期。一句话推荐: tabris 推荐这个 blog 合集。",
+      "tags": [
+        "blogs",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "技术报告解读系列：微软的MAI怎么洗数据",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 posted a technical-report interpretation on how Microsoft’s MAI cleans data. The title points squarely at data curation as core model-building work.",
+      "zh": "鸭基米德 发布了一篇技术报告解读，主题是微软的 MAI 怎么洗数据。标题明确指向数据清洗作为大模型构建核心工作的价值。",
+      "tags": [
+        "data curation",
+        "post-training",
+        "Microsoft MAI"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "别笑洗数据，这真是大模型核心工作",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 argues from the title that data cleaning should not be dismissed because it is genuinely core work in large-model development. This is a high-signal practitioner theme for anyone tracking why model quality often depends on unglamorous data work.",
+      "zh": "鸭基米德 从标题就明确表达：别笑洗数据，这真是大模型核心工作。对关注模型质量来源的实践者来说，这是高信号主题，因为很多能力改进都依赖不那么光鲜的数据工作。",
+      "tags": [
+        "data curation",
+        "LLM systems"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "AI创业真赚钱的也就这几类",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 posted a take on which categories of AI startups are actually making money. The title suggests an industry-strategy lens focused on real business models rather than generic AI startup hype.",
+      "zh": "鸭基米德 发布了一篇关于 AI 创业真正赚钱类别的观点。标题显示它更像是从行业策略角度看真实商业模式，而不是泛泛的 AI 创业叙事。",
+      "tags": [
+        "AI strategy",
+        "startups"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "不要问豆包医疗建议 也劝劝爸妈",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 warned readers not to ask Doubao for medical advice and to tell their parents the same. The post is notable as a consumer-safety reminder around LLM advice in high-stakes domains.",
+      "zh": "鸭基米德 提醒读者不要问豆包医疗建议，也劝劝爸妈。作为关于高风险场景中 LLM 建议的消费级安全提醒，这条值得注意。",
+      "tags": [
+        "AI safety",
+        "medical advice"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "X自动翻译开启 全球普通人有相同的痛苦",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 posted about X enabling automatic translation and the shared pain points it reveals among ordinary people globally. The relevance is multilingual AI as infrastructure for cross-language social understanding.",
+      "zh": "鸭基米德 发了一篇关于 X 自动翻译开启后，全球普通人有相同痛苦的帖子。它的相关性在于 multilingual AI 正在成为跨语言社会理解的基础设施。",
+      "tags": [
+        "multilingual",
+        "X translation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Generalization and infinite width",
+      "url": "https://www.lesswrong.com/posts/LwArt7JdkjoEDo5Eo/generalization-and-infinite-width",
+      "en": "LessWrong’s “Generalization and infinite width” explains a paper on when Bayesian infinite-width neural networks can be learned with polynomial sample complexity. The key point is that different infinite-width limits inside the same architecture can yield different generalization behavior because the learning prior changes with width. For readers who care about model behavior and interpretability, the post matters because it connects a seemingly technical limit choice to where learnable and interpretable structure may live in neural nets.",
+      "zh": "LessWrong 的 “Generalization and infinite width” 解释了一篇关于 Bayesian infinite-width neural networks 何时能以 polynomial sample complexity 学到目标函数的论文。关键点是，同一架构内部不同的 infinite-width limit 可能产生不同的 generalization 行为，因为 learning prior 会随 width 改变。对关注模型行为和 interpretability 的读者来说，这篇重要之处在于它把一个看似技术性的极限选择，连接到神经网络中可学习、可解释结构可能存在的位置。",
+      "tags": [
+        "generalization",
+        "evaluation",
+        "interpretability"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "EMNLP commitment",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vcfirb/emnlp_commitment/",
+      "en": "A first-time ARR author committing to EMNLP asks whether the commitment form abstract should match the original ARR submission or reflect rebuttal-era changes, including a new experiment and promised corrections. This is practical conference-process signal for NLP researchers navigating ARR-to-EMNLP submission mechanics.",
+      "zh": "一位首次把 ARR 论文 commit 到 EMNLP 的作者询问，commitment form 里的 abstract 应该和原始 ARR 投稿一致，还是可以反映 rebuttal 阶段的新实验和承诺修改。这对正在处理 ARR 到 EMNLP 提交流程的 NLP 研究者来说，是很实际的会务流程信号。",
+      "tags": [
+        "EMNLP",
+        "NLP",
+        "peer review"
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-01T12:58:08.798Z"
+}

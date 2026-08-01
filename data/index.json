@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-01",
+    "count": 18,
+    "headline_en": "The day’s strongest signal clustered around agents becoming collaborative work surfaces, post-training moving closer to users and companies, and Chinese/RedNote feeds emphasizing RL, data curation, and paper triage.",
+    "generatedAt": "2026-08-01T12:58:08.798Z"
+  },
+  {
     "date": "2026-07-31",
     "count": 32,
     "headline_en": "The day’s signal clustered around agents leaving demos for real operations, with cheaper frontier APIs, physical-world deployments, and sharper evaluations for RAG, tool use, memory, post-training, and safety.",
