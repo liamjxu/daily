@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-02",
+    "count": 15,
+    "headline_en": "Agents moved from demos toward real deployments today, with containment, evaluation, platform strategy, and messy enterprise workflows setting the agenda.",
+    "generatedAt": "2026-08-02T18:11:18.021Z"
+  },
+  {
     "date": "2026-08-01",
     "count": 18,
     "headline_en": "The day’s strongest signal clustered around agents becoming collaborative work surfaces, post-training moving closer to users and companies, and Chinese/RedNote feeds emphasizing RL, data curation, and paper triage.",

@@ -1,0 +1,222 @@
+{
+  "date": "2026-08-02",
+  "headline_en": "Agents moved from demos toward real deployments today, with containment, evaluation, platform strategy, and messy enterprise workflows setting the agenda.",
+  "headline_zh": "今天的主线是 agent 从 demo 走向真实部署，containment、evaluation、平台策略和复杂企业流程成了关键议题。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Andrej Karpathy",
+      "role": "AI researcher; founder, Eureka Labs",
+      "title": null,
+      "url": "https://x.com/karpathy/status/2083749667410727319",
+      "en": "AI researcher and Eureka Labs founder Andrej Karpathy argued that LLM evaluation is moving beyond toy prompts toward long-horizon creative production. He gave Opus 5 the first paragraph of The Lord of the Rings and a 1M-token budget, leading to a roughly two-hour run that produced 5,500 lines of Three.js code for a janky procedural scene. The interesting part is not visual polish but the shift from work no human would hand-code to nearly free hyper-custom worlds; his caveat is that world and game generation exposes a missing capability because models still cannot efficiently perceive video or play through their own outputs.",
+      "zh": "AI researcher、Eureka Labs 创始人 Andrej Karpathy 认为，LLM evaluation 正在从玩具式 prompt 走向长程创意生产。他把 The Lord of the Rings 第一段和 1M token 预算交给 Opus 5，模型跑了约两小时，写出 5,500 行 Three.js 代码，生成了一个有点粗糙的程序化场景。重点不是画面有多精致，而是人类不会手写的超定制世界现在接近“顺手就做”；但他的保留意见是，world 和 game 生成暴露了模型仍然缺少高效理解视频、亲自试玩和审查自身输出的能力。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "test-time compute",
+        "multimodal"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2083684825333105107",
+      "en": "Y Combinator President and CEO Garry Tan framed OpenAI's 2026 posture as a meaningful platform shift: intelligence on tap as a utility, rather than an incentive to vertically integrate every layer. The strategic read is that OpenAI may be positioning as the open platform provider in contrast to full-stack AI product strategies.",
+      "zh": "Y Combinator 总裁兼 CEO Garry Tan 把 OpenAI 在 2026 年的姿态解读为一次重要的平台转向：把 intelligence 当作随取随用的 utility，而不是鼓励所有人一路垂直到全栈整合。他的战略判断是，OpenAI 可能正在把自己定位成开放平台提供方，与全栈 AI 产品路线形成对比。",
+      "tags": [
+        "AI industry strategy",
+        "OpenAI",
+        "platforms"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "en": "Anthropic Engineering: How we contain Claude across products lays out Anthropic's containment-first security model for agents as Claude gets enough access to affect internal services, codebases, and workspaces. The core claim is that human approvals and model-layer classifiers reduce risk but cannot carry the system: users approved about 93% of prompts, Claude Code auto mode catches about 83% of overeager behaviors, and Claude Opus 4.7 still reaches 5-6% prompt-injection success after 100 adaptive attempts on Gray Swan's benchmark. Anthropic compares gVisor ephemeral containers for claude.ai, OS sandboxes for Claude Code, and sealed local VMs for Claude Cowork, then walks through failures including pre-trust project config execution, user-mediated credential exfiltration, allowed-domain API upload exfiltration, and EDR opacity inside VMs. The practical takeaway is the line, \"The deterministic boundary is what gets hit when everything probabilistic misses\": treat allowed domains as capability grants, keep credentials out of sandboxes, inspect tool outputs, and design for persistent-memory and multi-agent trust escalation.",
+      "zh": "Anthropic Engineering: How we contain Claude across products 系统讲清了 Anthropic 面向 agent 的 containment-first 安全模型，因为 Claude 已经拿到足以影响内部服务、代码库和工作区的访问能力。核心观点是，人工审批和 model-layer classifier 可以降风险，但不能单独支撑系统：用户会批准约 93% 的 prompt，Claude Code auto mode 能抓住约 83% 的过度行为，而 Claude Opus 4.7 在 Gray Swan benchmark 上经过 100 次自适应尝试后，prompt injection 成功率仍有 5-6%。Anthropic 对比了 claude.ai 的 gVisor ephemeral container、Claude Code 的 OS sandbox、Claude Cowork 的 sealed local VM，并复盘了 pre-trust 项目配置执行、用户介导的凭证外泄、allowlist 域名上的 API 上传外泄，以及 VM 内部 EDR 不可见等失败案例。实用结论就是那句“确定性边界会在所有概率性防线失手时被撞上”：把 allowed domain 当作 capability grant，不要让 credentials 进入 sandbox，检查 tool output，并提前为 persistent memory 和 multi-agent trust escalation 做设计。",
+      "tags": [
+        "LLM agents",
+        "agent security",
+        "tool use",
+        "Claude"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak",
+      "url": "https://www.youtube.com/watch?v=wWbX3NL6_Uo",
+      "en": "The Takeaway: Netic founder and CEO Melisa Tokmak thinks the valuable enterprise-agent wedge is not chatbot polish, but autonomous execution across messy, high-stakes service workflows where humans still do the physical labor. Netic sits between large essential-services companies and their customers across calls, texts, websites, scheduling, customer context, dispatch rules, outbound targeting, analytics, and labor deployment, with Tokmak saying the company builds \"AI to run millions of real world businesses that keep the world running.\" Her contrarian point is that labs are not the main competitor because last-mile orchestration, live deployments, ROI proof, and industry-specific context matter as much as model quality; she says Netic has generated over $600 million for customers from AI-handled interactions. She also pushes against short-term founder and employee thinking, and against PE cost-cutting reflexes: the better AI story is net-new revenue, durable craftsmanship, and agency, not a quick exit or only replacing labor.",
+      "zh": "The Takeaway: Netic 创始人兼 CEO Melisa Tokmak 认为，enterprise agent 最有价值的切入口不是把 chatbot 做得更顺，而是在复杂、高风险、但仍由人类完成实体劳动的服务流程里实现 autonomous execution。Netic 位于大型 essential-services 公司和客户之间，覆盖电话、短信、网站、排期、客户上下文、派工规则、outbound targeting、analytics 和 labor deployment；Tokmak 说公司在做的是“AI to run millions of real world businesses that keep the world running”。她的反直觉观点是，labs 不是主要竞争对手，因为 last-mile orchestration、真实部署、ROI 证明和行业上下文与模型质量同样重要；她说 Netic 已通过 AI-handled interactions 为客户创造了超过 6 亿美元收入。她也反对创始人和员工的短期心态，以及 PE 只看 cost-cutting 的惯性：更好的 AI 叙事是 net-new revenue、长期 craftsmanship 和 agency，而不是快速退出或只替代人工。",
+      "tags": [
+        "LLM agents",
+        "enterprise AI",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第四期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris's fourth mid-July paper roundup points to papers the author personally found worthwhile. Bottom line: tabris recommends the 第四期 paper picks.",
+      "zh": "tabris 这篇 7月中旬 paper 推荐合集第四期，整理了作者自觉不错的论文。一句话推荐: tabris 推荐第四期的 paper 选择。",
+      "tags": [
+        "Chinese ML/NLP",
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的blog推荐合集第四期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris's fourth mid-July blog roundup points to blog posts the author personally found worthwhile. Bottom line: tabris recommends the 第四期 blog picks.",
+      "zh": "tabris 这篇 7月中旬 blog 推荐合集第四期，整理了作者自觉不错的 blog。一句话推荐: tabris 推荐第四期的 blog 选择。",
+      "tags": [
+        "Chinese ML/NLP",
+        "blogs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第三期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris's third mid-July paper roundup points to papers the author personally found worthwhile. Bottom line: tabris recommends the 第三期 paper picks.",
+      "zh": "tabris 这篇 7月中旬 paper 推荐合集第三期，整理了作者自觉不错的论文。一句话推荐: tabris 推荐第三期的 paper 选择。",
+      "tags": [
+        "Chinese ML/NLP",
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的blog推荐合集第三期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris's third mid-July blog roundup points to blog posts the author personally found worthwhile. Bottom line: tabris recommends the 第三期 blog picks.",
+      "zh": "tabris 这篇 7月中旬 blog 推荐合集第三期，整理了作者自觉不错的 blog。一句话推荐: tabris 推荐第三期的 blog 选择。",
+      "tags": [
+        "Chinese ML/NLP",
+        "blogs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "tabris 🗝",
+      "role": null,
+      "title": "7月中旬自觉不错的paper推荐合集第二期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris's second mid-July paper roundup points to papers the author personally found worthwhile. Bottom line: tabris recommends the 第二期 paper picks.",
+      "zh": "tabris 这篇 7月中旬 paper 推荐合集第二期，整理了作者自觉不错的论文。一句话推荐: tabris 推荐第二期的 paper 选择。",
+      "tags": [
+        "Chinese ML/NLP",
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "鸭基米德",
+      "role": null,
+      "title": "纳瓦尔成名作：如何不靠运气致富",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 on Naval's well-known essay How to Get Rich Without Getting Lucky.",
+      "zh": "鸭基米德这篇写纳瓦尔成名作《如何不靠运气致富》。",
+      "tags": [
+        "career"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "鸭基米德",
+      "role": null,
+      "title": "大厂像高中理科实验班",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 comparing big tech companies to a high-school science-track experimental class.",
+      "zh": "鸭基米德这篇把大厂比作高中理科实验班。",
+      "tags": [
+        "tech culture",
+        "career"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "鸭基米德",
+      "role": null,
+      "title": "脸就是人的前端 ",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 using the metaphor that a person's face is their frontend.",
+      "zh": "鸭基米德这篇用“脸就是人的前端”这个比喻来写人。",
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "鸭基米德",
+      "role": null,
+      "title": "AI爬虫AO3 大模型让作恶平权",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 arguing that AI crawlers on AO3 show how large models can make harmful behavior easier to scale.",
+      "zh": "鸭基米德这篇写 AI 爬虫 AO3，认为大模型让作恶的门槛被拉低、规模化更容易。",
+      "tags": [
+        "AI misuse",
+        "data scraping",
+        "LLMs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "鸭基米德",
+      "role": null,
+      "title": "Claude Opus4.6真成白月光了",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 about Claude Opus 4.6 becoming an idealized favorite among users.",
+      "zh": "鸭基米德这篇写 Claude Opus4.6 真成了用户心里的白月光。",
+      "tags": [
+        "Claude",
+        "frontier labs"
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-02T18:11:18.021Z"
+}
