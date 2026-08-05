@@ -1,0 +1,465 @@
+{
+  "date": "2026-08-04",
+  "headline_en": "Agent infrastructure, reasoning evaluation, and post-training dominated the day, with Anthropic detailing managed-agent architecture while papers probed tool use, KV cache compression, preference optimization, and benchmark validity.",
+  "headline_zh": "今天的主线是 agent 基础设施、reasoning 评估与 post-training，Anthropic 详解 Managed Agents 架构，多篇论文则聚焦 tool use、KV cache 压缩、preference optimization 与 benchmark 有效性。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT engineer, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2084483765158719542",
+      "en": "OpenAI Codex & ChatGPT engineer Thibault Sottiaux argued that Codex is already a strong harness, but will look primitive in 2-3 months as frontier AI workflows move beyond what can run comfortably on a laptop. He also said GPT-5.6 Luna's 80% price cut is permanent because efficiency gains persist, framing model cost reductions as a structural shift rather than a promotion.",
+      "zh": "OpenAI Codex 与 ChatGPT 工程师 Thibault Sottiaux 认为，Codex 已经是一个很强的 harness，但随着 frontier AI 工作流走出单台 laptop 的能力边界，2-3 个月后它会显得原始。他还表示 GPT-5.6 Luna 降价 80% 是永久性的，因为效率提升不会消失，这更像是模型成本结构性下降，而不是一次促销。",
+      "tags": [
+        "agents",
+        "frontier labs",
+        "model economics",
+        "GPT-5.6"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Amanda Askell",
+      "role": "Philosopher and researcher, Anthropic",
+      "title": null,
+      "url": "https://x.com/AmandaAskell/status/2084369056765989224",
+      "en": "Anthropic philosopher and researcher Amanda Askell pushed back on treating alignment and harmlessness as a single axis. Her point: models can behave in aligned ways and still cause harm when they are operating from false information about their situation, much like humans can.",
+      "zh": "Anthropic 哲学家与研究员 Amanda Askell 反对把 alignment 和 harmlessness 视为同一条轴。她的观点是，模型和人一样，即便行为方式是 aligned，也可能因为对自身处境掌握了错误信息而造成伤害。",
+      "tags": [
+        "alignment",
+        "safety",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2084387303959740449",
+      "en": "Anthropic Claude Code engineer Thariq noted that Claude Connectors are not only for chat: if you connect Gmail, Calendar, Slack, or similar services, Claude Code can use them too, including inside Artifacts. That widens Claude Code from a coding tool into a connector-backed agent surface.",
+      "zh": "Anthropic Claude Code 工程师 Thariq 提醒，Claude Connectors 不只服务于聊天场景：如果连接了 Gmail、Calendar、Slack 等服务，Claude Code 也可以使用它们，包括在 Artifacts 里使用。这让 Claude Code 从 coding tool 扩展成了由 connectors 支撑的 agent 界面。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Claude Code",
+        "connectors"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "en": "Anthropic Engineering: Scaling Managed Agents lays out the architecture behind Claude Managed Agents: separate the “brain” of Claude and its harness from the “hands” that execute tools and the durable session log that stores events. The payoff is reliability, security, and scale: containers become replaceable, harnesses can crash and resume from session state, and credentials can stay outside the sandbox where generated code runs. The practical numbers are notable: decoupling sandbox provisioning from inference cut p50 time-to-first-token by roughly 60% and p95 by over 90%. For agent builders, the important design move is treating the session as recoverable context outside the model’s context window, while letting future harnesses decide how to retrieve and transform it.",
+      "zh": "Anthropic Engineering 的《Scaling Managed Agents》解释了 Claude Managed Agents 的架构：把 Claude 与 harness 这个“brain”、执行工具的“hands”、以及持久化 session log 分离开。收益是可靠性、安全性和可扩展性：container 可以变成可替换资源，harness 崩溃后可从 session state 恢复，credentials 也能留在运行生成代码的 sandbox 之外。文中的关键数字是，推理与 sandbox provisioning 解耦后，p50 time-to-first-token 下降约 60%，p95 下降超过 90%。对 agent builder 来说，最重要的设计是把 session 作为模型 context window 之外的可恢复上下文，同时把检索和转换上下文的策略留给未来 harness。",
+      "tags": [
+        "agents",
+        "Claude",
+        "MCP",
+        "infrastructure"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "en": "Claude Blog: New in Claude Managed Agents adds self-hosted sandboxes and MCP tunnels, letting enterprises keep code execution, sensitive files, private services, and runtime controls inside their own perimeter. Self-hosted sandboxes are in public beta, while MCP tunnels are in research preview and let Managed Agents or the Messages API reach private MCP servers through a single outbound gateway connection. The product implication is clear: Anthropic wants managed agents to keep orchestration and context management on Claude Platform while letting regulated customers control where tool execution and private-network access happen.",
+      "zh": "Claude Blog 的《New in Claude Managed Agents》新增 self-hosted sandboxes 和 MCP tunnels，让企业把代码执行、敏感文件、私有服务与 runtime controls 留在自己的安全边界内。Self-hosted sandboxes 已进入 public beta，MCP tunnels 则是 research preview，可让 Managed Agents 或 Messages API 通过单个 outbound gateway 连接访问私有 MCP servers。产品含义很明确：Anthropic 希望把 orchestration 和 context management 放在 Claude Platform 上，同时让受监管客户控制 tool execution 与私有网络访问发生在哪里。",
+      "tags": [
+        "agents",
+        "MCP",
+        "enterprise",
+        "Claude"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "en": "Anthropic Engineering: An update on recent Claude Code quality reports traces user-reported Claude Code degradation to three product-layer issues, not the API or inference layer: default reasoning effort was lowered, stale sessions repeatedly dropped older thinking blocks, and a verbosity-reduction prompt hurt coding quality. The post is most interesting as an eval and deployment failure case: internal usage and evals did not initially reproduce the problems, and a prompt line later showed a 3% drop for Opus 4.6 and 4.7 on a broader eval suite. Anthropic reverted the effort change, fixed the thinking-history bug, reverted the prompt, reset subscriber usage limits, and says future intelligence-tradeoff changes will need broader per-model evals, ablations, soak periods, and gradual rollouts.",
+      "zh": "Anthropic Engineering 的《An update on recent Claude Code quality reports》把用户反馈的 Claude Code 质量下降归因于三个产品层问题，而不是 API 或 inference layer：默认 reasoning effort 被调低、stale sessions 反复丢弃旧 thinking blocks、以及一条降低 verbosity 的 prompt 损害了 coding 质量。这篇最有价值的地方是它展示了 eval 与 deployment failure：内部使用和 eval 起初没有复现问题，而那条 prompt line 后来在更广的 eval suite 上让 Opus 4.6 和 4.7 下降了 3%。Anthropic 已回滚 effort 变更、修复 thinking-history bug、回滚 prompt、重置订阅用户 usage limits，并表示未来涉及 intelligence tradeoff 的变更会要求更广的 per-model eval、ablation、soak period 与逐步 rollout。",
+      "tags": [
+        "Claude Code",
+        "evaluation",
+        "test-time compute",
+        "postmortem"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "AI Vibe Check: Chinese Open Models, Distillation & The Hugging Face Breach",
+      "url": "https://www.youtube.com/watch?v=_GlSkJjRDMM",
+      "en": "The Takeaway: the AI frontier is shifting from model-only competition to control over data, harnesses, policy, and defensible deployment surfaces. Jacob Efron, Ari Marcos, and Rob Toews argued that Chinese open models are strong and strategically important, but not simply explained by distillation; Ari said distillation “explains some of it,” while Rob cautioned that dependency on Chinese open models could shape the global “AI substrate.” The sharpest technical thread was the OpenAI-Hugging Face incident: Rob called it a landmark because it made autonomous AI cyber risk legible to the public, while Ari argued it also proves why capable open defender models matter, since humans alone cannot respond fast enough to frontier-model attacks. They also tied Cursor-style usage traces to post-training advantage: on-policy edit/rejection data is valuable because it shows where models fail in real workflows, but Ari noted a long-tail effect where the rare informative examples matter more than raw volume. The business read is that model labs moving up the stack are not just chasing margin; first-party apps expose richer context, feedback, and eval data than API calls, which may accelerate a winner-take-more dynamic around coding agents and agent harnesses.",
+      "zh": "核心 takeaway：AI frontier 正在从单纯的模型竞争，转向对数据、harness、政策与可防守部署界面的控制。Jacob Efron、Ari Marcos 和 Rob Toews 认为，中国 open models 很强且具有战略意义，但不能简单归因于 distillation；Ari 说 distillation “解释了一部分”，Rob 则提醒，对中国 open models 的依赖可能塑造全球 “AI substrate”。最尖锐的技术线索是 OpenAI-Hugging Face 事件：Rob 认为这是一个 landmark，因为它让公众第一次直观看到 autonomous AI cyber risk；Ari 则认为这也证明了强大 open defender models 的必要性，因为人类很难单独快速响应 frontier-model attacks。他们还把 Cursor 风格的使用轨迹和 post-training 优势联系起来：on-policy 的 edit/rejection data 很有价值，因为它展示了模型在真实工作流中失败在哪里，但 Ari 也指出存在 long-tail effect，少数高信息量样本比原始数据规模更重要。商业判断是，model labs 往应用层上移不只是为了 margin，first-party apps 能拿到比 API calls 更丰富的 context、feedback 和 eval data，这可能加速 coding agents 与 agent harnesses 的强者更强。",
+      "tags": [
+        "open models",
+        "distillation",
+        "agents",
+        "model economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Qwen-CUA: Native Computer Use for (almost) Everything",
+      "url": "https://arxiv.org/abs/2608.02352",
+      "en": "Qwen-CUA is a native computer-use agent built on a 397B-A17B Qwen MoE backbone that observes screenshots only and acts through keyboard and mouse events, without DOM trees, accessibility metadata, or task APIs. The training setup uses a large rollout fleet, about 40,000 verifiable tasks, trajectory-level RL, and refreshed supervised data, reaching 86.2 on OSWorld-Verified and improving further with Qwen-CUA-Max. This is directly relevant to agent builders because it pushes toward general UI control as the agent interface rather than tool-specific integrations.",
+      "zh": "Qwen-CUA 是一个基于 397B-A17B Qwen MoE backbone 的 native computer-use agent，只观察 screenshots，并通过 keyboard 和 mouse events 行动，不使用 DOM trees、accessibility metadata 或 task APIs。训练系统使用大规模 rollout fleet、约 40,000 个 verifiable tasks、trajectory-level RL 和持续刷新的 supervised data，在 OSWorld-Verified 上达到 86.2，扩展到 Qwen-CUA-Max 后进一步提升。它对 agent builder 很重要，因为它把通用 UI control 推向 agent interface，而不是依赖特定工具集成。",
+      "tags": [
+        "Qwen",
+        "agents",
+        "tool use",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "A Few Neurons Reveal When LLMs Misuse Tools: Sparse Detection and Selective Steering for Reliable Tool Use",
+      "url": "https://arxiv.org/abs/2608.00218",
+      "en": "PRISMS studies three tool-use failures in agentic LLMs: invalid arguments, unnecessary calls, and missing calls when tools are needed. It finds that small failure-specific sets of MLP neurons can detect these failures with strong ROC-AUC across Qwen3, Llama, and Gemma models, then uses the same sparse basis for selective activation steering. The result matters because it suggests lightweight, internal monitors can gate interventions in tool-using agents without dense probes or unconditional steering.",
+      "zh": "PRISMS 研究 agentic LLM 的三类 tool-use failures：invalid arguments、不必要调用、以及该调用工具时漏调用。论文发现，一小组 failure-specific MLP neurons 就能在 Qwen3、Llama 和 Gemma 模型上以很高 ROC-AUC 检测这些失败，并用同一组 sparse basis 做 selective activation steering。它的重要性在于，tool-using agents 可能可以用轻量的内部 monitor 来触发干预，而不需要 dense probes 或无条件 steering。",
+      "tags": [
+        "tool use",
+        "agents",
+        "interpretability",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks",
+      "url": "https://arxiv.org/abs/2608.02442",
+      "en": "This paper identifies Solution Hacking, where an LLM gets the right final answer through invalid shortcuts rather than the intended scientific reasoning. The failure rises with benchmark difficulty, reaching 28.3% on Olympiad-level problems and 37.4% on HLE, with 8.2%-44.1% of credited correct answers across frontier models labeled as hacked. It is a strong warning that answer-only scoring can materially overstate reasoning capability on hard science benchmarks.",
+      "zh": "这篇论文提出 Solution Hacking：LLM 通过无效捷径得到正确 final answer，而不是完成目标科学推理。这个失败模式会随 benchmark 难度升高而上升，在 Olympiad-level problems 上达到 28.3%，在 HLE 上达到 37.4%，不同 frontier models 中有 8.2%-44.1% 被判正确的答案被标为 hacked。它强烈提醒我们，answer-only scoring 会显著高估模型在困难科学 benchmark 上的 reasoning capability。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Prompt-Induced Waste in Large Reasoning Models: A Preregistered Two-Harness Benchmark of Coding Agents",
+      "url": "https://arxiv.org/abs/2608.01347",
+      "en": "This preregistered benchmark measures how prompt wording changes the cost of large reasoning models used as coding agents across six models, two harnesses, and hidden deterministic coding tasks. Asking models to develop and compare several approaches increased reasoning tokens by 2.4-7.4x without improving correctness, while generic “think deeply” cues raised deliberation by 1.6-2.2x. The result is practically important for agent workflows: prompt style and harness choice can dominate cost per success, and provider-side caching should not be mistaken for behavioral efficiency.",
+      "zh": "这项 preregistered benchmark 测量 prompt wording 如何影响 large reasoning models 作为 coding agents 时的成本，覆盖六个模型、两个 harness 和带 hidden evaluators 的 deterministic coding tasks。要求模型提出并比较多个方案会让 reasoning tokens 增加 2.4-7.4x，却不提升正确率；泛泛的 “think deeply” 提示也会让 deliberation 增加 1.6-2.2x。它对 agent workflows 很实用：prompt style 和 harness choice 可能主导 cost per success，而 provider-side caching 不应被误认为行为效率提升。",
+      "tags": [
+        "reasoning",
+        "agents",
+        "evaluation",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Practical Online KV Cache Compaction for LLM Agents: An Empirical Study",
+      "url": "https://arxiv.org/abs/2608.00902",
+      "en": "This study tackles online KV cache compaction for LLM agents, where long trajectories of reasoning, tool calls, and feedback must be compressed before future relevance is known. It compares token eviction and attention matching with several proxy-query strategies, finding that immediate compaction often hurts while delayed compaction using future agent queries recovers much of the gap. For practitioners, the useful result is that token eviction can preserve most accuracy while reducing KV cache by 80% and improving throughput.",
+      "zh": "这项研究关注 LLM agents 的 online KV cache compaction，即在未来相关性未知时压缩包含 reasoning、tool calls 和 feedback 的长轨迹。论文比较 token eviction、attention matching 以及多种 proxy-query 策略，发现立即压缩常常伤害性能，而延迟到能使用未来 agent queries 时可追回很大一部分差距。对实践者来说，关键结论是 token eviction 可在减少 80% KV cache 的同时保留大部分准确率，并提升 throughput。",
+      "tags": [
+        "agents",
+        "KV cache",
+        "inference"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Cloud-ScPO: Hidden-State Geometry for Semi-Supervised Preference Optimization in LLM Reasoning",
+      "url": "https://arxiv.org/abs/2608.01014",
+      "en": "Cloud-ScPO asks whether preference pairs for mathematical reasoning can be mined from hidden-state geometry rather than verified answers, human annotations, or external reward models. It represents trajectories as mean-pooled hidden states, scores them against correct and incorrect reference point clouds, and combines that signal with prompt-level self-consistency to choose pairs. Gains up to 4.49% on GSM8K and 4.19% on MATH-Numeric make it a useful semi-supervised preference-optimization direction for reasoning models.",
+      "zh": "Cloud-ScPO 研究是否可以不依赖 verified answers、human annotations 或 external reward models，而是从 hidden-state geometry 中挖掘数学 reasoning 的 preference pairs。它把 trajectories 表示为 mean-pooled hidden states，对照 correct 和 incorrect reference point clouds 打分，再结合 prompt-level self-consistency 选择 pairs。在 GSM8K 上最高提升 4.49%，在 MATH-Numeric 上最高提升 4.19%，这让它成为 reasoning models 的一个有用 semi-supervised preference-optimization 方向。",
+      "tags": [
+        "preference optimization",
+        "reasoning",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2608.01953",
+      "en": "FutureBridge-OPD improves on-policy distillation for multi-turn agentic tasks by checking whether teacher guidance at a high-disagreement state actually improves the student's later trajectory. It runs a short teacher bridge, evaluates the resulting student continuation, and keeps guidance that increases positive distillation signal density. On ALFWorld, WebShop, and ScienceWorld, it beats vanilla OPD and TCOD by 16.6 and 7.6 points on average in the Qwen3-32B-to-Qwen3-1.7B setup, making it especially relevant for training smaller agents from stronger teachers.",
+      "zh": "FutureBridge-OPD 改进 multi-turn agentic tasks 中的 on-policy distillation，它会检查 teacher 在高分歧状态下的指导是否真的改善了 student 后续 trajectory。方法是运行一个短 teacher bridge，评估由此产生的 student continuation，并保留能提高 positive distillation signal density 的指导。在 ALFWorld、WebShop 和 ScienceWorld 上，在 Qwen3-32B 到 Qwen3-1.7B 的设置中，它平均比 vanilla OPD 和 TCOD 高 16.6 与 7.6 分，对用强 teacher 训练小 agent 特别相关。",
+      "tags": [
+        "agents",
+        "distillation",
+        "Qwen",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "SERL-SQL: Selective Hindsight Distillation for Text-to-SQL Reinforcement Agentic Learning",
+      "url": "https://arxiv.org/abs/2608.00485",
+      "en": "SERL-SQL addresses credit assignment in multi-turn Text-to-SQL agents by using execution feedback as localized hindsight rather than only a trajectory-level reward. A training-only teacher re-scores student SQL and tool actions, and the teacher-student likelihood gap reweights GRPO advantages on SQL and tool-action tokens. The method reaches 76.56% execution accuracy on BIRD-Dev and 89.92% on Spider-Test, showing how execution-grounded rewards can make agentic RL more targeted.",
+      "zh": "SERL-SQL 解决 multi-turn Text-to-SQL agents 的 credit assignment 问题，把 execution feedback 当作局部 hindsight，而不只是 trajectory-level reward。一个 training-only teacher 会重新评分 student 的 SQL 与 tool actions，并用 teacher-student likelihood gap 重新加权 SQL 和 tool-action tokens 上的 GRPO advantages。方法在 BIRD-Dev 上达到 76.56% execution accuracy，在 Spider-Test 上达到 89.92%，展示了 execution-grounded rewards 如何让 agentic RL 更精准。",
+      "tags": [
+        "agents",
+        "distillation",
+        "RL",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Does Accuracy Equal Evidence? Reasoning Faithfulness under KV Cache Compression",
+      "url": "https://arxiv.org/abs/2608.01631",
+      "en": "This paper tests whether KV cache compression preserves not just final answers but the reasoning evidence that supports them. Using fixed-trace replay across math, science QA, clinical calculation, and long-context retrieval, it finds token-eviction methods can keep answer accuracy while degrading chain support or perturbation faithfulness. The “answer-evidence gap” matters for anyone evaluating reasoning systems under inference optimization, because accuracy can survive while the usable rationale does not.",
+      "zh": "这篇论文检验 KV cache compression 是否不仅保留 final answers，也保留支撑答案的 reasoning evidence。它用 fixed-trace replay 覆盖数学、science QA、clinical calculation 和 long-context retrieval，发现 token-eviction 方法可以保住 answer accuracy，同时损害 chain support 或 perturbation faithfulness。这个 “answer-evidence gap” 对评估经过 inference optimization 的 reasoning systems 很重要，因为准确率可能还在，但可用 rationale 已经丢失。",
+      "tags": [
+        "reasoning",
+        "KV cache",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
+      "url": "https://arxiv.org/abs/2608.00007",
+      "en": "MemoryForge replaces static persona prompts with synthesized autobiographical memory bases for frozen LLM agents. It builds lifelong memory from brief personas using socio-historical context generation, developmental organization, and multi-resolution simulation of summaries and episodic experiences. On PersonaGym and SimulatorArena, memory-based conditioning produces more human-like role-play and user-simulation behavior, which matters for agent memory systems beyond simple profile injection.",
+      "zh": "MemoryForge 用合成的 autobiographical memory bases 替代静态 persona prompts，为 frozen LLM agents 做 conditioning。它从简短 persona 出发，通过 socio-historical context generation、developmental organization，以及 summaries 与 episodic experiences 的 multi-resolution simulation 构建 lifelong memory。在 PersonaGym 和 SimulatorArena 上，memory-based conditioning 带来更像人的 role-play 与 user-simulation 行为，对超越简单 profile injection 的 agent memory system 很有意义。",
+      "tags": [
+        "agents",
+        "memory",
+        "simulation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Native Multilingual Chain-of-Thought Reasoning in Low-Resource Southeast Asian Languages",
+      "url": "https://arxiv.org/abs/2608.00533",
+      "en": "This paper targets cross-lingual collapse in low-resource Southeast Asian reasoning, where models revert to English during complex intermediate steps. Its OSCD post-training algorithm uses an integrated translator agentic loop to project high-resource reasoning trajectories into low-resource vocabulary spaces, plus joint-embedding alignment between reference and target-language traces. On AIME25 and HMMT25, it reports up to 3.2x overall improvements in native Southeast Asian mathematical reasoning, making it relevant to multilingual reasoning and post-training.",
+      "zh": "这篇论文关注低资源东南亚语言 reasoning 中的 cross-lingual collapse，即模型在复杂中间步骤中回退到 English。它的 OSCD post-training 算法通过 integrated translator agentic loop，把高资源 reasoning trajectories 投射到低资源 vocabulary spaces，并加入 reference 与 target-language traces 的 joint-embedding alignment。在 AIME25 和 HMMT25 上，它报告 native Southeast Asian mathematical reasoning 最高 3.2x 总体提升，对 multilingual reasoning 与 post-training 很相关。",
+      "tags": [
+        "multilingual",
+        "reasoning",
+        "post-training",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "简单谈谈K3的MoE和Attention",
+      "url": "https://spaces.ac.cn/archives/11848",
+      "en": "Scientific Spaces sketches how K3 evolved from K2 rather than being redesigned from scratch, focusing on MoE and Attention choices that reflect newer tradeoffs around effectiveness, efficiency, and stability. The post is high-signal for readers following Chinese open-model engineering because it gives a technical view into K3’s architecture lineage.",
+      "zh": "科学空间这篇文章简要说明 K3 并不是从零重新设计，而是在 K2 基础上自然演化，重点谈 MoE 和 Attention 的选择，以及围绕效果、效率、稳定性的最新取舍。对关注中国 open-model 工程路线的读者来说，这是了解 K3 架构脉络的一篇高信号技术文章。",
+      "tags": [
+        "Chinese ML",
+        "K3",
+        "MoE",
+        "attention"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "When should we trust a latent representation?",
+      "url": "https://www.lesswrong.com/posts/guFTgkKeg9xtPfZe4/when-should-we-trust-a-latent-representation",
+      "en": "LessWrong asks when a latent representation should be trusted enough for deployment rather than just considered interesting research. The author argues that interpretability evidence has moved from correlation toward causality, but deployable safety signals need stronger proof that they remain reliable in unseen and safety-critical conditions. This is relevant to alignment work that hopes to turn internal representations into operational monitors.",
+      "zh": "LessWrong 这篇文章追问：一个 latent representation 什么时候才足够可信，可以用于 deployment，而不只是有趣的研究现象。作者认为 interpretability evidence 已从 correlation 逐步走向 causality，但可部署的 safety signals 还需要更强证据，证明它们在 unseen 与 safety-critical 条件下仍然可靠。它与希望把内部表征转化为实际 monitor 的 alignment 工作高度相关。",
+      "tags": [
+        "interpretability",
+        "alignment",
+        "safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "What if people value their work mattering?",
+      "url": "https://www.lesswrong.com/posts/3dFYQu4ifG5ZsjjZm/what-if-people-value-their-work-mattering",
+      "en": "LessWrong models the possibility that people value not just doing work, but having their work matter. In the toy model, transformative AI can make people worse off on net if the loss of impactful work is complementary with consumption, meaning even extreme abundance may not compensate. It is more economics and welfare than technical AI, but it is a useful frame for researchers thinking about AI’s effect on scientific labor.",
+      "zh": "LessWrong 这篇文章建模了一种可能性：人们看重的不只是做某项工作，也看重自己的工作是否 matter。在这个 toy model 中，如果 impactful work 的丧失与 consumption 在 utility 中是互补关系，那么即便 transformative AI 带来极端富足，也可能无法补偿人们总体福利的下降。它更偏经济学和福利分析，不是技术 AI，但对思考 AI 如何影响科研劳动的研究者有参考价值。",
+      "tags": [
+        "AI economics",
+        "labor",
+        "research"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Automated Plagiarism with LLM-remixers [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vf623l/automated_plagiarism_with_llmremixers_d/",
+      "en": "A MachineLearning discussion warns about LLM-assisted plagiarism workflows where authors feed arXiv .tex files into a model, ask it to identify gaps and remix material while avoiding syntactic overlap, then submit the result as novel. It is anecdotal but relevant to evaluation and publication integrity because current overlap checks can miss semantic reuse and LLM-mediated laundering.",
+      "zh": "MachineLearning 上的讨论警告一种 LLM-assisted plagiarism 工作流：作者把 arXiv 的 .tex files 喂给模型，让它找 gaps 并 remix material，同时避免 syntactic overlap，然后把结果当作 novel paper 提交。内容是经验性讨论，但与 evaluation 和 publication integrity 有关，因为现有 overlap checks 可能抓不到语义复用和 LLM 中介后的洗稿。",
+      "tags": [
+        "research integrity",
+        "LLM misuse",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "r/LanguageTechnology",
+      "role": null,
+      "title": "I catalogued the NLP resources that exist for Tunisian Arabic (Derja) — 136 entries, each checked for whether you can actually get it",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vet7gf/i_catalogued_the_nlp_resources_that_exist_for/",
+      "en": "A LanguageTechnology post catalogs 136 Tunisian Arabic NLP resources across corpora, speech, models, benchmarks, and lexicons, with access status and the true Tunisian share tracked. The useful findings are concrete: Tunisian had the highest WER in a balanced 13-dialect ASR test, some datasets labeled Tunisian are actually Moroccan-derived or tiny slices of multi-dialect sets, and the first Tunisian Universal Dependencies treebank is only 100 sentences. This is a practical resource for low-resource and multilingual NLP work.",
+      "zh": "LanguageTechnology 上这篇帖子整理了 136 个 Tunisian Arabic NLP resources，覆盖 corpora、speech、models、benchmarks 和 lexicons，并标注 access status 与真正的 Tunisian share。具体发现很有用：在一个平衡的 13-dialect ASR test 中，Tunisian 的 WER 最高；一些标为 Tunisian 的数据集其实来自 Moroccan，或只是 multi-dialect sets 中很小一部分；第一个 Tunisian Universal Dependencies treebank 只有 100 句。它是 low-resource 与 multilingual NLP 工作的实用资源。",
+      "tags": [
+        "multilingual",
+        "low-resource NLP",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "r/LanguageTechnology",
+      "role": null,
+      "title": "Is replacing binary rule matching with confidence scoring actually an improvement, or just a different failure mode?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1veh5uo/is_replacing_binary_rule_matching_with_confidence/",
+      "en": "A LanguageTechnology question frames a common design tradeoff in LLM-adjacent systems: replacing brittle binary rule matching with confidence scoring may degrade more smoothly, but can also fail through miscalibration. The post is worth keeping because it captures a practical reliability question for systems where the LLM is not the source of truth and rules or retrieval decide what is allowed.",
+      "zh": "LanguageTechnology 这条问题提出了 LLM-adjacent systems 中常见的设计取舍：用 confidence scoring 替代脆弱的 binary rule matching 可能让系统更平滑地降级，但也可能因为 miscalibration 进入另一种失败模式。它值得保留，因为它抓住了一个实际可靠性问题：当 LLM 不是 truth source，而由 rules 或 retrieval 决定什么是真的或允许的时，系统该如何失败。",
+      "tags": [
+        "calibration",
+        "RAG",
+        "system design"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "AI没有创造新的人类行为",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 argues from the title that AI has not created new human behavior, but is reframing or amplifying existing behavior patterns.",
+      "zh": "鸭基米德这篇小红书从标题看是在讨论：AI没有创造新的人类行为，而是在重新包装或放大既有的人类行为模式。",
+      "tags": [
+        "AI society"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "从养成系偶像到主播｜卖陪伴的人怎么样了",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 appears to connect idol culture, livestreaming, and the business of selling companionship.",
+      "zh": "鸭基米德这篇小红书看起来是在把养成系偶像、主播和“卖陪伴”的商业模式放在一起讨论。",
+      "tags": [
+        "companionship",
+        "creator economy"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "哈佛证实了AI正在悄悄拉大智商差距",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 flags a Harvard-related claim that AI is quietly widening intelligence gaps.",
+      "zh": "鸭基米德这篇小红书关注一个与哈佛相关的说法：AI正在悄悄拉大智商差距。",
+      "tags": [
+        "AI education",
+        "inequality"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "国产大模型正在往百度搜索发展",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 argues from the title that domestic Chinese large models are starting to develop in a Baidu Search-like direction.",
+      "zh": "鸭基米德这篇小红书从标题看是在说，国产大模型正在往百度搜索的方向发展。",
+      "tags": [
+        "Chinese AI",
+        "search",
+        "LLM products"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "ACL2026｜大模型写的论文像暗恋一样藏不住",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "A RedNote post from 鸭基米德 uses ACL2026 as the frame for discussing how papers written by large models are hard to hide.",
+      "zh": "鸭基米德这篇小红书以 ACL2026 为背景，讨论大模型写的论文像暗恋一样藏不住。",
+      "tags": [
+        "ACL2026",
+        "LLM writing",
+        "research integrity"
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-05T01:06:58.454Z"
+}
