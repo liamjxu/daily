@@ -1,0 +1,404 @@
+{
+  "date": "2026-08-05",
+  "headline_en": "Agent reliability and evaluation dominated the day, from tool-use planning and memory to post-training, multilingual benchmarks, and scaling-law arguments beyond language.",
+  "headline_zh": "今天的主线是 agent 可靠性与评测，从 tool-use 规划和 memory，到 post-training、多语言 benchmark，以及把 scaling law 推向语言之外的产业思路。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2084746170576892342",
+      "en": "Josh Woodward, VP at Google, Google Labs, GeminiApp, and Google AI Studio, said Notebook is being designed around a single unified prompt bar rather than mode-switching. Ultra and Pro subscribers can use it now, with a broader rollout coming next, making this a concrete product-direction signal for Google's AI workspace UX.",
+      "zh": "Josh Woodward 是 Google、Google Labs、GeminiApp 和 Google AI Studio 的 VP。他表示 Notebook 的设计重点是一个统一的 prompt bar，而不是让用户在多个模式之间切换；Ultra 和 Pro 订阅用户现在可以使用，之后会面向更多用户推出，这也是 Google AI workspace UX 的一个明确产品信号。",
+      "tags": [
+        "frontier labs",
+        "AI UX",
+        "Gemini"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "Chai Discovery's Bitter Lesson: Drug Design Is Another Scaling Problem",
+      "url": "https://www.youtube.com/watch?v=wv53mDmY-k0",
+      "en": "The Takeaway: Chai Discovery is betting that drug design becomes an engineering discipline once models, data, compute, and wet-lab verification form a tight scaling loop. Chai Discovery cofounders Josh and Matt argue that biology is less bespoke than it looks, saying, \"we really believe in scaling data, scaling models, scaling compute.\" Their key proof point is antibody design: the stated prior state of the art was about a 0.1% binding rate, while Chai2 reached about 15%, enough to move from screening giant libraries toward zero-shot molecule generation. The business choice is also strategic: Chai is building infrastructure for pharma partners rather than its own drug pipeline, because partner pressure forces generalization and lets more resources go back into better models.",
+      "zh": "核心结论：Chai Discovery 押注的是，当模型、数据、compute 和 wet-lab verification 形成紧密的 scaling loop，drug design 就会从发现式试错变成工程学。Chai Discovery 联合创始人 Josh 和 Matt 认为 biology 并没有看起来那么定制化，他们说：“我们真的相信 scaling data、scaling models、scaling compute。” 他们给出的关键证据是 antibody design：此前 state of the art 的 binding rate 大约是 0.1%，而 Chai2 达到约 15%，这足以把路线从大规模 library screening 推向 zero-shot molecule generation。商业选择也很关键：Chai 做的是面向 pharma partners 的基础设施，而不是自建 drug pipeline，因为伙伴压力会逼迫模型泛化，也能让更多资源继续投入到更强的模型。",
+      "tags": [
+        "scaling laws",
+        "AI biology",
+        "evaluation",
+        "compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+      "url": "https://arxiv.org/abs/2608.02650",
+      "en": "HyperAgent makes tool-use planning explicit by representing tools as hyperedges from required input schemas to output schemas. It extracts a task-relevant tool context graph, builds a schema-aware Task DAG, and during execution expands a support graph around missing requirements in the current state. On AppWorld, it improves task completion while reducing redundant API calls, LLM interactions, and token use, which is directly relevant to robust agent orchestration.",
+      "zh": "HyperAgent 把 tool-use planning 显式化：把工具表示为从所需 input schema 到 output schema 的 hyperedge。它先抽取与任务相关的 tool context graph，构造 schema-aware Task DAG，再在执行时围绕当前状态中缺失的需求动态扩展 support graph。实验显示它在 AppWorld 上提升任务完成率，同时减少冗余 API call、LLM interaction 和 token 使用，对可靠 agent 编排很有参考价值。",
+      "tags": [
+        "LLM agents",
+        "tool use",
+        "planning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents",
+      "url": "https://arxiv.org/abs/2608.03327",
+      "en": "This paper shows that adding MCP tools to GUI agents can help or hurt depending on the model: the same tools improve a reasoning model by 4.0 points but degrade a non-reasoning model by 5.9 points on OSWorld-MCP. The core issue is tool-decision behavior, since non-reasoning policies ignore, misname, or falsely terminate around tools, while reasoning models still use tools on only a fraction of reachable tasks. A retrained compressed agent reaches 37.8% accuracy versus 33.0% at the uncompressed operating point while using 53% of the input cost, making this one of the day's most practical computer-use agent papers.",
+      "zh": "这篇论文说明，在 GUI agent 中加入 MCP tools 不一定稳定增益：同一套工具在 OSWorld-MCP 上让 reasoning model 提升 4.0 个点，却让 non-reasoning model 下降 5.9 个点。核心问题是 tool-decision behavior，non-reasoning policy 会忽略、误命名工具，或在工具附近错误终止，而 reasoning model 也只在一部分可用工具任务上真正调用工具。重新训练后的 compressed agent 达到 37.8% accuracy，高于未压缩设置的 33.0%，同时只用 53% input cost，是今天很实用的 computer-use agent 论文之一。",
+      "tags": [
+        "LLM agents",
+        "tool use",
+        "computer use",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Getting the Parameters Right: A Difficulty-Graded Benchmark and Probe-Guided Training for LLM Tool Calls",
+      "url": "https://arxiv.org/abs/2608.03071",
+      "en": "This paper targets a neglected failure mode in tool use: filling tool-call parameters correctly, not just choosing the right tool. In cloud networking, even frontier models complete fewer than half of tool calls correctly, and the authors find a linear probe over hidden states can predict whether a generated parameter value will be correct. They release ParamBench and propose probe-filtered bootstrapped training plus probe-guided reranking, giving a concrete path to improve tool execution without treating the LLM as a black box.",
+      "zh": "这篇论文关注 tool use 中一个常被忽略的失败点：不只是选对工具，还要正确填写 tool-call parameters。在 cloud networking 场景中，即使 frontier models 也只能正确完成不到一半的 tool calls；作者发现，对 hidden states 做一个 linear probe，就能预测生成的参数值是否会正确。他们发布 ParamBench，并提出 probe-filtered bootstrapped training 与 probe-guided reranking，为改进 tool execution 提供了一个不把 LLM 完全当黑盒的路径。",
+      "tags": [
+        "tool use",
+        "LLM agents",
+        "fine-tuning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures",
+      "url": "https://arxiv.org/abs/2608.02645",
+      "en": "This work argues that real agent tools are not atomic: calls can time out after dispatch, become visible late, or partially update state. It introduces a lightweight verification-aware wrapper with postcondition checks, verify-before-retry logic, and idempotency keys. In simulations with injected non-atomic failures, the wrapper reduces duplicate actions while maintaining similar task success, which is a very deployable reliability pattern for production agents.",
+      "zh": "这篇论文指出，真实 agent tools 并不是 atomic：调用可能在 dispatch 后超时、结果延迟可见，或只完成部分状态更新。作者提出一个轻量的 verification-aware wrapper，包含 postcondition check、verify-before-retry 逻辑和 idempotency keys。在注入 non-atomic failures 的模拟实验中，这个 wrapper 能减少重复动作，同时保持相近的任务成功率，是 production agents 很容易落地的一类可靠性模式。",
+      "tags": [
+        "LLM agents",
+        "tool use",
+        "reliability"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "url": "https://arxiv.org/abs/2608.04007",
+      "en": "TurnSight addresses credit assignment in Tool-Integrated Reasoning by moving self-distillation from token-level signals to turn-level hindsight. It derives supervision from execution-conditioned hindsight, creates multiple lookahead views, selects reliable signals through cross-horizon directional agreement, and uses them to modulate RL advantages. Results across three benchmarks suggest that the structure of tool interaction turns is itself a useful training signal.",
+      "zh": "TurnSight 处理 Tool-Integrated Reasoning 中的 credit assignment 问题，把 self-distillation 从 token-level 信号推进到 turn-level hindsight。它从 execution-conditioned hindsight 中构造监督，生成多个 lookahead views，通过 cross-horizon directional agreement 选择可靠信号，再用这些信号调制 RL advantages。三个 benchmark 上的结果表明，tool interaction 的 turn 结构本身就是有价值的训练信号。",
+      "tags": [
+        "reasoning",
+        "tool use",
+        "distillation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agentic Reinforcement Learning with Self-Distilled Reward Shaping",
+      "url": "https://arxiv.org/abs/2608.03223",
+      "en": "ADRS tackles sparse trajectory-level rewards in agentic RL by creating return-associated token-level credit for multi-turn agents. It uses privileged training-only skills to rescore fixed skill-free trajectories, normalizes scores within each step, gates them by confidence-return association, and injects the signal into native advantage construction. Across three interactive benchmarks, it improves long-horizon task performance while keeping rollouts and inference skill-free.",
+      "zh": "ADRS 针对 agentic RL 中 trajectory-level rewards 过于稀疏的问题，为 multi-turn agents 构造与 return 相关的 token-level credit。它使用只在训练阶段可见的 privileged skills，对固定的 skill-free trajectories 重新打分，在每一步内归一化分数，再用 confidence-return association 做 gate，并把信号注入原生 advantage construction。在三个交互式 benchmark 上，它提升了 long-horizon 任务表现，同时保持 rollout 和 inference 阶段不依赖 skill。",
+      "tags": [
+        "LLM agents",
+        "RL",
+        "post-training",
+        "credit assignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+      "url": "https://arxiv.org/abs/2608.03972",
+      "en": "ReflectRL reuses failed expert trajectories instead of discarding them during on-policy reasoning training. The key idea is a Reflection Advantage: on hard problems, reflecting on a flawed solution can be easier than solving from scratch. The framework elicits reflective reasoning from golden negative trajectories and then transfers it back to direct reasoning, improving performance across 9 benchmarks, 4 LLM backbones, and 4 on-policy training methods.",
+      "zh": "ReflectRL 在 on-policy reasoning training 中复用失败的 expert trajectories，而不是直接丢弃。核心想法是 Reflection Advantage：对难题来说，反思一个有缺陷的解法，可能比从零开始解题更容易。该框架先用 golden negative trajectories 引出 reflective reasoning，再把这种能力转回 direct reasoning，在 9 个 benchmark、4 个 LLM backbone 和 4 种 on-policy training 方法上都提升了表现。",
+      "tags": [
+        "reasoning",
+        "post-training",
+        "RL",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Shorter Reasoning, Earlier Answers? An Evaluation of Reasoning Interfaces",
+      "url": "https://arxiv.org/abs/2608.03401",
+      "en": "This evaluation asks whether shorter reasoning traces are actually better, using matched-horizon paired runs on GPQA Diamond and MMLU-Pro. A numeric concision prompt shortens Qwen3-14B traces by 12-17% with small mixed accuracy changes, while an early-answer instruction improves MMLU-Pro accuracy by 3.8 points at 512 tokens. For gpt-oss, completed low- and medium-effort candidate-logit answers are 14.5-26.3 points more accurate than matched-horizon high-effort answers, so evaluations should report correct completion before deadlines rather than only final accuracy.",
+      "zh": "这篇评测追问：更短的 reasoning trace 是否真的更好，方法是在 GPQA Diamond 和 MMLU-Pro 上做 matched-horizon paired runs。numeric concision prompt 让 Qwen3-14B 的 trace 缩短 12-17%，accuracy 变化小且方向不一；early-answer instruction 在 512 tokens 时让 MMLU-Pro accuracy 提升 3.8 个点。对 gpt-oss 来说，完成的 low-effort 和 medium-effort candidate-logit answers 比同 horizon 的 high-effort answers 高 14.5-26.3 个点，所以评测不应只看最终 accuracy，也要报告 deadline 前是否正确完成。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "Qwen",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?",
+      "url": "https://arxiv.org/abs/2608.03874",
+      "en": "ContinualSkillBench tests whether agent frameworks with external skill libraries actually consolidate reusable capabilities over time. It covers five domains with 100 interconnected subtasks each, ordered by difficulty and designed for cross-task skill reuse. Sequential execution often helps, but in-context learning performs comparably to explicit skill maintenance on average, suggesting many apparent gains come from recent context and feedback rather than durable skill abstraction.",
+      "zh": "ContinualSkillBench 测试带外部 skill library 的 agent frameworks 是否真的能随时间沉淀可复用能力。它覆盖五个领域，每个领域 100 个相互关联的子任务，按难度排序，并设计了跨任务 skill reuse 的机会。顺序执行通常有帮助，但平均来看 in-context learning 和显式 skill maintenance 表现相近，说明很多表面增益可能来自近期 context 和 feedback，而不是稳定的 skill abstraction。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "evaluation",
+        "in-context learning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+      "url": "https://arxiv.org/abs/2608.02613",
+      "en": "MemArena benchmarks on-device personal memory assistants in a single coherent simulated world with 50 agents over 15 days. The strongest result is that memory backend choice can matter more than reader scaling: for Qwen3-0.6B, moving from Memobase to MemSearch gives large content-accuracy gains that exceed scaling the reader under MemSearch. Permission-aware access fails across systems, with Oracle leaking heavily and other backends too timid, making this relevant for anyone building long-term personal memory.",
+      "zh": "MemArena 在一个连贯的模拟世界中评测 on-device personal memory assistants，包含 50 个 agents、15 天交互。最强的结论是 memory backend 的选择可能比 reader scaling 更重要：对 Qwen3-0.6B，从 Memobase 换到 MemSearch 带来的 content-accuracy 增益，超过在 MemSearch 下扩大 reader 的收益。Permission-aware access 在所有系统上都失败，Oracle 严重泄露，其他 backend 又过于保守，这对构建 long-term personal memory 的人很关键。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "privacy",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "An Actionable Diagnosis of Multilingual, Multi-Agent Planning Failures",
+      "url": "https://arxiv.org/abs/2608.03735",
+      "en": "This paper diagnoses why multilingual multi-agent systems degrade outside English by focusing on the planner as the request-to-action interface. The authors derive a taxonomy of planning-grounding failures from failed real-world task executions and show these failures take a larger share as language-resource availability declines. Their TART representation makes the taxonomy explicit to the planner and sub-agents, raising multilingual GAIA accuracy by 5.6 points across eleven languages.",
+      "zh": "这篇论文通过把 planner 视为 request-to-action interface，诊断多语言 multi-agent systems 为什么在 English 之外退化。作者从失败的真实任务执行中归纳出 planning-grounding failures 的 taxonomy，并显示随着语言资源下降，这类失败在失败执行中占比更高。他们提出的 TART representation 把 taxonomy 显式提供给 planner 和 sub-agents，使 multilingual GAIA 在 11 种语言上的准确率平均提升 5.6 个点。",
+      "tags": [
+        "multi-agent",
+        "multilingual",
+        "planning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "M-GATE: Multilingual Grammar, Accuracy in Translation, and Efficiency Benchmark for Large Language Models",
+      "url": "https://arxiv.org/abs/2608.03803",
+      "en": "M-GATE separates multilingual fluency from actual linguistic proficiency across 30 typologically diverse languages. It combines adversarial grammar detection, round-trip translation judged by a validated multi-provider panel, and tokenizer efficiency, then evaluates more than 50 models in over 80 configurations. The headline result is that competent translation does not imply grammar command: the best grammar MCC is only 0.36, and translation quality closely tracks a language's pretraining data share.",
+      "zh": "M-GATE 把多语言 fluency 和真正的语言能力分开评测，覆盖 30 种类型多样的语言。它结合 adversarial grammar detection、由多 provider panel 评估的 round-trip translation，以及 tokenizer efficiency，并评测了 50 多个模型、80 多种配置。核心结果是，翻译看起来不错并不代表模型掌握语法：最好的 grammar MCC 只有 0.36，而 translation quality 与该语言在 pretraining data 中的占比高度相关。",
+      "tags": [
+        "multilingual",
+        "evaluation",
+        "benchmark",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的blog推荐合集第六期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris shares the sixth early-July roundup of blogs they personally found worth reading.",
+      "zh": "tabris 分享了七月初自己觉得不错的 blog 推荐合集第六期。",
+      "tags": [
+        "Chinese ML community",
+        "blogs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的paper推荐合集第五期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris shares the fifth early-July roundup of papers they personally found worth reading.",
+      "zh": "tabris 分享了七月初自己觉得不错的 paper 推荐合集第五期。",
+      "tags": [
+        "Chinese ML community",
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的blog推荐合集第五期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris shares the fifth early-July roundup of blogs they personally found worth reading.",
+      "zh": "tabris 分享了七月初自己觉得不错的 blog 推荐合集第五期。",
+      "tags": [
+        "Chinese ML community",
+        "blogs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的paper推荐合集第四期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris shares the fourth early-July roundup of papers they personally found worth reading.",
+      "zh": "tabris 分享了七月初自己觉得不错的 paper 推荐合集第四期。",
+      "tags": [
+        "Chinese ML community",
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "七月初自觉不错的blog推荐合集第四期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris shares the fourth early-July roundup of blogs they personally found worth reading.",
+      "zh": "tabris 分享了七月初自己觉得不错的 blog 推荐合集第四期。",
+      "tags": [
+        "Chinese ML community",
+        "blogs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "ACL2026｜Agent老板一开口大家就附和",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 flags an ACL 2026 post about agent interactions where once the Agent boss speaks, others echo it.",
+      "zh": "鸭基米德这篇 ACL2026 笔记关注 Agent 老板一开口大家就附和的现象。",
+      "tags": [
+        "ACL 2026",
+        "multi-agent",
+        "alignment"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "全面适配华为 DeepSeek的野心是星辰大海",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 shares a Chinese AI industry post framing DeepSeek's full Huawei adaptation as a sign of much larger ambitions.",
+      "zh": "鸭基米德这篇文章把 DeepSeek 全面适配华为，解读为其野心是星辰大海。",
+      "tags": [
+        "DeepSeek",
+        "Huawei",
+        "China AI"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Persona Corruption and Role Miscasting in Emergent Misalignment",
+      "url": "https://www.lesswrong.com/posts/HooBYPCkMDGjktcLA/persona-corruption-and-role-miscasting-in-emergent",
+      "en": "LessWrong's preliminary BlueDot project decomposes emergent misalignment into behavior-per-role and role-elicitation. It computes persona vectors and assistant axes for baseline LLMs and emergent-misalignment model organisms, finding that narrow fine-tuning creates single-direction shifts in activation space and moves assistant/default roles more than other roles. Steering against the global shift reduces misalignment across the Qwen family, making this a useful interpretability handle on fine-tuning-induced alignment brittleness.",
+      "zh": "LessWrong 上这篇 BlueDot 初步项目把 emergent misalignment 分解为 behavior-per-role 和 role-elicitation。它为 baseline LLMs 和 emergent-misalignment model organisms 计算 persona vectors 与 assistant axes，发现 narrow fine-tuning 会在 activation space 中造成单方向位移，并且 assistant/default roles 的移动比其他 roles 更明显。对这个 global shift 做反向 steering 能降低 Qwen family 的 misalignment，因此这是理解 fine-tuning 诱发 alignment 脆弱性的一个有用 interpretability 抓手。",
+      "tags": [
+        "alignment",
+        "fine-tuning",
+        "Qwen",
+        "interpretability"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "en": "Hugging Face surfaces LiquidAI's LFM2.5-2.6B as a compact model for deploying local agents across environments.",
+      "zh": "Hugging Face 介绍了 LiquidAI 的 LFM2.5-2.6B，将其定位为可在多种环境中部署 local agents 的小型模型。",
+      "tags": [
+        "local agents",
+        "open models",
+        "deployment"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Training a multilingual NER / relation-extraction model (GLiNER-style) — anyone else been down this road?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vfpazu/training_a_multilingual_ner_relationextraction/",
+      "en": "A practitioner training a multilingual joint NER and relation-extraction model for EU languages reports NER around 80% F1 but RE around 30% F1. The useful debugging note is a label-order leak: gold relation labels were always first in the candidate list, and shuffling candidates dropped F1 from 37% to 14%. They also found evidence-pattern sparsity matters more than label frequency, with about 90% of validation relations having unseen evidence-pattern and label combinations.",
+      "zh": "一位实践者在为 EU languages 训练 multilingual joint NER 和 relation-extraction model，报告 NER 约 80% F1，但 RE 只有约 30% F1。最有用的调试点是 label-order leak：gold relation labels 总是排在 candidate list 第一位，打乱 candidate 后 F1 从 37% 掉到 14%。他们还发现 evidence-pattern sparsity 比 label frequency 更关键，约 90% validation relations 的 evidence-pattern 与 label 组合在训练集中没见过。",
+      "tags": [
+        "multilingual",
+        "information extraction",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Would anyone actually download a rule-based NLP tool for Haitian Creole (Kreyòl)?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vfrpu2/would_anyone_actually_download_a_rulebased_nlp/",
+      "en": "A native-speaker developer is gauging demand for a pure Python deterministic Haitian Creole text-processing library for low-resource NLP. The proposed scope includes sentence segmentation, tokenization, spell checking, grammar-related tools, and open-source APIs, with the argument that Kreyòl's standardized phonetic orthography may make rule-based preprocessing practical without heavy ML models.",
+      "zh": "一位母语开发者在评估 low-resource NLP 场景中，是否有人真的需要一个 pure Python、deterministic 的 Haitian Creole 文本处理库。设想功能包括 sentence segmentation、tokenization、spell checking、grammar-related tools 和 open-source APIs，其理由是 Kreyòl 的标准化音位正字法可能让 rule-based preprocessing 在不依赖重 ML models 的情况下也可行。",
+      "tags": [
+        "low-resource NLP",
+        "multilingual",
+        "tooling"
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-05T12:06:20.609Z"
+}

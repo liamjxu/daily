@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-05",
+    "count": 26,
+    "headline_en": "Agent reliability and evaluation dominated the day, from tool-use planning and memory to post-training, multilingual benchmarks, and scaling-law arguments beyond language.",
+    "generatedAt": "2026-08-05T12:06:20.609Z"
+  },
+  {
     "date": "2026-08-04",
     "count": 30,
     "headline_en": "Agent infrastructure, reasoning evaluation, and post-training dominated the day, with Anthropic detailing managed-agent architecture while papers probed tool use, KV cache compression, preference optimization, and benchmark validity.",
