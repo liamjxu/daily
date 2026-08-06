@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-06",
+    "count": 23,
+    "headline_en": "Agent reliability, memory, and evaluation dominated the day, from tool-routing flaws and agent benchmarks to post-training papers probing when reasoning and distillation actually work.",
+    "generatedAt": "2026-08-06T14:33:08.517Z"
+  },
+  {
     "date": "2026-08-05",
     "count": 26,
     "headline_en": "Agent reliability and evaluation dominated the day, from tool-use planning and memory to post-training, multilingual benchmarks, and scaling-law arguments beyond language.",

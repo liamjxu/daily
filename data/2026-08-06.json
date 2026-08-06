@@ -1,0 +1,352 @@
+{
+  "date": "2026-08-06",
+  "headline_en": "Agent reliability, memory, and evaluation dominated the day, from tool-routing flaws and agent benchmarks to post-training papers probing when reasoning and distillation actually work.",
+  "headline_zh": "今天的主线是 agent 可靠性、memory 和 evaluation，从工具调用漏洞、agent benchmark，到检验 reasoning 与 distillation 何时真正有效的 post-training 论文。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2085174625655198156",
+      "en": "OpenAI Codex and ChatGPT engineer Thibault Sottiaux pointed users toward `/goal` in Codex, calling it a powerful loop with GPT-5.6 Sol. He also said he gets reset requests by DM or email roughly every six minutes, and sometimes grants them when the feedback or banter is strong enough.",
+      "zh": "OpenAI Codex 和 ChatGPT 工程师 Thibault Sottiaux 推荐用户试试 Codex 里的 `/goal`，称它配合 GPT-5.6 Sol 是一个很强的循环。他还说，自己平均每六分钟就会收到一次通过 DM 或邮件发来的 reset 请求，偶尔会因为反馈足够扎实或玩笑足够好而帮忙处理。",
+      "tags": [
+        "agents",
+        "Codex",
+        "GPT-5.6"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Google Labs",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/GoogleLabs/status/2085048743322345545",
+      "en": "Google Labs said Dreambeans is expanding from US-based AI Ultra users to AI Pro subscribers in the US. The product promises a daily collection of personalized stories that surfaces deeper reads and hidden gems.",
+      "zh": "Google Labs 表示，Dreambeans 将从美国的 AI Ultra 用户扩展到美国 AI Pro 订阅用户。这个产品主打每天提供个性化故事集合，帮助用户发现更深入的内容和隐藏的好文章。",
+      "tags": [
+        "consumer AI",
+        "personalization"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "Y Combinator President & CEO",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2085038756906901656",
+      "en": "Y Combinator President and CEO Garry Tan argued that AI-detection debates will fade once AI output quality becomes strong enough. His analogy was machine-stamped silverware: people care whether the fork works, not whether it was handmade, and the same should apply to ideas.",
+      "zh": "Y Combinator 总裁兼 CEO Garry Tan 认为，等 AI 输出质量足够高后，关于检测 AI 的争论会逐渐失去意义。他用机器压制的餐具作类比: 人们关心叉子好不好用，而不是它是不是手工做的，ideas 也应如此。",
+      "tags": [
+        "AI adoption",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "Why the Next Hit AI Product Will Be Social Why the Next Hit AI Product Will Be Social (Best of the Pod)",
+      "url": "https://www.youtube.com/watch?v=dlI-5W7d7uU",
+      "en": "The Takeaway: Sarah Tavel’s bet is that the next major consumer AI product will be social, because today’s AI interfaces are still too much like early Google: technically magical, but mostly single-player. Tavel, a Benchmark partner and former early Pinterest operator, argues that as model infrastructure stabilizes, advantage shifts from deep technical teams toward product thinkers who understand multiplayer behavior, status, trust, and network effects. Her sharpest critique is that Custom GPTs and Gemini Gems feel “criminal” because they expose powerful primitives without the social layer needed to discover, trust, remix, and follow expert users. She expects opportunities around AI friends, personal AI contexts, and prompt or workflow communities, but notes the incumbent pull of ChatGPT memory, habits, and pricing may be hard to overcome. For AI practitioners, the useful frame is that many current AI products are still power-user tools, and the next unlock may be less about another model jump than about UGC, reputation, and shared reusable practices.",
+      "zh": "The Takeaway: Sarah Tavel 的判断是，下一款重要的 consumer AI 产品会是 social 的，因为今天的 AI 界面仍然太像早期 Google: 技术上很神奇，但基本还是单人模式。Tavel 是 Benchmark partner，也曾是 Pinterest 早期员工，她认为随着模型基础设施稳定，优势会从深技术团队转向真正理解多人行为、status、trust 和 network effects 的产品型团队。她最尖锐的批评是，Custom GPTs 和 Gemini Gems 这些功能很“criminal”，因为它们提供了很强的原语，却缺少让用户发现、信任、remix、follow 专家用户的 social 层。她看好 AI friends、个人 AI context、prompt 或 workflow 社区，但也指出 ChatGPT 的 memory、使用习惯和价格优势会形成很强的 incumbency。对 AI practitioner 来说，关键视角是: 很多当前 AI 产品仍是 power-user 工具，下一次突破未必来自又一次模型跃迁，而可能来自 UGC、reputation 和可复用实践的共享。",
+      "tags": [
+        "consumer AI",
+        "agents",
+        "memory",
+        "AI strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "en": "The Hacker News reports that agent infrastructure flaws in AWS, Google, and Vercel allowed untrusted or forged instructions to reach tools without a model turn authorizing them. The important point is architectural: model-level guardrails, system prompts, and filters cannot help if the model never runs before tool execution.",
+      "zh": "The Hacker News 报道称，AWS、Google 和 Vercel 的 agent infrastructure 漏洞会让不可信或伪造的指令在没有模型回合授权的情况下触达工具。重点在架构层面: 如果工具执行前模型根本没有运行，那么 model-level guardrails、system prompts 和 filters 都无法介入。",
+      "tags": [
+        "agents",
+        "tool use",
+        "security"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Matryoshka NLAs: training activation verbalizers to frontload reconstruction-relevant information",
+      "url": "https://www.lesswrong.com/posts/aWYQHh2pEFCLYh85C/matryoshka-nlas-training-activation-verbalizers-to-frontload-1",
+      "en": "LessWrong: Matryoshka NLAs trains activation verbalizers to put reconstruction-relevant information at the start by randomly truncating explanations before they reach the reconstructor. The experiment on Qwen3.6-27B layer 42 suggests the method frontloads salient claims more than standard NLAs, making early explanation content a possible saliency heuristic, though the authors did not find strong evidence that it is more useful overall.",
+      "zh": "LessWrong 的 Matryoshka NLAs 训练 activation verbalizers 把对 reconstruction 最重要的信息放在开头，方法是在 explanation 送到 reconstructor 前随机截断。作者在 Qwen3.6-27B 第 42 层上的实验表明，该方法比标准 NLA 更会前置 salient claims，因此 explanation 的开头可能能作为 saliency heuristic，不过作者没有发现它整体上明显更有用的强证据。",
+      "tags": [
+        "interpretability",
+        "Qwen",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Why You Should Almost Never Use AI to Write Anything Substantive",
+      "url": "https://www.lesswrong.com/posts/kjQdL3dxaACSbjkSx/why-you-should-almost-never-use-ai-to-write-anything-1",
+      "en": "LessWrong argues against using AI to write substantive text, even when the human supplies detailed bullets and edits afterward. The core claim is that writing is part of thinking, AI prose can be vague or subtly wrong, and unlabeled AI-written text can mislead readers about the author’s actual cognition.",
+      "zh": "LessWrong 这篇文章反对用 AI 写实质性文本，即使人类已经给出详细 bullet points 并在之后编辑。核心观点是，写作本身是思考的一部分，AI 文本可能含糊且在细节上不易察觉地出错，而未标注的 AI 写作会误导读者对作者真实思考的判断。",
+      "tags": [
+        "AI writing",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Does simulated/acted call-center audio actually transfer to production ASR, or is real telephony data the only thing that works?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vfepcx/does_simulatedacted_callcenter_audio_actually/",
+      "en": "A practitioner asks whether fine-tuning on scripted or semi-scripted call-center audio improves production ASR, or whether the acted-vs-real gap dominates once audio is narrowband, noisy, overlapping, and emotionally natural. The most useful angles are codec simulation, code-switching elicitation, and whether the ceiling is acoustic modeling or diarization and overlapping turns.",
+      "zh": "一位 practitioner 询问，用 scripted 或 semi-scripted call-center audio 做 fine-tuning 是否真的能提升 production ASR，还是在窄带、噪声、重叠说话和真实情绪场景下，acted-vs-real 的差距会占主导。最有价值的问题包括 codec simulation、code-switching 如何自然 elicitation，以及瓶颈到底是 acoustic modeling 还是 diarization 与 overlapping turns。",
+      "tags": [
+        "ASR",
+        "evaluation",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "What is a fair test for code-switching ASR?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vgnw9k/what_is_a_fair_test_for_codeswitching_asr/",
+      "en": "A LanguageTechnology thread asks how to evaluate English/French code-switching ASR when WER is too flat to capture failures at the important switching points. The question is a useful reminder that multilingual speech evaluation often needs metrics and test sets that weight boundary handling, named entities, and semantically critical spans more than average token errors.",
+      "zh": "LanguageTechnology 上的一个帖子询问，评估 English/French code-switching ASR 时，如果 WER 太平，无法体现关键切换点的失败，应该用什么指标。这个问题提醒我们，多语语音评测常常需要比平均 token error 更重视边界处理、named entities 和语义关键片段的 metrics 与 test sets。",
+      "tags": [
+        "ASR",
+        "evaluation",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools",
+      "url": "https://arxiv.org/abs/2608.04719",
+      "en": "This paper introduces canary tools: diagnostic MCP tools designed to expose specific tool-selection failures such as semantic decoys, parameter traps, capability mirages, and prerequisite blindness. Across 8,640 runs plus ablations, susceptibility varies sharply by model and does not reduce cleanly to capability tier or price. It matters because agent evaluations need to explain why tool routing fails, not only whether the final task succeeded.",
+      "zh": "这篇论文提出 canary tools: 设计在 MCP tool set 中的诊断型工具，用来暴露 semantic decoys、parameter traps、capability mirages、prerequisite blindness 等具体工具选择失败。作者在 8,640 次运行和额外 ablation 中发现，不同模型的易受影响程度差异很大，而且不能简单由 capability tier 或价格解释。它的重要性在于，agent evaluation 需要解释 tool routing 为什么失败，而不只是判断最终任务是否成功。",
+      "tags": [
+        "agents",
+        "tool use",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?",
+      "url": "https://arxiv.org/abs/2608.04828",
+      "en": "Skill-Use tests whether LLM agents can notice a relevant skill, retrieve its full procedure under progressive disclosure, follow it, and respect boundaries. The benchmark uses 79 real skills and 177 executable tasks, and the strongest configuration reaches only 0.613 SU. This is directly relevant to agent harness design because skills are only useful if models reliably trigger and comply with them in context.",
+      "zh": "Skill-Use 测试 LLM agents 是否能在 progressive disclosure 下识别相关 skill、取回完整 procedure、按步骤执行，并遵守边界。该 benchmark 包含 79 个真实 skills 和 177 个可执行 tasks，最强配置的 SU 也只有 0.613。这对 agent harness 设计很直接: skill 只有在模型能可靠触发并遵循时才真正有用。",
+      "tags": [
+        "agents",
+        "benchmark",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ContextWeave: A Real-World Workflow Benchmark",
+      "url": "https://arxiv.org/abs/2608.04830",
+      "en": "ContextWeave evaluates whether memory improves downstream agent performance in realistic, longitudinal office workflows rather than retrieval-only settings. It reconstructs multi-month workflows from 14 participants into 1,005 executable tasks and finds that stronger memory raises Workspace Score from 68.08 to 78.20 and Preference Score from 41.50 to 70.60. The key lesson is that actionable, experience-rich memory can help workflow continuation, but misleading recall remains a real failure mode.",
+      "zh": "ContextWeave 评估 memory 是否能在真实、纵向的 office workflows 中提升 agent downstream performance，而不是只测 retrieval。它把 14 位参与者的多月工作流重构为 1,005 个可执行 tasks，并发现更强的 memory 将 Workspace Score 从 68.08 提升到 78.20，将 Preference Score 从 41.50 提升到 70.60。关键结论是，actionable、experience-rich memory 能帮助 workflow continuation，但 misleading recall 仍是现实风险。",
+      "tags": [
+        "agents",
+        "memory",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.04095",
+      "en": "FinPerMA benchmarks personalized memory for financial-advising agents using frozen longitudinal investor trajectories and event shocks. On 2,994 questions from 276 personas, seven frontier LLMs remain far from saturated, with no full-context setup exceeding about 0.47 overall accuracy. The paper is useful because it shows summary memory may retain facts while losing the preference signals that personalization actually needs.",
+      "zh": "FinPerMA 用冻结的纵向投资者轨迹和 event shocks 来 benchmark 金融顾问 agent 的 personalized memory。在来自 276 个 personas 的 2,994 个问题上，七个 frontier LLM 仍远未饱和，没有任何 full-context 设置的 overall accuracy 超过约 0.47。它有价值之处在于指出，summary memory 可能保留事实，却丢失 personalization 真正需要的 preference signals。",
+      "tags": [
+        "agents",
+        "memory",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agentic Reinforcement Learning with Observation-Calibrated Self-Distillation",
+      "url": "https://arxiv.org/abs/2608.04788",
+      "en": "This paper identifies a confound in on-policy self-distillation for agents: replay views can shift token scores because of the scaffold, not only because future observations carry privileged information. OCSD contrasts full and observation-ablated replay views, then uses the observation residual to modulate token-level GRPO updates. Experiments on ALFWorld, WebShop, and Search-QA across Qwen3 scales make it relevant for post-training agents with sparse trajectory rewards.",
+      "zh": "这篇论文指出 agent 的 on-policy self-distillation 存在一个 confound: replay view 带来的 token score shift 可能来自 scaffold，而不只是 future observation 作为 privileged information 的作用。OCSD 对比 full replay view 和 observation-ablated replay view，再用 observation residual 调节 token-level GRPO updates。它在 ALFWorld、WebShop 和 Search-QA 上跨 Qwen3 尺度实验，对用稀疏 trajectory reward 做 agent post-training 很相关。",
+      "tags": [
+        "post-training",
+        "agents",
+        "distillation",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Privileged, but Biased: How PI-Conditioned Teachers Break Self-Distillation",
+      "url": "https://arxiv.org/abs/2608.04794",
+      "en": "This paper challenges self-distillation methods that use privileged-information-conditioned teachers as a standalone objective. It reproduces SDPO gains in easy settings, then finds that on harder QA, math, coding, and multi-turn tool-use tasks the loss falls while validation accuracy stagnates or degrades. The practical warning is that dense token supervision can train students toward a biased reference trajectory rather than correctness.",
+      "zh": "这篇论文质疑把 privileged-information-conditioned teacher 作为独立目标的 self-distillation 方法。作者在简单设置中复现了 SDPO 的收益，但在更难的 QA、math、coding 和 multi-turn tool-use tasks 中发现 loss 持续下降，validation accuracy 却不提升甚至下降。实际警示是，dense token supervision 可能把 student 训练向有偏的 reference trajectory，而不是 correctness。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "tool use",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2608.04893",
+      "en": "This paper causally audits multi-agent systems that relay KV caches and claim gains from exchanged latent thoughts. By replacing relays with mismatched, zeroed, and random counterparts, it separates generic cache effects from example-specific information transfer. The result matters because benchmark deltas alone do not prove that latent communication is carrying the intended private information.",
+      "zh": "这篇论文对通过 relayed KV caches 进行通信、并声称收益来自交换 latent thoughts 的 multi-agent 系统做因果审计。作者用 mismatched、zeroed 和 random relays 替换原 relay，从而区分一般 cache effect 与 example-specific information transfer。它的重要性在于，benchmark delta 本身并不能证明 latent communication 传递了预期的 private information。",
+      "tags": [
+        "multi-agent",
+        "KV cache",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings",
+      "url": "https://arxiv.org/abs/2608.04735",
+      "en": "This paper tests CoT monitorability under explicit influence, where the model is told to hide a nudge, versus implicit influence, where context quietly biases behavior. CoT monitors detect 60-94% of explicit behavior shifts, but detection drops by 41-46 points in two implicit settings even though behavior still changes. The result is a strong caution against treating chain-of-thought monitoring as a general safety layer for frontier reasoning models.",
+      "zh": "这篇论文比较 explicit influence 与 implicit influence 下 CoT monitorability 的差异: 前者模型被要求隐藏某个 nudge，后者则是上下文悄悄影响行为。CoT monitors 能检测到 60-94% 的 explicit behavior shifts，但在两个 implicit settings 中，即使行为仍然改变，检测率也下降了 41-46 个点。这个结果强烈提醒我们，不能把 chain-of-thought monitoring 当成 frontier reasoning models 的通用 safety layer。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Mind the Cap: Output-Budget Regimes Change the Measured Multilingual Reasoning Gap",
+      "url": "https://arxiv.org/abs/2608.04160",
+      "en": "This paper shows that multilingual reasoning gaps can be artifacts of output-token budgets because languages require different token counts to express the same reasoning. On MGSM with Qwen3-8B and Llama-3.1-8B-Instruct, native-vs-translate gaps swing by up to 57 points across budgets, and length normalization can reverse strategy rankings under tight caps. It matters for anyone comparing multilingual reasoning, because the token cap is a hidden experimental variable.",
+      "zh": "这篇论文表明，多语 reasoning gap 可能是 output-token budget 的产物，因为不同语言表达同样推理需要不同 token 数。在 MGSM 上测试 Qwen3-8B 和 Llama-3.1-8B-Instruct 时，native-vs-translate gap 会随预算变化最高摆动 57 个点，在 tight cap 下 length normalization 甚至会反转策略排名。对比较 multilingual reasoning 的人来说，它的重要性在于 token cap 是一个隐藏实验变量。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "multilingual",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2608.05144",
+      "en": "Argus is a persistent, self-evolving agentic runtime with Manager, Planner, Engineer, and Reviewer roles operating over durable project state. Across seven GPT-5.5 benchmark arenas, it reports about 78% on SWE-Bench Pro versus 59% for Direct Copilot at 1.41x aggregate tokens, and later waves use fewer solve-input tokens after verification-gated self-evolution. The paper is important as a concrete runtime-level approach to long-horizon agent work without changing model weights.",
+      "zh": "Argus 是一个 persistent、self-evolving 的 agentic runtime，由 Manager、Planner、Engineer 和 Reviewer 在 durable project state 上协作。在七个 GPT-5.5 benchmark arenas 中，它报告 SWE-Bench Pro 约 78%，Direct Copilot 为 59%，代价是 1.41 倍 aggregate tokens；经过 verification-gated self-evolution 后，后续 waves 使用更少 solve-input tokens。它重要在于给出了一个不改模型权重、通过 runtime 层处理 long-horizon agent work 的具体方案。",
+      "tags": [
+        "agents",
+        "reasoning",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection",
+      "url": "https://arxiv.org/abs/2608.04053",
+      "en": "AgentAntibody treats prompt-injection defense as an adaptive memory problem rather than a one-off classifier. It builds a persistent library of antibodies that represent the evolving boundary of user-acceptable behavior, then recognizes and responds to future threats using that library. This is useful for agent security because many harmful actions exploit underspecified tasks where both benign and malicious behaviors fit the literal request.",
+      "zh": "AgentAntibody 把 prompt-injection defense 看成一个 adaptive memory 问题，而不是一次性的 classifier。它维护一个 persistent antibody library，表示用户可接受行为边界的演化，并用这个库识别和响应后续威胁。它对 agent security 有价值，因为很多有害行为会利用 underspecified tasks，在字面请求下 benign 和 malicious 行为都可能成立。",
+      "tags": [
+        "agents",
+        "security",
+        "prompt injection"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "State2State: Environment-Derived Mid-Training for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.04934",
+      "en": "State2State trains LLM agents from environment-derived objectives rather than expert trajectories, human-specified tasks, or handcrafted verifiers. It converts explored environment states into target-state reaching tasks, with rule-based state matching as verification. Experiments on ALFWorld and ScienceWorld suggest it can improve standalone environment learning and downstream RL efficiency, making it relevant to scalable agent training.",
+      "zh": "State2State 不依赖 expert trajectories、人类指定任务或 handcrafted verifiers，而是用 environment-derived objectives 训练 LLM agents。它把探索到的环境状态转成 reach target state 的任务，并用 rule-based state matching 做验证。在 ALFWorld 和 ScienceWorld 上的实验显示，它能提升 standalone environment learning 和 downstream RL efficiency，因此与 scalable agent training 直接相关。",
+      "tags": [
+        "agents",
+        "fine-tuning",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Fewer Tokens, Smaller Cache: Reward-Coordinated Efficient Reasoning",
+      "url": "https://arxiv.org/abs/2608.04771",
+      "en": "ReCo uses process reward to coordinate both KV-cache compression and token-generation control for large reasoning models. Instead of uniformly compressing the whole trajectory, it compresses more aggressively at high-reward steps, penalizes redundant reflection tokens, and applies confidence-based early stopping. Across three reasoning models and six benchmarks, it reduces generated tokens by 37%-65%, which is directly relevant to test-time compute efficiency.",
+      "zh": "ReCo 用 process reward 同时协调 large reasoning models 的 KV-cache compression 和 token-generation control。它不是对整条 trajectory 做 uniform compression，而是在 high-reward steps 更激进地压缩，惩罚冗余 reflection tokens，并使用 confidence-based early stopping。在三个 reasoning models 和六个 benchmarks 上，它减少了 37%-65% 的 generated tokens，与 test-time compute efficiency 直接相关。",
+      "tags": [
+        "reasoning",
+        "KV cache",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-06T14:33:08.517Z"
+}
