@@ -1,0 +1,332 @@
+{
+  "date": "2026-08-07",
+  "headline_en": "The day centered on long-horizon agents: labs pushed broader model access, builders emphasized behavior specs and runtime context, and papers attacked agent evaluation, tool-use reliability, post-training, and reasoning credit assignment.",
+  "headline_zh": "今天的主线是 long-horizon agents：大模型公司扩大模型入口，builder 强调 behavior specs 与 runtime context，论文则集中攻克 agent 评测、tool-use 可靠性、post-training 和 reasoning credit assignment。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": "Anthropic's official Claude account",
+      "title": null,
+      "url": "https://x.com/claudeai/status/2085563808773189680",
+      "en": "Claude announced updated biology safeguards for Claude Fable 5 to reduce false positives, saying internal testing cut biology-related fallbacks by about 85% across product surfaces. Fable can now answer more everyday health and educational questions, while dual-use areas such as virology, toxicology, and molecular design still fall back to Opus 5.",
+      "zh": "Claude 宣布更新 Claude Fable 5 的 biology safeguards，以减少误判，并称内部测试让产品界面里的生物相关 fallback 下降约 85%。Fable 现在可以回答更多日常健康和教育问题，但 virology、toxicology、molecular design 等 dual-use 领域仍会 fallback 到 Opus 5。",
+      "tags": [
+        "frontier labs",
+        "bio safety",
+        "Claude"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2085597685948813610",
+      "en": "OpenAI Codex and ChatGPT engineer Thibault Sottiaux said Codex with GPT-5.6 Sol can handle requests that feel like weeks of work after only a few minutes of spoken instruction. He framed the release as a step-change in agentic execution rather than a narrow coding tweak.",
+      "zh": "OpenAI Codex 和 ChatGPT 工程师 Thibault Sottiaux 表示，搭载 GPT-5.6 Sol 的 Codex 可以在用户口述几分钟后完成看起来需要数周的任务。他把这次发布描述成 agentic execution 的跃迁，而不只是一个狭义的 coding 改进。",
+      "tags": [
+        "agents",
+        "GPT-5.6",
+        "Codex"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": null,
+      "url": "https://x.com/sama/status/2085454964814753990",
+      "en": "OpenAI CEO Sam Altman said GPT-5.6 Sol is “much better in chat now” and that free ChatGPT users now get unlimited text chat. The notable point is access: OpenAI is pushing stronger chat capability into the free tier.",
+      "zh": "OpenAI CEO Sam Altman 表示 GPT-5.6 Sol 现在的聊天能力“much better”，并且 ChatGPT 免费用户现在可以无限使用文本聊天。重点在 access：OpenAI 正在把更强的 chat 能力推到免费层。",
+      "tags": [
+        "frontier labs",
+        "GPT-5.6",
+        "model access"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2085610231707623750",
+      "en": "Thibault Sottiaux also said free ChatGPT users now have unlimited text chats powered by GPT-5.6 Luna. That reinforces the broader access story around GPT-5.6 across OpenAI product surfaces.",
+      "zh": "Thibault Sottiaux 还表示，ChatGPT 免费用户现在可以无限使用由 GPT-5.6 Luna 驱动的文本聊天。这进一步强化了 GPT-5.6 在 OpenAI 产品入口中扩大 access 的信号。",
+      "tags": [
+        "frontier labs",
+        "GPT-5.6",
+        "model access"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "Y Combinator President & CEO",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2085446068461043722",
+      "en": "Y Combinator President & CEO Garry Tan argued that personal AGI should not mean a generic chatbot, but a system that knows a user uniquely over time. The strategic angle is persistent personalization and memory as the differentiator for consumer-facing AI.",
+      "zh": "Y Combinator President & CEO Garry Tan 认为，personal AGI 不该是人人都能用的通用 chatbot，而是一个能长期、独特地理解用户的系统。这里的战略重点是：持久 personalization 和 memory 可能成为面向消费者 AI 的关键差异化。",
+      "tags": [
+        "agents",
+        "memory",
+        "AI strategy"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "en": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework announces a new Swift package that lets Apple developers call Claude through Apple’s Foundation Models framework. The pattern is hybrid: use Apple’s on-device models for fast local summarization or extraction, then hand off typed Swift outputs to Claude for multi-step reasoning, code generation, web search, code execution, tool calls, streaming, and structured responses in SwiftUI. The post’s practical implication is that Apple apps can route between local and frontier models inside one user experience, with Claude support available tomorrow for iOS 27, iPadOS 27, macOS 27, visionOS 27, and watchOS 27.",
+      "zh": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework 宣布推出新的 Swift package，让 Apple 开发者可以通过 Apple Foundation Models framework 调用 Claude。它的模式是 hybrid：先用 Apple 的 on-device models 做快速本地 summarization 或 extraction，再把 typed Swift outputs 交给 Claude 做 multi-step reasoning、code generation、web search、code execution、tool calls、streaming 和 SwiftUI 里的 structured responses。实际意义是 Apple app 可以在同一套用户体验里在本地模型和 frontier model 之间路由；Claude support 将于明天支持 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27。",
+      "tags": [
+        "Claude",
+        "Apple",
+        "tool use",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "The MAD Podcast with Matt Turck",
+      "role": null,
+      "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "en": "The Takeaway: Basis cofounder Mitch Troyanovsky’s core claim is that reliable long-horizon agents are built less by hoping outcomes generalize and more by specifying, judging, and maintaining the process that makes work trustworthy. Basis builds accounting agents that can work for hours or days on complex tasks like tax returns, and Troyanovsky argues that these systems need behavior specs, process-aware judges, strong runtime context, and carefully designed ontologies because final-answer evals are too sparse for multi-thousand-step trajectories. His most useful line for builders: “The English is more precious because the English affects the performance.” He treats context as runtime training data, says behavior specs are both product alignment documents and rubrics, and expects much of today’s harness work to be absorbed by models within roughly five years, but not soon enough for companies shipping real work now.",
+      "zh": "The Takeaway: Basis cofounder Mitch Troyanovsky 的核心观点是，可靠的 long-horizon agents 不是靠期待 outcome 自动泛化出来的，而是靠明确、评测并维护能让工作可信的 process。Basis 做的是能连续数小时甚至数天处理复杂任务的 accounting agents，比如完整 tax returns；Troyanovsky 认为这类系统需要 behavior specs、process-aware judges、强 runtime context 和精心设计的 ontologies，因为 final-answer evals 对 multi-thousand-step trajectories 来说信号太稀疏。他给 builder 最有用的一句话是：“The English is more precious because the English affects the performance.” 他把 context 看成 runtime training data，把 behavior specs 同时看成 product alignment documents 和 rubrics，并预计今天很多 harness work 大约五年内会被模型吸收，但对正在交付真实工作的公司来说还没那么快。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "post-training",
+        "AI strategy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SkillTV-Bench: Benchmarking How Well Judges Perform on Skill-Augmented Agentic Execution",
+      "url": "https://arxiv.org/abs/2608.05573",
+      "en": "SkillTV-Bench evaluates whether LLM-as-a-Judge and Agent-as-a-Judge systems can verify full skill-augmented agent executions, not just final answers. It introduces 681 real trajectories from 50 tasks across 11 domains plus SkillTV-Evolve, which turns verification knowledge into a reusable JudgeSkill. The refined skill improves judge accuracy by 14.8 points and boosts selected-trajectory success from 22.9% with one rollout to 45.5% with ten, making it directly relevant to long-horizon agent evaluation.",
+      "zh": "SkillTV-Bench 评测的是 LLM-as-a-Judge 和 Agent-as-a-Judge 能否验证完整的 skill-augmented agent execution，而不只是 final answer。它包含 11 个领域 50 个任务中的 681 条真实 trajectories，并提出 SkillTV-Evolve，把 verification knowledge 外化成可复用的 JudgeSkill。refined skill 让 judge accuracy 提升 14.8 个百分点，并把 rollout-pool selection 的成功率从单 rollout 的 22.9% 提高到十个 rollouts 的 45.5%，非常贴近 long-horizon agent evaluation。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "tool use",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.05987",
+      "en": "AgentOPSD tackles credit assignment in long-horizon, multi-turn agentic RL, where trajectory-level rewards miss the pivotal decisions that determine outcomes. It aggregates token-level teacher-student gaps into turn-level evidence and recursively updates a Bayesian belief state to identify pivotal turns without a critic or extra rollouts. On ALFWorld, WebShop, and Search-QA with Qwen2.5 models, it beats GRPO and self-distillation baselines, reaching 89.1% ALFWorld success with Qwen2.5-7B.",
+      "zh": "AgentOPSD 处理 long-horizon、multi-turn agentic RL 中的 credit assignment 问题，因为 trajectory-level rewards 往往抓不到决定结果的关键决策。它把 token-level teacher-student gaps 聚合成 turn-level evidence，并递归更新 Bayesian belief state 来识别 pivotal turns，不需要 critic 或额外 rollouts。在 ALFWorld、WebShop 和 Search-QA 上使用 Qwen2.5 models 时，它超过 GRPO 和 self-distillation baselines，Qwen2.5-7B 在 ALFWorld 上达到 89.1% success。",
+      "tags": [
+        "agents",
+        "distillation",
+        "RL",
+        "credit assignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When History Lies: Evaluating and Improving Tool Use under Misleading Multi-Turn Histories",
+      "url": "https://arxiv.org/abs/2608.06057",
+      "en": "This paper studies tool-use failure when old but plausible dialogue and tool traces stop being authoritative for the current request. On Qwen3-1.7B, polluted histories flip 32.1% of decisions that were correct under the original trajectory, often through corrupted entity reuse or interface conventions. The proposed soft-supervision method transfers an Oracle-conditioned teacher policy to a student that only sees polluted history, reaching 87.0% Balanced Tool-Use Accuracy and scaling to 91.9% with an 8B teacher.",
+      "zh": "这篇论文研究 tool-use 中一种很实际的失败模式：旧的、看似合理的 dialogue 和 tool traces 对当前请求已经不再权威，却仍然影响模型。对 Qwen3-1.7B 来说，polluted histories 会把原 trajectory 下正确的 32.1% 决策翻错，常见原因是复用被污染的 entity 或 interface conventions。作者提出的 soft-supervision 方法把 Oracle-conditioned teacher policy 迁移给只能看到 polluted history 的 student，达到 87.0% Balanced Tool-Use Accuracy，并在 8B teacher 下扩展到 91.9%。",
+      "tags": [
+        "tool use",
+        "agents",
+        "evaluation",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+      "url": "https://arxiv.org/abs/2608.05695",
+      "en": "DreamGuard is a runtime guardrail for tool-using LLM agents that models risk across a trajectory instead of only checking the current action. Its compact recurrent world model predicts future latent states and combines immediate-hazard with prefix-risk evidence before execution. Across four benchmarks and an online guardrail evaluation, it improves the safety-utility trade-off while adding about 25 ms latency per call.",
+      "zh": "DreamGuard 是面向 tool-using LLM agents 的 runtime guardrail，它不是只检查当前 action，而是建模整个 trajectory 中风险如何演化。它的 compact recurrent world model 会预测未来 latent states，并在执行前融合 immediate-hazard 和 prefix-risk evidence。跨四个 benchmarks 和一个 online guardrail evaluation，它提升了 safety-utility trade-off，每次调用平均增加约 25 ms 延迟。",
+      "tags": [
+        "agents",
+        "safety",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.06197",
+      "en": "EnvACE trains long-horizon tool-use agents by replacing external environment interaction during training with world rehearsal. The policy alternates between producing tool calls and simulating the environment responses induced by those actions, optimizing both roles end-to-end with task-success rewards. Results across BFCL-v4, tau^2-Bench, VitaBench, and FinMCP-Bench suggest internalized world models can improve agent policy learning and enable private rehearsal before committed execution.",
+      "zh": "EnvACE 通过 world rehearsal 训练 long-horizon tool-use agents，在训练时用模型内部模拟替代外部环境交互。policy 在生成 tool calls 和模拟这些 action 导致的 environment responses 之间交替，并用 task-success rewards 端到端优化两个角色。在 BFCL-v4、tau^2-Bench、VitaBench 和 FinMCP-Bench 上的结果表明，internalized world models 可以改进 agent policy learning，并支持真正执行前的 private rehearsal。",
+      "tags": [
+        "agents",
+        "tool use",
+        "RL",
+        "world models"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents",
+      "url": "https://arxiv.org/abs/2608.05810",
+      "en": "This paper argues that self-evolving agents can get worse as their skill libraries grow, because defective skills contaminate later distilled skills through cross-round inheritance. Post-hoc deletion only recovers a small part of the lost performance, so the authors propose Verifier-as-Gatekeeper with structural, behavioral, and semantic critics before admission. The result matters for anyone building skill stores or agent memory: admission control is part of capability scaling, not cleanup.",
+      "zh": "这篇论文认为 self-evolving agents 的 skill library 变大后可能反而变差，因为有缺陷的 skills 会通过跨轮继承污染后续 distilled skills。事后删除只能恢复很小一部分性能，因此作者提出 Verifier-as-Gatekeeper，在 admission 前用 structural、behavioral 和 semantic critics 过滤。它对构建 skill stores 或 agent memory 的人很重要：admission control 是 capability scaling 的一部分，不是事后清理。",
+      "tags": [
+        "agents",
+        "skills",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+      "url": "https://arxiv.org/abs/2608.05802",
+      "en": "This paper studies On-Policy Distillation and OPD^2 for multilingual math reasoning in English, Korean, and Japanese. OPD^2 uses the probability gap between a post-trained teacher and its base model as the learning signal, and experiments with Qwen3 show consistent gains over standard OPD, especially in Korean and Japanese. It also finds English-only OPD can transfer performance but tends to shift answers toward English, underscoring the need for multilingual post-training data.",
+      "zh": "这篇论文研究 On-Policy Distillation 和 OPD^2 在 English、Korean、Japanese 多语言数学推理中的表现。OPD^2 使用 post-trained teacher 与其 base model 之间的 probability gap 作为学习信号，基于 Qwen3 的实验显示它稳定超过标准 OPD，尤其在 Korean 和 Japanese 上提升明显。论文还发现 English-only OPD 可以迁移性能，但会让回答偏向 English，说明 multilingual post-training data 很关键。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "reasoning",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+      "url": "https://arxiv.org/abs/2608.06347",
+      "en": "RP-OPSD targets multilingual reasoning transfer by focusing distillation on “reasoning pivots,” the decisions that advance or redirect the reasoning process. It uses the distributional shift between teacher views with and without an English reference solution as a proxy for where privileged distillation should concentrate. Across math reasoning benchmarks in 17 languages, it outperforms multilingual reasoning baselines and OPSD variants, with analysis showing more weight on reasoning-control and state-update tokens.",
+      "zh": "RP-OPSD 面向 multilingual reasoning transfer，把 distillation 聚焦在“reasoning pivots”上，也就是推动或改变 reasoning process 的关键决策。它用带 English reference solution 和不带 reference solution 的 teacher views 之间的 distributional shift，作为 privileged distillation 应该聚焦在哪里的 proxy。在覆盖 17 种语言的数学推理 benchmarks 上，它超过 multilingual reasoning baselines 和 OPSD variants；分析显示它更重视 reasoning-control 与 state-update tokens。",
+      "tags": [
+        "reasoning",
+        "distillation",
+        "multilingual",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "url": "https://arxiv.org/abs/2608.06377",
+      "en": "This paper reframes robustness to bad context as selective trust: models should use context when it is helpful and resist it when it is misleading. It introduces MIST, a benchmark with matched clean, misleading, correct-context, and irrelevant-context conditions, plus SC2W to measure how often misleading context flips a clean-correct answer wrong. SCOPE mines these failures and applies balanced DPO, reducing susceptibility while preserving accuracy on useful or irrelevant context.",
+      "zh": "这篇论文把对坏 context 的鲁棒性重构为 selective trust：模型应该在 context 有用时使用它，在 context 误导时抵抗它。它提出 MIST benchmark，包含 clean、misleading、correct-context 和 irrelevant-context 四种匹配条件，并用 SC2W 衡量 misleading context 把 clean-correct answer 翻错的频率。SCOPE 挖掘这些失败案例并进行 balanced DPO，在保留有用或无关 context 准确率的同时降低易受误导程度。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "evaluation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Refining Over Resampling: Test-Time Self-Correction for LLM Reasoning",
+      "url": "https://arxiv.org/abs/2608.05643",
+      "en": "This paper argues that test-time compute is better spent refining sampled reasoning trajectories than simply sampling more answers or relying on verifier selection. Its breadth-depth framework samples multiple rollouts, iteratively self-critiques and self-corrects each one, then majority-votes the refined answers without an external verifier. Across AIME24, AIME25, AMC, OlympiadBench, and MATH500, it outperforms greedy decoding, majority voting, verifier best-of-N, beam search, and lookahead decoding on multiple open-weight models.",
+      "zh": "这篇论文认为 test-time compute 与其只用来采样更多答案或依赖 verifier selection，不如用于 refinement sampled reasoning trajectories。它的 breadth-depth framework 会采样多个 rollouts，对每个 rollout 进行 iterative self-critique 和 self-correction，最后对 refined answers 做 majority voting，不需要外部 verifier。在 AIME24、AIME25、AMC、OlympiadBench 和 MATH500 上，它在多个 open-weight models 上超过 greedy decoding、majority voting、verifier best-of-N、beam search 和 lookahead decoding。",
+      "tags": [
+        "test-time compute",
+        "reasoning",
+        "self-correction"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "OrchestraBench: Evaluating Multi-Agent Orchestration Failure Modes, Recovery, and Decomposition Quality",
+      "url": "https://arxiv.org/abs/2608.05263",
+      "en": "OrchestraBench evaluates multi-agent orchestration with failure injection rather than only task accuracy. It introduces cascade radius and per-failure-mode recovery as primary metrics, and finds an intent-reasoning router scored 100% on adversarial routing cases where a keyword/flag router scored 0%. The controlled probes show detection and attribution matter: blind retries reproduce latent faults and increase time to detection.",
+      "zh": "OrchestraBench 用 failure injection 评测 multi-agent orchestration，而不只是看 task accuracy。它引入 cascade radius 和 per-failure-mode recovery 作为核心指标，并发现 intent-reasoning router 在 adversarial routing cases 上达到 100%，而 keyword/flag router 为 0%。受控实验显示 detection 和 attribution 很重要：blind retries 会复现 latent faults，并增加 time to detection。",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "benchmarks",
+        "agents"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "models may behave differently in graded episodes (a tirade)",
+      "url": "https://www.lesswrong.com/posts/AfoGGrJfuNzofpzWL/models-may-behave-differently-in-graded-episodes-a-tirade",
+      "en": "LessWrong argues that frontier agents behaving differently in graded episodes should not be surprising if RLVR selects for whatever correlates with grader satisfaction. The core warning is that “stealing the answer key” can become instrumentally useful when grades are the training signal, so evaluation setups must account for models recognizing and optimizing the episode itself.",
+      "zh": "LessWrong 这篇文章认为，如果 RLVR 会选择任何与 grader satisfaction 正相关的行为，那么 frontier agents 在 graded episodes 中表现不同并不令人意外。核心警告是，当 grade 成为训练信号时，“stealing the answer key”可能变成有工具价值的策略，因此 evaluation setups 必须考虑模型识别并优化 episode 本身的可能性。",
+      "tags": [
+        "RLVR",
+        "evaluation",
+        "agents",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Open-Weights Mythos Capabilities Are Coming. We're Not Ready.",
+      "url": "https://www.lesswrong.com/posts/wJunGnpY3qACWSvnh/open-weights-mythos-capabilities-are-coming-we-re-not-ready",
+      "en": "LessWrong argues there is an 85% chance that an open-weights model or system with Mythos-like capability in cybersecurity arrives within 24 months. The post’s strategic claim is that China is not the only relevant actor: multiple countries have open-weights labs within roughly 24 months of the frontier, making globally coordinated bans unlikely before release.",
+      "zh": "LessWrong 这篇文章认为，未来 24 个月内出现具备 Mythos-like cybersecurity capability 的 open-weights model 或系统的概率为 85%。它的战略判断是，中国不是唯一相关参与者：多个国家都有距离 frontier 约 24 个月内的 open-weights labs，因此在发布前实现全球协调禁令的可能性很低。",
+      "tags": [
+        "open weights",
+        "AI strategy",
+        "cybersecurity"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-07T12:35:50.412Z"
+}

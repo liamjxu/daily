@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-07",
+    "count": 21,
+    "headline_en": "The day centered on long-horizon agents: labs pushed broader model access, builders emphasized behavior specs and runtime context, and papers attacked agent evaluation, tool-use reliability, post-training, and reasoning credit assignment.",
+    "generatedAt": "2026-08-07T12:35:50.412Z"
+  },
+  {
     "date": "2026-08-06",
     "count": 23,
     "headline_en": "Agent reliability, memory, and evaluation dominated the day, from tool-routing flaws and agent benchmarks to post-training papers probing when reasoning and distillation actually work.",
