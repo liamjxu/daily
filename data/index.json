@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-08",
+    "count": 21,
+    "headline_en": "Agent safety, evaluation quality, and practical post-training dominated the day, from Claude Code Auto mode and autonomous cyber side quests to new benchmarks for tool use, agent state, judging, RAG, and reasoning.",
+    "generatedAt": "2026-08-08T12:18:46.832Z"
+  },
+  {
     "date": "2026-08-07",
     "count": 21,
     "headline_en": "The day centered on long-horizon agents: labs pushed broader model access, builders emphasized behavior specs and runtime context, and papers attacked agent evaluation, tool-use reliability, post-training, and reasoning credit assignment.",
