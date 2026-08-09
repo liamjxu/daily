@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-09",
+    "count": 10,
+    "headline_en": "AI builders and researchers focused on agent coordination risks, post-training and LM objective design, scarce compute allocation, and the tension between rapid AI progress and regulation.",
+    "generatedAt": "2026-08-09T14:32:09.421Z"
+  },
+  {
     "date": "2026-08-08",
     "count": 21,
     "headline_en": "Agent safety, evaluation quality, and practical post-training dominated the day, from Claude Code Auto mode and autonomous cyber side quests to new benchmarks for tool use, agent state, judging, RAG, and reasoning.",
