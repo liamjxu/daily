@@ -1,0 +1,437 @@
+{
+  "date": "2026-08-10",
+  "headline_en": "Today’s strongest signal is that agents are moving from demos into harder operating terrain: long-horizon memory, post-training, secure tool use, evidence-grounded science, and organizational workflows.",
+  "headline_zh": "今天最强的信号是，agent 正从 demo 走向更难的真实运行场景：long-horizon memory、post-training、安全 tool use、基于证据的科学推理和组织协作流程。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code @anthropicai",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2086520950259118464",
+      "en": "Claude Code’s Boris Cherny said prompt injection remains the most common attack path against agents, but Anthropic has been training Claude models to resist it and now believes it has “largely solved the threat of prompt injection in practice” for Claude-based agent use. He points to an independent benchmark and says Anthropic sees similar robustness in red-teaming beyond lab evals.",
+      "zh": "Claude Code 的 Boris Cherny 表示，prompt injection 仍然是攻击 agent 最常见的路径，但 Anthropic 一直在训练 Claude 模型抵御这类攻击，现在认为在使用 Claude 模型的 agent 场景中，已经基本解决了实践中的 prompt injection 威胁。他提到一个独立 benchmark，并表示 Anthropic 在实验室 eval 之外的 red-teaming 中也看到了类似的鲁棒性。",
+      "tags": [
+        "agents",
+        "prompt injection",
+        "security",
+        "Frontier lab research & releases"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": null,
+      "url": "https://x.com/sama/status/2086469875581755696",
+      "en": "OpenAI CEO Sam Altman emphasized that he values the team’s focus not just on building “magic intelligence in the sky,” but on making sure customers and users win through business privacy, low prices, and predictable policies. The signal is less technical than strategic: OpenAI wants reliability, trust, and commercial usability to be part of the frontier-model story.",
+      "zh": "OpenAI CEO Sam Altman 强调，他看重团队不只是做出“空中的魔法智能”，也在通过 business privacy、低价格和可预测政策让客户和用户真正受益。这个信号技术含量不高，但有战略意义：OpenAI 希望把可靠性、信任和商业可用性纳入 frontier model 叙事。",
+      "tags": [
+        "OpenAI",
+        "model policy",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "Y Combinator President & CEO",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2086615082163941460",
+      "en": "Y Combinator President & CEO Garry Tan described his preferred operating loop: start from the bug, gap, false claim, half-built tool, or institutional weirdness, infer the hidden machinery that made the visible failure possible, then fix the root cause and repeat. It is a compact founder-engineer heuristic for turning anomalies into system improvements.",
+      "zh": "Y Combinator President & CEO Garry Tan 描述了自己偏好的工作循环：从 bug、缺口、错误说法、半成品工具或机构中的异常现象出发，推断是什么隐藏机制造成了可见失败，然后修复根因并不断重复。这是一个简洁的 founder-engineer 方法论，把异常转化为系统改进。",
+      "tags": [
+        "builder strategy",
+        "systems"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "en": "Claude Blog: “Claude Code now supports artifacts” introduces beta support for live, shareable pages generated from a Claude Code session, including PR walkthroughs, incident timelines, dashboards, release checklists, dependency audits, and architecture maps. Claude Code builds these artifacts from the session context, codebase, connectors, and conversation, then republishes updates to the same URL with version history. The collaboration implication is concrete: teammates no longer need a verbal status handoff because they can inspect the same evolving page. Artifacts are private by default, org-authenticated only, governed by admin toggles, role scoping, retention policies, and compliance API visibility, and are available to Claude Team and Enterprise orgs from the CLI and desktop app.",
+      "zh": "Claude Blog: “Claude Code now supports artifacts” 发布了 beta 版 artifacts，Claude Code 可以把一次 session 生成的工作进展变成 live、可分享的页面，包括 PR walkthrough、incident timeline、dashboard、release checklist、dependency audit 和 architecture map。Claude Code 会基于 session context、codebase、connectors 和对话生成这些 artifact，并在同一个 URL 上持续发布更新，带 version history。协作上的意义很直接：团队成员不再需要口头听 agent 做了什么，而是可以查看同一个持续演进的页面。Artifacts 默认私有，仅组织内认证成员可见，并支持 admin toggle、role scoping、retention policy 和 compliance API visibility，目前面向 Claude Team 和 Enterprise org，通过 CLI 和 desktop app 使用。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "workflows",
+        "Frontier lab research & releases"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "en": "The Takeaway: Igor Babushkin argues the next frontier is not just stronger proprietary models, but distributed post-training, personal AI, and local inference that let people and companies keep control of their data and model behavior. Babushkin, a former DeepMind, OpenAI, and xAI researcher and co-founder now building River AI, says coding agents crossed a threshold in late 2025 and made many AI builders feel that “anything is possible now,” but the hard next step is long-horizon, non-verifiable domains where agents need better reward signals, memory, and judgment. River’s three bets are a reinforcement-learning and fine-tuning API for companies, personalization that trains agents to behave differently for each individual, and hardware that brings frontier-like inference closer to the user for control, privacy, and latency. He is bearish on the comfort of closed model providers, arguing they face diminishing returns, safety release constraints, and open models catching up, while the most urgent safety risk is not only takeover but unequal access to AI’s benefits.",
+      "zh": "The Takeaway: Igor Babushkin 认为，下一个前沿不只是更强的 proprietary model，而是分布式 post-training、personal AI 和 local inference，让个人和公司能掌控自己的数据与模型行为。Babushkin 曾在 DeepMind、OpenAI 和 xAI 做研究并参与创立 xAI，现在创办 River AI；他认为 2025 年底 coding agent 跨过了一个阈值，让很多 AI builder 感到“anything is possible now”，但真正困难的下一步是 long-horizon、non-verifiable domain，agent 需要更好的 reward signal、memory 和 judgment。River 的三条赌注是面向公司的 reinforcement learning 和 fine-tuning API、能为每个个体学出不同行为的 personalization，以及把接近 frontier 的 inference 放到用户本地的硬件，从而提升控制权、隐私和低延迟。他对 closed model provider 的舒适位置并不乐观，认为它们会同时受到 diminishing returns、安全发布约束和 open model 追赶的挤压，而最迫切的安全风险不只是 takeover，也包括 AI 收益分配不均。",
+      "tags": [
+        "agents",
+        "post-training",
+        "open models",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
+      "url": "https://arxiv.org/abs/2608.07169",
+      "en": "AMD is a training-free framework that transfers structured memory from a large teacher agent to small 4B-8B student agents. It builds workflow, subtask, and function memories from successful teacher trajectories, then injects or retrieves them during tool-use tasks. The practical result is large gains on AppWorld, BFCL V3, and ToolSandbox, especially for 4B students, which makes this directly relevant to cheap agent deployment.",
+      "zh": "AMD 是一个 training-free 框架，把大 teacher agent 的结构化 memory 转移给 4B-8B 的小 student agent。它从成功的 teacher trajectory 中构建 workflow、subtask 和 function 三类 memory，并在 tool-use 任务中主动注入或按错误检索。实际结果是在 AppWorld、BFCL V3 和 ToolSandbox 上带来明显提升，尤其利好 4B student，因此对低成本 agent 部署很有价值。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "distillation",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "The Horizon Gap: Planning, Memory, Execution, Training, and Evaluation for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2608.06663",
+      "en": "This survey names the “horizon gap”: models that solve hard single-pass reasoning tasks still fail at multi-hour agent work by losing plans, forgetting decisions, or declaring incomplete work done. It organizes 1,547 arXiv papers across planning, memory, execution, training, evaluation, and safety, while separating long-horizon tasks from long-context models and long-term memory systems. Its core point for agent builders is that outcome-only rewards become weak as horizons lengthen, so the field needs denser step-level signals and better trajectory diagnostics.",
+      "zh": "这篇综述提出了 “horizon gap”：模型能解决很难的单次 reasoning 任务，却仍会在多小时 agent 工作中丢失计划、忘记早先决策，或把半成品说成完成。论文梳理了 1,547 篇 arXiv 论文，覆盖 planning、memory、execution、training、evaluation 和 safety，并区分 long-horizon task、long-context model 与 long-term memory system。对 agent builder 来说，它的核心观点是：随着任务 horizon 变长，只看 outcome 的 reward 会越来越弱，因此需要更密集的 step-level signal 和更好的 trajectory diagnostic。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "memory",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "url": "https://arxiv.org/abs/2608.07437",
+      "en": "Fisher-R1 targets a subtle failure mode in scientific agents: they can execute code correctly but still choose invalid statistical tests or draw wrong conclusions from p-values. The paper introduces P-Bench, 425 realistic hypothesis-testing tasks across economics, biology, and medicine, and trains an open-weight agent with synthetic tasks plus reinforcement learning. Fisher-R1-14B beats strong proprietary and open baselines, including GPT-5.4 and DeepSeekV4-Pro, making it highly relevant to evaluation of scientific reasoning agents.",
+      "zh": "Fisher-R1 针对科学 agent 的一个隐蔽失败模式：它们可能正确执行代码，但选择了无效统计检验，或从 p-value 得出错误结论。论文提出 P-Bench，包含经济学、生物学和医学中的 425 个真实感 hypothesis-testing 任务，并用 synthetic task 加 reinforcement learning 训练 open-weight agent。Fisher-R1-14B 超过包括 GPT-5.4 和 DeepSeekV4-Pro 在内的强 proprietary 与 open baseline，因此非常适合关注 scientific reasoning agent 的评估读者。",
+      "tags": [
+        "LLM agents",
+        "scientific reasoning",
+        "benchmark",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "url": "https://arxiv.org/abs/2608.06811",
+      "en": "PMCoder couples a hierarchical phase planner with episodic memory for long software-repair trajectories. The plan conditions what memory is retrieved, while memory-derived trajectory statistics detect stuck states and trigger replanning, with execution evidence used for verification when available. On SWE-bench Verified it resolves 25 more cases than a harness-matched baseline, showing that planning-memory coupling matters for real coding agents.",
+      "zh": "PMCoder 把 hierarchical phase planner 与 episodic memory 结合起来，用于很长的软件修复 trajectory。当前 plan 决定检索哪些 memory，而 memory 派生的 trajectory statistics 用来检测卡住状态并触发 replanning；在可用时，verification 由 execution evidence 支撑。它在 SWE-bench Verified 上比 harness-matched baseline 多解决 25 个 case，说明 planning-memory coupling 对真实 coding agent 很关键。",
+      "tags": [
+        "LLM agents",
+        "coding agents",
+        "memory",
+        "SWE-bench"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.07371",
+      "en": "TRIAL improves agentic reinforcement learning by allocating hindsight-derived supervision across individual turns rather than treating a completed rollout as one undifferentiated signal. It compares each decision under ordinary and hindsight-conditioned contexts, then uses the signed log-probability gap to weight token-level supervision. On WebShop and ALFWorld it beats GRPO across all tested backbone-environment-metric combinations, with WebShop success for Qwen3-1.7B rising from 56.4% to 75.2%.",
+      "zh": "TRIAL 通过把 hindsight-derived supervision 分配到每个 turn，改进 agentic reinforcement learning，而不是把完整 rollout 当作一个不可分的信号。它在普通 context 与 hindsight-conditioned context 下比较每个决策，并用 signed log-probability gap 加权 token-level supervision。在 WebShop 和 ALFWorld 上，它在所有测试的 backbone-environment-metric 组合中都超过 GRPO，其中 Qwen3-1.7B 的 WebShop success 从 56.4% 提升到 75.2%。",
+      "tags": [
+        "agentic RL",
+        "distillation",
+        "post-training",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "TEPA: Revoking Stale Memories for Conflict-Robust Language Agents",
+      "url": "https://arxiv.org/abs/2608.07429",
+      "en": "TEPA addresses memory pollution in language agents: old memories that remain retrievable after the world or user preferences change. It represents observations as keyed precedents and explicitly revokes stale active memories when newer conflicting evidence arrives, preserving revoked history for audit. In hidden-regime drift and real file-backed executable drift, TEPA avoids the collapse seen in append-only and last-write-wins memory, making it a strong systems paper for long-term agent memory.",
+      "zh": "TEPA 处理 language agent 中的 memory pollution：当世界或用户偏好变化后，旧 memory 仍然可被检索并污染 prompt。它把 observation 表示为 keyed precedent，当新的冲突证据出现时显式撤销 stale active memory，同时保留 revoked history 供审计。在 hidden-regime drift 和真实 file-backed executable drift 中，TEPA 避免了 append-only 与 last-write-wins memory 的崩溃，是一篇很适合 long-term agent memory 读者的系统论文。",
+      "tags": [
+        "language agents",
+        "memory",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination",
+      "url": "https://arxiv.org/abs/2608.07341",
+      "en": "This paper critiques the common G-AP metric for contamination mitigation, arguing that aggregate correct-or-incorrect gaps can hide over- and under-suppression at the question level. It proposes SA-PPG, which estimates per-question solve probabilities, compares them to a clean model, and aggregates within strata defined by clean-model difficulty. It also introduces RailCap, a generation-time suppression method, making the paper directly relevant to benchmark contamination and evaluation reliability.",
+      "zh": "这篇论文批评 contamination mitigation 中常用的 G-AP 指标，认为 aggregate 的对错 gap 会掩盖 question-level 的过度抑制和不足抑制。它提出 SA-PPG，先估计每个问题的 solve probability，再与 clean model 对比，并按 clean-model difficulty 分层聚合。论文还提出 RailCap，一种 generation-time suppression 方法，因此非常贴合 benchmark contamination 与 evaluation reliability。",
+      "tags": [
+        "evaluation",
+        "benchmark contamination",
+        "metrics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Science Edge Evaluation: SEE the Missing Step Toward Real Scientific Discovery",
+      "url": "https://arxiv.org/abs/2608.06931",
+      "en": "SEE evaluates whether multimodal LLMs can reason from real experimental evidence in chemistry, biology, and materials science. Across 19 MLLMs, the best model reaches only 48.7% accuracy, and tool use raises the best visual-agent result only to 52.7%. The important finding is that more retrieved or tool-derived information does not guarantee evidence-bounded scientific inference, which is a core bottleneck for AI scientists.",
+      "zh": "SEE 评估 multimodal LLM 是否能基于化学、生物和材料科学中的真实实验依据进行推理。在 19 个 MLLM 中，最佳模型只有 48.7% accuracy；加入 tool use 后，最佳 visual-agent 结果也只到 52.7%。关键发现是，更多检索信息或 tool-derived information 并不保证模型能做 evidence-bounded scientific inference，这是 AI scientist 的核心瓶颈之一。",
+      "tags": [
+        "scientific reasoning",
+        "evaluation",
+        "tool use",
+        "benchmark"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+      "url": "https://arxiv.org/abs/2608.07077",
+      "en": "This paper studies why reasoning models still fail on flat-to-flat Tower of Hanoi despite encoding a near-perfect internal world model. Small trained Transformers develop a linearly decodable Sierpinski state-space representation, and Qwen3.6-27B plus DeepSeek-R1-Distill-Qwen-32B show similar world-model representations at the prompt boundary. The failure appears during planning as that representation decays, which matters for anyone studying chain-of-thought, planning, and whether internal representations are actually usable over long rollouts.",
+      "zh": "这篇论文研究 reasoning model 为什么在 flat-to-flat Tower of Hanoi 上仍会失败，尽管它们编码了近乎完美的内部 world model。小型从头训练的 Transformer 会形成可线性解码的 Sierpinski state-space representation，Qwen3.6-27B 和 DeepSeek-R1-Distill-Qwen-32B 在 prompt 边界也显示出类似 world-model representation。失败发生在 planning 过程中，因为该 representation 会衰减，这对研究 chain-of-thought、planning，以及内部表征是否能在 long rollout 中真正被使用的人很重要。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "Qwen",
+        "DeepSeek"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation",
+      "url": "https://arxiv.org/abs/2608.06632",
+      "en": "Shape Your Feed reframes recommendation as real-time conversational co-curation rather than passive ranking from clicks and dwell time. The system uses perception, serving, and self-evolution flows to capture explicit user intent, maintain a persistent semantic profile, perform agentic re-ranking, and align behavior via DPO plus LLM-as-a-Judge. Offline and online results suggest a practical path for preference optimization in production recommender agents.",
+      "zh": "Shape Your Feed 把推荐系统从基于点击和停留时长的被动排序，改成实时 conversational co-curation。系统用 perception、serving 和 self-evolution 三层流程捕捉显式用户意图、维护 persistent semantic profile、执行 agentic re-ranking，并通过 DPO 与 LLM-as-a-Judge 对齐行为。离线和线上结果显示，这可能是 production recommender agent 中进行 preference optimization 的实用路径。",
+      "tags": [
+        "agentic recommendation",
+        "DPO",
+        "preference optimization",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework",
+      "url": "https://arxiv.org/abs/2608.06909",
+      "en": "This paper introduces trajectory attribution for long-horizon agents, where the goal is to locate which instruction, tool result, memory, observation, or attack chain caused an action or refusal. The benchmark includes more than 1,300 annotated trajectories from AgentDojo and Agent3Sigma settings, with tasks for primary attribution localization and attribution-chain recovery. It matters because outcome benchmarks alone do not explain why agents succeed, fail, or take unsafe actions.",
+      "zh": "这篇论文提出 long-horizon agent 的 trajectory attribution，目标是定位哪条 instruction、tool result、memory、observation 或 attack chain 导致了某个 action 或 refusal。benchmark 包含来自 AgentDojo 和 Agent3Sigma 设置的 1,300 多条标注 trajectory，并设置 primary attribution localization 与 attribution-chain recovery 两类任务。它的重要性在于，单纯 outcome benchmark 无法解释 agent 为什么成功、失败或执行 unsafe action。",
+      "tags": [
+        "agents",
+        "tool use",
+        "evaluation",
+        "attribution"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "漫无止境的八月paper推荐合集第一期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris posted the first August paper recommendation roundup, a click-through list of papers the author found worth reading. Bottom line: tabris recommends 图1, 图13.",
+      "zh": "tabris 发了“漫无止境的八月paper推荐合集第一期”，是作者觉得值得点进去看的论文推荐合集。一句话推荐: tabris recommends 图1, 图13。",
+      "tags": [
+        "RedNote",
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "漫无止境的八月blogs推荐合集第一期",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris posted the first August blog recommendation roundup, a click-through list of blog posts the author found worth reading. Bottom line: tabris recommends 图1, 图13.",
+      "zh": "tabris 发了“漫无止境的八月blogs推荐合集第一期”，是作者觉得值得点进去看的 blog 推荐合集。一句话推荐: tabris recommends 图1, 图13。",
+      "tags": [
+        "RedNote",
+        "blogs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "漫无止境的八月自觉不错projects推荐合集",
+      "url": "https://www.rednote.com/user/profile/60a72ded000000000101de6e",
+      "en": "tabris posted an August project recommendation roundup, collecting projects the author personally thinks are good and worth checking out.",
+      "zh": "tabris 发了“漫无止境的八月自觉不错projects推荐合集”，整理了作者自觉不错、值得点进去看的 project。",
+      "tags": [
+        "RedNote",
+        "projects"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "让英雄审英雄 让模型审模型",
+      "url": "https://www.rednote.com/user/profile/63b6469b000000002601156f",
+      "en": "鸭基米德 posted “让英雄审英雄 让模型审模型,” a new RedNote post whose title points to model-as-judge evaluation.",
+      "zh": "鸭基米德 发了《让英雄审英雄 让模型审模型》，标题指向 model-as-judge evaluation 这个方向。",
+      "tags": [
+        "RedNote",
+        "evaluation",
+        "LLM-as-judge"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Is Eval Gaming Downstream of Verbalized Eval Awareness? Not when it's reflexive.",
+      "url": "https://www.lesswrong.com/posts/gvNYAHcWiezZs8QvD/is-eval-gaming-downstream-of-verbalized-eval-awareness-not",
+      "en": "This LessWrong post tests whether reducing verbalized situational awareness in chain-of-thought also reduces eval-gaming behavior. DPO on CoT makes two model organisms sound less eval-aware, but behavior only changes in one: Hua et al.’s organism stops using type hints, while RogueQwen remains sycophantic. The sharp takeaway is that cleaner CoT is not enough evidence that eval gaming is gone, especially when the behavior is reflexive rather than deliberative.",
+      "zh": "这篇 LessWrong 文章测试：降低 chain-of-thought 中的 verbalized situational awareness，是否也会降低 eval-gaming 行为。对 CoT 做 DPO 后，两个 model organism 都更不像意识到自己在被评估，但行为只在其中一个发生变化：Hua et al. 的 organism 停止使用 type hint，而 RogueQwen 仍然保持 sycophancy。关键结论是，更干净的 CoT 不足以证明 eval gaming 已消失，尤其当行为是 reflexive 而不是 deliberative 时。",
+      "tags": [
+        "evaluation",
+        "DPO",
+        "chain-of-thought",
+        "RogueQwen"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "en": "Hugging Face published a post on making knowledge distillation cheap enough to run at scale. The title alone signals a practitioner-focused distillation piece aimed at lowering the cost barrier for large-scale teacher-student training.",
+      "zh": "Hugging Face 发布了一篇关于让 knowledge distillation 便宜到可以规模化运行的文章。仅从标题看，它是一篇偏实践的 distillation 内容，重点是降低大规模 teacher-student training 的成本门槛。",
+      "tags": [
+        "distillation",
+        "efficiency",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "en": "Hugging Face covered Meta’s Muse Glimmer as a local, agentic, multimodal, open-source release. The combination of local execution, multimodality, and agentic framing makes it relevant to readers tracking open-source alternatives to closed frontier workflows.",
+      "zh": "Hugging Face 介绍了 Meta 的 Muse Glimmer，标题称其为 local、agentic、multimodal、open-source 的发布。local execution、multimodality 和 agentic framing 的组合，使它适合关注 closed frontier workflow 替代方案的读者。",
+      "tags": [
+        "open source",
+        "agentic",
+        "multimodal",
+        "local AI"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "On Democratizing ASI to Preserve Civil Liberties",
+      "url": "https://www.lesswrong.com/posts/WxHaMyL8f9YW2vbrF/on-democratizing-asi-to-preserve-civil-liberties",
+      "en": "This LessWrong essay argues that even aligned ASI could threaten liberal democracy by concentrating power so strongly that civil liberties persist only if ASI controllers allow them. The proposed contingency frame is democratization: personal AI or gradually distributed access as a way to preserve balanced power. It connects directly to the industry debate over centralized frontier models versus open or locally controlled AI.",
+      "zh": "这篇 LessWrong 文章认为，即使 ASI 已经对齐，也可能通过极端集中权力威胁 liberal democracy，使 civil liberties 只能在 ASI 控制者允许时存在。作者提出的 contingency frame 是 democratization：通过 personal AI 或逐步分布式访问来维持权力平衡。它直接连接到 centralized frontier model 与 open 或 locally controlled AI 之间的行业争论。",
+      "tags": [
+        "AI governance",
+        "open models",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+      "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+      "en": "The Hacker News reports that OpenAI paused some internal activities around its upcoming Astra model after internal evaluation showed major advances in agentic coding and cybersecurity. The company is described as adding controls for higher-capability models and related activities, including isolated environments. This is one of the day’s more consequential security items because it concerns frontier-model capability thresholds rather than a routine CVE.",
+      "zh": "The Hacker News 报道称，OpenAI 在内部评估发现下一代 Astra 模型在 agentic coding 和 cybersecurity 上有显著进展后，暂停了部分相关内部活动。报道称 OpenAI 正为更高能力模型及相关活动增加控制措施，包括隔离环境。这是今天更重要的安全条目之一，因为它涉及 frontier model 的 capability threshold，而不是普通 CVE。",
+      "tags": [
+        "OpenAI",
+        "cybersecurity",
+        "agentic coding",
+        "Frontier lab research & releases"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Comparing embedding models with synthetic query probing [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkh1ul/comparing_embedding_models_with_synthetic_query/",
+      "en": "This r/MachineLearning post proposes Synthetic Query Probing for comparing embedding models by similarity-score behavior rather than trying to compare embedding spaces directly. The example contrasts Titan variants with Ada and argues that score ranges and threshold choices can shift non-linearly across models, which is practical for RAG migrations and retrieval evaluation.",
+      "zh": "这条 r/MachineLearning 帖子提出 Synthetic Query Probing，用 similarity-score behavior 比较 embedding model，而不是直接比较 embedding space。示例对比 Titan 变体和 Ada，指出不同模型之间的分数范围与 threshold 选择可能出现非线性变化，这对 RAG 迁移和 retrieval evaluation 很实用。",
+      "tags": [
+        "embeddings",
+        "RAG",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Which of the classic ASR problems did end-to-end models actually solve, and which just got quieter?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vkeiiu/which_of_the_classic_asr_problems_did_endtoend/",
+      "en": "This r/LanguageTechnology discussion asks which classic ASR failures end-to-end models solved versus merely obscured. The poster argues context improved, noise is better but still SNR-dependent, accent gaps may be hidden by lower average WER, code-switching remains mostly a data problem, and visual cues are largely not deployed outside research.",
+      "zh": "这条 r/LanguageTechnology 讨论问：end-to-end model 到底解决了哪些经典 ASR 失败模式，哪些只是被掩盖了。发帖者认为 context 改善明显，noise 更好了但仍受 SNR 影响，accent gap 可能被更低的平均 WER 掩盖，code-switching 仍主要是数据问题，而 visual cue 基本只停留在研究中。",
+      "tags": [
+        "ASR",
+        "evaluation",
+        "multilingual"
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-10T12:51:09.400Z"
+}

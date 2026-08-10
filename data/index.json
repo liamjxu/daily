@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-10",
+    "count": 28,
+    "headline_en": "Today’s strongest signal is that agents are moving from demos into harder operating terrain: long-horizon memory, post-training, secure tool use, evidence-grounded science, and organizational workflows.",
+    "generatedAt": "2026-08-10T12:51:09.400Z"
+  },
+  {
     "date": "2026-08-09",
     "count": 10,
     "headline_en": "AI builders and researchers focused on agent coordination risks, post-training and LM objective design, scarce compute allocation, and the tension between rapid AI progress and regulation.",
