@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-23",
+    "count": 20,
+    "headline_en": "Cheaper frontier models expand agent workflows as new research advances agent training and memory while challenging how reasoning, safety, and benchmark difficulty are measured.",
+    "generatedAt": "2026-09-24T05:04:50.884Z"
+  },
+  {
     "date": "2026-08-10",
     "count": 28,
     "headline_en": "Today’s strongest signal is that agents are moving from demos into harder operating terrain: long-horizon memory, post-training, secure tool use, evidence-grounded science, and organizational workflows.",
