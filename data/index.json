@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-24",
+    "count": 21,
+    "headline_en": "Agent deployment is advancing through better infrastructure and containment, while new research challenges how reliably we measure agent behavior and model quality.",
+    "generatedAt": "2026-09-24T12:03:56.297Z"
+  },
+  {
     "date": "2026-09-23",
     "count": 20,
     "headline_en": "Cheaper frontier models expand agent workflows as new research advances agent training and memory while challenging how reasoning, safety, and benchmark difficulty are measured.",
