@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-25",
+    "count": 18,
+    "headline_en": "Agent research focuses on stronger post-training, more diagnostic evaluations, and infrastructure that makes persistent workflows controllable.",
+    "generatedAt": "2026-09-25T12:03:44.007Z"
+  },
+  {
     "date": "2026-09-24",
     "count": 21,
     "headline_en": "Agent deployment is advancing through better infrastructure and containment, while new research challenges how reliably we measure agent behavior and model quality.",
