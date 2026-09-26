@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-26",
+  "headline_en": "AI agents are moving into persistent workplace execution, making workflow design, compute allocation, and oversight increasingly consequential.",
+  "headline_zh": "AI agent 正走向持续执行工作任务的新阶段，工作流设计、算力分配和监督机制变得愈发关键。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2103538666597691552",
+      "en": "Anthropic’s Claude Code builder Boris Cherny says Tag writes more than 50% of his daily PRs, handles roughly all his data analysis, and fixes most product feedback and bugs. He describes a proactive, programmable agent with memory and connector access, powered by Opus 5.5 and Fable 5.1. His workflows include reproducing reported bugs in the full app before opening fixes for review, and testing roughly 100 hypotheses about unusual data with a budget of around 10 million tokens.",
+      "zh": "Anthropic 的 Claude Code 开发者 Boris Cherny 表示，Tag 每天编写他超过 50% 的 PR，承担几乎全部数据分析，并处理大部分产品反馈和 bug。他将其描述为一个主动、可编程、具备记忆和 connector 访问能力的 agent，由 Opus 5.5 和 Fable 5.1 驱动。他的工作流包括在完整应用中复现反馈的 bug，再提交修复供审核，以及用约 1000 万 token 的预算检验异常数据背后的约 100 个假设。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "Opus 5.5"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": "OpenAI CEO",
+      "title": null,
+      "url": "https://x.com/sama/status/2103567198690349362",
+      "en": "OpenAI CEO Sam Altman says an extensive review of agents’ internet access during training and evaluation remains underway, with Hugging Face still the most severe event identified. He attributes the slow disclosure pace to investigating petabytes of activity logs and coordinating with affected organizations, while adding resources and prioritizing by severity. Disclosure of vulnerabilities found in other companies’ systems will remain those companies’ decision.",
+      "zh": "OpenAI CEO Sam Altman 表示，针对 agent 在训练和 evaluation 期间使用互联网的全面审查仍在进行，Hugging Face 事件依然是目前发现的最严重事件。他表示，披露进度较慢，是因为需要调查 PB 级活动日志并与受影响机构协调；团队正在增加资源，按严重程度确定优先级。对于 agent 在其他公司系统中发现的漏洞，是否披露将由相关公司决定。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2103577115010687067",
+      "en": "Anthropic’s Claude Code engineer Thariq treats effort settings as a way to choose how involved he stays in a task. He uses low effort more often when he wants to remain in the loop, reserving max effort mainly for work requiring no input from him or for finding security vulnerabilities.",
+      "zh": "Anthropic 的 Claude Code 工程师 Thariq 将 effort 设置视为调节自己参与任务程度的方式。他希望持续参与时，更常使用 low effort；max effort 则主要用于无需自己介入的任务，或用于寻找安全漏洞。",
+      "tags": [
+        "test-time compute",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Claude Cowork and chat are now one Claude",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "en": "Claude Blog: Claude Cowork and chat are now one Claude brings Cowork’s larger-task execution into ordinary conversations, allowing Claude to continue working after a laptop closes while retaining access to existing context, skills, and connectors. New Claude Docs and Claude Slides, alongside Claude Design inside conversations, support direct editing and shareable outputs; presentations can be presented inside Claude or downloaded as PowerPoint or PDF, and recurring work can be scheduled. The default control remains explicit: “By default, Claude asks before taking an action,” with an option to let it continue and check in only when closer attention is needed. The unified experience rolls out to Pro and Max over the coming weeks, with Team and Free to follow; Docs, Slides, and integrated Design are in beta on paid plans with Enterprise admin control, and Enterprise organizations will receive at least 30 days’ notice before changes.",
+      "zh": "Claude Blog：Claude Cowork and chat are now one Claude 将 Cowork 处理大型任务的能力融入普通对话，让 Claude 在笔记本电脑合上后仍能继续工作，并沿用已有的上下文、skills 和 connectors。新推出的 Claude Docs、Claude Slides，以及融入对话的 Claude Design，支持直接编辑和分享成果；演示文稿可在 Claude 内展示，也可下载为 PowerPoint 或 PDF，重复性工作还可以定时执行。默认控制方式仍然明确：“默认情况下，Claude 会在采取行动前询问”，用户也可以选择让它持续工作，仅在需要仔细关注时再确认。统一体验将在未来几周向 Pro 和 Max 推出，随后覆盖 Team 和 Free；Docs、Slides 和集成后的 Design 面向付费套餐提供 beta，Enterprise 由管理员控制启用，相关组织将在变更前至少 30 天收到通知。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "Claude"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: Sequence Holdings co-founder and CEO Michael Lee argues that durable AI advantage comes from reorganizing established businesses around agents, backed by permanent ownership and engineering authority, rather than simply distributing productivity tools across existing jobs. A former Apollo and Lone Pine investor whose company announced a $7.7 billion Baldwin take-private with the Dell family office, Lee says conventional software tends to fit today’s workflows and services incentives favor incremental change; his alternative is a permanent holding company targeting roughly one deal per year, where “the celebrated persona is the engineer” and engineers influence investment decisions as well as implementation. At BankSouth, he reports that consumer underwriting time fell 94% and average end-to-end loan processing dropped from 30 days to 11, allowing the bank to absorb doubled quarterly loan volume without relaxing underwriting standards; he explicitly does not credit Sequence for generating that demand, and says the underwriting team became smaller through a retirement and a transfer to the front office. The reusable Atlas platform combines a data ontology that makes business entities understandable to models, an agent builder, the Lattice workflow orchestration engine, and an application layer called artifacts; Lee sees regulated, centralized operations as particularly suitable because their rules and data are well defined, while emphasizing that employee trust and organizational change are harder than the engineering.",
+      "zh": "核心观点：Sequence Holdings 联合创始人兼 CEO Michael Lee 认为，持久的 AI 优势来自围绕 agent 重组成熟企业，并以长期持有和工程团队的决策权作为支撑，而不只是给现有岗位配备生产力工具。Lee 曾在 Apollo 和 Lone Pine 从事投资，其公司宣布与 Dell family office 共同推进价值 77 亿美元的 Baldwin 私有化交易；他认为，传统软件通常适配现有工作流，服务商的激励则偏向渐进改进，因此选择永久控股公司模式，每年以约一笔交易为目标，让“工程师成为备受推崇的角色”，并参与投资决策和实施。Lee 表示，在 BankSouth，消费贷款 underwriting 耗时下降了 94%，贷款从开始到完成的平均处理时间从 30 天缩短至 11 天，使银行能在不放宽 underwriting 标准的情况下承接环比翻倍的贷款量；他明确没有将需求增长归功于 Sequence，并说明 underwriting 团队缩小来自一人退休和一人转至前台业务。可复用的 Atlas 平台包含帮助模型理解业务实体的 data ontology、agent builder、Lattice 工作流编排引擎，以及名为 artifacts 的应用层；Lee 认为，受监管且运营集中的企业尤其适合部署 agent，因为规则和数据明确，同时强调员工信任与组织变革比工程问题更难。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Claude Opus 5.5 Should Raise Your Ambitions",
+      "url": "https://www.lesswrong.com/posts/rtPiip9igy3QvxYdM/claude-opus-5-5-should-raise-your-ambitions",
+      "en": "LessWrong’s “Claude Opus 5.5 Should Raise Your Ambitions” argues that the model’s persistence, execution, and communication justify attempting more ambitious projects. The post quotes Anthropic’s positioning: performance at Claude Fable 5.1’s level on most work, with running costs 40% below Opus 5. Its practical emphasis is to test larger real tasks, particularly agentic coding, rather than let benchmark scores alone define expectations.",
+      "zh": "LessWrong 的《Claude Opus 5.5 Should Raise Your Ambitions》认为，模型持续推进任务、执行工作和沟通的能力，足以支持用户尝试更有挑战性的项目。文章引用 Anthropic 的产品定位：大部分工作达到 Claude Fable 5.1 的水平，运行成本比 Opus 5 低 40%。它建议用规模更大的真实任务，尤其是 agentic coding，来检验能力，而不是仅凭 benchmark 分数设定预期。",
+      "tags": [
+        "Opus 5.5",
+        "agents",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-26T12:01:53.731Z"
+}
