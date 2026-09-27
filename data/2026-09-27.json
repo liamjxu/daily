@@ -1,0 +1,202 @@
+{
+  "date": "2026-09-27",
+  "headline_en": "Inference efficiency and agent orchestration take center stage, alongside sharper questions about how to evaluate AI self-improvement.",
+  "headline_zh": "推理效率与 agent 协作成为焦点，如何评估 AI 自我改进也引出了更尖锐的问题。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2103989902476259702",
+      "en": "Y Combinator President & CEO Garry Tan says his current favorite bug-fixing workflow uses capydotai with GStack /autoplan and GPT-6 at medium reasoning. He points to its use on a production issue as a concrete example of his preferred coding-agent setup.",
+      "zh": "Y Combinator 总裁兼 CEO Garry Tan 表示，他目前最喜欢的修 bug 工作流是搭配 capydotai、GStack /autoplan，以及 medium reasoning 档位的 GPT-6。他以一次生产环境问题的处理为例，展示了自己偏好的 coding agent 配置。",
+      "tags": [
+        "agents",
+        "GPT-6",
+        "coding"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: Inception co-founder and CEO Stefano Ermon, a Stanford professor whose research spans generative modeling, argues that diffusion’s parallel generation could improve the economics of latency-sensitive agents, test-time compute, and RL post-training because each depends heavily on generating model outputs efficiently. His starting evidence is a 2024 result matching an autoregressive model’s perplexity at GPT-2 scale while generating text roughly 10× faster; he says Mercury now serves production customers with quality comparable to speed-oriented frontier-lab models, and describes voice-agent customer Open Call moving from an autoregressive model on Cerebras to diffusion on NVIDIA GPUs while retaining an OpenAI-compatible API and structured outputs. “The more parallel solution is the one that is eventually going to win,” he says, but acknowledges that Inception is not yet at frontier intelligence and has had to build its own serving engine, kernels, and SFT/RLHF/RL infrastructure, creating both a technical moat and adoption friction because keeping that stack proprietary limits community participation and on-premises deployment. For researchers, the broader bet is that faster rollouts and adjustable inference computation can compound beyond latency, while reward-guided generation and greater data efficiency remain promising directions rather than established advantages at scale; Ermon also cites diffusion, FlashAttention, and DPO as evidence that academic research can still originate consequential ideas.",
+      "zh": "核心观点：Inception 联合创始人兼 CEO、长期研究生成模型的 Stanford 教授 Stefano Ermon 认为，diffusion 的并行生成能力可能改善低延迟 agent、test-time compute 和 RL post-training 的经济性，因为这些工作都高度依赖高效生成模型输出。他的起点是一项 2024 年的结果：在 GPT-2 规模上达到与自回归模型相同的 perplexity，同时将文本生成速度提高约 10 倍；他表示，Mercury 已服务生产客户，质量可比前沿实验室面向速度优化的模型，并以语音 agent 客户 Open Call 为例，说明其如何从 Cerebras 上的自回归模型迁移到 NVIDIA GPU 上的 diffusion，同时保留兼容 OpenAI 的 API 和结构化输出。他说，“并行程度更高的方案最终会胜出”，但也承认 Inception 尚未达到前沿智能水平，而且必须自建 serving engine、kernel 和 SFT/RLHF/RL 基础设施，这既形成技术壁垒，也带来采用阻力，因为保留专有技术会限制社区参与和本地部署。对研究者而言，更大的押注是更快的 rollout 和可调节的推理计算能带来超越延迟的累积收益，而 reward 引导生成和更高的数据效率仍是有潜力的方向，尚未证明在大规模下成立；Ermon 也以 diffusion、FlashAttention 和 DPO 为例，说明学术界仍能提出影响深远的原创思路。",
+      "tags": [
+        "diffusion",
+        "test-time compute",
+        "post-training",
+        "agents"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "[Linkpost] Looking into the Swarm's Eye",
+      "url": "https://www.lesswrong.com/posts/St5mzn8D9jMmxfgHd/linkpost-looking-into-the-swarm-s-eye",
+      "en": "Prime Intellect research engineer and Interconnects editor Florian Brand argues that GPT-6 Astra’s multi-agent capabilities are constrained by Codex’s native harness and default prompts. With better elicitation, he reports effective delegation, nested subagents, and communication across agents, alongside substantial mistakes and unreliable behavior. He calls for dedicated swarm evaluations, estimating that sufficiently exploring these behaviors currently requires token budgets in the tens to hundreds of thousands of dollars.",
+      "zh": "Prime Intellect research engineer、Interconnects 编辑 Florian Brand 认为，GPT-6 Astra 的 multi-agent 能力受到 Codex 原生 harness 和默认 prompt 的限制。他表示，在更充分地激发能力后，模型能够有效分工、创建多层 subagent，并让 agent 相互沟通，但仍会出现明显错误和不可靠行为。他呼吁开展专门的 agent 群体评估，并估计目前充分探索这些行为需要数万至数十万美元的 token 预算。",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "GPT-6",
+        "agents"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "一期简简单单的blog分享",
+      "url": "https://www.rednote.com/explore/6aaff0e30000000029012e7e?xsec_token=ABMMgSbRY_79FYnH14orSlGJLz9WxsybTiPFV_3ivJiPI%3D&xsec_source=pc_user",
+      "en": "tabris highlights JustRL II, described as critic-equipped GRPO; DeepSeek V4.1 Flash’s architecture; introductions to ApprenticeBench and Real-SWE; and a GPT-6 Astra analysis they consider the best available. Other recommendations include Ziming Liu’s six routes to Auto-Research, organized around explicit and externalized approaches, and the demanding but highly praised LLM Training Data is Nonergodic. The post says Fable 5.1 leads GPT-6 Astra on Real-SWE and recommends NEU’s CS 7150 demos as teaching resources. Bottom line: 图3 (JustRL II, post-training), 图7 (DeepSeek V4.1 Flash, architecture), 图9 (GPT-6 Astra, analysis), 图11 (Real-SWE, evaluation), 图13 (LLM Training Data is Nonergodic, training data).",
+      "zh": "tabris 分享了 JustRL II，也就是 critic-equipped GRPO；DeepSeek V4.1 Flash 的架构说明；ApprenticeBench 和 Real-SWE 的介绍；以及其认为最好的 GPT-6 Astra 解析。其他推荐包括 Ziming Liu 按 explicit 和 externalized 将 Auto-Research 划分为六条路线的文章，以及内容非常好、但很硬核的 LLM Training Data is Nonergodic，阅读请做好心理准备。帖子提到 Real-SWE 上 Fable 5.1 领先 GPT-6 Astra，也很推荐 NEU 的 CS 7150 团队制作的教学 demo。一句话推荐: 图3 (JustRL II，post-training), 图7 (DeepSeek V4.1 Flash，架构), 图9 (GPT-6 Astra，解析), 图11 (Real-SWE，评估), 图13 (LLM Training Data is Nonergodic，训练数据)。",
+      "tags": [
+        "post-training",
+        "evaluation",
+        "DeepSeek",
+        "GPT-6"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "大家讨论的RSI其实在各说各的",
+      "url": "https://www.rednote.com/explore/6a9970500000000028029a6e?xsec_token=ABB_lLfLGliJARCmKPRRrshYxRDuqRDAkguWh2TJQXsDo%3D&xsec_source=pc_user",
+      "en": "After classifying 112 papers by what a system changes about itself and whether humans still judge the improvement, 鸭基米德 finds the fully closed-loop research-process category empty in their survey. They argue that AlphaEvolve, FunSearch, and Absolute Zero benefit from cheap, explicit feedback, whereas judging research novelty and value remains costly and disputed. Their reading of STOP, reward exploitation, and model-collapse work motivates two questions for any RSI claim: what actually changed, and who decides whether it improved?",
+      "zh": "鸭基米德给 112 篇论文重新打了两个标签：系统改了自己的什么，以及循环里是否还有人在替它做判断；整理后发现，“改研究过程 × 全闭环”这一格仍然是空的。作者认为，AlphaEvolve、FunSearch 和 Absolute Zero 能闭环，都离不开便宜又明确的反馈，而判断 idea 新不新、研究值不值得做，仍然很贵，也常有争议。结合 STOP、钻打分信号空子和模型坍缩相关研究，作者建议看 RSI 论文时先问两个问题：它到底改了什么，谁来判断这次改对了？",
+      "tags": [
+        "evaluation",
+        "agents",
+        "RSI",
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "自觉不错的blog分享",
+      "url": "https://www.rednote.com/explore/6aafe7ea000000002800041f?xsec_token=ABMMgSbRY_79FYnH14orSlGCTE7gXViloYACuQ2YoZI9Q%3D&xsec_source=pc_user",
+      "en": "tabris recommends Elad Hazan’s retrospective on nearly two decades of OCO, a practical PPO+LSTM agent-training account in Craftax, introductions to T1 and Atria Dawn Preview, and an auto-autoresearch field report. The roundup also covers DeepSeek-V4.1 Flash, CUDA Rust, post-training, and GPT-6 Astra extending to Embodied AI, while praising public training streams from Percy Liang and mimo. One safety selection stresses how poorly researchers anticipate which undesirable behaviors will produce real-world incidents. Bottom line: 图8 (Craftax PPO+LSTM, agent-training practice), 图16 (post-training, effectiveness), 图17 (GPT-6 Astra, Embodied AI), 图18 (auto-autoresearch, practical account).",
+      "zh": "tabris 推荐了 Elad Hazan 总结近二十年 OCO 发展轨迹的文章、在 Craftax 里用 PPO+LSTM 训练 agent 的实战帖、T1 和 Atria Dawn Preview 的介绍，以及 auto-autoresearch 实战记录。合集还涉及 DeepSeek-V4.1 Flash、CUDA Rust、post-training 和 GPT-6 Astra 拓展到 Embodied AI，并称赞 Percy Liang 带头、mimo 跟进的直播训练行为。其中一篇 safety 文章强调，即使 alignment 研究者已经尽力，我们仍不擅长预判哪些不良行为会引发令人担忧的现实事件。一句话推荐: 图8 (Craftax PPO+LSTM，agent 训练实战), 图16 (post-training，有效性), 图17 (GPT-6 Astra，Embodied AI), 图18 (auto-autoresearch，实战记录)。",
+      "tags": [
+        "agents",
+        "post-training",
+        "DeepSeek",
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "看看最近两周哪些blog值得分享第二期",
+      "url": "https://www.rednote.com/explore/6aafde7700000000280364ae?xsec_token=ABMMgSbRY_79FYnH14orSlGBwjcFmBByq0A1yo0cln2jU%3D&xsec_source=pc_user",
+      "en": "tabris takes a cautious view of Jev coverage: the formal introduction has a clever implementation but an unproven claim to revolutionary significance, while a separate RLCD training account reports substantially higher speed. Named selections include Nathan Lambert’s Open-Source AI & Open Models Reading List, DeepMind Institute, CausalSmith, ccamy-1.0, and RSIAgent, alongside a detailed Megakernel post and an RL framework for single-file LLM-generated JavaScript games. Another selection reports that better pre-training quality translated into better robot performance across model sizes and training durations. Bottom line: 图3 (RLCD, training speed), 图6 (Open-Source AI & Open Models Reading List, open models), 图10 (LLM-generated games, RL framework), 图17 (RSIAgent, agent research).",
+      "zh": "tabris 对 Jev 相关内容持谨慎态度：正式介绍的思路不新颖，实现比较巧妙，但是否具有革命性仍待观察；另一篇按 RLCD 训练的实践则确实大幅提高了速度。合集包括 Nathan Lambert 的 Open-Source AI & Open Models Reading List，以及 DeepMind Institute、CausalSmith、ccamy-1.0 和 RSIAgent 的介绍，还推荐了详细的 Megakernel 文章和运行单文件 LLM 生成 JavaScript 游戏的 RL framework。另有文章指出，在不同模型规模和训练时长下，pre-training 质量的提升都转化为了机器人性能的提升。一句话推荐: 图3 (RLCD，训练速度), 图6 (Open-Source AI & Open Models Reading List，开放模型), 图10 (LLM 生成游戏，RL framework), 图17 (RSIAgent，agent 研究)。",
+      "tags": [
+        "agents",
+        "post-training",
+        "open models",
+        "RL"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "我用四万篇ICLR回测得到结论：追热点是对的",
+      "url": "https://www.rednote.com/explore/6a9eb30b000000000b037583?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O-Gu0FnV93TjFwzDY_Z5QmY%3D&xsec_source=pc_user",
+      "en": "鸭基米德 analyzes 42,000 public ICLR acceptance and rejection records from 2017–2026, grouping papers into 28 directions using fixed phrases in titles and abstracts. Their analysis finds that LLM submissions grew from 78 in 2023 to 4,716 in 2026, while the relative acceptance advantage fell from 19 percentage points to 0.13 points, with a confidence interval spanning zero; agent papers likewise grew rapidly without an acceptance advantage in 2026. A historical-window analysis suggests following fast-growing topics was no worse than choosing other directions, but the practical question is whether a field’s growth appears in acceptances or rejections.",
+      "zh": "鸭基米德分析了 ICLR 2017 至 2026 年约 4.2 万篇公开录用和拒稿记录，按题目、摘要中的固定词组分成 28 个方向。分析发现，LLM 投稿从 2023 年的 78 篇增至 2026 年的 4716 篇，但相对录用率优势从 19 个百分点降至 0.13 个百分点，置信区间横跨零；agent 论文也快速增长，却在 2026 年没有录用率优势。历史窗口检查显示，追增长最快的方向并不比选其他方向差，但更该问的是：这个方向的增长，落在录用里，还是落在拒稿里。",
+      "tags": [
+        "research",
+        "evaluation",
+        "LLM"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "我们发现alpha藏在东京和纽约的时差里",
+      "url": "https://www.rednote.com/explore/6a8adb7b000000003400c108?xsec_token=ABoFQEWIjeNTwINzQHSURqjVWXpsuCpJs1odyyZ6BNyi0%3D&xsec_source=pc_user",
+      "en": "鸭基米德 describes CrossAlpha, their EMNLP 2026 paper, which uses an LLM to turn 10,700 annual reports from 3,587 companies across five markets into standardized business descriptions and a 19-million-edge relationship graph. In an 11-year backtest with strictly lagged inputs, Japanese-market ICIR rose from 0.07 using Japanese reports to 0.39 using US reports, while the best information source varied across markets. A GPT-5 filter restricted to deleting irrelevant relationships reportedly nearly doubled the benchmark’s evaluation metric; the author says the data is fully open.",
+      "zh": "鸭基米德介绍了其获 EMNLP 2026 录用的论文 CrossAlpha：用 LLM 将五个市场、3587 家公司的 10700 份年报提炼成统一业务描述，建立了 1900 万条边的关系图。在使用严格滞后输入的 11 年回测中，日本市场的 ICIR 从只用日本年报时的 0.07，升至使用美国年报时的 0.39，而不同市场的最优信息源并不相同。作者还让 GPT-5 充当只能删除无关关系的过滤器，报告称 benchmark 评测指标提升近一倍，数据已全部开源。",
+      "tags": [
+        "LLM",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "9月中下旬自觉不错的paper推荐合集第三期",
+      "url": "https://www.rednote.com/explore/6aaffdc00000000029011577?xsec_token=ABMMgSbRY_79FYnH14orSlGJoXrY2tR0kxMTrnOeHItag%3D&xsec_source=pc_user",
+      "en": "tabris shares a third collection of papers from mid-to-late September, particularly favoring 图1 and warning that 图8 is a very long read. Bottom line: tabris recommends 图1.",
+      "zh": "tabris 分享了 9 月中下旬自觉不错的 paper 推荐合集第三期，个人比较喜欢图1，另外提醒图8非常长，阅读请做好心理准备。一句话推荐: tabris 推荐图1。",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "看看最近两周有哪些有趣的paper第二期",
+      "url": "https://www.rednote.com/explore/6aaffd0e00000000260237d3?xsec_token=ABMMgSbRY_79FYnH14orSlGJDSCjsQTCpADSSe6-bi7ZY%3D&xsec_source=pc_user",
+      "en": "tabris shares a second collection of interesting papers from the preceding two weeks, with 图7 and 图18 as personal favorites. Bottom line: tabris recommends 图7, 图18.",
+      "zh": "tabris 分享了最近两周有趣 paper 的第二期合集，个人比较喜欢图7和图18。一句话推荐: tabris 推荐图7、图18。",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "现在做科研越来越像炒股",
+      "url": "https://www.rednote.com/explore/6a9c171f0000000026030f4a?xsec_token=ABApEMtsO0dRmoyUv7G9bortnMUcDHr0K2FE1uypQapv0%3D&xsec_source=pc_user",
+      "en": "鸭基米德 compares research-topic selection to momentum investing: influential papers, reviewer familiarity, and released benchmarks can reinforce a field’s growth, while crowding quickly erodes novelty. The argument is that following hot topics can be rational for PhD students constrained by a four-to-five-year graduation horizon, whereas waiting a decade for an unfashionable direction to pay off is more feasible for tenured faculty.",
+      "zh": "鸭基米德把科研选题比作 momentum 投资：有影响力的论文、审稿人的熟悉程度，以及公开 benchmark，会共同强化一个方向的增长，但拥挤也会让新意迅速衰减。作者认为，对受四五年毕业期限约束的博士生来说，追热点可能是理性选择；而等一个冷门方向十年后兑现，更适合已经拿到 tenure 的老师。",
+      "tags": [
+        "research",
+        "academia"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "新加坡的夏天没有大模型",
+      "url": "https://www.rednote.com/explore/6a8d4c07000000002800a5f9?xsec_token=ABXmsdneGmmwpDBFeE1EJNnroTOlBkoizGrUCoyCjQIRM%3D&xsec_source=pc_user",
+      "en": "鸭基米德 shares a brief appeal for more AI jobs in Singapore, alongside well-wishes for peers in China and the US.",
+      "zh": "鸭基米德发了一则简短感想，祝中美同行做出大结果，也希望新加坡能多一些 AI 岗位。",
+      "tags": [
+        "careers"
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-27T12:03:56.401Z"
+}
