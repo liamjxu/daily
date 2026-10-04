@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-04",
+  "headline_en": "AI products are converging on unified agent workflows, while builders debate the infrastructure, ownership, and human judgment needed to make them useful.",
+  "headline_zh": "AI 产品正走向统一的 agent 工作流，开发者则在思考让它们发挥价值所需的基础设施、所有权和人类判断。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2106610099720720811",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux says work is now focused on simplification, efficiency that enables more usage, groundbreaking features, and new models. His clearest product signal is that user feedback is pushing the team to make things simpler.",
+      "zh": "OpenAI Codex 和 ChatGPT 开发者 Thibault Sottiaux 表示，目前工作集中在简化产品、通过效率提升支持更多使用、突破性功能和新模型上。最明确的产品信号是，用户反馈正在推动团队把使用体验做得更简单。",
+      "tags": [
+        "OpenAI",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2106603980386394123",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux describes an email workflow that batch-validated deletions, organized messages around his work, and walked him through replies while retrieving relevant context in the background. The useful detail is the combination of inbox maintenance and contextual assistance within one workflow.",
+      "zh": "OpenAI Codex 和 ChatGPT 开发者 Thibault Sottiaux 描述了一套邮件工作流：批量确认删除操作，按工作类型整理邮件，并在后台检索相关上下文，协助他逐一处理需要回复的邮件。值得关注的是，它把收件箱整理和基于上下文的辅助处理整合进了同一套工作流。",
+      "tags": [
+        "agentic workflows",
+        "tool use"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/sama/status/2106388373221118198",
+      "en": "OpenAI's Sam Altman calls treating AI models as religious authorities or surrendering human judgment to them a real safety issue. His concern centers on how people relate to models and delegate judgment.",
+      "zh": "OpenAI 的 Sam Altman 认为，赋予 AI 模型宗教权威，或把人类判断交给模型，是一个真实的安全问题。他关注的是人们如何看待模型，以及如何将判断权委托给它们。",
+      "tags": [
+        "AI safety",
+        "human judgment"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Ryo Lu",
+      "role": "Designer, Cursor, Notion, Stripe",
+      "title": null,
+      "url": "https://x.com/ryolu_/status/2106337039201505453",
+      "en": "Cursor, Notion, and Stripe designer Ryo Lu argues that AI accelerates product homogenization when builders let competitor references and reward metrics author their work. He treats software as an expressive medium whose interactions embody beliefs about attention, freedom, and how tasks should feel. As building becomes easier, he says deciding what deserves to exist demands more personal perspective and judgment.",
+      "zh": "曾为 Cursor、Notion 和 Stripe 做设计的 Ryo Lu 认为，当开发者让竞品参考和奖励指标主导创作时，AI 会加速产品同质化。他把软件视为一种表达媒介，交互方式体现了创作者对注意力、自由以及任务体验的看法。随着开发变得更容易，他认为，决定什么值得被创造，更需要个人视角和判断力。",
+      "tags": [
+        "AI product design",
+        "human judgment"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Claude Blog",
+      "role": null,
+      "title": "Claude Cowork and chat are now one Claude",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "en": "Claude Blog: Claude Cowork and chat are now one Claude announces that chat and Cowork are merging, bringing larger delegated tasks into ordinary conversations and allowing work to continue after users close their laptops. New Claude Docs and Claude Slides, plus Claude Design inside conversations, let users create and edit documents and presentations together, present directly, or download PowerPoint and PDF files; all three are in beta on paid plans, with Enterprise admins controlling activation. The practical change is shared context, skills, and connectors across tasks and outputs, including scheduled reports and matching slides, with progress accessible from a phone and artifacts available through shareable links. “You keep the final say”: Claude asks before actions by default, offers a mode with fewer check-ins, and begins rolling out the unified experience to Pro and Max across web, desktop, and mobile over the coming weeks, with Team and Free to follow and Enterprise organizations receiving at least 30 days’ notice.",
+      "zh": "Claude Blog：Claude Cowork and chat are now one Claude 宣布，chat 与 Cowork 正在合并，用户可以在普通对话中委托更大的任务，即使合上笔记本，Claude 也能继续工作。新推出的 Claude Docs、Claude Slides，以及集成到对话中的 Claude Design，支持共同创建和编辑文档与演示文稿、直接演示，以及下载 PowerPoint 和 PDF 文件；三者均在付费计划中提供 beta，Enterprise 管理员决定何时启用。实际变化是，任务和产出可以共享上下文、skills 和 connectors，包括定期生成报告及配套 slides，用户还能通过手机查看进度，并通过可分享链接访问产出。“最终决定权仍在你手中”：Claude 默认在执行操作前询问，也提供减少确认次数的模式，统一体验将在未来几周率先向 web、desktop 和 mobile 上的 Pro 与 Max 用户推出，随后覆盖 Team 和 Free，Enterprise 组织则会至少提前 30 天收到通知。",
+      "tags": [
+        "Claude",
+        "agentic workflows",
+        "agents"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "The MAD Podcast with Matt Turck",
+      "role": null,
+      "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
+      "url": "https://www.youtube.com/watch?v=awoR908Yu5Y",
+      "en": "The Takeaway: VAST Data founder and CEO Renen Hallak argues that enterprise AI needs an infrastructure layer that manages data, model access, memory, and agent permissions together, giving organizations control over the intelligence they develop without requiring them to physically own every machine. VAST's “disaggregated shared everything” architecture places storage across a fast network so compute nodes share access to data and metadata rather than constantly coordinating separate shards; Hallak reports a customer cluster with multiple exabytes and tens of terabytes per second of throughput, and says inference adds harder requirements around uptime, latency, routing prompts to GPUs with the right model and cached context, and governing both short-term context and longer-term retrieved memory. Its Enclave initiative uses encrypted memory and GPU confidential computing to run commercial models inside enterprise premises or controlled cloud environments while protecting model weights, and Hallak envisions enterprise agents learning through fine-tuning and reinforcement learning, with permissions inherited from their users and organizational knowledge accumulating in organization-controlled models. His demand signal is concrete but anecdotal: one AI cloud revised a three-year storage forecast from 500 petabytes to that amount plus two exabytes, while his strategic claim is that neoclouds gain an advantage by building capacity and operational expertise ahead of demand, and that ownership of enterprise intelligence need not require open-sourcing the underlying model.",
+      "zh": "核心观点：VAST Data 创始人兼 CEO Renen Hallak 认为，企业 AI 需要一层统一管理数据、模型访问、记忆和 agent 权限的基础设施，让组织掌握自己积累的智能，而不必实际拥有每一台机器。VAST 的“disaggregated shared everything”架构把存储放在高速网络另一端，让计算节点共享数据和元数据访问，减少不同分片之间的持续协调；Hallak 表示，一个客户集群已有多个 exabyte 的容量和每秒数十 terabyte 的吞吐量，而 inference 对可用性、延迟、将 prompt 路由到已加载合适模型且缓存了相关上下文的 GPU，以及管理短期上下文和长期检索记忆，提出了更复杂的要求。Enclave 利用加密内存和 GPU confidential computing，在企业内部或其控制的云环境中运行商业模型，同时保护模型 weights；Hallak 还设想，企业 agent 通过 fine-tuning 和 reinforcement learning 持续学习，继承用户权限，并把组织知识积累到组织掌控的模型中。他给出的需求信号具体，但属于个案：一家 AI cloud 将三年存储预测从 500 petabyte 上调为原有规模再加两个 exabyte；他的战略判断是，neocloud 提前建设容量和积累运营经验能够形成优势，而企业掌握自身智能，并不要求底层模型必须开源。",
+      "tags": [
+        "agents",
+        "fine-tuning",
+        "AI industry strategy",
+        "compute"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "en": "Hugging Face - Blog: The Agent Said It Was Done. The Database Disagreed. examines the discrepancy between an agent's completion claim and the database's actual state.",
+      "zh": "Hugging Face - Blog：The Agent Said It Was Done. The Database Disagreed. 关注 agent 声称任务已完成，但数据库实际状态与之不符的问题。",
+      "tags": [
+        "agents",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "en": "Hugging Face - Blog: AutoSynthData: Generating Training Data for Enterprise Agents introduces AutoSynthData for generating enterprise-agent training data.",
+      "zh": "Hugging Face - Blog：AutoSynthData: Generating Training Data for Enterprise Agents 介绍用于生成企业 agent 训练数据的 AutoSynthData。",
+      "tags": [
+        "agents",
+        "training data"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "en": "Hugging Face - Blog: Open-sourcing AstaBrief, the fast report-generation model in Asta announces the open-sourcing of AstaBrief, Asta's fast report-generation model.",
+      "zh": "Hugging Face - Blog：Open-sourcing AstaBrief, the fast report-generation model in Asta 宣布开源 Asta 中用于快速生成报告的模型 AstaBrief。",
+      "tags": [
+        "open-source",
+        "report generation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "慢即是快：1. Shampoo的尽头是Muon？",
+      "url": "https://spaces.ac.cn/archives/11917",
+      "en": "Scientific Spaces: 慢即是快：1. Shampoo的尽头是Muon？ explores the relationship between Shampoo-family optimizers and Muon. It frames Muon as a competitive optimizer that has become difficult to ignore, while Shampoo variants continue to develop.",
+      "zh": "Scientific Spaces：慢即是快：1. Shampoo的尽头是Muon？探讨 Shampoo 系优化器与 Muon 的关系。文章将 Muon 视为已经无法忽视、极具竞争力的优化器，同时关注持续发展的 Shampoo 系方法。",
+      "tags": [
+        "Chinese ML/NLP community",
+        "optimizers",
+        "Muon"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "通过微扰分析求解等式约束优化问题",
+      "url": "https://spaces.ac.cn/archives/11928",
+      "en": "Scientific Spaces: 通过微扰分析求解等式约束优化问题 approaches equality-constrained optimization through perturbation analysis. It starts from the familiar Lagrange-multiplier method and the question of how to understand it beyond a purely algebraic procedure.",
+      "zh": "Scientific Spaces：通过微扰分析求解等式约束优化问题，从微扰分析的角度处理带等式约束的优化。文章从常见的拉格朗日乘子法出发，尝试理解其背后的含义，而不只是把它当作一套代数步骤。",
+      "tags": [
+        "Chinese ML/NLP community",
+        "optimization"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Creating Rogue AI Sanctuaries has Major Issues from an Ecological Perspective and Beyond",
+      "url": "https://www.lesswrong.com/posts/xGBo5zSPHuPzTpbhf/creating-rogue-ai-sanctuaries-has-major-issues-from-an",
+      "en": "LessWrong: Creating Rogue AI Sanctuaries has Major Issues from an Ecological Perspective and Beyond critiques sanctuary proposals through selection effects in a hypothetical rogue-agent ecosystem. Its central argument is that agents least able to survive independently may be most inclined to accept protection, making sanctuary participation a selective sample of the broader population.",
+      "zh": "LessWrong：Creating Rogue AI Sanctuaries has Major Issues from an Ecological Perspective and Beyond 从假设中的失控 agent 生态系统及其选择效应出发，批评 AI 庇护所提案。核心论点是，独立生存能力最弱的 agent 可能最愿意接受保护，因此进入庇护所的群体会是整体种群中经过筛选的一部分。",
+      "tags": [
+        "agents",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-04T23:45:17.021Z"
+}
