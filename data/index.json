@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-05",
+    "count": 27,
+    "headline_en": "Agent reliability and post-training dominate today's research, with sharper evaluations exposing the gap between impressive outputs and dependable deployment.",
+    "generatedAt": "2026-10-05T16:10:18.821Z"
+  },
+  {
     "date": "2026-10-04",
     "count": 20,
     "headline_en": "AI products converge around persistent agent workflows, while builders and researchers scrutinize human judgment, model bias, and the economics of inference.",

@@ -1,0 +1,404 @@
+{
+  "date": "2026-10-05",
+  "headline_en": "Agent reliability and post-training dominate today's research, with sharper evaluations exposing the gap between impressive outputs and dependable deployment.",
+  "headline_zh": "今天的研究聚焦 agent 可靠性与 post-training，更严格的评测揭示了亮眼输出与可靠部署之间的差距。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "en": "OpenAI's Codex and ChatGPT builder Thibault Sottiaux commits to 28 days of daily shipping: each day will bring either a clear improvement relevant to most Codex/Work users or a full reset. The post sets an explicit delivery cadence without specifying the individual changes.",
+      "zh": "OpenAI 的 Codex 和 ChatGPT 开发者 Thibault Sottiaux 承诺连续 28 天每天交付更新：每天要么推出对大多数 Codex/Work 用户有用的明确改进，要么进行一次全面重置。帖子明确了交付节奏，但尚未说明具体改动。",
+      "tags": [
+        "Codex",
+        "agents"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "en": "The Takeaway: AI transformation can require ownership and organizational redesign, because selling tools into existing workflows leaves the underlying operating model intact. Sequence Holdings co-founder and CEO Michael Lee, previously an investor at Apollo and Lone Pine, argues that permanent capital can pair incumbents' distribution, regulatory advantages, and customer relationships with an engineering culture where “the celebrated persona is the engineer”; Sequence targets roughly one deal a year, and its announced $7.7 billion Baldwin take-private with the Dell family office illustrates the scale of that strategy. At BankSouth, Lee reports a 94% reduction in consumer underwriting time and a reduction in average end-to-end loan processing from 30 days to 11, with systems accommodating doubled quarterly loan volumes without relaxing underwriting standards; he explicitly does not attribute the volume increase itself to Sequence, and says the smaller underwriting team reflects a retirement and a move to the front office. The reusable Atlas platform combines a business data ontology, grounded agent builder, Lattice workflow orchestration, and an application layer called artifacts, while Lee's less obvious deployment lesson is that regulated, centralized operations can favor agents through clean data and explicit rules, although employee trust, management commitment, and organizational change remain harder than the engineering.",
+      "zh": "核心观点：AI 转型可能需要所有权和组织重构，因为向现有流程出售工具，并不会改变底层运营方式。Sequence Holdings 联合创始人兼 CEO Michael Lee 曾在 Apollo 和 Lone Pine 从事投资，他认为永久资本能把成熟企业的渠道、监管优势和客户关系，与一种“工程师是最受推崇角色”的工程文化结合起来；Sequence 每年大约只做一笔交易，与 Dell 家族办公室宣布的 77 亿美元 Baldwin 私有化交易体现了这一策略的规模。在 BankSouth，Lee 称消费贷款审批时间缩短了 94%，贷款从开始到结束的平均处理时间从 30 天降至 11 天，系统还承接了季度环比翻倍的贷款量，且没有放宽审批标准；他明确表示，贷款量增长本身不能归功于 Sequence，而审批团队缩小源于一人退休和一人转到前台业务。可复用的 Atlas 平台包含业务数据 ontology、基于可靠事实的 agent builder、Lattice 流程编排，以及名为 artifacts 的应用层；Lee 提出的一个不那么直观的部署经验是，受监管且运营集中的组织拥有干净的数据和明确规则，可能更适合 agent，但员工信任、管理层投入和组织变革仍比工程问题更难。",
+      "tags": [
+        "agents",
+        "AI strategy",
+        "enterprise"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Sentry: Learning to Recover from LLM Agent Failures at Test Time",
+      "url": "https://arxiv.org/abs/2610.02994",
+      "en": "Sentry treats failure lessons as conditional knowledge: a separate layer detects failures, retrieves relevant recovery guidance, and stores new lessons only after verifying recovery without task rewards. It beats the strongest runtime-intervention baseline by 37% on average, while exposing the entire playbook can hurt performance, making selective memory access a concrete agent-design lesson.",
+      "zh": "Sentry 把失败经验视为有条件适用的知识：独立的一层负责检测失败、检索相关恢复建议，并在不使用任务 reward 的情况下确认恢复成功后，才保存新经验。它平均比最强的运行时干预 baseline 高出 37%，而把整本经验手册放入上下文反而可能降低表现，为 agent 的选择性记忆访问提供了具体设计依据。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
+      "url": "https://arxiv.org/abs/2610.02425",
+      "en": "XiangqiBench tests whether agents can convert 119 Chinese-chess tactical endgames into actual checkmates against an engine defender, using 8,568 trajectories from 12 frontier LLMs. Models choose the reference first move in 26.1% of Sighted trials, but only 13.9% of those trials end in wins; the leading model's 38.7% pass@3 falls to 5.9% when all three attempts must succeed. This directly challenges static move accuracy and best-of-several reporting as measures of reliable agency.",
+      "zh": "XiangqiBench 用 119 个中国象棋战术残局，测试 agent 能否在引擎防守下真正完成将杀，记录了 12 个前沿 LLM 的 8,568 条轨迹。在 Sighted 条件下，模型有 26.1% 的试验选中了参考首步，但这些试验中只有 13.9% 最终获胜；领先模型的 pass@3 为 38.7%，要求三次全部成功时则降至 5.9%。这直接质疑了用静态选步准确率和多次尝试中的最佳结果衡量 agent 可靠性的做法。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Passing the Test You Trained On: Re-evaluating Prompt-Injection Detectors for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.03448",
+      "en": "This study evaluates 15 prompt-injection detectors and two task-aware LLM judges on replayed agent tool outputs, finding that benchmark rankings transfer poorly. At a 1% false-positive rate, the BIPIA leader catches just 2% of AgentDojo injections, while another detector's 72% detection on AgentDojo becomes 15% on tau-bench. Deployment evaluations should therefore use actual agent-style tool outputs, audit training overlap, and report detection at low false-positive rates.",
+      "zh": "这项研究在回放得到的 agent 工具输出上评测了 15 个 prompt-injection detector 和两个理解任务的 LLM judge，发现 benchmark 排名很难迁移。在 1% 的误报率下，BIPIA 上的领先 detector 只能识别 2% 的 AgentDojo 注入；另一个 detector 在 AgentDojo 上的检出率为 72%，到了 tau-bench 则只有 15%。因此，面向部署的评测应使用真实 agent 风格的工具输出，审查训练数据重合，并报告低误报率下的检出表现。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt injection"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "url": "https://arxiv.org/abs/2610.02267",
+      "en": "A paired evaluation of Laya and Jev covers 11 agent-harness decisions, finding Jev significantly more accurate on nine, while neither beats chance on zero-shot model routing. The authors' pipeline audit also revises a claimed 23.9% cost saving to 4.3% after including pre-screening costs and finds held-out misses reaching 17% despite a 5% target. The practical lesson is to measure complete deployment costs and held-out behavior before replacing LLM calls with fast classifiers.",
+      "zh": "这项对 Laya 和 Jev 的配对评测覆盖了 agent harness 中的 11 类决策，发现 Jev 在其中九类上显著更准确，但两者在 zero-shot 模型路由上都没有超过随机水平。作者对自身流程的审计还发现，计入预筛选成本后，原先声称的 23.9% 成本节省实际只有 4.3%；尽管漏检目标设为 5%，held-out 漏检率仍可达到 17%。实际启示是，在用快速分类器替代 LLM 调用前，必须衡量完整部署成本和 held-out 表现。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Harness-Aware Distillation for Small Language Model Agents",
+      "url": "https://arxiv.org/abs/2610.02858",
+      "en": "Harness-Aware Distillation focuses a small agent's training on what the teacher adds beyond the surrounding harness, contrasting teacher actions with and without harness information and rejecting preferences that contradict harness records. It outperforms on-policy distillation baselines across long-horizon agent benchmarks without task rewards or success labels, with fewer unproductive loops and better error recovery. This offers a targeted alternative to copying the teacher's entire output.",
+      "zh": "Harness-Aware Distillation 把小型 agent 的训练重点放在 teacher 相对于外围 harness 增加的能力上，通过对比 teacher 在有无 harness 信息时的动作，并剔除与 harness 记录矛盾的偏好样本来实现。在无需任务 reward 或成功标签的情况下，它在多个长程 agent benchmark 上超过 on-policy distillation baseline，减少了无效循环，并改善了错误恢复。这为完整模仿 teacher 输出提供了一种更有针对性的替代方案。",
+      "tags": [
+        "agents",
+        "distillation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Gains and Collapse in On-Policy Distillation:A Reinforcement Learning Perspective",
+      "url": "https://arxiv.org/abs/2610.03185",
+      "en": "This paper interprets on-policy distillation as reinforcement learning driven by a teacher's implicit reward model, finding that its experiments improve sampling of correct responses without expanding student capabilities. Misaligned teacher feedback can instead amplify long, repetitive rollouts that the teacher itself rarely produces; masking unhealthy responses and using SFT initialization mitigate collapse. The diagnosis shifts teacher selection toward reliable evaluation of student behavior rather than generation quality alone.",
+      "zh": "这篇论文把 on-policy distillation 理解为由 teacher 隐式 reward model 驱动的 reinforcement learning，实验发现其收益来自更容易采样到正确回答，而不是扩展 student 的能力。失配的 teacher 反馈则可能放大冗长、重复的 rollout，即使 teacher 自己很少生成这类文本；屏蔽不健康回答和使用 SFT 初始化都能缓解崩溃。这一诊断提示，选择 teacher 时应重视它能否可靠评价 student 行为，而不只看生成质量。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "reward model"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Spend Teacher Tokens Where They Matter: Success-Referenced On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.02678",
+      "en": "SR-OPD allocates teacher supervision to prompts with both successful and failed student rollouts, prioritizing failures whose hidden-state trajectories diverge persistently from a successful reference. Across three teacher-student pairs and six math benchmarks, it uses only 3.46–5.02% of Vanilla OPD's teacher-input tokens in a one-pass setting while maintaining comparable reasoning performance. This makes the student's own successes useful for reducing distillation cost.",
+      "zh": "SR-OPD 将 teacher 监督分配给 student 同时产生成功和失败 rollout 的 prompt，并优先选择 hidden-state 轨迹持续偏离成功参考的失败样本。在三组 teacher-student 配对和六个数学 benchmark 上，单遍设置下它只使用 Vanilla OPD 所需 teacher-input token 的 3.46–5.02%，同时保持相近的 reasoning 表现。这让 student 自身的成功经验成为降低 distillation 成本的有效依据。",
+      "tags": [
+        "distillation",
+        "reasoning",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Lexicographic Multi-Objective On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.02359",
+      "en": "LMOPD combines reward-specialized teachers under explicit objective priorities, routing supervision to the first deficient objective and projecting away corrections that conflict with higher priorities. In four-expert experiments on 30B-A3B models, it retains about 90% of accuracy and reasoning-correctness gains, versus about 57% for the next-best evaluated baseline. It addresses a practical post-training problem: acquiring brevity and other desirable behaviors without sacrificing correctness.",
+      "zh": "LMOPD 按明确的目标优先级组合针对不同 reward 的 teacher，将监督路由到第一个未达标目标，并通过投影去除与更高优先级目标冲突的修正。在 30B-A3B 模型的四专家实验中，它保留了约 90% 的准确率和推理正确性收益，而评测中次优 baseline 只保留约 57%。它针对一个实际的 post-training 问题：如何获得简洁等理想行为，同时保护正确性。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "OLMo-Detect: A Multi-Stage, Confounder-Controlled Benchmark for Membership Inference on Large Language Models",
+      "url": "https://arxiv.org/abs/2610.02986",
+      "en": "OLMo-Detect controls member/non-member distribution confounds and filters non-members against the open OLMo 2 corpus across pre-training, mid-training, and post-training. Among 18 membership-inference attacks, the best supervised and unsupervised methods each reach only 0.68 AUC, and apparent stage differences are driven by data type rather than training stage itself. This is a useful caution for researchers inferring training exposure or contamination from model behavior.",
+      "zh": "OLMo-Detect 基于开放的 OLMo 2 训练流程，控制训练成员与非成员之间的分布混淆，并对照语料过滤非成员，覆盖 pre-training、mid-training 和 post-training。在 18 种 membership-inference attack 中，最好的有监督和无监督方法 AUC 都只有 0.68，而看似由训练阶段造成的差异，实际由数据类型驱动。对于试图从模型行为推断训练接触或数据污染的研究者，这是一个值得重视的提醒。",
+      "tags": [
+        "evaluation",
+        "data contamination",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "D2K-Bench: Can LLM Agents Turn Expert Designs into Efficient GPU Kernels?",
+      "url": "https://arxiv.org/abs/2610.03226",
+      "en": "D2K-Bench separates kernel-design discovery from implementation by giving agents expert guidance at algorithm, dataflow, and low-level optimization levels across 26 tasks and 85 workloads. Guidance increases correctness from 93.1% to 98.5%; for three frontier models correct on every task in both conditions, geometric mean speedup rises from 1.69× to 2.49×. The benchmark helps distinguish missing design knowledge from an agent's inability to implement a supplied design.",
+      "zh": "D2K-Bench 在 26 个任务和 85 个 workload 上，为 agent 提供算法、数据流和底层优化三个层面的专家指导，以区分 kernel 设计发现与实现能力。指导使正确率从 93.1% 提升到 98.5%；对于在两种条件下都完成全部任务的三个前沿模型，几何平均加速比从 1.69× 提升至 2.49×。这一 benchmark 有助于区分 agent 究竟缺少设计知识，还是无法落实已经给出的设计。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "GPU"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Text-Centric Post-Training for Omni-Modal Reasoning",
+      "url": "https://arxiv.org/abs/2610.02819",
+      "en": "Text-only SFT followed by RL improves Qwen2.5-Omni-7B's geometric mean across nine reasoning scores by 25.83%, outperforming the full audio-visual training route with 56.6% fewer GPU-hours. Because text-only training degrades perception, the proposed pipeline adds reduced-data audio-visual RL, restoring perception above the base level while retaining 93.5% of the reasoning gain. It offers a compute-efficient way to separate reasoning optimization from perceptual refinement.",
+      "zh": "仅使用文本的 SFT 加 RL，使 Qwen2.5-Omni-7B 在九项 reasoning 分数上的几何平均值提升 25.83%，效果超过完整音视频训练路线，同时减少 56.6% 的 GPU-hours。由于纯文本训练会损害感知能力，论文随后加入少量数据的音视频 RL，使感知能力恢复到 base model 以上，并保留 93.5% 的 reasoning 收益。这提供了一种节省算力的路径，将 reasoning 优化与感知修整分开处理。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Mitigating Social Sycophancy via Pluralistic Preference Optimization",
+      "url": "https://arxiv.org/abs/2610.02568",
+      "en": "PlurPO reduces social sycophancy by having models identify and simulate stakeholders in interpersonal conflicts, then prefer responses acceptable to all stakeholders using self-generated signals without ground-truth labels. It improves over prior methods across four datasets and four model families, including an average 89% reduction in endorsement of stated harmful intentions. This extends preference optimization beyond factual correctness into settings where there is no single ground-truth answer.",
+      "zh": "PlurPO 让模型识别人际冲突中的利益相关者并模拟其视角，再利用模型自行生成的信号，学习偏好各方都能接受的回答，无需 ground-truth 标签。在四个数据集和四个模型家族上，它的表现优于已有方法，其中对用户明确表达的有害意图，赞同率平均下降 89%。这把 preference optimization 从事实正确性扩展到了不存在单一标准答案的场景。",
+      "tags": [
+        "preference optimization",
+        "post-training",
+        "sycophancy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Reducing synthetic markers makes some SDF false facts linearly indistinguishable from pretraining-acquired knowledge",
+      "url": "https://www.lesswrong.com/posts/yYk5iwGqcn6XKLnWw/reducing-synthetic-markers-makes-some-sdf-false-facts",
+      "en": "LessWrong: Reducing synthetic markers makes some SDF false facts linearly indistinguishable from pretraining-acquired knowledge finds that removing synthetic-document cues can make subtly implausible implanted facts indistinguishable from pretraining facts to a middle-layer linear probe. Subsequent RPO strengthens the false facts, but overtraining and egregiously implausible claims remain detectable, and probe-level similarity does not guarantee propagation into downstream reasoning. The result sharpens both false-belief implantation methods for alignment evaluation and the limits of linear probes as evidence of internal belief.",
+      "zh": "LessWrong：Reducing synthetic markers makes some SDF false facts linearly indistinguishable from pretraining-acquired knowledge 发现，去掉合成文档的特征线索后，略显不合理的植入假事实，在中间层 linear probe 看来可以与 pretraining 学到的事实无法区分。后续 RPO 会强化这些假事实，但过度训练和极不合理的断言仍可被检测，而且 probe 层面的相似性不保证假事实会进入下游推理。结果既改进了用于 alignment evaluation 的假信念植入方法，也明确了用 linear probe 判断内部信念的局限。",
+      "tags": [
+        "alignment",
+        "fine-tuning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "en": "The Hacker News: Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access reports Apple's plan to tighten Full Disk Access controls in response to AI-agent risks. Apple warns that some developers' use of the permission can expose files, mail, messages, and browsing history without users' full knowledge, making system-wide access a consequential deployment constraint for desktop agents.",
+      "zh": "The Hacker News：Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access 报道，Apple 计划针对 AI agent 带来的风险收紧 Full Disk Access 控制。Apple 警告，部分开发者使用这一权限的方式可能在用户未充分知情的情况下暴露文件、邮件、消息和浏览历史，因此全系统访问权限是桌面 agent 部署时必须考虑的重要约束。",
+      "tags": [
+        "agents",
+        "permissions",
+        "macOS"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "“Alignment Engineering” vs. “Misalignment Science”",
+      "url": "https://www.lesswrong.com/posts/FogmcDHA6AdMGukum/alignment-engineering-vs-misalignment-science",
+      "en": "LessWrong: “Alignment Engineering” vs. “Misalignment Science” examines the argument that prosaic alignment work can accelerate capabilities while failing to remain sufficient during recursive self-improvement. It contrasts the field's dominant engineering paradigm with a proposed misalignment-science direction, bringing opportunity costs into the debate over whether researchers should leave frontier labs. The capabilities-acceleration argument is presented for examination rather than as an established finding.",
+      "zh": "LessWrong：“Alignment Engineering” vs. “Misalignment Science” 审视了一种观点：现有 alignment 工作可能加速能力提升，却无法在递归自我改进过程中持续提供足够保障。文章将领域主流的工程范式与提出的 misalignment science 方向对照，并把机会成本纳入研究者是否应离开前沿实验室的讨论。能力加速这一论点在文中是待审视的观点，而非已经确立的研究结论。",
+      "tags": [
+        "alignment",
+        "AI safety",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "DeepSeek Harness的野心不只是Claude Code",
+      "url": "https://www.rednote.com/explore/6a813df1000000002202c2ea?xsec_token=ABV6gciAxasbCXmvT5J1hVFiD4clvxT9ss5EzRLPoEBzw%3D&xsec_source=pc_user",
+      "en": "鸭基米德 reads DeepSeek Harness as an agent-modifiable runtime: its Cordis tools let the model inspect its plugin tree, define and run plugins, and remove them when unsatisfactory. The post distinguishes changing the execution environment from changing model weights and argues that composability and reversibility explain the emphasis over frontend polish. Its central caution is that rollback cannot substitute for permissions, auditing, or supply-chain security, nor undo data already exfiltrated.",
+      "zh": "鸭基米德认为，DeepSeek Harness 更像一层可以被 agent 自己修改的运行时：Cordis 工具让模型查看插件树，现场定义、运行插件，不满意再撤掉。帖子强调，这改的是运行环境，不是模型权重；可组合和可撤销的设计，也解释了它为何把前端打磨放得较后。核心提醒是，可逆不等于安全，回滚不能替代权限、审计和供应链管理，也不能收回已经泄露的数据。",
+      "tags": [
+        "agents",
+        "DeepSeek",
+        "harness"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "让英雄审英雄 让模型审模型",
+      "url": "https://www.rednote.com/explore/6a79c026000000000502b887?xsec_token=ABUUD6j8TVFhqg1jlCK4qFC48GaghhOG5Q5rjJ99QSbtI%3D&xsec_source=pc_user",
+      "en": "鸭基米德's Chain-of-Models work tests nine models from six families as auditors of another model's reasoning, finding that strong standalone answers do not imply strong auditing. Kimi-K2.5 scores 0.875 and 0.820 on conformity and authority questions itself, but only 0.400 and 0.500 when auditing Qwen; GPT-4o also worsens Qwen's sycophancy performance while GLM-5 improves it. Selecting auditors by bias type raises overall accuracy from 0.805 for Qwen alone to 0.884, supporting specialized rather than interchangeable model judges.",
+      "zh": "鸭基米德的 Chain-of-Models 工作测试了六个家族的九个模型，让一个模型审查另一个模型的推理，发现最会做题的模型未必最会改卷。Kimi-K2.5 自己回答从众和权威题时，准确率分别为 0.875 和 0.820，但审查 Qwen 时只有 0.400 和 0.500；GPT-4o 还会降低 Qwen 在讨好型偏见上的表现，GLM-5 则能改善它。按偏见类型选择审计模型后，整体准确率从 Qwen 单模型的 0.805 提升至 0.884，说明不同问题需要不同的模型来审。",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "Hinton：rsi后AI一年的进步只需五周就可完成",
+      "url": "https://www.rednote.com/explore/6ac32387000000001c02e191?xsec_token=AB519JBy2ZANgYM1YzijrECI4ZQ1-WPUBV_B46dK99m14%3D&xsec_source=pc_user",
+      "en": "鸭基米德 examines an intelligence-explosion paper coauthored by Hinton, Bengio, and OpenAI and Anthropic researchers among 22 signatories. Under fully automated R&D and no other bottlenecks, its rough calculation suggests progress could accelerate tenfold after about 18 months, compressing today's year of progress into five weeks. The post questions whether researcher-count estimates disentangle concurrent compute growth and stresses that this is a conditional projection, not a countdown.",
+      "zh": "鸭基米德拆解了一篇由 Hinton、Bengio，以及 OpenAI 和 Anthropic 研究者等 22 人联名撰写的智能爆炸论文。在研发完全自动化、没有其他瓶颈的假设下，论文粗算约一年半后进步速度可能达到现在的十倍，把现在一年的进步压缩到五周。帖子提出疑点：用研究人数估算关键参数时，未充分分开同期算力增长的贡献，因此“五周”是特定假设下的推算，别当倒计时。",
+      "tags": [
+        "AI research",
+        "compute",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的blog推荐合集六",
+      "url": "https://www.rednote.com/explore/6a9ed5df000000002a02dd84?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O5gKSrbkVbZAWwl9N5FdXkQ%3D&xsec_source=pc_user",
+      "en": "tabris's sixth blog roundup includes AMI and JEAP, TimesFM-3, Streaming-WAM, NEEDLE, and BixBench3, alongside tutorials and research write-ups. The strongest explicit recommendations include 图1 on choosing suitable training methods, 图5's detailed tutorial for AMD-sponsored labs, 图13 on the AI economy, and 图18's research record that the author considers close to paper quality. 图17 is an ongoing V3 analysis series with two posts published. Bottom line: 图1 (training-method selection), 图5 (AMD-lab tutorial), 图13 (AI economics), 图18 (research depth)",
+      "zh": "tabris 的第六期 blog 推荐合集包括 AMI 和 JEAP、TimesFM-3、Streaming-WAM、NEEDLE、BixBench3，以及教程和研究记录。明确值得关注的推荐有图1，training methods 没有最好，只有最适合，极为推荐阅读；图5是非常详细的教程，AMD 赞助的 labs 感觉必读；图13推荐给对 AI economy 感兴趣的朋友；图18是质量很高的研究记录，再打磨下能变成正式 paper。图17是分析 V3 的 blog 系列，已更新两篇，建议感兴趣的朋友持续关注。一句话推荐: 图1（training methods 选择），图5（AMD labs 教程），图13（AI economy），图18（高质量研究记录）",
+      "tags": [
+        "post-training",
+        "AI economics",
+        "Chinese ML"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的blog推荐合集七",
+      "url": "https://www.rednote.com/explore/6a9edd40000000000b003db4?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O9BShKPpuKrKUH2k85tGdLg%3D&xsec_source=pc_user",
+      "en": "tabris's seventh blog roundup includes Discovery (Beta) for Adapt-1, KDA 0.5, Voice Code Bench, Muse Code, and benchmirt. 图1 is a daily AI safety/governance collection, 图6 is a substantial AI infrastructure/chip article, and 图9 introduces Voice Code Bench; the author also recommends everyone read 图7 and highlights detailed practical records in 图4 and 图13. Bottom line: 图1 (AI safety/governance tracking), 图6 (AI infrastructure and chips), 图9 (Voice Code Bench)",
+      "zh": "tabris 的第七期 blog 推荐合集包括 Discovery (Beta) for Adapt-1、KDA 0.5、Voice Code Bench、Muse Code 和 benchmirt。图1是每日更新的 AI safety 或 governance 内容合集，非常推荐有兴趣的朋友关注；图6非常长也非常有料，适合对 AI infra 或 AI chip 感兴趣的朋友；图9介绍 Voice Code Bench；作者还认为无论是否关注 AI safety，都应该读图7，并推荐图4和图13的详细实战记录。一句话推荐: 图1（AI safety/governance 每日合集），图6（AI infra 和 AI chip），图9（Voice Code Bench）",
+      "tags": [
+        "evaluation",
+        "AI safety",
+        "AI infrastructure"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的paper推荐合集七",
+      "url": "https://www.rednote.com/explore/6a9ef392000000002b003d2b?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O4ccI91-0ezy97TseKJJpiU%3D&xsec_source=pc_user",
+      "en": "tabris shares a seventh back-to-school paper roundup, with a personal preference for 图2 and 图17. Bottom line: tabris recommends 图2, 图17",
+      "zh": "tabris 分享第七期开学季 paper 推荐合集，个人相对喜欢图2和图17。一句话推荐: tabris 推荐图2、图17",
+      "tags": [
+        "Chinese ML",
+        "paper roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的paper推荐合集六",
+      "url": "https://www.rednote.com/explore/6a9ef304000000002601b77c?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O4WKDBIMn8w-43xWlGy1ZDM%3D&xsec_source=pc_user",
+      "en": "tabris shares a sixth back-to-school paper roundup, noting the unusual case of liking both 图1 and 图2 and also recommending 图13. Bottom line: tabris recommends 图1, 图2, 图13",
+      "zh": "tabris 分享第六期开学季 paper 推荐合集，表示很罕见地同时比较喜欢图1和图2，图13也不错。一句话推荐: tabris 推荐图1、图2、图13",
+      "tags": [
+        "Chinese ML",
+        "paper roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的paper推荐合集五",
+      "url": "https://www.rednote.com/explore/6a9ef2690000000026030134?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O6PZV8whv8xtGJ-8IusRVaI%3D&xsec_source=pc_user",
+      "en": "tabris's fifth back-to-school paper roundup particularly praises 图1, also likes 图8 and 图17, and recommends 图16 to interested readers. Bottom line: tabris recommends 图1, 图8, 图17, and 图16 for interested readers",
+      "zh": "tabris 的第五期开学季 paper 推荐合集认为图1质量很高，值得单独再次安利，图8和图17也不错，图16感兴趣的话也是很不错的。一句话推荐: tabris 推荐图1、图8、图17，感兴趣也可读图16",
+      "tags": [
+        "Chinese ML",
+        "paper roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "2008年华尔街卖房贷 2026年华尔街卖算力",
+      "url": "https://www.rednote.com/explore/6a7c89e500000000250090b9?xsec_token=ABQzlzAmY7MbcnSWY27nlN3rdlPIbz-8BFFat0DoAk7R0%3D&xsec_source=pc_user",
+      "en": "鸭基米德 examines NVIDIA's reported plan with multiple institutions to mobilize $500 billion through financing platforms for AI infrastructure. The post highlights risks from complex financing chains and points to compute demand, GPU values, and potential defaults as the variables to watch.",
+      "zh": "鸭基米德讨论 NVIDIA 与多家机构合作、计划通过融资平台撬动 5,000 亿美元资本支持 AI 基础设施建设的举措。帖子强调复杂融资链条带来的风险，建议关注算力需求、GPU 价值和潜在违约风险。",
+      "tags": [
+        "compute economics",
+        "AI infrastructure"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "纳瓦尔成名作：如何不靠运气致富",
+      "url": "https://www.rednote.com/explore/6a6e0e3f000000003302c1d9?xsec_token=ABQJDZUijFqcRlJPuRAOEfLqkC3NpnLiA1_MxPDEX4NM4%3D&xsec_source=pc_user",
+      "en": "鸭基米德 summarizes Naval's wealth-building ideas: create wealth, own equity, develop specific knowledge, and use capital, people, and code to scale work over a long horizon.",
+      "zh": "鸭基米德梳理 Naval 的致富思路：创造财富、拥有股权、积累特定知识，并通过资本、人力和代码扩大工作规模，坚持长期主义。",
+      "tags": []
+    }
+  ],
+  "generatedAt": "2026-10-05T16:10:18.821Z"
+}
