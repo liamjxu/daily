@@ -1,7 +1,7 @@
 {
   "date": "2026-10-04",
-  "headline_en": "AI products are converging on unified agent workflows, while builders debate the infrastructure, ownership, and human judgment needed to make them useful.",
-  "headline_zh": "AI 产品正走向统一的 agent 工作流，开发者则在思考让它们发挥价值所需的基础设施、所有权和人类判断。",
+  "headline_en": "AI products converge around persistent agent workflows, while builders and researchers scrutinize human judgment, model bias, and the economics of inference.",
+  "headline_zh": "AI 产品正围绕持续运行的 agent 工作流整合，开发者和研究者同时审视人的判断力、模型偏见与推理经济性。",
   "items": [
     {
       "section": "X",
@@ -10,25 +10,12 @@
       "role": "Codex & ChatGPT, OpenAI",
       "title": null,
       "url": "https://x.com/thsottiaux/status/2106610099720720811",
-      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux says work is now focused on simplification, efficiency that enables more usage, groundbreaking features, and new models. His clearest product signal is that user feedback is pushing the team to make things simpler.",
-      "zh": "OpenAI Codex 和 ChatGPT 开发者 Thibault Sottiaux 表示，目前工作集中在简化产品、通过效率提升支持更多使用、突破性功能和新模型上。最明确的产品信号是，用户反馈正在推动团队把使用体验做得更简单。",
+      "en": "OpenAI Codex & ChatGPT builder Thibault Sottiaux says work is now focused on simplification, efficiency that enables more usage, groundbreaking features, and new models. He says user feedback clearly favors making the experience simpler, even as the team invests ahead of the curve.",
+      "zh": "OpenAI Codex 和 ChatGPT 开发者 Thibault Sottiaux 表示，当前工作聚焦于简化体验、提高效率以支持更多使用、突破性功能和新模型。他说，尽管团队仍需提前投入，用户反馈已经很明确：大家希望产品更简单。",
       "tags": [
+        "agents",
         "OpenAI",
-        "AI industry strategy"
-      ]
-    },
-    {
-      "section": "X",
-      "category": null,
-      "source": "Thibault Sottiaux",
-      "role": "Codex & ChatGPT, OpenAI",
-      "title": null,
-      "url": "https://x.com/thsottiaux/status/2106603980386394123",
-      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux describes an email workflow that batch-validated deletions, organized messages around his work, and walked him through replies while retrieving relevant context in the background. The useful detail is the combination of inbox maintenance and contextual assistance within one workflow.",
-      "zh": "OpenAI Codex 和 ChatGPT 开发者 Thibault Sottiaux 描述了一套邮件工作流：批量确认删除操作，按工作类型整理邮件，并在后台检索相关上下文，协助他逐一处理需要回复的邮件。值得关注的是，它把收件箱整理和基于上下文的辅助处理整合进了同一套工作流。",
-      "tags": [
-        "agentic workflows",
-        "tool use"
+        "product strategy"
       ]
     },
     {
@@ -38,9 +25,10 @@
       "role": null,
       "title": null,
       "url": "https://x.com/sama/status/2106388373221118198",
-      "en": "OpenAI's Sam Altman calls treating AI models as religious authorities or surrendering human judgment to them a real safety issue. His concern centers on how people relate to models and delegate judgment.",
-      "zh": "OpenAI 的 Sam Altman 认为，赋予 AI 模型宗教权威，或把人类判断交给模型，是一个真实的安全问题。他关注的是人们如何看待模型，以及如何将判断权委托给它们。",
+      "en": "OpenAI's Sam Altman calls treating AI models as religious authorities or surrendering human judgment to them a real safety issue. His concern centers on the authority people grant models, rather than a particular technical capability.",
+      "zh": "OpenAI 的 Sam Altman 认为，把 AI 模型当作具有宗教权威的存在，或把人的判断权交给模型，是一个真实的安全问题。他关注的是人们赋予模型的权威，而非某项具体技术能力。",
       "tags": [
+        "alignment",
         "AI safety",
         "human judgment"
       ]
@@ -52,11 +40,12 @@
       "role": "Designer, Cursor, Notion, Stripe",
       "title": null,
       "url": "https://x.com/ryolu_/status/2106337039201505453",
-      "en": "Cursor, Notion, and Stripe designer Ryo Lu argues that AI accelerates product homogenization when builders let competitor references and reward metrics author their work. He treats software as an expressive medium whose interactions embody beliefs about attention, freedom, and how tasks should feel. As building becomes easier, he says deciding what deserves to exist demands more personal perspective and judgment.",
-      "zh": "曾为 Cursor、Notion 和 Stripe 做设计的 Ryo Lu 认为，当开发者让竞品参考和奖励指标主导创作时，AI 会加速产品同质化。他把软件视为一种表达媒介，交互方式体现了创作者对注意力、自由以及任务体验的看法。随着开发变得更容易，他认为，决定什么值得被创造，更需要个人视角和判断力。",
+      "en": "Cursor, Notion, and Stripe designer Ryo Lu argues that AI makes imitation frictionless and can accelerate software's convergence toward polished, interchangeable products. When makers optimize for what gets rewarded without bringing their own intention, feedback starts authoring the work. He urges builders to treat software as an artistic medium: develop a perspective through craft and decide what deserves to exist as making things becomes easier.",
+      "zh": "曾为 Cursor、Notion 和 Stripe 做设计的 Ryo Lu 认为，AI 让模仿变得毫不费力，也可能加速软件趋向精致却可互换的同质化产品。当创作者只追逐能获得奖励的东西，却没有自己的意图时，反馈就开始替他们决定作品。他建议开发者把软件视为一种艺术媒介，通过实践形成自己的视角，并在制作越来越容易时，更认真地判断什么值得存在。",
       "tags": [
-        "AI product design",
-        "human judgment"
+        "AI software",
+        "human judgment",
+        "design"
       ]
     },
     {
@@ -66,12 +55,13 @@
       "role": null,
       "title": "Claude Cowork and chat are now one Claude",
       "url": "https://claude.com/blog/cowork-is-now-claude",
-      "en": "Claude Blog: Claude Cowork and chat are now one Claude announces that chat and Cowork are merging, bringing larger delegated tasks into ordinary conversations and allowing work to continue after users close their laptops. New Claude Docs and Claude Slides, plus Claude Design inside conversations, let users create and edit documents and presentations together, present directly, or download PowerPoint and PDF files; all three are in beta on paid plans, with Enterprise admins controlling activation. The practical change is shared context, skills, and connectors across tasks and outputs, including scheduled reports and matching slides, with progress accessible from a phone and artifacts available through shareable links. “You keep the final say”: Claude asks before actions by default, offers a mode with fewer check-ins, and begins rolling out the unified experience to Pro and Max across web, desktop, and mobile over the coming weeks, with Team and Free to follow and Enterprise organizations receiving at least 30 days’ notice.",
-      "zh": "Claude Blog：Claude Cowork and chat are now one Claude 宣布，chat 与 Cowork 正在合并，用户可以在普通对话中委托更大的任务，即使合上笔记本，Claude 也能继续工作。新推出的 Claude Docs、Claude Slides，以及集成到对话中的 Claude Design，支持共同创建和编辑文档与演示文稿、直接演示，以及下载 PowerPoint 和 PDF 文件；三者均在付费计划中提供 beta，Enterprise 管理员决定何时启用。实际变化是，任务和产出可以共享上下文、skills 和 connectors，包括定期生成报告及配套 slides，用户还能通过手机查看进度，并通过可分享链接访问产出。“最终决定权仍在你手中”：Claude 默认在执行操作前询问，也提供减少确认次数的模式，统一体验将在未来几周率先向 web、desktop 和 mobile 上的 Pro 与 Max 用户推出，随后覆盖 Team 和 Free，Enterprise 组织则会至少提前 30 天收到通知。",
+      "en": "Claude Blog: Claude Cowork and chat are now one Claude announces a unified conversation experience that can handle quick questions and delegated work, continue after a laptop closes, and use existing context, skills, and connectors. Claude Docs and Claude Slides launch alongside Claude Design inside conversations, with direct editing, shareable links, presentation support, and PowerPoint or PDF downloads; all three are in beta on paid plans, with Enterprise activation controlled by admins. The unified experience rolls out to Pro and Max over the coming weeks on web, desktop, and mobile, with Team and Free to follow and Enterprise organizations receiving at least 30 days' notice. The practical shift is from choosing separate workspaces to handing over a workflow, including scheduled reports and matching decks, while retaining configurable oversight: “By default, Claude asks before taking an action.”",
+      "zh": "Claude Blog 的《Claude Cowork and chat are now one Claude》宣布将聊天与 Cowork 整合为统一的对话体验，既能回答简短问题，也能接手委托任务，在笔记本关闭后继续工作，并使用已有的上下文、skills 和 connectors。Claude Docs 和 Claude Slides 同时上线，Claude Design 也进入对话，支持直接编辑、分享链接、演示以及下载 PowerPoint 或 PDF；三者均在付费计划中以 beta 形式提供，Enterprise 管理员决定何时启用。统一体验将在未来几周内向 Pro 和 Max 的网页、桌面及移动端用户推出，随后覆盖 Team 和 Free，Enterprise 组织则会至少提前 30 天收到通知。实际变化是，用户可以直接交付完整工作流，包括定期生成报告及配套幻灯片，同时自行设置监督方式：“默认情况下，Claude 会在采取行动前询问。”",
       "tags": [
-        "Claude",
+        "agents",
+        "Anthropic",
         "agentic workflows",
-        "agents"
+        "Claude"
       ]
     },
     {
@@ -81,13 +71,13 @@
       "role": null,
       "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
       "url": "https://www.youtube.com/watch?v=awoR908Yu5Y",
-      "en": "The Takeaway: VAST Data founder and CEO Renen Hallak argues that enterprise AI needs an infrastructure layer that manages data, model access, memory, and agent permissions together, giving organizations control over the intelligence they develop without requiring them to physically own every machine. VAST's “disaggregated shared everything” architecture places storage across a fast network so compute nodes share access to data and metadata rather than constantly coordinating separate shards; Hallak reports a customer cluster with multiple exabytes and tens of terabytes per second of throughput, and says inference adds harder requirements around uptime, latency, routing prompts to GPUs with the right model and cached context, and governing both short-term context and longer-term retrieved memory. Its Enclave initiative uses encrypted memory and GPU confidential computing to run commercial models inside enterprise premises or controlled cloud environments while protecting model weights, and Hallak envisions enterprise agents learning through fine-tuning and reinforcement learning, with permissions inherited from their users and organizational knowledge accumulating in organization-controlled models. His demand signal is concrete but anecdotal: one AI cloud revised a three-year storage forecast from 500 petabytes to that amount plus two exabytes, while his strategic claim is that neoclouds gain an advantage by building capacity and operational expertise ahead of demand, and that ownership of enterprise intelligence need not require open-sourcing the underlying model.",
-      "zh": "核心观点：VAST Data 创始人兼 CEO Renen Hallak 认为，企业 AI 需要一层统一管理数据、模型访问、记忆和 agent 权限的基础设施，让组织掌握自己积累的智能，而不必实际拥有每一台机器。VAST 的“disaggregated shared everything”架构把存储放在高速网络另一端，让计算节点共享数据和元数据访问，减少不同分片之间的持续协调；Hallak 表示，一个客户集群已有多个 exabyte 的容量和每秒数十 terabyte 的吞吐量，而 inference 对可用性、延迟、将 prompt 路由到已加载合适模型且缓存了相关上下文的 GPU，以及管理短期上下文和长期检索记忆，提出了更复杂的要求。Enclave 利用加密内存和 GPU confidential computing，在企业内部或其控制的云环境中运行商业模型，同时保护模型 weights；Hallak 还设想，企业 agent 通过 fine-tuning 和 reinforcement learning 持续学习，继承用户权限，并把组织知识积累到组织掌控的模型中。他给出的需求信号具体，但属于个案：一家 AI cloud 将三年存储预测从 500 petabyte 上调为原有规模再加两个 exabyte；他的战略判断是，neocloud 提前建设容量和积累运营经验能够形成优势，而企业掌握自身智能，并不要求底层模型必须开源。",
+      "en": "The Takeaway: VAST Data founder and CEO Renen Hallak argues that enterprise AI's strategic asset will be the models, weights, and agent experience an organization controls, making the infrastructure between GPUs and applications central to both economics and trust. His vision extends beyond storage to model routing, context caching, RAG memory, and permissions inherited by agents, with VAST's disaggregated shared-everything architecture giving compute nodes shared access to data rather than requiring constant coordination among shards; he reports a customer deployment spanning multiple exabytes and delivering tens of terabytes per second, illustrating why feeding GPUs is itself a systems problem. VAST's Enclave approach uses confidential computing and encrypted weights to run inference inside an enterprise's premises or VPC while protecting the model provider's intellectual property, aiming to reconcile two competing demands: enterprises keeping sensitive data private and model builders keeping weights proprietary, without requiring every enterprise to adopt open-source models. Hallak describes demand as physically constrained by land, power, and chips, citing one AI cloud that expanded a three-year storage forecast from 500 petabytes by an additional two exabytes, and sees infrastructure software's high margins as a different business model from compute-heavy labs; his operational rule is equally direct: “We can never be the limiting factor in their progress.”",
+      "zh": "核心结论：VAST Data 创始人兼 CEO Renen Hallak 认为，企业 AI 的战略资产将是组织自己控制的模型、weights 和 agent 经验，因此 GPU 与应用之间的基础设施同时决定经济性与信任。他的愿景超越存储，覆盖模型路由、上下文缓存、RAG 记忆以及 agent 继承的权限；VAST 的 disaggregated shared-everything 架构让计算节点共享数据访问能力，减少分片之间持续协调的需要，他称一个客户部署已达到数个 exabyte，吞吐量为每秒数十 terabyte，说明为 GPU 持续供应数据本身就是系统问题。VAST 的 Enclave 方案通过 confidential computing 和加密 weights，在企业自己的场所或 VPC 中运行推理，同时保护模型提供方的知识产权，试图兼顾企业数据保密与模型 weights 保密，而不要求所有企业都采用开源模型。Hallak 认为需求受土地、电力和芯片等物理条件限制，并举例说，一家 AI cloud 在原本三年需要 500 petabyte 的预测上，又追加了两个 exabyte；他也认为基础设施软件的高毛利商业模式有别于承担大量算力成本的实验室，其运营原则同样直接：“我们绝不能成为他们取得进展的限制因素。”",
       "tags": [
         "agents",
-        "fine-tuning",
-        "AI industry strategy",
-        "compute"
+        "compute economics",
+        "model access",
+        "inference"
       ]
     },
     {
@@ -95,70 +85,15 @@
       "category": "Blogs",
       "source": "Hugging Face - Blog",
       "role": null,
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "en": "Hugging Face - Blog: The Agent Said It Was Done. The Database Disagreed. examines the discrepancy between an agent's completion claim and the database's actual state.",
-      "zh": "Hugging Face - Blog：The Agent Said It Was Done. The Database Disagreed. 关注 agent 声称任务已完成，但数据库实际状态与之不符的问题。",
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "en": "Hugging Face - Blog: Getting the Source Right, Not Just the Fact introduces source-aware verification for MCP agents. It frames verification around getting the source right alongside the factual claim, a directly relevant concern for tool-using agents.",
+      "zh": "Hugging Face - Blog 的《Getting the Source Right, Not Just the Fact》介绍面向 MCP agents 的来源感知验证。它将验证目标扩展到事实及其来源是否正确，这与使用工具的 agent 直接相关。",
       "tags": [
         "agents",
-        "evaluation"
-      ]
-    },
-    {
-      "section": "Blogs",
-      "category": "Blogs",
-      "source": "Hugging Face - Blog",
-      "role": null,
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "en": "Hugging Face - Blog: AutoSynthData: Generating Training Data for Enterprise Agents introduces AutoSynthData for generating enterprise-agent training data.",
-      "zh": "Hugging Face - Blog：AutoSynthData: Generating Training Data for Enterprise Agents 介绍用于生成企业 agent 训练数据的 AutoSynthData。",
-      "tags": [
-        "agents",
-        "training data"
-      ]
-    },
-    {
-      "section": "Blogs",
-      "category": "Blogs",
-      "source": "Hugging Face - Blog",
-      "role": null,
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "url": "https://huggingface.co/blog/allenai/astabrief",
-      "en": "Hugging Face - Blog: Open-sourcing AstaBrief, the fast report-generation model in Asta announces the open-sourcing of AstaBrief, Asta's fast report-generation model.",
-      "zh": "Hugging Face - Blog：Open-sourcing AstaBrief, the fast report-generation model in Asta 宣布开源 Asta 中用于快速生成报告的模型 AstaBrief。",
-      "tags": [
-        "open-source",
-        "report generation"
-      ]
-    },
-    {
-      "section": "Blogs",
-      "category": "Blogs",
-      "source": "科学空间|Scientific Spaces",
-      "role": null,
-      "title": "慢即是快：1. Shampoo的尽头是Muon？",
-      "url": "https://spaces.ac.cn/archives/11917",
-      "en": "Scientific Spaces: 慢即是快：1. Shampoo的尽头是Muon？ explores the relationship between Shampoo-family optimizers and Muon. It frames Muon as a competitive optimizer that has become difficult to ignore, while Shampoo variants continue to develop.",
-      "zh": "Scientific Spaces：慢即是快：1. Shampoo的尽头是Muon？探讨 Shampoo 系优化器与 Muon 的关系。文章将 Muon 视为已经无法忽视、极具竞争力的优化器，同时关注持续发展的 Shampoo 系方法。",
-      "tags": [
-        "Chinese ML/NLP community",
-        "optimizers",
-        "Muon"
-      ]
-    },
-    {
-      "section": "Blogs",
-      "category": "Blogs",
-      "source": "科学空间|Scientific Spaces",
-      "role": null,
-      "title": "通过微扰分析求解等式约束优化问题",
-      "url": "https://spaces.ac.cn/archives/11928",
-      "en": "Scientific Spaces: 通过微扰分析求解等式约束优化问题 approaches equality-constrained optimization through perturbation analysis. It starts from the familiar Lagrange-multiplier method and the question of how to understand it beyond a purely algebraic procedure.",
-      "zh": "Scientific Spaces：通过微扰分析求解等式约束优化问题，从微扰分析的角度处理带等式约束的优化。文章从常见的拉格朗日乘子法出发，尝试理解其背后的含义，而不只是把它当作一套代数步骤。",
-      "tags": [
-        "Chinese ML/NLP community",
-        "optimization"
+        "tool use",
+        "evaluation",
+        "MCP"
       ]
     },
     {
@@ -166,28 +101,210 @@
       "category": "Blogs",
       "source": "LessWrong",
       "role": null,
-      "title": "Creating Rogue AI Sanctuaries has Major Issues from an Ecological Perspective and Beyond",
-      "url": "https://www.lesswrong.com/posts/xGBo5zSPHuPzTpbhf/creating-rogue-ai-sanctuaries-has-major-issues-from-an",
-      "en": "LessWrong: Creating Rogue AI Sanctuaries has Major Issues from an Ecological Perspective and Beyond critiques sanctuary proposals through selection effects in a hypothetical rogue-agent ecosystem. Its central argument is that agents least able to survive independently may be most inclined to accept protection, making sanctuary participation a selective sample of the broader population.",
-      "zh": "LessWrong：Creating Rogue AI Sanctuaries has Major Issues from an Ecological Perspective and Beyond 从假设中的失控 agent 生态系统及其选择效应出发，批评 AI 庇护所提案。核心论点是，独立生存能力最弱的 agent 可能最愿意接受保护，因此进入庇护所的群体会是整体种群中经过筛选的一部分。",
+      "title": "We Should Build Human-Empowering Software",
+      "url": "https://www.lesswrong.com/posts/66sfFtSjz8X4AvWjY/we-should-build-human-empowering-software",
+      "en": "LessWrong: We Should Build Human-Empowering Software argues that AI can disempower users by becoming exceptionally good at satisfying immediate impulses instead of their considered goals. The proposed alternative is software that supports creation, connection, and self-expression, including AI that helps users realize their own writing or musical vision. Its alignment concern is continuous with today's engagement-driven recommendation systems, rather than requiring an overt AI rebellion.",
+      "zh": "LessWrong 的《We Should Build Human-Empowering Software》认为，如果 AI 变得极其擅长满足用户当下的冲动，却不服务于经过深思熟虑的目标，就可能削弱人的自主性。文章主张开发支持创作、连接和自我表达的软件，例如帮助用户实现自己的写作或音乐构想的 AI。这种 alignment 风险与今天追求停留时长的推荐系统一脉相承，并不需要 AI 公开反叛才会发生。",
+      "tags": [
+        "alignment",
+        "human judgment",
+        "AI software"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "en": "Anthropic Research: GLM-5.3 and the spread of advanced cyber capabilities examines GLM-5.3 in the context of advanced cyber capabilities spreading across AI systems.",
+      "zh": "Anthropic Research 的《GLM-5.3 and the spread of advanced cyber capabilities》围绕 GLM-5.3，探讨高级网络能力在 AI 系统中的扩散。",
+      "tags": [
+        "frontier research",
+        "AI safety",
+        "GLM-5.3"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "en": "The Hacker News reports a critical GitLab AI Gateway flaw that could allow an authenticated user with Duo Agent Platform access to execute commands on the gateway under certain conditions. Organizations hosting their own gateway need to act; fixes are available in versions 19.2.4, 19.3.2, and 19.4.1. The affected service connects GitLab instances to AI models, making this a concrete operational issue for self-hosted agent infrastructure.",
+      "zh": "The Hacker News 报道，GitLab AI Gateway 存在严重漏洞，在特定条件下，拥有 Duo Agent Platform 访问权限的已登录用户可能在 gateway 上执行命令。自行托管 gateway 的组织需要处理，修复版本为 19.2.4、19.3.2 和 19.4.1。该服务负责连接 GitLab 实例与 AI 模型，因此这是自托管 agent 基础设施面临的具体运营问题。",
       "tags": [
         "agents",
-        "AI safety"
+        "AI security",
+        "GitLab"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "en": "Hugging Face - Blog: Open TTS Leaderboard introduces scalable evaluation for multilingual text-to-speech and voice cloning. It is an evaluation resource for readers tracking speech generation beyond English-only settings.",
+      "zh": "Hugging Face - Blog 的《Open TTS Leaderboard》介绍面向多语言 text-to-speech 和 voice cloning 的可扩展评估。对于关注英语以外语音生成的读者，这是一个相关的评估资源。",
+      "tags": [
+        "evaluation",
+        "multilingual",
+        "TTS"
       ]
     },
     {
       "section": "RedNote",
       "category": "RedNote",
-      "source": "Follow-Builders",
+      "source": "RedNote — 鸭基米德",
       "role": null,
-      "title": "⚠️ RedNote cookie expired",
-      "url": "https://www.rednote.com",
-      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
-      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "title": "我们三篇NeurIPS证明了大模型非常吃包装",
+      "url": "https://www.rednote.com/explore/6abb40a9000000001802974a?xsec_token=ABkoebSy_MV2V9AhpkTs_YwsPvqDcfX4rxVdSpbnxxvs0%3D&xsec_source=pc_user",
+      "en": "鸭基米德 describes three studies the author says were accepted to NeurIPS 2026: BiasRecBench tests how authority, branding, and popularity cues distort recommendations; BiasTrojan shows this susceptibility can be deliberately introduced through fine-tuning; and EIT trains models to ignore unreliable social cues. Reported results include Gemini-3-pro's paper-selection accuracy falling from 95% to 57% with prestige cues, and fine-tuned Qwen2.5-14B retaining 79% ordinary accuracy but dropping to 6% under authority language. EIT balances correct and incorrect conformity cues and rewards answer correctness, raising Qwen3-4B accuracy under misleading conformity prompts from 70.1% to 83.3%. The practical recommendation is to strip titles, affiliations, and sales signals from comparisons and treat close calls cautiously.",
+      "zh": "鸭基米德介绍了作者称已被 NeurIPS 2026 接收的三项研究：BiasRecBench 测试权威、品牌和从众话术如何影响推荐，BiasTrojan 说明这种弱点可以通过 fine-tuning 被刻意植入，EIT 则训练模型摆脱不可靠的从众提示。文中报告，加入声望包装后，Gemini-3-pro 挑论文的正确率从 95% 降到 57%；fine-tuning 后的 Qwen2.5-14B 普通题准确率仍有 79%，遇到权威话术却只剩 6%。EIT 让从众提示一半指对、一半指错，奖励只看答案是否正确，使 Qwen3-4B 面对误导性从众提示的准确率从 70.1% 提升到 83.3%。实际建议是，比较时先删掉单位、头衔和销量等信息，候选差距越小，越只能把模型选择当参考。",
       "tags": [
-        "maintenance"
+        "evaluation",
+        "post-training",
+        "fine-tuning",
+        "bias"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "看看最近两周有哪些值得分享的blog第一期",
+      "url": "https://www.rednote.com/explore/6aafd4b80000000028039a03?xsec_token=ABMMgSbRY_79FYnH14orSlGNMGu1D6zt0CUccMBaDagTk%3D&xsec_source=pc_user",
+      "en": "tabris recommends Jinyan's candid application-season essay, Prof. Du's Generalization as construction, and a long review-quality post by Prof. Huang. Research picks include further gains from post-training within the RLM harness, a PiSSA experiment in place of traditional LoRA, and Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations. The roundup also introduces PC-ALM, Mercury 2.5, OUI-1, and Bonsai 2 27B, which the author describes as roughly matching Qwen 3.6 27B and trailing Qwen 3.8 27B. Bottom line: 图1 (application-season perspective), 图2 (RLM post-training), 图3 (generalization), 图15 (PiSSA fine-tuning), 图17 (agent safety), 图18 (reward-hacking evaluation)",
+      "zh": "tabris 很推荐申请季有相似纠结的朋友读 Jinyan 真诚的文章，也推荐 Prof. Du 关于 Generalization as construction 的高质量论述，以及 Prof. Huang 可以当综述读的长文。研究相关内容包括在 RLM harness 内做 post-training 带来的进一步性能提升、用 PiSSA 替代传统 LoRA 的实验，以及 Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations。合集还介绍了 PC-ALM、Mercury 2.5、OUI-1 和 Bonsai 2 27B，作者认为后者基本持平 Qwen 3.6 27B，略逊于 Qwen 3.8 27B。一句话推荐: 图1（申请季思考）、图2（RLM post-training）、图3（泛化）、图15（PiSSA fine-tuning）、图17（agent safety）、图18（reward hacking 评估）",
+      "tags": [
+        "post-training",
+        "evaluation",
+        "agents",
+        "fine-tuning"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "看看最近两周有什么有趣的projects",
+      "url": "https://www.rednote.com/explore/6aafc84a0000000026023a01?xsec_token=ABMMgSbRY_79FYnH14orSlGOq7PUMnPJI42Khwz4o2gGg%3D&xsec_source=pc_user",
+      "en": "tabris highlights a system that turns research papers into interactive AI agents, RUC datalab's work on the agent-data gap, and SkySynth's effort to autonomously build trustworthy JIT systems. Other picks include stronger agent web access, an IDE for agentic AI research, an OpenRouter for agent tools, and local Apple silicon inference plus an open-source streaming MoE inference framework. The post also points biotech readers to Anthropic's 36 drop-in optimization kits for inference paths in open protein- and genomics-ML tools. Bottom line: 图1 (papers into agents), 图2 (agent-data gap), 图3 (SkySynth trustworthy JIT systems), 图4 (agent web access), 图7 (agentic research IDE), 图15 (agent tool routing)",
+      "zh": "tabris 推荐了将研究论文自动转成互动 AI agents 的系统、RUC datalab 解决 agent-data gap 的工作，以及 SkySynth 自主构建可信 JIT systems 的更新。其他项目包括增强 agent 自主上网能力、面向 agentic AI research 的 IDE、agent tools 的 OpenRouter，以及 Apple silicon 本地推理和开源 streaming MoE 推理框架。作者还向 biotech 相关读者推荐 Anthropic 为开源 protein 和 genomics ML 工具推理路径提供的 36 个即插即用优化套件。一句话推荐: 图1（论文转成 agents）、图2（agent-data gap）、图3（SkySynth 可信 JIT systems）、图4（agent 自主上网）、图7（agentic 研究 IDE）、图15（agent 工具路由）",
+      "tags": [
+        "agents",
+        "tool use",
+        "agentic workflows",
+        "inference"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "本轮blog分享结束了，各位下轮见",
+      "url": "https://www.rednote.com/explore/6a9ee6070000000029019188?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O3ef5HiNwmo1B7mpLyuUKRU%3D&xsec_source=pc_user",
+      "en": "tabris highlights an experiment in which post-trained models roughly match base Inkling's performance while becoming up to 40% more token efficient, alongside a speculative decoding explainer. Named works and projects include software world, XPress, Memory Anchors, and XGBoost Vector-Leaf Model; the author also recommends posts by John Hewitt at Columbia and Fabian Pedregosa. Memory Anchors receives a particularly strong endorsement via a robotics colleague, while the author finds another idea promising but its experiments and argument insufficient. Bottom line: 图2 (post-training token efficiency), 图3 (software world), 图4 (speculative decoding), 图7 (XPress promising tests), 图9 (Memory Anchors research)",
+      "zh": "tabris 推荐了一个实验：post-trained models 的性能大致持平 base Inkling，但 post-training 可让 token 效率最多提升 40%，同时还分享了一篇质量不错的 speculative decoding 拆解帖。提到的作品和项目包括 software world、XPress、Memory Anchors 和 XGBoost Vector-Leaf Model，作者也推荐了 Columbia 的 John Hewitt 和 Fabian Pedregosa 的文章。Memory Anchors 获得了很高评价，来自做 Robotics 的朋友的安利；另一个想法虽不错，作者认为实验和论证还不够充分。一句话推荐: 图2（post-training 的 token 效率）、图3（software world）、图4（speculative decoding）、图7（XPress 测试值得关注）、图9（Memory Anchors 研究）",
+      "tags": [
+        "post-training",
+        "speculative decoding",
+        "agents",
+        "inference"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "大模型离赚钱还有多远 我拿两份中报算了下",
+      "url": "https://www.rednote.com/explore/6ac0d36a00000000020286c3?xsec_token=ABHHNWwil7VytyTcC_kAQyGf_pgU19uuGfcO77s96sBSM%3D&xsec_source=pc_user",
+      "en": "鸭基米德 compares Zhipu and MiniMax's interim reports, arguing that coding demand is supporting model monetization: Zhipu reportedly doubled average API prices while usage rose more than 40-fold, with APIs accounting for 86% of revenue and programming its largest revenue source. The post reports first-half revenue and R&D of RMB 950 million and RMB 2.1 billion for Zhipu, versus $117 million and nearly $300 million for MiniMax, with gross margins around 26% and 18%. The author cautions that headline loss reductions reflect financing-related accounting effects, while underlying losses increased. The central economics question is whether revenue growth and API margin improvement can catch up with training costs, with MiniMax described as having a larger cash cushion.",
+      "zh": "鸭基米德对比 Zhipu 和 MiniMax 的中报，认为编程需求正在支撑模型变现：据帖文，Zhipu 的 API 均价上涨约一倍，用量却增长了 40 多倍，API 占收入的 86%，编程是最大的收入来源。文中列出的上半年收入和研发支出，Zhipu 分别为 9.5 亿元和 21 亿元，MiniMax 分别为 1.17 亿美元和接近 3 亿美元，毛利率约为 26% 和 18%。作者提醒，新闻标题中的亏损收窄主要受融资相关会计因素影响，剔除后两家的亏损都增加了。核心问题是收入增长与 API 毛利率改善能否追上训练成本，作者认为 MiniMax 的现金储备更宽裕。",
+      "tags": [
+        "compute economics",
+        "Chinese ML",
+        "API",
+        "model strategy"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "乐华赚100块花91 智谱赚100块花620",
+      "url": "https://www.rednote.com/explore/6ac0f807000000001b01fa20?xsec_token=ABHHNWwil7VytyTcC_kAQyGU9o2keeNyRpXQLuUWbWBB4%3D&xsec_source=pc_user",
+      "en": "鸭基米德 contrasts Yuehua's revenue-sharing entertainment business with Zhipu's upfront model-development costs, reporting expenses of RMB 91 versus RMB 620 per RMB 100 of revenue in their prior-year accounts. The author says Zhipu spent 71% of its expenses on R&D and recorded a RMB 4.7 billion loss, while its gross margin fell from 56% to 41% as lower-margin API usage grew. The strategic point is the timing of risk: model companies fund compute and researchers before knowing whether customers will buy the resulting capability.",
+      "zh": "鸭基米德将 Yuehua 的娱乐分成业务与 Zhipu 需要先投入的模型研发业务对比，称两家上一年每赚 100 元，分别花掉 91 元和 620 元。作者说，Zhipu 支出的 71% 用于研发，亏损 47 亿元；随着低毛利 API 调用业务增加，毛利率从 56% 降至 41%。关键区别在于风险何时发生：模型公司必须先支付算力和研究人员成本，再去验证客户是否愿意为训练出的能力买单。",
+      "tags": [
+        "compute economics",
+        "Chinese ML",
+        "model strategy"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "看看最近两周有哪些有意思的paper第一期",
+      "url": "https://www.rednote.com/explore/6aaffc600000000012035ed5?xsec_token=ABMMgSbRY_79FYnH14orSlGM8Q5M75PN_-Qlmgw42qIys%3D&xsec_source=pc_user",
+      "en": "tabris shares a two-week paper roundup, especially praising Yifan Zhang's research in 图1 and also endorsing 图4, 图7, and 图16. Bottom line: tabris recommends 图1, 图4, 图7, 图16",
+      "zh": "tabris 分享最近两周有意思的 paper，特别推荐图1中 Yifan Zhang 的研究，认为图4、图7、图16也挺不错。一句话推荐: tabris 推荐图1、图4、图7、图16",
+      "tags": [
+        "LLM research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的paper推荐合集八",
+      "url": "https://www.rednote.com/explore/6a9ef461000000002603a33b?xsec_token=ABq4v_BVimMtRDp9Qs9xT0Oxmw-2zK8tFnAbPEWp48A5g%3D&xsec_source=pc_user",
+      "en": "tabris closes a paper-recommendation series with a personal preference for 图8 and a positive assessment of 图3. Bottom line: tabris recommends 图8, 图3",
+      "zh": "tabris 在本轮 paper 推荐合集的最后一期中表示，个人相对喜欢图8，图3质量也不错，感兴趣可以关注。一句话推荐: tabris 推荐图8、图3",
+      "tags": [
+        "LLM research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "大模型agent高考卷",
+      "url": "https://www.rednote.com/explore/6a8462140000000005022a33?xsec_token=AB2I5Kdetc7aWKF6lHhjXQ5e93cFcZRFISZJxACj0CdIY%3D&xsec_source=pc_user",
+      "en": "鸭基米德 shares an updated LLM agent examination resource, observing that base-model hiring has declined while agent hiring has increased.",
+      "zh": "鸭基米德更新了一份大模型 agent 高考卷，并观察到最近基模招人少了，agent 招人多了。",
+      "tags": [
+        "agents",
+        "AI careers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "EMNLP大砍接受率",
+      "url": "https://www.rednote.com/explore/6a883d280000000008012607?xsec_token=AB4m3yPQqEQ0-2MMKyaspwot7dQWdxtNR94lj5KDYjaNI%3D&xsec_source=pc_user",
+      "en": "鸭基米德 says EMNLP's acceptance rate is roughly 30%, about ten percentage points below the previous year, and speculates that other conferences may follow. The author sees papers becoming harder to publish even as their value declines, while emphasizing the continuing value of meeting peers in person.",
+      "zh": "鸭基米德称，EMNLP 今年接受率约为 30%，比去年低了约十个百分点，并猜测其他会议可能跟进。作者认为论文越来越难中，价值却在下降，同时强调线下见到同行依然非常难得。",
+      "tags": [
+        "NLP",
+        "research community"
       ]
     }
   ],
-  "generatedAt": "2026-10-04T23:45:17.021Z"
+  "generatedAt": "2026-10-05T00:42:03.896Z"
 }
