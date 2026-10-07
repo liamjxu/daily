@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-07",
+  "headline_en": "Agent research shifts toward sustained progress, trustworthy evaluation, and lower costs, while builders emphasize clear goals and specialized post-training.",
+  "headline_zh": "Agent 研究更关注持续进展、可信评估与成本降低，构建者则强调明确目标和专门化 post-training。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2107565388250874193",
+      "en": "Anthropic Claude Code builder Boris Cherny argues that elaborate prompting matters less than it did in the Sonnet 3.5 era: talk to Claude as you would a coworker and give it a goal. His three priorities are communicating what to do, how much effort to spend, and how to verify success.",
+      "zh": "Anthropic 的 Claude Code 构建者 Boris Cherny 认为，相比 Sonnet 3.5 时期，如今精心雕琢 prompt 的重要性已经下降：像和同事交流一样与 Claude 沟通，给它一个目标即可。他强调三点：说明要做什么、投入多少精力，以及如何验证任务完成得是否正确。",
+      "tags": [
+        "agents",
+        "verification",
+        "prompting"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2107580785456976085",
+      "en": "Anthropic Claude Code engineer Thariq describes a direction in which Claude's brains run in the cloud while local hands operate users' computers. File availability becomes a technical constraint when a computer goes offline, making synchronization attractive but introducing edge cases; he also argues that higher-level coding abstractions still require understanding the layers underneath.",
+      "zh": "Anthropic 的 Claude Code 工程师 Thariq 描述了一种发展方向：Claude 的大脑在云端运行，本地的双手则操作用户电脑。电脑离线时，文件访问会成为技术限制，因此同步机制很有吸引力，但也会带来边界情况；他还认为，即使编程抽象层级提高，仍然需要理解底层机制。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "cloud"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2107574195978641911",
+      "en": "Anthropic's official Claude account describes how Every built a shared company agent on Claude Managed Agents that employees use in Slack. The aim was to help the team share skills as new models arrive, and Every subsequently released the agent to subscribers.",
+      "zh": "Anthropic 的 Claude 官方账号介绍了 Every 如何基于 Claude Managed Agents 构建共享的公司 agent，供员工在 Slack 中使用。目标是在新模型推出时帮助团队共享 skills，随后 Every 也向订阅用户开放了这个 agent。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "Claude"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2107522599530139767",
+      "en": "Anthropic's official Claude account announces a beta for editing Google documents, spreadsheets, and decks beside the Claude chat, available on all paid plans. Users can paste a Google file link or request a new artifact, with access governed by their Google sharing permissions.",
+      "zh": "Anthropic 的 Claude 官方账号宣布推出 beta 功能，所有付费套餐用户都可以在 Claude 聊天旁共同编辑 Google 文档、表格和演示文稿。用户可以粘贴 Google 文件链接或请求新建内容，访问权限遵循 Google 的共享设置。",
+      "tags": [
+        "Claude",
+        "collaboration"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 94: Applied Compute CEO on the Limits of RL, the New AI Hyperscaler &amp; Why Post-Training Wins Inference",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "en": "The Takeaway: specialized post-training earns its keep when a mature AI workload has exhausted obvious harness improvements and can turn better judgment, fewer tokens, or lower latency into meaningful inference savings across a large user base. Applied Compute's CEO, who previously worked on Codex at OpenAI, frames owning intelligence as control over weights, deployment, routing, and price-performance rather than suspicion of frontier labs, arguing that differentiated proprietary data can lift capabilities while most customers chiefly seek better economics and flexibility across models. His central warning is that RL is a “hill climbing machine”: defining the hill requires tasks, environments, and expert-backed verifiers, so company-specific evals deserve protection as competitive assets, rubric-based feedback can make non-verifiable domains tractable, and transfer from math training into distant domains remains limited compared with pretraining. Applied Compute reports using production feedback to improve satisfaction, completion rates, and tool reliability, but the CEO calls data-efficient learning from sparse rewards an unsolved barrier to continual learning; his practical prescription is to optimize context and tools first, then co-optimize policy and serving, including training models to use fewer tokens at preserved quality, while hiring people who can explain their AI-generated work and the design tradeoffs behind it.",
+      "zh": "核心结论：当成熟的 AI 工作负载已经用尽明显的 harness 优化空间，并且能将更好的判断、更少的 token 或更低的延迟转化为大规模推理节省时，专门化 post-training 才真正体现价值。Applied Compute 的 CEO 曾在 OpenAI 参与 Codex，他认为拥有自己的智能意味着掌控权重、部署、路由和性价比，而非怀疑前沿实验室；有差异化的专有数据可以提升能力，但多数客户主要追求更好的经济性和跨模型的灵活性。他的核心提醒是，RL 是一台“hill climbing machine”：定义要爬的山，需要任务、环境和专家支持的验证器，因此公司专属 eval 应作为竞争资产保护，基于 rubric 的反馈可以让难以直接验证的领域变得可优化，但数学训练向相距较远领域的迁移仍远不及 pretraining。Applied Compute 表示正在利用生产反馈提升满意度、完成率和工具调用可靠性，但这位 CEO 认为，从稀疏奖励中高效学习仍是 continual learning 尚未解决的障碍；他的实践建议是先优化 context 和工具，再联合优化策略与推理服务，包括在保持质量的同时训练模型使用更少 token，并招聘能够解释 AI 生成成果及其设计取舍的人。",
+      "tags": [
+        "post-training",
+        "evaluation",
+        "agents",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Stateless Language Agents: Scaling Long-Horizon Automated Research",
+      "url": "https://arxiv.org/abs/2610.07625",
+      "en": "Stateless Language Agents puts research state in the harness and reconstructs fresh, role-specific contexts for each agent invocation, with an Advisor assigning experiments to parallel Workers. At budgets up to one billion tokens, it reports the best final result on every evaluated task and reaches the strongest kernel baseline's final performance with over 84% fewer tokens. This directly tests whether more test-time compute produces research progress rather than growing histories and duplicated work.",
+      "zh": "Stateless Language Agents 将研究状态保存在 harness 中，每次调用 agent 时重新构建符合其角色的 context，由 Advisor 向并行 Workers 分配实验。在最高十亿 token 的预算下，它在所有评估任务上取得最佳最终结果，并以少于基线超过 84% 的 token，达到最强 kernel 基线的最终性能。这直接检验了更多 test-time compute 是否带来研究进展，而非不断膨胀的历史记录和重复劳动。",
+      "tags": [
+        "agents",
+        "test-time compute",
+        "multi-agent",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "The Labeling Problem in Hallucination Detection Benchmarks: An Empirical Evaluation",
+      "url": "https://arxiv.org/abs/2610.08026",
+      "en": "This study separates reference faithfulness from factual correctness in hallucination-detection evaluation, using 900 human-labeled question-answer pairs across three datasets and three generator models. Lexical metrics, an NLI baseline, and seven LLM judges substantially disagree with one another and with human annotations, with strong directional error biases in many strategies. It challenges whether a benchmark's automated labels measure the intended notion of hallucination.",
+      "zh": "这项研究区分了 hallucination 检测评估中的参考答案忠实性与事实正确性，使用覆盖三个数据集和三个生成模型的 900 个人工标注问答对。词汇指标、NLI 基线和七个 LLM judges 之间，以及它们与人工标注之间，都存在明显分歧，许多方法还呈现出较强的方向性错误偏差。这质疑了 benchmark 的自动标签是否真正衡量了预期的 hallucination 概念。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "hallucination"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell",
+      "url": "https://arxiv.org/abs/2610.07782",
+      "en": "In one three-tier architecture, agent decomposition reduces peak KV working set to 14.3 MiB per query versus roughly 35 MiB for single-pass and RAG baselines, but persistent memory adds cache cost without a detectable accuracy gain. The authors argue that independently scored, single-question benchmarks structurally give stored traces little useful information to retrieve, and document four measurement corrections. The work provides concrete criteria for deciding whether an agent-memory ablation can establish a benefit.",
+      "zh": "在一种三层架构中，agent 分解将每个查询的峰值 KV 工作集降至 14.3 MiB，而单次推理和 RAG 基线约为 35 MiB；但持久记忆增加了 cache 成本，没有带来可检测的准确率提升。作者认为，独立评分的单问题 benchmark 在结构上几乎不给已存轨迹提供有用的检索信息，并记录了四次测量修正。这项工作给出了判断 agent 记忆消融实验能否证明收益的具体标准。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation",
+        "KV cache"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "url": "https://arxiv.org/abs/2610.08775",
+      "en": "BOTTLED tests whether agents can convert an entire unlabeled workload into reusable programs or small models under fixed time, compute, and API budgets. Strong zero-shot performance does not reliably predict this ability: 31 of 60 runs underperform the stronger same-token-budget distillation baseline, although Opus 5 retains about 82% of its zero-shot macro-F1 on relevance classification at roughly 657 times lower reported cost. It measures a practical agent capability: turning expensive intelligence into economical artifacts.",
+      "zh": "BOTTLED 测试 agent 能否在固定时间、compute 和 API 预算下，将整批未标注工作负载转化为可复用程序或小模型。较强的 zero-shot 表现并不能可靠预测这种能力：60 次运行中有 31 次不及相同 token 预算下更强的 distillation 基线，不过 Opus 5 在相关性分类上保留了约 82% 的 zero-shot macro-F1，报告成本则约降低至原来的 1/657。它衡量了一种实用的 agent 能力：将昂贵的智能转化为经济的可复用成果。",
+      "tags": [
+        "agents",
+        "distillation",
+        "benchmarks",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LSC-DPO: Learning-Signal-Controlled Direct Preference Optimization",
+      "url": "https://arxiv.org/abs/2610.07592",
+      "en": "LSC-DPO addresses declining DPO loss sensitivity as preference margins grow by dynamically regulating the sigmoid-derived learning signal near a target regime. It reports improvements over DPO and strong preference-optimization baselines on AlpacaEval 2, MT-Bench, and Anthropic-HH, while a signal-budget compensation rule reduces variation across coefficient initializations. The contribution targets both optimization quality and reproducibility in preference training.",
+      "zh": "LSC-DPO 针对 preference margin 增大时 DPO loss 敏感度下降的问题，动态调控由 sigmoid 决定的学习信号，使其保持在目标范围附近。它在 AlpacaEval 2、MT-Bench 和 Anthropic-HH 上优于 DPO 及较强的 preference optimization 基线，并通过信号预算补偿规则降低不同系数初始化带来的性能差异。这项贡献同时关注偏好训练的优化质量和可复现性。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+      "url": "https://arxiv.org/abs/2610.08448",
+      "en": "Across three heterogeneous teacher-student pairs, this study finds that strict token alignment already covers most student-generated tokens, and reverse KL over a student-selected top-16 shared-vocabulary subset matches full shared-vocabulary OPD accuracy. Adding supervision over mismatched spans increases coverage but reduces accuracy, with gradients showing weak or negative agreement with the strict-alignment objective. For cross-tokenizer distillation, reliable supervision appears more valuable than maximizing coverage.",
+      "zh": "在三组异构 teacher-student 配对中，这项研究发现严格 token 对齐已覆盖大多数 student 生成的 token，而仅在 student 选出的共享词表 top-16 子集上计算 reverse KL，就能达到完整共享词表 OPD 的准确率。对不匹配片段增加监督虽然提高了覆盖率，却降低了准确率，其梯度与严格对齐目标的方向一致性较弱，甚至为负。对于跨 tokenizer distillation，可靠的监督似乎比最大化覆盖率更有价值。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+      "url": "https://arxiv.org/abs/2610.07767",
+      "en": "TRACE uses rollout-side quantization outcomes to guide training-side FP4 rounding, directly reducing discrepancies between the two execution paths, with selective caching of deeper-layer quantization information. Across four large-scale MoE models, it reports joint FP4 weight, activation, and KV-cache rollout with RL performance comparable to BF16 and up to 5.4× rollout speedup. It offers a systems approach to reducing post-training cost without treating training and rollout quantization as separate problems.",
+      "zh": "TRACE 利用 rollout 侧的量化结果指导训练侧 FP4 舍入，直接减少两条执行路径之间的差异，并选择性缓存较深层的量化信息。在四个大规模 MoE 模型上，它报告同时采用 FP4 权重、activation 和 KV-cache rollout 时，RL 表现可与 BF16 相当，rollout 最高加速 5.4 倍。它从系统角度降低 post-training 成本，将训练与 rollout 的量化作为联合问题处理。",
+      "tags": [
+        "post-training",
+        "quantization",
+        "MoE",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Structuring MoE Expert Selection for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.07332",
+      "en": "This paper finds that MoE expert routing naturally overlaps more across agent turns performing similar operations, then uses that structure to guide agentic RL. Its hierarchical controls align turn-level expert selection with operations and regularize token-level consistency, with entropy gating for training stability; reported success-rate gains exceed 10 points on every evaluated benchmark. The work connects agent trajectory structure to model capacity allocation and inference efficiency.",
+      "zh": "这篇论文发现，执行相似操作的 agent 回合之间，MoE expert 路由天然具有更高的重合度，并利用这一结构指导 agentic RL。其分层控制使回合级 expert 选择与操作类型对齐，同时约束 token 级一致性，再用 entropy gating 改善训练稳定性；在所有评估 benchmark 上，报告的成功率提升均超过 10 个百分点。这项工作将 agent 轨迹结构与模型容量分配及推理效率联系起来。",
+      "tags": [
+        "agents",
+        "post-training",
+        "MoE"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Confidence Reasoning Graphs: Structured Confidence Estimation for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.07948",
+      "en": "Confidence Reasoning Graphs estimates agent success from a single trajectory without training data or privileged model access, decomposing the success claim into evidence-grounded subclaims and aggregating their confidence. Across three benchmarks, three backbone models, and three agent frameworks, it reports better calibration and risk-aware decisions than verbalized, sampling-based, and white-box surrogate baselines. It targets the practical question of when to trust an agent or intervene.",
+      "zh": "Confidence Reasoning Graphs 无需训练数据或模型内部访问权限，仅凭一条轨迹估计 agent 成功概率：将任务成功这一主张拆分为有证据支持的子主张，再汇总各自的置信度。在三个 benchmark、三个 backbone 模型和三个 agent 框架上，它报告比口头置信度、采样方法和 white-box surrogate 基线更好的校准与风险敏感决策。它关注的是实际部署中何时信任 agent、何时介入的问题。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "calibration"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Quantization Effects on Tool-Failure Recovery Vary Across Prompts and Evaluation Designs",
+      "url": "https://arxiv.org/abs/2610.07781",
+      "en": "Comparing 8-bit and 4-bit Llama-3.1-8B-Instruct and Qwen2.5-7B-Instruct on 20 deterministic tool-use tasks and five prompts, this study finds that recovery rankings can reverse with prompting, task screening, and executor strictness. In one Llama setting, strict output parsing changes an 8-bit advantage of 28.3 points into a disadvantage of 15.0 points. Quantized-agent robustness therefore needs matched tasks and explicit scoring policies rather than a conclusion from one prompt or filtered subset.",
+      "zh": "这项研究在 20 个确定性工具使用任务和五种 prompt 上比较 8-bit 与 4-bit 的 Llama-3.1-8B-Instruct 和 Qwen2.5-7B-Instruct，发现故障恢复能力的排序会随 prompt、任务筛选和执行器严格程度而反转。在一个 Llama 设置中，严格输出解析将 8-bit 原有的 28.3 个百分点优势变成了 15.0 个百分点劣势。因此，量化 agent 的鲁棒性评估需要匹配任务并明确评分规则，不能仅凭一种 prompt 或筛选后的子集得出结论。",
+      "tags": [
+        "tool use",
+        "evaluation",
+        "Qwen",
+        "quantization"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
+      "url": "https://arxiv.org/abs/2610.08364",
+      "en": "Transect is an open-source package built on Inspect Scout that aligns events, token use, sub-agent activity, and model-generated behavioral labels on a shared turn-based timeline. It separates reusable task context and behavioral vocabulary from judge settings, links interpretations to source turns, and demonstrates the workflow on an AI R&D evaluation producing almost 13 million tokens. This makes long-horizon agent analysis easier to audit and reproduce.",
+      "zh": "Transect 是基于 Inspect Scout 的开源工具，将事件、token 使用、sub-agent 活动和模型生成的行为标签对齐到统一的回合时间线上。它将可复用的任务背景与行为词汇同 judge 设置分离，把分析结果链接回原始回合，并在产生近 1300 万 token 的 AI R&D 评估上演示了这一流程。这使长程 agent 分析更容易审计和复现。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "multi-agent",
+        "observability"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+      "url": "https://arxiv.org/abs/2610.08215",
+      "en": "Learn2Play Bench uses newly designed text games with novel or counterintuitive rules to distinguish learning through interaction from exploiting pretrained knowledge or supplied instructions. Repeated attempts and varied instances support controlled tests of learning and transfer; retaining complete action-feedback records can outperform summarizing experience into rules, while top human players achieve higher peak scores than the evaluated agents. It offers a sharper test of what agent experience and memory actually buy.",
+      "zh": "Learn2Play Bench 使用具有新颖或反直觉规则的新设计文字游戏，区分通过交互学习与利用 pretraining 知识或现成指令的能力。重复尝试和变化的游戏实例支持对学习与迁移进行可控测试；保留完整的行动与反馈记录，有时比将经验总结成规则更有效，而顶尖人类玩家的峰值成绩仍高于被评估的 agents。它更直接地检验了 agent 经验与记忆究竟带来什么收益。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "evaluation",
+        "memory"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+      "en": "The Hacker News reports that Anthropic is expanding access for vetted cybersecurity professionals to test advanced models with reduced safeguards and blocking classifiers. Anthropic says Project Glasswing uncovered at least 129,000 verified software vulnerabilities between April and July 2026, making the access change consequential for how frontier cyber capabilities reach practitioners.",
+      "zh": "The Hacker News 报道，Anthropic 正扩大面向经过审核的网络安全专业人员的访问范围，允许他们在减少 safeguards 和拦截分类器限制的条件下测试先进模型。Anthropic 表示，Project Glasswing 在 2026 年 4 月至 7 月间发现了至少 129,000 个经过验证的软件漏洞，因此这项访问调整对前沿网络安全能力如何交到实践者手中具有重要意义。",
+      "tags": [
+        "Anthropic",
+        "model access",
+        "cybersecurity"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "An overview of frontier AI company monitoring practices in mid 2026",
+      "url": "https://www.lesswrong.com/posts/E4Jpmo3igPnGnXtL4/an-overview-of-frontier-ai-company-monitoring-practices-in",
+      "en": "LessWrong assembles public evidence on monitoring internally deployed agents at OpenAI, Anthropic, and Google DeepMind, finding that transcript monitoring is primarily asynchronous or offline. Cited OpenAI procedures target notifications within 30 minutes after concerning activity surfaces and require pausing relevant activity if a flag cannot be conclusively dismissed within a further 30 minutes; Anthropic describes an automated offline pipeline. The overview distinguishes evidence of actual practices from Google DeepMind roadmap suggestions, useful for assessing the operational limits of agent oversight.",
+      "zh": "LessWrong 汇总了 OpenAI、Anthropic 和 Google DeepMind 对内部部署 agents 进行监控的公开证据，指出轨迹监控主要采用异步或离线方式。文中引用的 OpenAI 流程以可疑活动被发现后 30 分钟内发出通知为目标，如果再过 30 分钟仍不能明确排除误报，就应暂停相关活动；Anthropic 则描述了自动化离线监控 pipeline。这份梳理区分了实际做法的证据与 Google DeepMind 路线图中的建议，有助于评估 agent 监督在操作层面的局限。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "monitoring",
+        "frontier labs"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-07T13:07:17.525Z"
+}
