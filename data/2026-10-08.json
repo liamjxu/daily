@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-08",
+  "headline_en": "Cheaper frontier models and persistent agents are expanding practical AI workflows, while new research challenges outcome-only evaluation and improves how agents learn from experience.",
+  "headline_zh": "更便宜的前沿模型和持续运行的 agent 正在拓展 AI 工作流，新研究则质疑只看结果的评估方式，并改进 agent 从经验中学习的方法。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2107894060229034197",
+      "en": "Anthropic's Claude account announced that Sonnet 5.5 cache-read pricing is being halved to $0.10 per million tokens. It estimates this makes Sonnet 5.5 around 20% cheaper for most long-running work, a meaningful reduction for persistent agent workflows.",
+      "zh": "Anthropic 的 Claude 账号宣布，Sonnet 5.5 的 cache read 价格减半，降至每百万 token 0.10 美元。官方估计，这会让大多数长时间运行任务的成本降低约 20%，对持续运行的 agent 工作流很有意义。",
+      "tags": [
+        "Sonnet 5.5",
+        "agents",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Alex Albert",
+      "role": "Research, Anthropic",
+      "title": null,
+      "url": "https://x.com/alexalbert__/status/2107912771568554415",
+      "en": "Anthropic researcher Alex Albert says Haiku 5.5 is much faster and 75% cheaper than Haiku 4.5. He highlights that Haiku 4.5 launched on October 15, 2025, putting the improvement within less than a year.",
+      "zh": "Anthropic 研究员 Alex Albert 表示，Haiku 5.5 比 Haiku 4.5 快得多，价格也低了 75%。他强调，Haiku 4.5 于 2025 年 10 月 15 日发布，这些进步发生在不到一年内。",
+      "tags": [
+        "Haiku 5.5",
+        "frontier releases",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2108084615349170480",
+      "en": "OpenAI's Thibault Sottiaux, who works on Codex and ChatGPT, says the team quietly re-shipped Codex cloud. His assessment is that it is now substantially better, though the post gives no specific technical changes or measurements.",
+      "zh": "负责 Codex 和 ChatGPT 的 OpenAI 成员 Thibault Sottiaux 表示，团队悄悄重新推出了 Codex cloud。他认为现在的体验已经明显改善，但帖子没有列出具体技术改动或测量结果。",
+      "tags": [
+        "Codex",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/sama/status/2107924408597950702",
+      "en": "OpenAI's Sam Altman announced that ChatGPT can now generate a custom UI for users. This adds interface generation to the product's capabilities.",
+      "zh": "OpenAI 的 Sam Altman 宣布，ChatGPT 现在可以为用户生成定制 UI。这为产品增加了界面生成能力。",
+      "tags": [
+        "ChatGPT",
+        "frontier releases"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Cat Wu",
+      "role": "Claude Code + Cowork, Anthropic",
+      "title": null,
+      "url": "https://x.com/_catwu/status/2107967210467803152",
+      "en": "Anthropic's Cat Wu, who works on Claude Code and Cowork, shared a concrete product-management workflow: ask Claude to identify a feature's ten heaviest users from the previous week, create an artifact, and contact them to schedule 15-minute chats. She sees connecting usage analysis directly to outreach as a fast route to user feedback.",
+      "zh": "负责 Claude Code 和 Cowork 的 Anthropic 成员 Cat Wu 分享了一个具体的产品管理工作流：让 Claude 找出上周某个功能使用最多的十位用户，生成 artifact，再联系他们安排 15 分钟交流。她认为，把使用分析直接接到用户邀约上，可以更快获得反馈。",
+      "tags": [
+        "agents",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2108021247301062894",
+      "en": "Anthropic's Thariq, who works on Claude Code, says a common agent failure arises when users operate outside their expertise and cannot specify prompts or plans precisely, leading to many vague iterations. Because agents make such cross-domain work easier, he recommends asking the model to teach the missing domain knowledge.",
+      "zh": "负责 Claude Code 的 Anthropic 成员 Thariq 表示，常见的 agent 使用失败是用户进入不熟悉的领域，无法精确描述 prompt 和计划，于是反复进行模糊的修改。agent 让跨领域工作更容易，他建议直接让模型教会自己欠缺的领域知识。",
+      "tags": [
+        "agents",
+        "planning"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "Why Every Traded Personal Agents for One Company Agent",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The Takeaway: A shared company agent can compound workflow knowledge and maintenance effort more effectively than a collection of personal agents, while personal assistants may still serve as each employee's entry point. Every head of platform Willie Williams describes how personal bots made AI usage visible across a roughly 30-person company and helped colleagues learn from one another, but also produced Slack clutter, security concerns, setup friction, and recurring maintenance; the resulting question was, “why don't we take all that energy and put it into one agent that the whole company benefits from?” Every's move toward one company agent reflects a practical distinction between builders who enjoy configuring systems and operators who need dependable project-management and operations support, with shared organizational context becoming a major advantage over newly introduced personal assistants; a competing possibility is that a strong central agent later branches into specialized team agents. Williams also argues that engineering management remains a people job: AI feeds consolidate Slack, emails, meetings, and customer reports, while agents monitor anomalies and route incidents, but the manager's most valuable action is often removing a bottleneck through a conversation rather than generating more code, so increased AI capability raises the value of clear coordination rather than eliminating it.",
+      "zh": "核心观点：共享的公司 agent 能更有效地积累工作流知识，把维护投入转化为全公司的收益，而个人助手仍可能成为每位员工的入口。Every 的 head of platform Willie Williams 描述了个人 bot 如何让这家约 30 人公司的 AI 使用过程变得可见，帮助同事互相学习，但也带来了 Slack 混乱、安全顾虑、配置门槛和持续维护负担，于是团队开始问：“为什么不把这些精力都投入一个让全公司受益的 agent？” Every 转向公司 agent，体现了喜欢折腾系统的 builder 与需要可靠项目管理和运营支持的 operator 之间的实际差异，共享的组织上下文也成为它相对新加入的个人助手的重要优势；另一种可能是，成熟的中央 agent 之后再分化成专门服务各团队的 agent。Williams 还认为，工程管理依然是与人打交道的工作：AI feed 汇总 Slack、邮件、会议和客户反馈，agent 监控异常并分派事件，但管理者最有价值的行动往往是通过一次交流消除瓶颈，而不是生成更多代码，因此 AI 能力增强会提升清晰协调的价值。",
+      "tags": [
+        "agents",
+        "memory",
+        "agentic workflows",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Training Advisors for LLM Agents from Task Outcomes",
+      "url": "https://arxiv.org/abs/2610.09858",
+      "en": "Caddie trains a critic with reinforcement learning from an agent's eventual task success, keeping the base agent frozen and requiring no step-level critique labels. Its Qwen3-4B critic improves Qwen3-4B success on MuSiQue by more than 25 percentage points and transfers to unseen base models and interactive domains without additional training. This offers a practical way to improve agents through a reusable advisor rather than retraining every base model.",
+      "zh": "Caddie 根据 agent 最终是否完成任务，用 RL 训练提供建议的 critic，同时冻结基础 agent，不需要逐步标注的批评意见。其 Qwen3-4B critic 将 Qwen3-4B 在 MuSiQue 上的成功率提高了超过 25 个百分点，还能在不追加训练的情况下迁移到未见过的基础模型和交互任务。这提供了一条通过可复用 advisor 改进 agent 的路径，无需逐个重新训练基础模型。",
+      "tags": [
+        "agents",
+        "post-training",
+        "RL",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+      "url": "https://arxiv.org/abs/2610.08077",
+      "en": "Self-Retrospection Distillation uses completed trajectories as privileged hindsight to train predictions of what an agent should have anticipated before acting. Across ten tool-integrated reasoning and long-horizon tasks, it complements RLVR and self-distillation with gains of up to 24.2 percentage points, especially when rollout groups have identical rewards. It targets a key post-training bottleneck: extracting useful learning signals even when ordinary group-relative reward contrast disappears.",
+      "zh": "Self-Retrospection Distillation 把已完成轨迹中的事后经验作为 privileged 信息，训练 agent 预测行动前本该预见的知识和陷阱。在十个结合工具的推理与长程任务上，它补充了 RLVR 和 self-distillation，最高提升 24.2 个百分点，尤其适用于同组 rollout 奖励完全相同的情况。它针对 post-training 的一个关键瓶颈：当常规组内奖励对比失效时，仍然从轨迹中提取有效学习信号。",
+      "tags": [
+        "agents",
+        "post-training",
+        "distillation",
+        "RLVR"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "SAPD: Step-Aligned Privileged Distillation",
+      "url": "https://arxiv.org/abs/2610.09665",
+      "en": "SAPD turns fixed demonstrations into step-aligned distributional supervision, linking privileged reference-solution guidance to the specific reasoning transition being learned. It beats supervised fine-tuning and label smoothing on average in math, remains competitive with on-policy RL and self-distillation, and delivers approximately 2× training-loop speedups. The result makes rollout-free post-training a more credible option when generation cost is the constraint.",
+      "zh": "SAPD 将固定示范转化为逐步对齐的分布监督，把参考解答提供的 privileged 指导对应到正在学习的具体推理步骤。它在数学任务上平均优于 supervised fine-tuning 和 label smoothing，与 on-policy RL 和 self-distillation 保持竞争力，并实现约 2 倍的训练循环加速。对于受 rollout 生成成本限制的团队，这让无需生成 rollout 的 post-training 更值得考虑。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+      "url": "https://arxiv.org/abs/2610.09872",
+      "en": "LiveMACEBench evaluates five frontier models over 30 days in live financial markets, tracing tool use, persistent memory, rule following, and multi-agent collaboration. Realized returns often diverge from mechanism-specific capability measurements, and similar returns can conceal very different agent behaviors. It provides a concrete critique of outcome-only leaderboards and distinguishes access to a mechanism from effective use of it.",
+      "zh": "LiveMACEBench 在真实金融市场中连续评估五个前沿模型 30 天，追踪 tool use、持续记忆、规则遵循和多 agent 协作。实际收益经常与具体机制的能力测量不一致，相近的收益也可能掩盖完全不同的 agent 行为。它具体揭示了只看结果的排行榜的问题，并区分了能够访问某种机制与真正有效使用该机制。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "memory",
+        "multi-agent"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "From Uncertainty to Action: Learning to Steer LLM Agents",
+      "url": "https://arxiv.org/abs/2610.09115",
+      "en": "Value of Steering learns when and how to intervene from roughly 82,000 counterfactual continuations, rather than treating uncertainty as a sufficient intervention signal. It improves execution by 7.8 points on average across all 12 tested settings, using a harm budget to limit disruption of successful trajectories. The paper makes intervention timing an outcome-trained decision, directly relevant to agent monitors and critics.",
+      "zh": "Value of Steering 从约 82,000 条反事实续行轨迹中学习何时以及如何干预，而不是把不确定性直接当作足够的干预依据。它在全部 12 种测试设置中平均提升 7.8 个百分点，并通过 harm budget 限制对原本成功轨迹的干扰。这项工作把干预时机变成基于实际结果训练的决策，对 agent monitor 和 critic 很有参考价值。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding",
+      "url": "https://arxiv.org/abs/2610.08662",
+      "en": "ParanoiaEval uses 200 repository-level task pairs that differ only in evidence governing appropriate risk treatment, covering avoidance, transfer, mitigation, and acceptance. Across eight models, unnecessary risk treatment appears in 11.2%–58.7% of runs despite explicit evidence, and stronger task capability does not guarantee better judgment. This isolates a developer-facing agent failure that conventional task-success benchmarks can miss.",
+      "zh": "ParanoiaEval 构建了 200 对 repository 级任务，每对只改变决定风险应对方式的证据，覆盖规避、转移、缓解和接受四类处理。在八个模型中，即使证据明确，仍有 11.2%–58.7% 的运行出现不必要的风险处理，更强的任务能力也不保证更好的判断。这单独测量了一类直接影响开发者体验、却容易被常规任务成功率忽略的 agent 失败。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "coding"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
+      "url": "https://arxiv.org/abs/2610.10455",
+      "en": "PHRBench evaluates how 18 LLMs respond to hallucinated premises across 4,820 controlled instances, separating compliance, avoidance, and heuristic correction from final-answer correctness. Successful correction leading to the right answer remains relatively rare, while prompt properties predict recovery with an AUROC of 0.847. It supplies useful diagnostics for multi-stage systems where one model's hallucination becomes another step's context.",
+      "zh": "PHRBench 通过 4,820 个受控样例评估 18 个 LLM 如何处理包含 hallucination 的前提，把顺从、回避和启发式纠正与最终答案正确性分开衡量。成功纠正并得到正确答案的情况仍然较少，而 prompt 特征预测恢复成功的 AUROC 达到 0.847。对于上一步 hallucination 会进入后续上下文的多阶段系统，这提供了有用的诊断方法。",
+      "tags": [
+        "evaluation",
+        "reasoning",
+        "hallucination"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "The Long Road to the Same Answer: Cognitive Bias Under Escalating Reasoning Budgets in Large Language Models",
+      "url": "https://arxiv.org/abs/2610.10049",
+      "en": "A 12,350-call study tests six cognitive biases across four model families, measuring actual reasoning-token consumption rather than requested thinking ceilings. Reasoning models are not reliably less biased than matched non-reasoning siblings, and increasing realized deliberation does not reliably reduce bias. This challenges the assumption that more test-time compute automatically improves judgment, within the study's limited 30-vignette panel.",
+      "zh": "这项研究通过 12,350 次 API 调用，在四个模型家族中测试六类认知偏差，使用实际消耗的 reasoning token，而不是请求的思考上限来衡量计算量。reasoning model 并未稳定地比对应的非 reasoning model 偏差更小，增加实际思考量也没有稳定降低偏差。在这组仅含 30 个情境的测试范围内，结果挑战了更多 test-time compute 会自动改善判断的假设。",
+      "tags": [
+        "test-time compute",
+        "evaluation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Efficient Best-of-N policy evaluation for inference-time alignment",
+      "url": "https://arxiv.org/abs/2610.09250",
+      "en": "This paper evaluates Best-of-N policies using samples alone, replacing unavailable likelihood-based density ratios with estimable score-rank probabilities. Its doubly robust estimator supports budget selection through estimated value or a lower confidence bound, addressing uncertainty and reward overoptimization. It offers a principled way to choose inference-time sampling budgets when response likelihoods are inaccessible.",
+      "zh": "这篇论文仅用采样数据评估 Best-of-N policy，以可估计的分数排名概率替代依赖不可获取 likelihood 的密度比。其 doubly robust estimator 可以依据估计价值或置信下界选择预算，同时考虑估计不确定性和 reward overoptimization。当无法获得回答 likelihood 时，这为选择推理阶段采样预算提供了有理论依据的方法。",
+      "tags": [
+        "test-time compute",
+        "alignment",
+        "evaluation",
+        "reward model"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SchemaFill: Efficient LLM Tool Calling via Slot-Parallel Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.07086",
+      "en": "SchemaFill generates candidate tool-argument slots in parallel, then verifies concatenated candidates against the target model under the actual output prefix and commits only verified tokens. On Glaive and BFCL, it achieves up to 4.05× higher end-to-end throughput than autoregressive decoding. This exploits tool-call structure to accelerate agent execution while retaining target-model verification across dependent fields and calls.",
+      "zh": "SchemaFill 并行生成工具参数 slot 的候选值，再把候选串联起来，在真实输出前缀下交给 target model 验证，只提交通过验证的 token。在 Glaive 和 BFCL 上，它相对 autoregressive decoding 最高实现 4.05 倍的端到端吞吐提升。这利用了 tool call 的结构来加速 agent 执行，同时保留 target model 对相互依赖字段和调用的验证。",
+      "tags": [
+        "agents",
+        "tool use",
+        "speculative decoding"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Towards a Unified Misuse Monitoring Benchmark",
+      "url": "https://arxiv.org/abs/2610.07089",
+      "en": "This benchmark unifies decomposition attacks and tool-based prompt injections across roughly 6,200 transcripts, evaluating whether detection occurs between the first harmful commitment and goal execution. Action-framed monitors achieve AUCs of 0.95 and 0.99, while content-framed monitors fall to 0.52 on injection attacks; conventional position-blind metrics also overstate timely detection. The practical lesson is that agent monitoring must measure when harm is caught, alongside whether it is recognized.",
+      "zh": "该 benchmark 用约 6,200 份对话记录统一评估请求拆分攻击和通过工具实施的 prompt injection，检查检测是否发生在首次有害行动承诺与目标执行之间。围绕行动设计的 monitor 在两类攻击上的 AUC 分别为 0.95 和 0.99，而围绕内容设计的 monitor 在 injection 攻击上降至 0.52；忽略检测位置的常规指标也会高估及时发现风险的能力。实际启示是，agent 监控既要衡量是否识别危害，也要衡量何时识别。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt injection"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Bridge Routing Heads: Where Multilingual Multi-hop Reasoning Lives in LLMs",
+      "url": "https://arxiv.org/abs/2610.09733",
+      "en": "The paper identifies Bridge Routing Heads in Llama 3.1 70B and Qwen 2.5 72B, finding largely distinct language-specific head sets across five languages. Ablations establish their causal role, while amplifying relevant heads rescues up to 51.7% of cross-lingual failures without training. This offers a mechanistic explanation and intervention target for multilingual reasoning failures.",
+      "zh": "论文在 Llama 3.1 70B 和 Qwen 2.5 72B 中识别出 Bridge Routing Heads，发现五种语言对应的专属 head 集合几乎互不重叠。消融实验验证了它们的因果作用，增强相关 head 则无需训练即可挽救最高 51.7% 的跨语言失败。这为多语言推理失败提供了机制解释和可干预的目标。",
+      "tags": [
+        "reasoning",
+        "Qwen",
+        "multilingual",
+        "interpretability"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "NLAs miss some internalized behaviors",
+      "url": "https://www.lesswrong.com/posts/BcCcSfTHqz74kdTMF/nlas-miss-some-internalized-behaviors",
+      "en": "LessWrong: NLAs miss some internalized behaviors reports that Natural Language Autoencoders detect instructed side tasks much more readily than the same behavior internalized through fine-tuning. In a steganography test using British versus American spellings to encode secret bits, incriminating activation readouts were substantially more frequent under in-context instructions than after SFT. The finding challenges whether successful white-box monitoring of explicitly prompted behavior generalizes to learned behavior.",
+      "zh": "LessWrong 的《NLAs miss some internalized behaviors》报告，Natural Language Autoencoders 更容易发现由指令要求执行的附带任务，却经常漏掉通过 fine-tuning 内化的同类行为。在用英式与美式拼写编码秘密 bit 的隐写测试中，in-context 指令条件下揭示问题的 activation readout，明显多于 SFT 后的模型。这质疑了对白盒监控的一种外推：能发现明确指令诱发的行为，不代表也能发现已经学进模型的行为。",
+      "tags": [
+        "alignment",
+        "fine-tuning",
+        "interpretability",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A summary of a viral Chinese essay on what a DeepSeek kernel engineer's opinion on automating his own job",
+      "url": "https://www.lesswrong.com/posts/o8roRrdisBAjngHJN/a-summary-of-a-viral-chinese-essay-on-what-a-deepseek-kernel",
+      "en": "LessWrong summarizes DeepSeek engineer intlsy's essay 我不得不把才华埋葬在昨天, reflecting on automation of the kernel-engineering specialty in which he wrote DeepSeek v4.1's head-dim-512 MQA attention kernel. He describes AI progressing in a year from documentation lookup and bug finding to reading CUDA, PTX, and SASS, profiling instruction stalls, and optimizing kernels independently, and predicts AI-written kernels could match or surpass his own within six months to a year. The essay ends with an argument for open-weight frontier AI and had reached WeChat's 100k+ read display cap, with about 84,000 shares as of October 7.",
+      "zh": "LessWrong 总结了 DeepSeek 工程师 intlsy 的文章《我不得不把才华埋葬在昨天》，记录他对自身 kernel engineering 专长被自动化的思考；他编写了 DeepSeek v4.1 的 head-dim-512 MQA attention kernel。他描述 AI 在一年内从查文档、找 bug，发展到能阅读 CUDA、PTX 和 SASS，分析指令 stall 并自主优化 kernel，并预测 AI 编写的 kernel 在半年到一年内可能追平或超过自己。文章最后主张开放前沿 AI 的权重，截至 10 月 7 日，微信阅读量已达到 100k+ 的显示上限，分享约 84,000 次。",
+      "tags": [
+        "DeepSeek",
+        "Chinese ML community",
+        "open weights",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的blog推荐合集二",
+      "url": "https://www.rednote.com/explore/6a9eb507000000000b00ea83?xsec_token=ABq4v_BVimMtRDp9Qs9xT0OxWUxZaeuAHAWYz98eZtWBM%3D&xsec_source=pc_user",
+      "en": "tabris recommends a high-quality Speculative Decoding discussion in 图1, NoRA in 图2, Hao AI Lab's FastH3 in 图3, VGI-Bench in 图6, ProgramBench in 图11, and Code as Worlds in 图13. The roundup also covers FlexAttention kernels and guides, cua-lite, a positive account of delegating work to agents, RSI-Exam, and a lengthy continuous dllm blog that tabris strongly recommends. Bottom line: 图1 (Speculative Decoding discussion), 图2 (NoRA research), 图3 (FastH3 for small teams), 图11 (ProgramBench), 图13 (Code as Worlds research), 图15 (delegating work to agents).",
+      "zh": "tabris 推荐图1质量极高、引用也很有品味的 Speculative Decoding 讨论，图2介绍 NoRA，图3是 Hao AI Lab 的 FastH3，可能对一些小团队意义重大，图6介绍 VGI-Bench，图11是 ProgramBench 安利帖，图13是写得很好、研究也很有意思的 Code as Worlds blog。合集还包括 FlexAttention 的 kernels 和 guides、cua-lite、作者把工作基本交给 agents 后很满意的体验记录、RSI-Exam，以及一篇虽然很长但依然推荐找时间读的 continuous dllm blog。一句话推荐: 图1 (Speculative Decoding 讨论), 图2 (NoRA 研究), 图3 (适合小团队关注的 FastH3), 图11 (ProgramBench), 图13 (Code as Worlds 研究), 图15 (把工作交给 agents 的体验)。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "speculative decoding",
+        "Chinese ML community"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "推荐点不错的或者有意思的projects",
+      "url": "https://www.rednote.com/explore/6ac635e00000000012036340?xsec_token=ABZs4CixCX3iJJlHkI2lRms3xQ7cdKt9aocxH7eUHHzA8%3D&xsec_source=pc_user",
+      "en": "tabris shares projects including laya, agentexecutor.io, vidax, OpenDots, context-language-models, gpu-perf-engineering-resources, Skill2Env, helix-db, halo, and CLM. The post especially praises FreeVideo's results, points readers to OpenAI's mathematics research collection, and expects more projects like 图17 following the Decisions API release. Bottom line: tabris recommends 图2, 图5, 图6, 图9, 图11.",
+      "zh": "tabris 分享了一批不错或有意思的 projects，包括 laya、agentexecutor.io、vidax、OpenDots、context-language-models、gpu-perf-engineering-resources、Skill2Env、helix-db、halo 和 CLM。作者特别强调 FreeVideo 效果非常非常好，有需求的朋友不要错过，也推荐感兴趣的朋友看看 OpenAI 的数学研究合集，并认为 Decisions API 发布后，图17类似的项目会多起来。一句话推荐: tabris 推荐图2、图5、图6、图9、图11。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Chinese ML community"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "开学季自觉不错的paper推荐合集二",
+      "url": "https://www.rednote.com/explore/6a9eefc300000000270142be?xsec_token=ABq4v_BVimMtRDp9Qs9xT0O_6S2wtJkj9wMs10pZLVcoI%3D&xsec_source=pc_user",
+      "en": "tabris highlights 图1 as the second paper following the previously recommended Rethinking On-Policy Distillation of Large Language Models, calling it very good research. The author also likes 图4 and 图18 and describes 图5 as a boon for cash-strapped labs. Bottom line: 图1 (on-policy distillation follow-up), 图5 (for cash-strapped labs); tabris also recommends 图4, 图18.",
+      "zh": "tabris 表示，图1是此前推荐过的 Rethinking On-Policy Distillation of Large Language Models 的第二篇，是非常好的研究。作者个人也很喜欢图4和图18，另外安利图5，称它是“穷鬼实验室福音”。一句话推荐: 图1 (on-policy distillation 后续研究), 图5 (预算紧张实验室的福音)；tabris 也推荐图4、图18。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "Chinese ML community"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的paper推荐合集第一期",
+      "url": "https://www.rednote.com/explore/6ac67274000000001802f93b?xsec_token=ABZs4CixCX3iJJlHkI2lRms4kZHauG0ZpAD6KiaGLRUf0%3D&xsec_source=pc_user",
+      "en": "tabris shares a first roundup of papers from the past half-month that the author considers worthwhile. Bottom line: tabris recommends 图1, 图9, 图10, 图15.",
+      "zh": "tabris 分享近半个月自觉不错的 paper 推荐合集第一期，个人相对喜欢图1、图9、图10和图15。一句话推荐: tabris 推荐图1、图9、图10、图15。",
+      "tags": [
+        "Chinese ML community",
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错blog推荐合集第一期",
+      "url": "https://www.rednote.com/explore/6ac64113000000001a0290c0?xsec_token=ABZs4CixCX3iJJlHkI2lRms86P-zRtgAPZYuvEMv-64Cw%3D&xsec_source=pc_user",
+      "en": "tabris shares a first roundup of worthwhile blogs from the past half-month, experimenting with a long-form presentation. Bottom line: tabris recommends this blog roundup.",
+      "zh": "tabris 分享近半个月自觉不错的 blog 推荐合集第一期，试着用长文的形式分享 blog。一句话推荐: tabris 推荐这份 blog 合集。",
+      "tags": [
+        "Chinese ML community"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "让大模型写量化策略 三种主流方法全亏钱",
+      "url": "https://www.rednote.com/explore/6ac46bb0000000001a024612?xsec_token=ABERJChIczt671fwMtspbXDuqCLY_76tEOqjJztrajnSw%3D&xsec_source=pc_user",
+      "en": "鸭基米德 reports that TradeGrad's AlphaEvolve-style search, QuantEvolve, and TextGrad baselines all produce negative out-of-sample returns on the tested stock-selection tasks, despite budgets of 100 strategy versions per method. TradeGrad instead optimizes the average score of the worst 30% of calendar years, borrowing CVaR's logic, and carries forward a memory of successful and failed revisions. In the reported ablation, removing memory lowers the out-of-sample score from 65.65 to 35.62 and Sharpe from 1.63 to 0.80; the final A-share strategy reports 27.99% annualized returns and 12.19% maximum drawdown after trading costs. The central agent lesson is to resist aggregate-score overfitting and preserve experience across iterations.",
+      "zh": "鸭基米德介绍 TradeGrad 的基线结果：在所测试的选股任务中，AlphaEvolve 路线的进化搜索、QuantEvolve 和 TextGrad 即使各有 100 版策略预算，样本外收益仍全部为负。TradeGrad 改为按自然年单独评分，只优化最差 30% 年份的平均分，借鉴 CVaR 的思路，并保留成功与失败修改的经验记忆。报告的消融中，去掉记忆后，样本外得分从 65.65 降至 35.62，Sharpe 从 1.63 降至 0.80；最终 A 股策略在扣除交易成本后，年化收益为 27.99%，最大回撤为 12.19%。对 agent 的核心启示是，避免迎合历史总分造成过拟合，并在迭代间保留经验。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "memory",
+        "optimization"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "大模型写量化策略 最容易被最好的那两年骗",
+      "url": "https://www.rednote.com/explore/6ac65db40000000001008737?xsec_token=ABZs4CixCX3iJJlHkI2lRmsyTr3LQDMto1tHygFrqx2aM%3D&xsec_source=pc_user",
+      "en": "鸭基米德's TradeGrad video argues that LLMs accelerate overfitting because they revise strategy code so quickly, allowing two strong historical years to mask weak ones. The proposed fixes are to optimize only the worst 30% of individually scored years and give the model memory of previous attempts and failures. The post reports an A-share stock-selection Sharpe of 1.63 versus 0.97 for the CSI 300 over the same period.",
+      "zh": "鸭基米德 的 TradeGrad 视频指出，LLM 改策略代码太快，过拟合也随之加速，历史上表现最好的两年容易把其他年份的亏损盖住。两个改法是每年单独打分，只优化最差 30% 年份，并给模型一份记忆，记住之前试过什么、为什么失败。帖子报告 A 股选股的 Sharpe 为 1.63，同期沪深300为 0.97。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "memory"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "25秒看完400年量化交易史",
+      "url": "https://www.rednote.com/explore/6ac465b4000000000a01c70b?xsec_token=ABERJChIczt671fwMtspbXDqbJ9KAzXevAQUfjkUM-LzY%3D&xsec_source=pc_user",
+      "en": "鸭基米德 presents a 25-second animation covering eleven milestones from 1602 stock issuance to LLM-generated trading strategies in 2026. Claude wrote code to draw the video frame by frame, with music and sound effects also synthesized through code rather than an image-generation model.",
+      "zh": "鸭基米德 用 25 秒动画串起十一个历史节点，从 1602 年发行股票，到 2026 年 LLM 自己编写交易策略。整条视频由 Claude 写代码逐帧绘制，没有使用生图模型，音乐和音效也通过代码合成。",
+      "tags": [
+        "Claude",
+        "coding"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "大厂像高中理科实验班",
+      "url": "https://www.rednote.com/explore/6a6de5ee000000003300e7db?xsec_token=ABY25onslL8TAxTm6nzZsP0f7JFVLL6neTKVxzLwF8lOY%3D&xsec_source=pc_user",
+      "en": "鸭基米德 compares big tech companies to selective high-school science classes and urges less idolization and more direct discussion of the issues.",
+      "zh": "鸭基米德 把大厂比作高中理科实验班，呼吁“少膜两句，有事说事，从我做起”。",
+      "tags": []
+    }
+  ],
+  "generatedAt": "2026-10-09T01:43:58.189Z"
+}
