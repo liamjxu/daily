@@ -1,0 +1,356 @@
+{
+  "date": "2026-10-09",
+  "headline_en": "Agent research advances in adaptive reasoning, self-improvement, and memory while evaluation audits and infrastructure constraints expose the gap between benchmark gains and dependable deployment.",
+  "headline_zh": "Agent 研究在自适应推理、自我改进和记忆方面持续推进，而评测审计与基础设施约束揭示了 benchmark 提升与可靠部署之间的差距。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2108275041276420573",
+      "en": "OpenAI Codex & ChatGPT builder Thibault Sottiaux announces instant steering, allowing models to respond faster to user adjustments and course corrections during ongoing work. He also announces GPT-6.1 Sol ultrafast and says the two work well together.",
+      "zh": "OpenAI 的 Codex & ChatGPT 开发者 Thibault Sottiaux 宣布推出即时 steering，让模型在执行过程中更快响应用户调整和方向纠正。他同时宣布推出 GPT-6.1 Sol ultrafast，并表示两者配合得很好。",
+      "tags": [
+        "GPT-6.1 Sol",
+        "agentic workflows",
+        "OpenAI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2108271559928389679",
+      "en": "Anthropic's official Claude account announces that Claude Docs, Slides, and Design have left beta and are available on every plan, including Free. Teams can edit the same document, deck, or design alongside Claude.",
+      "zh": "Anthropic 的官方 Claude 账号宣布，Claude Docs、Slides 和 Design 已结束 beta，向所有套餐开放，包括 Free。团队成员可以与 Claude 共同编辑同一份文档、幻灯片或设计。",
+      "tags": [
+        "Claude",
+        "frontier lab releases",
+        "collaboration"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2108404561413349695",
+      "en": "Anthropic's official Claude account says demand from hundreds of thousands of applicants has forced the Claude Startups program to pause its Claude Team and $1,000 API credit offers. Already-claimed offers remain, but unclaimed applications are being reviewed again, and some previously approved accounts will lose eligibility. Accepted members retain Startup Stack and Applied AI office hours; monthly API credits for Claude Max or Team subscribers remain available as usual.",
+      "zh": "Anthropic 的官方 Claude 账号表示，数十万申请者带来的需求迫使 Claude Startups 项目暂停提供 Claude Team 和 1,000 美元 API 额度。已领取的权益会保留，但尚未领取的申请将重新审核，部分此前获批的账号会失去资格。已接纳的成员仍可使用 Startup Stack 和 Applied AI office hours；Claude Max 或 Team 用户的每月 API 额度照常提供。",
+      "tags": [
+        "Claude",
+        "model access",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2108433505038606620",
+      "en": "Y Combinator President & CEO Garry Tan predicts that individual contributors equipped with agents will become more productive and deliver better outcomes than comparable people managers from earlier eras. His claim frames agents as a way to expand an individual's execution capacity.",
+      "zh": "Y Combinator 总裁兼 CEO Garry Tan 预测，配备 agent 的个人贡献者将比过去类似层级的人员管理者更高效，并取得更好的成果。他将 agent 视为扩大个人执行能力的一种方式。",
+      "tags": [
+        "agents",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "en": "The Takeaway: frontier AI infrastructure should be judged by useful work delivered per watt, and long-horizon agents make orchestration and reliability as consequential as accelerator performance. Google's AI infrastructure chief Amin Vahdat says “It's delivered goodput, not theoretical benchmark throughput,” because failures, checkpoint recovery, compiler bugs, and runtime problems consume compute without advancing the workload; Google targets doubling effective token-generation capacity roughly every six months through both hardware and software, with most intelligence-per-watt gains in his experience coming from model improvements. Agents remove the human pause between requests and add CPU-side reasoning, context retrieval, and state management, driving demand for CPUs, networking, and storage alongside GPUs and TPUs; Google's inference-focused 8I and training-focused 8T chips reflect growing specialization while retaining the ability to handle each other's workloads, and close collaboration with DeepMind can justify changing hardware before tape-out. Power remains the most fundamental long-term constraint, so Google favors multiyear utility partnerships and grid connection over fully independent generation, while Vahdat argues that co-design should coexist with interoperability, including Torch TPU support for unmodified PyTorch models.",
+      "zh": "核心判断：前沿 AI 基础设施应以每瓦实际交付的有效工作量来衡量，而长周期 agent 让编排与可靠性变得和加速器性能同样关键。Google 的 AI 基础设施负责人 Amin Vahdat 表示：“看的是实际交付的 goodput，而不是理论上的 benchmark 吞吐量”，因为故障、checkpoint 恢复、compiler bug 和 runtime 问题都会消耗算力，却没有推进任务；Google 的目标是通过硬件与软件共同优化，大约每六个月将有效 token 生成能力翻倍，而按他的经验，每瓦智能水平的大部分提升来自模型改进。Agent 消除了请求之间等待人类响应的间隔，并增加了 CPU 端推理、上下文检索和状态管理，因此 CPU、网络和存储的需求也随 GPU 与 TPU 一起增长；Google 面向推理的 8I 和面向训练的 8T 体现了更强的专业化，同时保留处理彼此工作负载的能力，与 DeepMind 的紧密合作甚至可以推动 tape-out 前的硬件调整。电力仍是最根本的长期约束，因此 Google 更倾向于与电力公司开展多年合作并接入电网，而非完全独立发电；Vahdat 同时主张 co-design 应与互操作性共存，例如通过 Torch TPU 支持未经修改的 PyTorch 模型。",
+      "tags": [
+        "AI economics",
+        "agents",
+        "compute",
+        "Google"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "SlopWare: Observations on the Remaining Shortcomings of Coding Agents",
+      "url": "https://www.lesswrong.com/posts/PK65KcoGjEqfJ7YW9/slopware-observations-on-the-remaining-shortcomings-of",
+      "en": "LessWrong: SlopWare: Observations on the Remaining Shortcomings of Coding Agents reports an experiment giving four coding agents a $100 budget to build a functional PDF editor, with bugs appearing within a few clicks in almost every implementation. The author's central hypothesis is that agents do not use software the way humans do: they spend less time inspecting the UI and do not pursue concrete user goals while experiencing the resulting friction. The practical implication is that producing runnable code still leaves a gap in testing the actual user experience.",
+      "zh": "LessWrong：SlopWare: Observations on the Remaining Shortcomings of Coding Agents 记录了一项实验，给四个 coding agent 提供 100 美元预算来构建可用的 PDF 编辑器，但几乎每个实现都在点击几次后暴露出 bug。作者的核心假设是，agent 使用软件的方式与人类不同：它们较少检查 UI，也不会像用户一样围绕具体目标操作并体验过程中的阻碍。实际启示是，生成可以运行的代码之后，真实用户体验的测试仍存在缺口。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "coding"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "如何让GDN2更稳定一些？",
+      "url": "https://spaces.ac.cn/archives/11945",
+      "en": "Scientific Spaces: 如何让GDN2更稳定一些？ examines how to make GDN2 more stable. Its opening starts from DeltaNet's core update matrix, I − ηkkᵀ.",
+      "zh": "科学空间：如何让GDN2更稳定一些？探讨如何提升 GDN2 的稳定性。文章从 DeltaNet 的核心更新矩阵 I − ηkkᵀ 切入。",
+      "tags": [
+        "Chinese ML/NLP",
+        "GDN2",
+        "DeltaNet"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Proof of useful work for verifying AI treaties",
+      "url": "https://www.lesswrong.com/posts/xqjDi7oyadqxkmdLS/proof-of-useful-work-for-verifying-ai-treaties",
+      "en": "LessWrong: Proof of useful work for verifying AI treaties reviews cryptographic protocols that let GPUs prove they performed matrix-multiplication work without trusted hardware inspecting each computation. It examines finite-field and FP8 constructions as possible tools for verifying compute restrictions, but finds that treaty-relevant guarantees at realistic matrix sizes depend on unproven assumptions. Because these protocols establish only a lower bound on work, their usefulness also depends on trusted knowledge of hardware capacity.",
+      "zh": "LessWrong：Proof of useful work for verifying AI treaties 梳理了让 GPU 证明自己执行过矩阵乘法的密码学协议，无需可信硬件逐次检查计算。文章考察了有限域与 FP8 两类构造能否用于核验算力限制，但指出，在现实矩阵规模下，条约所需的保证仍依赖未经证明的假设。由于这些协议只能给出工作量下界，其实际价值还取决于对硬件算力上限的可信了解。",
+      "tags": [
+        "AI policy",
+        "compute",
+        "verification"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Do classic text statistics still matter in the age of LLMs?",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1x1aslc/do_classic_text_statistics_still_matter_in_the/",
+      "en": "A practitioner working on Russian and Spanish readability and stylometry argues that classic text statistics remain useful for reproducible, inexpensive analysis, pretraining-data filtering, and evaluating generated text without another LLM judge. The post also flags a limitation: many established formulas were calibrated on small English datasets and need language-specific adaptation.",
+      "zh": "一位研究俄语和西班牙语可读性与文体计量的实践者认为，传统文本统计仍适合可复现、低成本的分析、预训练数据筛选，以及不依赖另一个 LLM judge 的生成文本评测。帖子也指出了一个局限：许多经典公式基于小规模英语数据校准，需要针对具体语言调整。",
+      "tags": [
+        "evaluation",
+        "multilingual",
+        "data"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "TestJack: Should you trust the results in coding benchmarks? Agentic Coding Benchmarks Auditing via Evaluator Evolution",
+      "url": "https://arxiv.org/abs/2610.10619",
+      "en": "TestJack audits coding-agent patches by generating tests for requirements they may violate, retaining tests passed by the ground-truth patch, and confirming failures with replayable evidence. Across six frontier model backends and five benchmarks, about 34.4% of trials previously judged correct violate task requirements. This directly challenges fixed-unit-test pass rates as a measure of coding capability.",
+      "zh": "TestJack 通过生成针对潜在需求违例的测试来审计 coding agent 的 patch，仅保留标准 patch 能通过的测试，并用可重放证据确认失败。在六个前沿模型后端和五个 benchmark 上，此前被判为正确的试验中，约 34.4% 违反了任务要求。这直接质疑了用固定 unit test 通过率衡量编程能力的做法。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "TRACE: Diagnosing Verifier Brittleness in Agentic Evaluation",
+      "url": "https://arxiv.org/abs/2610.11678",
+      "en": "TRACE separates agent behavior changes from scoring-rule brittleness through targeted evaluation changes, paired runs, and rescoring unchanged trajectories. In synthetic tasks, tool renaming lowers one scripted agent's score by 0.250 despite identical operations; on public tasks, identical reruns flip 15–36% of outcomes. The protocol makes a strong case for repeated runs and causal diagnosis before interpreting score changes as capability gains or losses.",
+      "zh": "TRACE 通过定向修改评测条件、配对运行，以及对不变轨迹重新评分，区分 agent 行为变化与评分规则的脆弱性。在合成任务中，工具改名让一个脚本 agent 的得分下降 0.250，尽管执行的操作完全相同；在公开任务中，相同条件下重跑会使 15–36% 的结果发生翻转。这套协议说明，在将分数变化解释为能力提升或退步之前，需要重复运行和因果诊断。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+      "url": "https://arxiv.org/abs/2610.10942",
+      "en": "StoreBench evaluates long-horizon agents running an apparel store through 29 merchant tools amid ongoing orders, supplier failures, and market shocks, with replayable episodes and reward-hack defenses. Across seven frontier LLMs, the best model, DeepSeek-V4-Pro, passes 49% of task-seed cells versus 97% for a scripted smart-triage policy. It offers a demanding post-training environment where planning and economic judgment face calibrated operational baselines.",
+      "zh": "StoreBench 评测长周期 agent 如何通过 29 个商家工具运营服装店，应对持续订单、供应商故障与市场冲击，并提供可重放的运行过程和 reward hacking 防护。在七个前沿 LLM 中，最好的 DeepSeek-V4-Pro 在任务与随机种子的组合上通过率为 49%，而脚本化 smart-triage 策略达到 97%。它提供了一个高难度 post-training 环境，让规划与经济判断接受经过校准的运营基线检验。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "post-training",
+        "DeepSeek"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.11384",
+      "en": "SELF jointly trains environmental-response prediction and hindsight self-distillation, rather than only supplying feedback as privileged teacher context. With Qwen3-8B, it beats SDPO and GRPO by 6.4 and 4.1 percentage points on τ-bench success, and by 10.71 and 3.57 points on AppWorld goal completion. The results suggest that explicitly modeling action consequences can strengthen feedback-based agent training.",
+      "zh": "SELF 联合训练环境响应预测与 hindsight self-distillation，而不只是将反馈作为 teacher 的特权上下文。使用 Qwen3-8B 时，它在 τ-bench 成功率上分别超过 SDPO 和 GRPO 6.4 与 4.1 个百分点，在 AppWorld 目标完成率上分别超过 10.71 与 3.57 个百分点。结果表明，显式建模动作后果可能增强基于反馈的 agent 训练。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "agents",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agentic-TTT: Training test-time policy for test-time training",
+      "url": "https://arxiv.org/abs/2610.12002",
+      "en": "Agentic-TTT learns a policy deciding when to adapt model parameters at deployment, which test-time training algorithm to call, and when to reuse accumulated skills. It treats TTT procedures as tools and trains decisions on observed utility gains, nearly doubling utility over the backbone on its benchmark while learning compute tradeoffs and generalizing to unseen domains. This makes the choice of how to learn an explicit agent capability.",
+      "zh": "Agentic-TTT 学习一种策略，决定部署时何时调整模型参数、调用哪种 test-time training 算法，以及何时复用已积累的技能。它将 TTT 过程视为工具，根据实际效用增益训练决策，在其 benchmark 上将 backbone 的效用提升至接近两倍，同时学会权衡算力并泛化到未见领域。这让选择如何学习成为一项明确的 agent 能力。",
+      "tags": [
+        "test-time compute",
+        "agents",
+        "self-improvement"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
+      "url": "https://arxiv.org/abs/2610.12061",
+      "en": "RACE trains agents to reuse earlier reasoning and reason again only when needed, using reference-action likelihood to estimate whether prior reasoning still supports later actions. Its LoGiC procedure identifies removable reasoning turns and incorporates those signals into supervised fine-tuning and agentic RL. This targets a practical source of inference waste: regenerating reasoning before every action.",
+      "zh": "RACE 训练 agent 复用先前推理，仅在需要时再次推理，并通过参考动作的 likelihood 估计已有推理是否仍能支撑后续动作。其 LoGiC 流程识别可以移除的推理轮次，再将这些信号融入 supervised fine-tuning 和 agentic RL。它针对的是实际推理开销中的一个来源：每次行动前都重新生成推理。",
+      "tags": [
+        "reasoning",
+        "agents",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "What to Admit and How to Present: Governing Persistent Memory in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.11188",
+      "en": "This paper separates memory admission from presentation and implements two inference-time policies that decide which recalled information may enter an agent's context without retraining. Compared with verbatim memory injection, the policies reduce pooled judge-assessed external-benchmark failures by 6.7 and 8.8 percentage points, with development-set cross-domain leakage falling by up to 29.5 points. The findings make admission policy a concrete design lever for reducing memory-induced sycophancy and leakage.",
+      "zh": "这篇论文将记忆准入与呈现方式分开，提出两种无需重新训练的 inference-time 策略，决定哪些召回信息可以进入 agent 的上下文。相比直接注入原始记忆，两种策略在外部 benchmark 上分别将 judge 评估的汇总失败率降低 6.7 和 8.8 个百分点，开发集的跨领域泄漏最多下降 29.5 个百分点。结果表明，准入策略是减少记忆引发的迎合与信息泄漏的一项具体设计手段。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Predicting Alignment Generalization with Value Representations",
+      "url": "https://arxiv.org/abs/2610.12410",
+      "en": "This paper studies whether representations of values can predict how fine-tuning on one value changes behavior across held-out values, analyzing 66 values from modern alignment targets. Activation-based representations reach a correlation of 0.45 with the generalization matrix versus 0.05 for textual-description baselines, and similarities within multi-value targets correlate with robustness. It offers a way to investigate alignment spillovers beyond narrow training behaviors.",
+      "zh": "这篇论文分析现代 alignment 目标中的 66 项价值，研究价值表征能否预测针对一项价值进行 fine-tuning 后，模型在未训练价值上的行为变化。基于 activation 的表征与泛化矩阵的相关性达到 0.45，而文本描述基线仅为 0.05；多价值目标内部的相似程度也与稳健性相关。它为研究狭窄训练行为之外的 alignment 连带影响提供了方法。",
+      "tags": [
+        "alignment",
+        "post-training",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
+      "url": "https://arxiv.org/abs/2610.12176",
+      "en": "MASS alternates evolutionary optimization of multi-agent workflows with supervised fine-tuning on self-generated trajectories, using one base model to propose, execute, and evaluate workflows. After two cycles with Qwen3.6-27B, it reports 1.2–1.6× higher performance per output token on four open-ended public benchmarks. The approach explores self-supervision for tasks without verifiable answers, where evaluator quality remains central to the improvement loop.",
+      "zh": "MASS 交替进行 multi-agent 工作流的进化优化，以及基于自生成轨迹的 supervised fine-tuning，由同一个 base model 提出、执行和评估工作流。使用 Qwen3.6-27B 进行两轮循环后，它在四个开放式公开 benchmark 上报告了每个输出 token 对应性能提高 1.2–1.6 倍。该方法探索了没有可验证答案的任务上的自监督，而评估者质量仍是改进循环的关键。",
+      "tags": [
+        "multi-agent",
+        "post-training",
+        "Qwen",
+        "self-improvement"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "From Chain-of-Thought to Loops: Non-Autoregressive Latent Reasoning via Looped Transformers",
+      "url": "https://arxiv.org/abs/2610.11472",
+      "en": "LLoCoT replaces sequential latent reasoning with iterative refinement of a compact workspace, then samples latent tokens in parallel to condition answer generation. On HumanEval and MBPP, it matches the explicit-CoT Reasoning SFT baseline in accuracy while reducing time to the first answer token by approximately 36×. It tests whether recurrent latent computation can retain reasoning quality while avoiding sequential reasoning-token latency.",
+      "zh": "LLoCoT 用紧凑工作区的迭代更新替代顺序生成的 latent reasoning，再并行采样 latent token 来支撑答案生成。在 HumanEval 和 MBPP 上，它的准确率与显式 CoT 的 Reasoning SFT 基线相当，同时将首个答案 token 的等待时间缩短约 36 倍。它检验了循环式 latent computation 能否保留推理质量，同时减少顺序生成推理 token 带来的延迟。",
+      "tags": [
+        "reasoning",
+        "chain-of-thought",
+        "latent reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models",
+      "url": "https://arxiv.org/abs/2610.10623",
+      "en": "LoopOPD uses a LoopLM's terminal loop as a teacher with more compute, providing dense on-policy supervision to an intermediate loop without an external teacher or extra context. Dynamic LoopOPD refreshes that teacher as shared parameters change, and experiments on Ouro-Thinking models show mathematical-reasoning gains beyond the fixed-teacher version. This offers a post-training route for turning additional recurrent computation into supervision.",
+      "zh": "LoopOPD 将 LoopLM 的最终循环作为拥有更多算力的 teacher，为中间循环提供密集的 on-policy 监督，无需外部 teacher 或额外上下文。Dynamic LoopOPD 随共享参数更新而刷新 teacher，在 Ouro-Thinking 模型上的实验显示，其数学推理提升超过固定 teacher 版本。这提供了一条将额外循环计算转化为监督信号的 post-training 路径。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+      "url": "https://arxiv.org/abs/2610.10786",
+      "en": "Plan-and-Patch uses a diffusion language model to generate structured plans and repair selected regions while preserving surrounding steps. Without task-specific training on Natural Plan, diffusion achieves 53.7% repair success versus 27.0% for an autoregressive planner; after training on ALFWorld and TextCraft, generation success is similar while mean planning latency falls by 39–46%. The results make localized plan repair a promising use case for diffusion-based agents.",
+      "zh": "Plan-and-Patch 使用 diffusion language model 生成结构化计划，并在保留周围步骤的前提下修复指定区域。在 Natural Plan 上无需任务专项训练时，diffusion 的修复成功率为 53.7%，autoregressive planner 为 27.0%；在 ALFWorld 和 TextCraft 上训练后，两者计划生成成功率相近，但平均规划延迟下降 39–46%。结果显示，局部计划修复是 diffusion agent 的一个有前景的应用方向。",
+      "tags": [
+        "agents",
+        "planning",
+        "diffusion"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的blog推荐合集第二期",
+      "url": "https://www.rednote.com/explore/6ac6450d0000000012039820?xsec_token=ABZs4CixCX3iJJlHkI2lRmsxjVkJbf2tdWAhmpfQdNeIg%3D&xsec_source=pc_user",
+      "en": "tabris's second recent-blog roundup calls Goodfire's A Practical Guide to SAEs (图2) the best SAE explanation they have seen, praises KDA for KDA (图4), and highlights TabFM-Auto (图9) as a personal research favorite. The Big Reset in Mathematics (图8) raises a question they see across most disciplines: how to coexist with AI; they also praise the results of the SPSD retaining-gains work (图11) and recommend reading its paper directly. Bottom line: 图2 (best SAE explanation, per tabris), 图4 (research tabris praises), 图9 (TabFM-Auto, personal research favorite), 图11 (strong results; read the paper).",
+      "zh": "tabris 的近半个月 blog 推荐合集第二期称，图2 Goodfire 的 A Practical Guide to SAEs 是自己见过最好的 SAEs 讲解；图4 KDA for KDA 的研究非常好；图9 介绍 TabFM-Auto，是个人很喜欢的一篇研究。图8 The Big Reset in Mathematics 也不止于数学，其实绝大部分学科都面临如何与 AI 共存的问题；图11 SPSD retaining-gains 的效果很不错，感兴趣建议直接读他们的 paper。一句话推荐: 图2（tabris 见过最好的 SAEs 讲解）、图4（作者称研究非常好）、图9（TabFM-Auto，个人很喜欢的研究）、图11（效果很不错，建议直接读 paper）。",
+      "tags": [
+        "Chinese ML/NLP",
+        "SAEs",
+        "TabFM-Auto",
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的paper推荐合集第二期",
+      "url": "https://www.rednote.com/explore/6ac6730e0000000013018114?xsec_token=ABZs4CixCX3iJJlHkI2lRms9-i5ppLB2tVj6qOS6ajMn4%3D&xsec_source=pc_user",
+      "en": "tabris shares a second roundup of papers they liked over the past half-month, choosing 图1 as the cover entirely out of personal preference and highlighting 图8 and 图9 as worth attention. Bottom line: tabris recommends 图1, 图8, 图9.",
+      "zh": "tabris 分享近半个月自觉不错的 paper 推荐合集第二期，图1 封面完全是个人偏好，图8 和图9 也值得关注。一句话推荐: tabris 推荐图1、图8、图9。",
+      "tags": [
+        "Chinese ML/NLP",
+        "papers"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-09T21:51:11.030Z"
+}
