@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-11",
+    "count": 6,
+    "headline_en": "Agent workflows are becoming more autonomous, while reward hacking and emergent misalignment sharpen the need for better evaluation and internal monitoring.",
+    "generatedAt": "2026-10-11T12:17:31.161Z"
+  },
+  {
     "date": "2026-10-10",
     "count": 12,
     "headline_en": "Agent reliability hinges on containment, durable context, and careful evaluation, while open-model economics increasingly revolve around reinforcement learning and deployment infrastructure.",
