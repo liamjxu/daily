@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-12",
+    "count": 23,
+    "headline_en": "Long-horizon agents are pushing AI progress toward better orchestration, more reliable learning signals, and faster inference, while widening the gap between public experience and frontier capability.",
+    "generatedAt": "2026-10-13T00:30:48.838Z"
+  },
+  {
     "date": "2026-10-11",
     "count": 6,
     "headline_en": "Agent workflows are becoming more autonomous, while reward hacking and emergent misalignment sharpen the need for better evaluation and internal monitoring.",

@@ -1,0 +1,350 @@
+{
+  "date": "2026-10-12",
+  "headline_en": "Long-horizon agents are pushing AI progress toward better orchestration, more reliable learning signals, and faster inference, while widening the gap between public experience and frontier capability.",
+  "headline_zh": "长任务 agent 正推动 AI 在协作调度、更可靠的学习信号和更快的 inference 上取得进展，同时公众体验与前沿能力之间的差距也在扩大。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2109430343346581527",
+      "en": "OpenAI's Codex & ChatGPT builder Thibault Sottiaux says GPT-6.1 Sol's default context in Codex & Work has increased from 272k to 500k, roughly an 80% increase. The change aims to reduce compactions and preserve nuance during extended tasks; users can override the default up to the model's 1M maximum.",
+      "zh": "OpenAI 的 Codex & ChatGPT 开发者 Thibault Sottiaux 表示，GPT-6.1 Sol 在 Codex & Work 中的默认 context 已从 272k 增至 500k，增幅约为 80%。这一调整旨在减少 compaction，并在长任务中保留细节；用户仍可自行调整，最高支持 1M。",
+      "tags": [
+        "agents",
+        "GPT-6.1 Sol",
+        "long context"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Andrej Karpathy",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/karpathy/status/2109361546505966046",
+      "en": "Andrej Karpathy argues that the gap in people's understanding of LLM capability is widening into a steep funnel, from casual chatbot users to professionals running ambitious coding tasks and a tiny group with internal frontier access. His rough estimates put professional frontier use in math and code at 20 million people and internal access at about 5,000; he describes the latter as seeing thousands of agents collaborate over weeks while human review struggles to keep up. He attributes the divide to task ambition, RL-driven strengths in digital and verifiable domains, and differences in model access.",
+      "zh": "Andrej Karpathy 认为，人们对 LLM 能力的理解差距正扩大为一个陡峭的漏斗，从偶尔使用 chatbot 的普通用户，到用前沿模型完成复杂编程任务的专业人士，再到极少数拥有内部前沿系统访问权限的人。他粗略估计，专业使用前沿模型处理数学和代码的人约有 2,000 万，拥有内部访问权限的人约有 5,000；后者看到的是数千个 agent 持续协作数周，而人工审查逐渐跟不上。他将这种差距归因于任务的规模与难度、RL 在数字化且可验证领域塑造的能力优势，以及模型访问权限的差异。",
+      "tags": [
+        "agents",
+        "AI industry strategy",
+        "model access"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2109329495341867391",
+      "en": "Anthropic's Claude Code builder Thariq agrees with Terrence Tao that opaque superintelligence should not be the goal. He treats communication as a key signal of intelligence and argues that models and products should build understanding with humans.",
+      "zh": "Anthropic 的 Claude Code 开发者 Thariq 赞同 Terrence Tao 的方向判断，认为不应满足于不透明的 superintelligence。他将沟通视为智能的重要信号，主张模型和产品应该帮助人类建立理解。",
+      "tags": [
+        "alignment",
+        "human understanding"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile",
+      "url": "https://www.youtube.com/watch?v=OpeCP4wCxkA",
+      "en": "The Takeaway: fast inference becomes a capability advantage when it compresses long-running agents and reasoning into less wall-clock time, and Fractile founder/CEO Walter Goodwin argues that achieving this requires economical memory capacity alongside exceptional bandwidth. Fractile moved away from an SRAM-based design as growing model sizes and context lengths exposed its scaling limits, instead pursuing high-bandwidth access to DRAM; Goodwin describes a platform ramping in the second half of next year and a roughly 150-person team spanning workload research, physical design, implementation, and advanced packaging so architectural bets can be revised without an external handoff. His strategic claim is that “a three to six months advantage” can win frontier deployments, but faster design cycles should create more candidate bets rather than chips replaced every few weeks: fabrication still takes three to five months, and hardware needs a three-to-five-year amortization window, making durable architecture choices essential even as AI accelerates engineering. He also argues that additional bandwidth could make sparser MoE models more economical, that accelerated thinking makes experiments and conventional layout tools the next bottlenecks, and that frontier labs need shared third-party hardware options because committing exclusively to proprietary silicon could leave them stranded when a rival discovers a breakthrough requiring another platform.",
+      "zh": "核心判断：当快速 inference 能把长任务 agent 和 reasoning 压缩到更短的实际时间内，它就成为能力优势；Fractile 创始人兼 CEO Walter Goodwin 认为，这需要兼具经济性的 memory 容量与极高 bandwidth。随着模型规模和 context length 增长暴露 SRAM 方案的扩展限制，Fractile 转向探索高 bandwidth 的 DRAM 访问；Goodwin 表示，相关平台将在明年下半年进入产能爬坡阶段，约 150 人的团队覆盖 workload 研究、physical design、实现和先进封装，从而无需交接给外部团队就能调整架构押注。他的战略判断是，“a three to six months advantage” 足以赢得前沿部署，但缩短设计周期应该带来更多候选方案，而不是每隔几周就更换芯片：制造仍需三到五个月，硬件需要三到五年的摊销周期，因此即使 AI 加速工程工作，架构选择仍必须经得起长期使用。他还认为，更高 bandwidth 可以让更稀疏的 MoE 更具经济性，加速思考会使实验和传统布局工具成为下一轮瓶颈，而前沿实验室需要共享的第三方硬件选择，因为完全押注自研 silicon 可能导致它们在竞争对手发现依赖其他平台的突破时陷入被动。",
+      "tags": [
+        "agents",
+        "test-time compute",
+        "AI industry strategy",
+        "inference"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
+      "url": "https://arxiv.org/abs/2610.13438",
+      "en": "Rollout-Time Intervention uses evaluation rubrics during rollout to repair failed agent trajectories into successful training examples, addressing the scarcity of useful exploration beyond a policy's current capabilities. Filtering trajectories with excessive distribution shift makes this off-policy supervision effective across five benchmarks, suggesting a practical route past the exploration bottleneck in agent RL.",
+      "zh": "Rollout-Time Intervention 在 rollout 期间利用 evaluation rubric，将失败的 agent 轨迹修正为成功的训练样本，缓解 policy 在当前能力边界之外难以探索到有效轨迹的问题。过滤 distribution shift 过大的轨迹后，这种 off-policy 监督在五个 benchmark 上取得效果，为突破 agent RL 的探索瓶颈提供了实用途径。",
+      "tags": [
+        "agents",
+        "post-training",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SWE-Critix: Post-Training Generalist Verifiers for Assessing Coding-Agent Trajectories",
+      "url": "https://arxiv.org/abs/2610.13356",
+      "en": "SWE-Critix trains verifiers to judge task completion and explain their assessment of long coding-agent trajectories, combining SFT and RL on CodeForge-Preview data. Held-out classification accuracy rises from 57% for the base Qwen3-30B-A3B reasoning model to 66% after SFT and 78% after RL, making it relevant to coding workflows without a readily available success oracle.",
+      "zh": "SWE-Critix 使用 CodeForge-Preview 数据，结合 SFT 和 RL 训练 verifier，使其能够判断长 coding-agent 轨迹是否完成任务，并解释判断依据。在 held-out 测试集上，分类准确率从基础 Qwen3-30B-A3B reasoning 模型的 57%，提高到 SFT 后的 66% 和 RL 后的 78%，适用于缺乏现成成功判定机制的编程工作流。",
+      "tags": [
+        "agents",
+        "post-training",
+        "evaluation",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning",
+      "url": "https://arxiv.org/abs/2610.13744",
+      "en": "This paper finds that a solution-conditioned scoring teacher's KL and token log-ratio signals neither reliably localize reasoning errors nor push probability away from erroneous tokens. Generating a critique before scoring produces more corrective credit, challenging the assumption that dense self-distillation signals automatically provide useful process supervision.",
+      "zh": "论文发现，即使 scoring teacher 能看到参考答案，其 KL 和 token log-ratio 信号也无法可靠定位 reasoning 错误，或降低错误 token 的概率。先生成 critique 再评分能够提供更有效的纠错信号，这对密集 self-distillation 信号天然具有有效过程监督价值的假设提出了挑战。",
+      "tags": [
+        "distillation",
+        "reasoning",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+      "url": "https://arxiv.org/abs/2610.12596",
+      "en": "SpireBench evaluates 20 LLMs on complete Slay the Spire runs at the highest difficulty, finding that frontier models match average humans but fall increasingly behind experts as runs lengthen. Renaming game terminology exposes dependence on prior knowledge, while cross-run memories fail to improve play and often contain mistaken, overly cautious advice. It offers a particularly useful critique of long-horizon reasoning, memory, and benchmark familiarity.",
+      "zh": "SpireBench 在最高难度的完整 Slay the Spire 流程上评估 20 个 LLM，发现前沿模型达到普通玩家水平，但随着流程变长，与专家的差距持续扩大。重命名游戏术语暴露了模型对已有知识的依赖，而跨局 memory 未能改善表现，其中经常包含错误且过于保守的建议。它为检验长任务 reasoning、memory 和 benchmark 熟悉度提供了很有价值的视角。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks",
+        "memory"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Proactive Agentic Orchestration",
+      "url": "https://arxiv.org/abs/2610.13485",
+      "en": "POrchestra lets sub-agents proactively request harness adjustments while retaining their local execution context, addressing the rigidity of goals and setups fixed at creation. Its OPOD method turns hindsight revision requests into process supervision for earlier orchestration decisions; the framework reports an average 9.1% task-success improvement relative to the strongest baseline across three long-horizon benchmarks. This directly targets adaptive multi-agent workflows and their sparse training feedback.",
+      "zh": "POrchestra 允许 sub-agent 在保留本地执行 context 的同时，主动请求调整 harness，解决创建时固定目标和配置带来的僵化问题。其 OPOD 方法把事后提出的调整请求转化为对早期调度决策的过程监督；该框架在三个长任务 benchmark 上报告，相对最强 baseline，任务成功率平均提升 9.1%。这直接针对自适应 multi-agent 工作流及其稀疏训练反馈问题。",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Management",
+      "url": "https://arxiv.org/abs/2610.13075",
+      "en": "LongHarness explicitly separates and connects acquired evidence with evolving conclusions, using unresolved conclusions to guide retrieval and new evidence to revise those conclusions. Evidence Lifecycle Management keeps evidence current and traceable, targeting unbounded exploration and evidence-state drift in corpus-scale reasoning. The model-agnostic design is relevant to research agents working beyond their context windows.",
+      "zh": "LongHarness 显式区分并关联已获取的证据与持续变化的结论，用尚未解决的结论引导 retrieval，再用新证据修正结论。Evidence Lifecycle Management 保持证据的时效性和可追溯性，针对语料库级 reasoning 中的无止境探索与证据状态漂移问题。这种不依赖特定模型的设计适合处理超出 context window 的研究 agent。",
+      "tags": [
+        "agents",
+        "reasoning",
+        "memory",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Taking Tokenization off the Host for Agentic LLM Serving",
+      "url": "https://arxiv.org/abs/2610.13325",
+      "en": "GraphTok moves the complete tokenization pipeline into a replayable CUDA graph, addressing CPU tokenization overhead when agents repeatedly resend long, mostly cached contexts. It reproduces reference token IDs exactly across five tokenizer families and reduces mean TTFT by 2.1–2.4x in vLLM with cached prefixes. For 121k-token traffic under a 2-second P99 target, a Dynamo frontend sustains 518 requests/s versus 296 with gigatoken, highlighting a frontend capacity bottleneck in agent serving.",
+      "zh": "GraphTok 将完整 tokenization 流程移入可重放的 CUDA graph，解决 agent 反复发送大部分已缓存的长 context 时产生的 CPU tokenization 开销。它在五类 tokenizer 上精确复现参考 token ID，并在启用 prefix cache 的 vLLM 中将平均 TTFT 缩短 2.1–2.4 倍。对于 121k-token 请求，在 P99 不超过 2 秒的目标下，一个 Dynamo frontend 可支持每秒 518 个请求，而 gigatoken 为 296 个，凸显了 agent serving 的 frontend 容量瓶颈。",
+      "tags": [
+        "agents",
+        "inference",
+        "long context"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Unsupervised Multimodal Reward Modeling",
+      "url": "https://arxiv.org/abs/2610.12707",
+      "en": "This work trains a linear reward head on frozen intermediate Qwen3-VL representations using web captions and perturbed captions, with human-labeled data used only for layer selection. A verifier-driven retraining step improves caption hallucination by 5.1 CHAIR points and image-generation pass rate by 5.4 points while lowering every reward-benchmark score. The mismatch between benchmark ranking and downstream utility is the key lesson for reward-model evaluation.",
+      "zh": "这项工作在冻结的 Qwen3-VL 中间层表示上训练线性 reward head，使用网页 caption 及其扰动版本，人工标注数据仅用于选择层。在 verifier 驱动的重新训练后，caption hallucination 改善了 5.1 个 CHAIR 点，图像生成通过率提高 5.4 个点，但所有 reward benchmark 得分都下降了。Benchmark 排名与下游实际效果之间的错位，是 reward model evaluation 最值得关注的结论。",
+      "tags": [
+        "reward model",
+        "evaluation",
+        "Qwen",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "What Should SFT Learn? Conditional Information Gain for Generalizable Post-Training",
+      "url": "https://arxiv.org/abs/2610.12995",
+      "en": "CIG-SFT weights demonstrated tokens by how much the task input reduces uncertainty about them, comparing frozen-reference likelihoods with and without the input while holding the solution prefix fixed. Its information-theoretic formulation distinguishes task-specific learning value from simple compatibility with the current model. This matters when SFT must teach new decisions without indiscriminately forcing imitation of entire teacher trajectories.",
+      "zh": "CIG-SFT 根据任务输入对示范 token 的不确定性减少了多少来分配权重，在固定解答前缀的情况下，比较冻结 reference 模型有无任务输入时的 likelihood。其信息论框架区分了任务特定的学习价值与当前模型对 token 的简单兼容性。这有助于 SFT 学会新的决策，而不是不加区分地模仿 teacher 的整条轨迹。",
+      "tags": [
+        "post-training",
+        "fine-tuning",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+      "url": "https://arxiv.org/abs/2610.12933",
+      "en": "This framework builds Monte Carlo reasoning trees around intermediate states to estimate process uncertainty, then contracts supervision first into a teacher-informed pool and again through learner-aware online routing during SFT. Across reasoning benchmarks and model families, it reports maintaining or improving performance with as little as 0.22% of full-data SFT's optimization budget, over 450x less training exposure. It makes data selection and adaptive optimization central to efficient reasoning post-training.",
+      "zh": "该框架围绕中间状态构建 Monte Carlo reasoning tree，估计过程层面的不确定性，先将监督数据收缩为 teacher 引导的样本池，再通过 SFT 期间面向 learner 的在线路由进一步收缩。在多个 reasoning benchmark 和模型系列上，它报告仅使用完整数据 SFT 最低 0.22% 的优化预算，就能保持或提升表现，训练接触量减少超过 450 倍。这将数据选择和自适应优化置于高效 reasoning post-training 的核心。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "training efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Continually Post-training Small Models via Synthetic Self-distillation",
+      "url": "https://arxiv.org/abs/2610.13113",
+      "en": "SynthSelf addresses small models' failure at continual self-distillation by outsourcing in-distribution rewrites to a minimally larger model from the same family, combined with off-policy supervision and rejection sampling. Evaluations on four acquisition datasets and 14 retention benchmarks show it outperforming six methods across three small-model scales. The finding connects forgetting and poor acquisition to distribution shift, offering a practical recipe for updating low-latency models without losing prior capabilities.",
+      "zh": "SynthSelf 针对小模型在持续 self-distillation 中表现不佳的问题，将分布内改写交给同系列、规模略大的模型，并结合 off-policy 监督与 rejection sampling。在四个能力获取数据集和 14 个能力保留 benchmark 上，它在三个小模型规模中均优于六种方法。研究将遗忘和新能力学习不足与 distribution shift 联系起来，为更新低延迟模型并保留已有能力提供了实用方案。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "small models"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2610.13144",
+      "en": "This framework estimates a backbone's competence on each query, then adapts role activation and the communication graph rather than always applying extensive collaboration. For stronger backbones, average accuracy increases from 87.22 to 89.97 while token cost falls 36.26%; weaker backbones gain 4.58 points over existing methods. It provides concrete evidence that multi-agent coordination should depend on task difficulty relative to model capability.",
+      "zh": "该框架先估计 backbone 对每个 query 的处理能力，再调整角色启用和通信图，而不是始终采用大量协作。对于能力较强的 backbone，平均准确率从 87.22 提高至 89.97，同时 token 成本下降 36.26%；较弱的 backbone 则比现有方法高出 4.58 个点。它提供了具体证据，说明 multi-agent 协作应根据任务难度与模型能力的相对关系来安排。",
+      "tags": [
+        "multi-agent",
+        "agents",
+        "evaluation",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "en": "The Hacker News reports an AI-augmented initial-access campaign targeting Ukrainian WordPress sites, e-commerce platforms, and critical infrastructure, with over 628,000 records stolen. The campaign combines commodity offensive tools such as Cobalt Strike with an orchestration layer powered by Claude Code, illustrating agent tooling's integration into operational cyberattacks.",
+      "zh": "The Hacker News 报道了一场针对 Ukraine 的 WordPress 网站、电商平台和关键基础设施的 AI 辅助初始入侵行动，超过 628,000 条记录被窃取。该行动将 Cobalt Strike 等常见攻击工具与由 Claude Code 驱动的调度层结合，体现了 agent 工具已被整合进实际网络攻击。",
+      "tags": [
+        "agents",
+        "Claude Code",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "I built a tiny table that learns your local LLM's classification answers and serves the repeats in microseconds [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vkej/i_built_a_tiny_table_that_learns_your_local_llms/",
+      "en": "shad0w sits in front of an OpenAI-compatible local server, logs classification answers, and compiles a small CPU lookup table after roughly 1,000 examples. The author says it serves answers in microseconds only where held-out agreement with the model reaches at least 95%, routing other requests to the LLM. This is a concrete approach to replacing repeated model work with cheaper execution while retaining a fallback.",
+      "zh": "shad0w 部署在兼容 OpenAI API 的本地 server 前端，记录分类答案，并在积累约 1,000 个样本后编译出小型 CPU 查找表。作者表示，只有在 held-out 数据上与模型的一致率达到至少 95% 时，它才会以微秒级速度直接回答，其余请求仍交给 LLM。这为用更便宜的执行方式替代重复模型调用、同时保留 fallback 提供了具体方案。",
+      "tags": [
+        "inference",
+        "evaluation",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Compressed a RoBERTa AI-text detector from ~500 MB to ~97 MB so it runs client-side in the browser, plus a 26 MB image detector [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vqip/compressed_a_roberta_aitext_detector_from_500_mb/",
+      "en": "This project runs existing text and image detectors entirely client-side with ONNX Runtime Web, compressing the RoBERTa text detector from about 500 MB to 97 MB and offering a 26 MB image detector. The text pipeline combines light fine-tuning and WiSE-FT with int4 embeddings and mixed-precision quantization of the transformer body. Its contribution is browser deployment and compression, with inputs kept on the user's device.",
+      "zh": "该项目通过 ONNX Runtime Web，让现有文本和图像检测模型完全在浏览器本地运行，将 RoBERTa 文本检测模型从约 500 MB 压缩至 97 MB，并提供一个 26 MB 的图像检测模型。文本处理方案结合轻量 fine-tuning、WiSE-FT、int4 embedding 和 transformer 主体的 mixed-precision quantization。其贡献在于浏览器部署和压缩，输入数据保留在用户设备上。",
+      "tags": [
+        "quantization",
+        "fine-tuning",
+        "on-device"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "推荐点可能没那么热门的paper",
+      "url": "https://www.rednote.com/explore/6ac679880000000015014f3e?xsec_token=ABZs4CixCX3iJJlHkI2lRms2VeyTybORcjcIslWYrzZEs%3D&xsec_source=pc_user",
+      "en": "tabris shares recommendations for papers that may be less widely known.",
+      "zh": "tabris 推荐了一些可能没那么热门的 paper。",
+      "tags": [
+        "paper recommendations"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的paper推荐合集第五批",
+      "url": "https://www.rednote.com/explore/6ac674a2000000001203ea0b?xsec_token=ABZs4CixCX3iJJlHkI2lRms_bODi1MwlhU6Q0Ba4zx_F8%3D&xsec_source=pc_user",
+      "en": "tabris posts the fifth batch of paper recommendations they found worthwhile over the past half month.",
+      "zh": "tabris 发布了近半个月自觉不错的 paper 推荐合集第五批。",
+      "tags": [
+        "paper recommendations"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的blog推荐合集第五期",
+      "url": "https://www.rednote.com/explore/6ac65e05000000001203f022?xsec_token=ABZs4CixCX3iJJlHkI2lRms1bdwgg2zeot2VuNMEfMuIc%3D&xsec_source=pc_user",
+      "en": "tabris shares the fifth installment of blog recommendations they found worthwhile over the past half month.",
+      "zh": "tabris 分享了近半个月自觉不错的 blog 推荐合集第五期。",
+      "tags": [
+        "blog recommendations"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "推荐点相对冷门但还不错的研究 1",
+      "url": "https://www.rednote.com/explore/6ac67904000000001803ad4e?xsec_token=ABZs4CixCX3iJJlHkI2lRmswQ7NayYjpN_5BTKa9olxW8%3D&xsec_source=pc_user",
+      "en": "tabris shares a first installment recommending relatively overlooked research they consider worthwhile.",
+      "zh": "tabris 分享了推荐相对冷门但还不错的研究的第一篇。",
+      "tags": [
+        "research recommendations"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-13T00:30:48.838Z"
+}
