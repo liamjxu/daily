@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-14",
+  "headline_en": "Agent-scale coding is reshaping developer infrastructure, while experience-driven RL offers a competing path to frontier intelligence.",
+  "headline_zh": "Agent 规模的编程正在重塑开发基础设施，而从经验中学习的 RL 为前沿智能提供了另一条路线。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2110151780478927344",
+      "en": "OpenAI Codex and ChatGPT engineer Thibault Sottiaux reports that optimizations to desktop-app state storage should reduce disk usage for that state by 60%. The change addresses feedback from power users running out of disk space.",
+      "zh": "OpenAI Codex 和 ChatGPT 工程师 Thibault Sottiaux 表示，桌面应用的状态存储优化预计可将这部分磁盘占用减少 60%。这项改动回应了重度用户磁盘空间不足的反馈。",
+      "tags": [
+        "Codex",
+        "ChatGPT"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2110179883045560674",
+      "en": "Google Labs and Gemini VP Josh Woodward showcases a Gemini 4 Argon demo in which a 24-word prompt built a custom synthesizer. It turns galloping horses, rippling water, and the user's hands into music.",
+      "zh": "Google Labs 和 Gemini VP Josh Woodward 展示了 Gemini 4 Argon 的一个 demo：用 24 个词的 prompt 构建定制合成器，将奔马、涟漪和用户的双手转化为音乐。",
+      "tags": [
+        "Gemini 4 Argon",
+        "frontier models"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "en": "Anthropic Engineering: Redesigning source control at Anthropic reports that daily merged changes rose from roughly 2,500 in May to over 30,000 in September, shifting the bottleneck from coding to source control, builds, and CI. Seven engineers built Scion, the Antique review tool, and related systems and migrated the monorepo from git in five months; Scion assumes always-online clients, performs operations server-side, and uses immutable objects, tiered caches, and sparse or virtualized checkouts. Anthropic reports a 200x smaller CPU and memory footprint than its git mirrors, checkouts two orders of magnitude faster, and a 25% CI CPU capacity gain, while emphasizing that engineers still govern architecture and constraints: “Very often, we found that the role of the engineers was to tell Claude ‘no.’” The practical lesson is to move repository queries and suitable writes behind APIs and rethink testing under massive concurrent change; Anthropic now invests in post-merge and pre-deploy testing and presents Scion as a specialized system for enormous monorepos rather than a general git replacement.",
+      "zh": "Anthropic Engineering：Redesigning source control at Anthropic 报告称，每日合并的代码改动从 5 月约 2,500 次增至 9 月超过 30,000 次，瓶颈随之转向 source control、构建和 CI。七名工程师在五个月内构建了 Scion、代码审查工具 Antique 及相关系统，并将 monorepo 从 git 迁移过去；Scion 假定客户端始终在线，在服务端执行操作，并采用不可变对象、分层缓存以及稀疏或按需加载的 checkout。Anthropic 表示，相比此前的 git 镜像，CPU 和内存需求缩小了 200 倍，checkout 加快两个数量级，CI 获得了 25% 的 CPU 容量收益，同时强调工程师仍负责架构和约束：“我们经常发现，工程师的角色是对 Claude 说‘不’。” 对实践者的启示是，通过 API 提供仓库查询及适合的写入操作，并重新思考大量并发改动下的测试流程；Anthropic 目前投入于合并后和部署前的测试，并将 Scion 定位为超大型 monorepo 的专用系统，而非通用的 git 替代品。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "developer infrastructure",
+        "Claude"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "en": "The Takeaway: Ineffable Intelligence is betting that autonomous learning from experience, rather than continued dependence on human-language datasets and hand-guided tasks, can produce a broadly capable “superlearner,” with cofounder David Silver predicting strong evidence within a year and superintelligence within three years, explicitly acknowledging research uncertainty. Silver, whose background includes Go reinforcement learning and DeepMind, and cofounder Lasse Espeholt, whose work includes IMPALA and SEED RL, are combining a large-scale RL stack with simulated “crucibles”: environments where simple objectives, interacting agents, and emergent complexity could lead learners to discover communication, tools, mathematics, and technology without researchers prescribing each intermediate achievement. Their engineering strategy keeps simulation, inference, and training on GPUs to avoid dependence on vast CPU fleets, draws on earlier scalable RL architectures, and explores model-based RL and replay to reuse experience; Espeholt stresses that RL scaling differs from ordinary model scaling because the data distribution changes as agents improve, while the 20-person team deliberately maintains a high compute-to-person ratio. Silver argues that language-based monitoring will become insufficient, proposes shadow actions and other agents as complementary monitors, and favors accelerating research in simulation while gating real-world deployment on evidence about peaceful interaction, capturing the research ambition as “a system that can just keep learning and discovering knowledge forever.”",
+      "zh": "核心观点：Ineffable Intelligence 押注从经验中自主学习，而不是继续依赖人类语言数据集和人为引导的任务，能够产生能力广泛的“superlearner”；联合创始人 David Silver 预测一年内会出现强有力的证据，三年内实现 superintelligence，同时明确承认研究存在不确定性。Silver 的背景包括围棋 reinforcement learning 和 DeepMind，另一位联合创始人 Lasse Espeholt 的工作包括 IMPALA 和 SEED RL；他们将大规模 RL 系统与名为“crucibles”的模拟环境结合，希望简单目标、多个 agent 的互动和涌现复杂性能够让学习者自行发现沟通、工具、数学与技术，而不需要研究者逐一规定中间成果。工程路线是让模拟、inference 和训练都运行在 GPU 上，避免依赖庞大的 CPU 集群，借鉴早期可扩展 RL 架构，并探索 model-based RL 和 replay 来复用经验；Espeholt 强调，随着 agent 进步，数据分布也会变化，因此 RL 的 scaling 与常规模型不同，而这支 20 人团队刻意保持较高的人均 compute。Silver 认为，仅靠语言监控将越来越不够，提出用 shadow actions 和其他 agent 补充监控，并主张加速模拟中的研究，同时根据和平互动的证据决定是否进入现实世界；他将研究目标概括为“一个能够永远持续学习并发现知识的系统”。",
+      "tags": [
+        "RL",
+        "multi-agent",
+        "reasoning",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+      "en": "XBOW says its researchers directed agents running OpenAI's publicly available GPT-5.6 Sol to chain three previously unknown Chrome vulnerabilities into an exploit in six days. The attack could execute code on a Windows computer when a user merely loaded a web page; Google confirmed and fixed all three bugs, and the article title reports a $250,000 award. This is a concrete example of publicly accessible models being used for complex offensive security work under researcher direction.",
+      "zh": "XBOW 表示，研究人员指挥运行 OpenAI 公开可用模型 GPT-5.6 Sol 的 agent，在六天内将三个此前未知的 Chrome 漏洞串成完整 exploit。用户只需打开网页，攻击就能在 Windows 电脑上执行代码；Google 已确认并修复这三个漏洞，文章标题称奖金为 250,000 美元。这是公开可用模型在研究人员指导下完成复杂攻击性安全工作的具体案例。",
+      "tags": [
+        "agents",
+        "GPT-5.6 Sol",
+        "AI security"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的blog推荐合集第六期",
+      "url": "https://www.rednote.com/explore/6ac6609900000000130191d1?xsec_token=ABZs4CixCX3iJJlHkI2lRms-WAkoKs8DhvuhwiprbHxv4%3D&xsec_source=pc_user",
+      "en": "tabris's sixth recent-blog roundup highlights introductions to RL-XAR, SWE-sweep, AstaBrief, and CUAWright, plus an analysis of Context Language Models that the author particularly likes. The author also finds 图3's research interesting despite its unsurprising results ranking and offers an attachment for easier cross-device reading. Bottom line: 图1 (RL-XAR introduction), 图5 (SWE-sweep introduction), 图6 (Context Language Models analysis, author's favorite), 图11 (CUAWright introduction).",
+      "zh": "tabris 的近半个月 blog 推荐合集第六期包括图1的 RL-XAR 介绍、图5的 SWE-sweep 介绍、图9的 AstaBrief 介绍和图11的 CUAWright 介绍，以及作者个人很喜欢的图6 Context Language Models 解析。作者认为图3虽然结果排名依然毫无意外，但研究本身挺有意思，也建议直接下载附件，方便跨设备阅读。一句话推荐: 图1（RL-XAR 介绍）、图5（SWE-sweep 介绍）、图6（Context Language Models 解析，作者个人很喜欢）、图11（CUAWright 介绍）。",
+      "tags": [
+        "Chinese ML community",
+        "RL",
+        "agents",
+        "Context Language Models"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的paper推荐合集第七期",
+      "url": "https://www.rednote.com/explore/6ac675930000000013018592?xsec_token=ABZs4CixCX3iJJlHkI2lRmsx9MUFxFMfzJmFE516UY0RE%3D&xsec_source=pc_user",
+      "en": "tabris's seventh roundup of papers from the past half-month rates 图1 and 图2 highly but personally prefers 图14. Bottom line: tabris recommends 图1, 图2, and especially 图14.",
+      "zh": "tabris 的近半个月 paper 推荐合集第七期认为图1和图2的质量都很高，但个人更喜欢图14。一句话推荐: tabris 推荐图1、图2，尤其是图14。",
+      "tags": [
+        "Chinese ML community",
+        "paper roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错的paper推荐合集第六期",
+      "url": "https://www.rednote.com/explore/6ac6751d000000001203aa89?xsec_token=ABZs4CixCX3iJJlHkI2lRms1G6FKEzn4ElmdsTboZaNrc%3D&xsec_source=pc_user",
+      "en": "tabris's sixth roundup of papers from the past half-month singles out 图1 as particularly interesting. Bottom line: tabris recommends 图1.",
+      "zh": "tabris 的近半个月 paper 推荐合集第六期特别提到图1很有意思。一句话推荐: tabris 推荐图1。",
+      "tags": [
+        "Chinese ML community",
+        "paper roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "相对冷门paper推荐合集 3",
+      "url": "https://www.rednote.com/explore/6ac67a6c0000000015008081?xsec_token=ABZs4CixCX3iJJlHkI2lRms_k_9D0pDvPeqBRHfQq7r98%3D&xsec_source=pc_user",
+      "en": "tabris shares a third roundup of relatively overlooked papers, noting that obscurity is relative because truly obscure work rarely reaches the author's feed, and hopes future cover authors will come from unexpected countries. Bottom line: tabris recommends this relatively overlooked-paper roundup.",
+      "zh": "tabris 分享相对冷门 paper 推荐合集第三期，表示所谓冷门也只是相对而言，因为真正的冷门 paper 自己也刷不到，并希望有一天这个系列封面作者的国籍都来自那些压根想不到的地方。一句话推荐: tabris 推荐这期相对冷门 paper 合集。",
+      "tags": [
+        "Chinese ML community",
+        "paper roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近半个月自觉不错blog推荐合集第七期",
+      "url": "https://www.rednote.com/explore/6ac66ea1000000001500fe97?xsec_token=ABZs4CixCX3iJJlHkI2lRmsz3OgYWL9KtJsEV5-U2oQho%3D&xsec_source=pc_user",
+      "en": "tabris shares the seventh roundup of blogs the author found worthwhile over the past half-month, tagged for LLMs, deep learning, RL, and research reading. Bottom line: tabris recommends this blog roundup.",
+      "zh": "tabris 分享近半个月自觉不错的 blog 推荐合集第七期，话题涵盖大模型、深度学习、强化学习和科研文献阅读。一句话推荐: tabris 推荐这期 blog 合集。",
+      "tags": [
+        "Chinese ML community",
+        "blog roundup"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-14T13:05:01.106Z"
+}
