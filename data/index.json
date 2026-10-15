@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-15",
+    "count": 16,
+    "headline_en": "Agent and post-training research advances alongside evidence that benchmark defects, weak generalization, and unreliable memory can undermine reported gains.",
+    "generatedAt": "2026-10-15T20:24:17.815Z"
+  },
+  {
     "date": "2026-10-14",
     "count": 10,
     "headline_en": "Agent-scale coding is reshaping developer infrastructure, while experience-driven RL offers a competing path to frontier intelligence.",

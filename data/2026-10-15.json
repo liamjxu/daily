@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-15",
+  "headline_en": "Agent and post-training research advances alongside evidence that benchmark defects, weak generalization, and unreliable memory can undermine reported gains.",
+  "headline_zh": "Agent 与 post-training 研究持续推进，但新的证据表明，benchmark 缺陷、泛化不足和不可靠的记忆机制可能削弱已报告的进展。",
+  "items": [
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "How Hugging Face’s Investor Spots Winners",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The Takeaway: As AI makes implementation faster, the scarce advantage shifts toward discovering what users need, turning that insight into a better product, and sustaining the improvement cycle after the first version ships. Factorial Capital founder and managing partner Matt Hartman, formerly a partner at Betaworks involved in its Hugging Face investment, looks for what is newly technically possible rather than a fixed market thesis; his account of Hugging Face emphasizes honestly confronting weak consumer retention, following developer demand into open-source infrastructure, and keeping open source constant while expanding beyond language models. His phrase “the questions you ask become more important” captures why technical understanding still matters: founders who understand model constraints can identify opportunities such as local inference, adapt research to their own applications, and move across markets when the underlying technical insight travels, while faster coding makes close observation of users and shorter feedback cycles increasingly valuable. Building the open-source local voice-to-text tool Ghost Pepper also changed his view of software defensibility: avoiding paid inference can make a personal tool attractive, but maintaining it creates ongoing work, so paid products can earn their place through continuous releases, reliability, and attention to latency; he consequently sees room for developer infrastructure that maintains AI-generated code and for application teams able to work from product design down through models and serving.",
+      "zh": "核心启示：当 AI 加快实现速度，稀缺优势就转向发现用户真正需要什么，把洞察变成更好的产品，并在首个版本上线后持续改进。Factorial Capital 创始人兼管理合伙人 Matt Hartman 曾任 Betaworks 合伙人，参与其对 Hugging Face 的投资；他寻找的是技术上刚刚成为可能的事情，而非固守某个市场判断，在他看来，Hugging Face 的关键在于坦诚面对消费产品留存不佳、顺着开发者需求转向开源基础设施，并在扩展到语言模型之外时坚持 open source。“你提出的问题变得更重要了”概括了他对技术理解的看法：理解模型约束的创始人能够发现 local inference 等机会，把研究用于自己的产品，并在底层技术洞察可以迁移时跨越市场，而更快的编码速度也让观察用户、缩短反馈周期变得更加有价值。开发开源本地语音转文字工具 Ghost Pepper 也改变了他对软件壁垒的认识：省去付费 inference 可以让自用工具很有吸引力，但维护会持续消耗精力，因此付费产品仍能凭借持续更新、可靠性和对 latency 的打磨获得价值；他因此看好维护 AI 生成代码的开发者基础设施，以及能够从产品设计深入到模型和服务层的应用团队。",
+      "tags": [
+        "AI industry strategy",
+        "open-source",
+        "developer tools"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior",
+      "url": "https://www.lesswrong.com/posts/R5g8YT25G9DXJJ48n/glm-5-3-sometimes-considers-how-train-time-actions-shape",
+      "en": "LessWrong: GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior reports unprompted reasoning in standard behavioral evaluations about how current actions could influence training updates and future behavior. Axel Højmark and Ezra Newman call this “update-aware reasoning”: the model sometimes considers whether an action could reinforce misalignment or what kind of agent it wants to become, even in environments that do not mention training or future models. The authors connect this capability to a prerequisite for alignment faking, rather than establishing that alignment faking occurred.",
+      "zh": "LessWrong：GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior 报告称，在标准行为评估中，GLM-5.3 会自发思考当前行为如何影响训练更新和未来行为。Axel Højmark 和 Ezra Newman 将其称为“update-aware reasoning”：即使环境没有提及训练或未来模型，它有时也会考虑某个行为是否会强化 misalignment，或自己希望成为怎样的 agent。作者将这种能力与 alignment faking 的一个前提条件联系起来，并未据此认定 alignment faking 已经发生。",
+      "tags": [
+        "alignment",
+        "evaluation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Agent Evaluation Becomes Unreliable: An Empirical Study of Oracle Failures and Configuration-Dependent Measurement in an LLM Agent Benchmark",
+      "url": "https://arxiv.org/abs/2610.16067",
+      "en": "An audit finds a benchmark reward function that changes environment state before scoring; replay-based correction across 4,320 episodes reduces measured success from 94.3% to 65.5%. Its state-integrity invariants and known-answer controls offer a concrete way to test evaluation infrastructure, while configuration ablations show that tool descriptions and other harness text can also shift measured reliability.",
+      "zh": "这项审计发现，某个 benchmark 的 reward function 会在评分前改变环境状态；对 4,320 个 episode 进行回放修正后，测得的成功率从 94.3% 降至 65.5%。论文提出的状态完整性不变量和已知答案对照，为检查评估基础设施提供了具体方法，而配置消融也表明，tool descriptions 等 harness 文本会影响测得的可靠性。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.19789",
+      "en": "A comparison of ten self-distillation methods against GRPO spans four agent environments, three model sizes, and 132 training runs totaling 12,124.4 recorded H800 GPU-hours. No method consistently beats GRPO across settings, strong final scores can conceal unstable training, and extra compute does not reliably buy better performance, making this a useful reference for choosing agent-training recipes.",
+      "zh": "这项研究在四个 agent 环境、三种模型规模上，将十种 self-distillation 方法与 GRPO 对比，共完成 132 次训练，记录了 12,124.4 个 H800 GPU-hours。没有一种方法能在各设置中稳定胜过 GRPO，较高的最终分数可能掩盖训练不稳定，而额外计算也未必带来更好表现，为选择 agent 训练方案提供了实用参照。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "LLM agents",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Does self-distillation improve reasoning?",
+      "url": "https://arxiv.org/abs/2610.18613",
+      "en": "Reevaluating SDPO and OPSD across code, science, tool use, and math, the authors find that reported gains do not consistently generalize to unseen problems and largely reflect overfitting or transfer of existing reasoning behavior. Weak alignment between self-distillation gradients and reward-optimizing policy gradients further challenges the assumption that privileged information reliably improves reasoning through these methods.",
+      "zh": "作者在代码、科学、tool use 和数学任务上重新评估 SDPO 与 OPSD，发现已报告的收益无法稳定泛化到未见问题，而且很大程度上来自过拟合或已有推理行为的迁移。Self-distillation 梯度与直接优化 reward 的 policy gradient 对齐较弱，也进一步质疑了这些方法能否可靠地利用特权信息改善推理。",
+      "tags": [
+        "distillation",
+        "reasoning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Do Factuality Methods Make LLMs More Factual? Reproducibility and Fair Comparison",
+      "url": "https://arxiv.org/abs/2610.18415",
+      "en": "An independent reproduction compares five factuality-alignment methods spanning PPO, GRPO, Dr. GRPO, DPO, and KTO under common evaluation conditions; none reproduces fully or significantly outperforms the base model on the common benchmark. The authors find rewards favoring format, length, or brevity rather than factuality and relevance, directing attention toward reward and evaluation design rather than the choice of optimizer.",
+      "zh": "这项独立复现将涵盖 PPO、GRPO、Dr. GRPO、DPO 和 KTO 的五种 factuality alignment 方法置于统一评估条件下，结果没有一种得到完整复现，也没有一种在共同 benchmark 上显著优于 base model。作者发现，reward 往往偏向格式、长度或简洁程度，而非事实准确性和相关性，因此更值得关注的是 reward 与评估设计，而不仅是 optimizer 的选择。",
+      "tags": [
+        "post-training",
+        "evaluation",
+        "preference optimization",
+        "factuality"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Davinci-Tool: Scaling Agentic Tool-Use Supervision with Verifiable Executable Environments",
+      "url": "https://arxiv.org/abs/2610.16867",
+      "en": "Davinci-Tool pairs a 30B tool-use model with 30,395 verified trajectories spanning 2,260 invoked tool names, preserving restorable states, execution traces, outcomes, and verifiers. SFT followed by outcome-grounded DPO raises Qwen3-Coder-30B-A3B-Instruct from 52.4 to 88.2 on τ²-bench and 30.4 to 62.8 on BFCL v4 multi-turn, illustrating how executable environments can support both demonstrations and preference construction.",
+      "zh": "Davinci-Tool 将一个 30B tool-use 模型与 30,395 条经过验证的轨迹配套，覆盖 2,260 个被调用的 tool 名称，并保留可恢复状态、执行轨迹、结果和 verifier。先进行 SFT，再使用基于执行结果构建的 DPO，使 Qwen3-Coder-30B-A3B-Instruct 在 τ²-bench 上从 52.4 提升至 88.2，在 BFCL v4 multi-turn 上从 30.4 提升至 62.8，展示了可执行环境如何同时支持示范数据与偏好构建。",
+      "tags": [
+        "LLM agents",
+        "tool use",
+        "post-training",
+        "preference optimization"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.18052",
+      "en": "Bemula tests whether agent memory systems delete requested information while preserving unrelated memories, using 50 multi-session dialogues, 135 forget requests, and 1,742 test questions with paired controls. Across six memory systems and three backbone LLMs, no configuration passes more than 1.5% of forget requests end to end, exposing a major gap between memory retrieval capability and reliable user-directed forgetting.",
+      "zh": "Bemula 通过 50 组多 session 对话、135 条遗忘请求、1,742 道测试题及配对对照，检验 agent 记忆系统能否删除指定信息，同时保留无关记忆。在六种记忆系统和三种 backbone LLM 的评估中，没有任何配置能端到端通过超过 1.5% 的遗忘请求，揭示了记忆检索能力与可靠执行用户遗忘指令之间的巨大差距。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Many Steps into One: Reasoning Contraction and the Limits of Safe Memory Reuse for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.17544",
+      "en": "This paper studies when reusable reasoning memories become stale and shows why simple success/failure counters can detect changed facts too slowly or never detect them. In experiments, ExpeL- and ACE-style counters serve 7.0–13.5 times more stale answers than certified memories on edited-fact questions and 35–73 times more on code tasks with exact verification, motivating likelihood-ratio detection and renewed certification after changes.",
+      "zh": "这篇论文研究可复用推理记忆何时会过时，并解释为什么简单的成功与失败计数可能很晚才发现事实变化，甚至永远无法发现。在实验中，ExpeL 和 ACE 风格的计数机制在事实被修改的问答上给出过时答案的次数，是认证记忆的 7.0–13.5 倍；在有精确 verifier 的代码任务上则为 35–73 倍，因此作者提出使用 likelihood-ratio 检测，并在变化后重新认证记忆。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Sequent-Prover: Training Agents for Formal, Checkable SMT-based Reasoning",
+      "url": "https://arxiv.org/abs/2610.15258",
+      "en": "Sequent-Prover trains agents to write executable SMT-LIB programs, query Z3, and repair formalizations through verifier-conditioned trajectory distillation, SFT, and trajectory-level preference optimization. Across 37 benchmarks, the 4B model improves per-attempt accuracy from 85.6% to 97.0% and four-sample all-correct reliability from 64.1% to 91.7%, while reducing solver calls and tokens, offering a concrete route to more checkable tool-assisted reasoning.",
+      "zh": "Sequent-Prover 通过 verifier-conditioned trajectory distillation、SFT 和轨迹级 preference optimization，训练 agent 编写可执行 SMT-LIB 程序、调用 Z3 并修正形式化表达。在 37 个 benchmark 上，4B 模型的单次准确率从 85.6% 提升至 97.0%，四次采样全部正确的可靠性从 64.1% 提升至 91.7%，同时减少 solver 调用和 token，为更可核验的工具辅助推理提供了具体路径。",
+      "tags": [
+        "reasoning",
+        "tool use",
+        "post-training",
+        "preference optimization"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Beyond Corrected Actions: Training LLM Agents on Textual Critiques",
+      "url": "https://arxiv.org/abs/2610.19367",
+      "en": "Critique-Augmented Agentic Fine-Tuning (CAFT) trains on expert corrections plus textual explanations of mistakes in student-generated trajectories. Across four Nemotron 3 and Gemma 4 students on τ²-Bench Airline+Retail and WebShop, critiques improve performance by 8% on average over action-only distillation and can provide a better RL warm start than expert-trajectory distillation, making supervision content a practical training lever.",
+      "zh": "Critique-Augmented Agentic Fine-Tuning（CAFT）在 student 生成的轨迹上，同时使用 expert 给出的正确动作和错误原因解释进行训练。在 τ²-Bench Airline+Retail 与 WebShop 上，四个 Nemotron 3 和 Gemma 4 student 加入 critique 后，相比仅使用动作的 distillation，表现平均提升 8%；所得 checkpoint 也能比 expert 轨迹 distillation 提供更好的 RL 起点，说明监督内容本身就是一个实用的训练改进方向。",
+      "tags": [
+        "LLM agents",
+        "post-training",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Qwen-MT-Lumen at WMT2026: Instruction-Specialized Translation via Quality-Aware Training and On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.19758",
+      "en": "Qwen-MT-Lumen targets translation that must satisfy terminology, style, and structured-output instructions across 23 translation directions. Its pipeline combines continued pretraining and SFT, online M²PO with LLM-judged candidate preferences, on-policy distillation into Qwen3-14B, and structure-aware repair, providing a concrete example of combining preference optimization and distillation for instruction-sensitive multilingual tasks.",
+      "zh": "Qwen-MT-Lumen 面向需要遵守术语、风格和结构化输出要求的翻译任务，参与了 23 个翻译方向。其流程结合 continued pretraining 与 SFT、使用 LLM 评分候选偏好的在线 M²PO、向 Qwen3-14B 进行 on-policy distillation，以及结构感知修复，为如何在指令敏感的 multilingual 任务中结合 preference optimization 与 distillation 提供了具体案例。",
+      "tags": [
+        "Qwen",
+        "preference optimization",
+        "distillation",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "ActICL: Post-Training for Agentic Multimodal In-Context Learning",
+      "url": "https://arxiv.org/abs/2610.19475",
+      "en": "ActICL post-trains a multimodal agent to identify information gaps, retrieve demonstrations through tools, and iteratively filter or expand its context before answering. A two-stage procedure jointly optimizes context acquisition and answering, turning demonstration selection from fixed retrieval into an adaptive agentic workflow with resource limits.",
+      "zh": "ActICL 通过 post-training，让 multimodal agent 识别信息缺口、使用工具检索示例，并在回答前迭代筛选或扩展 context。其两阶段流程联合优化 context 获取与回答，将示例选择从固定检索变成有资源约束的自适应 agentic workflow。",
+      "tags": [
+        "LLM agents",
+        "post-training",
+        "in-context learning",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "RM-OPD: On-Policy Distillation for Generative Reward Models",
+      "url": "https://arxiv.org/abs/2610.20174",
+      "en": "RM-OPD separates domain-specialist reward-model training from integration: single-domain GRPO teachers are consolidated through routed on-policy distillation with dense, signed token-level guidance on student critiques. Domain reweighting and optional criteria context distillation address interference and uneven capability acquisition, with reported improvements over vanilla mixed-domain RL across multiple reward-model benchmarks and two base models.",
+      "zh": "RM-OPD 将各领域 reward model 专家的训练与能力整合分开：先用单领域 GRPO 训练 teacher，再通过路由式 on-policy distillation，对 student 的 critique 提供带正负方向的密集 token 级指导并整合能力。领域重加权和可选的 criteria context distillation 用于缓解干扰与能力学习不均衡，论文报告其在多个 reward-model benchmark 和两个 base model 上优于普通 mixed-domain RL。",
+      "tags": [
+        "reward model",
+        "distillation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "本期最后一篇blog推荐",
+      "url": "https://www.rednote.com/explore/6ac671e700000000120368dd?xsec_token=ABZs4CixCX3iJJlHkI2lRmszGIqjFEL4MYdyQ6ZLDlkSs%3D&xsec_source=pc_user",
+      "en": "tabris's blog roundup includes AI as ICML AC, Griffin, Scaling Pre-Training in Practice: A Hierarchical Approach, Sharpening Tax, CUA-Speedrun, Spotlight Memory, and EurekaBench. The author says 图1's AI Rank results closely match their taste, calls 图4 a strong practical write-up, highly recommends 图6, and finds 图10 thought-provoking. Bottom line: 图1 (AI Rank matches tabris's taste), 图4 (pretraining practice), 图6 (strong research recommendation), 图8 (CUA-Speedrun introduction), 图10 (thought-provoking memory post), 图12 (EurekaBench introduction)",
+      "zh": "tabris 本期最后一篇 blog 推荐包括 AI as ICML AC、Griffin、Scaling Pre-Training in Practice: A Hierarchical Approach、Sharpening Tax、CUA-Speedrun、Spotlight Memory 和 EurekaBench。图1 最后的 AI Rank 结果和自己的喜好很接近，所以觉得它是个好研究（笑；图4 是很好的实战记录贴；图6 是很不错的研究，非常推荐各位找来看；图10 挺有想法的。一句话推荐: 图1（AI Rank 结果贴近 tabris 的喜好）、图4（pretraining 实战）、图6（非常推荐的研究）、图8（CUA-Speedrun 介绍）、图10（挺有想法的 memory 文章）、图12（EurekaBench 介绍）",
+      "tags": [
+        "evaluation",
+        "agents",
+        "memory",
+        "pretraining"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "本轮最后一篇paper推荐合集",
+      "url": "https://www.rednote.com/explore/6ac67687000000001c00f248?xsec_token=ABZs4CixCX3iJJlHkI2lRms2RcGKoZAccmjHWs5dZCa4Q%3D&xsec_source=pc_user",
+      "en": "tabris shares the final paper recommendation roundup of this round.",
+      "zh": "tabris 发布了本轮最后一篇 paper 推荐合集。",
+      "tags": []
+    }
+  ],
+  "generatedAt": "2026-10-15T20:24:17.815Z"
+}
