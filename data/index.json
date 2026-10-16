@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-16",
+    "count": 23,
+    "headline_en": "Reliable automation takes center stage as decision models, agent evaluations, and post-training research challenge the gap between benchmark performance and dependable deployment.",
+    "generatedAt": "2026-10-16T12:13:15.184Z"
+  },
+  {
     "date": "2026-10-15",
     "count": 16,
     "headline_en": "Agent and post-training research advances alongside evidence that benchmark defects, weak generalization, and unreliable memory can undermine reported gains.",
