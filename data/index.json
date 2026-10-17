@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-17",
+    "count": 9,
+    "headline_en": "AI workflows are becoming more persistent and integrated, while new research complicates assumptions about hidden reasoning and oversight.",
+    "generatedAt": "2026-10-17T12:50:07.241Z"
+  },
+  {
     "date": "2026-10-16",
     "count": 23,
     "headline_en": "Reliable automation takes center stage as decision models, agent evaluations, and post-training research challenge the gap between benchmark performance and dependable deployment.",
