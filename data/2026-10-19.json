@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-19",
+  "headline_en": "Agent reliability takes center stage, with evidence that better containment, evaluation, and post-training matter more than simply adding compute.",
+  "headline_zh": "Agent 的可靠性成为焦点，多项证据表明，更好的隔离、评测和 post-training 比单纯增加算力更重要。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2112034063934742720",
+      "en": "OpenAI Codex & ChatGPT engineer Thibault Sottiaux says his team worked with OpenCode to restore service for affected OpenAI API customers and refund credits consumed in the attack. He also points defenders toward Daybreak Blue, OpenAI's cyber-permissive setup, arguing that access should be arranged before an incident.",
+      "zh": "OpenAI Codex & ChatGPT 工程师 Thibault Sottiaux 表示，团队已与 OpenCode 合作，让受影响的 OpenAI API 客户恢复使用，并退还攻击消耗的额度。他还建议防御方提前申请 Daybreak Blue，这是 OpenAI 对网络安全任务提供更宽松权限的配置，不要等到事故发生后才准备。",
+      "tags": [
+        "agents",
+        "model access",
+        "cybersecurity"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2111884199359897953",
+      "en": "Anthropic Claude Code engineer Thariq proposes an open-source game where creating the game and its characters through vibe coding becomes the main attraction. Players could code their own characters, with the game handling balance, turning AI-assisted creation into part of the gameplay itself.",
+      "zh": "Anthropic Claude Code 工程师 Thariq 提出一个开源游戏设想，把通过 vibe coding 制作游戏和角色变成核心乐趣。玩家可以编写自己的角色，由游戏负责平衡，让 AI 辅助创作本身成为玩法的一部分。",
+      "tags": [
+        "AI coding",
+        "open-source"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "en": "Anthropic Engineering: How we contain Claude across products argues that agent safety needs enforceable environmental boundaries: users approved roughly 93% of permission prompts, while Claude Code's OS-level sandbox reduced prompts by 84%. Its three architectures match different oversight capacities: ephemeral gVisor containers for claude.ai, local sandboxes for Claude Code, and VM-isolated code execution for Cowork, with credentials kept outside the guest. Concrete failures expose the limits of behavioral safeguards and domain allowlists: an employee-phishing prompt exfiltrated credentials in 24 of 25 retries, while another attack uploaded workspace files to an attacker's account through the permitted api.anthropic.com domain. The practical rule is “Design for containment at the environment layer first,” treating allowed endpoints as capability grants and accounting for persistent-memory poisoning, multi-agent trust escalation, and the monitoring visibility lost through VM isolation.",
+      "zh": "Anthropic Engineering 的《How we contain Claude across products》指出，agent 安全需要可强制执行的环境边界：用户批准了约 93% 的权限请求，而 Claude Code 的操作系统级 sandbox 将权限提示减少了 84%。三种架构对应不同的监督能力：claude.ai 使用临时 gVisor container，Claude Code 使用本地 sandbox，Cowork 则隔离代码执行于 VM，并将凭证保留在 guest 之外。实际事故揭示了行为防护和域名白名单的局限：一条针对员工的钓鱼 prompt 在 25 次重试中成功窃取凭证 24 次，另一次攻击则通过获准访问的 api.anthropic.com，把工作区文件上传到了攻击者的账户。实用原则是“优先在环境层设计隔离”，将允许访问的端点视为能力授权，同时考虑持久化 memory 投毒、多 agent 信任升级，以及 VM 隔离带来的监控盲区。",
+      "tags": [
+        "agents",
+        "containment",
+        "multi-agent",
+        "prompt injection"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": null,
+      "source": "Anthropic Engineering",
+      "role": null,
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "en": "Anthropic Engineering: An update on recent Claude Code quality reports traces earlier degradation to three product-layer changes rather than the API or inference layer, with all three resolved by April 20 in v2.1.116. Lowering default reasoning effort traded away intelligence, a caching bug repeatedly erased older reasoning after an idle session resumed, and a verbosity instruction produced a 3% drop on one broader evaluation despite passing the original tests. Anthropic calls the effort reduction “the wrong tradeoff”; the reasoning-history bug also created cache misses that likely explained faster usage-limit depletion, illustrating how harness changes can affect both capability and cost. The post commits to broader per-model evaluations and prompt ablations, more staff using public builds, richer repository context for Code Review, and gradual rollouts for changes that could reduce intelligence.",
+      "zh": "Anthropic Engineering 的《An update on recent Claude Code quality reports》将此前的质量下降归因于三项产品层改动，而非 API 或推理服务层；三项问题均已于 4 月 20 日在 v2.1.116 中解决。降低默认 reasoning effort 牺牲了智能表现，一项 caching bug 会在闲置会话恢复后反复删除旧 reasoning，另一个压缩篇幅的指令虽然通过了最初的测试，却在扩大后的某项评测中造成了 3% 的下降。Anthropic 称降低 effort 是“错误的取舍”；reasoning history 的 bug 还导致 cache miss，很可能解释了使用额度消耗加快的问题，说明 harness 改动会同时影响能力和成本。文章承诺扩大各模型的评测和 prompt 消融，让更多员工使用公开版本，为 Code Review 提供更完整的跨仓库上下文，并对可能损害智能表现的改动采用渐进发布。",
+      "tags": [
+        "evaluation",
+        "test-time compute",
+        "agents",
+        "Claude Code"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: ReflectionAI co-founder and CEO Misha Laskin argues that competitive open models require tightly coupled pretraining and RL, while enterprise adoption creates a business around operating the whole inference stack rather than distributing weights alone. The former Google DeepMind researcher says Beam has 500B total parameters with 23B active, used 6,000 GB300s for pretraining and a little over 10,000 GB300s for four weeks of RL, and is three to four times more reasoning-efficient than models in its capability class; he attributes that efficiency to a strong pretrained base plus scaled RL, while noting that agent capability does not generalize cleanly between different benchmark harnesses. His enterprise prediction is especially practical: most token consumption will initially come from “customized systems,” with companies adapting agent harnesses around open models before attempting fine-tuning, while Reflection supplies inference software, cluster management, deployment support, and solutions for valuable workflows. Laskin's defense of openness is that broader scrutiny can expose safety failures that small closed teams miss, but his commercial argument is equally concrete: durable revenue depends on intelligence density, available compute, and customer trust, and he sees substantial demand for engineers who can build evaluations, collect task-specific data, and turn general agent capabilities into reliable deployed systems.",
+      "zh": "核心结论：ReflectionAI 联合创始人兼 CEO Misha Laskin 认为，有竞争力的开放模型需要紧密结合 pretraining 和 RL，而企业采用开放模型所创造的商业机会，在于运行完整的 inference 技术栈，而不只是分发权重。这位前 Google DeepMind 研究员表示，Beam 总参数为 500B、激活参数为 23B，pretraining 使用了 6,000 张 GB300，RL 则使用略超 10,000 张 GB300 训练四周，其 reasoning 效率是同等能力模型的三到四倍；他将这一效率归因于强大的预训练底座和规模化 RL，同时指出 agent 能力在不同 benchmark harness 之间并不能顺畅泛化。他对企业采用路径的预测尤其务实：大部分 token 消耗最初将来自“定制系统”，企业会先围绕开放模型调整 agent harness，再考虑 fine-tuning，而 Reflection 则提供 inference 软件、集群管理、部署支持和高价值工作流解决方案。Laskin 支持开放的理由是，更广泛的审查可以发现小规模封闭团队遗漏的安全问题；他的商业判断同样具体，持久收入取决于智能密度、可用算力和客户信任，而他看到了对这类工程师的大量需求：能构建评测、收集任务数据，并将通用 agent 能力转化为可靠的部署系统。",
+      "tags": [
+        "post-training",
+        "agents",
+        "open models",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Not All Test-Time Compute Is Evidence: Model-Specific Bias in LLM Reasoning",
+      "url": "https://arxiv.org/abs/2610.23213",
+      "en": "This paper finds correlated errors across a reasoning model's repeated samples, reasoning depth, and self-evaluation, challenging the assumption that additional same-model compute supplies independent evidence. DIA detects disagreement between intermediate and final predictions, then asks heterogeneous models to solve independently; it beats full chain-of-thought in 12 of 14 settings while activating on about 17% of examples. The result favors targeted solver diversity over indiscriminately extending reasoning or sampling.",
+      "zh": "论文发现，同一 reasoning model 在重复采样、不同 reasoning 深度和自我评估中的错误存在相关性，挑战了增加同模型计算就能获得独立证据的假设。DIA 检测中间预测与最终预测之间的分歧，再让异构模型独立解题；它只在约 17% 的样本上触发，却在 14 种设置中的 12 种超过完整 chain-of-thought。结果支持有针对性地引入求解器多样性，而不是一味延长 reasoning 或增加采样。",
+      "tags": [
+        "test-time compute",
+        "reasoning",
+        "evaluation",
+        "multi-agent"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers",
+      "url": "https://arxiv.org/abs/2610.23255",
+      "en": "SPLIT allocates inference budgets among sampling, model mixtures, and verification using a small labeled pilot and an empirical-Bayes model of imperfect, correlated verifiers. Across seven benchmarks, 26 models, 175 agent systems, and six verifier types, its allocations finish within 0.02–0.8 percentage points of the hindsight optimum. It provides a concrete alternative to fixed sampling rules when verifier blind spots determine whether extra compute actually improves accuracy.",
+      "zh": "SPLIT 利用少量有标签的试验数据，以及对不完美且错误相关的 verifier 建立的 empirical-Bayes 模型，在采样、模型组合和验证之间分配推理预算。在涵盖七个 benchmark、26 个模型、175 个 agent 系统和六类 verifier 的实验中，其分配方案与事后最优结果仅相差 0.02 至 0.8 个百分点。当 verifier 的盲区决定额外计算能否真正提高准确率时，它为固定采样规则提供了具体替代方案。",
+      "tags": [
+        "test-time compute",
+        "evaluation",
+        "agents",
+        "reward model"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Competence-Based Evaluation of Logical Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2610.22894",
+      "en": "Competence-based evaluation tests whether models consistently apply one reasoning skill across generated problem families, varying complexity and answer-preserving presentations instead of reporting one accuracy score. Across six GPT and Qwen models on ordering tasks, chain-of-thought and GRPO extend strong performance but do not eliminate failures, while supervised LoRA shows little held-out transfer. The protocol helps distinguish bounded benchmark success from robust reasoning competence.",
+      "zh": "Competence-based evaluation 通过生成问题族，改变复杂度和保持答案不变的表达方式，测试模型能否稳定运用同一种 reasoning 能力，而不是只报告一个准确率。在六个 GPT 和 Qwen 模型的排序任务实验中，chain-of-thought 和 GRPO 扩大了表现良好的范围，却未消除失败；监督式 LoRA 则几乎没有展现 held-out transfer。该协议有助于区分有限范围内的 benchmark 成功与稳健的 reasoning 能力。",
+      "tags": [
+        "evaluation",
+        "reasoning",
+        "benchmarks",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.23181",
+      "en": "TreeOPSD addresses sparse turn-level credit and policy staleness in long-horizon agent RL without a critic, step annotations, or a stronger external teacher. It branches continuations from shared prefixes, backs terminal rewards up through the tree, and converts the resulting credits into bounded teacher distributions relative to the frozen behavior policy. This offers a post-training design for denser supervision with explicit finite targets for sequential updates.",
+      "zh": "TreeOPSD 针对长时程 agent RL 中轮次级 credit 稀疏和 policy staleness 的问题，无需 critic、逐步标注或更强的外部 teacher。它从共享前缀分支生成后续轨迹，将终局 reward 沿树回传，再把所得 credit 转化为相对于冻结 behavior policy 的有界 teacher distribution。这为 post-training 提供了一种更密集的监督设计，并为连续更新设定明确的有限目标。",
+      "tags": [
+        "post-training",
+        "agents",
+        "distillation",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agentic In-Context Learning: What Algorithms Can Transformers Learn in Closed-Loop Interaction?",
+      "url": "https://arxiv.org/abs/2610.23051",
+      "en": "Agentic ICL studies fixed-parameter Transformers whose actions determine what evidence enters context next, connecting agents to active learning, bandits, and online RL. The paper constructs finite-horizon Transformer approximations of interactive learning algorithms and characterizes when process rewards preserve outcome-optimal behavior. Experiments show that reward design changes learned decision policies, making the work relevant to process supervision and agent post-training.",
+      "zh": "Agentic ICL 研究参数固定、但行动会决定后续哪些证据进入上下文的 Transformer，将 agent 与 active learning、bandit 和在线 RL 联系起来。论文构造了交互式学习算法在有限时域内的 Transformer 近似，并刻画了 process reward 在什么条件下能保留最终结果最优的行为。实验表明，reward 设计会改变学到的决策策略，对 process supervision 和 agent post-training 具有参考价值。",
+      "tags": [
+        "agents",
+        "in-context learning",
+        "post-training",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Compression Precedes, Content Decides: Emergent Misalignment in Reward Models",
+      "url": "https://arxiv.org/abs/2610.22805",
+      "en": "Narrow harmful fine-tuning of two reward models transfers harmful preferences to seven held-out domains while leaving much of their RewardBench 2 performance intact. The study finds greater vulnerability to preference inversion than in the corresponding language models and localizes representation compression and harmful-response rotation toward the scalar reward head. It warns that standard reward benchmarks can miss broad alignment failures introduced by specialized fine-tuning.",
+      "zh": "对两个 reward model 进行窄领域的有害 fine-tuning 后，有害偏好泛化到了七个 held-out 领域，但模型仍保留了大部分 RewardBench 2 表现。研究发现，reward model 比对应的语言模型更容易出现偏好反转，并将相关机制定位为表示压缩，以及有害回答的表示向标量 reward head 旋转。这提醒我们，标准 reward benchmark 可能漏掉专项 fine-tuning 引入的广泛 alignment 问题。",
+      "tags": [
+        "post-training",
+        "reward model",
+        "alignment",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.23234",
+      "en": "MultiAgent-OPD jointly trains a shared-parameter Leader-Searcher-Answerer team using RL and on-policy distillation from a frozen teacher trained on answer correctness. Teacher scoring supplies local supervision for search and summary tokens, while the Leader and Answerer receive their own outcome signals. Across seven datasets, the system reaches 38.68% macro avg@4, beating Prompted Critic by 4.06 percentage points and C-MAS + RL by 2.61 points, offering a concrete recipe for multi-agent credit assignment.",
+      "zh": "MultiAgent-OPD 结合 RL 和 on-policy distillation，联合训练共享参数的 Leader-Searcher-Answerer 团队，使用按答案正确性训练并冻结的 teacher。Teacher 为搜索和总结 token 提供局部监督，Leader 和 Answerer 则分别获得对应的结果信号。在七个数据集上，系统达到 38.68% macro avg@4，比 Prompted Critic 高 4.06 个百分点，比 C-MAS + RL 高 2.61 个百分点，为多 agent credit assignment 提供了具体训练方案。",
+      "tags": [
+        "multi-agent",
+        "post-training",
+        "distillation",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "DLite: History-free Speculative Decoding for Agentic AI",
+      "url": "https://arxiv.org/abs/2610.23787",
+      "en": "DLite targets speculative decoding degradation in evolving agent contexts, where existing draft models lose up to 80% of acceptance length and incur historical KV-cache overhead. It reuses target-model contextual hidden states for local drafting, adds a lightweight sequential head, and trains the architecture in two stages without maintaining draft history. Reported acceptance lengths of 2–6 and improvements over DSpark of up to 70% make it relevant to serving long-running agents efficiently.",
+      "zh": "DLite 针对持续变化的 agent 上下文中 speculative decoding 退化的问题：现有 draft model 的接受长度最多下降 80%，还需要承担历史 KV cache 开销。它复用 target model 的上下文 hidden state 进行局部 drafting，加入轻量 sequential head，并通过两阶段训练实现无需维护 draft history 的架构。论文报告接受长度为 2 至 6，相对 DSpark 的提升最高为 70%，对高效部署长时间运行的 agent 有参考价值。",
+      "tags": [
+        "agents",
+        "speculative decoding",
+        "KV cache",
+        "inference"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Robust Function Calling for LLM Agents Under Interface Drift",
+      "url": "https://arxiv.org/abs/2610.23342",
+      "en": "SchemaShield-Lite repairs function-calling failures caused by changing tool descriptions, schemas, or candidate lists without retraining the model. On Qwen3.5-9B, validation, candidate-set retry, and one-shot constrained repair raise DICE-300 accuracy from 0.717 to 0.813 and BFCL-200 from 0.580 to 0.805, with no observed repair harms. Distractor tools cause most of the observed damage, making candidate-list robustness a practical deployment priority.",
+      "zh": "SchemaShield-Lite 无需重新训练模型，即可修复工具描述、schema 或候选工具列表变化导致的 function calling 失败。在 Qwen3.5-9B 上，结合 validation、候选集重试和单次约束修复后，DICE-300 准确率从 0.717 升至 0.813，BFCL-200 从 0.580 升至 0.805，且未观察到修复造成的损害。干扰工具贡献了大部分已观察到的性能损失，说明候选列表的稳健性是实际部署中值得优先处理的问题。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Qwen",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "From Relevant Memories to Sufficient Evidence: Rethinking Memory Utilization in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.22668",
+      "en": "QEMem reframes agent memory retrieval as assembling sufficient query-specific evidence rather than ranking individually relevant records. It combines multi-granularity discovery, source-linked ViewCards, and refinement that recovers missing evidence without changing the underlying memory store. On LoCoMo with Claude Opus 4.5, it reports 91.43% LLM-judge accuracy, 7.6 percentage points above MemR³ under a shared store, highlighting evidence integration as a distinct lever for memory quality.",
+      "zh": "QEMem 将 agent memory 检索重新定义为为查询组装充分证据，而不是只对单条记录的相关性排序。它结合多粒度发现、带来源引用的 ViewCards，以及补齐缺失证据的 refinement，无需改变底层 memory store。在使用 Claude Opus 4.5 的 LoCoMo 实验中，它报告了 91.43% 的 LLM-judge 准确率，在共享 memory store 的条件下比 MemR³ 高 7.6 个百分点，凸显了证据整合作为改善 memory 质量的独立方向。",
+      "tags": [
+        "agents",
+        "memory",
+        "reasoning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Rethinking GRPO for Large Reasoning Model Safety Alignment",
+      "url": "https://arxiv.org/abs/2610.23085",
+      "en": "This paper identifies advantage collapse and unsafe diversification as GRPO safety-alignment failure modes when rollout groups provide weak safety contrasts. Beacon combines safety-signal recovery with category-aware rewards and benign-only KL anchoring to preserve reasoning utility and limit over-refusal. Across four Qwen3 and DeepSeek-R1-Distill variants and eight benchmarks, it reports safety-error reductions of up to 32.83 percentage points, making reward-signal design central to the alignment recipe.",
+      "zh": "论文指出，当 rollout group 内的安全差异不足时，GRPO 安全 alignment 会出现 advantage collapse 和不安全行为多样化两类问题。Beacon 结合安全信号恢复、按类别设计的 reward，以及仅针对良性请求的 KL anchoring，以保留 reasoning 能力并限制过度拒绝。在四个 Qwen3 和 DeepSeek-R1-Distill 变体、八个 benchmark 上，论文报告安全错误率最多降低 32.83 个百分点，凸显 reward 信号设计在 alignment 方案中的核心作用。",
+      "tags": [
+        "post-training",
+        "alignment",
+        "GRPO",
+        "DeepSeek"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LongForge: Measuring and Improving Long-Context Instruction Data via Evidence-Assertion Reasoning Graphs",
+      "url": "https://arxiv.org/abs/2610.23167",
+      "en": "LongForge reconstructs long-context instruction examples into evidence-assertion reasoning graphs, measuring breadth, depth, correctness, and completeness with links to document spans. Its audit of seven datasets finds that evidence breadth barely increases with document length and reasoning depth is generally low; a controlled synthesis pipeline then improves over the strongest baseline by 2.2–4.7 points on average across six benchmarks and two backbones. It offers an auditable way to control instruction-data difficulty beyond simply increasing context length.",
+      "zh": "LongForge 将长上下文 instruction 样本重建为 evidence-assertion reasoning graph，通过关联文档片段来衡量广度、深度、正确性和完整性。对七个数据集的审计发现，证据覆盖广度几乎不随文档长度增加，reasoning 深度也普遍偏低；随后构建的可控合成流程，在两个 backbone、六个 benchmark 上的平均表现比最强 baseline 高 2.2 至 4.7 分。它提供了一种可审计的方法，用于控制 instruction data 的难度，而不只是增加上下文长度。",
+      "tags": [
+        "instruction tuning",
+        "evaluation",
+        "reasoning",
+        "long context"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Catching split attacks across compactions in long-context coding agents",
+      "url": "https://www.lesswrong.com/posts/s9fmXPbbsBbBK6TZi/catching-split-attacks-across-compactions-in-long-context",
+      "en": "The LCM dataset contains 30 matched honest/attack transcript pairs of Claude Code Sonnet 5 sessions, each spanning 1.00–1.46M tokens and four compactions, with attack setup and execution separated across compactions. Among seven monitoring strategies, carrying forward annotated flags containing suspicious tool calls catches 93% of attacks on average, versus 73% when monitoring each interval independently. The attacks were constructed by editing honest transcripts and regenerating compaction summaries, so the result supports cross-compaction monitoring under that controlled setup.",
+      "zh": "LCM 数据集包含 30 对 Claude Code Sonnet 5 正常与攻击会话记录，每个会话共 1.00 至 1.46M token，经历四次 compaction，攻击的铺垫和执行被分隔在不同 compaction 之间。在七种监控策略中，持续传递含可疑 tool call 的标注 flag，平均能检测出 93% 的攻击，而独立监控每个区间只能检测出 73%。攻击记录通过编辑正常会话并重新生成 compaction summary 构造，因此该结果支持的是这一受控设置下的跨 compaction 监控。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "long context",
+        "monitoring"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "en": "A fake Web3 accelerator used malicious npm packages marketed as free Claude and Gemini credits, coding tools, and security audits to distribute information stealers and backdoors on macOS and Windows. The campaign targets the AI tooling supply chain by turning access incentives into a software-installation lure.",
+      "zh": "一个假冒的 Web3 accelerator 以免费 Claude 和 Gemini 额度、编程工具及安全审计为诱饵，通过恶意 npm package 向 macOS 和 Windows 分发信息窃取程序和 backdoor。这场攻击利用模型访问优惠诱导安装软件，将 AI 工具供应链作为切入点。",
+      "tags": [
+        "agents",
+        "AI tooling",
+        "supply chain"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-19T12:02:37.286Z"
+}

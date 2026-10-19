@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-19",
+    "count": 20,
+    "headline_en": "Agent reliability takes center stage, with evidence that better containment, evaluation, and post-training matter more than simply adding compute.",
+    "generatedAt": "2026-10-19T12:02:37.286Z"
+  },
+  {
     "date": "2026-10-18",
     "count": 3,
     "headline_en": "Agents are moving into real workflows, while database safeguards and fine-tuning failures expose the reliability challenges behind deployment.",
