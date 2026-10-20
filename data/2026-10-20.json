@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-20",
+  "headline_en": "Shared company agents and focused human attention emerge as practical priorities, while research explores continuous attention and the limits of scaling AI safety work.",
+  "headline_zh": "共享公司 agent 与人类专注力成为实践重点，研究则探索连续化 Attention 和扩大 AI safety 研究规模的限制。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2112219173288120531",
+      "en": "Anthropic Claude Code builder Thariq argues that people multitasking with agents could benefit from slowing down. His advice is to identify the P0 and consider what giving it full attention would look like, since much of the surrounding activity may not matter.",
+      "zh": "Anthropic Claude Code 开发者 Thariq 认为，同时用多个 agent 处理任务的人，不妨放慢节奏。他建议先找出 P0，再想想全神贯注投入其中会是什么样，因为周围忙着做的很多事情可能并不重要。",
+      "tags": [
+        "agents",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "Why Every Traded Personal Agents for One Company Agent",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The Takeaway: Every found that a shared company agent made improvements and organizational context available to everyone, while individual agents demanded maintenance that many employees did not want to sustain. Every head of platform Willie Williams, who helped lead the engineering effort, describes a progression from a Slack crowded with personal bots and a difficult attempt to build a hosting platform around OpenClaw to a shared agent for operations and project management, asking, “why don't we take all that energy and put it into one agent that the whole company benefits from?” Personal agents initially made colleagues’ prompting techniques and workflows visible, but setup, security, breakage, and remembering which bot had which expertise pushed the team toward a common system; Williams expects workplace agents to accumulate company context while personal agents remain attractive for individualized needs outside work. His engineering-management lesson is equally concrete: agents can consolidate Slack, email, and customer reports, check metrics every five minutes for anomalies, and route alerts, but the manager’s highest-value work remains identifying bottlenecks and talking to people rather than maximizing coding token usage.",
+      "zh": "核心观点：Every 发现，共享公司 agent 能让所有人受益于持续改进和组织上下文，而个人 agent 所需的维护投入，许多员工并不愿意长期承担。参与领导这项工程的 Every 平台负责人 Willie Williams 描述了团队如何从 Slack 里挤满个人 bot、艰难尝试围绕 OpenClaw 搭建托管平台，转向用共享 agent 处理运营和项目管理；他提出：“为什么不把这些精力都投入一个能让全公司受益的 agent？”个人 agent 最初让同事的 prompt 技巧和工作流变得可见，但配置、安全、故障，以及记住各个 bot 擅长什么的负担，推动团队采用统一系统；Williams 预计，工作场景中的 agent 会不断积累公司上下文，个人 agent 则会继续满足工作之外的个性化需求。他对工程管理的判断也很具体：agent 可以汇总 Slack、邮件和客户反馈，每五分钟检查指标异常并分发告警，但管理者最有价值的工作仍是找出瓶颈、与人沟通，而不是追求写代码时的 token 用量。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "engineering management",
+        "organizational memory"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "连续化 Softmax Attention",
+      "url": "https://spaces.ac.cn/archives/11980",
+      "en": "科学空间|Scientific Spaces: 连续化 Softmax Attention examines the idea in Continuum Attention of extending attention from a finite collection of vectors to a continuous formulation. The starting point is Softmax Attention as a weighted mixture operator, making this a conceptual direction worth following for readers interested in attention mechanisms.",
+      "zh": "科学空间|Scientific Spaces：《连续化 Softmax Attention》介绍了 Continuum Attention 中将 Attention 从有限向量集合推广到连续形式的想法。文章从 Softmax Attention 作为加权混合算子的定义出发，对关注 Attention 机制的读者来说，这是一个值得跟进的理论方向。",
+      "tags": [
+        "attention",
+        "Chinese ML community"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "1000 Years of AI Safety",
+      "url": "https://www.lesswrong.com/posts/F532cjfTZHMbJqkNA/1000-years-of-ai-safety",
+      "en": "LessWrong: 1000 Years of AI Safety presents a model estimating how much safety research could be produced if new large training runs were banned and the top three US labs redirected GPUs and researchers toward safety. Across assumptions about pause duration, AI capability, and trust, it projects that a three-year pause could produce 1,000 times the entire 2025 field’s research output, while identifying human verification as a major constraint. Its nine-year autonomous-work scenario would require 2.8 million verifiers, falling to 150,000 under safer verification protocols; these are modeled projections rather than demonstrated productivity gains.",
+      "zh": "LessWrong：《1000 Years of AI Safety》建立模型，估算禁止新的大规模训练、并让美国前三家 AI 实验室将 GPU 和研究人员转向 safety 研究后，可能产生多少研究成果。模型考虑了暂停时长、AI 能力和信任程度等不同假设，预测暂停三年可能产出相当于整个领域 2025 年研究量的 1,000 倍，同时指出人工验证是一项主要约束。在其连续九年自主研究的情景下，验证工作需要 280 万人；采用更安全的验证协议后，这一数字降至 15 万人。这些是模型推算，并非已经实现的生产率提升。",
+      "tags": [
+        "AI safety",
+        "evaluation",
+        "compute policy"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-20T12:01:19.053Z"
+}

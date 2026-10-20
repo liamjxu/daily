@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-20",
+    "count": 5,
+    "headline_en": "Shared company agents and focused human attention emerge as practical priorities, while research explores continuous attention and the limits of scaling AI safety work.",
+    "generatedAt": "2026-10-20T12:01:19.053Z"
+  },
+  {
     "date": "2026-10-19",
     "count": 20,
     "headline_en": "Agent reliability takes center stage, with evidence that better containment, evaluation, and post-training matter more than simply adding compute.",
