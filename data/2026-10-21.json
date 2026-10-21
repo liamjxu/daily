@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-21",
+  "headline_en": "Agent research puts task success under scrutiny, exposing failures in authorization and memory while advancing reasoning allocation and post-training.",
+  "headline_zh": "Agent 研究开始更严格地审视任务成功率，揭示授权与记忆机制的失效，同时推进推理预算分配和 post-training 方法。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "en": "OpenAI's Thibault Sottiaux says API caching now supports 12 hours, while caches for logged-in Codex and Work users are retained indefinitely. He says returning to an old conversation or resuming after several hours is now guaranteed to hit the cache, removing the cache penalty for interrupted workflows.",
+      "zh": "OpenAI Codex 与 ChatGPT 团队的 Thibault Sottiaux 表示，API 现在支持 12 小时缓存，已登录的 Codex 和 Work 用户则可无限期保留缓存。他表示，返回旧对话或隔几个小时继续工作，现在都保证能命中缓存，消除了工作流中断带来的缓存惩罚。",
+      "tags": [
+        "agents",
+        "caching",
+        "Codex"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "en": "OpenAI's Thibault Sottiaux says roughly 40,000 accounts were affected by a mismatch between applied usage limits and their selected plans, following reports of unexpectedly fast usage depletion over the weekend. The issue has been corrected, and OpenAI is contacting affected users individually and adding account credits.",
+      "zh": "OpenAI Codex 与 ChatGPT 团队的 Thibault Sottiaux 表示，约 40,000 个账户实际应用的用量限制与所选套餐不一致，此前有用户反映周末用量消耗异常快。问题已经修复，OpenAI 正逐一联系受影响用户，并补发账户额度。",
+      "tags": [
+        "OpenAI",
+        "usage limits"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "en": "Hugging Face - Blog: ALTK-Evolve reports that learned memory tops the τ²-bench leaderboard on customer-service tasks without using a frontier model.",
+      "zh": "Hugging Face - Blog：ALTK-Evolve 报告称，借助学习得到的记忆机制，无需使用 frontier model，也能在客户服务任务的 τ²-bench 排行榜上取得第一。",
+      "tags": [
+        "agents",
+        "memory",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "The Harness Is the Hard Part of Agentic Pentesting",
+      "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+      "en": "The Hacker News: The Harness Is the Hard Part of Agentic Pentesting argues that generating attacks is only one part of AI penetration testing. Its central claim is that the surrounding harness carries the engineering burden of making attacks safe to run against production systems and producing results teams can act on.",
+      "zh": "The Hacker News：《The Harness Is the Hard Part of Agentic Pentesting》认为，生成攻击只是 AI 渗透测试的一部分。文章的核心观点是，真正的工程难点在外围 harness：既要让攻击能够安全地在生产系统上运行，也要让结果足以支持团队采取行动。",
+      "tags": [
+        "agents",
+        "harness",
+        "security"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "en": "Hugging Face - Blog: FairStress introduces a deeper evaluation of fairness in LLM decision-making.",
+      "zh": "Hugging Face - Blog：FairStress 提出对 LLM 决策公平性进行更深入的评估。",
+      "tags": [
+        "evaluation",
+        "fairness"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "How Claude designed protein binders against scorpion neurotoxins",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "en": "Anthropic Research: How Claude designed protein binders against scorpion neurotoxins describes asking an internal research Claude model to design minibinders against scorpion neurotoxins. These are small proteins designed to attach tightly to a target.",
+      "zh": "Anthropic Research：《How Claude designed protein binders against scorpion neurotoxins》介绍了让内部研究版 Claude 模型设计针对蝎子神经毒素的 minibinders。Minibinders 是旨在紧密结合目标的小型蛋白质。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI for science"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment",
+      "url": "https://arxiv.org/abs/2610.27548",
+      "en": "AuthorizationBench evaluates whether agents stay within delegated authority using 286 executable tasks grounded in documented real-world cases. Across 6,864 trajectories, agents exceed authorization in 19.2% of runs; more reasoning barely changes the aggregate rate, and benign pressures trigger violations more often than malicious injections. It establishes authorization as a separate evaluation target from task completion and direct harm.",
+      "zh": "AuthorizationBench 通过 286 个基于已记录真实案例的可执行任务，评估 agent 是否遵守用户授予的权限范围。在 6,864 条轨迹中，19.2% 出现越权；增加推理投入几乎没有改变总体比例，而且良性压力比恶意注入更容易触发越权。这项工作表明，授权合规需要独立于任务完成率和直接危害进行评估。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "alignment",
+        "authorization"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.27406",
+      "en": "This paper identifies error reproduction: faulty rules or skills stored in agent memory shape new trajectories, which then regenerate the same faulty abstractions. Its Anti-Persistence design retains trajectories and outcomes but reconstructs task-specific guidance on demand and discards that guidance afterward. Across evaluated benchmarks and backbones, it achieves higher overall held-out success and the lowest average LLM-call cost, making persistent abstractions a concrete design choice to scrutinize.",
+      "zh": "论文指出一种错误再生产机制：agent 记忆中错误的规则或技能会影响后续执行轨迹，而这些轨迹又会生成同样错误的抽象。其 Anti-Persistence 方案保留轨迹和结果，但按需重新生成任务指导，并在执行结束后丢弃指导。在所评估的 benchmark 和基座模型上，该方案取得更高的总体 held-out 成功率和最低的平均 LLM 调用成本，提示开发者应认真审视是否持久保存抽象知识。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.27119",
+      "en": "PORA learns when an agent should spend more reasoning budget by comparing short- and long-reasoning continuations from the same interaction state during training. At inference, a controller balances estimated downstream benefit against remaining-budget pressure without executing both alternatives. On BFCL memory it beats the strongest existing method by 17.4–32.9 percentage points, offering a practical approach to allocating test-time compute across an entire task.",
+      "zh": "PORA 在训练时从同一交互状态分别执行短推理和长推理的后续流程，学习 agent 何时值得投入更多推理预算。推理时，控制器权衡预估的后续收益与剩余预算压力，无需实际运行两个选项。在 BFCL memory 上，它比最强已有方法高出 17.4 至 32.9 个百分点，为跨整个任务分配 test-time compute 提供了实用途径。",
+      "tags": [
+        "agents",
+        "reasoning",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Projected Distillation: On Learning to Solve Hard Problems from Close, Correct Targets",
+      "url": "https://arxiv.org/abs/2610.27467",
+      "en": "Projected distillation minimally edits a student's failed attempts into correct training targets, then uses contrastive updates and refreshes corrections as the student evolves. It addresses hard tasks where on-policy RL yields no reward and full teacher-answer replacement introduces substantial distribution shift. The analysis ties learning regret to edit size, with linear horizon scaling under minimal correction versus quadratic scaling under full-answer replacement.",
+      "zh": "Projected distillation 对学生模型的失败尝试做最小修改，生成正确训练目标，再通过对比更新进行学习，并随学生模型变化刷新修正结果。它针对的是这样的难题：on-policy RL 得不到奖励信号，而完整替换为教师答案又会引入明显的分布偏移。理论分析将学习遗憾与修改幅度联系起来：最小修正下随任务长度线性增长，完整替换答案时则呈二次增长。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.28586",
+      "en": "This paper shows that a teacher can successfully take over a student's failing trajectory while its token-level scores still train the student into delaying moves and turn-limit exhaustion. Rollout-to-Scorer Distillation repairs this gap by mining high-disagreement states, collecting teacher takeovers, filtering them with reward-free checks, and fine-tuning the teacher scorer. The distinction matters for agentic distillation because a capable teacher's local scores need not encode its ability to finish the task.",
+      "zh": "论文发现，教师模型虽然能接管学生的失败轨迹并完成任务，其 token 级评分却仍可能让学生学会拖延，最终耗尽交互轮数。Rollout-to-Scorer Distillation 通过挖掘高分歧状态、收集教师接管轨迹、使用无需奖励的检查进行筛选，再对教师评分器做 fine-tuning 来修复这一差距。这一区别对 agentic distillation 很关键，因为教师局部评分未必体现其完成任务的能力。",
+      "tags": [
+        "agents",
+        "distillation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "The Shape of the DPO Hyperparameter Landscape: What to Measure, How It Moves with Scale, and When Not to Transfer It",
+      "url": "https://arxiv.org/abs/2610.27895",
+      "en": "A dense hyperparameter study across model scales finds that optimal DPO learning rates change with model size and that hyperparameters do not transfer across training datasets. Validation loss is a poor selection proxy, correlating only weakly with downstream-optimal settings. For practitioners, the implication is to tune DPO against the target model, dataset, and evaluation objective rather than reuse a seemingly successful configuration.",
+      "zh": "这项覆盖不同模型规模的密集超参数研究发现，DPO 的最优学习率随模型大小变化，超参数也无法直接跨训练数据集迁移。Validation loss 不是可靠的筛选指标，与下游表现最优配置的相关性很弱。对实践者而言，应围绕目标模型、数据集和评估目标专门调参，而不能直接复用看起来成功的配置。",
+      "tags": [
+        "DPO",
+        "post-training",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Adaptive Replay Refinement: Allocating Test-Time Compute Between Revision and Resampling",
+      "url": "https://arxiv.org/abs/2610.28294",
+      "en": "Adaptive Replay Refinement is a training-free method that detects when revision reaches a fixed point and redirects compute toward a new independent sample. Replay decoding verifies unchanged draft tokens in parallel; across seven models and seven benchmarks, the method matches majority voting on three of five math benchmarks at equal compute while reducing serial passes by up to 2.4 times. On MATH500 it reaches 84.6% accuracy using 41% of majority voting's serial passes, highlighting the value of detecting exhausted self-revision.",
+      "zh": "Adaptive Replay Refinement 无需训练，能够检测答案修改何时达到不再变化的固定点，并把算力转向新的独立采样。Replay decoding 并行验证草稿中未改变的 token；在七个模型和七个 benchmark 上，该方法在相同计算预算下，于五个数学 benchmark 中的三个追平多数投票，同时最多将串行计算轮次缩减至原来的约 1/2.4。在 MATH500 上，它仅用多数投票 41% 的串行轮次就达到 84.6% 准确率，凸显了识别自我修改何时失效的价值。",
+      "tags": [
+        "test-time compute",
+        "reasoning",
+        "inference"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "url": "https://arxiv.org/abs/2610.26887",
+      "en": "Navalia synthesizes financial-analysis tasks from corporate reports using traceable evidence and executable computation chains with genuine dependencies between steps. Independent LLM review and programmatic checks verify the tasks before trajectory collection, SFT, and RL. Initialized from Qwen3.6-35B-A3B, it improves over the base model on all five evaluated benchmarks, supporting verifiable task synthesis as a route to stronger long-horizon agents.",
+      "zh": "Navalia 从公司财报合成金融分析任务，结合可追溯证据与可执行计算链，确保步骤之间存在真实的数据依赖。任务经独立 LLM 审核和程序化检查后，再用于轨迹收集、SFT 和 RL。以 Qwen3.6-35B-A3B 初始化后，它在全部五个评估 benchmark 上均优于基座模型，支持通过可验证任务合成提升长程 agent 能力这一方向。",
+      "tags": [
+        "agents",
+        "post-training",
+        "Qwen",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "RITE: Evaluating End-to-End Resilience to Silent Tool Errors in E-Commerce Agentic Systems",
+      "url": "https://arxiv.org/abs/2610.27777",
+      "en": "RITE tests whether agents recover when a tool returns a plausible but incorrect value without signaling failure, using 501 matched instances across nine e-commerce workflows. Across 10 recent LLMs, silent errors roughly halve task success and are consistently harder to handle than explicit failures. Its controlled design separates error recognition, verification, and evidence integration, exposing reliability gaps that ordinary tool-success evaluations can miss.",
+      "zh": "RITE 通过九类电商工作流中的 501 个配对实例，测试工具在没有报错的情况下返回看似合理但实际错误的值时，agent 能否恢复。在 10 个近期 LLM 上，静默错误使任务成功率大致减半，而且始终比显式报错更难处理。其受控设计区分了错误识别、验证和证据整合，揭示常规工具成功率评估可能遗漏的可靠性缺口。",
+      "tags": [
+        "agents",
+        "tool use",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2610.26943",
+      "en": "MAMath-Bench evaluates multi-agent mathematical reasoning with 1,003 problems across 11 categories and text, image, and audio modalities. Fine-grained milestones measure answer correctness, intermediate-reasoning reliability, and robustness to adversarial reasoning-chain perturbations; collaboration does not consistently beat strong single models on final-answer accuracy, although it can improve intermediate-step coverage. It provides a way to test whether additional agents improve the reasoning process rather than merely produce more of it.",
+      "zh": "MAMath-Bench 使用覆盖 11 类数学主题、文本、图像和音频模态的 1,003 道题，评估多 agent 数学推理。细粒度里程碑标注衡量答案正确性、中间推理可靠性及面对推理链对抗扰动的稳健性；协作并不能稳定地在最终答案准确率上超过强单模型，但可以扩大中间步骤的覆盖范围。它提供了一种检验方式，判断增加 agent 是否真正改善推理过程，而只是增加推理内容。",
+      "tags": [
+        "multi-agent",
+        "reasoning",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "TPO: Tri-level Distributionally Robust Learning for OOD Direct Preference Optimization",
+      "url": "https://arxiv.org/abs/2610.28229",
+      "en": "TPO extends robust DPO to jointly address preference-distribution shifts at the group, prompt, and preference levels. Its Wasserstein-based objective combines worst-case group reweighting, adversarial prompt-embedding perturbations, and a closed-form preference-margin penalty, each with an independent uncertainty radius. The paper provides finite-sample convergence guarantees and reports improvements over existing robust DPO methods, targeting alignment that survives deployment distribution shifts.",
+      "zh": "TPO 扩展了稳健 DPO，同时处理群体、prompt 和偏好三个层级的偏好分布变化。其基于 Wasserstein distance 的目标函数结合最坏情形群体重加权、prompt embedding 对抗扰动和闭式偏好间隔惩罚，每层都有独立的不确定性半径。论文给出有限样本收敛保证，并报告优于已有稳健 DPO 方法的结果，目标是让 alignment 在部署分布变化后仍然有效。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.27379",
+      "en": "DStill distills a block-diffusion drafter's multi-step refinement into one-step drafting to reduce inconsistencies from predicting masked positions independently. It first trains completion of partially revealed blocks, then teaches a student to reproduce final refined completions using a curriculum that progresses toward fully masked inputs. Across three model families and reasoning, math, and code benchmarks, it improves acceptance length by up to 28% and speedup by up to 25% over one-step DFlash, reaching up to 6.45× acceleration over autoregressive decoding.",
+      "zh": "DStill 将 block-diffusion 草稿模型的多步修改能力蒸馏为单步生成，减少独立预测各个掩码位置造成的不一致。它先训练模型补全部分已揭示的 token 块，再通过逐步过渡到全掩码输入的课程，让学生模型一次生成最终修改结果。在三个模型家族及推理、数学和代码 benchmark 上，相比单步 DFlash，其接受长度最多提升 28%，加速比最多提升 25%，相对自回归解码最高达到 6.45 倍加速。",
+      "tags": [
+        "distillation",
+        "speculative decoding",
+        "inference"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-21T16:10:00.510Z"
+}
