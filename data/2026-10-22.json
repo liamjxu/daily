@@ -1,0 +1,294 @@
+{
+  "date": "2026-10-22",
+  "headline_en": "Proactive agents raise the stakes for reliable execution, while new research exposes gaps in preference optimization, reasoning evaluation, and agent memory.",
+  "headline_zh": "主动型 agent 对可靠执行提出更高要求，新研究则揭示了 preference optimization、推理评估和 agent memory 中的薄弱环节。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2112984666437546104",
+      "en": "Anthropic's official Claude account introduced Claude Duet, a proactive assistant built around Claude Opus 5.5 that judges what needs attention, what can wait, and when to ask first. It inherits account memory, skills, and connected apps; Anthropic says it never directly sees passwords and uses a classifier to guard against sharing sensitive information. The early research preview is available through a waitlist for US Pro and Max users, with urgency judgments still being refined.",
+      "zh": "Anthropic 的 Claude 官方账号介绍了 Claude Duet，这款基于 Claude Opus 5.5 的主动型助手会判断哪些事情需要处理、哪些可以等待，以及何时应先征求用户意见。它沿用账号中的 memory、skills 和 connected apps；Anthropic 表示，它不会直接看到密码，并通过 classifier 防止分享敏感信息。目前该产品以 early research preview 形式向美国 Pro 和 Max 用户开放候补申请，对事情紧迫程度的判断仍在改进。",
+      "tags": [
+        "agents",
+        "Anthropic",
+        "Opus 5.5"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "How a Frontier Team Can Help Your Company Keep Up With AI",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The Takeaway: A dedicated frontier team can absorb the cost of tracking new AI capabilities, but its value depends on turning experiments into workflows that the rest of the company actually adopts. Every CEO Dan Shipper describes pairing fast-moving “pirates,” who test many ideas and tolerate messy prototypes, with architects who turn promising experiments into maintainable systems, giving the wider organization room to deliver dependable products without continually reassessing every model release. Every's head of evals Mike Taylor is building personal benchmarks from people's real work through Chex, replacing qualitative impressions with measurable tests, and demonstrates an Opus workflow that gathers Slack messages and meeting notes, constructs an auditable narrative with source references, and assembles an explainer video; another internal workflow tracks token spending across harnesses, models, effort levels, and work categories so experimentation can be assessed against its cost. The practical frontier also includes Minga, an orchestrator that decomposes goals into dependency-aware plans, starts background tasks, and requests human decisions, alongside customized browsers and writing tools, but the strongest organizational lesson is Kieran's warning that experimentation must return to the business: “Make sure some stick,” with digestible explanations, feedback from colleagues, and deliberate integration carrying as much weight as the ability to generate more prototypes.",
+      "zh": "核心 takeaway：专门的 frontier team 可以承担追踪 AI 新能力的成本，但它的价值取决于能否把实验转化为公司其他人真正采用的工作流。Every CEO Dan Shipper 主张，让快速尝试大量想法、能接受原型杂乱的“pirates”，与负责把有潜力的实验改造成可维护系统的 architects 搭配，让其他团队能够稳定交付产品，而不用随着每次模型发布不断重新评估工具。Every 的 head of evals Mike Taylor 正通过 Chex，把大家的真实工作做成 personal benchmarks，用可测量的测试替代主观印象；他还展示了一个 Opus 工作流，可以汇总 Slack 消息和会议笔记，组织带有来源引用、可审查的叙事，再制作成讲解视频，另一个内部工作流则按 harness、模型、effort level 和工作类别追踪 token 支出，用于判断实验是否值得投入。实际探索还包括 Minga，它能把目标拆成带依赖关系的计划，启动后台任务，并在需要时请求人工决策，以及定制浏览器和写作工具；但最值得借鉴的组织经验是 Kieran 的提醒，实验必须回到业务中：“Make sure some stick”，清晰易懂的说明、同事反馈和有意识的整合，与生成更多原型的能力同样重要。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "AI adoption",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "ECHO: Emergent Common-Mode Hidden Offsets Drive Vocabulary Collapse in Preference Optimization",
+      "url": "https://arxiv.org/abs/2610.29410",
+      "en": "ECHO identifies a shared hidden-state offset that can accumulate during preference optimization while ranking metrics improve, eventually concentrating generation on a single token. Causal interventions recreate the collapse by injecting the offset and prevent it by masking the common component in the flagship setting; collapse appears in 14 of 17 base-model lineages under the studied per-token ranking loss. The finding exposes a failure mode that relative preference metrics can miss, while distinguishing it from textbook DPO runs where the offset remains weakly aligned with individual vocabulary directions.",
+      "zh": "ECHO 发现，preference optimization 过程中可能累积一种共享的 hidden-state offset，即使 ranking metrics 持续改善，最终仍可能让生成集中到单个 token。因果干预表明，注入该 offset 可以复现崩溃，而在主要实验设置中，从 loss 中屏蔽共同分量可以避免这一问题；在所研究的 per-token ranking loss 下，17 个 base-model 系列中有 14 个出现崩溃。这揭示了相对偏好指标可能漏掉的失效模式，同时也区分了标准 DPO 的情况，后者的 offset 与单个词表方向的对齐仍然较弱。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "TeachBack: Learning to Teach via Bidirectional Preference Optimization for On-Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.29167",
+      "en": "TeachBack argues that an accurate teacher trajectory is not necessarily a useful learning target: access to reference solutions can produce abbreviated derivations that omit exploration and self-correction. Its bidirectional preference framework uses privileged teacher trajectories to train the student, then reverses the preference signal to shape how the teacher teaches, alongside controls on reference exposure and prompt style. This directly targets the mismatch between solving with privileged information and learning to solve without it.",
+      "zh": "TeachBack 指出，准确的 teacher trajectory 未必是有效的学习目标：看到参考答案后，teacher 可能生成过于简略的推导，省略探索和自我纠错。它通过双向 preference framework，用带特权信息的 teacher trajectory 训练 student，再反向使用偏好信号来调整 teacher 的教学方式，同时控制参考推理的暴露程度和 prompt 风格。这直接针对了借助特权信息解题与学习独立解题之间的错位。",
+      "tags": [
+        "distillation",
+        "preference optimization",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Ask to Distill: Learning to Synthesize Data for On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.27450",
+      "en": "Ask-to-Distill learns to generate useful distillation questions without reference answers, correctness rewards, or a student update for every candidate. Its reward combines teacher–student disagreement with teacher probability mass on the student's candidate support, plus length and diversity controls; the resulting prompt bank improves performance over unoptimized synthetic prompts and KL-filtered real questions across mathematics, coding, and agentic tasks. The practical implication is that question selection can optimize the supervision a teacher exposes rather than depend on labeled solutions.",
+      "zh": "Ask-to-Distill 在不需要参考答案、正确性 reward，也不必为每个候选问题更新 student 的情况下，学习生成有利于 distillation 的问题。它的 reward 结合 teacher 与 student 的分歧、teacher 在 student 候选支持集上分配的概率质量，以及长度和多样性控制；生成的 prompt bank 在数学、代码和 agentic tasks 上优于未经优化的合成问题和经过 KL 筛选的真实问题。这意味着，问题选择可以直接优化 teacher 所提供的监督信号，而不必依赖带答案的数据。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "BIRD-RL: Scaling Agentic Reinforcement Learning over Stateful Data-Centric Environments",
+      "url": "https://arxiv.org/abs/2610.29426",
+      "en": "BIRD-RL addresses agentic RL in stateful database tasks, where separate containers are expensive and careless database reuse contaminates trajectories. A four-stage curriculum combines foundational reasoning with adaptive on-policy exploration, backed by trajectory-scoped persistent execution that safely reuses database replicas and improves spatial RL efficiency by 12.8×. Its 7B and 14B models reach 44.40% and 48.00% success on BIRD-CRITIC-SQLite, making environment isolation a central part of scalable agent training.",
+      "zh": "BIRD-RL 针对有状态数据库任务中的 agentic RL：为每条 rollout 单独配置 container 成本很高，而不加控制地复用数据库又会造成 trajectory contamination。它采用四阶段 curriculum，将基础推理训练与自适应 on-policy exploration 结合，并通过限定在 trajectory 范围内的 persistent execution 安全复用数据库副本，将空间资源效率提升 12.8 倍。其 7B 和 14B 模型在 BIRD-CRITIC-SQLite 上分别达到 44.40% 和 48.00% 的成功率，凸显了环境隔离在可扩展 agent 训练中的重要性。",
+      "tags": [
+        "agents",
+        "reinforcement learning",
+        "training infrastructure"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.26995",
+      "en": "SPEM organizes agent skills into atomic memories and reusable Skill-DAGs that preserve dependencies, execution order, state transitions, and data flow. It reuses reliable compositions when available, otherwise selects atomic skills with a structure-aware Skill-GNN and writes successful executions back into memory. Reported results of 87.1% ALFWorld success and 38.38% SkillsBench reward, alongside lower token and runtime costs, make it relevant to agents whose growing skill libraries have outgrown flat retrieval.",
+      "zh": "SPEM 将 agent skills 组织为 atomic memories 和可复用的 Skill-DAG，保留依赖关系、执行顺序、状态转换与数据流。系统优先复用可靠的组合，否则通过理解结构的 Skill-GNN 选择 atomic skills，再把成功执行写回 memory。论文报告了 87.1% 的 ALFWorld 成功率和 38.38% 的 SkillsBench reward，同时降低 token 与运行时间成本，适合关注 skill library 扩大后如何突破扁平检索局限的读者。",
+      "tags": [
+        "agents",
+        "memory",
+        "skills"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "FALCA: Falsification-Aware Reinforcement Learning with Hierarchical Credit Assignment for Long-Horizon Deep Search Agents",
+      "url": "https://arxiv.org/abs/2610.28361",
+      "en": "FALCA structures deep search as a propose-and-falsify loop: a Searcher proposes answers while independent Falsifiers seek counterevidence, unmet constraints, and conflicts. It combines SFT on falsification trajectories with agentic RL using parallel rollouts and hierarchical credit assignment across stages, state transitions, and actions. Across five search benchmarks, it improves over backbone and harness ablations while reducing confirmation bias and error accumulation, offering a concrete training recipe for more reliable research agents.",
+      "zh": "FALCA 将 deep search 组织为提出假设并尝试证伪的循环：Searcher 提出答案，独立的 Falsifiers 则寻找反证、未满足的约束和冲突。训练结合了基于证伪 trajectory 的 SFT，以及使用并行 rollouts、在阶段、状态转换和 action 层面分配 credit 的 agentic RL。在五个搜索 benchmark 上，它优于 backbone 和 harness 消融版本，并减少 confirmation bias 与错误累积，为更可靠的 research agents 提供了具体训练方案。",
+      "tags": [
+        "agents",
+        "reinforcement learning",
+        "deep search"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents",
+      "url": "https://arxiv.org/abs/2610.29249",
+      "en": "MOSAIC evaluates long-term conversational memory with 923 questions over 11–24-session histories containing text, images, video, and audio. Its matched interventions hold the question, reader, prompt, and budget fixed while varying representation, retrieval, and delivery, revealing modality-dependent representation loss and substantial reading failures even with gold evidence. Strong answerable-question scores also coexist with weak abstention, showing why end-to-end memory leaderboards need diagnostic controls.",
+      "zh": "MOSAIC 使用 923 个问题评估长期对话 memory，对话历史横跨 11 至 24 个 session，包含文本、图像、视频和音频。它通过匹配干预固定问题、reader、prompt 和预算，分别改变表示、检索与信息交付环节，发现表示损失因模态而异，而且即使提供 gold evidence，阅读理解仍存在明显失误。可回答问题上的高分还可能与较弱的 abstention 能力并存，说明端到端 memory 排行榜需要配套诊断性控制。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation",
+        "multimodal"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Bridging Foundational and Agentic Capabilities of LLMs",
+      "url": "https://arxiv.org/abs/2610.29751",
+      "en": "This paper compares foundational benchmark profiles with operation-level performance extracted from agent trajectories, defining capability realization gaps where execution departs from those profiles' predictions. Across fifteen model services on τ²-Bench, foundational capabilities only partially predict agent operations, and similarly profiled models can execute very differently. Operation profiles improve task-score prediction, providing a way to distinguish capability limitations from failures to deploy those capabilities effectively.",
+      "zh": "这篇论文将基础 benchmark 能力画像与从 agent trajectory 中提取的操作层面表现进行比较，把实际执行偏离基础能力预测的部分定义为 capability realization gaps。在 τ²-Bench 的十五个模型服务上，基础能力只能部分预测 agent 操作表现，能力画像相近的模型也可能有很大的执行差异。加入操作画像能够改善任务分数预测，有助于区分基础能力不足与未能有效运用已有能力这两类问题。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Retrieval Augmented Generation Compositionality",
+      "url": "https://arxiv.org/abs/2610.29722",
+      "en": "Using the LASAGNA framework, this study evaluates 450 RAG configurations across eight benchmarks and corpora containing 5K–200K documents. Three retrieval techniques whose isolated gains predict a 47% combined improvement deliver only 17% together, while retrieval quality and answer faithfulness can favor conflicting choices and the best stack changes with corpus scale. The result is a strong argument for evaluating RAG contributions inside realistic surrounding pipelines rather than extrapolating from isolated component gains.",
+      "zh": "这项研究使用 LASAGNA framework，在八个 benchmark 和包含 5K 至 200K 篇文档的语料库上评估了 450 种 RAG 配置。三种检索技术按独立收益推算应带来 47% 的组合提升，实际一起使用时却只有 17%；检索质量与答案 faithfulness 还可能偏好互相冲突的配置，最优组合也会随语料规模变化。这有力说明，RAG 新方法应放进真实的完整 pipeline 中评估，不能仅凭单个组件的收益推算整体效果。",
+      "tags": [
+        "evaluation",
+        "RAG",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Same Answer, Different Reasons: Trace-Level Divergence in Multilingual Large Language Models",
+      "url": "https://arxiv.org/abs/2610.29092",
+      "en": "This paper compares multilingual reasoning traces through structural similarity, order consistency, and holistic similarity rather than final-answer agreement alone. Across three benchmarks, seven languages, and six frontier LLMs, 52.1%–67.3% of examples in the highest quartile of holistic similarity fall outside the highest quartile of structural similarity, with bilingual human judgments favoring the structural measure. It challenges whole-response embedding similarity as evidence that users in different languages receive equivalent reasoning support.",
+      "zh": "这篇论文从结构相似度、顺序一致性和整体相似度比较多语言推理轨迹，而不只看最终答案是否一致。在三个 benchmark、七种语言和六个 frontier LLM 上，整体相似度处于最高四分位的样本中，有 52.1% 至 67.3% 并不处于结构相似度的最高四分位，双语人工判断也更贴近结构指标。这对用完整回答的 embedding 相似度证明不同语言用户获得了等价推理支持的做法提出了质疑。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories",
+      "url": "https://arxiv.org/abs/2610.29378",
+      "en": "OnQ restores low-bit reasoning by letting quantized students generate their own trajectories and receive full-precision teacher supervision on the prefixes they actually encounter. Its candidate-wise Dynamic KL balances forward and reverse KL using teacher–student probability ratios to correct both underprediction and overprediction. Across Qwen3 models at 2- and 3-bit precision, it reports the highest nine-benchmark average, with the largest gains on long-horizon reasoning, connecting on-policy distillation directly to deployment compression.",
+      "zh": "OnQ 让量化后的 student 自行生成 trajectory，再由 full-precision teacher 针对 student 实际遇到的 prefix 提供监督，以恢复低比特模型的推理能力。其针对每个候选 token 的 Dynamic KL 根据 teacher 与 student 的概率比平衡 forward KL 和 reverse KL，同时修正低估与高估。在 2-bit 和 3-bit 的 Qwen3 模型实验中，它取得了九个 benchmark 的最高平均成绩，长程推理收益最大，将 on-policy distillation 直接用于部署压缩。",
+      "tags": [
+        "distillation",
+        "quantization",
+        "reasoning",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Keeping Time vs. Understanding Time: Neither Alone Explains Temporal Reasoning in LLMs",
+      "url": "https://arxiv.org/abs/2610.29507",
+      "en": "This study challenges the assumption that temporal reasoning benchmarks cleanly measure transferable temporal arithmetic or temporal semantics. Fine-tuning produces gains of 6.8–23.1 percentage points within datasets but only −3.2 to +1.1 points on other datasets in the same purported mode, while capability analysis identifies knowledge as the main performance driver. It warns that apparent temporal reasoning progress may reflect dataset-specific knowledge rather than a coherent reasoning ability.",
+      "zh": "这项研究质疑了一个常见假设：时间推理 benchmark 能清晰衡量可迁移的时间计算或时间语义能力。fine-tuning 在原数据集上带来 6.8 至 23.1 个百分点的提升，但迁移到同一所谓能力类别的其他数据集时，变化仅为负 3.2 至正 1.1 个百分点；能力分析则发现，知识才是表现的主要驱动因素。这提醒我们，表面上的时间推理进展可能反映了数据集特定知识，而非统一、可迁移的推理能力。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "What's in CODI's latent recurrent thoughts?",
+      "url": "https://www.lesswrong.com/posts/yetmqjCXEav9iaJGw/what-s-in-codi-s-latent-recurrent-thoughts",
+      "en": "LessWrong: What's in CODI's latent recurrent thoughts? Activation verbalizers recover intermediate values and final answers above chance from a Qwen3-8B CODI model, including from its opaque latent thoughts, whereas LogitLens and J-lens read values only from late layers. Editing the decoded values rarely steers the output toward the corresponding counterfactual answer. The distinction matters for monitoring latent reasoning: decodable information is not automatically an effective causal control point.",
+      "zh": "LessWrong：What's in CODI's latent recurrent thoughts? 研究使用 activation verbalizers，从 Qwen3-8B CODI 模型中以高于随机水平的表现读出了中间值与最终答案，其中也包括不透明的 latent thoughts；相比之下，LogitLens 和 J-lens 只能从较晚的层读出这些值。但修改解码出的值，很少能让输出转向相应的反事实答案。这一区别对监测 latent reasoning 很重要：信息可被解码，并不意味着它就是有效的因果控制点。",
+      "tags": [
+        "reasoning",
+        "interpretability",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "en": "The Hacker News reports that LiteLLM's release pipeline was compromised on October 21, pushing version 1.107.0 containing a credential stealer and backdoor to PyPI and Docker Hub. LiteLLM says attackers breached multiple independent security controls; the report identifies a suspected GitHub token leak in AI gateway logs as the possible entry point. This is directly relevant to teams relying on LiteLLM in their model infrastructure.",
+      "zh": "The Hacker News 报道，LiteLLM 的发布 pipeline 于 10 月 21 日遭到入侵，包含凭证窃取程序和 backdoor 的 1.107.0 版本被推送至 PyPI 和 Docker Hub。LiteLLM 表示，攻击者突破了多个独立安全控制；报道指出，AI gateway 日志中疑似泄露的 GitHub token 可能是入侵入口。这与在模型基础设施中使用 LiteLLM 的团队直接相关。",
+      "tags": [
+        "AI infrastructure",
+        "security",
+        "LiteLLM"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "en": "The Hacker News reports an OpenCode flaw that allowed malicious or hijacked MCP servers to execute code during sign-in on Windows and WSL, with the developer's own access. Anomaly fixed the issue in OpenCode 1.18.33. The case highlights how an agent's external tool connections can become a local code-execution boundary.",
+      "zh": "The Hacker News 报道，OpenCode 的一处漏洞允许恶意或被劫持的 MCP server 在 Windows 和 WSL 用户登录时执行代码，并获得开发者本人的访问权限。Anomaly 已在 OpenCode 1.18.33 中修复该问题。这一案例说明，agent 连接外部工具的环节也可能成为本地代码执行的安全边界。",
+      "tags": [
+        "agents",
+        "MCP",
+        "security"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "When eight systems share a benchmark top score, what should the table show?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xayxs1/when_eight_systems_share_a_benchmark_top_score/",
+      "en": "A discussion uses the Agent Memory Leaderboard's August coding board to question strict rankings: 43 systems solve 69–79 of 150 tasks, and eight tie at 52.67%. With each task worth about 0.67 percentage points, the post proposes raw counts, performance tiers, and interval estimates as more informative ways to present closely clustered results. It is a useful reminder that leaderboard formatting can imply distinctions the underlying evaluation barely resolves.",
+      "zh": "这篇讨论以 Agent Memory Leaderboard 八月的 coding 排行榜为例，质疑严格排名的表达方式：43 个系统在 150 道任务中完成了 69 至 79 道，其中八个系统以 52.67% 并列。由于每道任务约对应 0.67 个百分点，作者提出，同时展示原始计数、按表现分档或提供区间估计，可能更适合呈现如此接近的结果。这提醒我们，排行榜的排版可能暗示一些底层评估本身几乎无法分辨的差异。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "agent memory"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-22T13:14:13.579Z"
+}
