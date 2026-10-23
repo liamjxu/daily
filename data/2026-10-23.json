@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-23",
+  "headline_en": "Agent infrastructure is becoming more open and autonomous, while new research exposes gaps in tool safety, verification, memory, and reward evaluation.",
+  "headline_zh": "Agent 基础设施正走向更开放、更自主，新研究则揭示了工具安全、验证、记忆和 reward 评估中的缺口。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude, Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "en": "Anthropic's Boris Cherny says Agent Skills is being donated to the Agentic AI Foundation alongside MCP. Originally an experiment in Claude Code, Skills has gained adoption across the industry, motivating its move into shared governance.",
+      "zh": "Anthropic 的 Boris Cherny 表示，Agent Skills 将捐赠给 Agentic AI Foundation，与 MCP 并列。Skills 最初是 Claude Code 中的一项实验，如今已被行业广泛采用，因此转向共同治理。",
+      "tags": [
+        "agents",
+        "Agent Skills",
+        "MCP"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2113380122468454765",
+      "en": "Anthropic's official Claude account announces general availability of Claude Models on Google Cloud, managed by Anthropic. The offering brings the full Claude Platform feature set together with Google Cloud IAM credentials, billing, and commitment retirement.",
+      "zh": "Anthropic 的 Claude 官方账号宣布，由 Anthropic 管理的 Claude Models on Google Cloud 正式上线。该服务提供完整的 Claude Platform 功能，并支持 Google Cloud IAM 凭据、计费和承诺消费抵扣。",
+      "tags": [
+        "frontier labs",
+        "Google Cloud",
+        "model access"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2113360845409583307",
+      "en": "Anthropic's official Claude account says sessions on Pro, Max, and Team plans will default to auto mode across web, desktop, and mobile starting next week. Automated checks will block risky actions instead of requiring approval for every step, with manual mode still available.",
+      "zh": "Anthropic 的 Claude 官方账号表示，从下周开始，Pro、Max 和 Team 套餐在网页、桌面和移动端的会话将默认采用 auto mode。系统会通过自动检查拦截高风险操作，无需用户逐步批准，同时仍可切回 manual mode。",
+      "tags": [
+        "agents",
+        "agent safety"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "en": "OpenAI's Thibault Sottiaux reports that the Decisions API is generally available and OpenResponses has joined the Linux Foundation. He also cites performance improvements and says Uber is going all-in on Codex and Work.",
+      "zh": "OpenAI 的 Thibault Sottiaux 表示，Decisions API 已正式上线，OpenResponses 已加入 Linux Foundation。他还提到性能改进，并称 Uber 正全面投入使用 Codex 和 Work。",
+      "tags": [
+        "frontier labs",
+        "Codex",
+        "APIs"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "en": "The Takeaway: Ineffable Intelligence is betting that autonomous learning from experience, rather than increasingly elaborate training on human knowledge, can produce broadly capable superintelligence. Co-founders David Silver and Lasse Espeholt, whose backgrounds include DeepMind and large-scale RL, are building a GPU-based training, inference, and simulation stack alongside complex environments called “crucibles,” where simple objectives and interacting agents can generate discoveries without a handcrafted curriculum of target achievements. Silver describes the goal as “a system that can just keep learning and discovering knowledge forever”; Espeholt emphasizes keeping simulation on GPUs, reusing experience, and adapting distributed RL ideas from IMPALA and SEED RL, while their 20-person team deliberately maintains a high compute-per-person ratio. Silver forecasts strong evidence within a year and superintelligence in three years, explicitly acknowledges research uncertainty, and advocates accelerating simulation research while pacing real-world deployment, using behavioral monitoring and simulation evidence rather than relying solely on readable chains of thought.",
+      "zh": "核心观点：Ineffable Intelligence 押注，通过经验自主学习，而非围绕人类知识不断叠加训练流程，能够产生具备广泛能力的 superintelligence。联合创始人 David Silver 和 Lasse Espeholt 拥有 DeepMind 和大规模 RL 背景，正在搭建基于 GPU 的训练、推理和模拟系统，以及名为“crucibles”的复杂环境，让简单目标和 agent 之间的互动催生发现，而不是手工编排通往指定成果的课程。Silver 将目标描述为“一个能够永远持续学习、发现知识的系统”；Espeholt 强调让模拟运行在 GPU 上、复用经验，并借鉴 IMPALA 和 SEED RL 的分布式 RL 思路，20 人团队则有意保持较高的人均算力。Silver 预测一年内会出现有力证据，三年内实现 superintelligence，同时明确承认研究存在不确定性，并主张加速模拟研究、谨慎推进现实部署，通过行为监控和模拟证据提供保障，而不只是依赖可读的 chain-of-thought。",
+      "tags": [
+        "agents",
+        "reinforcement learning",
+        "compute",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "en": "Anthropic Research: LLMs are making formal software verification feasible at a much larger scale reports using Claude to prove security properties in more than 100 real-world open-source libraries over a few weeks. Formal verification proves the absence of specified classes of bugs; the result suggests AI can extend a technique historically limited by its cost to substantially more software.",
+      "zh": "Anthropic Research 的《LLMs are making formal software verification feasible at a much larger scale》介绍了如何在几周内使用 Claude，为 100 多个真实开源库证明安全属性。Formal verification 可以证明代码不存在某些指定类型的 bug，这项结果表明，AI 有望将过去受成本限制的技术推广到更多软件。",
+      "tags": [
+        "frontier labs",
+        "formal verification",
+        "coding"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "en": "Hugging Face - Blog: Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox presents agent post-training with ThinkingBox, using database grading as RL rewards.",
+      "zh": "Hugging Face - Blog 的《Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox》介绍了使用 ThinkingBox 对 agent 进行 post-training，将数据库评分转化为 RL reward。",
+      "tags": [
+        "post-training",
+        "agents",
+        "RL rewards"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Gnerk Asks How Big a Swarm Can Get Before It Stops Being One Agent",
+      "url": "https://www.lesswrong.com/posts/goawvtgQcrMZtezXv/gnerk-asks-how-big-a-swarm-can-get-before-it-stops-being-one",
+      "en": "LessWrong: Gnerk Asks How Big a Swarm Can Get Before It Stops Being One Agent explores how communication structure limits collective agency. The preliminary model uses graph Laplacians and the Fiedler value to connect network topology with information-flow speed and potential bounds on the size of a coordinated agent swarm.",
+      "zh": "LessWrong 的《Gnerk Asks How Big a Swarm Can Get Before It Stops Being One Agent》探讨通信结构如何限制集体行动能力。这个初步模型使用 graph Laplacian 和 Fiedler value，将网络拓扑与信息传播速度联系起来，尝试约束一个协调行动的 agent swarm 可以达到多大规模。",
+      "tags": [
+        "multi-agent",
+        "coordination"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.28679",
+      "en": "VerifierBench evaluates whether agents can write executable verifiers that accept valid solutions and reject invalid ones, using 222 tasks and 4,993 hidden test cases. Across 19 models, normalized balanced accuracy ranges from 10.6 to 62.1; apparently strong rejection often masks verifiers that accept no tested solution. For agent evaluation and synthetic-data filtering, testing alternative valid solutions is essential because self-tests can reproduce the verifier's mistaken assumptions.",
+      "zh": "VerifierBench 使用 222 项任务和 4,993 个隐藏测试用例，评估 agent 能否编写既接受有效解、又拒绝无效解的可执行 verifier。19 个模型的归一化 balanced accuracy 为 10.6 至 62.1，看似出色的拒绝能力往往掩盖了 verifier 不接受任何已测试解的问题。对于 agent 评估和合成数据筛选，必须测试不同的有效解，因为自测可能复现 verifier 自身的错误假设。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.28982",
+      "en": "A matched benchmark of 2,304 prompts tests whether text refusals transfer to tool-enabled behavior across five models. Under standard tool prompting, 10–52% of harmful requests refused in chat still produce unsafe tool calls; restoring a refusal-associated activation signal prevents only some calls, primarily by suppressing tool use. Chat refusal scores therefore provide an incomplete measure of agent safety.",
+      "zh": "这项研究通过 2,304 个配对 prompt，测试五个模型在文本中的拒绝行为能否迁移到工具调用场景。在标准工具 prompt 下，聊天中被拒绝的有害请求仍有 10–52% 导致不安全工具调用；恢复与拒绝相关的 activation 信号只能阻止部分调用，主要方式是抑制工具使用。因此，聊天拒绝得分不足以完整衡量 agent 安全性。",
+      "tags": [
+        "agents",
+        "tool use",
+        "evaluation",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "What Pairwise Evaluation Misses: Reward Scores across Prompts",
+      "url": "https://arxiv.org/abs/2610.31090",
+      "en": "This paper audits reward-score comparability across prompts, a property that within-prompt pairwise evaluation cannot test. On HelpSteer2, six reward models show between-prompt variance shares of 0.34–0.64 versus nearly zero for human ratings, but simply subtracting prompt means also harms global selection quality. Reward evaluation should separately measure cross-prompt variation, sensitivity to an incorrect prompt, and usefulness for selection.",
+      "zh": "这篇论文审查 reward 分数在不同 prompt 之间是否可比，而同一 prompt 内的成对评估无法检验这一点。在 HelpSteer2 上，六个 reward model 的 prompt 间方差占比为 0.34–0.64，人类评分则接近零，但直接减去各 prompt 的均值也会损害全局筛选质量。Reward 评估应分别检查跨 prompt 变化、对错误 prompt 的敏感性，以及分数对筛选是否有用。",
+      "tags": [
+        "reward model",
+        "evaluation",
+        "preference optimization"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+      "url": "https://arxiv.org/abs/2610.30435",
+      "en": "SARL trains search agents to recognize what evidence they have gathered and what remains missing, using rewards for corrective self-assessment alongside penalties for excessive assessment. It reports a 24.3% relative improvement over the strongest baseline, with average gains of 35.9% on multi-hop reasoning and 27.9% on deep research against the strongest per-benchmark baselines. The approach internalizes search control during training without adding assessment scaffolding at inference.",
+      "zh": "SARL 训练搜索 agent 识别已经收集到哪些证据、还缺少什么信息，同时奖励具有纠错作用的自我评估，并惩罚过度评估。论文报告，相比最强基线，相对提升为 24.3%；针对各 benchmark 的最强基线，multi-hop reasoning 和 deep research 的平均提升分别为 35.9% 和 27.9%。该方法在训练阶段内化搜索控制能力，无需在推理时增加评估框架。",
+      "tags": [
+        "agents",
+        "post-training",
+        "RAG",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "ReflectPO: Reflection-Guided Policy Optimization for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2610.30933",
+      "en": "ReflectPO trains long-horizon tool agents to recover from errors through reflection-guided sampling and tree-structured credit assignment. It derives recovery hints from trajectory branches and repeated visits, then assigns action-level credit using parent–child reward differences and recovery gains. Across two tool-use benchmarks, it achieves the best overall average performance, making recovery from bad states an explicit training target.",
+      "zh": "ReflectPO 通过 reflection-guided sampling 和树状 credit assignment，训练长程工具 agent 从错误中恢复。它从轨迹分支差异和重复访问中提取恢复提示，再根据父子节点的 reward 差异和恢复收益分配动作级 credit。在两个 tool-use benchmark 上，它取得了最佳总体平均表现，将从错误状态恢复明确纳入训练目标。",
+      "tags": [
+        "agents",
+        "post-training",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.31366",
+      "en": "AfterDeleteBench compares agents exposed to a secret and then subjected to deletion with matched agents never exposed to it. Qwen2.5-7B-Instruct recovers deleted secrets in roughly two thirds of primary-setting cases, while reconstructing secrets from separately stored components succeeds in 62–99% of cases across Qwen, Mistral, and Phi-3. Provenance-aware closure eliminates observed recovery in the tested positive-baseline settings, showing why deleting a memory record must account for derived state.",
+      "zh": "AfterDeleteBench 将接触过秘密、随后执行删除的 agent，与从未接触该秘密的匹配 agent 进行比较。在主要设置中，Qwen2.5-7B-Instruct 约有三分之二的情况能够恢复已删除秘密；在 Qwen、Mistral 和 Phi-3 上，从分开存储的组成部分重建秘密的成功率达到 62–99%。在已观察到恢复的测试设置中，基于来源追踪的闭包删除消除了恢复现象，说明删除记忆记录时也必须处理衍生状态。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "One Teacher, Many Views: Reducing Reference Sensitivity in On-Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.30880",
+      "en": "This paper identifies reference-induced target instability in on-policy self-distillation: replacing one correct reference with another can substantially change the teacher distribution for the same student state. Monte Carlo Privileged Distillation averages next-token distributions across partial reference views, yielding the exact target for expected teacher-to-student KL minimization over those views. It targets a subtle distillation problem: supervision can depend too heavily on a reference's wording and solution path rather than transferable reasoning.",
+      "zh": "这篇论文指出 on-policy self-distillation 中由参考解引发的目标不稳定性：对同一个 student 状态，将正确参考解换成另一个正确解，就可能显著改变 teacher 分布。Monte Carlo Privileged Distillation 对多个局部参考视图的 next-token 分布取平均，这正是对这些视图最小化期望 teacher-to-student KL 的目标。它针对一个隐蔽的 distillation 问题：监督信号可能过度依赖参考解的措辞和解题路径，而非可迁移的 reasoning。",
+      "tags": [
+        "distillation",
+        "reasoning",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory",
+      "url": "https://arxiv.org/abs/2610.29538",
+      "en": "This framework prunes DPO computation by independently sampling scoring positions, execution prefixes, and backpropagation branches before the corresponding work occurs. Branch pruning delivers a 1.426× step-time speedup over concatenated DPO and approximately 30% less training time than stock DPO across two model families, with slightly lower mean accuracy. The analysis distinguishes real compute savings from memory reductions and explicitly tracks changes to the training objective.",
+      "zh": "该框架在相关计算发生前，分别采样评分位置、执行前缀和反向传播分支，从而裁剪 DPO 计算图。在两个模型家族上，分支裁剪相较拼接式 DPO 实现了 1.426 倍的单步加速，相较原版 DPO 将训练时间缩短约 30%，代价是平均准确率略降。分析区分了实际算力节省与显存下降，并明确追踪训练目标发生的变化。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Flat-RLVR: Sharpness-Aware Reinforcement Learning with Verifiable Rewards for Reasoning Capacity in LLMs",
+      "url": "https://arxiv.org/abs/2610.29281",
+      "en": "Flat-RLVR addresses distribution sharpening during RLVR, where increasingly peaked policies suppress rare but correct reasoning trajectories. It combines sharpness-aware minimization with GRPO variants to seek flat reward regions, reporting improved sample diversity while maintaining single-attempt accuracy. The work targets the trade-off between concentrating probability on successful answers and preserving broader reasoning capacity.",
+      "zh": "Flat-RLVR 针对 RLVR 中的分布尖锐化问题：policy 分布越来越集中，会压制罕见但正确的 reasoning 轨迹。它将 sharpness-aware minimization 与 GRPO 变体结合，寻找平坦的 reward 区域，报告在保持单次作答准确率的同时提高采样多样性。这项研究关注如何在提高成功答案概率与保留更广泛 reasoning 能力之间取得平衡。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "RLVR"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+      "url": "https://arxiv.org/abs/2610.31172",
+      "en": "A multilingual judge study evaluates nine prompting strategies, four open-weight judges, 27 languages, and four tasks, producing more than one million scores validated against human judgments. Judge choice dominates prompting strategy, strategy effects can reverse across judges, and low-resource-language instability is concealed by aggregate reporting. Evaluation prompts therefore need validation for the actual judge, task, and language rather than transfer from English benchmarks.",
+      "zh": "这项多语言 judge 研究覆盖九种 prompting 策略、四个 open-weight judge、27 种语言和四类任务，生成超过一百万个评分，并与人类判断进行验证。Judge 的选择比 prompting 策略更关键，同一策略的效果可能在不同 judge 上反转，而汇总报告会掩盖低资源语言中的不稳定性。因此，评估 prompt 应针对实际使用的 judge、任务和语言验证，不能直接沿用 English benchmark 的结论。",
+      "tags": [
+        "evaluation",
+        "multilingual",
+        "LLM-as-a-Judge"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "url": "https://arxiv.org/abs/2610.29934",
+      "en": "ToM2Vec learns a fixed budget of continuous reasoning tokens to represent possible partner states, supervised during training by the partner's actual thoughts. It improves interaction across cooperative, competitive, and mixed-motive environments, generalizes to unseen partner model families, and loses performance when its latent reasoning is expressed in text. The results support latent representations as a useful interface for multi-agent coordination under uncertainty.",
+      "zh": "ToM2Vec 使用固定数量的连续 reasoning token 表示可能的伙伴状态，训练时以伙伴的真实思考作为监督。它在合作、竞争和混合动机场景中改善互动表现，能够泛化到训练时未见的伙伴模型家族，而将 latent reasoning 改为文本表达后性能会下降。结果支持使用 latent representation，帮助多 agent 在不确定条件下协调。",
+      "tags": [
+        "multi-agent",
+        "reasoning",
+        "coordination"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "url": "https://arxiv.org/abs/2610.30949",
+      "en": "IQuest-Q1 is an open-source sparse MoE agentic foundation model with 320B total parameters and 15B activated. Its pipeline combines stability-focused pretraining, context-expanding mid-training, and multi-scaffold post-training with SFT, specialized RL, MOPD, and model merging. It provides a substantial open model and training recipe for research on agentic coding and CLI systems.",
+      "zh": "IQuest-Q1 是一个开源 sparse MoE agentic foundation model，总参数为 320B，激活参数为 15B。其流程结合注重稳定性的 pretraining、扩展上下文的 mid-training，以及融合 SFT、领域专用 RL、MOPD 和 model merging 的多框架 post-training。它为 agentic coding 和 CLI 系统研究提供了一个大规模开放模型及其训练方案。",
+      "tags": [
+        "agents",
+        "post-training",
+        "open-source",
+        "coding"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-23T13:08:23.850Z"
+}

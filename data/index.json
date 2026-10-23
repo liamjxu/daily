@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-23",
+    "count": 21,
+    "headline_en": "Agent infrastructure is becoming more open and autonomous, while new research exposes gaps in tool safety, verification, memory, and reward evaluation.",
+    "generatedAt": "2026-10-23T13:08:23.850Z"
+  },
+  {
     "date": "2026-10-22",
     "count": 19,
     "headline_en": "Proactive agents raise the stakes for reliable execution, while new research exposes gaps in preference optimization, reasoning evaluation, and agent memory.",
