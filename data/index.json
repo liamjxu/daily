@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-24",
+    "count": 8,
+    "headline_en": "As agents gain practical capabilities, alignment incidents, security failures, and memory limitations sharpen the focus on reliable deployment.",
+    "generatedAt": "2026-10-24T16:14:17.562Z"
+  },
+  {
     "date": "2026-10-23",
     "count": 21,
     "headline_en": "Agent infrastructure is becoming more open and autonomous, while new research exposes gaps in tool safety, verification, memory, and reward evaluation.",
