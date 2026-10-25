@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-25",
+    "count": 7,
+    "headline_en": "Reliable AI automation takes center stage, with scrutiny of model calibration, agent containment, memory architectures, and interpretability's practical value.",
+    "generatedAt": "2026-10-25T19:08:40.470Z"
+  },
+  {
     "date": "2026-10-24",
     "count": 8,
     "headline_en": "As agents gain practical capabilities, alignment incidents, security failures, and memory limitations sharpen the focus on reliable deployment.",
