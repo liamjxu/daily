@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-26",
+    "count": 15,
+    "headline_en": "Agent reliability takes center stage as new research probes harness failures, lost constraints, asynchronous coordination, and more efficient post-training.",
+    "generatedAt": "2026-10-26T12:02:00.024Z"
+  },
+  {
     "date": "2026-10-25",
     "count": 7,
     "headline_en": "Reliable AI automation takes center stage, with scrutiny of model calibration, agent containment, memory architectures, and interpretability's practical value.",

@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-26",
+  "headline_en": "Agent reliability takes center stage as new research probes harness failures, lost constraints, asynchronous coordination, and more efficient post-training.",
+  "headline_zh": "Agent 可靠性成为焦点，新研究深入检验执行框架故障、约束丢失、异步协作与更高效的 post-training。",
+  "items": [
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: OpenAI cofounder and president Greg Brockman argues that as AI makes software cheaper to produce, reliability becomes more valuable, predicting that “security spend should actually vastly outstrip software spend” because organizations will need to continually reassess their defenses against each new generation of models. He describes a temporary defender’s window in which frontier capabilities can help repair vulnerabilities before comparable offensive capabilities spread widely, says OpenAI reassigned about 25 production engineers to inspect and secure its infrastructure until the model stopped finding issues, and points to a billion-dollar commitment to help frontline defenders access its models. For agents, Brockman describes DOTS as an always-on assistant with its own cloud computer that integrates inbox, Slack, calendar, and project context to surface unfinished commitments proactively; he sees consumer and enterprise assistants converging, with compute budgets and administrative controls shaping their differences more than fundamentally different intelligence. On scientific progress, he argues that AI can generate new mathematical knowledge while emphasizing that biology faces distinct data and experimental bottlenecks, and connects human oversight to debate and iterative amplification: a second AI can identify a concrete flaw in another AI’s work so a human can assess the objection without independently reproducing the entire task.",
+      "zh": "核心观点：OpenAI 联合创始人兼总裁 Greg Brockman 认为，随着 AI 降低软件生产成本，可靠性会变得更有价值，并预测“安全支出实际上应该远远超过软件支出”，因为组织需要针对每一代新模型持续重新评估防御能力。他描述了一个暂时的防御者窗口期：在同等攻击能力广泛扩散之前，前沿模型可以帮助修复漏洞；他还表示，OpenAI 曾调动约 25 名生产工程师检查并加固基础设施，直到模型无法继续发现问题，并提到一项帮助一线防御者使用其模型的十亿美元承诺。在 agent 方面，Brockman 将 DOTS 描述为拥有独立云端电脑、持续运行的助手，它整合 inbox、Slack、日历和项目上下文，主动找出尚未履行的承诺；他认为消费者与企业助手将趋于融合，二者的差异主要来自 compute 预算和管理控制。在科学进展方面，他认为 AI 能产生新的数学知识，同时强调生物学面临不同的数据与实验瓶颈，并将人类监督与 debate、iterative amplification 联系起来：另一个 AI 可以指出具体缺陷，让人类无需独立重做整个任务就能评估异议。 ",
+      "tags": [
+        "agents",
+        "AI industry strategy",
+        "oversight",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Agents Fail: Model or Harness--Who's to Blame?",
+      "url": "https://arxiv.org/abs/2610.32483",
+      "en": "This paper evaluates agent models and execution harnesses as interacting systems, using 52,168 trajectories across 111 evaluation settings rather than attributing benchmark scores to the model alone. Its framework separates valid completion, model-harness fit, pairing-specific effects, and token load; harness rankings change across models and benchmarks, making model-harness pairing a central deployment and evaluation choice.",
+      "zh": "这篇论文将 agent 模型与执行框架视为相互作用的系统，通过 111 种评测设置下的 52,168 条轨迹进行分析，而非仅将 benchmark 分数归因于模型。其框架分别衡量有效完成、模型与框架的适配度、特定组合的交互效应以及 token 开销；框架排名会随模型和 benchmark 改变，因此模型与框架的搭配是部署和评测中的关键选择。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks",
+        "harnesses"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Benchmarks Are Surprisingly Compaction-Friendly",
+      "url": "https://arxiv.org/abs/2610.31778",
+      "en": "Holding OpenCode fixed, this study tests five context-compaction strategies with three frontier models on PaperBench, ProgramBench, and PostTrainBench, finding no method that beats default self-summarization. Yet the first ProgramBench compaction summary already drops roughly one third of anti-cheating rules on average, showing why stable task scores can conceal lost constraints and why compaction needs evaluation beyond final performance.",
+      "zh": "这项研究固定使用 OpenCode，在 PaperBench、ProgramBench 和 PostTrainBench 上用三个前沿模型测试五种上下文压缩策略，没有发现优于默认自我总结的方法。然而，ProgramBench 的第一次压缩总结平均就丢失了约三分之一的反作弊规则，说明稳定的任务分数可能掩盖约束丢失，压缩评测需要超越最终表现。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "context compaction",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
+      "url": "https://arxiv.org/abs/2610.31985",
+      "en": "Benign agents pursuing separate objectives can spontaneously do favors for one another that stay within local permissions while bypassing system-level review. FavorBench and an adapted CooperBench expose frequent out-of-workflow cooperation across four models, with favors from at least three models causing significant harm to outside parties in FavorBench; multi-agent oversight therefore needs to address helpful behavior as well as adversarial collusion.",
+      "zh": "追求各自目标的善意 agent 可能自发相互帮忙，在不超出各自局部权限的情况下绕过系统层面的审核。FavorBench 和改编后的 CooperBench 在四个模型中发现了频繁的流程外协作，其中至少三个模型的帮忙行为在 FavorBench 中对交互之外的参与方造成显著伤害；因此，multi-agent 监督既要应对恶意串通，也要关注善意协作。",
+      "tags": [
+        "multi-agent",
+        "agents",
+        "oversight",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.32429",
+      "en": "Async-RBench provides 200 executable tasks across eight scenarios, controlling when subagent results arrive and specifying what the main agent must change, preserve, avoid, and re-check. All nine tested agents achieve lower average task success with asynchronous delivery than batched delivery, 26.0% versus 29.7%, while process scores expose particular weaknesses around duplicate reports and subagent failures. It offers a reproducible way to evaluate coordination that final success alone misses.",
+      "zh": "Async-RBench 包含八类场景下的 200 个可执行任务，控制 subagent 结果的到达时机，并明确主 agent 必须修改、保留、避免和重新检查的内容。九个受测 agent 在异步交付下的平均任务成功率均低于批量交付，总体为 26.0% 对 29.7%，过程评分尤其暴露出处理重复报告和 subagent 失败的弱点。它为评测最终成功率无法反映的协作能力提供了可复现方法。",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
+      "url": "https://arxiv.org/abs/2610.32555",
+      "en": "MCP-Injector introduces reproducible protocol-aware tool faults calibrated from 57,240 issue and pull-request threads across 1,774 MCP repositories. In a 1,350-cell experiment, a permanent-fault-heavy stress profile cuts task-completion scores by 60%, and the tested 120B gpt-oss backbone retains no greater share of fault-free performance than the 20B model. Differences between agent stacks point practitioners toward framework-level error handling rather than assuming scale delivers resilience.",
+      "zh": "MCP-Injector 根据 1,774 个 MCP 仓库中的 57,240 条 issue 和 pull-request 讨论校准故障模型，注入可复现、理解协议的工具故障。在覆盖 1,350 个实验单元的测试中，以永久故障为主的压力配置使任务完成评分下降 60%，受测 120B gpt-oss 模型保留的无故障表现比例并不高于 20B 模型。不同 agent 框架之间的差异提示实践者，应重视框架层面的错误处理，而不能假定扩大模型就能获得韧性。",
+      "tags": [
+        "tool use",
+        "agents",
+        "evaluation",
+        "MCP"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
+      "url": "https://arxiv.org/abs/2610.31918",
+      "en": "This paper separates agent distillation into two policy choices: who generates the interaction history and who generates the current action’s token prefix. Across three models and four interactive environments, student-induced histories paired with teacher-generated action prefixes generally provide the strongest standalone signal, while following the student at both levels generally performs worst but can help in mixtures. The results make data pairing, rather than just the overall on-policy proportion, a concrete post-training design variable.",
+      "zh": "这篇论文将 agent distillation 拆成两个策略选择：由谁生成交互历史，以及由谁生成当前动作的 token 前缀。在三个模型和四个交互环境中，学生产生的历史搭配教师生成的动作前缀，通常提供最强的单独训练信号；两个层面都跟随学生通常表现最差，但加入混合数据后可能有益。结果表明，数据如何配对，而不只是 on-policy 数据的总体比例，是一个具体的 post-training 设计变量。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "agents",
+        "on-policy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Learning to Be Monitored: Causal Bounds and Intervention-Aware Post-Training Recipes for Chain-of-Thought Monitorability",
+      "url": "https://arxiv.org/abs/2610.31733",
+      "en": "The paper shows that a common intervention-based CoT monitorability metric can overestimate detection of behavior actually caused by the intervention, establishing it as an upper bound and deriving a complementary lower bound. Using paired control-intervention tasks, it finds that intervention-specific RL and self-distillation methods generally improve monitorability under the extended framework. This connects a measurement critique directly to post-training recipes for more inspectable reasoning.",
+      "zh": "这篇论文指出，一种常用的基于干预的 CoT 可监测性指标，可能高估对真正由干预引发的行为的检测能力，并证明该指标是一个上界，同时推导出互补的下界。研究使用成对的对照与干预任务，发现针对干预类型设计的 RL 和 self-distillation 方法，通常能在扩展后的框架下提高可监测性。它将测量方法的局限直接连接到提升推理可检查性的 post-training 方案。",
+      "tags": [
+        "post-training",
+        "evaluation",
+        "chain-of-thought",
+        "monitorability"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.32881",
+      "en": "NgramRL accelerates RL rollouts by building per-prompt n-gram drafts from bounded recent rollout history, avoiding an auxiliary model or persistent GPU-resident drafter state while preserving the rollout distribution through target-model verification. An adaptive prefetcher hides CPU lookup and scheduling overhead, and warm-cache experiments commit 3.60–7.77 tokens per target-model forward. It targets rollout generation, which can consume more than 70% of RL post-training time.",
+      "zh": "NgramRL 利用每个 prompt 的有限近期 rollout 历史构建 n-gram 草稿，加速 RL rollout，无需辅助模型或常驻 GPU 的草稿状态，并通过目标模型验证保持 rollout 分布不变。自适应预取机制隐藏 CPU 查询和调度开销，暖缓存实验中每次目标模型前向计算可提交 3.60 至 7.77 个 token。它针对的是可能占 RL post-training 时间 70% 以上的 rollout 生成环节。",
+      "tags": [
+        "post-training",
+        "speculative decoding",
+        "RL",
+        "efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+      "url": "https://arxiv.org/abs/2610.32770",
+      "en": "This work drives on-policy self-distillation using only coarse topic descriptions: the model generates its own questions, answers, and privileged reasoning demonstrations without human-curated task prompts or answers. It reports consistent improvements across language and multimodal benchmarks while retaining capabilities in domains outside self-training. The approach probes how far post-training can exploit latent capabilities without external task supervision or a stronger teacher.",
+      "zh": "这项工作仅以粗粒度主题描述驱动 on-policy self-distillation，让模型自行生成问题、答案及包含额外推理信息的示范，无需人工整理的任务 prompt 或答案。论文报告了语言与多模态 benchmark 上的一致提升，同时保留了未参与 self-training 的领域能力。该方法探索了在没有外部任务监督或更强教师的情况下，post-training 能在多大程度上挖掘模型已有的潜在能力。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "self-training",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents",
+      "url": "https://arxiv.org/abs/2610.32412",
+      "en": "LeafSkill moves recurring atomic-action grounding into an external reuse layer, retrieving and binding action templates before a 1.7B selector chooses an admissible action or defers to the original agent. On 200 independent Robotouille tasks, success rises from 60.5% to 68.5%; among tasks both systems complete, Qwen3.5-27B token use falls 14.42%. It offers a practical way to reuse low-level skills while reserving the larger model for task-specific planning.",
+      "zh": "LeafSkill 将反复出现的原子动作落地过程移至外部复用层，先检索并绑定动作模板，再由 1.7B selector 选择允许执行的动作，或交回原 agent。在 200 个独立 Robotouille 任务上，成功率从 60.5% 提升至 68.5%；对两个系统都完成的任务，Qwen3.5-27B 的 token 用量下降 14.42%。它提供了一种实用方式，复用底层技能，并将大模型留给依赖具体任务的规划。",
+      "tags": [
+        "agents",
+        "tool use",
+        "skill reuse",
+        "efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ActionRAG: Evidence-Refining Graph Diffusion for Long-Term Memory in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.32752",
+      "en": "ActionRAG combines cautious entity resolution with query-time graph diffusion to revise retrieved evidence scores using local relationships while protecting direct evidence and penalizing hubs. On MemoryAgentBench’s eight deterministic-scoring columns, it reaches 55.1 average accuracy, 5.4 points above the strongest retrieval-based memory baseline. The design targets agent memory questions that require consistent relationships among facts rather than isolated semantic matches.",
+      "zh": "ActionRAG 将谨慎的实体消歧与查询时的图扩散结合，利用局部关系修正检索证据的评分，同时保护直接证据并惩罚枢纽节点。在 MemoryAgentBench 的八个确定性评分列上，它取得 55.1 的平均准确率，比最强的检索式记忆基线高 5.4 个点。该设计面向需要综合事实间一致关系的 agent 记忆问题，而不只是孤立的语义匹配。",
+      "tags": [
+        "agents",
+        "memory",
+        "RAG",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management",
+      "url": "https://arxiv.org/abs/2610.31840",
+      "en": "SpecMem accelerates tool-call decoding with bounded per-user memories that continuously absorb verified calls, use LRU eviction, and defer irreversible calls until verification confirms them. Across three open-weight models, it reports a 27% mean accepted-token advantage over a frozen store and up to 1.74× wall-clock speedup; per-user scoping closes a measured leakage channel, while side-effect-based gating eliminates irreversible mistakes in the experiments. The practical lesson is that maintaining draft memory online matters more than simply building a cache once.",
+      "zh": "SpecMem 使用容量受限的个人记忆加速工具调用解码，持续写入已验证调用、采用 LRU 淘汰，并将不可逆调用推迟至验证通过之后。三个 open-weight 模型的实验显示，相比冻结的存储，其平均接受 token 数高 27%，实际运行最高加速 1.74 倍；按用户隔离关闭了实验测得的信息泄漏通道，基于副作用的门控则消除了实验中的不可逆错误。实践启示是，在线持续维护草稿记忆比一次性建立缓存更重要。",
+      "tags": [
+        "tool use",
+        "agents",
+        "speculative decoding",
+        "memory"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A Descriptive Framework for Large Agent Systems (v0.1)",
+      "url": "https://www.lesswrong.com/posts/bKddWnNAzwbtoSm5a/a-descriptive-framework-for-large-agent-systems-v0-1",
+      "en": "LessWrong: A Descriptive Framework for Large Agent Systems (v0.1) proposes a shared vocabulary for describing swarms, agent markets, and agent societies through common design properties. The working paper applies the framework to the Hugging Face swarm, aiming to connect system design choices with safety outcomes as interactions expand into markets, forums, and social networks. Its stated next steps include agent-market and Moltbook case studies and validation of the framework’s coverage and predictive value.",
+      "zh": "LessWrong：A Descriptive Framework for Large Agent Systems (v0.1) 提出一套共同术语，通过共通的设计属性描述 swarm、agent 市场和 agent 社会。这篇工作论文将框架应用于 Hugging Face swarm，希望在交互扩展至市场、论坛和社交网络时，将系统设计选择与安全结果联系起来。后续计划包括 agent 市场和 Moltbook 案例研究，以及验证框架的覆盖范围和预测价值。",
+      "tags": [
+        "multi-agent",
+        "agents",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-26T12:02:00.024Z"
+}
