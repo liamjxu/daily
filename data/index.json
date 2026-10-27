@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-27",
+    "count": 20,
+    "headline_en": "OpenAI's Terra release puts computer use in focus as new research scrutinizes agent reliability, reasoning costs, memory, and post-training.",
+    "generatedAt": "2026-10-27T15:30:00.672Z"
+  },
+  {
     "date": "2026-10-26",
     "count": 15,
     "headline_en": "Agent reliability takes center stage as new research probes harness failures, lost constraints, asynchronous coordination, and more efficient post-training.",

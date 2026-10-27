@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-27",
+  "headline_en": "OpenAI's Terra release puts computer use in focus as new research scrutinizes agent reliability, reasoning costs, memory, and post-training.",
+  "headline_zh": "OpenAI 发布 Terra，让 computer use 成为焦点，同时新研究深入检验 agent 的可靠性、reasoning 成本、memory 与 post-training。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2114800277677092936",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux announces Terra's return, highlighting improvements in writing, personality, nuanced request understanding, and computer use. He says it offers twice the usage of 6.1 Sol across the API and subscriptions, making access economics a central part of the release.",
+      "zh": "OpenAI Codex 和 ChatGPT 开发者 Thibault Sottiaux 宣布 Terra 回归，重点强调 writing、personality、对复杂请求的细致理解以及 computer use 的提升。他表示，Terra 在 API 和订阅中提供的使用额度是 6.1 Sol 的两倍，使用成本与额度因此成为此次发布的重要看点。",
+      "tags": [
+        "frontier models",
+        "computer use",
+        "model economics"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2114780227465338985",
+      "en": "Anthropic's official Claude account says more than 25,000 nonprofits now use Claude, mostly small local teams. Claude for Nonprofits is expanding with a plugin developed alongside around 30 organizations, adding fundraising, marketing, and hiring skills grounded in each team's context and AI policy.",
+      "zh": "Anthropic 的 Claude 官方账号表示，已有超过 25,000 家非营利组织使用 Claude，其中大多是小型本地团队。Claude for Nonprofits 正在扩展，新增一款与约 30 家组织共同开发的 plugin，提供 fundraising、marketing 和 hiring skills，并结合各团队的背景与 AI policy。",
+      "tags": [
+        "agentic workflows",
+        "Claude",
+        "plugins"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "How Hugging Face’s Investor Spots Winners",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The Takeaway: As AI makes coding faster, the scarce advantage shifts toward discovering what users need, iterating quickly, and maintaining a product as the underlying technology changes. Factorial Capital founder and managing partner Matt Hartman, previously a Betaworks partner involved in its Hugging Face investment, looks for “the newly technically possible” and technical founders whose expertise lets them pivot across markets; he traces Hugging Face's evolution to recognizing weak chatbot retention, open-sourcing useful model implementations, and building a dedicated home for research and weights while keeping open source as its constant. His own open-source local transcription tool, Ghost Pepper, sharpened his appreciation for paid software: eliminating inference charges does not eliminate maintenance, and continuously incorporating better models, preserving quality, and reducing latency remain valuable services even when users can generate an initial implementation themselves. Hartman argues that faster development compounds the value of interpreting real user behavior and translating it into improvements, while strong AI application teams need enough technical depth to work down the stack, adapt research where it creates a distinctive advantage, and use frontier providers where doing so frees them to focus on their own product.",
+      "zh": "核心观点：AI 让 coding 更快之后，稀缺优势转向发现用户需求、快速迭代，以及在底层技术不断变化时持续维护产品。Factorial Capital 创始人兼 managing partner Matt Hartman 曾任 Betaworks partner，并参与其对 Hugging Face 的投资；他寻找的是“技术上刚刚成为可能的事”，以及能够凭借技术专长跨市场转型的创始人，他认为 Hugging Face 的发展关键在于正视 chatbot 留存不佳、开源实用的模型实现，并为研究与 weights 建立专门的平台，同时始终坚持 open source。亲手开发开源本地 transcription 工具 Ghost Pepper，让他更加理解付费软件的价值：省去 inference 费用并不等于省去维护，持续引入更好的模型、保持质量和降低 latency，仍然是有价值的服务，即使用户已经能自行生成第一版实现。Hartman 认为，开发提速会进一步放大从真实用户行为中提炼洞察并落实改进的价值，而优秀的 AI 应用团队需要足够的技术深度，能够深入整个技术栈，在有差异化价值的地方吸收研究成果，并在有助于专注自身产品的地方直接使用 frontier providers。",
+      "tags": [
+        "AI industry strategy",
+        "open source",
+        "agentic workflows",
+        "software economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.34491",
+      "en": "Across four benchmarks covering single-call reasoning and long-horizon agents, higher reasoning effort improves aggregate accuracy in some settings but also fails on tasks solved at lower effort. On easy tasks solved at every setting, the highest effort can cost up to 42 times as much as the lowest, with extra verification and searching extending trajectories. The results argue for evaluating marginal task-level benefit rather than treating more test-time compute as a uniformly better purchase.",
+      "zh": "在涵盖单次调用 reasoning 和长程 agent 的四个 benchmark 上，更高的 reasoning effort 在部分场景中提升了总体准确率，却也会做错低 effort 已经解决的任务。对于所有设置都能解决的简单任务，最高 effort 的成本可达最低的 42 倍，额外验证与搜索拉长了执行轨迹。这些结果表明，应衡量具体任务上的边际收益，而不能把更多 test-time compute 一概视为更划算的选择。",
+      "tags": [
+        "test-time compute",
+        "LLM agents",
+        "evaluation",
+        "model economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Position, Role or Label? A Controlled Study of Instruction Conflicts in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.33201",
+      "en": "WhoWins separates instruction position, message role, and source label through 1,080 code-scored scenarios and controlled experiments on 14 open-weight models, checking findings on held-out scenarios. Across roughly 1.89 million replies, instruction placement strongly affects which conflicting directive wins; in tool and file-write tasks, an initial system or developer policy wins less often than the same text placed first in a labelled user message in every tested model-mode. This challenges evaluations that conflate source authority with delivery format.",
+      "zh": "WhoWins 通过 1,080 个由代码评分的场景，以及针对 14 个 open-weight 模型的受控实验，拆分 instruction position、message role 和 source label 的影响，并在 held-out 场景上检验结论。在约 189 万条回复中，指令位置显著影响冲突时哪条指令胜出；在 tool 和 file-write 任务中，所有测试的 model-mode 都更容易遵循放在带标签 user message 开头的相同文本，而非最初的 system 或 developer policy。这对混合衡量来源权限与传递形式的 evaluation 提出了挑战。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "instruction hierarchy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.33274",
+      "en": "FlexA-Mem stores history once in an immutable store, then constructs a fresh memory for each call using a compact timeline and query-relevant verbatim details without an additional LLM call. It reports an 11.5% advantage over the second-best method on AppWorld challenge tasks at a 4k budget, plus a 12.2% advantage over A-Mem with a summary on 147 unused tasks with predictions fixed in advance. Its practical contribution is combining workflow continuity with exact-fact recovery under a changing memory budget.",
+      "zh": "FlexA-Mem 将历史一次性写入 immutable store，再为每次调用重新构建 memory，组合精简 timeline 与和 query 相关的原文细节，无需额外 LLM 调用。论文报告，在 4k budget 的 AppWorld challenge tasks 上领先第二名方法 11.5%，并在提前固定预测的 147 个未使用任务上领先 A-Mem 加 summary 方案 12.2%。其实际价值在于，在变化的 memory budget 下兼顾工作流连续性与精确事实恢复。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.33956",
+      "en": "Continual Learning Exam tests whether agents improve through accumulated experience using 120 expert-authored professional tasks, each organized into five progressively unlocked levels. Across 17 harness-model configurations, feedback plus one revision yields a median gain of 5.3 percentage points, but the best system clears only 47.7% of levels and finishes all five in 23.3% of tasks. It shifts evaluation toward sustained learning across assignments rather than isolated task completion.",
+      "zh": "Continual Learning Exam 使用 120 个专家编写的专业任务，检验 agent 能否通过积累经验持续进步，每个任务包含五个逐步解锁的 level。在 17 种 harness-model 配置中，反馈加一次修改带来的完成率提升中位数为 5.3 个百分点，但最强系统也只通过 47.7% 的 level，并在 23.3% 的任务中完成全部五级。它将 evaluation 的重点转向跨任务的持续学习，而非孤立任务的完成情况。",
+      "tags": [
+        "LLM agents",
+        "benchmarks",
+        "continual learning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
+      "url": "https://arxiv.org/abs/2610.33509",
+      "en": "SecPRBench evaluates security review on 265 validated bug-introducing changes from nine major systems, rather than reconstructing changes from later fixes. Across eight frontier models, recall ranges from 32.5% to 78.1%; in 68% of misses, agents inspect a file containing the flaw but identify the wrong mechanism. Harness choice also changes outcomes: Codex Security lowers recall by 8.3 points, largely through abstention, while Defending Code raises it by 7.7 points at higher cost.",
+      "zh": "SecPRBench 使用九个大型系统中经过验证的 265 个引入漏洞的真实改动来评估 security review，而非从后续修复反推待审改动。八个 frontier 模型的 recall 为 32.5% 至 78.1%；在 68% 的漏报中，agent 已检查包含漏洞的文件，却判断成了另一种机制。Harness 的选择也会改变结果：Codex Security 的 recall 降低 8.3 个百分点，主要源于 abstention，而 Defending Code 以更高成本提升了 7.7 个百分点。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "coding agents",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Thinking-in-Bets at Test Time Reduces Sycophantic Revisions in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.34654",
+      "en": "Thinking-in-Bets asks agents to record their claims, supporting checks, and confidence before reading user criticism, then consult that checklist when revising. Across five Gemini models and eight benchmarks, this training-free intervention nearly eliminates false reversals in patch review and reduces unnecessary coding edits after mistaken complaints; writing the record after criticism recovers little of the benefit. The timing suggests a practical way to preserve verified work while still investigating genuine errors.",
+      "zh": "Thinking-in-Bets 要求 agent 在阅读用户质疑之前，记录自己的结论、支持这些结论的检查以及 confidence，并在修改时参考这份 checklist。在五个 Gemini 模型和八个 benchmark 上，这种无需训练的干预几乎消除了 patch review 中错误推翻正确结论的行为，也减少了错误投诉引发的不必要代码修改；在读完质疑后才记录，几乎无法获得同样收益。记录时机提供了一个实用思路，帮助 agent 保留已验证的工作，同时继续排查真实错误。",
+      "tags": [
+        "LLM agents",
+        "reasoning",
+        "sycophancy",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "How Does Post-Training Shape LLM Value Preferences?",
+      "url": "https://arxiv.org/abs/2610.33371",
+      "en": "Controlled experiments vary opinion mixtures across five post-training paths using SFT, DPO, and GRPO, finding that the methods amplify demographic opinion imbalances differently. Removing amplified preferences depends on both the subsequent method and data mixture, and preferences transfer to students even when distillation data contains no explicit opinion questions. This makes corpus composition and training path important considerations when evaluating alignment and reusing distilled models.",
+      "zh": "这项受控实验改变语料中的观点配比，比较基于 SFT、DPO 和 GRPO 的五条 post-training 路径，发现不同方法会以不同方式放大人口群体之间的观点失衡。能否消除被放大的偏好，取决于后续训练方法与数据配比；即使 distillation 数据没有明确的观点问题，这些偏好仍会传给 student。评估 alignment 和复用 distilled models 时，因此需要同时考虑语料组成与训练路径。",
+      "tags": [
+        "post-training",
+        "DPO",
+        "distillation",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ProtAgent: Post-Training Compact Protein Tool Agents with Interaction-Level Credit Assignment",
+      "url": "https://arxiv.org/abs/2610.33746",
+      "en": "ProtAgent combines SFT for tool interfaces with on-policy REINFORCE, assigning intermediate tool rewards and terminal answer rewards through step-level returns. Under its fixed real-tool protocol, ProtAgent-8B reaches 61.00% annotation-coverage success versus 41.60% for DeepSeek-V3.2-Thinking 671B, while a three-seed comparison improves mean success from 42.70% with episode-level returns to 61.40% with step-level returns. The result highlights interaction-level credit assignment for compact tool agents, with success measuring reference-annotation recovery rather than biological correctness.",
+      "zh": "ProtAgent 先用 SFT 学习 tool interface，再进行 on-policy REINFORCE，通过 step-level returns 分配中间 tool reward 与最终 answer reward。在固定的真实工具协议下，ProtAgent-8B 的 annotation-coverage 成功率为 61.00%，DeepSeek-V3.2-Thinking 671B 为 41.60%；三次 seed 对比中，step-level returns 将平均成功率从 episode-level returns 的 42.70% 提升至 61.40%。结果凸显了 interaction-level credit assignment 对小型 tool agent 的价值，但这里的成功衡量的是参考 annotation 的恢复程度，而非生物学正确性。",
+      "tags": [
+        "post-training",
+        "tool use",
+        "credit assignment",
+        "LLM agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Intervention-Certified Amplification: A Validity Gate for $\\sigma$-Weighted Post-Training",
+      "url": "https://arxiv.org/abs/2610.33882",
+      "en": "The paper shows that a per-sample weighted SFT/RL hybrid can amplify unexecuted Tool-Integrated Reasoning even after literal Python fences are removed from supervision, reaching 29% of MATH-500 prompts. Intervention-Certified Amplification gates that weighting using paired-rollout evidence, reducing the behavior to 11.2% in its online version and improving accuracy from 47.5% to 49.3%. It offers a concrete warning that training-side signals can reward behavior that hurts target-task performance.",
+      "zh": "论文发现，即使监督数据已删除字面的 Python fences，按样本加权的 SFT/RL hybrid 仍会放大未实际执行的 Tool-Integrated Reasoning，在 MATH-500 上达到 29% 的 prompt。Intervention-Certified Amplification 利用 paired-rollout evidence 控制这种加权，其 online 版本将该行为降至 11.2%，并把准确率从 47.5% 提升至 49.3%。它提供了一个具体警示：训练侧信号可能奖励损害目标任务表现的行为。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "evaluation",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Ask Before You Answer: A Question-Driven Evidence Reasoning Architecture (QERA) for In-Context Learning",
+      "url": "https://arxiv.org/abs/2610.35083",
+      "en": "QERA turns a request into a requirement checklist and typed information needs, gathers evidence across the conversation, verifies quotes with code, and applies guarded local repair without training. On all 405 CL-bench Life tasks with four frontier LLMs, it averages a 21.0% solving rate versus 18.2% for the strongest inference-time baseline and 14.6% for direct answering, using about four LLM calls per task. The approach targets requirements embedded in earlier context that a final user request may not repeat.",
+      "zh": "QERA 将请求拆成 requirement checklist 和分类的信息需求，从整个对话中收集证据，用代码核验引用，再进行受约束的局部修正，全程无需训练。在四个 frontier LLM 的全部 405 个 CL-bench Life 任务上，其平均解决率为 21.0%，高于最强 inference-time baseline 的 18.2% 和直接回答的 14.6%，每个任务约调用四次 LLM。该方法重点处理藏在早先上下文中、最终用户请求未必再次复述的要求。",
+      "tags": [
+        "in-context learning",
+        "reasoning",
+        "agentic workflows",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "UMAS: System-Level Uncertainty Quantification for Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2610.33013",
+      "en": "UMAS uses each generation's intrinsic confidence to estimate the credibility of inter-agent influence, then aggregates uncertainty across the system without additional parameters or inference cost. Evaluations on Debate and DyLAN report an average improvement of 10.54 AUROC points over state-of-the-art baselines, with uncertainty-aware answer selection improving accuracy by up to 12.6 points on specific tasks. It treats multi-agent reliability as a property of information flow rather than only individual answers.",
+      "zh": "UMAS 利用每次 generation 的内在 confidence，估计 agent 之间信息影响的可信度，再汇总系统级 uncertainty，无需新增参数或 inference 成本。在 Debate 和 DyLAN 上的评估报告，相比 state-of-the-art baselines，平均提升 10.54 个 AUROC 点；基于 uncertainty 的答案选择在部分任务上最高提升 12.6 个准确率百分点。它将 multi-agent 可靠性视为信息流的属性，而不只是单个答案的属性。",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "uncertainty",
+        "hallucination"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Improving the Chain-of-Thought Compressibility of Pruned Reasoning Models via Long--Short Contrastive Pruning",
+      "url": "https://arxiv.org/abs/2610.34336",
+      "en": "Contrastive Set-Difference identifies neurons associated with redundant reasoning by comparing long and short correct solutions to the same problem, then preferentially prunes them and expands length-preference training pairs. After pruning 20% of DeepSeek-R1-Distill-Qwen-7B, the combined method uses 8–22% fewer thinking tokens across four math benchmarks than reasoning-aware calibration pruning followed by the same compression, with accuracy within 0.5 points. It addresses the interaction between reducing model size and reducing reasoning length, rather than optimizing them independently.",
+      "zh": "Contrastive Set-Difference 对比同一问题的长短正确解答，识别与冗余 reasoning 相关的 neurons，优先剪除它们，并扩展 length-preference 训练对。在剪除 DeepSeek-R1-Distill-Qwen-7B 的 20% 后，相比 reasoning-aware calibration pruning 再接相同 compression 的方案，该组合方法在四个数学 benchmark 上少用 8–22% 的 thinking tokens，准确率差距不超过 0.5 个百分点。它着眼于模型体积压缩与 reasoning 长度压缩之间的相互影响。",
+      "tags": [
+        "reasoning",
+        "preference optimization",
+        "DeepSeek",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "en": "The Hacker News reports that security firm Xint demonstrated a way to misuse OpenAI's conversation compaction feature to expose hidden reasoning as plain text. The report describes a failure at the boundary between context compression and reasoning protection, relevant to systems that transform long-running agent histories.",
+      "zh": "The Hacker News 报道，安全公司 Xint 演示了一种滥用 OpenAI conversation compaction 功能、将隐藏 reasoning 暴露为明文的方法。报道涉及 context compression 与 reasoning protection 之间边界的失效，对需要转换长程 agent 历史的系统具有参考意义。",
+      "tags": [
+        "LLM agents",
+        "compaction",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "What happens with steering vectors to remove biases?",
+      "url": "https://www.lesswrong.com/posts/epyjNvwuivorAFeBM/what-happens-with-steering-vectors-to-remove-biases",
+      "en": "A Colored-MNIST experiment questions how much activation steering actually removes learned spurious correlations: ActAdd reaches 21.4% mean test accuracy across three seeds, compared with 19.0% for a same-norm random vector and 0% for the base model. Concept-loss steering reaches 27.0%, or 41.8% when using concepts from a larger model. The comparison suggests that the quality of the represented concept matters, and a random-direction control is essential when judging steering gains.",
+      "zh": "一项 Colored-MNIST 实验检验 activation steering 究竟能在多大程度上去除学到的伪相关：三个 seed 的平均测试准确率中，ActAdd 为 21.4%，相同 norm 的 random vector 为 19.0%，base model 为 0%。基于 concept loss 的 steering 达到 27.0%，使用更大模型提供的 concepts 后达到 41.8%。这一对比表明，concept 表征质量很重要，评判 steering 收益时也需要 random-direction control。",
+      "tags": [
+        "evaluation",
+        "interpretability",
+        "steering"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Papers with Code is now open-source [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgoadu/papers_with_code_is_now_opensource_p/",
+      "en": "A community revival of Papers with Code has released its codebase under Apache 2.0, tracking trending research, benchmarks, and state-of-the-art results. The project includes a FastAPI backend, React frontend, public API, and MCP server, opening both contributions and programmatic access to its research interface.",
+      "zh": "一个社区重建的 Papers with Code 项目以 Apache 2.0 开源代码，用于追踪热门研究、benchmark 和 state-of-the-art 结果。项目包含 FastAPI backend、React frontend、公开 API 和 MCP server，为社区贡献以及程序化访问研究界面提供了入口。",
+      "tags": [
+        "open source",
+        "benchmarks",
+        "MCP"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "I built a PyTorch optimizer for large GPU workloads — looking for feedback[P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgqtxp/i_built_a_pytorch_optimizer_for_large_gpu/",
+      "en": "ApexW experiments with compact optimizer states and Triton kernels, reporting roughly half the optimizer-state memory and 1.5 times faster optimizer steps than fused AdamW on workloads with a few large tensors. These are optimizer-only benchmarks; automatic mode does not consistently reproduce the speedup, and many-small-tensor workloads are substantially slower. The useful signal is a specific memory-throughput trade-off awaiting full-training validation.",
+      "zh": "ApexW 尝试结合紧凑的 optimizer states 与 Triton kernels，报告在少量大型 tensor 的 workload 上，optimizer-state memory 约减半，optimizer step 比 fused AdamW 快约 1.5 倍。这些结果仅来自 optimizer-only benchmark；automatic mode 尚不能稳定复现加速，大量小 tensor 的 workload 则明显更慢。值得关注的是这一明确的 memory-throughput 权衡，仍需完整训练验证。",
+      "tags": [
+        "training systems",
+        "GPU",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-27T15:30:00.672Z"
+}
