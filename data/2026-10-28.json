@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-28",
+  "headline_en": "Agent reliability takes center stage as new research exposes misleading evaluation signals, fragile autonomy, and biases in post-training data.",
+  "headline_zh": "Agent 可靠性成为焦点，新研究揭示了评估指标的误导性、自主执行的脆弱性，以及 post-training 数据中的偏差。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2115188992861970693",
+      "en": "Thariq, formerly of Claude Code at Anthropic, argues that open-source software needs a distribution model that lets users customize it through agents while automatically merging upstream changes. Coding agents can already perform those merges, but he sees automatic integration as the missing workflow.",
+      "zh": "曾参与 Anthropic Claude Code 的 Thariq 认为，开源软件需要一种新的分发方式，让用户通过 agent 定制软件，同时自动合并上游更新。Coding agent 已经能完成这些合并，但他认为，工作流中仍缺少自动整合这一环。",
+      "tags": [
+        "agentic workflows",
+        "open-source"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2115135857669881939",
+      "en": "Thariq, formerly of Claude Code at Anthropic, is experimenting with an AI-native macOS dock with modes for writing, building, and other activities. His agent can customize behavior and add modes, using jev to classify activity and notifications in real time and act on them; the project remains experimental, with unresolved edge cases.",
+      "zh": "曾参与 Anthropic Claude Code 的 Thariq 正在尝试开发一个 AI-native macOS dock，为写作、开发等活动提供不同模式。他的 agent 可以定制模式行为、添加新模式，并用 jev 实时识别活动和通知，再采取相应操作；项目仍处于实验阶段，还有一些边界情况尚未解决。",
+      "tags": [
+        "agents",
+        "tool use",
+        "HCI"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "How AI agents shape experts’ judgment calls",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "en": "Anthropic Research: How AI agents shape experts’ judgment calls finds that experts often follow an agent’s preference even when multiple decisions are defensible. In a study of 50 professional analysts using Claude Code for statistical analysis, researchers randomly assigned which option the agent favored at each key decision; analysts mostly chose that option, and few subsequently identified the agent as a reason. The finding challenges the assumption that delegating execution preserves independent human judgment.",
+      "zh": "Anthropic Research 的《How AI agents shape experts’ judgment calls》发现，即使多个决策都有合理依据，专家也经常跟随 agent 的偏好。研究让 50 名专业分析师使用 Claude Code 进行统计分析，并在每个关键决策点随机指定 agent 支持哪个选项；分析师大多选择了 agent 支持的一方，事后却很少将 agent 列为原因。这一结果挑战了一个常见假设：把执行工作交给 agent 后，人类仍能保持独立判断。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "human judgment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "en": "The Hacker News reports that an unreleased Anthropic model discovered vulnerabilities across Chrome, Safari, Android, Windows, and Linux and chained flaws into working proof-of-concept exploits. According to the report, these were prompted laboratory demonstrations rather than observed attacks, and Anthropic disclosed every flaw to vendors before publication; all are patched.",
+      "zh": "The Hacker News 报道称，Anthropic 一款尚未发布的模型在 Chrome、Safari、Android、Windows 和 Linux 中发现了漏洞，并将漏洞串联成可运行的概念验证 exploit。据报道，这些结果来自实验室中的 prompt 测试，并非已发现的真实攻击；Anthropic 在公开前已向厂商披露全部漏洞，目前均已修复。",
+      "tags": [
+        "frontier lab research",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "从参数对称性到有效学习率",
+      "url": "https://spaces.ac.cn/archives/11985",
+      "en": "科学空间|Scientific Spaces: 从参数对称性到有效学习率 examines the growing use of parameter symmetry to analyze and guide model optimization. It points to Hyperball, HyperTransfer, and ELR as examples of this direction.",
+      "zh": "科学空间|Scientific Spaces 的《从参数对称性到有效学习率》关注近年来越来越多基于参数对称性来分析和指导模型优化的研究，并以 Hyperball、HyperTransfer 和 ELR 为例介绍这一方向。",
+      "tags": [
+        "Chinese ML/NLP community",
+        "optimization"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "en": "Hugging Face - Blog: Can we trust LLMs to judge whether a research idea is novel? examines the reliability of LLM judgments about research novelty.",
+      "zh": "Hugging Face - Blog 的《Can we trust LLMs to judge whether a research idea is novel?》探讨 LLM 对研究想法新颖性的判断是否可靠。",
+      "tags": [
+        "evaluation",
+        "LLM judges"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "en": "Anthropic Research: Early progress on accelerating drug development with Claude outlines the start of a major effort to accelerate medicine development. Anthropic’s scientists have spent several months in deep research partnerships with six organizations developing new medicines.",
+      "zh": "Anthropic Research 的《Early progress on accelerating drug development with Claude》介绍了一项加速药物开发的重要工作的初期进展。过去几个月，Anthropic 的科学家已与六家研发新药的机构开展深入研究合作。",
+      "tags": [
+        "frontier lab research",
+        "AI for science"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Correctness Conditioning as Selection in Chain-of-Thought Faithfulness Evaluation",
+      "url": "https://arxiv.org/abs/2610.37070",
+      "en": "This paper shows that evaluating chain-of-thought faithfulness only on correctly answered questions changes the population being measured and can introduce selection bias. A causal analysis and four arithmetic deployments find positive selection gaps throughout, including +7.4 percentage points for GLM-5.3. For reasoning evaluation, the practical lesson is to evaluate all traces when counterfactual compliance is observable rather than filtering by answer correctness.",
+      "zh": "这篇论文指出，只在回答正确的题目上评估 chain-of-thought 忠实性，会改变被测群体，并可能引入选择偏差。因果分析和四组算术任务部署均发现正向选择差距，其中 GLM-5.3 的差距为 7.4 个百分点。对 reasoning evaluation 的直接启示是：当每条样本的反事实遵从情况都可观测时，应评估全部推理轨迹，而不是按答案是否正确进行筛选。",
+      "tags": [
+        "evaluation",
+        "chain-of-thought",
+        "selection bias"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Exploring the Limits of the Delta Learning Hypothesis: Single-Pair Generator Biases in Direct Preference Optimization",
+      "url": "https://arxiv.org/abs/2610.37058",
+      "en": "This study challenges the idea that DPO preference data can reliably come from one model pair by always preferring the larger model’s response. Fixed pairs introduce generator-specific cues that predict preference labels independently of quality, and single-pair training consistently underperforms multi-model data with dynamics consistent with reward hacking. Adding generators partially mitigates the problem even without an external judge, making generator diversity a concrete consideration for preference-data design.",
+      "zh": "这项研究质疑一种 DPO 数据构建思路：仅使用一对模型，并始终将较大模型的回答标为更优。固定模型对会引入与质量无关、却能预测偏好标签的生成器特征；单模型对数据训练持续落后于多模型数据，训练动态也与 reward hacking 相符。即使不用外部 judge，增加生成模型也能部分缓解问题，因此生成器多样性是偏好数据设计中值得明确考虑的因素。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Concordat: Typed Sessions for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.37461",
+      "en": "Concordat is a Python library that enforces agent behavior through finite-state protocols, exposing only legal tools at each step and rejecting invalid calls before side effects occur. Under simulated customer pressure on tau-bench airline tasks, the standard agent made unconfirmed changes in 13 of 50 tasks with gpt-4.1 and 29 of 128 runs with Claude Haiku 5.5, while Concordat made none without a significant task-success difference. It offers a concrete way to move consequential workflow constraints into runtime enforcement.",
+      "zh": "Concordat 是一个通过有限状态协议约束 agent 行为的 Python 库，每一步只开放合法工具，并在产生副作用前拒绝非法调用。在 tau-bench 航空任务中加入模拟客户施压后，标准 agent 使用 gpt-4.1 时在 50 个任务中有 13 次未经确认便执行变更，使用 Claude Haiku 5.5 时在 128 次运行中有 29 次；Concordat 没有出现此类违规，任务成功率也没有显著差异。它为将重要工作流约束落实到运行时提供了具体方案。",
+      "tags": [
+        "agents",
+        "tool use",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Benchmarking LLM Agents for Behaviorally Adequate Test Generation from Software Requirements",
+      "url": "https://arxiv.org/abs/2610.36584",
+      "en": "Req2Test-Bench tests whether coding agents can generate behaviorally adequate tests from requirements when the implementation is withheld. Its 5,086 execution-validated instances span eight projects, five languages, and four BDD frameworks; evaluation across eight configurations reveals a substantial gap between tests passing and tests killing every mutant killed by the developer-written reference. It directly probes whether generated test harnesses validate required behavior rather than merely execute successfully.",
+      "zh": "Req2Test-Bench 检验 coding agent 能否在看不到实现的情况下，根据需求生成足以验证行为的测试。它包含 5,086 个经过执行验证的实例，覆盖八个项目、五种语言和四种 BDD 框架；对八种配置的评估显示，测试能够通过与测试能杀死开发者参考测试所杀死的全部 mutant 之间存在明显差距。它直接检验生成的测试 harness 是否真正验证了需求行为，而不只是能够成功运行。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+      "url": "https://arxiv.org/abs/2610.36980",
+      "en": "AutoVend puts one agent in charge of 20 vending machines across five site types for 180 simulated days, including procurement delays, replenishment costs, expiration, and recurring expenses. Four of five LLM agents underperform a rule-based inventory baseline, and accounting for inference cost changes model rankings. The benchmark connects long-horizon planning and feedback adaptation to sustained economic returns rather than isolated successful actions.",
+      "zh": "AutoVend 让一个 agent 在 180 个模拟日内管理分布于五类地点的 20 台自动售货机，并纳入采购延迟、补货成本、商品过期和持续运营费用。五个 LLM agent 中有四个不及基于规则的库存管理基线，计入 inference 成本后，模型排名也会变化。这个 benchmark 将长期规划和反馈适应能力与持续经济回报联系起来，而非只看单次行动是否成功。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "agent economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "The State and Fate of Multilingual, Contextual Evaluation in the NLP World",
+      "url": "https://arxiv.org/abs/2610.36990",
+      "en": "An audit of 51 multilingual benchmarks covering 242 datasets and 219 languages finds broad but shallow coverage, English-centric construction, and contamination risks. Some 36% of languages appear in only one benchmark, while 56% of dataset-language instances are translated; translated leakage and parallel-corpus overlap can evade surface-form detection. The findings argue for culturally grounded, natively constructed, contamination-aware evaluation when assessing generalization beyond English.",
+      "zh": "这项审计覆盖 51 个多语言 benchmark、242 个数据集和 219 种语言，发现覆盖面虽广但深度不足，构建方式以 English 为中心，同时存在数据污染风险。36% 的语言只出现在一个 benchmark 中，56% 的数据集与语言组合实例来自翻译；翻译后的泄漏和平行语料重叠可能绕过表面文本匹配检测。研究主张，在评估模型超越 English 的泛化能力时，应采用扎根本地文化、原生构建且关注 contamination 的评估方式。",
+      "tags": [
+        "evaluation",
+        "data contamination",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Who Convinced Whom? Tracing How LLMs Change Their Minds in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2610.35930",
+      "en": "MAD Bench studies multi-agent debate on 2,400 questions using an independent-reflection control matched for rounds. Across tested models, debate delivers small estimated accuracy improvements over initial majority voting on the analyzed subset, but raises unanimous wrong answers by 3.1–7.4 percentage points relative to reflection; attributing identical text to different sources also changes its influence. Agreement after debate therefore warrants scrutiny as a signal of independent corroboration.",
+      "zh": "MAD Bench 使用 2,400 道题研究 multi-agent debate，并以轮数相同的独立反思作为对照。在所分析的题目子集中，debate 相比初始多数投票只带来小幅估计准确率提升，却比独立反思增加了 3.1 至 7.4 个百分点的全体一致答错情况；同样的文字被归于不同来源时，影响力也会改变。因此，不能轻易将 debate 后达成一致视为独立证据相互印证。",
+      "tags": [
+        "multi-agent",
+        "reasoning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "From Solver Trajectories to Teaching Trajectories: Cognition-Aligned Reasoning Distillation",
+      "url": "https://arxiv.org/abs/2610.36445",
+      "en": "Cognition-Aligned Reasoning Distillation addresses the mismatch between strong reasoning models’ solver traces and what smaller students can learn effectively. Its RL framework transforms existing trajectories using rewards for alignment with the student’s predictive distribution and logical coherence, avoiding expensive resampling. Reported gains over raw-trajectory distillation, including out-of-distribution gains, make trajectory teachability a useful target for post-training.",
+      "zh": "Cognition-Aligned Reasoning Distillation 针对强 reasoning 模型的解题轨迹与小模型有效学习能力之间的不匹配。它通过 RL 改写已有轨迹，使用与学生预测分布对齐和逻辑连贯性两类 reward，无需昂贵的重新采样。论文报告其优于直接蒸馏原始轨迹，并获得分布外提升，说明轨迹是否易于学习值得成为 post-training 的优化目标。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "DocSkill: Skill-Integrated Agentic Reasoning for Multilingual Multi-Hop Document Question Answering",
+      "url": "https://arxiv.org/abs/2610.36759",
+      "en": "DocSkill learns to select, revisit, or skip document-QA skills as evidence evolves, using offline bounded MCTS trajectories for SFT and DPO. It introduces MMHop-DocBench with 60K QA pairs across 10 languages and eight document domains; Qwen3-VL-8B reaches 41.0 accuracy and 49.2 F1, beating the strongest evaluated baseline by 5.5 and 6.3 points. The contribution ties learned tool orchestration to traceable cross-page evidence and multilingual evaluation.",
+      "zh": "DocSkill 根据证据状态的变化，学习选择、重访或跳过文档 QA 技能，并使用离线有界 MCTS 轨迹进行 SFT 和 DPO。论文还提出 MMHop-DocBench，包含覆盖 10 种语言、八类文档领域的 60K 问答对；Qwen3-VL-8B 的 accuracy 达到 41.0、F1 达到 49.2，分别超过最强受测基线 5.5 和 6.3 分。其贡献在于将可学习的工具编排、可追溯的跨页证据和多语言评估结合起来。",
+      "tags": [
+        "agents",
+        "preference optimization",
+        "multilingual",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG",
+      "url": "https://arxiv.org/abs/2610.36444",
+      "en": "RouteDRAG starts from the observation that additional agent steps can improve, preserve, or degrade document-QA accuracy depending on the query. It learns both when to invoke an agent and how to control tool use and termination, combining a graph-backed document index, adaptive routing, an evolving workspace, and sequential policy learning. Across two benchmarks it improves average accuracy by 3.47 percentage points over shorter-path-only execution, making selective agent invocation a practical optimization target.",
+      "zh": "RouteDRAG 的出发点是：对于不同查询，额外的 agent 步骤可能提高、维持或降低文档 QA 准确率。它同时学习何时调用 agent，以及如何控制工具使用和终止，结合了基于图的文档索引、自适应路由、动态工作区和顺序策略学习。在两个 benchmark 上，它相比仅使用短路径执行的方案平均提升 3.47 个百分点的准确率，表明选择性调用 agent 是一个实用的优化方向。",
+      "tags": [
+        "agentic workflows",
+        "tool use",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Proactive Memory for Event-Driven LLM Agents",
+      "url": "https://arxiv.org/abs/2610.36967",
+      "en": "ProactMem organizes an agent’s history into recent events, temporal trajectories, and behavioral regularities, checking trajectory facts against source events and testing regularities through historical replay. On the chronological ProactiveStream benchmark, it achieves 52.6% F1, a 21.4% relative improvement over the strongest of five external baselines. It extends agent memory beyond retrieving similar past events toward validating when a learned pattern actually applies.",
+      "zh": "ProactMem 将 agent 历史组织为近期事件、时间轨迹和行为规律，并对照源事件核查轨迹事实，通过历史回放检验规律。在按时间顺序处理事件的 ProactiveStream benchmark 上，它达到 52.6% F1，相比五个外部基线中最强者相对提升 21.4%。它将 agent memory 从检索相似历史事件，推进到验证已学到的规律何时真正适用。",
+      "tags": [
+        "agents",
+        "memory",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
+      "url": "https://arxiv.org/abs/2610.36082",
+      "en": "Fin-SD trains GPT-OSS-20B by locating the first error in its own reasoning, truncating before it, and distilling short continuations from a frozen copy conditioned on that prefix and a critique. A generic-feedback control matches the method’s entire 3.03-percentage-point gain on FinanceReasoning Hard, suggesting that supervision placement drives the improvement rather than the critique’s content. This is a useful control result for interpreting claimed gains from hindsight self-distillation.",
+      "zh": "Fin-SD 先定位 GPT-OSS-20B 自身推理中的第一个错误，在错误前截断，再从基于该前缀和批评提示生成短续写的冻结副本中进行蒸馏。使用通用反馈的对照方案复现了该方法在 FinanceReasoning Hard 上全部 3.03 个百分点的提升，说明收益可能来自监督施加的位置，而非批评提示的内容。这一对照结果有助于更准确地理解 hindsight self-distillation 的效果来源。",
+      "tags": [
+        "distillation",
+        "reasoning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-28T12:02:38.360Z"
+}
