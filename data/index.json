@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-29",
+    "count": 9,
+    "headline_en": "Rapid frontier-model releases and expanding agent deployments put human control, practical workflows, and measurable benefits in focus.",
+    "generatedAt": "2026-10-29T12:01:40.755Z"
+  },
+  {
     "date": "2026-10-28",
     "count": 20,
     "headline_en": "Agent reliability takes center stage as new research exposes misleading evaluation signals, fragile autonomy, and biases in post-training data.",
