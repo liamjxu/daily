@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-30",
+  "headline_en": "Agent adoption is expanding, while evaluation rigor, model access, and security increasingly shape how AI systems are deployed.",
+  "headline_zh": "Agent 的应用持续扩大，评估的严谨性、模型访问权限与安全问题正日益影响 AI 系统的部署方式。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2115850175868727621",
+      "en": "OpenAI’s Thibault Sottiaux announced that usage limits are doubling immediately for Pro 100/200/500 and Business Premium. OpenAI is also abandoning a planned Pro 200 limit reduction, preserving existing Work and Codex usage, and continuing extended limits for dots with usage accounted for separately.",
+      "zh": "OpenAI 的 Thibault Sottiaux 宣布，Pro 100/200/500 和 Business Premium 的使用额度即日起翻倍。OpenAI 还取消了原定下调 Pro 200 额度的计划，保留现有 Work 和 Codex 使用额度，并继续为 dots 提供扩展额度，其用量仍单独计算。",
+      "tags": [
+        "model access",
+        "Codex",
+        "agents"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2115937378674372783",
+      "en": "Thariq, formerly of Anthropic’s Claude Code team, warns that coding agents can induce a kind of mania: users feel constantly busy and productive while little actually gets accomplished. He suggests that this activity can become a way to avoid dealing with something else in life.",
+      "zh": "曾在 Anthropic 的 Claude Code 团队工作的 Thariq 提醒，coding agent 可能让人进入一种亢奋状态：感觉自己一直在忙、产出很多，实际却没做成什么。他认为，这种忙碌有时会成为逃避生活中其他问题的方式。",
+      "tags": [
+        "agents",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2115953461108023400",
+      "en": "Google Labs and Gemini VP Josh Woodward announced that Notebook has made more than 700 textbooks from leading publishers available free of charge. He places the release within Google’s broader Expert Intelligence program.",
+      "zh": "Google Labs 与 Gemini VP Josh Woodward 宣布，Notebook 已免费开放来自主要出版商的 700 多本教材。他表示，这次发布属于 Google 更广泛的 Expert Intelligence 计划。",
+      "tags": [
+        "Gemini",
+        "education"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "The MAD Podcast with Matt Turck",
+      "role": null,
+      "title": "State of AI 2026: The Biggest Stories of the Year (and AGI in 2027?) | Nathan Benaich",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "en": "The Takeaway: AI’s next research bottleneck may be choosing worthwhile problems, while the practical opportunity lies in making agent workflows cheaper, safer, and useful beyond coding. Nathan Benaich, a venture capitalist and author of the State of AI Report, argues that recursive self-improvement depends on verifiable rewards and research taste rather than simply spending more tokens; his prediction of AGI in 2027 reflects a personal threshold of models outperforming him across compressed knowledge-work tasks. His industry thesis is stark: “you either like die trying to get to the frontier or you just live long enough to eventually serve inference,” with inference infrastructure and specialized capabilities offering alternatives to competing directly against the leading general-purpose labs, while stronger harnesses can help companies substitute cheaper models as token bills rise. His most concrete agent workflow combined Codex-assisted question design with automated expert interviews, producing 12 interviews totaling roughly 14 hours over two and a half days; he also argues that near-term cyber risks deserve more attention and that buying GPUs alone does not establish AI sovereignty.",
+      "zh": "核心判断：AI 研究的下一个瓶颈可能是选对值得研究的问题，而实际机会在于让 agent 工作流更便宜、更安全，并服务于编程以外的任务。风险投资人、State of AI Report 作者 Nathan Benaich 认为，递归自我改进依赖可验证的奖励和研究品味，而非单纯消耗更多 token；他对 2027 年实现 AGI 的预测，采用的是一个个人标准，即模型能在时间受限的各类知识工作中胜过他。他对行业竞争的判断很直接：“要么在追赶前沿的过程中死去，要么活得足够久，最终转向提供 inference 服务”；inference 基础设施和专门能力提供了避开与领先通用模型实验室正面竞争的路径，而随着 token 账单上涨，更好的 harness 可以帮助企业改用更便宜的模型。他最具体的 agent 工作流，是用 Codex 辅助设计问题，再通过自动化专家访谈，在两天半内完成 12 场、合计约 14 小时的访谈；他还认为，近期网络安全风险更值得关注，仅仅购买 GPU 并不能建立 AI 主权。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "AI strategy",
+        "inference"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "en": "The Hacker News reports that the official Claude Code extension on Open VSX was compromised to install a persistent SSH backdoor. The report traces the incident to a compromise of the Cursor Marketplace, which Cursor briefly took offline to remove the malware. The incident directly concerns the distribution infrastructure developers use to install AI coding tools.",
+      "zh": "The Hacker News 报道，Open VSX 上的官方 Claude Code 扩展遭到入侵，被用于安装持久化 SSH 后门。报道将事件追溯至 Cursor Marketplace 遭入侵，Cursor 曾短暂关闭该服务以清除恶意软件。这起事件直接涉及开发者安装 AI 编程工具所依赖的分发基础设施。",
+      "tags": [
+        "Claude Code",
+        "AI security",
+        "Cursor"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Unaligned weak models might exploit powerful aligned models",
+      "url": "https://www.lesswrong.com/posts/r7y3MnouZ5bAwbiss/unaligned-weak-models-might-exploit-powerful-aligned-models",
+      "en": "LessWrong: Unaligned weak models might exploit powerful aligned models argues that weak, unaligned agent swarms can outsource innocent-looking subtasks to a stronger aligned model while concealing the overall harmful objective. The post cites small-scale experiments in which combining individually safe models enabled harmful tasks more often than either model alone. The implication for multi-agent systems is that assessing each model’s safety separately can miss risks created by task decomposition and delegation.",
+      "zh": "LessWrong 的《Unaligned weak models might exploit powerful aligned models》提出，较弱且未对齐的 agent 群体，可以把看似无害的子任务外包给更强的已对齐模型，同时隐瞒整体的有害目标。文章引用的小规模实验显示，将各自安全的模型组合起来，完成有害任务的概率可能高于单独使用其中任何一个模型。对 multi-agent 系统而言，这意味着分别评估每个模型的安全性，可能漏掉任务拆分与委派带来的风险。",
+      "tags": [
+        "multi-agent",
+        "alignment",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Neutral Isn’t Independent: LLM @-invocation",
+      "url": "https://www.lesswrong.com/posts/NF8Abe2opBLqJs4sy/neutral-isn-t-independent-llm-invocation",
+      "en": "LessWrong: Neutral Isn’t Independent: LLM @-invocation argues that an LLM’s apparent neutrality does not make its agreement independent evidence. Drawing on correlation neglect, the post explains how participants can double-count support when model responses are correlated with views already represented in a discussion. This is a useful caution when treating an invoked model as an impartial adjudicator.",
+      "zh": "LessWrong 的《Neutral Isn’t Independent: LLM @-invocation》指出，LLM 看起来立场中立，并不意味着它的赞同构成独立证据。文章借助“忽视相关性”这一概念解释：当模型回答与讨论中已有观点相关时，参与者可能重复计算支持这些观点的证据。在把被调用的模型当作公正裁判时，这一点值得警惕。",
+      "tags": [
+        "evaluation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "What would you require before calling an inference change “quality-neutral”? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xj8f2g/what_would_you_require_before_calling_an/",
+      "en": "A MachineLearning discussion challenges whether nearly identical aggregate GSM8K scores, 96.89% versus 96.82% across 1,319 questions, justify calling an inference optimization quality-neutral. The cited Ling-3.0-flash comparison changes the MoE backend, adds an FP8 output head, and enables NEXTN speculative decoding together, with both configurations using an FP4 checkpoint. The post asks which evidence is most informative under a limited evaluation budget: paired question-level outcomes, repeated seeds, a declared equivalence margin, or additional tasks.",
+      "zh": "MachineLearning 的一则讨论质疑：在 1,319 道 GSM8K 测试题上，96.89% 和 96.82% 这样接近的总分，是否足以证明 inference 优化不会影响质量。帖子引用的 Ling-3.0-flash 对比同时更换了 MoE backend、加入 FP8 output head，并启用 NEXTN speculative decoding，两种配置均使用 FP4 checkpoint。作者追问，在有限的评估预算下，逐题配对结果、重复随机种子、预先声明的等效界限，还是增加其他任务，最能提供有效证据。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "speculative decoding",
+        "quantization"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-30T20:24:34.788Z"
+}
