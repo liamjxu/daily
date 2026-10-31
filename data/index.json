@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-31",
+    "count": 17,
+    "headline_en": "Agent deployment is putting permissions, memory, and evaluation under scrutiny as new post-training methods target more capable and efficient reasoning.",
+    "generatedAt": "2026-10-31T12:02:28.647Z"
+  },
+  {
     "date": "2026-10-30",
     "count": 9,
     "headline_en": "Agent adoption is expanding, while evaluation rigor, model access, and security increasingly shape how AI systems are deployed.",

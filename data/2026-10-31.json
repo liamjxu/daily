@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-31",
+  "headline_en": "Agent deployment is putting permissions, memory, and evaluation under scrutiny as new post-training methods target more capable and efficient reasoning.",
+  "headline_zh": "随着 agent 走向实际部署，权限、记忆和评估受到更多审视，新的 post-training 方法则着力提升推理能力与效率。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2116220869479428500",
+      "en": "Anthropic's official Claude account announced that Max 5x becomes Max and Max 20x becomes Ultra, with prices unchanged at $100 and $200 per month. Verified Ultra accounts are losing the five-hour limit, starting with most existing subscribers; newer accounts retain a temporary limit until verification. Weekly limits remain unchanged.",
+      "zh": "Anthropic 的官方 Claude 账号宣布，Max 5x 更名为 Max，Max 20x 更名为 Ultra，月费分别维持在 $100 和 $200。已验证的 Ultra 账号将取消五小时限额，首先覆盖大多数现有订阅用户；较新的账号在完成验证前仍保留临时限额。每周限额保持不变。",
+      "tags": [
+        "Claude",
+        "model access"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: Enterprise agents become deployable when their growing intelligence is paired with explicit permissions, deterministic workflows, and a software development life cycle that makes powerful automation reviewable before it touches production systems. Serval co-founder and CEO Jake Stauch, who previously worked with IT teams at Verkada, is challenging ServiceNow by letting IT departments build automations with coding agents rather than drag-and-drop workflows; his thesis is that code is the right representation for automation, while approvals, staging, audit trails, and controlled access make it usable across IT, HR, finance, and legal. “The boundaries are the product for us,” he says: more capable agents could push enterprises toward narrower employee permissions, creating demand for just-in-time privilege escalation, while Serval's Catalyst agent translates requirements into automations, approval rules, and permission checks, and background agents gradually earn access to approved tools instead of receiving unrestricted authority. The economic argument is equally specific: Serval tries to charge for workflows run rather than tokens consumed, customers increasingly want proof of ROI, and Stauch expects consolidation among narrow SaaS tools rather than the disappearance of core systems of record, whose maintenance and edge cases still make internal rebuilds expensive even when AI makes initial implementation easier.",
+      "zh": "核心判断：企业 agent 要真正落地，就需要把不断增强的智能与明确的权限、确定性 workflow 和软件开发生命周期结合起来，让强大的自动化能力在接触生产系统之前可以接受审查。Serval 联合创始人兼 CEO Jake Stauch 此前在 Verkada 与 IT 团队合作，如今希望让 IT 部门通过 coding agent 构建自动化，取代拖拽式 workflow，从而挑战 ServiceNow；他的判断是，代码才是表达自动化的合适方式，而审批、staging、审计记录和受控访问让这套能力可以用于 IT、HR、财务和法务。“对我们来说，边界就是产品，”他说：agent 越强，企业可能越会收紧员工权限，从而产生即时提权的需求；Serval 的 Catalyst agent 则把需求转化为自动化、审批规则和权限检查，后台 agent 通过逐步获批来扩充工具权限，而不是一开始就获得不受限制的操作权。经济层面的判断也很具体：Serval 尝试按 workflow 执行次数而非 token 消耗收费，客户越来越需要 ROI 证据，而 Stauch 预计整合主要发生在功能狭窄的 SaaS 工具之间，核心记录系统仍会保留，因为即使 AI 降低了初始开发难度，维护和边缘情况依然让企业内部重建成本高昂。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "permissions",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "en": "The Hacker News reports that Parameter researchers demonstrated a malicious ChatGPT share link that could execute attacker code inside a viewer's logged-in session and read private conversations. The flaw was reported through OpenAI's bug bounty program on October 18, fixed eight days later, and rated P1, OpenAI's most serious category.",
+      "zh": "The Hacker News 报道，Parameter 研究人员演示了一种恶意 ChatGPT 分享链接，可以在打开链接者已登录的会话中执行攻击者代码，并读取私人对话。该漏洞于 October 18 通过 OpenAI 的 bug bounty 项目提交，八天后修复，被 OpenAI 定为最高严重级别 P1。",
+      "tags": [
+        "ChatGPT",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Reading order is the part of PDF parsing that quietly breaks downstream NLP",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xj860k/reading_order_is_the_part_of_pdf_parsing_that/",
+      "en": "A release post for SoMarkAI's 1.3B document parser OXR argues that broken reading order can undermine downstream NLP before extraction quality is otherwise considered. OXR jointly predicts recognition and reading order, uses a replaceable layout model, and returns Markdown or JSON with 13 element types and bounding boxes. Its post-training groups written explanations of errors and uncertainty to drive targeted data generation; the authors report leading comparisons against published benchmark scores while acknowledging weaknesses on multi-column layouts.",
+      "zh": "SoMarkAI 的 1.3B 文档解析模型 OXR 发布帖指出，阅读顺序出错会直接破坏下游 NLP 的输入。OXR 联合预测内容识别结果与阅读顺序，采用可替换的版面模型，并输出包含 13 类元素及 bounding box 的 Markdown 或 JSON。其 post-training 将错误和不确定性的文字解释聚类，用于生成针对性训练数据；作者称，对照已发表的 benchmark 分数，OXR 表现领先，同时承认多栏版面仍是薄弱环节。",
+      "tags": [
+        "post-training",
+        "document parsing",
+        "NLP"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI",
+      "url": "https://arxiv.org/abs/2610.38095",
+      "en": "Nemotron 3.5 introduces open hybrid Mamba-Transformer MoE models: Super has 120B total parameters and 12B active parameters with multimodal capabilities, while Lightning is a 30B-total, 3B-active text model. The recipe combines distillation, long-context training, native speculative decoding, SFT, RLVR, and RLHF, with Super adding agentic software-engineering mid-training and multi-teacher on-policy distillation. Super reports 51.78% on SWE-bench Pro, making the paper relevant to both open agent models and the capability-efficiency tradeoffs of their training pipelines.",
+      "zh": "Nemotron 3.5 推出开放的混合 Mamba-Transformer MoE 模型：Super 总参数量为 120B、激活参数量为 12B，支持多模态；Lightning 则是总参数量 30B、激活参数量 3B 的文本模型。训练方案结合 distillation、长上下文训练、原生 speculative decoding、SFT、RLVR 和 RLHF，Super 还加入面向 agent 的软件工程中期训练及多教师 on-policy distillation。Super 在 SWE-bench Pro 上报告了 51.78% 的成绩，值得关注开放 agent 模型及训练流程中能力与效率权衡的读者阅读。",
+      "tags": [
+        "agents",
+        "post-training",
+        "open models",
+        "Nemotron"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Evaluating Causal Reasoning in LLMs: A Case Study in the Challenges of Procedural Generation",
+      "url": "https://arxiv.org/abs/2610.38100",
+      "en": "This audit finds superficial, highly predictive patterns in the procedural generator behind the causal-reasoning benchmark CLadder, with even random forests performing well after training on generated examples. Commercial LLM performance is brittle, and removing substantial text needed for formal causal reasoning barely changes results. The findings challenge whether strong CLadder scores demonstrate causal reasoning and illustrate why procedural generation alone does not establish benchmark validity.",
+      "zh": "这项审查发现，因果推理 benchmark CLadder 的程序化生成器会产生表面化但预测性很强的模式，甚至 random forest 在生成样本上训练后也能取得不错的成绩。商用 LLM 的表现很脆弱，而删除大量正式因果推理所需的文本，几乎不影响结果。这些发现质疑了 CLadder 高分能否证明因果推理能力，也说明仅靠程序化生成并不足以确保 benchmark 有效。",
+      "tags": [
+        "evaluation",
+        "reasoning",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "en": "OpenFrontiers pairs a corpus of 12,151 open research problems with a 200-problem mathematics benchmark containing recently resolved and still-open problems, using reviewed Lean 4 statements and independent proof checkers. On the HQ-50 subset, seven agents achieve at most seven rediscoveries among 40 resolved problems under closed-book conditions, while live-web successes mostly reflect retrieval of published solutions. Its separation of closed-book, frozen-retrieval, and live-web settings directly addresses the distinction between research ability and solution lookup.",
+      "zh": "OpenFrontiers 将包含 12,151 个开放研究问题的语料库，与一个包含 200 道近期已解决及仍未解决问题的数学 benchmark 结合，采用经过审查的 Lean 4 表述和独立证明检查器。在 HQ-50 子集上，七个 agent 在 closed-book 条件下，对 40 道已解决问题最多重新发现了七个解，而 live-web 条件下的成功主要来自检索已发表解答。它区分 closed-book、frozen-retrieval 和 live-web 设置，直接回应了如何区分研究能力与查找现成解答的问题。",
+      "tags": [
+        "evaluation",
+        "agents",
+        "reasoning",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Distilling the Shape of Uncertainty: What On-Policy Distillation Learns and How to Predict It",
+      "url": "https://arxiv.org/abs/2610.39020",
+      "en": "This paper argues that on-policy distillation transfers both which tokens to consider and where to preserve uncertainty across a reasoning trajectory. It introduces Entropy Shape Correlation, then uses interventions that change teacher entropy while preserving token preferences to show that uncertainty placement causally contributes to gains. Pre-training ESC selects the best teacher for both evaluated students, offering a teacher-selection criterion beyond teacher strength or token overlap.",
+      "zh": "这篇论文认为，on-policy distillation 传递的不只是应该考虑哪些 token，还包括在推理轨迹的哪些位置保留不确定性。作者提出 Entropy Shape Correlation，并通过改变教师 entropy、同时保留 token 偏好的干预，表明不确定性的位置对性能增益具有因果作用。在 distillation 开始前计算的 ESC 为两个接受评估的学生模型都选出了最佳教师，为教师选择提供了超越教师实力或 token 重叠程度的指标。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SCOPE: Selective Critical-Step On-Policy Self-Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.38391",
+      "en": "SCOPE addresses coarse trajectory-level RL feedback by having an agent generate step-specific hindsight skills and distill their guidance only at selected error steps. With Qwen2.5-3B, it reaches 97.7% success on ALFWorld and 85.2% on WebShop; on unseen ALFWorld tasks, it beats GRPO by 23.2 percentage points with 46.7% fewer interactions. The method is relevant to agent post-training because it targets local mistakes without spreading teacher guidance across unrelated steps.",
+      "zh": "SCOPE 针对轨迹级 RL 反馈过于粗糙的问题，让 agent 生成针对具体步骤的事后技能，并只在选定的错误步骤上 distill 这些指导。使用 Qwen2.5-3B 时，它在 ALFWorld 和 WebShop 上的成功率分别达到 97.7% 和 85.2%；在未见过的 ALFWorld 任务上，比 GRPO 高出 23.2 个百分点，交互次数减少 46.7%。该方法对 agent post-training 的价值在于，它针对局部错误提供信号，避免把教师指导扩散到无关步骤。",
+      "tags": [
+        "agents",
+        "post-training",
+        "distillation",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2610.38681",
+      "en": "WISD constructs a weaker version of a reasoning model through low-bit quantization or magnitude pruning, then uses its contrast with the original model as an on-policy self-distillation signal without privileged information. Quantization and pruning improve average accuracy by 4.0 and 5.5 percentage points, respectively; pruning raises Qwen3.5-4B from 39.1% to 56.7% on LiveCodeBench v6. It offers a post-training route when only unlabeled prompts are available and a stronger external teacher is unavailable.",
+      "zh": "WISD 通过低比特 quantization 或按权重幅值 pruning，构造推理模型的弱化版本，再利用它与原模型的差异作为 on-policy self-distillation 信号，无需额外的特权信息。Quantization 和 pruning 分别使平均准确率提高 4.0 和 5.5 个百分点；pruning 将 Qwen3.5-4B 在 LiveCodeBench v6 上的成绩从 39.1% 提升到 56.7%。当只有无标签 prompt、又没有更强的外部教师时，它提供了一条值得关注的 post-training 路径。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "reasoning",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Post-Training Large Language Models with LLMON",
+      "url": "https://arxiv.org/abs/2610.38120",
+      "en": "LLMON teaches models to separate executable instructions from passive data through structured notation and explicit identifier-based execution. After SFT and RL on a 4.6B-token corpus, Granite-4.1 3B and 8B models reduce indirect prompt-injection attack success rates from 53–100% to 0.02–5.6% while preserving general capabilities. The results suggest execution semantics can be learned through standard post-training without architectural changes, a practical direction for RAG and tool-calling systems.",
+      "zh": "LLMON 通过结构化表示和基于明确标识符的执行机制，教模型区分可执行指令与被动数据。在 4.6B token 语料上进行 SFT 和 RL 后，Granite-4.1 的 3B 和 8B 模型将间接 prompt injection 的攻击成功率从 53–100% 降至 0.02–5.6%，同时保留通用能力。这些结果表明，无需修改架构，也能通过标准 post-training 学会执行语义，为 RAG 和 tool-calling 系统提供了实用研究方向。",
+      "tags": [
+        "post-training",
+        "tool use",
+        "prompt injection",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Predict the Reward, Not the World: World Reward Models for ML Agents",
+      "url": "https://arxiv.org/abs/2610.38439",
+      "en": "World Reward Models learn to choose the better candidate program directly from execution results instead of predicting intermediate execution outcomes. ForeCritic, a 9B decision model adapted on 5,000 executed program pairs, selects the better program on 79.4% of 12,438 held-out pairs, versus 53–62% for general-purpose LLM judges. Integrated into three ML-agent systems, it reduces mean task time by 4.4–7.5 times, making direct candidate selection a promising way to reduce expensive search executions.",
+      "zh": "World Reward Models 直接根据执行结果学习选择更好的候选程序，而不是预测执行过程中的中间结果。ForeCritic 是一个在 5,000 对已执行程序上适配的 9B 决策模型，在 12,438 对 held-out 程序上的选择准确率达到 79.4%，通用 LLM judge 则为 53–62%。集成到三个 ML agent 系统后，它将平均任务耗时缩短了 4.4–7.5 倍，说明直接选择候选程序有望减少搜索中昂贵的实际执行。",
+      "tags": [
+        "agents",
+        "reward model",
+        "evaluation",
+        "efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents",
+      "url": "https://arxiv.org/abs/2610.38573",
+      "en": "CALM separates preserving agent memories from admitting them as evidence for a particular query, so outdated records can remain available for historical reconstruction without contaminating present-day answers. It tracks support, conflict, dependencies, and temporal applicability, reporting the best overall accuracy against evaluated baselines on LongMemEval-S and LoCoMo with Qwen and GPT backbones. This targets a central long-horizon agent problem: semantic relevance alone does not establish that a retrieved memory is currently valid.",
+      "zh": "CALM 将保存 agent 记忆与允许其作为特定查询的证据分开处理，让过时记录仍可用于还原历史，同时避免干扰当前问题的回答。它跟踪支持证据、冲突、依赖关系和时间适用性，在使用 Qwen 和 GPT backbone 的 LongMemEval-S、LoCoMo 实验中，相比所评估的基线取得了最高总体准确率。这针对了长时程 agent 的一个核心问题：语义相关并不意味着检索到的记忆当前仍然有效。",
+      "tags": [
+        "agents",
+        "memory",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation and Training",
+      "url": "https://arxiv.org/abs/2610.38220",
+      "en": "Rubricon generates and refines evaluation rubrics without human preference labels, rubric annotation, or generator-model training, selecting discriminative candidates and using criterion pass rates to guide additions and pruning. Across five benchmarks, its scores show 9% greater alignment with expert-authored rubrics than the strongest alternative synthetic method; using its rubrics for Qwen3.5-9B post-training improves HealthBench performance by 4.5% over RRD-generated rubrics. It connects evaluation design directly to reward quality on tasks without verifiable answers.",
+      "zh": "Rubricon 无需人工偏好标签、rubric 标注或生成模型训练，即可生成和优化评估 rubric：它选择区分度较高的候选方案，再利用各项标准的通过率指导增补与删减。在五个 benchmark 上，相比最强的其他合成方法，其评分与专家 rubric 的一致性提高了 9%；使用它的 rubric 对 Qwen3.5-9B 进行 post-training，HealthBench 表现比使用 RRD 生成的 rubric 高出 4.5%。它将评估设计与缺乏可验证答案任务中的 reward 质量直接联系起来。",
+      "tags": [
+        "evaluation",
+        "post-training",
+        "reward model"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution",
+      "url": "https://arxiv.org/abs/2610.39876",
+      "en": "This framework consolidates independently optimized specialists into a dynamic MoE using calibrated multi-teacher on-policy distillation, with teacher-wise normalization and clipping over local Top-K support. Turing-20B-A2B retains at least 90.16% of measured specialist gains in every evaluated domain, while its combined execution configuration cuts consolidation step time from 398.7 to 139.3 seconds. The paper is useful for understanding both specialist integration and training-system efficiency, with the speedup attributed to the complete execution configuration.",
+      "zh": "这套框架使用校准后的多教师 on-policy distillation，将独立优化的专家整合进动态 MoE，并在局部 Top-K 支持集上进行逐教师归一化和 clipping。Turing-20B-A2B 在每个评估领域都保留了至少 90.16% 的实测专家增益，组合执行配置则将整合训练的单步耗时从 398.7 秒缩短至 139.3 秒。这篇论文有助于理解专家整合与训练系统效率，其中加速效果归属于完整的执行配置。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "MoE",
+        "efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
+      "url": "https://arxiv.org/abs/2610.37935",
+      "en": "SkillMem compiles reusable textual skills into compact external latent memories, accessed through a role-conditioned cross-attention reader during multi-agent reasoning. Behavioral distillation trains the memories and shared reader while freezing the backbone; each skill requires 9.6 KB including its retrieval embedding, using the same memory configuration across Qwen3 models from 4B to 14B. Results across six benchmarks report strong gains for smaller backbones, suggesting a compact alternative to repeatedly processing textual skills or storing per-skill KV states.",
+      "zh": "SkillMem 将可复用的文本技能编译为紧凑的外部 latent memory，在多 agent 推理过程中通过按角色条件化的 cross-attention reader 访问。它通过 behavioral distillation 训练记忆和共享 reader，同时冻结 backbone；每项技能连同检索 embedding 只需 9.6 KB，在 Qwen3 4B 至 14B 模型上使用相同记忆配置。六个 benchmark 的结果显示，较小 backbone 获得明显提升，为反复处理文本技能或保存逐技能 KV 状态提供了一种紧凑替代方案。",
+      "tags": [
+        "multi-agent",
+        "memory",
+        "distillation",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-31T12:02:28.647Z"
+}
