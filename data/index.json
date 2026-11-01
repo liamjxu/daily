@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-01",
+    "count": 5,
+    "headline_en": "Reliable AI workflows depend on persistent memory, task-specific evaluation, and understanding where safeguards fail.",
+    "generatedAt": "2026-11-01T13:01:12.701Z"
+  },
+  {
     "date": "2026-10-31",
     "count": 17,
     "headline_en": "Agent deployment is putting permissions, memory, and evaluation under scrutiny as new post-training methods target more capable and efficient reasoning.",
