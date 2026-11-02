@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-02",
+    "count": 17,
+    "headline_en": "Agents are accelerating software delivery, while new research exposes weaknesses in their planning, memory, evaluation, and post-training.",
+    "generatedAt": "2026-11-02T13:42:32.415Z"
+  },
+  {
     "date": "2026-11-01",
     "count": 5,
     "headline_en": "Reliable AI workflows depend on persistent memory, task-specific evaluation, and understanding where safeguards fail.",

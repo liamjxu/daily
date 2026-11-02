@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-02",
+  "headline_en": "Agents are accelerating software delivery, while new research exposes weaknesses in their planning, memory, evaluation, and post-training.",
+  "headline_zh": "Agent 正在加速软件交付，新研究则揭示了它们在规划、记忆、评测和 post-training 中的薄弱环节。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Andrej Karpathy",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/karpathy/status/2116957135661945283",
+      "en": "Andrej Karpathy built HackerTube in about two hours with Claude Code and Opus 5.5, filtering 43 million Hacker News comments into 6,454 repeatedly recommended videos. He says Claude handled implementation and server deployment, while he manually obtained a Google API key, provisioned a VPS, and bought the domain. The project illustrates his broader point that software projects once requiring weeks or months can now be built through a few rounds of agent instructions.",
+      "zh": "Andrej Karpathy 用 Claude Code 和 Opus 5.5 花约两小时做出了 HackerTube，从 4,300 万条 Hacker News 评论中筛出 6,454 个被反复推荐的视频。他表示，Claude 完成了代码实现和服务器部署，他手动处理的部分是获取 Google API key、开通 VPS 和购买域名。这个项目体现了他的判断：过去需要数周甚至数月的软件项目，如今通过几轮 agent 指令就可能完成。",
+      "tags": [
+        "agents",
+        "Claude Code",
+        "Opus 5.5"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market & Origins of the Sandbox Bet",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "en": "The Takeaway: Modal’s founder and CEO argues that durable AI infrastructure advantages come from an integrated platform spanning inference, sandboxes, and training, because individual serving optimizations spread quickly and pure token delivery faces commoditization. Modal aggregates capacity across 25 clouds, where differences in reliability, networking, location, and memory make GPUs far from interchangeable; its custom file system, runtime, snapshotting, and data-transfer infrastructure support fast cold starts, while its sandbox business, launched in 2023 and accelerated by better coding models in 2025, now represents roughly a third of revenue at a reported $300 million run rate. On engineering, he estimates that agents participate in writing roughly 95% of merged code, but says senior engineers remain essential for supervision, reliability, and test design, describing their experience as “giving them, like, 10 interns”; agent adoption also forces longer deprecation windows because models keep generating obsolete APIs learned from older code, and Modal continuously tests whether model-generated code actually runs. His strategic distinction is that most companies will not need their own post-training, even if the biggest token consumers do, making productizing RL more attractive than bespoke services; meanwhile, GPU commitments with roughly 30% paid upfront create implicit leverage and dependence on future fundraising, so strong AI demand can coexist with financial fragility among model developers.",
+      "zh": "核心观点：Modal 的创始人兼 CEO 认为，AI 基础设施的持久优势来自覆盖 inference、sandbox 和训练的一体化平台，因为单项推理优化很快会被复制，单纯提供 token 的业务则面临同质化竞争。Modal 从 25 家 cloud 聚合算力，但可靠性、网络、地理位置和显存的差异意味着 GPU 远非可以随意互换的商品；其自研文件系统、runtime、snapshotting 和数据传输基础设施支撑了快速冷启动，而 2023 年推出、随 2025 年 coding model 进步而加速增长的 sandbox 业务，如今约占收入的三分之一，据其介绍年化收入规模为 3 亿美元。在工程实践上，他估计约 95% 的合入代码都有 agent 参与编写，但资深工程师仍需负责监督、可靠性和测试设计，这种体验就像“给他们配了大约 10 个实习生”；agent 也迫使产品延长 API 弃用周期，因为模型会继续生成从旧代码中学到的过时 API，Modal 因此持续测试模型生成的代码能否实际运行。他的战略判断是，大多数公司不需要自行 post-training，尽管消耗 token 最多的公司可能需要，因此把 RL 做成产品比定制服务更有吸引力；与此同时，约 30% 的 GPU 合同首付款形成了隐性杠杆和对后续融资的依赖，所以 AI 需求旺盛与模型开发公司的财务脆弱性可能同时存在。",
+      "tags": [
+        "agents",
+        "inference",
+        "post-training",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "BlindToChange: AI Agents Can Find Changes When Asked But Do They Look When Needed?",
+      "url": "https://arxiv.org/abs/2610.41435",
+      "en": "BlindToChange tests whether agents proactively discover recent events that invalidate otherwise obvious recommendations, rather than merely finding facts explicitly requested by a benchmark. Performance drops by as much as 27.5 points when the relevant change is not mentioned, even at high reasoning effort. It exposes a deployment gap that directed search benchmarks such as BrowseComp can miss: knowing when an assumption needs verification.",
+      "zh": "BlindToChange 测试 agent 能否主动发现会让看似合理的推荐失效的近期事件，而不只是找到 benchmark 明确要求查找的事实。即使采用较高 reasoning effort，在不提示相关变化时，系统表现仍可能下降多达 27.5 个百分点。它揭示了 BrowseComp 等定向搜索 benchmark 容易遗漏的部署问题：agent 是否知道何时需要核实自己的假设。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "url": "https://arxiv.org/abs/2610.40927",
+      "en": "Agentic World Modeling enables trajectory-level test-time scaling in a shared environment by simulating hypothetical actions through read-only evidence gathering and executable computation. Across τ-bench, AppWorld, and OfficeBench, it reports average improvements of 40.07% over single-shot simulation and 12.36% over a trained world-model baseline. This offers a practical route to parallel exploration when enterprise environments cannot be replicated or safely mutated by competing trajectories.",
+      "zh": "Agentic World Modeling 通过只读方式收集证据并执行计算，模拟假设动作，从而在共享环境中实现 trajectory 级别的 test-time scaling。在 τ-bench、AppWorld 和 OfficeBench 上，相比单次模拟和训练过的 world-model baseline，它报告的平均提升分别为 40.07% 和 12.36%。对于无法复制、或不能让多条探索轨迹同时安全修改的企业环境，这提供了一条开展并行探索的实用途径。",
+      "tags": [
+        "agents",
+        "test-time compute",
+        "world models"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Capability-Grounded Agentic Planning",
+      "url": "https://arxiv.org/abs/2610.41040",
+      "en": "CGAP deterministically compiles tool catalogs into PDDL, uses an LLM to translate requests into goals, and delegates plan construction to a classical planner. Execution adds entity-specific calls under deterministic checks, requires sourced arguments, and verifies delivery against the request; it improves over a standard tool-calling agent by up to 28.9 points across four benchmarks. The approach makes executable planning and argument provenance explicit rather than relying entirely on trial-and-error tool selection.",
+      "zh": "CGAP 以确定性方式将工具目录编译成 PDDL，用 LLM 将请求转换为目标，再由经典规划器生成计划。执行阶段在确定性检查下补充实体相关调用，要求参数有来源，并核验交付结果是否满足请求；在四个 benchmark 上，相比标准 tool-calling agent，最高提升 28.9 个百分点。这种方法明确处理计划的可执行性与参数来源，减少对试错式工具选择的依赖。",
+      "tags": [
+        "agents",
+        "tool use",
+        "planning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Completeness and Cost of Retrieval Structures for Multi-Tool Requests in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41905",
+      "en": "This study evaluates tool retrieval by completeness@k, which requires retrieving every tool needed for a request, alongside calls, tokens, and latency. In its ToolRet analysis, completeness@10 falls from 0.58–0.67 for single-target queries to 0.08–0.17 for queries with at least four targets, and retriever rankings reverse between these settings. The results argue for evaluating whole tool sets and their retrieval costs before choosing infrastructure for multi-step agents.",
+      "zh": "这项研究用 completeness@k 评估工具检索，要求请求所需的全部工具都出现在检索结果中，同时衡量调用次数、token 和延迟。在 ToolRet 分析中，单目标查询的 completeness@10 为 0.58–0.67，而至少需要四个目标的查询仅为 0.08–0.17，且不同检索器的排名会发生逆转。结果表明，为多步骤 agent 选择基础设施时，应评估完整工具集合的召回情况及其成本。",
+      "tags": [
+        "agents",
+        "tool use",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "From Training Exposure to Membership Evidence: A Controlled Study of OLMo 2",
+      "url": "https://arxiv.org/abs/2610.41732",
+      "en": "The authors rerun OLMo 2 1B’s 50-billion-token mid-training stage with randomized inclusion of documents from 7,814 matched pairs, separating genuine membership evidence from distribution shift. A counterfactual-reference attack reaches 0.767 AUC but detects only 3.8% of members at a 1% false-positive rate with a shared threshold; collection-level detection is substantially stronger, and most of the average exposure effect survives post-training. This provides controlled evidence about what membership tests can establish when investigating benchmark contamination.",
+      "zh": "作者重新运行 OLMo 2 1B 的 500 亿 token mid-training 阶段，从 7,814 对匹配文档中随机决定哪些进入训练，以区分真实的训练成员证据和分布偏移。使用反事实参考模型的攻击达到 0.767 AUC，但采用统一阈值、将假阳性率设为 1% 时，只能识别 3.8% 的训练成员；集合层面的检测明显更强，且 post-training 后仍保留了大部分平均训练暴露效应。这为调查 benchmark contamination 时，membership test 究竟能证明什么提供了受控证据。",
+      "tags": [
+        "data contamination",
+        "evaluation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Better Retrievers, Worse Labels: How Incomplete Relevance Judgments Distort Abstention Evaluation in Conversational RAG",
+      "url": "https://arxiv.org/abs/2610.40966",
+      "en": "This paper challenges the shortcut of labeling retrieved contexts unanswerable whenever they contain no gold documents. On RECOR, stronger retrievers increase the share of such contexts that actually contain answers from 28% to 72%, and the shortcut can underestimate answerability AUROC by up to 0.19. It shows how incomplete relevance labels can penalize better retrieval and distort conclusions about whether RAG systems should abstain.",
+      "zh": "这篇论文质疑一种评测捷径：只要检索上下文中没有 gold document，就判定问题不可回答。在 RECOR 上，随着检索器变强，这类上下文实际包含答案的比例从 28% 升至 72%，而这种捷径可能让 answerability AUROC 被低估多达 0.19。研究表明，不完整的相关性标签可能惩罚更好的检索器，并扭曲对 RAG 系统是否应当拒答的判断。",
+      "tags": [
+        "evaluation",
+        "RAG",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+      "url": "https://arxiv.org/abs/2610.40726",
+      "en": "Li²SAO addresses the cold-start problem of asynchronous single-rollout RL without relying on a pretrained value model. It initially trains the actor with group-relative advantages and the critic with group-centered returns, then switches to single-rollout GAE; experiments report matching or surpassing GRPO early while improving later performance. The analysis also finds different winners by workload: GRPO leads on single-turn reasoning, while the lightweight SAO reproduction leads on agentic tasks.",
+      "zh": "Li²SAO 在不依赖预训练 value model 的情况下，处理异步 single-rollout RL 的冷启动问题。它先用 group-relative advantage 训练 actor、用 group-centered return 训练 critic，再切换到 single-rollout GAE；实验报告其在训练早期追平或超过 GRPO，并进一步提高后期表现。分析还发现，最优方法随任务而变：GRPO 在单轮 reasoning 上更强，而轻量 SAO 复现在 agent 任务上更强。",
+      "tags": [
+        "post-training",
+        "asynchronous RL",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Reliability-Weighted Direct Preference Optimization: Penalized Weights for Robust Preference Learning",
+      "url": "https://arxiv.org/abs/2610.41588",
+      "en": "RW-DPO jointly learns the policy and per-comparison reliability weights, using closed-form updates that act only on comparisons the model contradicts at negligible added cost over DPO. In language-model fine-tuning with 10–30% flipped labels, its reported win rate remains stable as noise increases and exceeds DPO trained on clean labels. Its recovery guarantees require explicit margin and initialization assumptions, making it a targeted approach to noisy preference supervision rather than an unconditional label-cleaning guarantee.",
+      "zh": "RW-DPO 联合学习 policy 和每条偏好比较的可靠性权重，通过闭式更新仅处理与模型判断冲突的比较，相比 DPO 几乎不增加成本。在标签翻转比例为 10–30% 的语言模型 fine-tuning 中，论文报告其 win rate 没有随噪声增加而下降，并超过使用干净标签训练的 DPO。其恢复保证依赖明确的 margin 和初始化假设，因此它是处理噪声偏好监督的针对性方法，而非无条件的标签清洗保证。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Stepwise-Querying: Distilling Reasoning without Access to Teacher Chain-of-Thought",
+      "url": "https://arxiv.org/abs/2610.41769",
+      "en": "Stepwise Querying distills reasoning from black-box teachers by separately requesting intermediate derivations, validity checks, and corrections, then assembling the explanations for supervised fine-tuning. Across two teachers, two students, and four math and code benchmarks, it leads three baselines in 14 of 16 comparisons. The results suggest that useful reasoning supervision can be elicited without internal teacher CoT, and that even incorrect final-answer trajectories can help when their intermediate reasoning remains valid.",
+      "zh": "Stepwise Querying 分别向黑盒 teacher 请求中间推导、有效性检查和纠正，再将这些解释组装成 supervised fine-tuning 数据，以蒸馏 reasoning 能力。在两个 teacher、两个 student 和四个数学及代码 benchmark 上，它在 16 项比较中的 14 项领先于三个 baseline。结果说明，无需访问 teacher 内部 CoT 也能获取有用的 reasoning 监督；即使最终答案错误，只要中间推理仍然有效，相关轨迹也可能有价值。",
+      "tags": [
+        "distillation",
+        "reasoning",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41482",
+      "en": "KEEPER compares four auxiliary objectives for recursive textual memory and defines self-consistency bias as the persistence of incorrect claims already present in memory. Reward-related prediction achieves the strongest task performance among the evaluated conditions, while a claim-level analysis documents errors surviving corrective observations. The work argues that agent memory should be evaluated for error persistence and valid-information retention alongside task success.",
+      "zh": "KEEPER 比较了递归文本记忆的四种辅助目标，并将 self-consistency bias 定义为记忆中已有错误陈述的持续保留。在所评估的条件中，与 reward 相关的预测取得了最好的任务表现，而陈述级分析发现，即使出现纠正性观察，错误仍可能延续。研究主张，评估 agent 记忆时，除任务成功率外，还应衡量错误持续性和有效信息保留情况。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41291",
+      "en": "Agentic Soft-Token Compression is a training-free method that uses a hybrid Gated Delta Network–attention model’s recurrent dynamics to carry absorbed information forward as soft tokens while retaining exact values as hard tokens. It matches or exceeds uncompressed-agent accuracy with up to 50.68% fewer end-to-end Attention Pairs and produces reusable KV caches. The approach offers model-native context management for long-horizon agents, with applicability tied to the architecture it exploits.",
+      "zh": "Agentic Soft-Token Compression 是一种无需训练的方法，利用混合 Gated Delta Network 与 attention 模型的递归动态，将已吸收的信息作为 soft token 传递，同时用 hard token 保留精确值。它在达到或超过未压缩 agent 准确率的同时，最多减少 50.68% 的端到端 Attention Pairs，并生成可复用的 KV cache。这为长任务 agent 提供了模型原生的上下文管理方式，其适用性与所利用的模型架构相关。",
+      "tags": [
+        "agents",
+        "context compression",
+        "KV cache"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41177",
+      "en": "TraceSpec connects agent-trajectory evaluation to adaptive draft-model training, combining dynamic execution with fixed-prefix replay and a corpus of 10,000 training states and 2,500 test states. It finds that aggregate acceptance metrics can conceal deterioration within matched late browsing actions, then uses state-conditioned supervision allocation to improve replay throughput by 12.5–22.6% over its DSpark base. The contribution is both a warning about pooled inference metrics and a practical strategy for accelerating agent workloads.",
+      "zh": "TraceSpec 将 agent 轨迹评测与自适应 draft model 训练连接起来，结合动态执行、固定前缀 replay，以及包含 10,000 个训练状态和 2,500 个测试状态的数据集。研究发现，汇总 acceptance 指标可能掩盖匹配的浏览后期动作中的性能下降，随后通过按状态分配监督，使 replay 吞吐量相比 DSpark 基础方法提升 12.5–22.6%。它既提醒研究者警惕汇总推理指标，也提供了加速 agent 工作负载的实用策略。",
+      "tags": [
+        "agents",
+        "speculative decoding",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "en": "The Hacker News reports that the Windows infostealer VOLTA-AUTODOXER uses LLMs to rank stolen victim data by monetization value, with Claude, Gemini, and Kimi named in the headline. Its harvesting includes browser passwords and cookies, Outlook profiles, and Slack workspace data, illustrating AI being incorporated into the prioritization stage of criminal workflows.",
+      "zh": "The Hacker News 报道称，Windows 信息窃取恶意软件 VOLTA-AUTODOXER 使用 LLM，按变现价值对受害者被盗数据排序，标题中点名了 Claude、Gemini 和 Kimi。其窃取范围包括浏览器密码和 cookie、Outlook profile 以及 Slack workspace 数据，体现了 AI 正被用于犯罪流程中的目标优先级判断。",
+      "tags": [
+        "AI misuse",
+        "security"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Research directions, EMNLP and *CL papers",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xlv5to/research_directions_emnlp_and_cl_papers/",
+      "en": "An EMNLP attendee questions whether expectations for main-conference contributions have shifted toward broader multimodal work, empirical evaluations, and GPT-4o-generated datasets with limited human annotation. The post proposes discussing separate tracks for methodological, empirical, resource, multimodal, and evaluation work, while acknowledging that methodological novelty alone does not determine research value.",
+      "zh": "一位 EMNLP 参会者质疑，主会对论文贡献的期待是否正在转向更广泛的多模态研究、实证评测，以及人工标注有限的 GPT-4o 生成数据集。帖子建议讨论是否为方法、实证、资源、多模态和评测研究设置更明确的 track，同时承认方法上的新颖性并不能单独决定研究价值。",
+      "tags": [
+        "NLP research",
+        "evaluation",
+        "EMNLP"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-02T13:42:32.415Z"
+}
