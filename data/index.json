@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-03",
+    "count": 20,
+    "headline_en": "Reliable agents demand better planning, targeted model routing, and evaluations that expose failures hidden by answers and reasoning traces.",
+    "generatedAt": "2026-11-03T14:37:23.834Z"
+  },
+  {
     "date": "2026-11-02",
     "count": 17,
     "headline_en": "Agents are accelerating software delivery, while new research exposes weaknesses in their planning, memory, evaluation, and post-training.",
