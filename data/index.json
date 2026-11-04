@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-04",
+    "count": 20,
+    "headline_en": "Reliable agents depend increasingly on learned memory, better supervision, and evaluations that measure production behavior rather than headline accuracy.",
+    "generatedAt": "2026-11-04T13:02:42.384Z"
+  },
+  {
     "date": "2026-11-03",
     "count": 20,
     "headline_en": "Reliable agents demand better planning, targeted model routing, and evaluations that expose failures hidden by answers and reasoning traces.",
