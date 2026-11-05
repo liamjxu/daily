@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-05",
+    "count": 19,
+    "headline_en": "Agent progress increasingly depends on harness design, memory, and post-training, while tougher evaluations expose gaps in reliability and control.",
+    "generatedAt": "2026-11-05T17:23:49.260Z"
+  },
+  {
     "date": "2026-11-04",
     "count": 20,
     "headline_en": "Reliable agents depend increasingly on learned memory, better supervision, and evaluations that measure production behavior rather than headline accuracy.",
