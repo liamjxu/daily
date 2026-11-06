@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-06",
+    "count": 24,
+    "headline_en": "Agent reliability takes center stage as new research challenges benchmark scores, memory safety, and the gap between model intelligence and dependable software.",
+    "generatedAt": "2026-11-06T13:51:02.292Z"
+  },
+  {
     "date": "2026-11-05",
     "count": 19,
     "headline_en": "Agent progress increasingly depends on harness design, memory, and post-training, while tougher evaluations expose gaps in reliability and control.",
