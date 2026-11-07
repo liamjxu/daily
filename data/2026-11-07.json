@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-07",
+  "headline_en": "Agent memory, evaluation-driven workflows, and AI-guided science put the spotlight on how AI systems improve through experience and feedback.",
+  "headline_zh": "Agent memory、评估驱动的工作流与 AI 引导的科学实验，让如何通过经验和反馈改进 AI 系统成为焦点。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2118920030243139596",
+      "en": "Y Combinator President and CEO Garry Tan argues that agent skills need evaluation-driven development loops because model upgrades can make custom scaffolding unnecessary. He removed his /investigate skill after finding that Opus 5.5 performed better without it, a concrete reminder to re-evaluate agent workflows whenever the underlying model changes.",
+      "zh": "Y Combinator 总裁兼 CEO Garry Tan 认为，agent skills 需要评估驱动的开发循环，因为模型升级可能让原有的定制辅助机制变得多余。他发现 Opus 5.5 不使用 /investigate skill 反而表现更好，于是删除了它。这个具体案例提醒开发者，每次底层模型变化，都应重新评估 agent 工作流。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2118822238262853904",
+      "en": "Former Anthropic Claude Code builder Thariq highlights creator apps such as Instagram Edits and Roblox Studio shipping with built-in MCPs. He likes the resulting collaboration pattern: agents handle some of the work, while power users continue editing in familiar tools.",
+      "zh": "曾参与 Anthropic Claude Code 的 Thariq 关注到，Instagram Edits 和 Roblox Studio 等创作应用正在内置 MCP。他看好这种协作方式：agent 完成一部分工作，熟练用户则在自己熟悉的工具中继续编辑。",
+      "tags": [
+        "agents",
+        "tool use",
+        "MCP"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "The components of agent memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "en": "Anthropic Research: The components of agent memory frames learning from experience as a selection problem: Claude must decide what is worth remembering before it knows what comes next. The post describes how “dreaming” helps organize memory and correct mistakes, connecting memory management to an agent’s ability to improve over time.",
+      "zh": "Anthropic Research 的《The components of agent memory》将从经验中学习归结为一个筛选问题：Claude 必须在不知道接下来会发生什么的情况下，决定哪些内容值得记住。文章介绍了“dreaming”如何帮助整理记忆、纠正错误，并将记忆管理与 agent 持续改进的能力联系起来。",
+      "tags": [
+        "agents",
+        "memory"
+      ]
+    },
+    {
+      "section": "Official Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Teaching AI to build scientific models",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+      "en": "Anthropic Research: Teaching AI to build scientific models features Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is beginning to change scientific modeling. Their scope spans constructing models and interpreting them, making the scientific modeling process itself the focus.",
+      "zh": "Anthropic Research 的《Teaching AI to build scientific models》由 Jakob Macke、Daniel Gedon 和 Stefan Wahl 介绍 AI 如何开始改变科学建模。内容覆盖模型构建与解释，关注的是科学建模过程本身。",
+      "tags": [
+        "AI for science",
+        "scientific modeling"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Latent Space",
+      "role": null,
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "en": "The Takeaway: AI biology’s next step is to choose experiments that move cells toward a desired state, with rigorous baselines and meaningful metrics determining whether increasingly complex models actually help. Fabian Theis, who leads AI and computational biology efforts at Helmholtz Munich and has contributed to tools including Scanpy and AnnData, describes Lab Compass as an inverse generative model that uses a forward world model to propose how to reach a target state; work with a Cambridge collaborator established three or four laboratory feedback cycles that iteratively improved a model, although he characterizes the current approach as active learning and RL as a longer-term ambition. His methodological warning is equally relevant to LLM researchers: logistic regression remains competitive for simple cell-type prediction, benchmark metrics can be exploited, and claims for foundation models should demonstrate scaling behavior on genuinely demanding tasks rather than assume that complexity delivers better science. Theis’s instruction to students is “please, please, you know, have the baseline,” while his commercial argument is that models coupled to distinctive experimental data offer a stronger proposition than a virtual-cell platform alone, especially when pharmaceutical partners will pay for early access to useful perturbation datasets.",
+      "zh": "核心收获：AI 生物学的下一步，是选择能够让细胞朝目标状态变化的实验，而严格的 baseline 和有意义的指标，决定了越来越复杂的模型是否真的有用。Fabian Theis 在 Helmholtz Munich 领导 AI 与计算生物学相关工作，并参与了 Scanpy、AnnData 等工具的建设；他介绍的 Lab Compass 是一种 inverse generative model，利用前向 world model 提出达到目标状态所需的操作，与 Cambridge 合作者开展的工作已建立三到四轮实验反馈循环，逐步改进模型，不过他将当前方法定位为 active learning，把 RL 视为更长期的方向。他的方法论提醒同样适用于 LLM 研究者：简单的细胞类型预测中，logistic regression 依然很有竞争力，benchmark 指标可能被利用，而 foundation model 的价值应通过真正有难度的任务上的 scaling behavior 来证明，不能默认复杂模型就能带来更好的科学成果。Theis 对学生的叮嘱是“拜托，拜托，一定要有 baseline”；在商业层面，他认为模型与独特实验数据的结合，比单独的 virtual-cell 平台更有说服力，尤其是 pharma 合作方愿意为有价值的扰动数据集的提前访问权付费。",
+      "tags": [
+        "evaluation",
+        "world models",
+        "active learning",
+        "AI for science"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Anthropic's AI acceleration is probably real",
+      "url": "https://www.lesswrong.com/posts/QgcgoMz7mviHL6Esr/anthropic-s-ai-acceleration-is-probably-real",
+      "en": "LessWrong examines METR’s estimate that Anthropic’s model capabilities improved at twice the previous growth rate between October 2025 and October 2026, with roughly 80% of the acceleration attributed to AI and 20% to other factors. Much of METR’s analysis was redacted by Anthropic, limiting independent assessment. Using public information to triangulate the claims, the author concludes that the acceleration is real and probably AI-driven, while leaving its continuation unresolved.",
+      "zh": "LessWrong 分析了 METR 的一项估计：2025 年 10 月至 2026 年 10 月，Anthropic 模型能力的增长速度达到此前的两倍，其中约 80% 的提速归因于 AI，20% 归因于其他因素。Anthropic 隐去了 METR 分析中的大量内容，限制了外界的独立判断。作者利用公开信息交叉核对这些说法，认为提速确实存在，而且很可能由 AI 推动，但是否会持续仍无定论。",
+      "tags": [
+        "AI research acceleration",
+        "evaluation",
+        "frontier labs"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "en": "The Hacker News reports that Claude Code can preserve an approved command verbatim, including embedded passwords or API keys, in a project settings file when users select “Yes, and don't ask again.” Security company Apiiro reported 1,122 public copies on GitHub containing exposed credentials. The finding highlights how persisted command approvals can carry secrets into published project files.",
+      "zh": "The Hacker News 报道，用户选择“Yes, and don't ask again”后，Claude Code 可能将获准执行的命令原样保存在项目设置文件中，包括其中的密码或 API key。安全公司 Apiiro 报告称，GitHub 上有 1,122 份公开副本包含泄露的凭据。这一发现揭示了持久化命令授权如何把密钥带入公开发布的项目文件。",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "security"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-07T13:01:31.325Z"
+}
