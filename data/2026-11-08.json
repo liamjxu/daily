@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-08",
+  "headline_en": "Agent products are expanding beyond coding while model access, evaluation rigor, and control over powerful capabilities remain central questions.",
+  "headline_zh": "Agent 产品正从编程走向更多领域，模型访问、评估严谨性以及强大能力的控制方式仍是核心议题。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2119296267545419987",
+      "en": "OpenAI's Thibault Sottiaux, who works on Codex and ChatGPT, clarifies that all Pro plans have no five-hour limits. Relative to Plus, he lists Pro 100 at 10× usage, Pro 200 at 20×, and Pro 500 at 50× with access to ultrafast.",
+      "zh": "负责 OpenAI Codex 和 ChatGPT 的 Thibault Sottiaux 澄清，所有 Pro 套餐都没有五小时使用限制。相较 Plus，Pro 100 的用量为 10 倍，Pro 200 为 20 倍，Pro 500 为 50 倍，并可使用 ultrafast。",
+      "tags": [
+        "model access",
+        "OpenAI"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: Robinhood founder and CEO Vlad Tenev sees agent harnesses becoming consumer financial infrastructure, while arguing that powerful scientific AI should reach users rather than concentrate discovery inside frontier labs. He says Robinhood's Agentic Trading attracted more than 150,000 account openings within a few months and reached roughly 30 million tool calls per day; its evolution from an MCP integration to Robinhood Agents puts recurring strategy execution, portfolio rebalancing, skills, and an app store inside the account, borrowing the operating model of Claude Code and Codex to make sophisticated trading workflows accessible to individuals. The concrete control boundary is a separately funded account segregated from the customer's main balance, with trade approvals enabled by default but optional; Tenev expects sophisticated users to adopt first and argues existing algorithmic trading infrastructure can absorb much of the demand, while acknowledging agent-mediated trading remains a small share of activity. As co-founder of Harmonic, whose Aristotle model he says earned an International Math Olympiad gold medal and subsequently helped users tackle unsolved problems, he objects that scientific AI is “too centralized” and favors public access and collaboration with mathematicians, connecting product distribution to a broader strategic question: who gets to make discoveries and participate economically in AI's gains?",
+      "zh": "核心观点：Robinhood founder and CEO Vlad Tenev 认为，agent harness 正成为面向个人用户的金融基础设施，同时主张把强大的科学 AI 交给用户，让发现成果的机会更广泛地分布，而不是集中在 frontier labs 内部。他表示，Robinhood 的 Agentic Trading 上线几个月内已有超过 150,000 个账户开通，每天约有 3,000 万次 tool call；从 MCP 集成发展到 Robinhood Agents 后，定期执行交易策略、投资组合再平衡、skills 和应用商店都被整合进账户，借鉴 Claude Code 和 Codex 的运作方式，让个人也能使用复杂的交易工作流。具体的控制边界是一个需要单独转入资金、与客户主账户余额隔离的账户，交易默认需要审批，用户也可关闭审批；Tenev 预计专业用户会率先采用，并认为现有算法交易基础设施可以承接相当一部分需求，同时承认 agent 执行的交易目前占比仍很小。作为 Harmonic 的 co-founder，他表示其 Aristotle 模型曾获得 International Math Olympiad 金牌，随后帮助用户攻克未解决的问题；他批评科学 AI “too centralized”，更支持公开提供工具、与数学家合作，并将产品开放方式与一个更大的战略问题联系起来：谁有机会做出发现，又有谁能分享 AI 带来的经济收益？",
+      "tags": [
+        "agents",
+        "tool use",
+        "reasoning",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "What do LLMs Really Learn About Model Weights? A Stratification Approach to Examine Weight Space Programming",
+      "url": "https://www.lesswrong.com/posts/WnL4nWrS2owzZfwiz/what-do-llms-really-learn-about-model-weights-a",
+      "en": "LessWrong: What do LLMs Really Learn About Model Weights? tests whether apparent weight-reading ability survives removal of prompt shortcuts. Replicating a game-identification task from “Sparks of Weight-Space Programming,” the author reports GPT 6 Astra scoring 4/4 and Deepseek-V4.1-Flash 3/4 initially, but Flash deteriorating when channel labels are removed. Astra retains good accuracy with only first-layer weights or 1,000 randomly selected values out of 17,253, providing a useful small-scale example of probing what benchmark success actually measures.",
+      "zh": "LessWrong：What do LLMs Really Learn About Model Weights? 检验模型看似能够读取权重的能力，在去掉 prompt 中的捷径线索后是否仍然成立。作者复现了 “Sparks of Weight-Space Programming” 中根据权重识别游戏的任务，报告 GPT 6 Astra 初始答对 4/4，Deepseek-V4.1-Flash 答对 3/4，但去掉 channel label 后，Flash 的表现下降。Astra 在只获得第一层权重，或从 17,253 个权重值中随机抽取 1,000 个值时，仍保持较好的准确率，为检验 benchmark 成功究竟衡量了什么提供了一个有用的小规模案例。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "en": "The Hacker News: OpenAI Launches GPT-6 Cyber reports a model release combining stronger cybersecurity capabilities with improved alignment. OpenAI describes it as “more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,” making adherence to researcher-defined constraints a central claim alongside capability gains.",
+      "zh": "The Hacker News：OpenAI Launches GPT-6 Cyber 报道了一个同时提升网络安全能力和 alignment 的新模型。OpenAI 表示，它更擅长发现和修复漏洞，也更可靠地遵守研究人员设定的边界，因此，遵循研究人员定义的约束与能力提升一起，构成了此次发布的核心主张。",
+      "tags": [
+        "OpenAI",
+        "alignment",
+        "cybersecurity"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Hands-On Tutorials for Inspect AI",
+      "url": "https://www.lesswrong.com/posts/EvGLAuEtHpicKGBJh/hands-on-tutorials-for-inspect-ai-1",
+      "en": "LessWrong: Hands-On Tutorials for Inspect AI introduces four Jupyter notebooks covering evaluation basics, statistical considerations, benchmarks, LLM judges, and a small agent. Built from materials for the Spring 2026 Technical AI Safety Evals Course, the project also revised the official Inspect AI tutorial, added a Custom Solvers section, and fixed inconsistencies. It is a practical resource for researchers building evaluations and learning how to assess agent behavior.",
+      "zh": "LessWrong：Hands-On Tutorials for Inspect AI 提供四份 Jupyter notebook，涵盖评估基础、统计问题、benchmarks、LLM judges 和一个小型 agent。项目基于 Spring 2026 Technical AI Safety Evals Course 的教学材料，还修订了 Inspect AI 官方教程，新增 Custom Solvers 章节并修正了若干不一致之处。对于需要构建评估、学习如何测量 agent 行为的研究人员，这是一套实用资源。",
+      "tags": [
+        "evaluation",
+        "agents",
+        "Inspect AI"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "Follow-Builders",
+      "role": null,
+      "title": "⚠️ RedNote cookie expired",
+      "url": "https://www.rednote.com",
+      "en": "The RedNote login cookie is no longer accepted, so notes below (if any) are title-only without full text or direct links. To fix: open a logged-in www.rednote.com tab, copy the full `cookie` request header from DevTools → Network, and replace REDNOTE_COOKIE in ~/.follow-builders/.env.",
+      "zh": "RedNote 登录 cookie 已失效，下方笔记（如有）只剩标题，没有正文和直达链接。修复方法：在已登录的 www.rednote.com 页面打开 DevTools → Network，复制完整的 cookie 请求头，替换 ~/.follow-builders/.env 里的 REDNOTE_COOKIE。",
+      "tags": [
+        "maintenance"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-08T13:01:21.719Z"
+}
