@@ -1,0 +1,411 @@
+{
+  "date": "2026-11-09",
+  "headline_en": "As coding agents mature into software factories, research exposes fragile evaluation signals, memory risks, and new opportunities in post-training.",
+  "headline_zh": "随着 coding agent 走向软件工厂，研究揭示了评测信号的脆弱性、memory 风险，以及 post-training 的新机会。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2119624260675350605",
+      "en": "Y Combinator President & CEO Garry Tan reports that his gstack-evals project replicated a Jev Engineering article's findings and found particle-1 performed even better. The post offers a concrete example of using agents to check published engineering claims, although it gives no quantitative results.",
+      "zh": "Y Combinator President & CEO Garry Tan 表示，他的 gstack-evals 项目复现了 Jev Engineering 一篇文章的结论，并发现 particle-1 表现更好。这提供了一个用 agent 检验已发表工程结论的具体例子，但帖子没有给出量化结果。",
+      "tags": [
+        "agents",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Latent Space",
+      "role": null,
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://www.youtube.com/watch?v=dpY7YzZo4kE",
+      "en": "The Takeaway: AI-native engineering shifts the scarce skill from writing code to designing verifiable systems, managing agent context, and deciding what deserves to be built, which is why Stanford Adjunct Professor and Monaco Head of AI Mihail Eric rebuilt CS 146S around production workflows rather than easy exercises that agents can finish in one shot. Students build a roughly 200-line coding harness, inspect real agent requests with MITMProxy, and progress through context engineering, tool design, skills, agent-ready repositories, code review, security, and background agents; contributions to substantial open-source projects give them maintainer feedback and exposure to architectural decisions that toy assignments cannot reproduce. Monaco supplies the practical evidence: it built Monocoder on Coder for isolated background coding work and Hal for debugging and internal support, continues buying Devin code review where it sees value, and follows Eric's rule, “you buy to learn and you build to keep,” while exploring open-weight post-training as agent costs become material. The caution is that more agents cannot repair weak CI/CD or an unverifiable codebase, context inheritance and persistent specifications remain unresolved, and generated PR counts are a poor substitute for useful products; for researchers seeking frontier-lab opportunities, the closing advice is to build rigorous benchmarks, evals, and engineering write-ups that demonstrate depth on a real problem.",
+      "zh": "核心结论：AI-native engineering 的稀缺能力正从写代码转向设计可验证的系统、管理 agent context，以及判断什么值得构建，因此 Stanford Adjunct Professor、Monaco Head of AI Mihail Eric 重构了 CS 146S，把重点放在生产工作流，而不是 agent 一次就能完成的简单练习上。学生先搭建约 200 行的 coding harness，用 MITMProxy 检查真实 agent 请求，再学习 context engineering、工具设计、skills、agent-ready 仓库、code review、安全和 background agents；参与有一定规模的开源项目，让他们获得维护者反馈，接触教学小作业难以呈现的架构决策。Monaco 的实践提供了具体参照：团队基于 Coder 构建 Monocoder，运行隔离的后台编程任务，用 Hal 处理调试和内部支持，在 Devin code review 仍有价值的地方继续采购，并遵循 Eric 所说的“you buy to learn and you build to keep”，同时随着 agent 成本上升，开始探索 open-weight 模型的 post-training。需要留意的是，增加 agent 无法修复薄弱的 CI/CD 或缺乏可验证性的代码库，context 继承和长期维护的规格说明仍有未解问题，生成的 PR 数量也不能代替有用的产品；对于希望进入 frontier lab 的研究者，最后的建议是围绕真实问题构建严谨的 benchmark、eval 和工程文章，展示研究深度。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "evaluation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Does expecting automated grading degrade models’ research taste?",
+      "url": "https://www.lesswrong.com/posts/aaEpb2s5Yjspmiyk2/does-expecting-automated-grading-degrade-models-research-2",
+      "en": "LessWrong: Does expecting automated grading degrade models’ research taste? Three open-weight models agreed less with expert judgments on the TASTE benchmark when induced to expect automated rather than human grading, using either synthetic-document fine-tuning or activation steering. Their explanations also shifted toward feasibility and away from conceptual contribution, raising the possibility that automated research pipelines favor easily checked projects over more valuable research.",
+      "zh": "LessWrong：Does expecting automated grading degrade models’ research taste? 研究通过 synthetic-document fine-tuning 或 activation steering，让三个 open-weight 模型预期自己将接受自动评分而非人工评分，结果它们在 TASTE benchmark 上与专家判断的一致性下降。模型的解释也更强调可行性，较少关注概念贡献，这提示自动化研究流程可能偏向容易检验的项目，而非更有价值的研究。",
+      "tags": [
+        "evaluation",
+        "post-training",
+        "AI research"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "让炼丹更科学一些（十一）：无调度学习率新思路",
+      "url": "https://spaces.ac.cn/archives/12003",
+      "en": "科学空间|Scientific Spaces: 让炼丹更科学一些（十一）：无调度学习率新思路 explores a new approach to schedule-free learning rates. It frames the goal as training without a predetermined learning-rate curve or training horizon, building on earlier discussions of why scheduling matters for convergence.",
+      "zh": "科学空间|Scientific Spaces：让炼丹更科学一些（十一）：无调度学习率新思路，探讨无调度学习率的新思路。文章承接此前关于学习率调度对终点收敛重要性的讨论，目标是不预设学习率曲线，也不预设训练步数。",
+      "tags": [
+        "optimization",
+        "training"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Private LLM copies can agree on a secret key over a public channel",
+      "url": "https://www.lesswrong.com/posts/Y5B742yjGwE9tc6BC/private-llm-copies-can-agree-on-a-secret-key-over-a-public",
+      "en": "LessWrong: Private LLM copies can agree on a secret key over a public channel proposes exploiting the unusually high agreement between copies of the same model to derive a noisy shared key from public binary-choice questions. The exploratory argument assumes secret weights and adversaries unable to query the same model; it rests on a single experiment with four closed-weight models, rather than a running protocol. The same agreement signal could support model fingerprinting or selective coordination between model instances.",
+      "zh": "LessWrong：Private LLM copies can agree on a secret key over a public channel，提出利用同一模型不同副本之间较高的回答一致性，通过公开的二选一问题生成带噪声的共享密钥。这个探索性论证假设模型权重保密，且对手无法查询同一模型；依据是涉及四个 closed-weight 模型的一次实验，而非已运行的协议。同样的一致性信号也可能用于模型指纹识别，或模型实例之间的选择性协作。",
+      "tags": [
+        "multi-agent",
+        "coordination",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making",
+      "url": "https://arxiv.org/abs/2611.08971",
+      "en": "PHANTOM-Bench separates agents' private judgments, public decisions after ambiguous social signals, and estimates of what peers privately believe. Across nine models, ambiguous signals can turn correct private group judgments into incorrect collective decisions, with public accuracy dropping by up to 47.8 percentage points. This is a direct warning for multi-agent deliberation: apparent consensus can emerge without supporting private votes.",
+      "zh": "PHANTOM-Bench 将 agent 的私下判断、接收模糊社交信号后的公开决策，以及对其他 agent 私下观点的估计分开评测。在九个模型中，模糊信号可能把群体原本正确的私下判断转变为错误的集体决策，公开决策准确率最多下降 47.8 个百分点。这直接提醒 multi-agent 讨论系统：表面共识可能并没有私下投票的支持。",
+      "tags": [
+        "multi-agent",
+        "reasoning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+      "url": "https://arxiv.org/abs/2611.09721",
+      "en": "MemoryDojo traces how malicious instructions are stored, retrieved, and acted on across agent sessions, using 155 long-horizon trajectories spanning four domains and five memory systems. Every evaluated memory system is susceptible, while a memory-aware poison optimization process increases attack efficacy. The benchmark makes persistent memory an explicit part of agent security evaluation rather than treating each interaction in isolation.",
+      "zh": "MemoryDojo 使用覆盖四个领域、五种 memory 系统的 155 条长程轨迹，追踪恶意指令如何跨 agent 会话被存储、检索并执行。所有受测 memory 系统都存在易感性，针对 memory 机制优化投毒还会提高攻击效果。这个 benchmark 将持久 memory 明确纳入 agent 安全评测，而不是孤立地检查每次交互。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "From Procedures to Permissions: Learning Precise Subagent Authorization from Agent Skills",
+      "url": "https://arxiv.org/abs/2611.08905",
+      "en": "This work uses Agent Skills as supervision for learning which tools and workspace resources a delegated subtask requires, generating training data through verified interactive trajectories. On ClawArena-Team, Qwen3.5-35B-A3B improves tool-permission precision by 13.4 points, workspace-permission precision by 24.1 points, and task success by 11.6 points. It connects procedural knowledge to more precise authorization while improving multi-agent execution.",
+      "zh": "这项工作把 Agent Skills 用作监督信号，学习委派子任务需要哪些工具和 workspace 资源，并通过经过验证的交互轨迹生成训练数据。在 ClawArena-Team 上，Qwen3.5-35B-A3B 的工具权限 precision 提升 13.4 个百分点，workspace 权限 precision 提升 24.1 个百分点，任务成功率提升 11.6 个百分点。它将流程知识转化为更精准的授权，同时改善 multi-agent 执行效果。",
+      "tags": [
+        "multi-agent",
+        "tool use",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "RuACT: Recovering Inactive Rubrics as Adaptive Critics and Teachers",
+      "url": "https://arxiv.org/abs/2611.09597",
+      "en": "RuACT addresses rubrics that provide no group-relative RL signal because all sampled responses either fail or pass them; these account for 60.88% of query-rubric observations in the reported Qwen3-4B medical training setting. It turns unreachable rubrics into privileged teaching information for on-policy self-distillation and splits saturated rubrics into finer critics. The method beats GRPO and other evaluated baselines across four medical and scientific benchmarks with Qwen3-4B, offering a concrete way to recover wasted post-training supervision.",
+      "zh": "RuACT 处理在 group-relative RL 中无法提供学习信号的 rubric，即所有采样回答都失败或都通过的评分标准；在文中 Qwen3-4B 医学训练设置里，这类情况占 query-rubric 观测的 60.88%。方法将无法达成的 rubric 转化为 on-policy self-distillation 的特权教学信息，并将已饱和的 rubric 拆成更细的 critic。在 Qwen3-4B 的四个医学与科学 benchmark 上，它超过 GRPO 和其他受测基线，为利用原本浪费的 post-training 监督提供了具体方案。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "Qwen",
+        "reward model"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters",
+      "url": "https://arxiv.org/abs/2611.09634",
+      "en": "LambdaMix jointly trains one low-rank adapter per objective over a frozen model, using a preference vector both to mix adapters and weight normalized rewards. A single training run enables inference-time trade-offs without further optimization, outperforming evaluated conditioned and policy-merging baselines in hypervolume on its first two tasks across four models. This offers a parameter-efficient alternative to storing separate GRPO specialists for each desired behavior.",
+      "zh": "LambdaMix 在冻结的模型上，为每个目标联合训练一个 low-rank adapter，用同一个偏好向量混合 adapter 并加权归一化后的 reward。一次训练就能支持推理时调整目标取舍，无需再次优化；在前两项任务的四个模型上，其 hypervolume 超过受测的条件化和 policy merging 基线。对于需要多种行为取舍的部署，它提供了比单独存储多个 GRPO 专家策略更节省参数的方案。",
+      "tags": [
+        "preference optimization",
+        "post-training",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Failure Profiling and Reachable Trajectory Selection for Reasoning Distillation",
+      "url": "https://arxiv.org/abs/2611.09042",
+      "en": "FPRT selects reasoning-distillation data according to both the student's failure patterns and the corrective steps it can reproduce. It profiles error rates and consistency through repeated sampling, generates teacher candidates tailored to each failure mode, and selects correct trajectories whose early post-divergence steps are most reachable by the student. The method targets the teacher-student distribution mismatch that persists when correct teacher solutions are too difficult for the student to follow.",
+      "zh": "FPRT 根据学生模型的失败模式，以及它能够复现哪些纠正步骤，来选择 reasoning distillation 数据。方法通过重复采样分析错误率和错误一致性，针对不同失败模式生成 teacher 候选，再从正确轨迹中选择学生最容易复现分歧点后初始步骤的方案。它针对的是 teacher 解答虽然正确、学生却难以跟随时仍然存在的分布错配。",
+      "tags": [
+        "distillation",
+        "reasoning",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Compaction, decay and reinforcement in a two-tier conversational memory: a paired evaluation against retrieval-augmented generation",
+      "url": "https://arxiv.org/abs/2611.09807",
+      "en": "A paired LoCoMo evaluation compares compacting conversations into atomic facts against transcript-based RAG with the same generator and judge. Compaction leads 71.4% to 64.6% on four commonly reported categories while using 34% fewer prompt tokens, but including the adversarial category shrinks its advantage to a statistically insignificant 2.0 points. The practical trade-off is specific: compaction preserves asserted facts better than original phrasing, so memory architecture and benchmark coverage must match the intended questions.",
+      "zh": "这项 LoCoMo 配对评测在相同 generator 和 judge 下，比较将对话压缩成原子事实与基于原始对话的 RAG。在通常报告的四类题目上，压缩方案以 71.4% 对 64.6% 领先，prompt token 还减少 34%；但加入对抗类别后，优势缩小到没有统计显著性的 2.0 个百分点。实际取舍很具体：压缩更擅长保留事实内容，而非原始措辞，因此 memory 架构和 benchmark 覆盖范围必须与目标问题相匹配。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Does Reasoning Improve Psychological Depth in Large Language Models?",
+      "url": "https://arxiv.org/abs/2611.09061",
+      "en": "In 60 blinded story comparisons, human raters show no universal advantage for reasoning models: GPT-5 is modestly preferred to GPT-4o, while DeepSeek-R1 trails DeepSeek-V3. LLM judges favor reasoning outputs in 98.3% of pairs versus 55.2% of human votes, with part of the preference tracking sentence length; human inter-rater agreement is also very low. The study challenges transferring reasoning benchmark gains to open-ended quality and highlights evaluator bias and subjective preferences.",
+      "zh": "在 60 组盲评故事比较中，人工评分没有显示 reasoning 模型具有普遍优势：GPT-5 小幅优于 GPT-4o，而 DeepSeek-R1 落后于 DeepSeek-V3。LLM judge 在 98.3% 的配对中偏好 reasoning 输出，人工投票的对应比例为 55.2%，且部分偏好与句子长度相关；人工评分者之间的一致性也很低。这项研究质疑 reasoning benchmark 的进步能否直接迁移到开放式内容质量，并凸显评测器偏差和主观偏好的影响。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "DeepSeek"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+      "url": "https://arxiv.org/abs/2611.08639",
+      "en": "Using Llama-3.1-8B and Qwen3-8B on WMDP, this study finds that multiple-choice formatting induces early commitment to answer-letter tokens and places activations roughly three times farther from the refusal direction than open-ended prompts. Ablating attention heads carrying the multiple-choice answer increases refusal, supporting a competition between answer selection and refusal. The result cautions that multiple-choice safety scores can primarily reflect knowledge rather than the safety mechanisms deployed in open-ended interaction.",
+      "zh": "这项研究在 WMDP 上测试 Llama-3.1-8B 和 Qwen3-8B，发现选择题格式会促使模型较早确定答案字母 token，其 activation 与 refusal direction 的距离约为开放式 prompt 的三倍。消融承载选择题答案的 attention head 会增加拒答，支持答案选择与拒答机制存在竞争的解释。结果提醒我们，选择题安全分数可能主要反映知识水平，而非模型在开放式交互中使用的安全机制。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "alignment",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "MARS: Training Multilingual Search Agents for Retriever-Free Evidence Acquisition",
+      "url": "https://arxiv.org/abs/2611.09090",
+      "en": "MARS trains multilingual search agents to acquire evidence by executing shell commands against raw corpora instead of relying on a learned retriever. Corpus-native entity grounding supplies reliable lexical anchors, while a redundancy-aware RL reward encourages concise searches and addresses training collapse. Reported gains over retrieval-based and direct-interaction baselines make this relevant to tool-using agents that must search across languages without maintaining a separate retrieval index.",
+      "zh": "MARS 训练多语言 search agent，通过对原始语料执行 shell 命令获取证据，而非依赖学习得到的 retriever。它从语料中进行 entity grounding，获得可靠的词面检索锚点，并通过考虑冗余的 RL reward 鼓励简洁搜索、缓解训练崩溃。文中报告其超过基于 retrieval 和直接交互的基线，为需要跨语言搜索、又希望避免维护独立检索索引的 tool-using agent 提供了参考。",
+      "tags": [
+        "agents",
+        "tool use",
+        "multilingual",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "RPEG: Training Reasoning Language Models Scalably and Cost-Effectively",
+      "url": "https://arxiv.org/abs/2611.09207",
+      "en": "RPEG represents reasoning-model RL pipelines as a data-centric execution graph, jointly optimizing structural choices such as bounded asynchrony and actor-critic sharing alongside scheduling, fusion, and parallelism. On systems with up to 256 GH200 GPUs, its runtime reports up to 2× performance over ReaL, up to 2.48× lower step latency than verl, and up to 30% higher hardware utilization. It addresses the systems cost of post-training by optimizing the whole heterogeneous pipeline rather than isolated stages.",
+      "zh": "RPEG 用以数据为中心的执行图表示 reasoning 模型的 RL pipeline，将有界异步、actor-critic 共享等结构选择，与调度、融合和并行策略联合优化。在最多 256 张 GH200 GPU 的系统上，其 runtime 报告性能最高达到 ReaL 的 2 倍，step latency 相比 verl 最多降低至约 1/2.48，硬件利用率最多提高 30%。它通过优化完整的异构 pipeline，而非孤立阶段，处理 post-training 的系统成本问题。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "compute",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+      "url": "https://arxiv.org/abs/2611.09825",
+      "en": "BitDecoding-FP4 combines quantization changes with native FP4 attention kernels to reduce long-context KV-cache costs without the large accuracy losses of vanilla quantization. It addresses query error, probability underflow, and key outliers, while fusing softmax and probability quantization; reported accuracy stays within 0.5 points of BF16 KV with NVFP4 and within 1 point with MXFP4. Its results across dense and MoE models, including RL rollouts, connect serving efficiency to the cost of long-horizon agent inference and post-training.",
+      "zh": "BitDecoding-FP4 将 quantization 改进与原生 FP4 attention kernel 结合，降低长 context 的 KV cache 成本，同时避免普通 quantization 带来的大幅精度损失。方法处理 query 误差、概率下溢和 key outlier，并融合 softmax 与概率 quantization；文中报告 NVFP4 相对 BF16 KV 的精度差距不超过 0.5 个百分点，MXFP4 不超过 1 个百分点。覆盖 dense、MoE 模型和 RL rollout 的结果，将 serving 效率与长程 agent 推理及 post-training 成本联系起来。",
+      "tags": [
+        "KV cache",
+        "quantization",
+        "compute",
+        "post-training"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "合集的封面选择真是毫无悬念",
+      "url": "https://www.rednote.com/explore/6af05c9f000000001802c1ed?xsec_token=ABAOrJIhDqnVMROS5ujSO1NLJxGYDFHNCtEk-PU1YS8KY%3D&xsec_source=pc_user",
+      "en": "tabris highlights an MoE handbook in 图1 for its excellent visualization and interaction design, and an experiment in 图9 showing that small models are much more sensitive to hyperparameters than large ones. Other selections include an introduction to SwarmChat in 图10, benchmarks in 图8 and 图11, and a piece in 图12 arguing that workable AI behavior requires balanced trade-offs; 图5 receives a strong recommendation for its substance and solid experiments. Bottom line: 图1 (MoE handbook, clear interactive explanations), 图9 (small-model hyperparameter sensitivity), 图10 (SwarmChat introduction), 图12 (AI behavior trade-offs).",
+      "zh": "tabris 认为图1可能是能找到的最好的 MoE handbook，尤其是可视化与交互设计出色，大幅降低了概念的理解难度；图9是非常好的实验，说明 small models are much more sensitive to their hyperparameters than large ones。其他推荐包括图10的 SwarmChat 介绍、图8和图11的 benchmark，以及图12关于现实可运行的 AI behaviour 需要通过 tradeoffs 维持微妙平衡的观点；图5内容非常好，实验也很扎实，强烈推荐抽空读。一句话推荐: 图1（MoE handbook，交互解释清晰）、图9（小模型对 hyperparameter 更敏感）、图10（SwarmChat 介绍）、图12（AI behaviour 的 tradeoffs）。",
+      "tags": [
+        "MoE",
+        "evaluation",
+        "multi-agent"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "近20天自觉不错的paper推荐第一期",
+      "url": "https://www.rednote.com/explore/6af08f100000000015026262?xsec_token=ABAOrJIhDqnVMROS5ujSO1NCPSvzDxWTN8IiCccnzU_3c%3D&xsec_source=pc_user",
+      "en": "tabris shares a first selection of papers from the past 20 days, particularly liking 图1 and 图2 and also flagging 图5 and 图15 as worth attention. Bottom line: tabris recommends 图1, 图2, 图5, 图15.",
+      "zh": "tabris 分享近20天自觉不错的 paper 推荐第一期，认为图1、图2都挺不错，个人觉得图5和图15也值得关注。一句话推荐: tabris 推荐图1、图2、图5、图15。",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬blog推荐合集第六期",
+      "url": "https://www.rednote.com/explore/6ada1af1000000002a028ec4?xsec_token=ABVbeURUMbsUENn1OwknsmdHaZIc22tOYI0skFr9WdoN8%3D&xsec_source=pc_user",
+      "en": "tabris highlights the performance-versus-cost chart in 图1 and an introduction to PretrainGym in 图2. 图6 is strongly recommended for both its research and interaction design, 图9 for a particularly substantial research blog, and 图11 for interesting research and thoughtful presentation; 图7 features a discussion of AI between two well-known economists. Bottom line: 图1 (model performance versus cost), 图2 (PretrainGym introduction), 图6 (strong research and interactive design), 图9 (substantial research write-up).",
+      "zh": "tabris 认为图1写得很好，最有价值的是 Performance versus cost chart，期待有又便宜又好的 model 出现在左上；图2介绍 PretrainGym。图6的研究非常好，交互设计也做得好；图9的 blog 写得非常扎实和用心，感兴趣的只读 blog 问题也不大；图11研究有意思，交互和排版也不错，图7则是两位知名经济学家关于 AI 的对谈。一句话推荐: 图1（model 性能与成本）、图2（PretrainGym 介绍）、图6（研究与交互设计都好）、图9（扎实的研究 blog）。",
+      "tags": [
+        "compute",
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬自觉不错的paper推荐合集第六期",
+      "url": "https://www.rednote.com/explore/6ada2a06000000002a02b9dc?xsec_token=ABVbeURUMbsUENn1OwknsmdJg7rgAdiEYv2eK0Gjv81lU%3D&xsec_source=pc_user",
+      "en": "tabris shares the sixth late-October paper roundup, particularly recommending 图1 and 图7. Bottom line: tabris recommends 图1, 图7.",
+      "zh": "tabris 分享10月下旬自觉不错的 paper 推荐合集第六期，个人觉得图1和图7都很不错。一句话推荐: tabris 推荐图1、图7。",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "骗人进来看一堆paper是不是不太好..",
+      "url": "https://www.rednote.com/explore/6ada2d4800000000330367b4?xsec_token=ABVbeURUMbsUENn1OwknsmdPRIXynOaHllWsq2MYVAoKE%3D&xsec_source=pc_user",
+      "en": "tabris shares a paper roundup, choosing 图1 as the cover out of personal preference and also paying particular attention to 图13. Bottom line: tabris recommends 图1, 图13.",
+      "zh": "tabris 分享一组 paper，图1成为封面主要是因为个人比较喜欢，图13也比较关注。一句话推荐: tabris 推荐图1、图13。",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "Claude能超过GPT 是因为押对了coding agent",
+      "url": "https://www.rednote.com/explore/6ad48ac20000000026021c14?xsec_token=ABEDTHS2yCzqjugAoqgFEuiGje0dHcFwD2JITwyDeMgFo%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that Anthropic's decisive strategic choice was betting on coding agents: code has checkable outcomes, users immediately notice capability gains, and autonomous loops remove the usage ceiling imposed by human typing. The post cites internal figures reported by Bloomberg of $11.5 billion in second-quarter Claude revenue versus $6.7 billion for OpenAI, and says Claude Code exceeded $2.5 billion in annualized revenue by February. Its central thesis is a reinforcing loop between verifiable coding rewards, stronger models, paying enterprise demand, and funding for further training.",
+      "zh": "鸭基米德 认为 Anthropic 真正的战略转折是押对了 coding agent：代码有对错，模型强一点用户当天就能感受到，agent 自己循环也打破了人类打字速度带来的用量上限。帖子引用 Bloomberg 所见内部文件的数据，称二季度 Claude 收入为 115 亿美元，OpenAI 为 67 亿美元，并称 Claude Code 到2月单独的年化收入已超过 25 亿美元。核心逻辑是，代码提供可验证的 reward，模型越强越好卖，企业越愿意付费，也就越有钱训练下一代。",
+      "tags": [
+        "agents",
+        "AI industry strategy",
+        "compute",
+        "post-training"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "EMNLP2026｜英伟达一涨海力士跟着动",
+      "url": "https://www.rednote.com/explore/6adacfd7000000002a02bbc3?xsec_token=ABVbeURUMbsUENn1OwknsmdNTgyzSPopx__sGt7-J7DM0%3D&xsec_source=pc_user",
+      "en": "鸭基米德 presents CrossAlpha, which uses LLMs to distill annual reports from 3,587 companies across five markets into ten types of English business descriptions and a 19-million-edge relationship graph. Using US reports to identify Japanese stock peers yields ICIR 0.39, versus 0.07 using Japanese reports alone, 0.18 for industry classifications, and 0.11 for price correlations. The post also reports directional asymmetry between markets and a GPT-5 pruning step that removed Nintendo as a spurious GPU/gaming match, illustrating how LLM-derived business relationships can support cross-market factor research.",
+      "zh": "鸭基米德 介绍 CrossAlpha：用 LLM 将五个市场 3,587 家公司的年报统一蒸馏成十类英文业务描述，连成一张 1,900 万条边的关系图。用美国年报给日本股票找同伴，ICIR 为 0.39；只用日本年报为 0.07，行业分类为 0.18，价格相关性为 0.11。帖子还报告了市场间信息方向的不对称，以及让 GPT-5 只删不加后，移除因 GPU、游戏关键词而误入的 Nintendo，展示了 LLM 提取的业务关系如何用于跨市场因子研究。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "LLM applications"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "EMNLP2026约coffee chat",
+      "url": "https://www.rednote.com/explore/6addfce1000000002c0224c0?xsec_token=ABxWk61gGMZkbMLjlcGd9BmXbxhk35G0v0wWMsQR3ZYII%3D&xsec_source=pc_user",
+      "en": "鸭基米德 introduces the EMNLP work CrossAlpha: An Annual-Report Benchmark for Cross-Market Factor Research with LLM Agents, using annual reports from 3,587 companies across five markets to construct a semantic company graph. The post also announces internship and full-time openings at the author's quantitative firm in multi-agent systems and financial foundation models, including Diffusion, Transformer, and Sparse Attention for high-frequency algorithmic trading.",
+      "zh": "鸭基米德 介绍 EMNLP 工作 CrossAlpha: An Annual-Report Benchmark for Cross-Market Factor Research with LLM Agents，利用五个市场 3,587 家公司的年报构建语义公司关系图。帖子也介绍了作者所在量化公司的实习和全职机会，方向包括 multi-agent、金融基座大模型，以及用于高频算法交易的 Diffusion、Transformer 和 Sparse Attention。",
+      "tags": [
+        "multi-agent",
+        "benchmarks",
+        "research careers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "顶会的钱到底被谁挣走了",
+      "url": "https://www.rednote.com/explore/6ad778f5000000002603b4c1?xsec_token=AByH5LOe97nLezOx8tuWfGvJl0b0w6ldGZKzWhxToqzu8%3D&xsec_source=pc_user",
+      "en": "鸭基米德 examines conference finances using available nonprofit tax filings and ten years of sponsorship lists. The post reports $22.26 million in cumulative NeurIPS surpluses over 14 editions, an 82% surplus rate for online ICML 2020, and 11 quantitative firms among 35 NeurIPS 2026 diamond sponsors. It contrasts these finances with EMNLP 2026 student registration fees of $750 for authors versus $350 for non-authors and unpaid reviewing.",
+      "zh": "鸭基米德 翻查了能找到的非营利组织报税表，以及十年的会议赞助商名单，研究顶会财务。帖子称 NeurIPS 14 届累计结余 2,226 万美元，2020 年线上 ICML 的结余率为 82%，NeurIPS 2026 的 35 个钻石赞助商中有 11 家量化公司。作者将这些数字与 EMNLP 2026 有论文学生 750 美元、无论文学生 350 美元的注册费，以及无偿审稿作对照。",
+      "tags": [
+        "research community",
+        "conference economics"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "EMNLP第一天 顶会越来越像电影节",
+      "url": "https://www.rednote.com/explore/6adef98100000000030034c4?xsec_token=ABeflwScyMtCzEpGtjJHDgATZe2iRf5d0Td0SwAP27ZV0%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that EMNLP increasingly resembles a film festival: papers have already appeared on arXiv, while the venue mainly helps existing networks reconnect and gain visibility. The post sees particular practical value for recruiters and for PhD students building relationships with peers who may become long-term collaborators, while finding few posters compelling enough for extended discussion.",
+      "zh": "鸭基米德 认为 EMNLP 越来越像电影节：论文早已在 arXiv 上看过，现场更多是在见老朋友、与已有的圈子重聚，以及被看见。作者觉得会议对招聘方很高效，对博士生而言，实际价值在于认识同一批读博的同龄人，他们未来可能成为长期合作者；但逛下来，能让人停下来多问几句的 poster 不多。",
+      "tags": [
+        "research community",
+        "research careers"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-09T13:04:22.892Z"
+}

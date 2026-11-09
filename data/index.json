@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-09",
+    "count": 27,
+    "headline_en": "As coding agents mature into software factories, research exposes fragile evaluation signals, memory risks, and new opportunities in post-training.",
+    "generatedAt": "2026-11-09T13:04:22.892Z"
+  },
+  {
     "date": "2026-11-08",
     "count": 6,
     "headline_en": "Agent products are expanding beyond coding while model access, evaluation rigor, and control over powerful capabilities remain central questions.",
