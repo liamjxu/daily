@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-11",
+    "count": 28,
+    "headline_en": "Agent reliability takes center stage as research probes memory, post-training, and evaluation failures while products move more work into AI interfaces.",
+    "generatedAt": "2026-11-11T23:10:53.962Z"
+  },
+  {
     "date": "2026-11-09",
     "count": 27,
     "headline_en": "As coding agents mature into software factories, research exposes fragile evaluation signals, memory risks, and new opportunities in post-training.",

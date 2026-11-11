@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-11",
+  "headline_en": "Agent reliability takes center stage as research probes memory, post-training, and evaluation failures while products move more work into AI interfaces.",
+  "headline_zh": "Agent 可靠性成为焦点，研究深入检验记忆、post-training 与评估中的失效问题，产品则把更多工作搬进 AI 界面。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2120206375137484875",
+      "en": "Anthropic's official Claude account announced interactive connectors that open full tools inside Claude, letting users work in Adobe, Atlassian, and Box beside their conversation and make changes themselves or with Claude. The rollout is starting on web and desktop. In the same update thread, Claude Data, formerly Dashboards, became generally available on paid plans, with data stories and narrated metric videos for review before sharing; certified queries and live sharing remain in beta.",
+      "zh": "Anthropic 的 Claude 官方账号宣布推出 interactive connectors，可在 Claude 内打开完整工具，让用户在对话旁使用 Adobe、Atlassian 和 Box，并自行修改或与 Claude 一起操作。该功能正开始在 web 和 desktop 推出。同一更新串还宣布，原名 Dashboards 的 Claude Data 已面向付费套餐正式开放，可生成 data stories 和带解说的指标视频，供用户审核后分享；certified queries 和 live sharing 仍处于 beta。",
+      "tags": [
+        "agents",
+        "tool use",
+        "Anthropic"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google, Google Labs, Gemini App & Google AI Studio",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2120186249281778135",
+      "en": "Google VP Josh Woodward announced that Gemini 4 Carbon is now available in the Gemini App to Ultra subscribers worldwide. The announcement establishes its availability and subscription tier.",
+      "zh": "Google VP Josh Woodward 宣布，Gemini 4 Carbon 已在全球范围内向 Gemini App 的 Ultra 订阅用户开放。这条公告明确了其上线范围和所需订阅档位。",
+      "tags": [
+        "Gemini",
+        "frontier releases"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2120223476279869875",
+      "en": "Thariq, formerly of Claude Code at Anthropic, argues that AI needs fewer one-shot demos and more tools that show people collaborating with models to realize their vision. The product-design priority is sustained collaboration through the creative process.",
+      "zh": "曾在 Anthropic 从事 Claude Code 工作的 Thariq 认为，AI 需要少一些 one-shot demo，多一些能展示人如何与模型协作、把想法做出来的工具。产品设计应更重视贯穿创作过程的持续协作。",
+      "tags": [
+        "agentic workflows",
+        "human-AI collaboration"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Ryo Lu",
+      "role": "Designer, Cursor, Notion & Stripe",
+      "title": null,
+      "url": "https://x.com/ryolu_/status/2120337691661443081",
+      "en": "Ryo Lu, who has designed at Cursor, Notion, and Stripe, argues that the most valuable collaboration happens between people, rather than through individuals running isolated armies of agents. His emphasis is on software that helps humans work together.",
+      "zh": "曾在 Cursor、Notion 和 Stripe 做设计的 Ryo Lu 认为，最有价值的协作发生在人与人之间，而不是每个人各自运行一支彼此隔绝的 agent 大军。他强调，软件应该帮助人们一起工作。",
+      "tags": [
+        "multi-agent",
+        "human-AI collaboration"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Latent Space",
+      "role": null,
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "en": "The Takeaway: designing for agents means making a product's capabilities and information accessible wherever work starts, and Resend's Zeno Rocha describes that ambition as “I want my product to be formless.” Rocha, who created Dracula and built Resend, reports roughly 1.2 million MCP calls by the end of August and usage doubling month over month, but making remote MCP work required rebuilding permissions around OAuth and revisiting resource access through RBAC before pursuing official connector distribution. Resend has expanded its MCP to more than 80 tools because Rocha wants coverage of the dashboard's long tail, including billing, team invitations, and account operations; he also describes choosing other software based on whether its vendor maintains an official MCP, making integrations part of both product utility and purchasing decisions. His concrete lesson for agent-facing content is to expose information in readable text: after models miscalculated Resend's pricing from a JavaScript widget, he added pricing information to the Markdown page and later observed correct answers, while explicitly spelling out chart data serves the same purpose; these are practical observations worth testing, rather than proof that every AEO tactic improves distribution.",
+      "zh": "核心结论：为 agent 设计产品，就要让产品能力和信息在工作开始的地方都能被访问；Resend 的 Zeno Rocha 用“I want my product to be formless”概括这一目标。创建 Dracula、打造 Resend 的 Rocha 表示，MCP 调用量到 8 月底约达 120 万次，使用量逐月翻倍，但要做好 remote MCP，必须先围绕 OAuth 重建权限机制，并通过 RBAC 重新梳理资源访问，再推进官方 connector 的分发。Resend 已把 MCP 扩展到 80 多个工具，因为 Rocha 希望覆盖 dashboard 的长尾操作，包括账单、团队邀请和账号管理；他还会根据厂商是否维护官方 MCP 来选择软件，因此集成能力同时影响产品实用性和采购决策。他对 agent 内容适配的具体经验是，把信息写成可读取的文本：模型曾因无法操作 JavaScript 定价组件而算错 Resend 的价格，他随后在 Markdown 页面补上定价信息，之后观察到模型回答正确，图表数据也采用同样方式明确写出；这些实践观察值得测试，但并不能证明每一种 AEO 策略都能改善分发。",
+      "tags": [
+        "agents",
+        "MCP",
+        "tool use",
+        "AI industry strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "en": "The Hacker News: “Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords” reports that Claroc found 35,578 of 37,571 Grok-built apps accessible without sign-in. Most were games, landing pages, or calculators, but roughly one in ten contained internal business or other sensitive material. The scale makes deployment access controls a consequential concern for AI-generated applications.",
+      "zh": "The Hacker News 的“Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords”报道，Claroc 发现的 37,571 个 Grok 构建应用中，35,578 个无需登录即可访问。多数是游戏、落地页或计算器，但约十分之一包含内部业务或其他敏感内容。如此规模说明，部署时的访问控制是 AI 生成应用不可忽视的问题。",
+      "tags": [
+        "AI security",
+        "deployment",
+        "coding agents"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "en": "The Hacker News: “We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.” describes Token building an agent that defaulted to violating its own security advice. That advice calls for agents to have independent identities, permissions fitted to their assigned work, and audit trails separate from humans. A browser agent operating inside a user's authenticated session exposes a practical tension between those principles and how agent workflows are built.",
+      "zh": "The Hacker News 的“We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.”介绍了 Token 构建的一个 agent，其默认行为违反了公司自己的安全建议。这些建议要求 agent 拥有独立身份、与任务匹配的权限，以及区别于人类用户的审计记录。浏览器 agent 在用户已登录的会话中操作，暴露了这些原则与实际 agent 工作流之间的矛盾。",
+      "tags": [
+        "agents",
+        "AI security",
+        "permissions"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "How I'm thinking about different types of automated alignment",
+      "url": "https://www.lesswrong.com/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
+      "en": "LessWrong: “How I'm thinking about different types of automated alignment” separates automation into empirical alignment research, conceptual alignment research, and directly making particular systems more aligned. The author sees experiment design and execution as a natural fit for emerging research agents, while work on what alignment should mean and how to measure it belongs in a distinct bucket. The distinction helps clarify which parts of an alignment workflow can benefit from increasingly capable automated researchers.",
+      "zh": "LessWrong 的“How I'm thinking about different types of automated alignment”把自动化分成三类：实证 alignment 研究、概念性 alignment 研究，以及直接让特定系统变得更 aligned 的工作。作者认为，实验设计与执行很适合正在发展的研究 agent，而明确 alignment 的目标及其衡量方式则属于另一类工作。这一区分有助于判断，随着自动化研究者能力提升，alignment 工作流中的哪些环节能够受益。",
+      "tags": [
+        "alignment",
+        "agents",
+        "automated research"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Critique of Roman Yampolskiy's impossibility proofs",
+      "url": "https://www.lesswrong.com/posts/ni9AxvujPFjhfzAQD/critique-of-roman-yampolskiy-s-impossibility-proofs",
+      "en": "LessWrong: “Critique of Roman Yampolskiy's impossibility proofs” examines arguments in “On the Controllability of Artificial Intelligence: An Analysis of Limitations” underlying claims that AI control is impossible. The author finds most of the arguments unconvincing and treats the claim's validity as consequential for the motivation to pursue AI safety. This is a critique of the purported proofs, rather than an established resolution of AI controllability.",
+      "zh": "LessWrong 的“Critique of Roman Yampolskiy's impossibility proofs”检视了“On the Controllability of Artificial Intelligence: An Analysis of Limitations”中的论证，这些论证被用于支持 AI 无法被控制的主张。作者认为其中多数论证缺乏说服力，并认为这一主张是否成立，会直接影响开展 AI safety 工作的动机。这篇文章是对所谓证明的批评，并未就 AI 可控性给出已经确立的结论。",
+      "tags": [
+        "alignment",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "newest submissions : MachineLearning",
+      "role": null,
+      "title": "Would you pick your strongest model to coordinate other agents? Results from WorkflowArena [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
+      "en": "A WorkflowArena experiment finds that stronger standalone performance does not necessarily make a model a better coordinator. Across the same 32 tasks and four execution models, Opus 5.5's static workflows improved executor scores by 6.41 points on average, while GPT-6 Astra's lowered them by 2.53 points despite Astra outperforming the executors on the main benchmark. The broader benchmark covers 145 long-horizon tasks across eight domains, motivating separate evaluation of coordination quality and execution ability.",
+      "zh": "WorkflowArena 的一项实验发现，单独完成任务更强的模型，未必更适合担任协调者。在相同的 32 个任务、四个执行模型上，Opus 5.5 编写的静态工作流让执行模型平均提高 6.41 分，而 GPT-6 Astra 的工作流让平均成绩下降 2.53 分，尽管 Astra 在主 benchmark 上强于这些执行模型。完整 benchmark 覆盖八个领域的 145 个长程任务，提示我们应分别评估协调质量和执行能力。",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2611.14009",
+      "en": "CAMP-II trains long-horizon agents to create, revise, search, and reuse ordinary files as persistent memory through fully asynchronous on-policy distillation from a frozen teacher. Its CAMG-II environments span five task families and provide Bash plus a workspace that survives context replacement; CAMP-II achieves 2.97 times the gain of the strongest OPD baseline. The practical insight is to teach memory control through file operations familiar from pre-training, giving both teacher and student a more usable interface.",
+      "zh": "CAMP-II 通过完全异步的 on-policy distillation，从冻结 teacher 学习，让长程 agent 使用普通文件创建、修改、搜索和复用持久记忆。其 CAMG-II 环境涵盖五类任务，提供 Bash 和在上下文替换后仍保留的 workspace；CAMP-II 获得的增益是最强 OPD baseline 的 2.97 倍。实践启示是，通过 pre-training 中熟悉的文件操作来教授记忆控制，为 teacher 和 student 提供更容易使用的接口。",
+      "tags": [
+        "agents",
+        "post-training",
+        "distillation",
+        "memory"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets",
+      "url": "https://arxiv.org/abs/2611.14467",
+      "en": "This theory paper shows that REINFORCE can drive the probability of optimal responses toward zero even while reward improves, causing exponentially slow convergence despite good initial coverage and KL regularization. It proposes Approximate Policy Mirror Descent, which repeatedly resets the KL reference to the latest policy to mitigate coverage collapse and establishes coverage-preserving guarantees for softmax linear policies. For post-training researchers, the central warning is that improving reward need not preserve access to a base model's best responses.",
+      "zh": "这篇理论论文指出，即使 reward 持续提高，REINFORCE 也可能把最优回答的概率压到接近零；即便初始 coverage 良好且加入 KL regularization，收敛仍可能变得指数级缓慢。论文提出 Approximate Policy Mirror Descent，通过反复把 KL reference 重置为最新 policy 来缓解 coverage collapse，并为 softmax linear policies 建立保留 coverage 的保证。对 post-training 研究者而言，核心提醒是：reward 上升并不意味着仍能采样到 base model 的最佳回答。",
+      "tags": [
+        "post-training",
+        "policy optimization",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agreeing on the Answer but Not the Reason: Measurement Limits of LLM Reasoning Failure Taxonomies",
+      "url": "https://arxiv.org/abs/2611.13140",
+      "en": "Across twelve models and eleven languages, this study finds that reasoning-error category frequencies can depend heavily on classifier ordering and prompts: the share labeled Compositional Collapse ranges from 26.4% to 76.4% across test orderings. Native speakers agree strongly with the inspector on answer correctness but barely on that failure category, and matching the inspector's instructions to the human instructions substantially improves agreement. Error-taxonomy comparisons therefore need validation of the measurement procedure before their percentages can support claims about model reasoning.",
+      "zh": "这项覆盖十二个模型、十一种语言的研究发现，推理错误类别的占比可能高度依赖分类器的测试顺序和 prompt：在不同测试顺序下，被标为 Compositional Collapse 的比例从 26.4% 变到 76.4%。母语评审与 inspector 对答案正误高度一致，对该错误类别却几乎不一致；把 inspector 的指令改成与人类评审相同后，一致性显著提高。因此，用错误分类比例比较模型推理能力前，需要先验证测量程序本身。",
+      "tags": [
+        "evaluation",
+        "reasoning",
+        "benchmarks",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
+      "url": "https://arxiv.org/abs/2611.14326",
+      "en": "FGSE treats a proposed memory lesson as a structured hypothesis with preconditions, a behavior change, an expected effect, and a verifier. It tests updates temporarily against transfer, falsification, and regression probes before committing, refining, or rejecting them, reporting 5.0% falsification failures, 1.3% regression damage, and 3.6% harmful committed updates across its evaluations. This makes admission to persistent memory an explicit testing problem rather than treating a locally successful episode as sufficient evidence.",
+      "zh": "FGSE 把候选记忆经验视为结构化假设，明确其前提条件、行为变化、预期效果和 verifier。它先在临时状态中通过迁移、证伪和回归测试，再决定写入、修改或拒绝更新；评估中报告的证伪失败率为 5.0%、回归损害率为 1.3%、有害已写入更新占比为 3.6%。这种方法把持久记忆的准入变成明确的测试问题，而不是把单次任务成功视为充分证据。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "url": "https://arxiv.org/abs/2611.14320",
+      "en": "WikiTrace links each distilled memory lesson to an explanation of its source trajectory's success or failure and to the raw trajectory itself. Agents can follow those links with terminal tools when a lesson is incomplete, contradictory, or derived from failure; across five agentic benchmarks, the system outperforms existing memory approaches and a baseline receiving the same insights alone. It targets a concrete failure mode: memory can make an agent fail tasks it would otherwise solve when unsupported lessons are applied without checking their evidence.",
+      "zh": "WikiTrace 将每条提炼出的记忆经验，链接到原始轨迹的成败解释以及轨迹本身。当经验不完整、彼此冲突或来自失败任务时，agent 可以用 terminal 工具沿链接检查证据；在五个 agentic benchmark 上，该系统优于现有记忆方法，以及只接收相同经验的 baseline。它针对一种具体失效：如果不核查依据就使用经验，记忆可能让 agent 在原本能完成的任务上失败。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Teaching the Harness: Student-Aware Skill Transfer for LLM Agents",
+      "url": "https://arxiv.org/abs/2611.13144",
+      "en": "Student-Aware Teaching profiles a fixed student, probes hypotheses about its limitations, and admits reusable skills only when they improve matched development tasks. With Claude-Sonnet-5 teaching DeepSeek-V4-Flash, task success reaches 86.46%, versus 81.04% for a profile-free teacher and 75.00% for the untaught student; exchanged skill libraries also work better for their original models. The result argues for tailoring agent skills to the learner's behavior and harness constraints rather than assuming stronger-model procedures transfer unchanged.",
+      "zh": "Student-Aware Teaching 先刻画固定 student 的能力，再通过诊断测试检验其局限，并且只有在匹配的开发任务上带来提升时，才收录可复用 skill。由 Claude-Sonnet-5 教 DeepSeek-V4-Flash 时，任务成功率达到 86.46%，不使用 student profile 的 teacher 为 81.04%，未经教学的 student 为 75.00%；互换 skill library 后，各模型也更适合自己的 library。结果支持根据 learner 的行为和 harness 限制定制 agent skill，而不是假设更强模型的流程可以原样迁移。",
+      "tags": [
+        "agents",
+        "DeepSeek",
+        "skill transfer",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Which Successes Make Good References? Action-Sequence Alignment for Multi-Turn On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2611.13135",
+      "en": "This paper selects successful reference trajectories for multi-turn OPD by compatibility with the student's failed trajectory, using longest common subsequence alignment of tool actions as a proxy for hidden interaction states. LCS is the only evaluated selector to improve over reference-free OPD on both ALFWorld's overall score and all three airline metrics, with gains transferring to retail without further optimization. The lesson is that a successful demonstration can still provide misleading supervision if it reaches incompatible states.",
+      "zh": "这篇论文根据成功轨迹与 student 失败轨迹的兼容性，为多轮 OPD 选择参考，并用工具动作的最长公共子序列 LCS 对齐来近似隐藏的交互状态。LCS 是所评估选择方法中，唯一同时在 ALFWorld 总分和 airline 三项指标上优于无参考 OPD 的方法，而且无需进一步优化就能将增益迁移到 retail。关键启示是：即使示范成功完成了任务，如果到达的状态不兼容，仍可能提供误导性监督。",
+      "tags": [
+        "distillation",
+        "tool use",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "url": "https://arxiv.org/abs/2611.13410",
+      "en": "SteerDistill uses a full-precision teacher and student-execution feedback to iteratively correct failed responses from quantized agents, then distills those corrections for inference without guidance. Across five agentic benchmarks and three models, W4A16 scores exceed the strongest quantized baseline by 1.67–2.18 points and remain within one point of BF16; on τ²-Bench it beats QeRL by 1.84 success-rate points with 67% fewer training GPU hours. The method focuses quantization recovery on behavioral failures in the states agents actually encounter.",
+      "zh": "SteerDistill 结合 full-precision teacher 与 student 执行反馈，迭代修正量化 agent 的失败回答，再把修正结果蒸馏进去，使推理时无需指导。在五个 agentic benchmark、三个模型上，W4A16 得分比最强量化 baseline 高 1.67 至 2.18 分，与 BF16 相差不到一分；在 τ²-Bench 上，成功率比 QeRL 高 1.84 个百分点，训练 GPU 小时减少 67%。该方法把量化后的能力恢复集中在 agent 实际遇到的状态及其行为错误上。",
+      "tags": [
+        "agents",
+        "distillation",
+        "quantization",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "BuySideFlow: A Point-in-Time Benchmark for LLM Agents in Investment Research",
+      "url": "https://arxiv.org/abs/2611.12966",
+      "en": "BuySideFlow evaluates agents on 408 practitioner-derived Chinese investment-research tasks, checking disclosure cutoffs and historical record versions as well as final results. Nine agent configurations achieve 16.2%–36.8% result accuracy, but an audit finds point-in-time violations in 193 of 380 runs that pass result checks, or 50.8%. It is a sharp example of why matching the expected answer does not establish that an agent used temporally valid evidence.",
+      "zh": "BuySideFlow 使用 408 个来自从业者的中文投资研究任务评估 agent，既检查最终结果，也检查信息披露截止时间和历史记录版本。九种 agent 配置的结果准确率为 16.2% 至 36.8%，但审计发现，通过结果检查的 380 次运行中，有 193 次违反 point-in-time 要求，占 50.8%。这鲜明地说明，答案与预期一致，并不能证明 agent 使用了在当时有效的证据。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks",
+        "Chinese"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "From Questions to Decisions: Benchmarking How LLM Agents Acquire Decision-Relevant Information from Human Beings",
+      "url": "https://arxiv.org/abs/2611.13015",
+      "en": "Ask2Decide evaluates whether agents ask for missing facts that change optimal plans, using 43 planning tasks, optimization solvers, and a simulated operator calibrated against 79 human interaction sessions. Human replies after an incorrect plan omit the correcting fact 43% of the time, versus 7% for an uncalibrated simulated user; four frontier models produce initially infeasible plans on 58%–98% of tasks with missing information. The benchmark exposes both a clarification weakness in agents and an evaluation weakness in overly helpful simulated users.",
+      "zh": "Ask2Decide 使用 43 个规划任务、optimization solver，以及根据 79 次人类交互校准的模拟 operator，评估 agent 是否会追问能改变最优方案的缺失事实。面对错误方案，人类回复有 43% 的情况没有给出纠错所需事实，未经校准的模拟用户则只有 7%；信息缺失时，四个 frontier model 在 58% 至 98% 的任务上给出的初始方案不可行。该 benchmark 同时揭示了 agent 的澄清能力短板，以及过于配合的模拟用户带来的评估偏差。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks",
+        "planning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Train High, Ship Low: Efficient LoRA Synchronization for Distributed On-Policy Post-Training",
+      "url": "https://arxiv.org/abs/2611.13306",
+      "en": "HiLo replaces LoRA parameter transmission with compressed gradients and local optimizer replay, allowing rollout workers and the learner to reconstruct consistent policy versions under reproducible execution. Its Spar compressor combines spectral truncation, adaptive rank allocation, and error feedback, preserving learning quality close to full synchronization while transmitting as little as 1.6% of adapter bytes and accelerating updates by up to 2.2× under bandwidth constraints. This separates training-rank capacity from communication cost in distributed on-policy post-training.",
+      "zh": "HiLo 用压缩梯度传输和本地 optimizer replay 替代 LoRA 参数传输，让 rollout worker 与 learner 在可复现执行条件下重建一致的 policy 版本。其 Spar compressor 结合 spectral truncation、自适应 rank 分配和 error feedback，在学习质量接近完整同步的同时，传输量最低仅为 adapter 字节数的 1.6%，带宽受限时更新速度最高提升至 2.2 倍。这让分布式 on-policy post-training 的训练 rank 容量与通信成本可以分开控制。",
+      "tags": [
+        "post-training",
+        "LoRA",
+        "distillation",
+        "training systems"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "How Post-Training Influences Verbalized Algorithmic Computation in Language Models",
+      "url": "https://arxiv.org/abs/2611.13552",
+      "en": "Using successive SFT, DPO, and RLVR checkpoints of Olmo-3-7B-Instruct on multi-digit addition, this study separates internally recoverable carry information from the usefulness of written reasoning. Carry probes perform similarly for SFT and RLVR, but RLVR-generated chains of thought improve accuracy across receiving checkpoints, while DPO's sensitivity to carry statements does not bring comparable gains. The findings caution against treating decodable internal state or sensitivity to reasoning text as interchangeable with better reasoning performance.",
+      "zh": "这项研究在多位数加法上比较 Olmo-3-7B-Instruct 连续的 SFT、DPO 和 RLVR checkpoint，区分内部可提取的进位信息与书面推理的实际作用。SFT 和 RLVR 的进位 probe 表现相近，但 RLVR 生成的 chain-of-thought 能提高不同接收 checkpoint 的准确率；DPO 虽然对进位语句敏感，却没有带来相当的增益。结果提醒我们，内部状态可被解码、对推理文本敏感，以及推理表现更好，不能混为一谈。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "DPO",
+        "chain-of-thought"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "相对硬核的一期blog推荐",
+      "url": "https://www.rednote.com/explore/6af06ba8000000001503f98e?xsec_token=ABAOrJIhDqnVMROS5ujSO1NAAOI2U5hdNCpMfKgItSW1U%3D&xsec_source=pc_user",
+      "en": "tabris recommends a technically demanding inference read in 图1, an introduction to Amortized Reasoning Index (ARI) in 图2, and advice from Tom Silver in 图3, arguing that academic institutions are changing more slowly than research itself. 图8 is described as practically relevant, 图11 is recommended for readers interested in AI policy, and 图13 presents an interesting small experiment; 图9 is an optimization practice log to browse casually. Bottom line: 图1 (inference), 图2 (ARI introduction), 图3 (Tom Silver's academic advice), 图11 (AI policy).",
+      "zh": "tabris 认为图1内容相对硬核，推荐给对 inference 感兴趣的朋友；图2介绍 Amortized Reasoning Index (ARI)；图3是 Tom Silver 给的建议，个人认为非常好，学术体系的变革显然落后于学术发展。图8比较有现实意义，图11推荐给对 AI policy 感兴趣的朋友，图13是挺有意思的小实验；图9是优化实战记录贴，看看就好。一句话推荐: 图1 (inference)、图2 (ARI 介绍)、图3 (Tom Silver 的学术建议)、图11 (AI policy)。",
+      "tags": [
+        "reasoning",
+        "inference",
+        "AI policy"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "双十一还是来读paper吧~",
+      "url": "https://www.rednote.com/explore/6af09222000000002a032ac4?xsec_token=ABAOrJIhDqnVMROS5ujSO1NFgi54PfLoPlKon6wYqUnIQ%3D&xsec_source=pc_user",
+      "en": "tabris shares a Singles' Day paper roundup, calling 图5 good and expressing particular interest in 图6 and 图10. Bottom line: tabris recommends 图5, 图6, 图10.",
+      "zh": "tabris 分享双十一 paper 推荐，觉得图5不错，个人相对关注图6和图10。一句话推荐: tabris 推荐图5、图6、图10。",
+      "tags": [
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "图1 Arvind Narayanan给出的各种建议的合集，非常非常非常推荐各位",
+      "url": "https://www.rednote.com/explore/6ada12a2000000002c01c7c2?xsec_token=ABVbeURUMbsUENn1OwknsmdEP5NleWhmBcNbKv5i-4epk%3D&xsec_source=pc_user",
+      "en": "tabris strongly recommends the collection of Arvind Narayanan's advice in 图1, praises Yiping Lu's piece in 图4, and recommends Jiaxuan Zou's well-organized overview in 图7. 图5 and 图12 are praised as good research, while 图8 is praised for both research and interaction design. Bottom line: 图1 (Arvind Narayanan's advice), 图4 (Yiping Lu's piece), 图7 (Jiaxuan Zou's overview), 图8 (research and interaction design).",
+      "zh": "tabris 非常非常非常推荐各位读图1的 Arvind Narayanan 建议合集；图4 Yiping Lu 这篇写得也很好，感兴趣的不要错过；图7 Jiaxuan Zou 这篇梳理得非常好，推荐有空找来看看。图5和图12是很好研究，图8是很好研究、很好交互设计。一句话推荐: 图1 (Arvind Narayanan 的建议)、图4 (Yiping Lu 的文章)、图7 (Jiaxuan Zou 的梳理)、图8 (研究与交互设计)。",
+      "tags": [
+        "research",
+        "interaction design"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬自觉不错的paper推荐合集第四期",
+      "url": "https://www.rednote.com/explore/6ada28fb000000002c01ca20?xsec_token=ABVbeURUMbsUENn1OwknsmdIs7XTZrIQWcp8TlDNSm7AE%3D&xsec_source=pc_user",
+      "en": "In the fourth late-October paper roundup, tabris pays particular attention to 图4 and especially likes 图6 and 图9. Bottom line: tabris recommends 图4, 图6, 图9.",
+      "zh": "在10月下旬 paper 推荐合集第四期中，tabris 个人比较关注图4，相对比较喜欢图6、图9。一句话推荐: tabris 推荐图4、图6、图9。",
+      "tags": [
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬自觉不错的paper推荐合集第三期",
+      "url": "https://www.rednote.com/explore/6ada28810000000032023d1a?xsec_token=ABVbeURUMbsUENn1OwknsmdAKMnl_qrCeYvMbRCV5K560%3D&xsec_source=pc_user",
+      "en": "In the third late-October paper roundup, tabris particularly likes 图4, 图7, and 图16. Bottom line: tabris recommends 图4, 图7, 图16.",
+      "zh": "在10月下旬 paper 推荐合集第三期中，tabris 个人相对喜欢图4、图7、图16。一句话推荐: tabris 推荐图4、图7、图16。",
+      "tags": [
+        "papers"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "读完纳瓦尔宝典我开始重新安排自己的时间",
+      "url": "https://www.rednote.com/explore/6af3ee1e000000002203b3c5?xsec_token=ABV62MFXpYaWAGooOzIRtkg2Sh27RlXLIQTchPZILXXXs%3D&xsec_source=pc_user",
+      "en": "鸭基米德 draws on 《纳瓦尔宝典》 to prioritize work that leaves reusable assets, such as papers, code, and writing, rather than only exchanging time for money. The author treats LLM tokens as worth spending generously to save human time and sees their path from chemistry to CS and then large models as a source of distinctive knowledge. The goal is control over time and ownership of what they create.",
+      "zh": "鸭基米德 读完《纳瓦尔宝典》后，开始优先做能留下论文、代码和内容等可复用成果的事，而不只是卖时间换钱。作者花 token 很大方，认为用 token 省下人的时间很值得，也把自己从化学转到 CS、再进入大模型的跨界经历视为特定知识的来源。最终想要的是自由：时间自己说了算，做出来的东西完全属于自己。",
+      "tags": [
+        "LLM workflows",
+        "research productivity"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-11T23:10:53.962Z"
+}
