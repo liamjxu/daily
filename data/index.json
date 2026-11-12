@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-12",
+    "count": 9,
+    "headline_en": "Agent adoption shifts attention toward human judgment, workflow design, and how to measure progress toward automated research.",
+    "generatedAt": "2026-11-12T13:55:29.899Z"
+  },
+  {
     "date": "2026-11-11",
     "count": 28,
     "headline_en": "Agent reliability takes center stage as research probes memory, post-training, and evaluation failures while products move more work into AI interfaces.",

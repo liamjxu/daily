@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-12",
+  "headline_en": "Agent adoption shifts attention toward human judgment, workflow design, and how to measure progress toward automated research.",
+  "headline_zh": "随着 agent 应用深入，人类判断、工作流设计，以及如何衡量研究自动化的进展成为关注重点。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Google Labs",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/GoogleLabs/status/2120549258692882702",
+      "en": "Google Labs introduced Tabletop, an experiment that turns links, files, and requests in a shared space into custom interactive tools for groups. Examples include road-trip maps, live tournament brackets, voting boards, and drag-and-drop seating charts; its waitlist is open to US adults.",
+      "zh": "Google Labs 推出了实验产品 Tabletop，可根据共享空间中的链接、文件和需求，为群体活动生成定制的交互工具。示例包括公路旅行地图、实时赛事对阵表、投票板和拖放式座位表；目前面向美国成年人开放候补名单。",
+      "tags": [
+        "Google Labs",
+        "Tabletop"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "A New Vision for Human Work After Automation",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "en": "The Takeaway: As AI makes execution cheap, the scarce contribution shifts toward deciding which possibilities deserve attention and taking responsibility for acting on them, argues Every co-founder and CEO Dan Shipper. Working from one customer survey, Shipper used AI to analyze responses, build a live team game, create a CRM, and contact customers, while colleagues using the same data and model independently identified excessive email as a churn driver, readers’ loneliness as a community opportunity, and a creative way to communicate the findings; he treats that divergence as evidence that teams contribute distinct perspectives rather than merely extra execution capacity. His sharpest example concerns an internal experiment predicting his Slack responses: he reports that Claude could include his response among 400 candidates 93% of the time, but ranked it in the top tenth only about 60% of the time, illustrating his claim that “Generation is really cheap, but ranking is hard.” For agent builders and evaluators, his proposed shift is to measure how well models support a particular person’s work and perspective, and to compare future AI with people using that same future AI, rather than treating today’s unaided worker as a fixed baseline; his broader thesis is an allocation economy in which people direct intelligence, select useful outputs, and remain accountable for results.",
+      "zh": "核心观点：Every 联合创始人兼 CEO Dan Shipper 认为，当 AI 让执行变得廉价，稀缺贡献就转向判断哪些可能性值得关注，并为采取行动负责。围绕同一份客户问卷，Shipper 用 AI 分析回复、制作团队实时游戏、搭建 CRM 并联系客户，而使用相同数据和模型的同事则分别发现，邮件过多会导致用户流失、读者的孤独感意味着社区机会，以及可以用创意形式传达调查结果；他认为，这些差异说明团队的价值在于不同视角，而不只是增加执行能力。他最鲜明的例子是一项预测自己 Slack 回复的内部实验：据他介绍，允许 Claude 为每个问题生成 400 个候选答案时，有 93% 的概率包含他的实际回复，但让模型排序后，实际回复进入前 10% 的概率只有约 60%，这体现了他的判断：“生成非常便宜，但排序很难。” 对 agent 开发者和评测者而言，他建议转向衡量模型能否支持特定个人的工作与视角，并将未来 AI 与使用同代 AI 的人进行比较，而不是把今天没有 AI 辅助的工作者当作固定基线；他将这种工作方式称为 allocation economy，即由人分配智能资源、筛选有用结果，并对最终成果负责。",
+      "tags": [
+        "agentic workflows",
+        "evaluation",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Updates from METR report: short timelines vs IE",
+      "url": "https://www.lesswrong.com/posts/wCYAtKcFTHbDcn8d8/updates-from-metr-report-short-timelines-vs-ie",
+      "en": "LessWrong: Updates from METR report: short timelines vs IE separates two claims that are easy to conflate: AI may fully automate AI R&D sooner, and that automation may then trigger an intelligence explosion. The author makes a strong update toward shorter timelines but only a moderate update toward an intelligence explosion, asking whether AI improving AI can sustain accelerating progress even with compute held fixed. The analysis decomposes that feedback loop into capability gains, quality-adjusted research labor, total R&D effort, and further capability gains, highlighting that more effective labor does not automatically resolve the role of compute constraints.",
+      "zh": "LessWrong 的《Updates from METR report: short timelines vs IE》区分了两个容易混为一谈的判断：AI 可能更早全面自动化 AI R&D，以及这种自动化随后可能引发智能爆炸。作者明显上调了对较短时间线的判断，但只适度上调了智能爆炸的可能性，核心问题是：即使 compute 固定，AI 改进 AI 的循环能否持续推动进展加速。文章将反馈链拆解为能力提升、按质量调整后的研究劳动力、总研发投入和进一步的能力提升，提醒读者，更有效的劳动力并不意味着 compute 约束自然得到解决。",
+      "tags": [
+        "evaluation",
+        "automated research",
+        "compute"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "都是些挺有意思的研究",
+      "url": "https://www.rednote.com/explore/6af0730d000000001802630c?xsec_token=ABAOrJIhDqnVMROS5ujSO1NN6leSkEh5btLL4F5_PQcCs%3D&xsec_source=pc_user",
+      "en": "tabris recommends a mix of research and technical reading, including an introduction to Zyphra Hierarchical Attention (ZHA), a guide to sharing code, and a piece on agent harness design. 图1 receives particularly strong praise for its research, writing, and relatively complete experiments; for ZHA, tabris suggests reading the paper directly, while 图7’s accompanying blog is considered complete enough to read on its own. Bottom line: 图12 (agent harness design), 图6 (ZHA paper), 图1 (strong research and experiments).",
+      "zh": "tabris 推荐了一组有意思的研究和技术文章，包括 Zyphra Hierarchical Attention (ZHA) 介绍、代码分享指南，以及 agent harness design 相关文章。图1的研究、写作和相对完备的实验都获得了很高评价，十分推荐有时间找来读；图6建议感兴趣的直接读 ZHA paper，图7则是同名 paper 的 blog，写得非常完整，直接读 blog 就可以。一句话推荐: 图12（agent harness design）、图6（ZHA paper）、图1（研究好，实验相对完备）。",
+      "tags": [
+        "agents",
+        "harness design",
+        "attention"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬blog推荐合集第三期",
+      "url": "https://www.rednote.com/explore/6ada0f3e0000000033013663?xsec_token=ABVbeURUMbsUENn1OwknsmdMsUQWK_wBqL0q7e4M5K4Ao%3D&xsec_source=pc_user",
+      "en": "tabris’s late-October blog roundup includes Sophiel Wang’s research and writing advice, introductions to SCOUT, FLAT, FDE-Gym, WEDGE, and muse-spark-open, plus safety posts and model releases. The agent-related highlight is 图2’s lesson, “Where you allocate agents matters more than how many you add”; tabris also praises FLAT’s blog and welcomes a large company contributing open source through muse-spark-open. Bottom line: 图2 (agent allocation), 图4 (well-written FLAT introduction), 图11 (muse-spark-open and open source).",
+      "zh": "tabris 的10月下旬 blog 推荐合集包括 Sophiel Wang 的研究和撰写心得，以及 SCOUT、FLAT、FDE-Gym、WEDGE、muse-spark-open 的介绍，另有 safety 文章和模型发布消息。图2记住这句就行：“Where you allocate agents matters more than how many you add”；图4的 FLAT blog 本身写得很好，图11则认为大公司愿意贡献开源总归是好事。一句话推荐: 图2（agent 分配）、图4（FLAT，blog 写得很好）、图11（muse-spark-open，开源贡献）。",
+      "tags": [
+        "agents",
+        "open source",
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "图5挺不错，但图1更值得封面",
+      "url": "https://www.rednote.com/explore/6af092d10000000022035fbb?xsec_token=ABAOrJIhDqnVMROS5ujSO1NHOKuHeVtRIn5rEycdDzAFc%3D&xsec_source=pc_user",
+      "en": "tabris considers 图5 good but thinks 图1 deserves the cover, and additionally singles out 图7 as a personal favorite. Bottom line: tabris recommends 图1, 图5, 图7.",
+      "zh": "tabris 觉得图5挺不错，但图1更值得封面；除了这两篇外，个人也比较喜欢图7。一句话推荐: tabris 推荐图1、图5、图7。",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬自觉不错的paper推荐合集第二期",
+      "url": "https://www.rednote.com/explore/6ada27e60000000032023b89?xsec_token=ABVbeURUMbsUENn1OwknsmdHj8wdhjS_-K3rISD4u05HU%3D&xsec_source=pc_user",
+      "en": "tabris’s second late-October paper roundup highlights 图1 as research they find particularly interesting and enjoyable, describes 图2 as a reasonably written textbook, and also favors 图7. Bottom line: tabris recommends 图1, 图7.",
+      "zh": "tabris 的10月下旬 paper 推荐合集第二期中，图1属于个人比较感兴趣也比较喜欢的研究，图2是一本觉得写得还行的教材，个人也挺喜欢图7。一句话推荐: tabris 推荐图1、图7。",
+      "tags": [
+        "papers",
+        "research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬blog推荐合集第二期",
+      "url": "https://www.rednote.com/explore/6ada07860000000033021139?xsec_token=ABVbeURUMbsUENn1OwknsmdG_oG6F2b73bNPpZfF2T_iI%3D&xsec_source=pc_user",
+      "en": "tabris shares the second installment of a late-October blog recommendation roundup.",
+      "zh": "tabris 分享了10月下旬 blog 推荐合集第二期。",
+      "tags": [
+        "blogs"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "人像葡萄酒",
+      "url": "https://www.rednote.com/explore/6af515f70000000016030d9e?xsec_token=ABqsHBU3hsZCLAP-6ZU3N9YebPEZlKosEnHoEDyn0kK4w%3D&xsec_source=pc_user",
+      "en": "鸭基米德 shares a post titled “People Are Like Wine.”",
+      "zh": "鸭基米德 分享了一篇题为《人像葡萄酒》的帖子。",
+      "tags": []
+    }
+  ],
+  "generatedAt": "2026-11-12T13:55:29.899Z"
+}
