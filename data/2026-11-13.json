@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-13",
+  "headline_en": "Frontier AI expands into meeting workflows and cybersecurity, while practitioners emphasize context, evaluation, and the limits of agent autonomy.",
+  "headline_zh": "Frontier AI 正拓展到会议工作流与网络安全，实践者则强调 context、评估以及 agent 自主性的边界。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2120942262054232392",
+      "en": "Google Labs and Gemini VP Josh Woodward announced Gemini 4 Hydrogen, now available in GeminiApp. He describes it as a substantial jump in intelligence while emphasizing speed.",
+      "zh": "Google Labs 与 Gemini VP Josh Woodward 宣布推出 Gemini 4 Hydrogen，目前已在 GeminiApp 上线。他称其智能水平有显著提升，同时强调了速度。",
+      "tags": [
+        "Gemini",
+        "frontier models"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2120973996304830859",
+      "en": "Anthropic’s official Claude account introduced Claude Meetings, which joins calls as a visible participant and responds to spoken or chat requests, including creating documents that teammates can inspect and correct as they take shape. Afterward, notes, action items, transcripts, and generated work appear on the meeting’s page in Claude. It starts with Google Meet, with other conferencing platforms planned.",
+      "zh": "Anthropic 的官方 Claude 账号介绍了 Claude Meetings：它以可见参会者的身份加入会议，响应语音或聊天请求，也能创建文档，让团队在生成过程中查看并纠正。会后，笔记、待办事项、transcript 和生成的成果会汇总到 Claude 中的会议页面。目前首先支持 Google Meet，之后计划接入其他会议平台。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "Claude"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2121036562058400200",
+      "en": "OpenAI’s Thibault Sottiaux highlighted cybersecurity tools under development for automated patching and automated red teaming. The announcement points to security tasks as another application area for AI automation.",
+      "zh": "OpenAI 的 Thibault Sottiaux 介绍了正在开发的网络安全工具，涵盖自动修补与自动 red teaming。这项公告体现了 AI 自动化向安全任务的进一步拓展。",
+      "tags": [
+        "OpenAI",
+        "cybersecurity"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: Isomorphic Labs president and founding-team member Max Jaderberg argues that AI’s biggest contribution to drug discovery is moving more learning and design onto computers, where predictive models approaching experimental accuracy could reduce expensive physical iteration and expose problems before clinical trials. A former DeepMind researcher whose work spanned generative models and deep reinforcement learning, Jaderberg says “fundamentally, I wanna get out of the real world,” while stressing that novel medicines still require real-world validation for efficacy and safety; automated labs help, but chemical reactions and cell growth impose physical limits on iteration speed. His platform strategy is to make knowledge compound across drug programs rather than treating each medicine as a bespoke science project, generating proprietary data suited to generalization because historical datasets often reflect biased, passive collection, and keeping the resulting models internal to support both owned medicines and pharmaceutical partnerships rather than selling model access or tokens. For AI researchers, the practical opening is unusually direct: Isomorphic hires core deep-learning talent without requiring a life-sciences background, combines modelers with domain experts who check whether metrics translate into medicines, and is recruiting for simulation and reasoning models, including adapting frontier and open-source models; its internal drug programs focus on oncology, immunology, and inflammation.",
+      "zh": "核心观点：Isomorphic Labs president、创始团队成员 Max Jaderberg 认为，AI 对药物发现最大的贡献，是把更多学习与设计搬到计算机上；如果预测模型接近实验精度，就有望减少昂贵的实体实验迭代，并在临床试验前发现问题。Jaderberg 曾在 DeepMind 从事生成模型与 deep reinforcement learning 研究，他说“从根本上说，我想摆脱现实世界”，同时强调新药仍须通过现实验证来确认疗效与安全性；自动化实验室有帮助，但化学反应和细胞生长为迭代速度设定了物理边界。他的平台策略是让不同药物项目的知识持续累积，而不是把每种药都当作独立的科研项目，因此会自行生成更适合泛化的专有数据，因为历史数据往往带有被动收集造成的偏差；模型则留在内部，用于自有药物研发和药企合作，而不是出售模型访问权限或 token。对 AI 研究者而言，机会很直接：Isomorphic 招聘没有生命科学背景的核心 deep learning 人才，让建模人员与领域专家协作，检验指标是否真正有助于制药，并正在招聘 simulation 和 reasoning model 方向的人才，包括将 frontier 与 open-source 模型适配到这一领域；内部药物项目聚焦 oncology、immunology 和 inflammation。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "AI for science",
+        "research careers"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "en": "The Hacker News examines what it means to stop an AI agent after malicious instructions in a support ticket redirect it toward exporting records. The scenario highlights how an agent’s identity permissions and connected tools can enable harmful actions, making operational control a central question for deployed agents.",
+      "zh": "The Hacker News 以一个场景探讨如何叫停 AI agent：客服工单中的恶意指令诱导 agent 导出记录。这个例子凸显了 agent 的身份权限与所连接工具如何共同为有害操作提供条件，也让运行中的控制能力成为部署 agent 时的核心问题。",
+      "tags": [
+        "agents",
+        "tool use",
+        "agent security"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "en": "Hugging Face - Blog: “LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B” introduces an LLM-native markup language available in the two Granite model sizes.",
+      "zh": "Hugging Face - Blog 的《LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B》介绍了 LLM-native markup language LLMON，现已用于 Granite 4.1 的 3B 与 8B 模型。",
+      "tags": [
+        "LLMON",
+        "Granite"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬blog推荐合集第一期",
+      "url": "https://www.rednote.com/explore/6ad9fcad0000000025007c9a?xsec_token=ABj2t2YrLqpWwdA1Y9kzTNNI1_xnbu6qO4Wj-dbVdVicA%3D&xsec_source=pc_user",
+      "en": "tabris recommends the final installment of Yihua Zhang’s The GRPO lineage, Ben Recht’s mathematics refresher, an introduction to Mercury 3, and Interactive Demos for Studying Computer Vision and Machine Learning Algorithms. The demos earn particular praise for teaching, alongside the observation that improving agent capabilities are driving rapid growth in interactive demos. Bottom line: 图6 (The GRPO lineage, RL methods), 图9 (interactive demos, teaching and agent capabilities).",
+      "zh": "tabris 推荐 Yihua Zhang 的 The GRPO lineage 系列最后一篇、Ben Recht 的数学知识温习、Mercury 3 介绍，以及 Interactive Demos for Studying Computer Vision and Machine Learning Algorithms。图9 非常适合教学，也让作者感慨 agent 能力提升带来了 interactive demos 的迅猛增长。一句话推荐: 图6（The GRPO lineage，RL 方法），图9（interactive demos，教学与 agent 能力）。",
+      "tags": [
+        "post-training",
+        "agents",
+        "GRPO"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "私心把图1放封面（虽然其他也很值",
+      "url": "https://www.rednote.com/explore/6af07a15000000000203734e?xsec_token=ABAOrJIhDqnVMROS5ujSO1NCk9GVrBrW1Etqvju2tpu0I%3D&xsec_source=pc_user",
+      "en": "tabris highlights Sharon Li’s academic essay reflecting on past experiences and future directions, paired Part 1 and Part 2 readings on Hierarchical Networks, and pieces by Wenhao Chai and John Hewitt. The roundup also recommends a safety-related piece and a practical implementation record, while arguing that personal accounts and reflections are increasingly scarce and worth writing. Bottom line: 图2 (Hierarchical Networks, read both parts), 图5 (safety), 图7 (practical implementation record).",
+      "zh": "tabris 把 Sharon Li 回顾这些年经历并展望未来的学术散文放在封面，认为值得抽时间认真读，也推荐把 Hierarchical Networks 的 Part 1 和 Part 2 一起看，以及 Wenhao Chai 和 John Hewitt 的文章。合集还推荐了 safety 相关内容和一篇实战记录，并鼓励大家写下自己的经历与体悟，因为这种个人化内容在这个时代更加稀缺。一句话推荐: 图2（Hierarchical Networks，两篇一起看），图5（safety），图7（实战记录）。",
+      "tags": [
+        "research",
+        "safety",
+        "Hierarchical Networks"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "不会写代码也能vibe coding",
+      "url": "https://www.rednote.com/explore/6af6663800000000160331e7?xsec_token=ABHeRLCHLaSeiBad6cayql2AE8kjuEnCU_RJP2v0jPnxE%3D&xsec_source=pc_user",
+      "en": "鸭基米德 recommends Cursor’s auto mode for people who rarely code and Claude Code’s command-line workflow for those who already do, with requirements refined through dialogue after getting something running. The practical limits matter: users still need to judge the output, small personal tools tolerate rewrites more easily than large-company projects with risk controls and code review, and agents should not receive unrestricted permissions on machines holding important files.",
+      "zh": "鸭基米德建议，平时不写代码的人用 Cursor 的 auto 模式就够，会写代码的人用 Claude Code 命令行更顺；需求可以先说个大概，东西先跑起来，再通过对话逐渐收拢。实际边界也要分清：产出是否合理仍需自己判断，个人小工具推翻重来的成本低，大厂项目则有风控和代码评审；存着重要文件的电脑也不应给 agent 最高权限。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "Claude Code",
+        "Cursor"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "纠结很久封面还是选了图1",
+      "url": "https://www.rednote.com/explore/6af0938d000000002b03101f?xsec_token=ABAOrJIhDqnVMROS5ujSO1NIGM5O6OBJ2zkrVbjyDhFQ8%3D&xsec_source=pc_user",
+      "en": "tabris chose 图1 for the cover but personally prefers 图2 and 图12. Bottom line: tabris recommends 图2, 图12.",
+      "zh": "tabris 纠结很久后还是选了图1作封面，但个人相对更喜欢图2和图12。一句话推荐: tabris 推荐图2、图12。",
+      "tags": [
+        "research roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "10月下旬自觉不错的paper推荐合集第一期",
+      "url": "https://www.rednote.com/explore/6ada2728000000002c01c551?xsec_token=ABVbeURUMbsUENn1OwknsmdMgIuAazceTAwkVt1xOWp9c%3D&xsec_source=pc_user",
+      "en": "tabris’s late-October paper roundup uses 图1 as the cover for its popularity and strong research quality, while personally favoring 图5 and 图15. Bottom line: tabris recommends 图5, 图15.",
+      "zh": "tabris 的10月下旬 paper 推荐合集选择图1作封面，主要因为它热门，研究水平也没得说；个人相对更喜欢图5和图15。一句话推荐: tabris 推荐图5、图15。",
+      "tags": [
+        "research roundup"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "带本科生coauthor 简历看不出来的三个信号",
+      "url": "https://www.rednote.com/explore/6af68b86000000002b0383f5?xsec_token=ABHeRLCHLaSeiBad6cayql2D8dfgrUIpoPI6rvK-Qk5kc%3D&xsec_source=pc_user",
+      "en": "鸭基米德 identifies three signals for choosing undergraduate research collaborators that a résumé misses: responsiveness, willingness to discuss what interests them, and performance on small tasks before receiving larger ones. The last lesson came from discovering an incorrect baseline two days before a deadline.",
+      "zh": "鸭基米德提出，带本科生 coauthor 要看简历之外的三个信号：回消息快不快、愿不愿意聊自己觉得有意思的东西，以及先做小活再接大活。第三条来自血泪教训：离 ddl 两天才发现 baseline 是错的。",
+      "tags": [
+        "research collaboration"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "各有因缘莫羡人",
+      "url": "https://www.rednote.com/explore/6af098fc000000002b03f266?xsec_token=ABAOrJIhDqnVMROS5ujSO1NIMq2WC7jEPrmy4drWlzs9A%3D&xsec_source=pc_user",
+      "en": "tabris argues that social networks disproportionately amplify some research while leaving equally good work less visible. Over the long run, research quality remains the core advantage that keeps a work being rediscovered.",
+      "zh": "tabris 认为，社交网络会不成比例地放大某些研究的声量，也会让同样不错的研究受到更少关注。但长期来看，研究质量依然是让工作不断被重新拾起的核心竞争力。",
+      "tags": [
+        "research culture"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-13T13:04:33.873Z"
+}
