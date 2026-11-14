@@ -1,0 +1,308 @@
+{
+  "date": "2026-11-14",
+  "headline_en": "Agent progress increasingly depends on learning from production experience, preserving reliable context, and evaluating outcomes beyond headline benchmark scores.",
+  "headline_zh": "Agent 的进步越来越取决于从生产经验中学习、保留可靠上下文，以及超越 benchmark 总分来评估实际结果。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2121464508225053153",
+      "en": "Y Combinator President & CEO Garry Tan recommends keeping Opus 5.5 as the Claude Code coding default: across 52 tasks in Claude Code 2.1.322, Fable 5.2 achieved a similar solve rate, 82.7% versus 84.6%, but cost 2.80 times as much per solved task. He also flags a ceiling effect: harder tasks are needed to distinguish models that already solve most of this set.",
+      "zh": "Y Combinator 总裁兼 CEO Garry Tan 建议继续把 Opus 5.5 作为 Claude Code 的默认编程模型：在 Claude Code 2.1.322 的 52 项任务中，Fable 5.2 的解决率与之接近，分别为 82.7% 和 84.6%，但每解决一项任务的成本是其 2.80 倍。他也指出了天花板效应：两个模型都已能解决这套任务中的大多数问题，需要更难的任务才能拉开差距。",
+      "tags": [
+        "evaluation",
+        "coding agents",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "en": "The Takeaway: continual learning becomes commercially useful when companies can turn production agent traces and their own definition of quality into a repeatable training, evaluation, and deployment loop, rather than rebuilding a research lab for every specialized model. Ronak from Trajectory, who previously worked at Windsurf, describes today's systems as “pseudo continual learning”: his platform starts with traces, rewards, and replayable environments, while research on group-size-one learning aims to learn from individual trajectories across different tasks without repeatedly executing the same environment, and a meta-grader aims to extend detailed feedback on 100 representative traces to a collection of 10,000. For Harvey, he reports an open-model accuracy increase from roughly 4% to 18% and a resulting model six times cheaper than frontier alternatives; for Rogo, the objective is a concise finance agent that completes useful work with fewer tokens, making specialization a way to buy both better margins and more inference per task. His practical distinction is that model training improves efficiency and reliability while harness improvements unlock capabilities, pointing toward jointly improving both, routing routine work to specialized models, and keeping humans responsible for defining what good looks like rather than treating autonomous self-improvement as an end in itself.",
+      "zh": "核心观点：当公司能把生产环境中的 agent traces 和自己对质量的定义，变成可重复的训练、评估和部署闭环时，continual learning 才真正具备商业价值，无须为每个专用模型重新组建研究实验室。曾在 Windsurf 工作的 Trajectory 成员 Ronak 将当下的系统称为“pseudo continual learning”：平台从 traces、reward 和可回放环境入手，同时研究 group-size-one 学习，希望直接从不同任务的单条 trajectory 中学习，无须反复运行同一环境，并用 meta-grader 将 100 条代表性 traces 上的详细反馈推广到 10,000 条数据。对于 Harvey，他报告 open model 的准确率从约 4% 提升至 18%，所得模型的成本约为 frontier 替代方案的六分之一；对于 Rogo，目标是用更少 token 完成有效工作的简洁金融 agent，让专业化同时改善利润空间，并支持为每项任务投入更多推理。他的实际区分是，模型训练提升效率和可靠性，harness 改进拓展能力，因此未来应共同改进两者、把常规任务路由给专用模型，并由人来定义什么才算做好，而不是把自主自我改进本身当作终点。",
+      "tags": [
+        "continual learning",
+        "post-training",
+        "agents",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Outside the Purview of the Reward: Capability Drift in Multilingual Post-Training",
+      "url": "https://arxiv.org/abs/2611.15717",
+      "en": "Two GRPO branches from a shared multilingual MoE checkpoint expose how rewarded improvements can hide capability regressions: the released branch gains 36.07 MATH points while losing 19.32 F1 on XQuAD-Indic. Much of the measured MATH gain is associated with more boxed-answer emission rather than better accuracy among boxed answers, making this a particularly relevant warning about response-format incentives and multilingual post-training evaluation.",
+      "zh": "从同一个 multilingual MoE checkpoint 出发的两个 GRPO 分支表明，受 reward 激励的提升可能掩盖能力退化：发布分支的 MATH 分数增加了 36.07 点，XQuAD-Indic 的 F1 却下降了 19.32 点。测得的 MATH 增益大部分与更频繁地输出 boxed answer 有关，而不是 boxed answer 本身更准确，这对回答格式激励和 multilingual post-training 评估尤其值得警惕。",
+      "tags": [
+        "post-training",
+        "evaluation",
+        "multilingual",
+        "reward design"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Knowledge in the Harness, Reliability in the Weights: Teacher-Free Co-Evolution of an LLM Agent",
+      "url": "https://arxiv.org/abs/2611.15268",
+      "en": "A Gemma 4 12B customer-service agent improves from deployment logs and reference outcomes without a stronger teacher, alternating validated skill-rule updates with GRPO training of a LoRA adapter on complete tool-using conversations. After two rounds, pass¹ rises by 12.5 points in retail and 19.5 in airline on τ²-bench without training or selecting on official tasks, offering a concrete recipe for jointly improving harness knowledge and model reliability.",
+      "zh": "一个 Gemma 4 12B 客服 agent 无须更强的 teacher，就能从部署日志和参考结果中改进，交替进行经过验证的 skill 规则更新，以及基于完整工具调用对话的 GRPO LoRA 训练。在没有用官方任务训练或筛选的情况下，两轮之后其 τ²-bench 的 retail 和 airline pass¹ 分别提升 12.5 和 19.5 点，为同时改进 harness 知识与模型可靠性提供了具体方案。",
+      "tags": [
+        "agents",
+        "post-training",
+        "self-improvement"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "JudgeMix: Judge-Guided Mixed-Rollout Data Synthesis for LLM Agents",
+      "url": "https://arxiv.org/abs/2611.16174",
+      "en": "JudgeMix uses step-wise semantic judging to decide when an agent needs expert intervention during mixed rollouts, then reweights supervision to correct errors while preserving already-valid behavior. It reports consistent improvements on AppWorld and AutomationBench, targeting the training–inference distribution mismatch that makes expert-only trajectory SFT brittle.",
+      "zh": "JudgeMix 用逐步 semantic judging 判断 agent 在 mixed rollout 中何时需要 expert 介入，再调整监督权重，以纠正错误并保留原本有效的行为。它报告在 AppWorld 和 AutomationBench 上取得持续改进，针对的是让纯 expert trajectory SFT 容易失效的训练与推理分布错位。",
+      "tags": [
+        "agents",
+        "post-training",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Folio: Recoverable Multi-Resolution Context Folding for Long-Horizon Language Agents",
+      "url": "https://arxiv.org/abs/2611.16627",
+      "en": "Folio replaces repeated model-written compaction with programmatic folding over linked turn notes, event manifests, and recoverable source records. On 75 LOCA-bench tasks with DeepSeek-V4-Pro shared across systems, it solves 66 versus 54 for the same runtime using model-written compaction, at 2.4 times lower cost, making context management a substantial systems lever for long-horizon agents.",
+      "zh": "Folio 将 turn notes、event manifests 和可恢复的源记录关联起来，通过程序化折叠替代反复由模型生成的上下文压缩。在各系统均使用 DeepSeek-V4-Pro 的 75 项 LOCA-bench 任务中，它解决了 66 项，而同一 runtime 使用模型压缩时解决 54 项，成本约为后者的 1/2.4，说明上下文管理是提升长程 agent 的重要系统手段。",
+      "tags": [
+        "agents",
+        "memory",
+        "context management",
+        "DeepSeek"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory",
+      "url": "https://arxiv.org/abs/2611.15729",
+      "en": "DISCERN argues that persistent enterprise memory needs entity, temporal, and abstention resolution beyond retrieval, using an additive bi-temporal provenance graph that preserves conflicting and superseded facts. On the synthetic 310-query ENT-310 benchmark, competent systems already score roughly 0.93–0.98 on retention and currency, motivating a shift from recall metrics toward whether an agent resolves evidence and knows when to decline.",
+      "zh": "DISCERN 认为，持久化企业记忆除了 retrieval，还需要解决实体识别、时间状态和是否应拒答的问题，因此采用只增不减的双时间 provenance graph，保留冲突事实和被更新的旧值。在包含 310 个查询的合成 ENT-310 benchmark 上，表现合格的系统在 retention 和 currency 上已达到约 0.93 至 0.98，提示评估应从召回转向 agent 能否正确消解证据，以及是否知道何时拒答。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Turning Multi-Agent Communication into Token-Level Credit with On Policy Self Distillation",
+      "url": "https://arxiv.org/abs/2611.16206",
+      "en": "OPSD4MAS turns information from future multi-agent communication into token-level training credit, filtering extracted facts for trajectory relevance and token influence before combining self-distillation with GRPO. It improves mathematical pass@4 by up to 20 percentage points over GRPO, suggesting that communication can provide richer supervision than a scalar team reward.",
+      "zh": "OPSD4MAS 将后续 multi-agent 通信中的信息转化为 token 级训练信号，先按 trajectory 相关性和 token 影响筛选提取出的事实，再将 self-distillation 与 GRPO 结合。它相较 GRPO 将数学 pass@4 最多提高 20 个百分点，表明通信能够提供比团队标量 reward 更细致的监督。",
+      "tags": [
+        "multi-agent",
+        "distillation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Effective Teacher Support for Reasoning Distillation",
+      "url": "https://arxiv.org/abs/2611.14850",
+      "en": "This study restricts forward-KL distillation to a teacher's highest-probability vocabulary subset; across Qwen3 settings, retaining just 0.01% causes no observed MMLU-Pro degradation relative to full-vocabulary targets. At that support size, separate optimizations reduce training step time by 38% and peak memory by 24%, but Nemotron failures at very small supports show that safe cutoffs depend on model family.",
+      "zh": "这项研究将 forward-KL distillation 限制在 teacher 概率最高的词表子集上；在多个 Qwen3 设置中，仅保留 0.01% 的词表，相比完整词表目标未观察到 MMLU-Pro 下降。在这一保留比例下，两项分别测试的优化将训练单步时间降低 38%、峰值显存降低 24%，但 Nemotron 在极小子集下出现失败，说明可靠阈值取决于模型家族。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "Qwen",
+        "training efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "DecArena: Evaluating Large-Scale Decentralized Multi-Agent Collaboration",
+      "url": "https://arxiv.org/abs/2611.15521",
+      "en": "DecArena tests decentralized agents that see only local state and communicate with graph neighbors while discovering resources among more than 100,000 synthetic tools. Standard RL does not reliably solve the discovery and coordination problem; its GraphHarness baseline combines topology-aware warmup with self-improving routing, highlighting explicit harness design as a prerequisite for scaling decentralized collaboration.",
+      "zh": "DecArena 测试去中心化 agent：每个 agent 只能看到局部状态、与图中的邻居通信，并需要在超过 100,000 个合成工具中发现所需资源。标准 RL 无法可靠解决资源发现与协调问题；其 GraphHarness baseline 将拓扑感知 warmup 与自我改进路由结合，凸显了显式 harness 设计对扩展去中心化协作的重要性。",
+      "tags": [
+        "multi-agent",
+        "tool use",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+      "url": "https://arxiv.org/abs/2611.16661",
+      "en": "This work coordinates inference memory allocation, cache-aware trajectory routing, and environment scheduling to reduce the time needed to finish a batch of agent tasks. Live evaluations with Ling-3.0-Flash and Ling-3.1-Flash report 10.4%–65.0% makespan reductions with aligned evaluation scores, directly addressing the cost of benchmark runs, synthetic-data generation, and RL rollouts.",
+      "zh": "这项工作协调推理显存分配、考虑 cache 复用的 trajectory 路由，以及环境调度，缩短整批 agent 任务的完成时间。使用 Ling-3.0-Flash 和 Ling-3.1-Flash 的实际评估报告批次完成时间减少 10.4% 至 65.0%，同时评估分数保持一致，直接针对 benchmark 运行、合成数据生成和 RL rollout 的成本。",
+      "tags": [
+        "agents",
+        "RL infrastructure",
+        "inference efficiency"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
+      "url": "https://arxiv.org/abs/2611.17052",
+      "en": "A peer-review benchmark injects 357 localized errors into 30 real astrophysics and ML preprints, measuring detection by error type and severity alongside false positives on clean copies. Model choice produces roughly 50-percentage-point detection differences under the same prompt, while tool benefits depend on supplying missing capabilities, a useful corrective to assuming that elaborate review scaffolds automatically improve scientific auditing.",
+      "zh": "这个 peer-review benchmark 向 30 篇真实 astrophysics 和 ML 预印本注入 357 处可定位错误，按错误类型和严重程度衡量检出率，同时统计对干净版本的误报。在相同 prompt 下，模型选择带来的检出率差距约为 50 个百分点，而工具的收益取决于是否补足模型缺失的能力，这提醒我们，复杂的审稿 scaffold 并不会自动改善科研审查。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "scientific agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design",
+      "url": "https://arxiv.org/abs/2611.16991",
+      "en": "AnalogLayoutWorld evaluates long-horizon engineering agents on 40 expert-reviewed analog-layout tasks with independent physical and electrical verification. Across 13 model–harness configurations, 91.1% of attempts produce layouts but only 23.0% meet acceptance criteria, exposing the gap between generating an artifact and satisfying real constraints while linking performance to reasoning efficiency and verification feedback.",
+      "zh": "AnalogLayoutWorld 用 40 项经过专家审核的模拟电路版图任务评估长程工程 agent，并进行独立的物理和电气验证。在 13 种模型与 harness 配置中，91.1% 的尝试能生成版图，但只有 23.0% 达到验收标准，揭示了生成产物与满足真实约束之间的差距，并将表现差异与推理效率及验证反馈的使用联系起来。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.15569",
+      "en": "TraceKV combines on-policy calibration, sensitivity-aware SVD, and global rank allocation to reduce the reasoning-policy drift caused by low-rank KV compression. Combined with quantization, it reports near-lossless reasoning accuracy at 5.64 times KV compression and up to 1.83 times end-to-end decoding speedup, making reasoning-state calibration relevant to practical inference optimization.",
+      "zh": "TraceKV 结合 on-policy calibration、敏感度感知 SVD 和全局 rank 分配，减少低秩 KV 压缩导致的推理 policy 偏移。结合 quantization 后，它报告在 KV cache 压缩至约 1/5.64 时保持近乎无损的推理准确率，端到端解码最高加速 1.83 倍，说明针对推理状态进行 calibration 对实际推理优化很有价值。",
+      "tags": [
+        "reasoning",
+        "KV cache",
+        "quantization",
+        "inference efficiency"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "前三篇都挺喜欢的",
+      "url": "https://www.rednote.com/explore/6af0949b0000000023010f34?xsec_token=ABAOrJIhDqnVMROS5ujSO1NNwYjQh6KNhh8-uq2xNxtIU%3D&xsec_source=pc_user",
+      "en": "tabris recommends reading the first three papers in this literature roundup, judging all three to be strong. Bottom line: tabris recommends 图1, 图2, 图3.",
+      "zh": "tabris 个人觉得这次文献合集的前三篇质量都很不错，都推荐找来阅读。一句话推荐: tabris 推荐 图1、图2、图3。",
+      "tags": [
+        "research reading"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "本轮第六期blog推荐合集",
+      "url": "https://www.rednote.com/explore/6af0820b000000002501d7d4?xsec_token=ABAOrJIhDqnVMROS5ujSO1NMlc8N1E7cF3nSQzwgvpdbk%3D&xsec_source=pc_user",
+      "en": "tabris shares the sixth blog recommendation roundup in the current series.",
+      "zh": "tabris 发布了本轮第六期 blog 推荐合集。",
+      "tags": [
+        "research reading"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "论文能不能中看一作横不横得下心",
+      "url": "https://www.rednote.com/explore/6af7d8a900000000180251a5?xsec_token=ABuUuSnTSPqV4XNT-AwVcCJMhG65sK5Gto-7Mr97-D14M%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that first authors must personally own the judgments that determine a paper's success: why the idea works, how experiments should be designed, and whether results are sound. Baseline runs, figures, and literature searches can be delegated, but outsourcing the core decisions risks a project where everyone contributes and nobody owns the outcome.",
+      "zh": "鸭基米德 认为，论文能不能中，关键在于一作是否亲自承担核心判断：idea 为什么成立、实验怎么设计、结果对不对。跑 baseline、画图、查文献这些活可以分出去，但判断分不出去；动辄外包，最后往往变成每个人都做了一点，却没有人对结果负责。",
+      "tags": [
+        "research practice"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "RL Reward-Hack Auditing for Chinese AI Safety",
+      "url": "https://www.lesswrong.com/posts/jwCPQhLWbWnwMhHME/rl-reward-hack-auditing-for-chinese-ai-safety",
+      "en": "LessWrong: RL Reward-Hack Auditing for Chinese AI Safety proposes embedding auditors alongside Chinese labs' alignment and safety teams to identify and repair exploitable RL environments supplied by domestic data vendors. The authors report Git-log leaks in two-thirds of Xiaomi's open-sourced MiMo v2.6 RL environments and estimate that major Chinese AI companies have only 5–10 people each working on alignment and harm reduction. Their proposed intervention targets training infrastructure directly, arguing that capability priorities and pressure to avoid slowing development leave environment auditing understaffed.",
+      "zh": "LessWrong 的《RL Reward-Hack Auditing for Chinese AI Safety》提出，让审计人员嵌入中国实验室的 alignment 和 safety 团队，识别并修复国内数据供应商提供的可被利用的 RL 环境。作者报告，Xiaomi 开源的 MiMo v2.6 RL 环境中有三分之二存在 Git-log 泄漏，并估计中国主要 AI 公司各自只有 5 至 10 人从事 alignment 和 harm reduction。他们建议直接干预训练基础设施，认为能力研发的优先级，以及避免拖慢开发的压力，使环境审计长期人手不足。",
+      "tags": [
+        "post-training",
+        "Chinese AI",
+        "reward hacking",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Building strong safety evaluations",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "en": "Anthropic Research: Building strong safety evaluations offers recommendations for designing, running, and reporting safety evaluations, drawing on Anthropic's own experience.",
+      "zh": "Anthropic Research 的《Building strong safety evaluations》基于 Anthropic 自身经验，就 safety evaluation 的设计、执行和结果报告提出建议。",
+      "tags": [
+        "evaluation",
+        "alignment",
+        "Anthropic"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/OpenAI",
+      "role": null,
+      "title": "GPT-6.1 Sol was the only model out of 11 to pass all 40 runs of a diplomatic negotiation eval",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1xw2e7a/gpt61_sol_was_the_only_model_out_of_11_to_pass/",
+      "en": "A self-described former diplomat reports testing 11 models across 40 runs each on chairing a seven-government negotiation with hidden acceptance limits and changing positions. GPT-6.1 Sol alone passed every run, reaching agreement when feasible and recognizing infeasibility, but made unnecessary concessions in 14 runs. The result usefully separates agreement reliability from negotiation quality within this author's custom evaluation.",
+      "zh": "一位自述曾任外交官的作者报告，对 11 个模型各测试 40 次，任务是主持七国谈判，各国有隐藏的接受底线，立场还会中途变化。只有 GPT-6.1 Sol 每次都通过，能在可行时达成协议，并识别无法达成协议的情况，但它在 14 次运行中做出了不必要的让步。这个自定义评估有价值地区分了达成协议的可靠性与谈判质量。",
+      "tags": [
+        "evaluation",
+        "reasoning",
+        "benchmarks"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-14T13:43:49.982Z"
+}
