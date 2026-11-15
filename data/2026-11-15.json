@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-15",
+  "headline_en": "Reliable AI deployment takes center stage, from decision-model design and misleading evaluation signals to agent-toolchain security.",
+  "headline_zh": "从 decision model 设计、误导性的评估信号到 agent 工具链安全，AI 的可靠部署成为今天的焦点。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2121755282326102417",
+      "en": "Google Labs and Gemini VP Josh Woodward announced a Google Wallet connection in Gemini for personal finance insights. Suggested uses include visualizing spending, spotting subscription price increases, and building holiday budgets from last year's actual expenses, with initial availability for all Gemini app users in the USA.",
+      "zh": "Google Labs 和 Gemini VP Josh Woodward 宣布，Gemini 可以连接 Google Wallet，提供个人财务洞察。用途包括生成消费图表、发现订阅涨价，以及根据去年的实际支出制定假期预算，初期面向美国所有 Gemini app 用户开放。",
+      "tags": [
+        "Gemini",
+        "Google Wallet"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "en": "The takeaway is that useful AI automation depends on reliable, composable decisions and explicit control over side effects, with JEV's creator arguing that impressive benchmark performance leaves major gaps in everyday software automation and that developers need clearer ways to specify the reliability their applications require. The creator describes a machine-native future in which models supply small decisions inside software, says “we should be recreating, like, beautiful primitives,” and wants providers to collaborate with application builders on concrete capability failures so that systems become reusable and eventually provider-agnostic, with fewer model-specific workarounds and less pressure to keep upgrading dependencies. For agent builders, the most specific critique concerns the KV cache, whose largely append-only state encourages accumulating context and complicates routing, subagent handoffs, shared memory, and task-sensitive compression, motivating proposed alternatives such as agents sharing readable and writable state, semantic checks on tool calls, and inexpensive searches across prior work. The creator estimates coding-agent speedups at 20–40%, explicitly qualifying that estimate by task, user skill, technical debt, and longer-term effects, and argues that deployment decisions should account for reversibility and organizational stakes because code benefits from Git and human review while many other workflows offer weaker safeguards against unwanted actions.",
+      "zh": "核心观点是，有用的 AI 自动化依赖可靠、可组合的决策，以及对副作用的明确控制。JEV 的创建者认为，亮眼的 benchmark 成绩仍未填补日常软件自动化中的许多缺口，开发者需要更清晰地表达应用所要求的可靠性。他设想的 machine-native 未来，是让模型在软件内部提供细小的决策，并提出“we should be recreating, like, beautiful primitives”，希望模型提供商与应用开发者一起解决具体的能力缺陷，让系统更可复用，最终实现 provider-agnostic，减少针对特定模型的变通处理和不断升级依赖的压力。对 agent 开发者而言，最具体的批评针对 KV cache，其主要依靠追加的状态管理方式容易让 context 持续累积，也增加了 routing、subagent 交接、共享记忆和按任务压缩的难度，因此他提出共享可读写状态、对 tool call 做语义检查，以及低成本检索历史工作等设想。他估计 coding agent 可带来 20–40% 的提速，同时强调效果取决于任务、用户技能、技术债和长期影响，并认为部署时应考虑操作可逆性和组织承担的风险，因为代码有 Git 和人工审查保护，而许多其他工作流对意外操作的防护更弱。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "KV cache",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "en": "Cursor attributed the compromise of Anthropic's official Claude Code extension on its marketplace to a stolen access key issued to Fireworks AI. According to Cursor's update, the key was exposed following a breach targeting Fireworks AI, linking the extension incident to a compromised credential in the AI development toolchain.",
+      "zh": "Cursor 表示，其扩展市场中 Anthropic 官方 Claude Code 扩展遭到入侵，源于一枚发给 Fireworks AI 的 access key 被盗。根据 Cursor 的更新，这枚 key 在针对 Fireworks AI 的入侵事件后泄露，将此次扩展事件与 AI 开发工具链中的凭证失陷联系起来。",
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Reddit",
+      "category": "Reddit",
+      "source": "Best posts on r/LanguageTechnology",
+      "role": null,
+      "title": "Akshara preserving BPE (v3_32k) and silent BPB regressions when mixing STEM/code into a Dravidian LM",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xwoteg/akshara_preserving_bpe_v3_32k_and_silent_bpb/",
+      "en": "A practitioner training a 253M-parameter multilingual model reports that NFC normalization and letter/mark-aware pre-tokenization raised average UTF-8 bytes per token across four anchor Dravidian languages to 9.680, versus roughly 3.67 for a standard byte-level BPE baseline. Adding STEM, math, and Python data lowered training loss from about 2.9 to 2.0 while worsening held-out bits per byte across all nine languages, including a 7% increase for Kuvi. A subsequent 50/50 split with multilingual replay recovered BPB across all 11 validation sets, illustrating why multilingual training needs held-out, language-specific checks.",
+      "zh": "一位训练 253M 参数 multilingual 模型的实践者报告，通过 NFC normalization 和按字母、组合标记分组的 pre-tokenization，四种主要 Dravidian 语言的平均 UTF-8 bytes per token 达到 9.680，标准 byte-level BPE 基线约为 3.67。加入 STEM、数学和 Python 数据后，training loss 从约 2.9 降至 2.0，但全部九种语言的 held-out bits per byte 都变差，其中 Kuvi 上升了 7%。后续采用包含 multilingual replay 的 50/50 数据配比，使全部 11 个验证集的 BPB 恢复，说明 multilingual 训练需要逐语言检查 held-out 指标。",
+      "tags": [
+        "evaluation",
+        "multilingual",
+        "tokenization"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "来点现实且实用的建议",
+      "url": "https://www.rednote.com/explore/6af08711000000002a01e3fc?xsec_token=ABAOrJIhDqnVMROS5ujSO1NDfgK7Wv1oq0960JThJCIV4%3D&xsec_source=pc_user",
+      "en": "tabris recommends industry job-search reflections in 图1 and 图2, especially for readers in North America, and a PhD reflection in 图3 for first-year students feeling uncertain. The roundup also highlights the well-visualized looped models collection in 图5 and a video-course collection accompanying a new book in 图6. 图10 offers an in-depth discussion, with tabris adding that participation in well-known benchmarks remains important as a visible showcase for work. Bottom line: 图1、图2 (industry job-search advice), 图5 (looped models collection), 图10 (discussion and benchmark participation).",
+      "zh": "tabris 推荐图1和图2的业界求职心得，尤其建议有需求的北美朋友找来读，也十分推荐相对迷茫的博一新生阅读图3的读博心得。图5是可视化做得非常好的 looped models collection，图6是配合新书的视频课程合集。图10的讨论比较深入，tabris 个人仍觉得参与知名 benchmark 很重要，毕竟这是最直观的展示舞台。一句话推荐: 图1、图2（业界求职心得），图5（looped models collection），图10（深入讨论与 benchmark 参与）。",
+      "tags": [
+        "industry careers",
+        "reasoning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "谁家子弟谁家院",
+      "url": "https://www.rednote.com/explore/6af09629000000002b01812b?xsec_token=ABAOrJIhDqnVMROS5ujSO1NHSUKVykd-JgcyXsXt524cg%3D&xsec_source=pc_user",
+      "en": "tabris shares a literature roundup with a relatively diverse set of sources and singles out 图7 as a personal favorite. Bottom line: tabris recommends 图7.",
+      "zh": "tabris 分享了一期来源相对多元化的文献推荐合集，个人觉得图7不错。一句话推荐: tabris 推荐图7。",
+      "tags": [
+        "research roundup"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-15T13:01:48.299Z"
+}

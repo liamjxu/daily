@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-15",
+    "count": 6,
+    "headline_en": "Reliable AI deployment takes center stage, from decision-model design and misleading evaluation signals to agent-toolchain security.",
+    "generatedAt": "2026-11-15T13:01:48.299Z"
+  },
+  {
     "date": "2026-11-14",
     "count": 20,
     "headline_en": "Agent progress increasingly depends on learning from production experience, preserving reliable context, and evaluating outcomes beyond headline benchmark scores.",
