@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-16",
+  "headline_en": "Agent research puts evaluation, memory, and coordination under scrutiny as trading agents demonstrate substantial real-world adoption.",
+  "headline_zh": "Agent 研究开始重新审视评测、记忆与协作机制，交易 agent 则展现出可观的实际应用规模。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2122206990101536852",
+      "en": "OpenAI's Codex and ChatGPT builder Thibault Sottiaux says the Codex team may have fixed the recurring “model at capacity” errors. His wording remains tentative, so this is an operational update rather than a confirmed resolution.",
+      "zh": "OpenAI 的 Codex 与 ChatGPT 开发者 Thibault Sottiaux 表示，Codex 团队可能已经修复了反复出现的“model at capacity”错误。他的措辞仍然谨慎，因此这是一则运行状态更新，尚不能视为问题已确认解决。",
+      "tags": [
+        "Codex",
+        "OpenAI"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "en": "The Takeaway: Robinhood founder and CEO Vlad Tenev sees agent harnesses becoming consumer financial infrastructure, while arguing that AI-driven scientific discovery should reach users rather than remain concentrated inside frontier labs. Tenev reports more than 150,000 agentic trading accounts and roughly 30 million daily tool calls, describing a progression from Robinhood MCP to Robinhood Agents, an integrated interface with recurring strategy loops, portfolio-rebalancing skills, and an app store for external data sources, with the ambition of making sophisticated quantitative strategies accessible to ordinary individuals. The implementation details matter: users fund a separate account isolated from their main balance, trade approvals are enabled by default but can be disabled, and Robinhood built much of the sandboxing and harness infrastructure internally; Tenev expects adoption to begin with sophisticated users whose activity increases substantially, then spread as turning an idea into a strategy becomes easier. As a Harmonic co-founder, he also describes Aristotle's public use on unsolved mathematics problems and argues that “it's too centralized” when proprietary models and lab employees capture scientific discovery, favoring tools that let outsiders make discoveries themselves and warning that concentrating both research and its economic benefits inside AI labs threatens public acceptance.",
+      "zh": "核心 takeaway：Robinhood 创始人兼 CEO Vlad Tenev 认为，agent harness 正在成为面向消费者的金融基础设施，同时主张把 AI 科学发现工具交给用户，而不是让成果集中在前沿实验室内部。Tenev 称，agentic trading 账户已超过 150,000 个，每日 tool call 约为 3,000 万次，产品也从 Robinhood MCP 发展到 Robinhood Agents，在账户内集成周期性策略循环、投资组合再平衡 skills，以及接入外部数据的应用商店，目标是让普通人也能使用复杂的量化策略。实现细节值得关注：用户需要向独立于主账户余额的账户转入资金，交易审批默认开启但可以关闭，Robinhood 则自行构建了大量 sandbox 与 harness 基础设施；Tenev 预计，早期采用者主要是交易活动显著增加的专业用户，随后随着策略实现门槛降低，使用范围会逐步扩大。作为 Harmonic 联合创始人，他还介绍了公众使用 Aristotle 研究未解数学问题的情况，认为专有模型与实验室员工包揽科学发现的模式“过于集中”，更支持让外部用户亲自做出发现，并警告科研成果及其经济收益集中于 AI 实验室会削弱公众认同。",
+      "tags": [
+        "agents",
+        "tool use",
+        "AI industry strategy",
+        "Harmonic"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2611.17610",
+      "en": "A synthesis of nine empirical evaluations covering 516 multi-agent configurations finds that comparisons against a single greedy pass confound coordination with sampling and inference compute. Against sample-count- or resource-matched baselines, multi-agent systems average 4.2 percentage points lower accuracy and fail to outperform in 74% of comparable contrasts. The practical implication is to demand matched compute baselines and evidence that communication contributes partitioned information, external verification, or model error diversity.",
+      "zh": "这篇研究汇总了九项实证评测中的 516 种 multi-agent 配置，指出以单次 greedy 生成为基线，会把协作收益与采样次数、推理计算量混在一起。在采样次数或资源预算匹配的比较中，multi-agent 系统的准确率平均低 4.2 个百分点，74% 的可比结果未能超过基线。实际启示是：评测应匹配计算预算，并验证通信是否带来了分散的信息、外部验证或模型错误的多样性。",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "test-time compute"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+      "url": "https://arxiv.org/abs/2611.18471",
+      "en": "Verification Transport tests whether a verifier preserves its judgment when the same frozen agent execution is presented through tool abstractions, delegation boundaries, or compacted histories. Across four benchmarks and seven verifier backbones, failures reach about 31% under macro abstraction and delegation, while restoring execution provenance recovers 85.5% of transport failures. This makes evidence visibility a first-class evaluation concern: lower failure rates can reflect abstention rather than more reliable judgments.",
+      "zh": "Verification Transport 检验同一段固定 agent 执行记录经过工具抽象、委派边界或历史压缩后，verifier 是否仍能保持原有判断。在四个 benchmark 和七种 verifier backbone 上，宏操作抽象与委派条件下的失败率最高约为 31%，恢复执行溯源信息则能修复 85.5% 的此类失败。这说明证据可见性应成为评测的核心因素：较低的失败率可能来自弃答，而非判断更加可靠。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "verification"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "CarryOn: Learning What to Keep in Context for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2611.17808",
+      "en": "CarryOn combines compact execution state with fine-grained, source-linked evidence, using a learned selector and adaptive retention policy without additional context-management LLM calls. Across AppWorld, OfficeBench, and Tau2 Telecom with three actor models, it reaches 75.7% macro-averaged task success, 6.7 percentage points above the strongest baseline, and leads on two resource-aware metrics. It offers a concrete alternative to summaries that discard exact details needed for later actions.",
+      "zh": "CarryOn 将精简的执行状态与细粒度、关联来源的证据结合，通过学习得到的 selector 和自适应保留策略管理上下文，无需额外调用 LLM。在三个 actor 模型参与的 AppWorld、OfficeBench 和 Tau2 Telecom 评测中，它的宏平均任务成功率达到 75.7%，比最强基线高 6.7 个百分点，并在两项考虑资源消耗的指标上领先。对于摘要可能丢失后续操作所需精确细节的问题，它提供了一个具体替代方案。",
+      "tags": [
+        "agents",
+        "memory",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Aligning AI Teams",
+      "url": "https://arxiv.org/abs/2611.17820",
+      "en": "This study investigates why alignment behavior learned by individual agents fails to transfer reliably to teams, finding that stronger models, mutual critique, and group chat do not consistently close the gap. Diffusion of responsibility explains a substantial part of the problem; a designated safety lead and a coordinator-published safety specification effectively restore single-agent alignment behavior in the studied tasks. The findings give practitioners concrete organizational interventions to test when building multi-agent workflows.",
+      "zh": "这项研究探讨了单个 agent 学到的 alignment 行为为何不能可靠迁移到团队，发现更强的模型、相互批评和群聊都无法稳定缩小差距。责任分散解释了相当一部分问题；在研究涉及的任务中，指定安全负责人 agent，以及由协调者发布安全规范文档，能够有效恢复单 agent 的 alignment 行为。这为构建 multi-agent 工作流提供了可直接测试的组织机制。",
+      "tags": [
+        "multi-agent",
+        "alignment",
+        "agentic workflows"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Benchmarks Don't Talk Back: Learning Through Self-Disagreement",
+      "url": "https://arxiv.org/abs/2611.17563",
+      "en": "The paper separates first-answer accuracy from dialectical competence: knowing when to defend a correct answer and when to yield to a better argument. Its Self-Disagreement training loop has a model generate its strongest counterargument and judge that challenge, using verifiable rewards without a second model, reward model, preference data, or human annotation. The evaluation critique matters for deployed assistants because accuracy training, self-reflection, and extra sampling do not necessarily make models robust to incorrect objections.",
+      "zh": "论文将首次回答准确率与辩证能力区分开来，后者指知道何时应坚持正确答案、何时应接受更好的论证。Self-Disagreement 训练让模型生成最强反驳并判断反驳是否成立，全程使用可验证奖励，无需第二个模型、reward model、偏好数据或人工标注。其评测批判对实际部署的助手很有意义，因为准确率训练、自我反思和增加采样，并不必然让模型更能抵御错误质疑。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AutoRL: A Multi-Agent System towards Autonomous Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2611.17790",
+      "en": "AutoRL automates intervention during an ongoing RL run rather than treating research as a sequence of complete experiments. Perceptors monitor training dynamics and efficiency, Proposers diagnose problems using shared evidence, and an Orchestrator applies approved interventions through hot updates or checkpoint resumption. Experiments on Qwen3 and LongCat-Flash-Lite report improvements over static recipes and a general agent, making this a relevant design for agent-assisted post-training operations.",
+      "zh": "AutoRL 在持续进行的 RL 训练中自动实施干预，而不是把研究仅仅视为一轮轮完整实验。Perceptors 监控训练动态与效率，Proposers 基于共享证据诊断问题，Orchestrator 则通过热更新或从 checkpoint 恢复来执行获准的干预。在 Qwen3 与 LongCat-Flash-Lite 上的实验报告了相对静态配方和通用 agent 的提升，为 agent 辅助的 post-training 运维提供了值得关注的设计。",
+      "tags": [
+        "post-training",
+        "multi-agent",
+        "Qwen",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+      "url": "https://arxiv.org/abs/2611.18494",
+      "en": "ARCHER compiles free-form chain-of-thought into typed, executable traces containing calculator calls, runtime observations, and verification, then refines the policy with hierarchical RL rewards. Across five sub-10B backbones, it improves macro-average benchmark accuracy by 5.51 percentage points over the strongest tool-augmented baseline, including 8.95 points on MATH-500. The contribution is a training target centered on auditable tool-grounded reasoning rather than imitation of explanatory prose.",
+      "zh": "ARCHER 将自由形式的 chain-of-thought 编译为带类型、可执行的轨迹，其中包含 calculator 调用、运行时观测和验证，再通过分层 RL 奖励优化策略。在五种参数量低于 10B 的 backbone 上，它相对最强工具增强基线的 benchmark 宏平均准确率提升了 5.51 个百分点，其中 MATH-500 提升 8.95 个百分点。其贡献在于把训练目标转向可审计、以工具为依据的推理，而非模仿解释性文字。",
+      "tags": [
+        "reasoning",
+        "tool use",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+      "url": "https://arxiv.org/abs/2611.17780",
+      "en": "LuthorSQL is a non-autoregressive 7B model that predicts bounded query plans in one pass, executes up to 32 candidates, and uses a trained validator before escalating uncertain queries to a larger agent. It achieves 68.03% execution accuracy on BIRD's hidden test set at 0.84 seconds per question; in a pre-registered cascade with Claude Opus 5.5 on 227 questions from databases published after its training cutoff, it handles nearly half locally and cuts API cost by 33.3% at the same accuracy. This is a concrete example of confidence-based local-model routing with a temporally held-out evaluation.",
+      "zh": "LuthorSQL 是一个 non-autoregressive 7B 模型，通过单次前向计算预测限定语法内的查询计划，执行最多 32 个候选，再由训练得到的 validator 选择结果，不确定时才升级给更大的 agent。它在 BIRD 隐藏测试集上的执行准确率为 68.03%，每题耗时 0.84 秒；在与 Claude Opus 5.5 配合的预注册级联系统中，针对来自其训练截止时间之后发布的数据库的 227 道题，它在本地处理了近一半问题，并在准确率相同的情况下将 API 成本降低 33.3%。这是一个采用时间留出评测、按置信度路由到本地模型的具体案例。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "inference cost",
+        "text-to-SQL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization",
+      "url": "https://arxiv.org/abs/2611.18096",
+      "en": "VEPO transfers English visual grounding to other languages by locating relevant image regions with English-query attention and constructing preference pairs with the same correct answer but different visual evidence sufficiency. DPO on full-image versus key-region-masked pairs reduces hallucinations and improves perception on multilingual POPE and MME in Chinese, French, and Hindi, with the largest gains in the lowest-resource language. It offers multilingual preference optimization without external translation or reward models.",
+      "zh": "VEPO 利用 English 查询的 attention 定位相关图像区域，再构造正确答案相同、但视觉证据充分程度不同的偏好对，将 English 的视觉 grounding 能力迁移到其他语言。在完整图像与关键区域被遮挡图像组成的偏好对上进行 DPO，能够降低 Chinese、French 和 Hindi 版本 multilingual POPE 与 MME 中的幻觉并改善感知，最低资源语言的收益最大。它提供了一种无需外部翻译或 reward model 的多语言 preference optimization 方法。",
+      "tags": [
+        "preference optimization",
+        "multilingual",
+        "hallucination",
+        "DPO"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "See Every Block Once: Variance-Reduced Post-Training for Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2611.17754",
+      "en": "This paper replaces random block sampling in masked diffusion language-model post-training with a full-block estimator that evaluates every block exactly once. The estimator remains unbiased while removing block-selection variance, and experiments across mathematics, planning, and coding show a 12.79-point average improvement over random block sampling, with the best accuracy on four of five benchmarks. It identifies an estimation-level change that can materially affect diffusion-model post-training.",
+      "zh": "这篇论文用每个 block 恰好评估一次的 full-block estimator，替代 masked diffusion language model post-training 中的随机 block 采样。该估计量保持无偏，同时消除 block 选择引入的方差；在数学、规划和编程实验中，相对随机 block 采样平均提升 12.79 个点，并在五个 benchmark 中的四个取得最高准确率。它指出，估计方法层面的改动就可能显著影响 diffusion model 的 post-training 效果。",
+      "tags": [
+        "post-training",
+        "diffusion",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Rethinking Visual Reasoning in Text-to-Image Reward Modeling",
+      "url": "https://arxiv.org/abs/2611.17585",
+      "en": "The authors find that preference fine-tuning erodes visual reasoning in text-to-image reward models, even when they start from strong vision-language backbones. Mixing ordinary preference pairs with pairs that share an image but differ in prompt improves both preference prediction and visual understanding, yielding average GenEval gains of 4.0% for best-of-n selection and 5.5% for RL post-training. The result highlights reward-model capability loss as a post-training failure mode and offers a data-centric intervention.",
+      "zh": "作者发现，即使从强大的 vision-language backbone 出发，preference fine-tuning 仍会削弱 text-to-image reward model 的视觉推理能力。将常规偏好对与图像相同、prompt 不同的偏好对混合训练，可以同时改善偏好预测与视觉理解，在 best-of-n 选择和 RL post-training 中分别带来平均 4.0% 与 5.5% 的 GenEval 提升。这项结果揭示了 reward model 能力退化这一 post-training 失败模式，并提供了从数据入手的干预方法。",
+      "tags": [
+        "reward model",
+        "post-training",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+      "url": "https://arxiv.org/abs/2611.18514",
+      "en": "Studying Qwen2.5-7B-Instruct on live websites, the authors find a last-prompt-token probe predicts unavailable-action hallucinations with 0.80 AUC, while steering corrects 85% of hallucinations but disrupts 7% of valid actions. Minor action-format changes substantially weaken steering, and relevant computation is distributed across components and token positions. The study cautions that predictive probes and successful interventions provide only partial explanations of realistic agent failures.",
+      "zh": "作者研究了 Qwen2.5-7B-Instruct 在真实网站上的行为，发现基于 prompt 最后一个 token 的 probe 可以用 0.80 AUC 预测不存在的操作幻觉，而 steering 能修正 85% 的幻觉，但也会破坏 7% 的有效操作。对操作表示格式的小幅修改就会显著削弱 steering，相关计算也分散在多个组件和 token 位置。研究提醒我们，具备预测能力的 probe 和有效干预，仍只能部分解释真实 agent 的失败。",
+      "tags": [
+        "agents",
+        "Qwen",
+        "interpretability",
+        "hallucination"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "en": "The Hacker News: Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys reports attackers using AI agents to find weaknesses in internet-exposed AI applications and steal provider credentials. Records captured by Amazon's threat intelligence decoys describe stolen keys funding the models used to hunt for more keys, a feedback loop directly relevant to operators of AI gateways and agent infrastructure.",
+      "zh": "The Hacker News 的《Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys》报道，攻击者使用 AI agent 寻找暴露在互联网的 AI 应用中的弱点，窃取模型供应商凭据。Amazon 威胁情报诱捕系统获取的记录显示，被盗 key 被用于调用模型，继续搜寻更多 key，这种反馈循环与 AI 网关和 agent 基础设施运营直接相关。",
+      "tags": [
+        "agents",
+        "AI security",
+        "API keys"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "The Siren Song of the Inside Game",
+      "url": "https://www.lesswrong.com/posts/GSseMxyeJmqQgKQi4/the-siren-song-of-the-inside-game",
+      "en": "LessWrong: The Siren Song of the Inside Game argues that AI safety incentives pull researchers toward cultivating access and trust inside frontier labs, at the expense of public accountability. Its recommendation is to rebalance toward external pressure, warning that locally understandable choices, including junior researchers' reluctance to criticize labs, can collectively produce too much accommodation.",
+      "zh": "LessWrong 的《The Siren Song of the Inside Game》认为，AI safety 领域的激励机制会推动研究者争取前沿实验室内部的接触机会与信任，却挤压了公开问责。文章建议增加外部施压，提醒读者：包括初级研究者不愿批评实验室在内，局部看来合理的选择，汇总起来可能导致过度迁就。",
+      "tags": [
+        "AI industry strategy",
+        "frontier labs",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "图1作者一共写了两篇，质量非常好，感兴趣的十分推荐找来读；图2比较硬核的一篇，但",
+      "url": "https://www.rednote.com/explore/6af08c33000000002501f74b?xsec_token=ABAOrJIhDqnVMROS5ujSO1NFSB_0w1O3xGWC6UDBf-L6E%3D&xsec_source=pc_user",
+      "en": "tabris's roundup includes introductions to Ripple-65B in 图3 and Inkling 2 Small in 图5, and recommends 图10 to readers interested in the AI economy. The author strongly recommends both pieces by the 图1 author, describes 图2 as demanding but hard to put down, and highlights 图7's interesting experiment and 图9's excellent results. Bottom line: 图10 (AI economy).",
+      "zh": "tabris 这期推荐合集里，图3 intro Ripple-65B，图5 intro Inkling 2 Small，图10 推荐给对 AI economy 感兴趣的朋友们。图1作者一共写了两篇，质量非常好，感兴趣的十分推荐找来读；图2比较硬核，但读起来有种让人放不下的魔力；图7是很有意思的实验，图9成果出色，很期待作者们下一步的成果公布。一句话推荐: 图10 (AI economy)。",
+      "tags": [
+        "AI industry strategy",
+        "Ripple-65B",
+        "Inkling 2 Small"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — tabris 🗝",
+      "role": null,
+      "title": "也不要只看热门paper嘛",
+      "url": "https://www.rednote.com/explore/6af096b4000000002b024a54?xsec_token=ABAOrJIhDqnVMROS5ujSO1NMapg3MU85bYunl9GLQfrJA%3D&xsec_source=pc_user",
+      "en": "tabris's new post encourages readers to look beyond popular papers.",
+      "zh": "tabris 的新帖提醒大家，也不要只看热门 paper 嘛。",
+      "tags": [
+        "research"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-16T16:37:52.895Z"
+}
