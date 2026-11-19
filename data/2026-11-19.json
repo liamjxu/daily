@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-19",
+  "headline_en": "Frontier model releases keep coming as research probes whether agent benchmarks, post-training gains, and autonomous workflows deliver reliable progress.",
+  "headline_zh": "Frontier model 持续发布，研究则进一步追问 agent benchmark、post-training 收益和自主工作流能否带来可靠进展。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2123177835254952348",
+      "en": "Google Labs and Gemini VP Josh Woodward announced Gemini 4 Neon, describing it as frontier-grade intelligence with faster, cheaper operation and strong complex-instruction following. The post provides no quantitative comparison.",
+      "zh": "Google Labs 和 Gemini VP Josh Woodward 发布 Gemini 4 Neon，称其具备 frontier 级智能，运行更快、成本更低，并擅长遵循复杂指令。帖子没有给出量化对比。",
+      "tags": [
+        "Gemini",
+        "frontier releases"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2123175166519992652",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux argues that GPT-6.2 Astra stands apart on exceptionally hard tasks, pointing to the team's AMD and Jalapeño chip-optimization results. He acknowledges criticism of its communication style and says the team is working on it.",
+      "zh": "OpenAI Codex 和 ChatGPT 开发者 Thibault Sottiaux 认为，GPT-6.2 Astra 在极难任务上表现突出，并以团队分享的 AMD 和 Jalapeño 芯片优化结果为例。他也承认用户对模型沟通风格的批评，并表示团队正在改进。",
+      "tags": [
+        "GPT-6.2 Astra",
+        "reasoning",
+        "frontier releases"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Google Labs",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/GoogleLabs/status/2123118145552749015",
+      "en": "Google Labs announced that Project Genie now runs on Google DeepMind's Genie 4, with live world editing through mid-session prompts and an agent for conversational world creation. Eligible Google AI Ultra subscribers can also explore and remix other users' worlds through a gallery.",
+      "zh": "Google Labs 宣布 Project Genie 已搭载 Google DeepMind 的 Genie 4，支持在体验过程中用 prompt 实时修改世界，并通过 agent 以对话方式创建世界。符合条件的 Google AI Ultra 订阅用户还可以在 gallery 中探索和 remix 其他用户的世界。",
+      "tags": [
+        "Genie 4",
+        "agents",
+        "world models"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2123106370161705127",
+      "en": "Former Anthropic Claude Code builder Thariq argues that most people will still prefer thoughtfully designed software over generating their own, because good software embodies strong product opinions. His own AI-assisted software experiment failed to stick because its modes did not match how he organized work, prompting a more to-do-oriented redesign.",
+      "zh": "曾参与 Anthropic Claude Code 的开发者 Thariq 认为，多数人仍会更愿意使用经过认真设计的软件，因为好软件凝结了明确的产品判断。他自己用 AI 辅助开发的软件也没能坚持用下去，因为其中的模式不符合他的工作组织方式，因此准备改成更偏待办事项的设计。",
+      "tags": [
+        "AI coding",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "Notion’s Founder on the One Thing Your AI Is Missing",
+      "url": "https://www.youtube.com/watch?v=PGWvMrF4XIA",
+      "en": "The Takeaway: Notion founder and CEO Ivan Zhao sees durable value in preserving a business's data, context, permissions, and shared understanding as agents make workflow logic and interfaces increasingly easy to generate, shifting Notion toward a context layer that serves both people and agents. Zhao supports the freedom to modify software but distinguishes personal experimentation from products where customers want someone else to handle design, security, and maintenance; his proposed middle ground is structured building blocks for AI-created software, with permissions, syncing, and collaboration already handled, rather than asking every user to assemble those foundations themselves. “I don't think we should surrender our understanding” captures his concern about isolated coding-agent sessions: Notion teams use shared Kanban boards to make agent work visible, while he argues that better abstractions and visualization should help humans understand and redirect increasingly automated systems instead of merely accepting their outputs. Zhao says Notion aims to package its context and knowledge capabilities for a 50-person business within roughly one or two quarters, with agent-led onboarding, and frames possible token savings of 20–40% as a hope rather than a measured result; he also describes pattern libraries that let agents build freer interfaces over Notion databases under existing permissions, while clarifying that these libraries have not been open-sourced.",
+      "zh": "核心观点：Notion 创始人兼 CEO Ivan Zhao 认为，当 agent 让工作流逻辑和界面越来越容易生成时，企业数据、context、权限和团队共同理解才是更持久的价值，因此 Notion 正转向同时服务人和 agent 的 context 层。Zhao 支持用户自由修改软件，但区分了个人实验与客户希望由专业团队负责设计、安全和维护的产品；他提出的中间路线，是为 AI 生成的软件提供有结构的积木，预先处理权限、同步和协作，让用户无需自行搭建这些基础能力。“我认为我们不应该放弃自己的理解”概括了他对孤立 coding agent 会话的担忧：Notion 团队用共享 Kanban board 展示 agent 的工作，他也主张通过更好的抽象和可视化，帮助人理解并调整越来越自动化的系统，而不是仅仅接受输出。Zhao 表示，Notion 希望在大约一到两个季度内，为 50 人企业提供整合 context 和知识的成套方案，并通过 agent 完成 onboarding；他将节省 20–40% token 描述为愿景，而非已测得的结果，同时介绍了让 agent 在现有权限约束下、围绕 Notion 数据库构建更自由界面的 pattern libraries，并明确表示这些 libraries 尚未开源。",
+      "tags": [
+        "agents",
+        "context",
+        "industry strategy",
+        "AI coding"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ForecastGym: A Live, Controlled, and Replayable Benchmark for Forecasting Agents",
+      "url": "https://arxiv.org/abs/2611.23045",
+      "en": "ForecastGym freezes search evidence for unresolved prediction-market questions so forecasting agents can later be compared on identical historical inputs; its first release contains 150 questions, 614 evidence states, and 131k search results. Repeating searches after resolution exposes outcomes for up to 92% of questions despite date filters, while all tested LLMs trail the market on frozen evidence, making this a useful warning about retrospective evaluation leakage.",
+      "zh": "ForecastGym 为尚未揭晓结果的预测市场问题冻结搜索证据，便于之后在相同历史输入上比较 forecasting agent；首批数据包括 150 个问题、614 个证据状态和 13.1 万条搜索结果。即使使用日期过滤，结果揭晓后重新搜索仍会泄露最多 92% 问题的答案，而所有受测 LLM 在冻结证据上的预测准确度都落后于市场，这为回溯式评测中的信息泄漏敲响了警钟。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "benchmarks",
+        "data contamination"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "A Full-Ledger Counterfactual Audit of Adaptive Reasoning",
+      "url": "https://arxiv.org/abs/2611.22778",
+      "en": "FLCVA tests whether additional reasoning actually improves an answer by comparing immediate answers with fixed-length continuations from the same prefix and charging for every policy signal. Random 256-token continuations repair 26.6% of wrong Qwen3-8B answers and 18.9% of wrong DeepSeek-R1-Distill-Qwen-7B answers, but the tested lightweight controllers add little continuation-specific value beyond detecting current errors, sharpening how test-time compute should be evaluated.",
+      "zh": "FLCVA 从同一个 prefix 出发，对比立即作答与固定长度的继续推理，并计入策略所用全部信号的成本，以检验额外推理是否真的能改善答案。随机续写 256 token 可以修复 Qwen3-8B 的 26.6% 错误答案，以及 DeepSeek-R1-Distill-Qwen-7B 的 18.9% 错误答案，但受测轻量控制器除了识别当前错误，对判断继续推理的具体价值帮助有限，为 test-time compute 的评测提供了更严格的标准。",
+      "tags": [
+        "reasoning",
+        "test-time compute",
+        "evaluation",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.23179",
+      "en": "Across four preference-optimized LLaVA-1.5-7B checkpoints, lower object hallucination comes with reduced object coverage and no significant improvement in set-level object F1 on CHAIR. Simply encouraging the base model to stop earlier reproduces 58–86% of the CHAIRi improvement for three checkpoints; a training-free restoration method recovers coverage using confident base-model categories, underscoring why hallucination claims need recall-matched comparisons.",
+      "zh": "在四个经过 preference optimization 的 LLaVA-1.5-7B checkpoint 中，物体 hallucination 减少的同时，物体覆盖率也下降，CHAIR 上按物体集合计算的 F1 没有显著提升。仅让 base model 更早停止，就能复现其中三个 checkpoint 的 58–86% CHAIRi 改善；作者还提出无需训练的恢复方法，用 base model 高置信度识别的类别补回覆盖率，说明评估 hallucination 改善时需要匹配 recall。",
+      "tags": [
+        "preference optimization",
+        "evaluation",
+        "hallucination"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "Which Tokens, in What Order, and How Fast? A Theoretical Analysis of On-Policy Distillation Objectives",
+      "url": "https://arxiv.org/abs/2611.23397",
+      "en": "This theoretical analysis finds that sequence-level on-policy distillation has a future-agreement bias: it learns later token positions first and can favor early tokens that the teacher considers improbable, whereas myopic token-level objectives avoid that bias. It also shows that forward KL has a well-behaved optimization landscape while reverse KL and other divergences can suffer vanishing gradients far from the teacher, providing concrete guidance for distillation objective design.",
+      "zh": "这项理论分析发现，sequence-level on-policy distillation 存在 future-agreement bias：模型先学会后面的 token，并可能在前面偏好 teacher 认为概率很低的 token，而局部 token-level 目标可以避免这种偏差。论文还表明，forward KL 的优化形态较好，reverse KL 等 divergence 则可能在 student 与 teacher 相差很远时仍出现梯度消失，为 distillation 目标设计提供了具体依据。",
+      "tags": [
+        "distillation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+      "url": "https://arxiv.org/abs/2611.23229",
+      "en": "Ambient SFT regularizes fine-tuning with a frozen pretrained teacher, matching softened conditional distributions to preserve information that small post-training datasets may erase. Temperature controls trust in the teacher, connecting ordinary SFT and knowledge distillation; the method reports up to 21% average relative improvement over standard SFT across domain adaptation, instruction tuning, and reasoning.",
+      "zh": "Ambient SFT 使用冻结的 pretrained teacher 对 fine-tuning 进行正则化，通过匹配经过温度平滑的条件分布，保留小规模 post-training 数据可能抹去的信息。温度控制对 teacher 的信任程度，将普通 SFT 与 knowledge distillation 联系起来；在领域适配、instruction tuning 和 reasoning 任务中，该方法报告了相对标准 SFT 最高 21% 的平均相对提升。",
+      "tags": [
+        "post-training",
+        "fine-tuning",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "What RL on Expert-Built Tasks Teaches Nemotron 3.5 Super",
+      "url": "https://arxiv.org/abs/2611.22161",
+      "en": "The authors train separate rank-32 LoRA adapters for Nemotron 3.5 Super using CISPO RL on five expert-built task datasets, with no supervised stage and matched evaluation settings. Reported gains include SWE-bench Pro V2 rising from 86.9% to 92.1% and AutomationBench from 14.8% to 27.5%, alongside behavioral changes such as gathering rules before acting and writing scratch tests, offering a concrete study of targeted agent post-training.",
+      "zh": "作者在五类专家构建的任务数据上，使用 CISPO RL 为 Nemotron 3.5 Super 分别训练 rank-32 LoRA adapter，没有 supervised 阶段，并采用一致的评测设置。报告结果包括 SWE-bench Pro V2 从 86.9% 升至 92.1%，AutomationBench 从 14.8% 升至 27.5%；行为分析还发现，模型更常在行动前收集规则、编写临时测试，为定向 agent post-training 提供了具体案例。",
+      "tags": [
+        "post-training",
+        "tool use",
+        "agents",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "RSI-Prime: Training Models to Train Models",
+      "url": "https://arxiv.org/abs/2611.23138",
+      "en": "RSI-Prime contains 350 complete model-training experiment trajectories across seven task categories, with decision-quality annotations and loss masking that excludes low-quality decisions from supervision. Training GLM-5.3 on this data yields a reported 31.95% relative improvement on PostTrainBench, suggesting a concrete route to improving agents that conduct post-training experiments.",
+      "zh": "RSI-Prime 收录了七类任务中的 350 条完整模型训练实验轨迹，并通过决策质量标注和 loss masking，排除低质量决策的监督信号。使用这些数据训练 GLM-5.3 后，作者报告其在 PostTrainBench 上相对提升 31.95%，为改进自主执行 post-training 实验的 agent 提供了一条具体路径。",
+      "tags": [
+        "agents",
+        "post-training",
+        "self-improvement"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+      "url": "https://arxiv.org/abs/2611.21950",
+      "en": "DiscoveryAgent combines autonomous research rounds with scientist-directed hypothesis changes and audit agents that inspect checkpointed records to trace claims and reproduce analyses. Scientists working with audit agents identified 14 times more valid errors than scientists reviewing manually, making checkpoint design and inspectable oversight central contributions for scientific agent workflows.",
+      "zh": "DiscoveryAgent 将自主研究轮次、科学家对假设的调整，以及审查 checkpoint 记录的 audit agent 结合起来，以追踪结论并复现分析。与 audit agent 协作的科学家发现的有效错误数量，是人工审查的 14 倍，凸显了 checkpoint 设计和可检查监督机制对科研 agent 工作流的价值。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "SciWorkBench: A Benchmark for Real Scientific Workflows",
+      "url": "https://arxiv.org/abs/2611.22490",
+      "en": "SciWorkBench evaluates scientific workflows drawn from peer-reviewed literature and expert scenarios across biology, chemistry, materials science, and physics, using Claude Code and Codex under a unified execution and grading protocol. The best agent scores 57.38, with recurring failures in turning knowledge into procedures, combining multimodal evidence, and self-correction, highlighting gaps that isolated question-answer benchmarks can miss.",
+      "zh": "SciWorkBench 从同行评审文献和专家场景中构建科学工作流任务，覆盖生物、化学、材料科学和物理，并在统一执行与评分协议下评测 Claude Code 和 Codex。最强 agent 的平均分为 57.38，反复出现的问题包括难以将知识转化为操作步骤、整合多模态证据能力不足，以及自我纠错有限，揭示了孤立问答 benchmark 容易遗漏的短板。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+      "url": "https://arxiv.org/abs/2611.23219",
+      "en": "Frozen LLM agents receive a compute budget, gameplay tools, editable text documents, and a general self-improvement goal, then invent their own learning procedures without a prescribed loop. Sufficiently capable models improve and produce text artifacts that transfer across game horizons, mechanics, and 3D navigation, suggesting that agent learning workflows can emerge through context management without weight updates.",
+      "zh": "研究为冻结的 LLM agent 提供 compute budget、游戏工具、可编辑文本和总体自我提升目标，让它们在没有预设循环的情况下自行设计学习流程。能力足够强的模型能够取得进步，生成的文本产物还可以迁移到不同游戏时长、机制和 3D navigation 任务，说明 agent 可以通过 context 管理形成学习工作流，而无需更新权重。",
+      "tags": [
+        "agents",
+        "memory",
+        "self-improvement"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "stat.ML updates on arXiv.org",
+      "role": null,
+      "title": "A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises",
+      "url": "https://arxiv.org/abs/2611.24039",
+      "en": "A global bank's evaluation of ten agent platforms across three workloads found stable overall tiers but a strong halo effect in demonstration-based scoring: nominally distinct dimensions had Cronbach's alpha of 0.98. The authors propose a gate-then-score protocol covering capability, execution reliability, governance, and business value, directly challenging the use of polished demos as evidence of platform quality.",
+      "zh": "一家全球性银行在三类工作负载上评测十个 agent 平台，发现整体分层较稳定，但基于演示的评分存在明显光环效应：名义上不同的维度之间，Cronbach's alpha 达到 0.98。作者提出先过门槛、再评分的协议，覆盖能力、执行可靠性、治理和业务价值，直接质疑将精美 demo 当作平台质量证据的做法。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
+      "url": "https://arxiv.org/abs/2611.22177",
+      "en": "This study evaluates agents before 598 earnings announcements and after 409 bad-news stock drops, cutting inputs at the decision time and testing decisions with and without company identities. Across five models, no agent beats simple strategies; the reported gains come from memorized training information, making the benchmark especially relevant to contamination-sensitive agent evaluation.",
+      "zh": "研究在 598 次财报公告前和 409 次负面消息引发的股价下跌后评测 agent，将输入严格截断到决策时点，并比较提供与隐藏公司身份时的决策。五个模型中没有 agent 胜过简单策略；报告中的收益来自训练时记住的信息，因此这项 benchmark 对关注 contamination 的 agent 评测尤其有参考价值。",
+      "tags": [
+        "agents",
+        "data contamination",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "en": "Anthropic Research: Claude solves two open problems in the physics of black holes reports that Claude solved two open theoretical-physics problems concerning black holes and the search for a theory of quantum gravity.",
+      "zh": "Anthropic Research 的《Claude solves two open problems in the physics of black holes》报告称，Claude 解决了两个理论物理开放问题，涉及黑洞以及对 quantum gravity 理论的探索。",
+      "tags": [
+        "frontier research",
+        "reasoning",
+        "AI for science"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "AI #195: Opening Bell",
+      "url": "https://www.lesswrong.com/posts/De5LBagrSCKd3Q9cs/ai-195-opening-bell",
+      "en": "LessWrong: AI #195: Opening Bell highlights Anthropic's IPO and a crowded model-release cycle spanning Claude Fable 5.2, GPT-6.2 Astra and Sol, and Google's Hydrogen and Neon. The roundup says Astra matches Fable on ECI and trails by three points on Artificial Analysis, while emphasizing that early user impressions remain preliminary and framing the pace of capability gains as a reason for heightened concern.",
+      "zh": "LessWrong 的《AI #195: Opening Bell》关注 Anthropic IPO，以及密集发布的 Claude Fable 5.2、GPT-6.2 Astra 和 Sol、Google Hydrogen 和 Neon。文章称 Astra 在 ECI 上与 Fable 持平，在 Artificial Analysis 上落后三分，同时强调早期用户反馈仍属初步，并将能力进展的速度视为需要更加警惕的原因。",
+      "tags": [
+        "frontier releases",
+        "evaluation",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "\"Prosaic AI alignment\": 10 years later",
+      "url": "https://www.lesswrong.com/posts/pfZWd2dLy7wRaDKYa/prosaic-ai-alignment-10-years-later",
+      "en": "LessWrong: “Prosaic AI alignment”: 10 years later revisits Paul Christiano's argument that AGI might emerge without fundamentally new ideas about intelligence, while its development need not automatically make alignment easier. The central research implication remains timely: if broadly familiar methods could produce AGI, alignment work cannot rely on future conceptual breakthroughs to make the problem tractable.",
+      "zh": "LessWrong 的《“Prosaic AI alignment”: 10 years later》重访 Paul Christiano 的论点：AGI 可能在没有智能本质层面全新思想的情况下出现，而构建它的过程未必会自动让 alignment 更容易。其核心研究启示依然切合当下：如果相对熟悉的方法就可能产生 AGI，alignment 研究就不能指望未来的概念突破自动解决难题。",
+      "tags": [
+        "alignment",
+        "frontier research"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "大开会理论 开会哪怕自费也要去",
+      "url": "https://www.rednote.com/explore/6afda163000000002b013955?xsec_token=ABryQyojfukGPOCoKdfE5dryKmR7Jq1diRWleekBMJCwE%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that attending conferences is worth paying for yourself because it creates opportunities to meet collaborators and make your work visible. The strongest introduction they encountered was “I'm the first author of xx”: concrete work carries more weight than titles, and staying silent early in a career makes it harder to stand out.",
+      "zh": "鸭基米德提出“大开会理论”：开会哪怕自费也要去，因为能认识合作者，让别人看到自己的作品。见过最牛的自我介绍是“我是 xx 的一作”；没有作品，title 都是虚的，起步阶段不出声，别人很难从茫茫多人中选择你。",
+      "tags": [
+        "research careers",
+        "collaboration"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "我提出大日更理论 发帖和干活都要日更",
+      "url": "https://www.rednote.com/explore/6afee2840000000022039ba6?xsec_token=ABxYhhNQm5Hwr-YJjjTZKIFPwxin8fS0pV_-49UO9-r14%3D&xsec_source=pc_user",
+      "en": "鸭基米德 proposes daily updates for both public posting and actual work: posts help new people encounter you, while work updates let collaborators see progress and offer help when you are stuck. The argument is that small, consistent updates compound into visibility and opportunity.",
+      "zh": "鸭基米德提出“大日更理论”：不管发帖还是干活，都要日更；发帖让不认识你的人有机会遇到你，干活日更让合作者每天知道你在推进，卡住了也能早点有人拉你。每天一点点，坚持下去就是一条鸿沟，持续曝光也会带来更多机会。",
+      "tags": [
+        "collaboration",
+        "research careers"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-19T13:04:15.146Z"
+}
