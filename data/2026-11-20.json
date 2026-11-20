@@ -1,0 +1,273 @@
+{
+  "date": "2026-11-20",
+  "headline_en": "Agent research targets more reliable memory, post-training and evaluation, while deployment pushes AI beyond chat into computers and physical manufacturing.",
+  "headline_zh": "Agent 研究聚焦更可靠的记忆、post-training 与评测，实际部署则推动 AI 从聊天走向电脑操作与实体制造。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini",
+      "title": null,
+      "url": "https://x.com/joshwoodward/status/2123534862569324703",
+      "en": "Google Labs and Gemini VP Josh Woodward announced that the Gemini app on Mac can now perform tasks on your computer. He described computer task execution as a top feature request.",
+      "zh": "Google Labs 与 Gemini VP Josh Woodward 宣布，Mac 上的 Gemini app 现在可以在电脑上执行任务。他表示，电脑任务执行能力一直是用户呼声最高的功能之一。",
+      "tags": [
+        "agents",
+        "Gemini",
+        "computer use"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2123557171321561133",
+      "en": "OpenAI's Thibault Sottiaux outlined a new ChatGPT mobile experience, initially reaching Pro users who have a dot or are eligible to create one. The design gives the dot its own tab and lets users pin Codex, Projects, Images and other features to the tab bar; users can toggle it in Settings > New ChatGPT Design.",
+      "zh": "OpenAI 的 Thibault Sottiaux 介绍了新版 ChatGPT 移动端体验，首批面向已有 dot 或符合创建资格的 Pro 用户。新设计为 dot 提供独立标签页，并允许用户将 Codex、Projects、Images 等功能固定到标签栏；用户可在 Settings > New ChatGPT Design 中切换。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Codex"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+      "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+      "en": "The Takeaway: automating AI researchers can deliver a major productivity gain, but Arda CEO and co-founder Bob McGrew argues that sustained acceleration still depends on expanding physical compute, experimental capacity and manufacturing. The former OpenAI chief research officer and early Palantir executive rejects a purely software-driven runaway self-improvement story because “researchers are not the bottleneck”: better experiment selection and scheduling can improve GPU utilization, but those gains eventually saturate, and even stronger simulations leave scientists needing real experiments. Arda applies that thinking to manufacturing through a structured workspace that makes production processes legible to agents, with frontier models orchestrating CAD inspection, motion planning and specialized algorithms; McGrew reports that an early actuator virtual build fell from several days to ninety minutes, while the longer-term goal is to design and reconfigure automated lines within seven days of uploading a product design. His practical prescription is to use existing robotic arms where possible, distinguish predictable factory tasks from open-world robotics, reserve expensive general models for work that needs them, and embed engineers with committed users so that lessons become reusable product capabilities, since deployment succeeds when customer outcomes improve and the product steadily absorbs the work initially performed by the embedded team.",
+      "zh": "核心观点：自动化 AI 研究员可以显著提高生产率，但 Arda CEO 兼联合创始人 Bob McGrew 认为，持续加速仍取决于实体算力、实验能力和制造能力的扩张。这位前 OpenAI chief research officer、早期 Palantir 高管不认同单靠软件就能实现失控式递归自我改进，因为“研究员并不是瓶颈”：更好的实验选择与调度可以提高 GPU 利用率，但收益终会趋于饱和，即使模拟能力更强，科学家仍需要开展真实实验。Arda 将这一思路用于制造业，先通过结构化工作空间让 agent 理解生产流程，再由 frontier model 编排 CAD 检查、运动规划和专用算法；McGrew 表示，早期一次执行器虚拟装配从几天缩短到了九十分钟，长期目标则是在上传产品设计后七天内完成自动化产线设计与重配置。他的实践建议是尽可能使用现有机械臂，区分可预测的工厂任务与开放世界机器人任务，只在必要时调用昂贵的通用模型，并让工程师深入有投入意愿的用户身边，把经验转化为可复用的产品能力，因为部署的成功取决于客户成果的改善，以及产品能否逐步吸收最初由驻场团队承担的工作。",
+      "tags": [
+        "agents",
+        "compute economics",
+        "robotics",
+        "AI strategy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Forget Freely, Grep Later: Lossless, Index-Free Memory for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2611.25123",
+      "en": "GrepMem gives agents lossless memory through an append-only text history and a regular-expression search tool, without embeddings, indexes or memory extraction. With Qwen3.5-9B trained using RL, it achieves 95–97% accuracy on ContextBench versus at most 21% for lossy baselines, and beats SUPO summarization by 8.8 percentage points on BCP-Multi. It makes a strong practical case for preserving raw history and learning on-demand recall before adding elaborate memory infrastructure.",
+      "zh": "GrepMem 通过只追加的文本历史与正则表达式搜索工具，为 agent 提供无损记忆，无需 embeddings、索引或记忆提取。使用 RL 训练 Qwen3.5-9B 后，它在 ContextBench 上达到 95–97% 的准确率，而有损基线最高仅为 21%；在 BCP-Multi 上也比 SUPO 的摘要方法高出 8.8 个百分点。这为一种务实路线提供了有力证据：先保留原始历史并学习按需检索，再考虑复杂的记忆基础设施。",
+      "tags": [
+        "agents",
+        "memory",
+        "post-training",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
+      "url": "https://arxiv.org/abs/2611.24059",
+      "en": "Multi-expert replay policy distillation consolidates domain-specific RL experts by replaying their logged trajectories in learning order, recomputing policy gradients and distilling final-expert distributions at logged prefixes. It requires no new sampling, environment calls or reward-model calls, and costs about one-seventh of the experts' training compute. Across reasoning, search and SQL, the reported student surpasses multi-teacher on-policy distillation from the same experts, making RL logs a potentially valuable post-training asset.",
+      "zh": "Multi-expert replay policy distillation 按专家学习时的顺序回放已记录的轨迹，重新计算 policy gradient，并在记录的前缀处蒸馏最终专家的分布，从而整合各领域 RL 专家。它无需重新采样、调用环境或 reward model，整合成本约为专家训练算力的七分之一。在 reasoning、搜索与 SQL 三个领域，论文报告的学生模型优于使用相同专家的 multi-teacher on-policy distillation，说明 RL 日志可能是值得充分利用的 post-training 资产。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "agents",
+        "RL"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents",
+      "url": "https://arxiv.org/abs/2611.24711",
+      "en": "Openhagen Worlds introduces 27 procedurally generated experimental environments with explicit scoring rules, hidden truths and deterministic verification, designed to distinguish scientific discovery from recall and shortcuts. Its 178 difficulty levels are calibrated against scripted oracles and non-deductive policies; on 84 withheld frontier instances, DeepSeek V4.1 Flash solves 32 at default reasoning effort and 57 at maximum effort, versus 79 for the oracle. This offers a concrete testbed for studying experiment selection, test-time compute and sustained discovery across multiple stages.",
+      "zh": "Openhagen Worlds 提供 27 类程序化生成的实验环境，配备明确的评分规则、隐藏真值与确定性验证，用于区分科学发现能力、知识记忆和捷径策略。其 178 个难度等级均经过脚本 oracle 与非推理策略的校准；在 84 个未用于开发的前沿测试实例上，DeepSeek V4.1 Flash 在默认 reasoning effort 下解决 32 个，最高 effort 下解决 57 个，oracle 则解决 79 个。它为研究实验选择、test-time compute 与多阶段持续发现提供了具体的测试平台。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "test-time compute",
+        "DeepSeek"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "MANGO Arena: Same Seeds, Different Chains Evaluating LLM Agents in a Disrupted Supply Chain",
+      "url": "https://arxiv.org/abs/2611.23613",
+      "en": "MANGO Arena evaluates four-agent supply chains on economic outcomes, rule adherence and proposals to collude. Its pilot exposes a major measurement problem: API failures silently became zero-order decisions, and even failure-free reruns with identical seeds changed upstream demand amplification by up to 17 times. The result is a useful warning that agent benchmarks must account for infrastructure failures and run-to-run variability before drawing behavioral conclusions.",
+      "zh": "MANGO Arena 从经济结果、规则遵守情况与串通提议三个方面评测由四个 agent 组成的供应链。初步实验暴露了一个重要的测量问题：API 故障被悄然记为零订货决策，即使排除故障并使用相同随机种子重跑，上游需求放大程度仍可能相差多达 17 倍。这提醒 agent benchmark 的设计者，在得出行为结论前，必须处理基础设施故障与运行间波动。",
+      "tags": [
+        "evaluation",
+        "agents",
+        "multi-agent",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2611.24924",
+      "en": "AHE-Beta evolves agent harnesses through simulated-user issues, team-based modifications and requirement-driven review, rather than selecting patches solely by benchmark scores. On held-out tasks, it raises pass@1 from 21.9% to 33.3% while using 40.8% fewer tokens than the base harness; real users prefer it in 31 of 48 valid blind comparisons. The work connects harness optimization to user requirements and checks whether those improvements transfer beyond development tasks.",
+      "zh": "AHE-Beta 通过模拟用户提交问题、团队式修改与需求驱动的评审来改进 agent harness，而非仅凭 benchmark 分数选择补丁。在 held-out 任务上，它将 pass@1 从 21.9% 提升至 33.3%，同时比基础 harness 少用 40.8% 的 token；在 48 组有效盲测对比中，真实用户有 31 组更偏好它。这项工作将 harness 优化与用户需求联系起来，并检验改进能否迁移到开发任务之外。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "harness engineering"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Depth Before Breadth: Reverse-to-Forward Curriculum with Advantage Decomposition for LLM Agent",
+      "url": "https://arxiv.org/abs/2611.24697",
+      "en": "This agent-training method separates the advantage of reaching a more solvable state from the advantage of completing the task from that state, addressing sparse-reward credit assignment. A reverse-to-forward curriculum first expands capability backward along successful trajectories, then explores off-reference states. With Qwen2.5-1.5B/7B-Instruct, it reports success rates of 90.1%/96.1% on ALFWorld and 80.2%/82.6% on WebShop, offering a concrete curriculum design for long-horizon agent RL.",
+      "zh": "这项 agent 训练方法将“到达更容易完成任务的状态”与“从该状态完成任务”的 advantage 分开，以应对稀疏奖励下的信用分配问题。由逆向到正向的课程先沿成功轨迹向前序状态扩展能力，再探索参考轨迹之外的状态。使用 Qwen2.5-1.5B/7B-Instruct 时，论文报告在 ALFWorld 上的成功率为 90.1%/96.1%，在 WebShop 上为 80.2%/82.6%，为长程 agent RL 提供了具体的课程设计。",
+      "tags": [
+        "post-training",
+        "agents",
+        "RL",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Rethinking Fixed-Horizon Latent Reasoning",
+      "url": "https://arxiv.org/abs/2611.24001",
+      "en": "The paper finds that extending latent chain-of-thought to its preset horizon can reduce accuracy: later computation may reorganize candidates while weakening support for the correct answer. A lightweight estimator predicts remaining constructive progress and adjusts the latent horizon without retraining the LLM. Across arithmetic benchmarks, it improves accuracy by up to 7.2 percentage points while cutting latent computation by up to 29.0%, challenging the assumption that more reasoning steps are always better.",
+      "zh": "论文发现，将 latent chain-of-thought 一直运行到预设长度可能降低准确率：后期计算可能只是在重组候选答案，同时削弱对正确答案的支持。作者使用轻量估计器预测剩余的有效推理进展，无需重新训练 LLM 即可动态调整 latent horizon。在多个算术 benchmark 上，该方法最高提升 7.2 个百分点的准确率，同时最多减少 29.0% 的 latent 计算，挑战了推理步数越多越好的假设。",
+      "tags": [
+        "reasoning",
+        "test-time compute",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Test-Time Symmetrization: Scaling Laws for Model-Agnostic Learning under Structure",
+      "url": "https://arxiv.org/abs/2611.24032",
+      "en": "Test-time symmetrization spends inference compute on equivalent input rewritings, such as graph-node renumberings, and aggregates their answers. The paper proves that repeated decoding from one representation cannot replace rewriting, while O(log |G|) random rewritings suffice to approximate the information from all |G| transformations under its framework. Experiments across Qwen, Phi and Llama models make this relevant to allocating test-time compute beyond repeated sampling of a fixed prompt.",
+      "zh": "Test-time symmetrization 将推理算力用于输入的等价改写，例如重新编号图节点，再汇总不同改写下的答案。论文证明，在其理论框架下，对单一表示反复解码无法替代改写，而 O(log |G|) 次随机改写即可近似获得全部 |G| 种变换所提供的信息。跨 Qwen、Phi 与 Llama 模型的实验，为如何在固定 prompt 的重复采样之外分配 test-time compute 提供了研究方向。",
+      "tags": [
+        "test-time compute",
+        "reasoning",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Chain-of-Thought Hidden States Reveal Task-Solving Directions for Direct Answers",
+      "url": "https://arxiv.org/abs/2611.24598",
+      "en": "The authors identify question-specific hidden-state directions using successful and failed patches from that question's own CoT states, then rotate the direct-answer prompt's final hidden state before generation. Across 25 tasks, accuracy rises from 46% to 85% for LLaMA 3.1 8B and from 52% to 86% for Qwen 2.5 7B, using one-tenth of CoT's generation tokens. Because constructing the directions uses each question's labeled CoT states, the result is best read as evidence of accessible task-solving representations and a target for future training.",
+      "zh": "作者根据同一道题自身 CoT 状态中成功与失败的 patch，构建题目专属的 hidden-state 方向，并在生成前旋转直接回答 prompt 的最后一个 hidden state。在 25 个任务上，LLaMA 3.1 8B 的准确率从 46% 升至 85%，Qwen 2.5 7B 从 52% 升至 86%，生成 token 仅为 CoT 的十分之一。由于方向构建依赖每道题带标签的 CoT 状态，这一结果更适合作为模型内部存在可利用的解题表示的证据，并为后续训练提供目标。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "Qwen",
+        "chain-of-thought"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
+      "url": "https://arxiv.org/abs/2611.23388",
+      "en": "QDA uses an agent to iteratively build and evaluate model-specific quantization recipes, screening candidates in minutes through output KL divergence on reasoning traces hidden from the agent. Across four reasoning models, it improves accuracy over the strongest public recipe by an average of 0.9–2.2 percentage points depending on precision, using 64 GPU-hours per search. Its combination of held-out proxy evaluation, long-generation checks and compatible quantization components is relevant to both automated optimization and serving economics.",
+      "zh": "QDA 让 agent 迭代构建并评测针对特定模型的量化方案，通过 agent 无法看到的 reasoning traces 上的输出 KL divergence，在几分钟内筛选候选。在四个 reasoning model 上，不同精度下相对最强公开方案的平均准确率提升为 0.9–2.2 个百分点，每次搜索使用 64 GPU-hours。它结合 held-out 代理评测、长文本生成检查与可组合的量化组件，对自动化优化和推理服务成本都有参考价值。",
+      "tags": [
+        "agents",
+        "quantization",
+        "evaluation",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "FinVeriQA: Financial Research Agents for Question Answering: Routing, Retrieval, MCP Tool Use, and Provenance-Aware Evidence Verification",
+      "url": "https://arxiv.org/abs/2611.25071",
+      "en": "FinVeriQA separates financial research into typed routing, Python computation, retrieval, cited answer generation and code-based validation, exposed through MCP. Python answers all 100 tested calculations correctly versus 29% for Mistral-7B, yet a live case still passes validation while attributing AMD sample data to NVIDIA and Alphabet. The important systems lesson is that checking arithmetic and citation IDs does not establish that evidence belongs to the right entity.",
+      "zh": "FinVeriQA 将金融研究拆分为类型化路由、Python 计算、检索、带引用的答案生成与代码验证，并通过 MCP 提供访问。在 100 道计算题中，Python 全部正确，Mistral-7B 仅正确 29%；但一个真实运行案例仍通过了验证，却将 AMD 样例数据归到了 NVIDIA 和 Alphabet 名下。其关键系统启示是，核对算术与引用 ID，并不能证明证据属于正确的实体。",
+      "tags": [
+        "agents",
+        "tool use",
+        "evaluation",
+        "MCP"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+      "url": "https://arxiv.org/abs/2611.24362",
+      "en": "PIPETTE finds that high prompt-injection attack success rates do not necessarily produce stronger defenders after adversarial training. It attributes this gap in two RL-based red-teamers to mode collapse, then introduces a dictionary-learning reward for broader attack coverage together with on-policy adversarial training. The work makes attack diversity, rather than attack success alone, a central consideration in post-training agent defenses.",
+      "zh": "PIPETTE 发现，prompt injection 的高攻击成功率并不一定能在 adversarial training 后带来更强的防御模型。作者将两种 RL red-teaming 方法中的这一差距归因于 mode collapse，并提出使用 dictionary learning reward 扩大攻击覆盖面，配合 on-policy adversarial training。这项工作将攻击多样性，而非单纯的攻击成功率，列为 agent 防御 post-training 的核心考量。",
+      "tags": [
+        "post-training",
+        "agents",
+        "prompt injection",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "en": "Hugging Face - Blog: “180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers” presents a post on running a 180B-parameter MoE model with 32GB of RAM using Transformers.",
+      "zh": "Hugging Face - Blog：《180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers》介绍使用 Transformers、在 32GB RAM 条件下运行 180B 参数 MoE 模型的话题。",
+      "tags": [
+        "MoE",
+        "inference",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "The Path to AI Autonomy in the SOC",
+      "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+      "en": "The Hacker News: “The Path to AI Autonomy in the SOC” reports growing willingness to delegate low-risk security actions to agents. In an a16z survey of CISOs at organizations with more than 1,000 employees, 36% are comfortable with that autonomy today and 60% expect to be comfortable in 12 months; AI SOC ranks as the top initiative for 2027.",
+      "zh": "The Hacker News：《The Path to AI Autonomy in the SOC》指出，安全负责人越来越愿意将低风险安全操作交给 agent 自主执行。a16z 对员工超过 1,000 人的组织中的 CISO 开展的调查显示，36% 目前接受这种自主权限，60% 预计在 12 个月后能够接受；AI SOC 是排名最高的 2027 年重点项目。",
+      "tags": [
+        "agents",
+        "AI autonomy",
+        "enterprise"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-20T13:02:31.897Z"
+}
