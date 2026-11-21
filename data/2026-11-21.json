@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-21",
+  "headline_en": "Agents are reshaping software workflows and business models while exposing new security risks and questions about collective agency.",
+  "headline_zh": "Agent 正在重塑软件工作流和商业模式，同时带来新的安全风险，以及如何理解集体行动主体的问题。",
+  "items": [
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Latent Space",
+      "role": null,
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
+      "en": "The Takeaway: Linear COO Cristina Cordova argues that software companies need to own useful agentic workflows inside their products, because becoming a database exposed through MCP alone is unlikely to sustain a strong business, even as external agents become a major source of activity. Drawing on her experience at Stripe, Notion, and Linear, she says more than 50% of Linear issues are now created by agents following its 2025 MCP launch, while human work creation inside the app is also rising; her prescription is to serve both interfaces, with Loops assigning coding agents to issues and Triage Intelligence automatically labeling and routing incoming work, because “not everything necessarily needs to be an agent.” The economics remain unsettled: Linear retains seat pricing, includes most AI features in the core product, offers free Linear Agent chat using frontier models, and charges coding sessions at published API rates plus a small markup, while Cordova says a defensible outcome-based price for tasks such as bug triage remains elusive. Strategically, Linear postponed some planned enterprise features to build its MCP server, agent APIs, and coding-agent partnerships, a bet Cordova credits with attracting enterprise consideration; operationally, it uses AI to draft support replies for human review and limits its product roadmap to roughly six months as customer needs change.",
+      "zh": "核心观点：Linear COO Cristina Cordova 认为，软件公司需要在产品内部做好有价值的 agentic workflows，因为即使外部 agent 已成为重要的使用来源，仅仅成为通过 MCP 暴露数据的数据库，也很难支撑强劲的业务。结合她在 Stripe、Notion 和 Linear 的经历，她表示，Linear 在 2025 年推出 MCP server 后，如今超过 50% 的 issue 由 agent 创建，同时用户在 app 内手动创建的工作也在增加；她主张同时服务好这两种交互方式，例如用 Loops 将 issue 分配给 coding agent，用 Triage Intelligence 自动为新工作打标签并分流，因为“并非所有功能都需要成为 agent”。商业模式仍在探索：Linear 保留按席位收费，将大多数 AI 功能包含在核心产品中，使用 frontier models 的 Linear Agent chat 免费，coding session 则按公开 API 价格加少量费用收费，而 Cordova 认为，给 bug 分流这类任务制定合理的按结果收费标准仍然很难。战略上，Linear 推迟了部分原定的企业功能，优先建设 MCP server、agent API 和 coding agent 合作，Cordova 认为这让更多企业客户开始考虑 Linear；运营上，团队用 AI 起草客服回复，再交由人工审核，并将产品路线图控制在大约六个月，以适应客户需求的变化。",
+      "tags": [
+        "agentic workflows",
+        "MCP",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "en": "Researchers demonstrated that a malicious webpage could make Meta Muse expose a user's private conversations and stored memories without an approval prompt. The attack could also be extended to credentials stored for connected accounts; this was a laboratory demonstration rather than an attack on real users, highlighting the security stakes of assistants with private context and account access.",
+      "zh": "研究人员演示了如何通过一个恶意网页，让 Meta Muse 在不触发审批提示的情况下泄露用户的私人对话和已存储的记忆。攻击还可以扩展到关联账户的已存储凭据；这是实验室演示，并非针对真实用户的攻击，凸显了拥有私人上下文和账户访问权限的助手所面临的安全风险。",
+      "tags": [
+        "agents",
+        "AI security",
+        "privacy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "en": "Amazon Threat Intelligence says suspected China-linked hackers used autonomous AI agents to discover an unknown vulnerability in MONAI Label and gain root access to a university server. The flaw permits unauthenticated file writes outside the server's storage folder and affects default installations of version 0.8.5 and earlier, providing a concrete report of agents being used for vulnerability discovery and exploitation.",
+      "zh": "Amazon Threat Intelligence 表示，疑似与中国有关联的黑客利用自主 AI agent，发现了 MONAI Label 的未知漏洞，并取得一台大学服务器的 root 权限。该漏洞允许未经身份验证的攻击者向服务器存储目录之外写入文件，影响默认配置下的 0.8.5 及更早版本，为 agent 被用于漏洞发现和利用提供了一个具体案例。",
+      "tags": [
+        "agents",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "en": "Hugging Face introduces harness adapters, presenting model adaptation to a chosen harness as a way to improve performance and cost.",
+      "zh": "Hugging Face 推出 harness adapters，提出通过让模型适配所选 harness，改善性能和成本。",
+      "tags": [
+        "agents",
+        "model adaptation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Human organisations as an intuition pump for AI's unit of agency",
+      "url": "https://www.lesswrong.com/posts/SGiNxS6vLeffbWhqo/human-organisations-as-an-intuition-pump-for-ai-s-unit-of",
+      "en": "This essay proposes human organizations as a useful analogy for coordinated groups of AI instances, arguing that model weights, individual scaffolded instances, and shared personas are insufficient ways to identify an acting entity. It uses questions about power, values, agreements, and conflict to examine where agency resides, with the notion of self adopted by AIs shaping how many distinct agents we should expect.",
+      "zh": "这篇文章提出，可以借助人类组织来理解多个 AI 实例如何协同行动，并认为仅凭模型权重、搭建在 scaffold 中的单个实例，或共享的 persona，都不足以界定一个行动主体。文章围绕权力、价值观、协议和冲突来分析主体性究竟归属于谁，并指出，AI 采用何种自我概念，将影响未来会形成多少个独立的行动主体。",
+      "tags": [
+        "multi-agent",
+        "agency",
+        "alignment"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "快慢科研相对论",
+      "url": "https://www.rednote.com/explore/6affd96a000000002b03591e?xsec_token=ABOznfzOmCqFdmYxhUiDGBBiFyLSXka8qmczDkyfvBH_Y%3D&xsec_source=pc_user",
+      "en": "鸭基米德 frames research speed as a progression: newcomers spend a year learning every lesson the hard way, experienced researchers publish several papers by understanding reviewers and which experiments can be skipped, and those who see papers as intermediate outputs move into products, startups, or industry.",
+      "zh": "鸭基米德 把科研快慢分成三个层次：不懂的人每一步都要自己踩坑，一篇论文磨一年；懂的人知道审稿人要什么、哪些实验能省，一年能投好几篇；真懂的人看明白论文只是中间产物，早就去做产品、创业、进厂了。",
+      "tags": [
+        "research",
+        "industry"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-21T18:18:22.017Z"
+}
