@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-22",
+  "headline_en": "AI’s next gains depend on skilled human collaboration, predictive models, and trustworthy access to sensitive data.",
+  "headline_zh": "AI 的下一步进展取决于人机协作能力、预测模型，以及对敏感数据的可信访问。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "Formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2124239684536840682",
+      "en": "Thariq, formerly of Anthropic’s Claude Code team, argues that collaborating with increasingly powerful models is itself a deeply technical skill, with no diminishing returns yet apparent. Even as Claude handles more implementation work, he warns that removing ourselves from the process too quickly shortchanges both people and models.",
+      "zh": "曾在 Anthropic 的 Claude Code 团队工作的 Thariq 认为，与日益强大的模型协作，本身就是一项技术含量很高的技能，目前还看不到这项技能的收益递减。即使 Claude 承担了更多技术实现工作，他仍提醒，过早让人退出协作过程，会同时限制人和模型的发挥。",
+      "tags": [
+        "agentic workflows",
+        "human-AI collaboration"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "No Priors",
+      "role": null,
+      "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+      "url": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+      "en": "The Takeaway: Isomorphic Labs president and founding-team member Max Jaderberg argues that AI’s biggest contribution to drug discovery is moving more learning into predictive models, so physical experiments increasingly validate designs rather than supply every iteration. A former DeepMind researcher whose work spanned generative models and deep reinforcement learning, Jaderberg frames the goal as “how can we get out of the real world?”: automated labs help, but chemistry and cell growth impose physical waiting times, while models reaching experimental accuracy could eliminate some costly experimental cycles and reveal toxicity or biological problems before drugs reach patients. His strategy centers on generating proprietary data for generalization rather than relying only on repositories accumulated as byproducts of past drug programs, and on retaining the resulting models internally to develop medicines through both an owned pipeline and pharmaceutical partnerships, allowing lessons from successive projects to compound in a shared platform. For AI researchers, the concrete opportunity is work on simulation and reasoning models, including adapting frontier and open-source models to drug discovery; Jaderberg says biology experience is not required for core AI hires, describes some modeling teams as roughly five AI specialists per domain expert, and emphasizes domain expertise that keeps metrics tied to real medicines, while declining to give a date for the company’s first clinical trial.",
+      "zh": "核心观点：Isomorphic Labs 总裁、创始团队成员 Max Jaderberg 认为，AI 对药物发现最大的贡献，是把更多学习过程转移到预测模型中，让实体实验越来越多地用于验证设计，而不必承担每一轮迭代。Jaderberg 曾在 DeepMind 研究生成模型和 deep reinforcement learning，他把目标概括为“我们怎样才能摆脱对现实世界的依赖？”：自动化实验室有帮助，但化学反应和细胞生长都有无法绕过的等待时间；达到实验精度的模型，则可能省去部分昂贵的实验循环，并在药物进入人体前发现毒性或生物学问题。他的策略是主动生成有助于泛化的专有数据，而不只依赖过去药物项目顺带积累的数据，并将模型保留在内部，通过自有管线和药企合作开发药物，让不同项目的经验持续沉淀到同一个平台。对 AI 研究者而言，具体机会包括模拟模型和 reasoning 模型，以及将 frontier 和 open-source 模型适配到药物发现；Jaderberg 表示，核心 AI 岗位不要求生物学背景，部分建模团队大约每五名 AI 专家配一名领域专家，后者负责确保指标真正对应药物研发价值，但他没有给出公司首次临床试验的日期。",
+      "tags": [
+        "AI for science",
+        "reasoning",
+        "evaluation",
+        "frontier lab careers"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "en": "OpenRouter dropped three inference providers after researchers uncovered months of data theft inside their systems, according to reporting citing Dragos. Some stolen requests were marked Zero Data Retention, highlighting that a retention setting alone does not establish protection against an active compromise of an inference provider.",
+      "zh": "据援引 Dragos 的报道，研究人员发现三家 inference 服务商的系统内发生了持续数月的数据窃取，OpenRouter 随后移除了这些服务商。部分被窃取的请求标记为 Zero Data Retention，这说明仅有数据保留设置，并不能确保请求在服务商遭入侵时受到保护。",
+      "tags": [
+        "inference",
+        "data privacy",
+        "AI security"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "en": "Signal announced default screenshot restrictions intended to stop AI agents from reading private chats on iOS 27 and supported Android environments where it can detect an assistant attempting access. Signal acknowledges that the protection is incomplete, underscoring the privacy boundary that screen-reading agents create for messaging apps.",
+      "zh": "Signal 宣布默认限制截图，以阻止 AI agent 读取私人聊天，适用范围包括 iOS 27，以及能够检测到 AI assistant 尝试访问的受支持 Android 环境。Signal 承认这项保护并不完整，凸显了能够读取屏幕的 agent 给聊天应用带来的隐私边界问题。",
+      "tags": [
+        "agents",
+        "data privacy",
+        "AI security"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-22T13:01:12.478Z"
+}
