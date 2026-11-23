@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-23",
+  "headline_en": "Agent training advances meet tougher scrutiny of benchmark validity, reasoning reliability, and the limits of automated judgment.",
+  "headline_zh": "Agent 训练持续进步，benchmark 的有效性、推理可靠性与自动化判断的局限也受到更严格的审视。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/sama/status/2124551883130114403",
+      "en": "OpenAI's Sam Altman proposes shared frontier-model evaluation, red-teaming, and transparency standards, alongside development limits measured using perplexity and other metrics. Crossing those limits would require concrete improvements in understanding and monitoring model behavior, such as a successor to chain-of-thought monitors.",
+      "zh": "OpenAI 的 Sam Altman 提议，前沿模型开发者应建立共同的 evaluation、red-teaming 和透明度标准，并以 perplexity 等指标设定模型开发上限。要突破这些上限，必须先在理解和监测模型行为方面取得具体进展，例如开发出替代 chain-of-thought monitors 的新方法。",
+      "tags": [
+        "evaluation",
+        "AI policy",
+        "alignment"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "AI & I by Every",
+      "role": null,
+      "title": "A New Vision for Human Work After Automation",
+      "url": "https://www.youtube.com/watch?v=WstNofgQF5Q",
+      "en": "The Takeaway: As model capabilities become widely available, the scarce contribution to work shifts toward choosing worthwhile problems, ranking possible answers, and taking responsibility for what happens next. Every co-founder and CEO Dan Shipper grounds that argument in a week spent using AI to analyze customer surveys, build a team quiz game, create a custom CRM, and contact customers, while colleagues using the same survey and model independently identified subscriber churn from excessive email, readers' loneliness, and other opportunities shaped by their particular responsibilities. His sharpest illustration comes from an internal experiment: Claude could include his eventual Slack response among 400 generated candidates 93% of the time, but placed it in the top 10% only about 60% of the time, capturing the distinction in his line, \"Generation is really cheap, but ranking is hard.\" Shipper argues that evaluating future models against humans frozen at today's capabilities misses how people adopt those same improvements; his proposed alternative is to measure how well AI supports a particular person's work and perspective, with teams remaining valuable because different responsibilities and judgments help them explore and select from a much larger space of possibilities than a default prompt would surface.",
+      "zh": "核心观点：随着模型能力普及，工作中稀缺的贡献将转向选择值得解决的问题、为候选答案排序，并对后续结果负责。Every 联合创始人兼 CEO Dan Shipper 以自己一周的实践为例：他用 AI 分析客户问卷、制作团队问答游戏、搭建定制 CRM 并联系客户，而同事们使用同一份问卷和同一个模型，却根据各自的职责，分别发现了邮件过多导致订阅流失、读者感到孤独等不同机会。他举出的内部实验尤其具体：让 Claude 生成 400 个候选回答时，有 93% 的概率包含他最终会在 Slack 上说的话，但只有约 60% 的概率将其排进前 10%，正如他所说：“生成真的很便宜，但排序很难。”Shipper 认为，用未来模型与能力停留在今天的人类比较，忽略了人也会使用升级后的模型；他主张衡量 AI 能否服务于具体个人的工作和视角，而团队的价值在于，不同职责和判断能帮助大家探索并筛选出比默认 prompt 更丰富的可能性。",
+      "tags": [
+        "agentic workflows",
+        "evaluation",
+        "future of work"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Benchmarks' Last Exam",
+      "url": "https://arxiv.org/abs/2611.27622",
+      "en": "An audit of 749 tasks across eight frontier benchmarks finds a large validity gap between revised closed-form benchmarks (92.5%) and six multi-step suites (29.3%). Among confirmed defects, 71.7% deny credit to compliant solutions rather than enable shortcut passes, making task and grader audits essential before interpreting agent leaderboards as capability ceilings.",
+      "zh": "这项研究审查了八个前沿 benchmark 的 749 道任务，发现修订后的封闭答案 benchmark 有效率为 92.5%，而六个多步骤评测套件仅为 29.3%。在已确认的缺陷中，71.7% 会让符合要求的解答失分，而非让走捷径的解答过关，因此，在把 agent 排行榜当作能力上限之前，必须先审查任务与评分器。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Learning When to Ask: Advisor-Aware Post-Training for SLM Agents",
+      "url": "https://arxiv.org/abs/2611.27443",
+      "en": "ADAPT teaches small-model agents when to consult a stronger advisor and how to execute its advice, using their own rollouts and environment outcomes without human annotation or a learned reward model. Success rises from 24.5% to 77.3% on TextWorld, 21.8% to 56.0% on LiveCodeBench, and 17.5% to 49.3% on GAIA with roughly 1.0–2.1 advisor calls per task, showing that economical model delegation requires post-training as well as harness design.",
+      "zh": "ADAPT 利用小模型 agent 自己的 rollout 和环境结果，训练其判断何时向更强的 advisor 求助，以及如何执行建议，无需人工标注或学习得到的 reward model。TextWorld 成功率从 24.5% 升至 77.3%，LiveCodeBench 从 21.8% 升至 56.0%，GAIA 从 17.5% 升至 49.3%，每个任务仅需约 1.0–2.1 次 advisor 调用，说明低成本的模型委派既需要 harness 设计，也需要 post-training。",
+      "tags": [
+        "agents",
+        "post-training",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "LLMs Memorize Their Own Hallucinations During Post-Training",
+      "url": "https://arxiv.org/abs/2611.26863",
+      "en": "Across six open models, this study finds that reasoning-oriented post-training can reinforce false facts generated inside the model's own reasoning, including claims it immediately retracts. Recall of reinforced hallucinations rises by 4.83% on average versus 0.17% for those receiving no training signal, warning against transferring outcome-reward and backtracking recipes from math and code directly to knowledge tasks.",
+      "zh": "这项研究在六个开放模型上发现，面向推理的 post-training 可能强化模型在自身推理过程中生成的错误事实，甚至包括它立即撤回的说法。受到训练信号强化的幻觉，其召回率平均增加 4.83%，而未获得训练信号的幻觉仅增加 0.17%，提醒研究者不要把数学和代码任务中的结果奖励与回溯训练方案直接迁移到知识任务。",
+      "tags": [
+        "post-training",
+        "hallucination",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Composable Soft-Prompt Distillation of RL Experts: Toward Continual Post-Training",
+      "url": "https://arxiv.org/abs/2611.27376",
+      "en": "CSPD freezes the pre-RL backbone, distills each RL expert into an independently trained soft prompt, and combines experts by concatenating prompts without joint training. It recovers at least 90% of teacher gains in 22 of 23 settings and matches multi-teacher on-policy distillation in the multi-expert comparison, while keeping throughput within 1.5% of the original backbone. This offers a practical route to adding post-training capabilities without repeatedly reconsolidating model weights.",
+      "zh": "CSPD 冻结 RL 前的骨干模型，将每个 RL expert 分别蒸馏成独立训练的 soft prompt，再通过拼接 prompt 组合能力，无需联合训练。它在 23 个设置中的 22 个恢复了至少 90% 的 teacher 增益，在多 expert 对比中达到与多 teacher on-policy distillation 相当的表现，同时吞吐量与原骨干模型的差距不超过 1.5%。这为持续增加 post-training 能力提供了一条无需反复整合模型权重的实用路径。",
+      "tags": [
+        "post-training",
+        "distillation",
+        "soft prompts"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
+      "url": "https://arxiv.org/abs/2611.27116",
+      "en": "CoEvoBench gives LLM researchers 24 hours to jointly revise an agent's model and harness across five domains, then evaluates the submitted pair on separate test tasks. The strongest researcher closes more than four fifths of the gap to an instruction-tuned reference, but gains concentrate in interaction tasks rather than long-horizon coding. The benchmark distinguishes making an initial improvement from sustaining recursive research progress as model and harness changes interact.",
+      "zh": "CoEvoBench 让担任研究者的 LLM 在 24 小时内，针对五个领域同时改进 agent 的模型与 harness，再用独立测试任务评估提交的组合。最强的研究者缩小了与 instruction-tuned 参考系统之间超过五分之四的差距，但改进主要出现在交互任务，而非长程代码任务。这个 benchmark 将首次改进与持续递归研究区分开来，检验模型和 harness 相互影响时，系统能否继续取得进展。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Do Senior Agents Do Their Job? Measuring Role Integrity in How LLM Agents Use Subordinate Material",
+      "url": "https://arxiv.org/abs/2611.27139",
+      "en": "RI-Bench tests whether senior agents actually weigh, verify, or relay subordinate reports by measuring responses to controlled changes in that material rather than scoring final-answer correctness alone. Across eight LLMs and more than 12,000 episodes, agents rarely adopt planted procedural errors but can follow a majority of generic reviews at rates up to 71%. It provides a behavioral evaluation of delegation that fluent, well-cited answers cannot establish.",
+      "zh": "RI-Bench 通过受控修改下级报告，观察上级 agent 的响应，检验其是否真正履行权衡、核查或转述职责，而非只评价最终答案是否正确。在八个 LLM、超过 12,000 次 agent 运行中，模型很少接受植入的程序性错误，却可能以高达 71% 的比例跟随多数泛泛而谈的评审意见。它为委派流程提供了行为层面的评估，补足了流畅且引用充分的答案无法证明的部分。",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Decision Models Are General-Purpose Process Reward Models",
+      "url": "https://arxiv.org/abs/2611.27068",
+      "en": "DM-PRM turns a probabilistic yes/no decision model into a zero-shot process reward model, asking one question per step and incorporating standardized scores into policy-gradient advantages. With Qwen2.5-1.5B, it improves GRPO by over 20 points on ALFWorld and over 10 on WebShop without step labels, critic training, or fine-tuning of the decision model. Its ability to identify useful steps in failed rollouts addresses a central limitation of outcome-only agent training.",
+      "zh": "DM-PRM 将输出 yes/no 概率的 decision model 转化为 zero-shot process reward model，每一步提出一个问题，并把标准化得分加入 policy-gradient 的 advantage。使用 Qwen2.5-1.5B 时，它让 GRPO 在 ALFWorld 上提升超过 20 个百分点，在 WebShop 上提升超过 10 个百分点，无需步骤标注、critic 训练或对 decision model 进行 fine-tuning。它能从失败的 rollout 中识别有用步骤，针对性地解决仅依赖结果奖励的 agent 训练局限。",
+      "tags": [
+        "reward model",
+        "post-training",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Reasoning in Two Dimensions: Quantifying Chain-of-Thought Faithfulness and Efficiency",
+      "url": "https://arxiv.org/abs/2611.27100",
+      "en": "This paper represents chain-of-thought as a semantic reasoning graph to measure whether predictions depend on the stated supporting steps and whether computation follows answer-reaching paths. Faithfulness and efficiency have weak or inconsistent relationships with answer correctness, and graph-aware fine-tuning improves the targeted properties without sacrificing accuracy. The result argues for evaluating reasoning beyond accuracy and trace length.",
+      "zh": "这篇论文将 chain-of-thought 表示为语义推理图，衡量预测是否依赖其声称的支持步骤，以及计算是否沿着通向答案的路径展开。Faithfulness、效率与答案正确性的关联较弱或不稳定，而 graph-aware fine-tuning 能在不损失准确率的情况下改善目标属性。研究表明，推理评估需要超越准确率和推理长度。",
+      "tags": [
+        "reasoning",
+        "evaluation",
+        "chain-of-thought"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "The Vulnerability Window: Decision Instability in Quantized Reward Models",
+      "url": "https://arxiv.org/abs/2611.27155",
+      "en": "Four-bit quantization changes 1.1–12.3% of pairwise preference decisions on RewardBench even when aggregate accuracy barely moves, because corrected and newly introduced errors cancel. Across six model–quantizer pairs, it changes best-of-64 selections on 14.6–65.7% of problems, substantially more often than final answers change. Practitioners using quantized reward models or judges should assess decision stability alongside benchmark accuracy.",
+      "zh": "4-bit quantization 会改变 RewardBench 上 1.1–12.3% 的成对偏好判断，即使总体准确率几乎不变，因为修正的错误与新增错误会相互抵消。在六组模型与量化器组合中，14.6–65.7% 的问题发生了 best-of-64 候选选择变化，远比最终答案变化更频繁。使用量化 reward model 或 judge 时，应在 benchmark 准确率之外，同时评估决策稳定性。",
+      "tags": [
+        "reward model",
+        "evaluation",
+        "quantization"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Don't Discard Your Rollouts: Reusing Teacher RL Traces for Student Distillation",
+      "url": "https://arxiv.org/abs/2611.26803",
+      "en": "This work reuses saved teacher RL rollouts for distillation instead of paying to generate a fresh dataset from the final teacher. It uses easy prompts for an SFT warm start, mixed-success prompts for DPO, and saved teacher log-likelihoods to select student-compatible completions, matching canonical distillation's average performance across math and coding tasks without additional dataset-generation inference.",
+      "zh": "这项工作复用 teacher 在 RL 训练中保存的 rollout 进行 distillation，避免再调用最终 teacher 重新生成数据集。方法先用简单 prompt 做 SFT warm start，再用部分成功的 prompt 做 DPO，并根据保存的 teacher log-likelihood 选择适合 student 的回答，在数学和代码任务上达到与常规 distillation 相当的平均表现，且无需额外的数据生成推理成本。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "DPO"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2611.27125",
+      "en": "This analysis traces on-policy distillation failures to teacher–student mismatched states where sampled-token updates may not correct the mismatch and can interfere with learning elsewhere. A termination-token case study shows how continued training can push students toward states where the teacher is unreliable, explaining why high local agreement can coexist with repetition and degraded performance. The findings help explain the value of SFT initialization when designing stable distillation recipes.",
+      "zh": "这项分析将 on-policy distillation 的失败追溯到 teacher 与 student 不匹配的状态：基于采样 token 的更新可能无法纠正差异，还会干扰其他 token 的学习。以终止 token 为例，持续训练可能将 student 推向 teacher 不可靠的状态，解释了为何局部高度一致仍会伴随重复生成和性能下降。这些发现有助于理解 SFT 初始化在稳定 distillation 方案中的价值。",
+      "tags": [
+        "distillation",
+        "post-training",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
+      "url": "https://arxiv.org/abs/2611.26756",
+      "en": "Across 361 GSM8K corruption configurations, GRPO restores accuracy to roughly the gold-SFT baseline even when supervised reasoning traces are severely corrupted. Initializing with just eight incorrect, three-line form-only traces reaches 69.30%, versus 60.71% with gold SFT and 35.00% without SFT. Within this setting, the results suggest that SFT's formatting role can matter more for subsequent RL than its standalone reasoning accuracy.",
+      "zh": "在 GSM8K 的 361 种数据破坏配置中，即使监督推理轨迹遭到严重破坏，GRPO 仍能将准确率恢复到接近使用 gold SFT 的基线水平。仅用八条错误的、三行长的 form-only 轨迹初始化，最终准确率达到 69.30%，高于 gold SFT 的 60.71% 和无 SFT 的 35.00%。在这一实验范围内，结果表明，对后续 RL 而言，SFT 建立输出格式的作用可能比其自身的推理准确率更重要。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "RL"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "AI时代给孩子试错空间比背书重要",
+      "url": "https://www.rednote.com/explore/6b02f858000000002c00d708?xsec_token=ABULE-4BVLilmgbiqALboxStzUo_oqpxQ8B6-EYXkcuZg%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that educating teenagers in the AI era should prioritize room to experiment and discover lasting interests, social interaction, and physical fitness over memorization. The post also emphasizes that LLMs give children in smaller towns access to learning resources that previously required finding and paying for specialist teachers.",
+      "zh": "鸭基米德认为，AI 时代教育十几岁的孩子，给试错空间、找到真正热爱的东西、多社交和练身体，比背书更重要。对于小地方的孩子，大模型也让过去需要自费寻找专业老师才能获得的学习资源变得触手可及。",
+      "tags": [
+        "AI education"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Pay people to create high quality alignment training data",
+      "url": "https://www.lesswrong.com/posts/QAqbEFnHHDnpfnrWt/pay-people-to-create-high-quality-alignment-training-data",
+      "en": "LessWrong: Pay people to create high quality alignment training data argues that labs should fund diverse scholars and thinkers to produce detailed ethical reasoning rather than rely on homogeneous synthetic documents and elaborate post-training filters. The proposal combines written scenarios, interactive chats, and long conversations formatted as agent logs, with enough material reserved for held-out evaluation. Its practical emphasis is on fairly compensated human expertise and genuine diversity of reasoning, with potential uses spanning SFT, alignment evaluations, historical records, teaching, and agent products. The central prescription is direct: \"Pay them fairly, so the work represents their best effort.\"",
+      "zh": "LessWrong：Pay people to create high quality alignment training data 主张，实验室应资助来自不同传统的学者和思想者，产出细致的伦理推理，而不是依赖同质化的合成文档和复杂的 post-training 过滤器。方案结合书面场景分析、互动聊天，以及整理为 agent 日志的长对话，并预留足够数据用于 held-out evaluation。重点是公平支付人类专家报酬、保留真实的推理多样性，数据可用于 SFT、alignment evaluation、历史记录、教学和 agent 产品。核心建议很直接：“公平地支付报酬，让这些工作体现他们的最佳努力。”",
+      "tags": [
+        "alignment",
+        "post-training",
+        "training data"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "科学空间|Scientific Spaces",
+      "role": null,
+      "title": "Muon背后的优化理论：1. 全量、随机与动量",
+      "url": "https://spaces.ac.cn/archives/12014",
+      "en": "科学空间|Scientific Spaces: Muon背后的优化理论：1. 全量、随机与动量 opens a series on the optimization theory behind Muon, beginning with full-batch, stochastic, and momentum methods. It situates the discussion among convergence analyses built on different assumptions, beyond familiar convexity and regret-bound treatments.",
+      "zh": "科学空间|Scientific Spaces：《Muon背后的优化理论：1. 全量、随机与动量》开启 Muon 优化理论系列，从全量、随机与动量方法入手。文章将讨论放在不同假设下的收敛分析中，视角不局限于常见的凸假设与遗憾界。",
+      "tags": [
+        "Chinese ML/NLP community",
+        "optimization",
+        "Muon"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-23T13:02:35.338Z"
+}
