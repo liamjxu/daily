@@ -1,0 +1,319 @@
+{
+  "date": "2026-11-24",
+  "headline_en": "Agent workflows expand from coding to shipping as new research scrutinizes tool learning, persistent memory, and the reliability of AI evaluations.",
+  "headline_zh": "Agent 工作流从写代码延伸到交付，新研究则聚焦工具学习、持久记忆和 AI 评测的可靠性。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude, Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2124961485801836573",
+      "en": "Anthropic's Boris Cherny announced Claude Ship in beta for Team and Enterprise, extending coding automation into the PR lifecycle. Code Review finds bugs, PR Steward handles fixes and failing checks, and Claude Approvals approves changes permitted by team policy; the latter two are in beta. He recommends starting with one repository and running Approvals in observe mode until the team trusts it.",
+      "zh": "Anthropic 的 Boris Cherny 宣布 Claude Ship 面向 Team 和 Enterprise 开启 beta，将代码自动化延伸到 PR 的交付流程。Code Review 查找 bug，PR Steward 处理修复和失败的检查，Claude Approvals 则按照团队政策批准变更，后两项仍处于 beta。他建议先从一个仓库开始，让 Approvals 以 observe mode 运行，逐步建立信任。",
+      "tags": [
+        "agents",
+        "Claude Ship",
+        "coding"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2124970294523945328",
+      "en": "Anthropic's official Claude account announced plugins that bring connectors and skills into a single way to connect tools, teach capabilities, or do both. More than 10,000 plugins are available to browse, with support live on Free, Pro, Max, and Ultra and Team and Enterprise coming soon.",
+      "zh": "Anthropic 的 Claude 官方账号宣布推出 plugins，将 connectors 和 skills 统一起来，用同一种方式连接工具、教授新能力，或同时完成两者。目前已有超过 10,000 个 plugins 可供浏览，Free、Pro、Max 和 Ultra 已支持，Team 和 Enterprise 即将跟进。",
+      "tags": [
+        "agents",
+        "plugins",
+        "tool use"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2124923055072043052",
+      "en": "OpenAI's Codex and ChatGPT builder Thibault Sottiaux says dots are rapidly becoming the primary way work gets done inside OpenAI, including building the dots system itself. In a separate post, he anticipates a significant ChatGPT answer-quality improvement alongside efforts to simplify the app, increase speed, and merge chat and work by year-end.",
+      "zh": "OpenAI 的 Codex 和 ChatGPT 开发者 Thibault Sottiaux 表示，dots 正迅速成为 OpenAI 内部完成工作的主要方式，甚至也在参与构建 dots 系统本身。他在另一条帖子中表示，随着更新逐步推出，ChatGPT 的回答质量将明显提升，同时团队正推进应用简化、提速，以及在年底前融合 chat 和 work。",
+      "tags": [
+        "agents",
+        "OpenAI",
+        "ChatGPT"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Claude",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/claudeai/status/2124929944530587712",
+      "en": "Anthropic's official Claude account announced a public beta of zero data retention with Enterprise Frontier Safeguards for eligible businesses, developed with more than 100 customers. EFS looks for misuse across multiple requests while remaining compatible with ZDR, and is available through the Claude Platform, AWS, Amazon Bedrock, and Google Cloud, with Microsoft Foundry support coming soon.",
+      "zh": "Anthropic 的 Claude 官方账号宣布，面向符合条件的企业，结合 Enterprise Frontier Safeguards 的 zero data retention 已开启公开 beta，该方案与超过 100 家客户共同开发。EFS 在兼容 ZDR 的同时跨请求识别滥用，目前可通过 Claude Platform、AWS、Amazon Bedrock 和 Google Cloud 使用，Microsoft Foundry 支持即将推出。",
+      "tags": [
+        "Anthropic",
+        "ZDR",
+        "AI safety"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Anthropic Research",
+      "role": null,
+      "title": "Working with AI",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "en": "Anthropic Research: Working with AI draws on interviews with people at 58 companies using Claude. Respondents described few layoffs but reduced hiring, and said the most valuable applications often required reorganizing roles and workplaces around AI.",
+      "zh": "Anthropic Research 的《Working with AI》采访了 58 家使用 Claude 的公司中的员工。受访者提到的裁员不多，但招聘有所减少；他们认为，价值最高的 AI 应用往往需要围绕 AI 重新组织岗位和工作方式。",
+      "tags": [
+        "Anthropic",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "en": "Hugging Face - Blog: How to build and maintain an agentic evaluation addresses building and maintaining evaluations for agentic systems.",
+      "zh": "Hugging Face - Blog 的《How to build and maintain an agentic evaluation》聚焦如何构建和维护 agentic 系统的评测。",
+      "tags": [
+        "agents",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "A detective on demand: the Automated Auditor",
+      "url": "https://www.lesswrong.com/posts/pFtxnbiF2Ehohvd9e/a-detective-on-demand-the-automated-auditor",
+      "en": "LessWrong: A detective on demand: the Automated Auditor proposes auditing frontier-model compute by giving an automated auditor confidential information inside a protected environment that is wiped after it reports. The aim is to make claims about training activity or organizational conduct independently assessable without exposing the underlying secrets, including where legal audit arrangements do not exist.",
+      "zh": "LessWrong 的《A detective on demand: the Automated Auditor》提出，让自动审计系统在受保护的环境中读取机密信息，出具报告后清空环境，以此审计前沿模型的算力使用。目标是在不泄露底层机密的前提下，让训练活动或组织行为的相关声明能够接受独立核验，也适用于尚无正式法律审计机制的场景。",
+      "tags": [
+        "frontier models",
+        "AI governance",
+        "auditing"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "An AI economy won't need humans to provide demand",
+      "url": "https://www.lesswrong.com/posts/s5dhSdQZDEsEemYbL/an-ai-economy-won-t-need-humans-to-provide-demand",
+      "en": "LessWrong: An AI economy won't need humans to provide demand challenges the argument that automation must preserve human purchasing power to keep an economy functioning. The author argues that AI companies could produce, consume, and trade resources among themselves in pursuit of growth, and predicts competitive pressure could make human-led and fully automated organizations behave similarly.",
+      "zh": "LessWrong 的《An AI economy won't need humans to provide demand》质疑一种观点：自动化必须保留人类购买力，经济才能继续运转。作者认为，AI 公司可以为了增长而彼此生产、消费和交换资源，并预测竞争压力可能让人类领导的组织与完全自动化的组织采取相似行为。",
+      "tags": [
+        "AI economics",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "ProbeAgent: Principled Diagnosis of Agent Failures in Verifiable Environments",
+      "url": "https://arxiv.org/abs/2611.26897",
+      "en": "ProbeAgent diagnoses agent failures by turning suspected causes into executable follow-up tasks that vary the surrounding context, then checking whether the error recurs. Across 22 agent configurations and 10 benchmarks, it collected 1,244 failures and produced 536 failure-mode descriptions, offering a practical route from individual trajectories to testable explanations of recurring problems.",
+      "zh": "ProbeAgent 将 agent 失败的疑似原因转化为可执行的后续任务，在改变周边情境后检查同类错误是否重现。研究覆盖 22 种 agent 配置和 10 个 benchmark，收集了 1,244 次失败并生成 536 条失败模式描述，为从单次轨迹走向可验证的重复性问题诊断提供了实用方法。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "failure diagnosis"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+      "url": "https://arxiv.org/abs/2611.26910",
+      "en": "AstronautBench evaluates fixed-weight agent self-improvement in Outer Wilds through three measurements: world progress, answers to 164 knowledge questions, and supporting evidence from the agent's own recorded play. Eight-episode baselines with GPT-6.1 Sol and Gemini 4 Argon show that these measurements do not move together, warning against treating task progress or correct answers alone as proof of learning.",
+      "zh": "AstronautBench 在 Outer Wilds 中评估固定权重 agent 的自我改进，同时衡量游戏进展、164 道知识问题的回答，以及 agent 自身游戏记录中的支持证据。使用 GPT-6.1 Sol 和 Gemini 4 Argon 的八轮基线实验表明，这些指标并不同步变化，因此不能仅凭任务进展或答对问题就认定 agent 学到了东西。",
+      "tags": [
+        "agents",
+        "benchmarks",
+        "memory"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+      "url": "https://arxiv.org/abs/2611.26722",
+      "en": "TOUMAII introduces approximately 4.5 million validated tool-calling preference pairs, covering single- and multi-turn interactions with parallel and sequential calls. Its TOUMAII-Gen pipeline converts tool-calling SFT data into preference pairs using model-generated failure modes; DPO on a 3B model reaches parity with other high-quality tool-calling preference datasets, making this a relevant resource for tool-use post-training.",
+      "zh": "TOUMAII 提供约 450 万对经过验证的 tool-calling 偏好数据，覆盖单轮、多轮交互，以及并行和顺序调用。配套的 TOUMAII-Gen 利用模型生成的失败模式，将 tool-calling SFT 数据转化为偏好对；在 3B 模型上进行 DPO 后，效果与其他高质量 tool-calling 偏好数据集相当，为工具使用能力的 post-training 提供了相关资源。",
+      "tags": [
+        "tool use",
+        "post-training",
+        "DPO"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Breaking the Long Horizon: Short-Horizon Process Supervision for Long-Form Generation in LLMs",
+      "url": "https://arxiv.org/abs/2611.27348",
+      "en": "SH-PRM decomposes long-form generation into semantic segments, scores each for adherence, coherence, and relevance, and uses local rewards to compute step-wise advantages. Under the same GRPO optimizer and comparable budgets, it outperforms document-level outcome supervision and strong inference-time baselines across multiple LLMs and two benchmarks, pointing to credit assignment as a useful lever for long-horizon agent outputs.",
+      "zh": "SH-PRM 将长文本生成拆分为语义片段，分别评估指令遵循、连贯性和相关性，再用局部奖励计算逐步 advantage。在相同 GRPO optimizer 和相近预算下，该方法在多个 LLM 和两个 benchmark 上优于整篇文档的结果监督及较强的推理时基线，表明 credit assignment 是改善长程 agent 输出的一个有效切入点。",
+      "tags": [
+        "post-training",
+        "agents",
+        "process supervision"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Your Judge Inherits Your Prompt: In-Context Label Bias in an LLM-as-Judge Is Directional, Not Symmetric",
+      "url": "https://arxiv.org/abs/2611.26881",
+      "en": "Holding generated answers fixed, this study finds that acceptance-heavy few-shot demonstrations inflate an LLM judge's acceptance rate by about 30 points on NExT-QA and 20 on MSVD-QA, without a matching decline under rejection-heavy examples. Separate example draws vary by up to 18 points, showing how judge prompts and demonstration sampling can manufacture apparent benchmark gains within the tested settings.",
+      "zh": "这项研究固定生成答案，仅改变 few-shot 示例的标签比例，发现偏向接受的示例会让 LLM judge 在 NExT-QA 和 MSVD-QA 上的接受率分别上升约 30 和 20 个百分点，而偏向拒绝的示例并未带来对称下降。不同示例抽样之间的结果还可相差最多 18 个百分点，说明在所测试的场景中，judge prompt 和示例抽样本身就可能制造表面上的 benchmark 提升。",
+      "tags": [
+        "evaluation",
+        "LLM-as-judge",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models",
+      "url": "https://arxiv.org/abs/2611.26841",
+      "en": "Across six tasks, four frontier editors, and three weaker-model families, this study examines models that rewrite another network's weights without gradient descent, often inserting an in-context-learning task vector into sparse MLP units. Results can match ICL and fine-tuning on the same examples while usually preserving perplexity, but wording changes and unfinished runs weaken the comparison, making robustness central to interpreting the claim.",
+      "zh": "这项研究覆盖六项任务、四个前沿 editor 和三个较弱模型家族，考察模型如何在不使用 gradient descent 的情况下重写另一网络的权重，常见做法是将 in-context learning task vector 写入稀疏的 MLP 单元。结果可以达到基于相同示例的 ICL 和 fine-tuning 水平，且通常不影响 perplexity，但措辞变化和未完成的实验会削弱比较结果，因此必须结合鲁棒性理解这一结论。",
+      "tags": [
+        "fine-tuning",
+        "in-context learning",
+        "weight editing"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Search From the Start: Search-Native Pretraining for Language Models",
+      "url": "https://arxiv.org/abs/2611.26809",
+      "en": "QueryLM learns search calls and evidence use during pretraining by augmenting ordinary corpora with queries and responses retrieved from a local index. Across 360M–3.3B models, its advantage persists after supervised fine-tuning, and a 1.4B QueryLM matches or beats a FLOP-matched 3.3B baseline on all tested knowledge-intensive tasks, suggesting search capability need not be introduced only during post-training.",
+      "zh": "QueryLM 在普通语料中加入搜索 query 和本地索引检索结果，让模型在 pretraining 阶段学习搜索调用和证据使用。在 360M 至 3.3B 模型的实验中，这一优势在 supervised fine-tuning 后仍然存在；1.4B QueryLM 在所有测试的知识密集型任务上达到或超过 FLOP 匹配的 3.3B 基线，说明搜索能力可以从 pretraining 阶段开始培养。",
+      "tags": [
+        "tool use",
+        "pretraining",
+        "RAG"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "url": "https://arxiv.org/abs/2611.27973",
+      "en": "MemOnce stores a compact subset of final-layer hidden states, reconstructs layer-wise KV caches on demand, and computes sparse retrieval indices once across layers. The authors report lower GPU memory use, linear-time complexity, and improvements over Transformers and other architectures across model sizes and training settings, making it relevant to persistent memory for long-running agents.",
+      "zh": "MemOnce 仅保存最后一层 hidden states 的紧凑子集，按需重建各层 KV cache，并让跨层稀疏检索索引只计算一次。作者报告，该架构降低了 GPU 内存占用，实现线性时间复杂度，并在不同模型规模和训练设置下优于 Transformers 及其他架构，与长时间运行的 agent 所需的持久记忆直接相关。",
+      "tags": [
+        "memory",
+        "KV cache",
+        "agents"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference",
+      "url": "https://arxiv.org/abs/2611.26776",
+      "en": "With perception agents and the reasoning model held fixed across 799 video clips, flat-text evidence achieves F1 0.967, nearly matching a raw-video model at 0.968 while outperforming graph-based tool exploration and inter-agent messaging. Graph summaries and multi-turn tool use both reduce accuracy, providing a controlled example where a more elaborate agent workflow underperforms a simpler interface.",
+      "zh": "研究在 799 段视频上固定感知 agents 和 reasoning model，发现纯文本证据的 F1 达到 0.967，接近直接读取视频的模型的 0.968，并优于基于图的工具探索和 agent 间消息传递。图摘要和多轮 tool use 均降低了准确率，为复杂 agent 工作流不如简单接口提供了一个受控实验案例。",
+      "tags": [
+        "agents",
+        "evaluation",
+        "tool use"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Observed, Curated, Reused: Observation Bias in Clinical AI Evaluation",
+      "url": "https://arxiv.org/abs/2611.27301",
+      "en": "Tracking 6,503 clinical cases across six Human Phenotype Ontology releases, this study examines leakage when a patient's published case becomes evidence in the reference knowledge base used to evaluate that same case. For the primary ranker, publication-weighted mean reciprocal rank rises from 0.26 to 0.84 after ingestion and falls to 0.05 when source-linked assertions are removed, illustrating how benchmark gains can reflect evidence reuse rather than generalization.",
+      "zh": "这项研究追踪 6,503 个临床病例在六个 Human Phenotype Ontology 版本中的变化，考察患者病例论文进入参考知识库、随后又被用于评估同一病例时产生的信息泄漏。主要 ranker 按论文加权的 mean reciprocal rank 在来源被纳入后从 0.26 升至 0.84，移除关联断言后降至 0.05，说明 benchmark 提升可能来自证据复用，而非泛化能力。",
+      "tags": [
+        "data contamination",
+        "evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+      "url": "https://arxiv.org/abs/2611.26747",
+      "en": "SkillPrivus statically audits skill code and natural-language instructions for potentially inappropriate data operations without executing the skill. Among 563 personal-data-handling skills from a 726-skill sample, it flags potential violations in 307, or 54.5%, with 83.2% agreement with blind human annotators on resolvable moves; the findings concern privacy risks in ordinary advertised functionality, making pre-installation auditing relevant to expanding skill ecosystems.",
+      "zh": "SkillPrivus 无需执行 skill，就能静态审计其代码和自然语言指令，识别可能不恰当的数据操作。在 726 个 skills 样本中，有 563 个处理个人数据，其中 307 个被标记存在潜在违规，占 54.5%；在可判定的操作上，其判断与盲评人工标注的一致率为 83.2%。这些风险来自 skills 正常宣传的功能，也凸显了 skill 生态扩张过程中安装前审计的价值。",
+      "tags": [
+        "agents",
+        "skills",
+        "privacy"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "The Assistant Persona Differs Across Languages in Activation Space",
+      "url": "https://arxiv.org/abs/2611.27504",
+      "en": "Extracting assistant-persona directions in 31 languages from Qwen3-32B, the authors find cosine similarities to the English direction ranging from 0.378 to 0.911, with resource level correlated with direction and magnitude. Language-specific steering amplifies persona-based jailbreaks more than English-axis steering, suggesting multilingual alignment should explicitly account for language-dependent assistant representations.",
+      "zh": "作者从 Qwen3-32B 中提取了 31 种语言的 assistant persona 方向，发现它们与 English 方向的 cosine similarity 介于 0.378 至 0.911，且方向和幅度都与语言资源水平相关。沿各语言自身方向进行 steering，比沿 English 方向更能放大基于 persona 的 jailbreak，表明 multilingual alignment 应明确考虑不同语言中的 assistant 表征差异。",
+      "tags": [
+        "Qwen",
+        "alignment",
+        "multilingual"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "老教授不当网红 是因为早就冷启动完了",
+      "url": "https://www.rednote.com/explore/6b04f0f8000000002b011add?xsec_token=ABpjKwVvJXTN-aJHohkNyhderBklrTZ5XbT8jDUBqRxzE%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that established professors built recognition when research communities were smaller, while today's crowded conferences make good work easier to overlook. Reviewers, collaborators, and hiring researchers may encounter a person online before opening their papers, so the author treats posting about papers and research ideas for an hour or two each week as part of doing research.",
+      "zh": "鸭基米德认为，老教授成名时圈子小、会议少，一篇好文章基本都能被同行读到；如今顶会投稿动辄几万篇，好工作被淹没已是常态。审稿人、合作者和招人的老板，很多时候先在网上认识你，才点开你的论文，所以作者把发帖、讲自己的论文和聊研究想法当作科研的一部分，每周一两个小时就够，但不能没有。",
+      "tags": [
+        "research careers",
+        "Chinese ML community"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-24T17:48:58.066Z"
+}
