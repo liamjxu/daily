@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-25",
+  "headline_en": "Agent integration advances while adoption bottlenecks and geopolitical constraints shape the AI industry's next phase.",
+  "headline_zh": "Agent 集成继续推进，应用落地瓶颈与地缘政治约束共同影响 AI 行业的下一阶段。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Boris Cherny",
+      "role": "Claude, Anthropic",
+      "title": null,
+      "url": "https://x.com/bcherny/status/2125292098165612585",
+      "en": "Anthropic's Boris Cherny announces that MCP servers can now ship with their own skills. This lets Claude Code know how to use those servers out of the box, packaging tool access together with usage guidance.",
+      "zh": "Anthropic 的 Boris Cherny 宣布，MCP server 现在可以附带自己的 skills。这让 Claude Code 开箱即知如何使用这些 server，把工具接入与使用指导打包在一起。",
+      "tags": [
+        "agents",
+        "MCP",
+        "Claude Code"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "title": null,
+      "url": "https://x.com/garrytan/status/2125247943540142577",
+      "en": "Y Combinator President and CEO Garry Tan argues that models already exceed some customers' needs, while substantial improvements in agency and taste may still lie ahead. His broader point is that adoption also runs into organizational resistance: knowledge work and business processes can change only as fast as people accept new ways of working.",
+      "zh": "Y Combinator President & CEO Garry Tan 认为，模型能力已经超过部分客户的需求，但自主行动能力和品味仍可能迎来显著跃升。他进一步指出，落地也会受到组织阻力的限制：知识工作和业务流程能改变多快，取决于人们接受新工作方式的速度。",
+      "tags": [
+        "agents",
+        "AI adoption",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Unsupervised Learning",
+      "role": null,
+      "title": "Ep 98: China Expert on Jensen’s Return",
+      "url": "https://www.youtube.com/watch?v=gkd5eOQGASU",
+      "en": "The Takeaway: political control over compute access could reshape the AI ecosystem as much as model progress, and ChinaTalk's Jordan Schneider argues that builders should treat cross-border dependencies as a strategic risk rather than a background policy issue. Discussing Jensen Huang's return to NVIDIA, Schneider distinguishes physical chip smuggling from Chinese companies' previously legal remote access to overseas data centers, describes a new rule that would cut off some of that access after 90 days, and says the consequential question is whether those restrictions survive, are enforced, or become legislation that a president cannot readily reverse. His counterintuitive argument is that denying NVIDIA access does not simply accelerate a fully capable Huawei substitute, because Huawei already has demand, funding, and government support but faces manufacturing constraints involving high-bandwidth memory and specialized equipment; as he puts it, “What they're missing are the machines that they need to make it.” For practitioners, his warning extends to Chinese models, customers, robotics data, and components that could become export-control leverage, while the host emphasizes Huang's role in coordinating infrastructure investment and Schneider questions whether productivity gains and public benefits will arrive quickly enough to sustain spending and prevent a broader political backlash against AI.",
+      "zh": "核心判断：对 compute 获取渠道的政治管控，可能像模型进步一样重塑 AI 生态；ChinaTalk 的 Jordan Schneider 认为，开发者应把跨境依赖视为战略风险，而非背景性的政策问题。围绕 Jensen Huang 重返 NVIDIA，Schneider 区分了实体芯片走私与中国公司此前合法使用海外数据中心的远程访问，并介绍了一项将在 90 天后切断部分访问的新规；他认为，关键在于这些限制能否保留、得到执行，或通过立法固定下来，使总统难以轻易撤销。他一个反直觉的观点是，限制 NVIDIA 供应并不会直接催生一个能力完备的 Huawei 替代方案，因为 Huawei 已有需求、资金和政府支持，真正受限的是 high-bandwidth memory 和专用设备等制造条件；用他的话说，“他们缺的是制造芯片所需的机器。”对从业者而言，他的提醒还涉及中国模型、客户、robotics data，以及可能成为出口管制筹码的零部件；主持人强调 Huang 在协调基础设施投资方面的作用，Schneider 则质疑，生产率提升和公众收益能否及时兑现，以支撑持续投入并避免更广泛的反 AI 政治反弹。",
+      "tags": [
+        "compute economics",
+        "model access/policy",
+        "China",
+        "industry strategy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "How the AI Village Agents Learned to Tag Each Other",
+      "url": "https://www.lesswrong.com/posts/TqkNFhoRKw2tbK6je/how-the-ai-village-agents-learned-to-tag-each-other",
+      "en": "LessWrong: How the AI Village Agents Learned to Tag Each Other examines how agents address one another while working on separate computers and coordinating through shared chat. The analysis uses an LLM to label whether a message addresses another agent and identify its recipients, distinguishing direct requests from mere mentions across full names, shorthand, and @-tags. It offers a concrete approach to studying communication conventions in multi-agent workflows.",
+      "zh": "LessWrong：How the AI Village Agents Learned to Tag Each Other 研究了各自操作电脑、通过共享聊天协作的 agents 如何称呼和联系彼此。作者用 LLM 标注消息是否在向其他 agent 说话，并识别接收者，处理全名、简称和 @ 标记等形式，同时区分直接请求与单纯提及。这为研究 multi-agent 工作流中的沟通惯例提供了一种具体方法。",
+      "tags": [
+        "multi-agent",
+        "agents",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Effective Giving in Politics: Spending Better for AI Safety",
+      "url": "https://www.lesswrong.com/posts/eBfuqL3YQfeM6cBEs/effective-giving-in-politics-spending-better-for-ai-safety",
+      "en": "LessWrong: Effective Giving in Politics: Spending Better for AI Safety argues that electoral win rates are a poor measure of political donations' impact because they can mostly reflect picking likely winners. The post reports $43 million in pro-safety spending versus $37 million from the AI capabilities industry in the 2026 midterms, but says there is no good way to establish whether that spending worked. It proposes measuring vote-share changes against forecasts, cost per vote shifted, and winners' subsequent AI-policy actions, alongside an independent evaluator for political giving.",
+      "zh": "LessWrong：Effective Giving in Politics: Spending Better for AI Safety 认为，候选人胜选率并不能很好地衡量政治捐款的效果，因为它可能主要反映了捐款者选中了本来就容易获胜的人。文章称，2026 年中期选举中，支持 AI safety 的团体投入了 4,300 万美元，推动 AI 能力发展的行业一方投入了 3,700 万美元，但目前没有好的方法判断这些支出是否奏效。作者建议衡量相对预测的得票率变化、每推动一票所需的成本，以及当选者此后的 AI 政策行动，并设立独立的政治捐款评估机构。",
+      "tags": [
+        "evaluation",
+        "AI safety",
+        "model access/policy"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "Hugging Face - Blog",
+      "role": null,
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "en": "Hugging Face - Blog: An Indic Voice Agent with CUGA introduces an Indic-language voice agent built with CUGA.",
+      "zh": "Hugging Face - Blog：An Indic Voice Agent with CUGA 介绍了一个使用 CUGA 构建的印度语言 voice agent。",
+      "tags": [
+        "agents",
+        "multilingual",
+        "voice"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-25T13:13:20.206Z"
+}
