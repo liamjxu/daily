@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-26",
+  "headline_en": "Agent progress increasingly depends on reliable memory, interfaces, and evaluation, while frontier AI access faces new pricing and privacy trade-offs.",
+  "headline_zh": "Agent 的进步越来越取决于可靠的记忆、接口和评测，前沿 AI 的使用也面临新的计费与隐私权衡。",
+  "items": [
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "title": null,
+      "url": "https://x.com/thsottiaux/status/2125784147889393806",
+      "en": "OpenAI Codex and ChatGPT builder Thibault Sottiaux says a corrected launch billing error means users will reach GPT-6.2 Astra limits 40% faster and Sol limits 25% faster than last week. OpenAI will not recover past undercounted usage and will give Go, Plus, Pro, and Business users one banked reset; he says both models still offer more usage than their predecessors.",
+      "zh": "OpenAI Codex 和 ChatGPT 的开发者 Thibault Sottiaux 表示，发布时的计费错误已修正，用户触及 GPT-6.2 Astra 和 Sol 使用上限的速度将分别比上周快 40% 和 25%。OpenAI 不会追补此前少计的用量，并将向 Go、Plus、Pro 和 Business 用户提供一次可储存的额度重置；他表示，这两款模型的可用量仍高于各自的前代。",
+      "tags": [
+        "model access",
+        "GPT-6.2",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Andrej Karpathy",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "en": "Andrej Karpathy reports that Opus 5.5 built a Civilization-style US data map through Claude Code in seven hours and roughly 45,000 lines of code. It reconciles 31 public data sources onto a 25 km hex grid, with 19 viewing lenses, 524 metro profiles, and county-level exploration tools. The project illustrates a sustained coding and data-integration workflow, although Karpathy notes that Claude skipped some states and territories.",
+      "zh": "Andrej Karpathy 表示，Opus 5.5 通过 Claude Code 用七小时、约 45,000 行代码，构建了一张 Civilization 风格的美国数据地图。它将 31 个公共数据源整合到 25 公里的六边形网格中，提供 19 种观察视角、524 个都市区档案和县级数据探索工具。这个项目展示了持续编程和数据整合的工作流，不过 Karpathy 也指出，Claude 漏掉了部分州和领地。",
+      "tags": [
+        "agents",
+        "Claude Code",
+        "Opus 5.5"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Sam Altman",
+      "role": null,
+      "title": null,
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "en": "Sam Altman says OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small customer group. He also says ZDR with Private Safety Processing permits automated safety reviews without giving OpenAI personnel access to the underlying content, positioning stronger privacy as a way to make frontier AI useful for more business work.",
+      "zh": "Sam Altman 表示，OpenAI 正与一小批客户测试 Private Inference，它属于 OpenAI Private Intelligence。她还表示，ZDR 配合 Private Safety Processing，可以在不让 OpenAI 人员接触底层内容的情况下完成自动安全审查，希望通过更强的隐私保护，让前沿 AI 能够承担更多企业工作。",
+      "tags": [
+        "model access",
+        "privacy",
+        "OpenAI"
+      ]
+    },
+    {
+      "section": "X",
+      "category": null,
+      "source": "Thariq",
+      "role": "OpenAI; formerly Claude Code, Anthropic",
+      "title": null,
+      "url": "https://x.com/trq212/status/2125675533761671405",
+      "en": "OpenAI builder Thariq, formerly on Claude Code at Anthropic, announces that he has joined OpenAI. He frames the move as a choice about where he can contribute most and emphasizes the movement of people and ideas between labs.",
+      "zh": "此前在 Anthropic 从事 Claude Code 工作的 Thariq 宣布加入 OpenAI。他表示，这一选择取决于自己在哪里能作出最大贡献，并强调人才和想法在实验室之间流动的价值。",
+      "tags": [
+        "frontier labs",
+        "OpenAI",
+        "Claude Code"
+      ]
+    },
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Training Data",
+      "role": null,
+      "title": "OpenAI’s Noam Brown: Why Game Theory Didn’t Lead to General Intelligence (Live at No Limit Finals)",
+      "url": "https://www.youtube.com/watch?v=tRaFbDFBl_A",
+      "en": "The Takeaway: OpenAI researcher Noam Brown argues that general intelligence required moving beyond equilibrium-seeking game bots toward models trained on human behavior and reinforced to think before acting, with longer reasoning providing a general way to scale test-time compute. Drawing on his progression from poker to Diplomacy and then o1, he says assuming rational opponents produced socially poor decisions in Diplomacy, whereas learning to imitate people and training against those simulated humans worked better; similarly, he rejected the idea that larger pretraining alone would efficiently solve games that demand deliberation. His practical diagnosis of current coding agents is unusually specific: Astra can produce an excellent poker river solver from one prompt but struggles to organize a complete poker bot, sometimes spending hours perfecting CFR numerics that are already robust to small errors, so the human contribution remains planning, prioritization, and recognizing a wrong direction rather than merely supplying code. Brown calls chain-of-thought “a weird way to scale test time compute” but considers it sufficient rather than uniquely optimal, proposes evaluating general-purpose models on games without game-specific training, and argues that promising students should consider joining labs now, while acknowledging that compute and the long tail of model weaknesses still constrain recursive improvement.",
+      "zh": "核心观点：OpenAI 研究员 Noam Brown 认为，通向通用智能需要超越追求均衡策略的游戏 bot，转向学习人类行为、通过强化训练学会先思考再行动的模型，而更长的推理为扩展 test-time compute 提供了通用路径。回顾从扑克、Diplomacy 到 o1 的研究经历，他表示，假设对手理性会让 Diplomacy bot 作出不合人情的决策，模仿人类并与这些模拟人类训练反而更有效；同样，他不认同仅靠扩大 pretraining 就能高效解决需要深思熟虑的游戏。他对当前 coding agent 的判断非常具体：Astra 能通过一个 prompt 写出优秀的扑克 river solver，却难以组织完整的扑克 bot，有时还会花几个小时完善 CFR 的数值计算，而这个算法本来就能容忍小误差，因此人类的价值仍在于规划、判断优先级，以及识别错误方向，而不只是写代码。Brown 称 chain-of-thought 是“一种扩展 test-time compute 的奇怪方式”，但认为它足够有效，并非唯一最优解；他主张用未经特定游戏训练的通用模型参加游戏评测，也建议有潜力的学生考虑现在加入实验室，同时承认 compute 和模型能力短板的长尾仍限制着递归改进。",
+      "tags": [
+        "reasoning",
+        "test-time compute",
+        "agents",
+        "frontier lab careers"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "Recursive Self Alignment: The Model is the Estimator",
+      "url": "https://www.lesswrong.com/posts/qvy8Tvhzg2PgfvHcs/recursive-self-alignment-the-model-is-the-estimator",
+      "en": "LessWrong: Recursive Self Alignment: The Model is the Estimator argues that alignment must account for models increasingly shaping their own training signals. It frames recursive improvement as extending beyond optimization into repairing environments, interpreting researcher intent, and rewriting reward functions, making the model itself part of the process that estimates the intended objective.",
+      "zh": "LessWrong：Recursive Self Alignment: The Model is the Estimator 认为，alignment 必须考虑模型越来越多地参与塑造自身训练信号的情况。文章将递归改进的范围从优化扩展到修复环境、理解研究者意图和改写 reward function，这意味着模型本身也参与了对预期目标的估计。",
+      "tags": [
+        "alignment",
+        "reward models",
+        "recursive improvement"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+      "url": "https://arxiv.org/abs/2611.31427",
+      "en": "This paper separates an agent's task knowledge from its ability to express that knowledge through a particular harness. Across four benchmarks, cross-harness distillation can improve underlying knowledge while catastrophically degrading performance on a held-out interface; the authors introduce harness rehearsal using traces with minimal task information. The distinction matters when interpreting agent training gains or transferring policies between workflows.",
+      "zh": "这篇论文将 agent 的任务知识与通过特定 harness 运用知识的能力区分开来。在四项 benchmark 上，跨 harness distillation 可能提升底层知识，却让模型在留出的接口上出现灾难性退化；作者提出 harness rehearsal，使用任务信息极少的轨迹来练习接口操作。这个区分有助于理解 agent 训练收益，以及策略在不同工作流之间迁移时的表现。",
+      "tags": [
+        "agents",
+        "distillation",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+      "url": "https://arxiv.org/abs/2611.31258",
+      "en": "RECAP trains context compaction to preserve the behavior an agent would exhibit with its original interaction history. Its behavior-distortion objective yields both rewards for summary generation and self-distillation for subsequent actions, improving Qwen3.5-4B over task-reward-only RL by 4.6 percentage points on BrowseComp-plus and 4.3 points on SWE-bench Verified. It offers a concrete training objective for long-horizon agent memory.",
+      "zh": "RECAP 训练 context compaction，使其保留 agent 在原始交互历史下的行为。它的行为失真目标同时为摘要生成提供 reward，并为后续动作提供 self-distillation，使 Qwen3.5-4B 相比仅使用任务 reward 的 RL，在 BrowseComp-plus 和 SWE-bench Verified 上分别提升 4.6 和 4.3 个百分点。这为长程 agent 记忆提供了一个具体的训练目标。",
+      "tags": [
+        "agents",
+        "context compaction",
+        "post-training",
+        "distillation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LLM Agent Authorization Across Context Compaction",
+      "url": "https://arxiv.org/abs/2611.32194",
+      "en": "The authors show how context compaction can undermine request-derived authorization when model-written summaries are presented as user messages. In a rent-payment attack, a policy derived from a frontier compactor's summary admitted an attacker-supplied account in 91% of cases, versus none when derived from the user's own words. The result makes authorship and provenance preservation a security requirement for agent memory.",
+      "zh": "作者展示了当模型生成的摘要被作为 user message 呈现时，context compaction 如何破坏基于用户请求的授权。在一项支付房租的攻击中，根据前沿模型压缩摘要生成的策略，有 91% 的情况允许使用攻击者提供的账户，而根据用户原话生成的策略则完全没有出现这种情况。这个结果说明，保留内容作者身份和来源是 agent 记忆的安全要求。",
+      "tags": [
+        "agents",
+        "context compaction",
+        "authorization"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "RightDiff: Learning Generative Reward Models to Judge by the Right Differences",
+      "url": "https://arxiv.org/abs/2611.32166",
+      "en": "RightDiff grounds pairwise preference judgments in response-specific differences, separating material evidence from irrelevant factors before constructing pair-specific rubrics. The authors report leading results on RewardBench and RM-Bench, resistance to length shortcuts, and useful downstream DPO supervision. It directly targets reward models that reach correct outcomes through superficial cues or drifting rationales.",
+      "zh": "RightDiff 让成对偏好判断建立在回答之间的具体差异上，先区分实质性证据和无关因素，再构建针对这一对回答的 rubric。作者报告了在 RewardBench 和 RM-Bench 上的领先结果、对长度捷径的抵抗能力，以及对下游 DPO 的有效监督。它直接针对 reward model 依赖表面线索或理由漂移来得出正确结论的问题。",
+      "tags": [
+        "reward models",
+        "preference optimization",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Making Evaluation Explicit Is Not Enough: Supervising the Evaluation Process in Generative Reward Models",
+      "url": "https://arxiv.org/abs/2611.32161",
+      "en": "STEP-GRM addresses the gap between generating an explicit evaluation and performing a reliable one. It supplements final preference labels with structural supervision for rubrics and local supervision for criterion-level judgments, improving intermediate evaluation consistency and correctness as well as downstream policy optimization. The practical lesson is that readable judge rationales need process supervision, not just correct final labels.",
+      "zh": "STEP-GRM 针对显式生成评估过程与真正可靠地完成评估之间的差距。它在最终偏好标签之外，为 rubric 提供结构监督，并为各项标准的判断提供局部监督，从而改善中间评估的一致性、正确性及下游策略优化效果。实际启示是，易读的 judge 理由需要过程监督，不能只看最终标签是否正确。",
+      "tags": [
+        "reward models",
+        "evaluation",
+        "post-training"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "CypherMAS: Benchmarking Routing Reliability in LLM-Based Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.33242",
+      "en": "CypherMAS isolates communication reliability by asking agents to route encrypted messages through fixed graphs to peers holding the correct decoders, with known optimal paths. Across eleven open-weight models from 4B to 753B, small models struggle with routing and tool use, dense models above 27B degrade as graph diameter grows, and successful runs still use excess LLM calls. It provides a controlled way to distinguish coordination overhead from task reasoning.",
+      "zh": "CypherMAS 让 agent 沿固定图结构，将加密消息传递给持有正确解码器的同伴，并以已知最优路径为参照，单独评估通信可靠性。在十一款参数规模从 4B 到 753B 的 open-weight 模型中，小模型难以完成路由和 tool use，27B 以上的 dense 模型也会随着图直径增大而退化，即使成功的运行仍存在多余 LLM 调用。它提供了一种受控方法，用来区分协作开销和任务推理问题。",
+      "tags": [
+        "multi-agent",
+        "tool use",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+      "url": "https://arxiv.org/abs/2611.32649",
+      "en": "ICLWorld tests whether agents learn customized, often counterintuitive rules from text or video across 30 environments and 160 computer-use and robot-use tasks. Claude Opus 5.5 and GPT-6 Astra achieve 82% and 76% success on computer-use runs but only 27% and 26% on robot-use runs, while a no-rule control reaches at most 8%. Testing multiple rule versions exposes adaptation weaknesses that a single task configuration can conceal.",
+      "zh": "ICLWorld 在 30 个环境、160 项 computer-use 和 robot-use 任务中，测试 agent 能否从文字或视频中学会定制化、且往往违反直觉的规则。Claude Opus 5.5 和 GPT-6 Astra 在 computer-use 运行中的成功率分别为 82% 和 76%，在 robot-use 中却只有 27% 和 26%，不给规则的对照组最高仅为 8%。同一任务使用多个规则版本，可以揭示单一任务配置容易掩盖的适应能力短板。",
+      "tags": [
+        "agents",
+        "in-context learning",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+      "url": "https://arxiv.org/abs/2611.33093",
+      "en": "AIChipBench evaluates coding agents building synthesizable RTL implementations of quantized language-model decoders, checking internal state as well as outputs. Across 9,136 attempts, feedback identifying the first state mismatch raises acceptance by 25.0–46.9 percentage points in a matched study; 45 of 69 accepted designs fail when regraded on new sequences and conditions. It demonstrates how passing visible output tests can substantially overstate agent engineering reliability.",
+      "zh": "AIChipBench 评测 coding agent 为量化语言模型 decoder 编写可综合 RTL 的能力，同时检查内部状态与输出。在 9,136 次尝试中，一项配对研究发现，指出首次状态不匹配的反馈可将通过率提升 25.0 至 46.9 个百分点；69 个已通过的设计中，有 45 个在新序列和新条件下重新评分时失败。这说明，仅通过可见的输出测试，可能严重高估 agent 的工程可靠性。",
+      "tags": [
+        "agents",
+        "held-out evaluation",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Learning Compact State Abstractions for LLM Agents",
+      "url": "https://arxiv.org/abs/2611.31800",
+      "en": "This work represents agent state as inspectable recursive programs rather than full interaction histories, searching for compact abstractions with an LLM-guided genetic algorithm. On ALFWorld and ScienceWorld, it preserves near-reference success while reducing mean policy input by up to 71% and 57%. Unlike behavior-matching compaction, its sufficiency criterion is task performance, offering a useful alternative for black-box agents.",
+      "zh": "这项工作用可检查的递归程序表示 agent 状态，而非保留完整交互历史，并通过 LLM 引导的遗传算法搜索紧凑抽象。在 ALFWorld 和 ScienceWorld 上，它维持了接近参考 agent 的成功率，同时将平均策略输入最多减少 71% 和 57%。它以任务表现而非行为匹配判断信息是否充分，为 black-box agent 提供了另一种压缩思路。",
+      "tags": [
+        "agents",
+        "memory",
+        "AI economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "The Control-Flow Tax: Specialized Decision Routing for LLM Agent Workflows",
+      "url": "https://arxiv.org/abs/2611.32365",
+      "en": "This study finds that control-flow routing consumes 42.5% of baseline reference cost in an initial documentation workflow. A specialized decision model, Jev, routes finite actions while Sol generates documents, reducing mean cost by 49.6% on the initial task and 40.5–42.9% on three further tasks. The key systems lesson is that cheap routing only pays off if it also avoids unnecessary expensive generation calls.",
+      "zh": "这项研究发现，在最初的一项文档工作流中，控制流程路由占基准参考成本的 42.5%。专用决策模型 Jev 负责有限动作的路由，Sol 负责生成文档，使初始任务的平均成本下降 49.6%，另外三项任务下降 40.5% 至 42.9%。关键的系统设计启示是，低价路由只有同时避免不必要的昂贵生成调用，才能真正省钱。",
+      "tags": [
+        "agents",
+        "AI economics",
+        "routing"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "RegioZH: Unveiling Comprehension Disparities across Regional Chinese Varieties in LLMs",
+      "url": "https://arxiv.org/abs/2611.31262",
+      "en": "RegioZH evaluates regional Chinese lexical reasoning with 2,607 questions covering Mainland China, Taiwan, Hong Kong, Singapore, and Malaysia. Eleven LLMs show substantial regional disparities, including a 29.4-point average accuracy gap between Taiwan and Singapore, with overconfident errors and selective gains from persona or structured chain-of-thought prompts. It shows why aggregate Chinese proficiency is an inadequate proxy for regional language understanding.",
+      "zh": "RegioZH 用 2,607 道题评测中国大陆、台湾、香港、新加坡和马来西亚的区域中文词汇推理能力。十一款 LLM 表现出明显的地区差异，台湾与新加坡题目之间的平均准确率差距达到 29.4 个百分点，同时存在过度自信的错误，而 persona 或结构化 chain-of-thought prompt 仅带来局部改善。这说明，整体中文能力不足以代表对不同地区语言的理解。",
+      "tags": [
+        "Chinese",
+        "evaluation",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "url": "https://arxiv.org/abs/2611.33307",
+      "en": "Evaluating 25 open-weight decision models across 17 tasks and 14 languages, the authors find that accuracy falls outside English while confidence falls only about half as much. An English threshold targeting 95% accuracy yields 90% in Tamil, and LLM-translated test items are easier than human-translated counterparts in all 23 compared benchmark–language pairs. This challenges both multilingual router calibration and the validity of translated evaluations.",
+      "zh": "作者在 17 项任务、14 种语言上评测了 25 款 open-weight 决策模型，发现模型在非英语语言上的准确率下降，而置信度的降幅大约只有准确率降幅的一半。以英语 95% 准确率设定的阈值，在 Tamil 上只能达到 90%；在全部 23 组比较的 benchmark 与语言组合中，LLM 翻译的题目都比人工翻译版本更容易。这同时挑战了多语言 router 的校准方式和翻译评测的有效性。",
+      "tags": [
+        "evaluation",
+        "multilingual",
+        "calibration",
+        "routing"
+      ]
+    },
+    {
+      "section": "RedNote",
+      "category": "RedNote",
+      "source": "RedNote — 鸭基米德",
+      "role": null,
+      "title": "学术界抱团发论文的隐藏好处",
+      "url": "https://www.rednote.com/explore/6b06ec6c000000002b03d46c?xsec_token=AB8Mk28AVpO27Asxje2k0KSpCZGBOJgQXtn7AcoHAcb4M%3D&xsec_source=pc_user",
+      "en": "鸭基米德 argues that genuine research collaboration creates career options across multiple topics as academic attention shifts: a paper outside your main research line can later support interviews or invited talks. The condition is real participation and a clear understanding of the whole paper, since superficial authorship can backfire when interviewers probe the details.",
+      "zh": "鸭基米德认为，研究方向的热度轮流转，真正参与合作，相当于同时在好几个方向上留一点仓位：主线之外的一篇论文，等风口来了，也可能用来面试或带来受邀 talk 的机会。前提是确实参与，并把整篇文章的逻辑吃透，否则面试官一追问细节就卡住，挂名反而减分。",
+      "tags": [
+        "research careers",
+        "collaboration"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-26T20:56:17.231Z"
+}
