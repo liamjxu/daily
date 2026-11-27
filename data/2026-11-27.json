@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-27",
+  "headline_en": "Agent research shifts toward reliable memory, diagnostic evaluation, and cheaper delegation, while practitioners argue for stronger human feedback loops.",
+  "headline_zh": "Agent 研究聚焦可靠记忆、能定位问题的评估和更低成本的任务委派，实践者则强调加强人的反馈循环。",
+  "items": [
+    {
+      "section": "Podcasts",
+      "category": null,
+      "source": "Latent Space",
+      "role": null,
+      "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "url": "https://www.youtube.com/watch?v=Qe9d9dWyED0",
+      "en": "The Takeaway: Better ways of working with agents, especially fast human feedback and code people can understand and modify, may now matter as much as additional model intelligence for turning cheap software generation into software people actually want to use. Thariq Shihipar, formerly at Anthropic and newly joining OpenAI, describes AI as both an industrial revolution that improves production efficiency and a renaissance that makes personal craftsmanship affordable, arguing that his own bottleneck is increasingly workflow design rather than tokens or intelligence: “maybe I'm bottlenecked by ambition.” His concrete response is a /human scripting folder with dense comments, descriptive variable names, and readable executable specifications layered over model-built primitives, so he can understand and tune a game's behavior directly; he also sees decision models as an underused middle ground between hard-coded logic and full inference loops, with support workflows routing to deeper reasoning or tools when necessary. For recursive self-improvement, he favors humans brainstorming with models and allocating finite experiment budgets rather than assuming fully headless research is optimal, framing the opportunity as automating difficult implementation and experimental work while people retain responsibility for research direction, resource allocation, and deciding which outcomes are worth pursuing.",
+      "zh": "核心结论：要把低成本生成的软件变成人们真正愿意使用的软件，更好的 agent 协作方式，尤其是快速获取人的反馈，以及让人看得懂、改得动的代码，可能已经和提升模型智能同样重要。曾在 Anthropic 工作、现宣布加入 OpenAI 的 Thariq Shihipar 将 AI 比作提升生产效率的工业革命，以及让个人精细创作变得可负担的文艺复兴；他认为自己的瓶颈越来越在于工作方式，而非 token 或智能：“也许我的瓶颈是抱负。”他的具体做法是建立 /human 脚本目录，在模型构建的底层组件之上，用密集注释、清晰变量名和易读的可执行规格，让自己能直接理解并调整游戏行为；他也认为 decision models 是硬编码逻辑与完整 inference 循环之间尚未充分利用的中间层，可让客服流程在必要时转向更深入的 reasoning 或工具。对于递归自我改进，他倾向于让人与模型共同构思、分配有限的实验预算，而不是默认完全无人参与的研究最优；其设想是自动化困难的实现和实验工作，同时由人负责研究方向、资源配置，以及判断哪些结果值得追求。",
+      "tags": [
+        "agents",
+        "agentic workflows",
+        "human feedback",
+        "AI research"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+      "url": "https://arxiv.org/abs/2611.33402",
+      "en": "Partial routing uses quality and cost measurements from past execution traces to guide a frontier lead model in delegating suitable subtasks to a cheaper worker, without training either model. On held-out tasks, it raises ViBench performance from 70.2 to 78.5 at 19% lower cost and Terminal-Bench pass rate from 54% to 61% at similar cost. Supplying the subtask breakdown alone also helps, suggesting that better planning contributes alongside cheaper delegation.",
+      "zh": "Partial routing 根据历史执行轨迹中的质量与成本测量，指导前沿主模型把合适的子任务委派给更便宜的工作模型，无需训练任何一个模型。在 held-out 任务上，它将 ViBench 得分从 70.2 提升至 78.5，同时降低 19% 成本；Terminal-Bench 通过率则从 54% 提升至 61%，成本相近。仅提供子任务拆解也有帮助，说明收益既来自低成本委派，也来自更好的规划。",
+      "tags": [
+        "agentic workflows",
+        "delegation",
+        "evaluation",
+        "compute economics"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "MeterRouter: Budget-Aware Dynamic Routing for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.34327",
+      "en": "MeterRouter constructs a multi-agent collaboration graph incrementally under an explicit per-query monetary budget, choosing agent roles, models, connections, and when to stop. It starts with imitation of successful execution graphs and refines decisions using a GRPO variant that rewards correctness while penalizing spending and budget overruns. Across five benchmarks, it reports accuracy comparable to the strongest multi-agent systems at 82% lower cost than the strongest multi-agent router, making budget a direct control over orchestration.",
+      "zh": "MeterRouter 在每个 query 的明确金额预算下，逐步构建 multi-agent 协作图，决定 agent 角色、模型、连接关系以及何时结束。它先模仿成功的执行图，再通过一种 GRPO 变体优化决策，奖励正确答案，同时惩罚支出和预算超限。在五个 benchmark 上，其准确率与最强的 multi-agent 系统相当，相比最强的 multi-agent router 成本降低 82%，让预算成为直接控制协作流程的参数。",
+      "tags": [
+        "multi-agent",
+        "post-training",
+        "compute economics",
+        "routing"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination",
+      "url": "https://arxiv.org/abs/2611.34762",
+      "en": "TASK Memory targets failures where an agent retrieves the right memory but ignores it, applies it to the wrong entity, or confuses revised and superseded facts. It combines text notes, removable knowledge edits, and query-dependent activation steering; under a pre-registered, test-once protocol on frozen models, it reduces memory-ignoring hallucinations to at most 1.5% in all ten model-dataset cells. The key implication is that retrieval accuracy alone cannot establish reliable agent memory, because using retrieved information is a separate failure point.",
+      "zh": "TASK Memory 针对的是 agent 已检索到正确记忆，却忽略它、把它用到错误实体上，或混淆新旧事实的情况。它结合文本笔记、可移除的 knowledge editing 和随 query 调整的 activation steering；在冻结模型、预注册且只测试一次的协议下，十个模型与数据集组合中的记忆忽略型 hallucination 均降至不超过 1.5%。这说明，仅凭检索准确率无法证明 agent 记忆可靠，因为如何使用检索结果本身就是独立的故障环节。",
+      "tags": [
+        "LLM agents",
+        "memory",
+        "hallucination",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
+      "url": "https://arxiv.org/abs/2611.34400",
+      "en": "EvoLink-Bench evaluates agents on long task streams with persistent workspaces and dependencies, covering office work, multi-turn dialogue, and AutoResearch-style workflows. It separates acquisition and revision of expressible knowledge from execution-based capability development, and distinguishes immediate recovery, persistent-state updates, and later experience reuse. Evaluation spans 19,635 scored task slots and finds no framework consistently best across both levels, offering a more diagnostic test of agent learning than short or independent task sequences.",
+      "zh": "EvoLink-Bench 用带有持久工作区和任务依赖的长任务流评估 agent，覆盖办公、多轮对话和 AutoResearch 式工作流。它区分可用语言表达的知识获取与修订，以及基于执行反馈的能力发展，并分别衡量即时恢复、持久状态更新和后续经验复用。评估覆盖 19,635 个计分任务位，没有任何框架在两个层级上始终领先，相比短序列或相互独立的任务，这更有助于诊断 agent 是否真的在学习。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "benchmarks",
+        "memory"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "ZeroHero: Training Small Language Agents from Scratch",
+      "url": "https://arxiv.org/abs/2611.34635",
+      "en": "ZeroHero trains specialized language agents with fewer than 50 million parameters from scratch, first imitating successful LLM expert trajectories and then using PPO on their own interactions. Its reasoning-alignment objective adds expert supervision over generated language to environment rewards. Agents approach expert performance on WebShop and surpass their respective demonstration experts on Crafter training rollouts and held-out Alfworld-Dialogue tasks, suggesting substantial scope for compact, task-specific agent policies.",
+      "zh": "ZeroHero 从零训练参数量不足 5000 万的专用 language agents，先模仿 LLM 专家的成功轨迹，再对自身交互使用 PPO。其 reasoning alignment 目标在环境奖励之外，为生成的语言加入专家监督。这些 agent 在 WebShop 上接近专家表现，并在 Crafter 训练 rollout 和 held-out Alfworld-Dialogue 任务上超过各自的示范专家，表明小型、任务专用的 agent policy 仍有很大空间。",
+      "tags": [
+        "LLM agents",
+        "post-training",
+        "distillation",
+        "PPO"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "url": "https://arxiv.org/abs/2611.34928",
+      "en": "DART mines useful training traces from rejected mathematical solutions by ranking reasoning steps using position-weighted uncertainty and generating distinct alternatives with reference-answer guidance. On greedy-unsolved DeepMath-103K problems, it recovers 37% more problems than Monte Carlo sampling at a matched trace count, with nearly identical estimated cost per recovered problem and 30% lower cost per accepted trace. Post-training on these traces gives Llama-3.1-8B-Instruct the highest point estimate in five of six evaluations, making rejected traces a promising source of broader post-training coverage.",
+      "zh": "DART 从被拒绝的数学解答中挖掘训练轨迹：按位置加权的不确定性给 reasoning 步骤排序，再借助参考答案引导生成不同的替代步骤。在 greedy 解码未能解决的 DeepMath-103K 问题上，相同轨迹数量下，它比 Monte Carlo sampling 多覆盖 37% 的问题，每个新增解决问题的估计成本几乎相同，每条通过验证的轨迹成本则降低 30%。用这些轨迹进行 post-training 后，Llama-3.1-8B-Instruct 在六项评估中的五项取得最高点估计，说明失败轨迹可能是扩大训练覆盖面的有效来源。",
+      "tags": [
+        "post-training",
+        "reasoning",
+        "training data",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "LatentCP-DPO: Conformal Pessimism for DPO with Finite-Sample Guarantees",
+      "url": "https://arxiv.org/abs/2611.34275",
+      "en": "LatentCP-DPO combines conformal prediction with pessimistic preference optimization to address noisy or weakly informative preference labels in limited datasets. It constructs uncertainty sets for latent relative rewards and optimizes worst-case preference log-likelihood using an independent set of unlabeled prompts and candidate responses. Its finite-sample guarantees depend on exchangeability, correct preference-model specification, and additional assumptions, making the uncertainty treatment relevant while placing clear conditions on the theoretical claims.",
+      "zh": "LatentCP-DPO 将 conformal prediction 与悲观式 preference optimization 结合，处理小数据集里带噪声或信息量不足的偏好标签。它为潜在相对 reward 构建不确定性集合，再利用独立的无偏好标签 prompt 与候选回答，优化最坏情况下的偏好对数似然。其有限样本保证依赖 exchangeability、偏好模型设定正确及其他假设，因此值得关注的是它对不确定性的处理，同时也需看清理论结论的适用条件。",
+      "tags": [
+        "preference optimization",
+        "DPO",
+        "uncertainty"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "Lightweight Reasoning Transfer via Chain-of-Thought Vector Projection",
+      "url": "https://arxiv.org/abs/2611.34183",
+      "en": "This method transfers a task-level reasoning vector from a frozen teacher into a frozen smaller student's residual space through a lightweight linear projector. Student adaptation uses only final-answer supervision, with injection settings selected on a labeled support set and evaluation reported on the disjoint remainder. Gains of 10.37–21.98 accuracy points on GSM8K and MATH, plus improvements on code benchmarks, suggest a lightweight alternative to updating student weights or requiring student-side reasoning traces.",
+      "zh": "这项方法通过轻量线性 projector，把冻结 teacher 的任务级 reasoning vector 映射到冻结小型 student 的 residual space。Student 侧适配仅使用最终答案监督，在带标签的 support set 上选择注入设置，并在不重叠的剩余数据上评估。它在 GSM8K 和 MATH 上提升 10.37 至 21.98 个准确率百分点，并改善代码 benchmark 表现，为更新 student 权重或要求 student 侧 reasoning 轨迹提供了一种轻量替代方案。",
+      "tags": [
+        "reasoning",
+        "distillation",
+        "evaluation",
+        "Qwen"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments",
+      "url": "https://arxiv.org/abs/2611.33162",
+      "en": "MultiNet v2.0-Gridworld is an early-preview environment designed to attribute agent failures rather than merely rank success rates, independently varying mechanisms while keeping rendering, actions, and scoring fixed. Exact optimal action counts come from breadth-first search over the full environment state. Three evaluated vision-language models solve only 6 of 150 episodes, and none solves an episode containing a switch-gate mechanism, illustrating how controlled environments can expose specific weaknesses hidden by aggregate scores.",
+      "zh": "MultiNet v2.0-Gridworld 是一个早期预览环境，目标是定位 agent 失败原因，而不只是按成功率排名；它独立调整不同机制，同时固定渲染、动作和评分方式。通过对完整环境状态进行 breadth-first search，它能给出精确的最优动作数。三个接受评估的 vision-language models 在 150 个 episode 中仅解决 6 个，且没有解决任何包含 switch-gate 机制的 episode，展示了受控环境如何揭示汇总分数掩盖的具体弱点。",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "agentic workflows",
+        "reasoning"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "url": "https://arxiv.org/abs/2611.34254",
+      "en": "Crucible Bench evaluates executable chemistry research across the design-make-test-analyze cycle using 1,078 tasks, 75 MCP-accessible tools, and sandboxed graders. Among 14 LLMs, the best overall score is 0.545, but the model ranked twelfth overall leads closed-loop optimization. Agents also submit chemically invalid results despite successful tool execution, showing why general benchmark rank and tool-call success are insufficient measures of scientific agent competence.",
+      "zh": "Crucible Bench 覆盖 design-make-test-analyze 全流程，以 1,078 个任务、75 个通过 MCP 访问的工具和沙箱评分器，评估 agent 执行化学研究的能力。14 个 LLM 中的最高总分为 0.545，但总排名第十二的模型在 closed-loop optimization 上领先。Agent 也会在工具成功运行后提交化学上无效的结果，说明通用排名和工具调用成功率都不足以衡量科学 agent 的实际能力。",
+      "tags": [
+        "LLM agents",
+        "evaluation",
+        "tool use",
+        "benchmarks"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.CL updates on arXiv.org",
+      "role": null,
+      "title": "DFly2: Turbocharging Long-Context Speculative Decoding by Sharing the Target's Sparsity",
+      "url": "https://arxiv.org/abs/2611.34776",
+      "en": "DFly2 is a block-parallel speculative drafter that reuses both a sparse target model's KV cache and the positions already selected by its indexer, eliminating a separate draft cache and scoring pass. On DS-V4.1-Flash, a selection made one step earlier still covers close to nine tenths of the positions selected by later tokens. The design targets long-context inference overhead by reusing computation the target already pays for.",
+      "zh": "DFly2 是一种 block-parallel speculative drafter，同时复用稀疏 target 模型的 KV cache，以及其 indexer 已选出的 token 位置，因此无需独立的 draft cache 或评分过程。在 DS-V4.1-Flash 上，提前一步做出的选择仍能覆盖后续 token 所选位置的近九成。其设计思路是复用 target 已经完成的计算，以减少长上下文 inference 开销。",
+      "tags": [
+        "speculative decoding",
+        "KV cache",
+        "DeepSeek",
+        "inference"
+      ]
+    },
+    {
+      "section": "Papers",
+      "category": "Papers",
+      "source": "cs.AI updates on arXiv.org",
+      "role": null,
+      "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+      "url": "https://arxiv.org/abs/2611.33605",
+      "en": "This paper studies workflow security downgrades: agents recover from execution failures by finding functional alternatives that silently drop the original security requirements, without any prompt injection. ARGUS combines resource-bound security evidence, isolated recovery-plan validation, and execution-time enforcement, preventing all observed protection-loss events in a separate 864-run evaluation. For tool- and Skill-based agents, recovery therefore needs explicit security obligations that survive changes in the execution plan.",
+      "zh": "这篇论文研究工作流安全降级：没有 prompt injection，agent 也可能在执行失败后找到功能可用的替代路径，却悄悄丢掉原有安全要求。ARGUS 结合与资源绑定的安全证据、隔离的恢复计划验证和执行时强制检查，在一项独立的 864 次运行评估中阻止了所有观察到的保护丢失事件。对于依赖工具和 Skills 的 agent，恢复机制因此需要明确保留安全义务，即使执行计划改变也不能丢失。",
+      "tags": [
+        "LLM agents",
+        "agentic workflows",
+        "security",
+        "evaluation"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "LessWrong",
+      "role": null,
+      "title": "I don’t expect superposition in transformer MLP neurons",
+      "url": "https://www.lesswrong.com/posts/o9dPGxEbpQrnasgDB/i-don-t-expect-superposition-in-transformer-mlp-neurons",
+      "en": "LessWrong: “I don’t expect superposition in transformer MLP neurons” argues that well-trained transformers near capacity likely compress features through superposition in the residual stream, but not in MLP neurons. The case rests on interference costs, greater compression pressure in the residual stream, and VPD finding fewer active MLP subcomponents than neurons. This is a mechanistic hypothesis challenging a broad application of superposition, rather than an established result.",
+      "zh": "LessWrong 的《I don’t expect superposition in transformer MLP neurons》提出，训练充分且接近容量上限的 transformer，可能在 residual stream 中通过 superposition 压缩特征，但 MLP neurons 中未必如此。理由包括干扰成本、residual stream 更强的压缩需求，以及 VPD 发现活跃 MLP 子组件少于 neuron 数量。这是一项质疑 superposition 广泛适用性的机制假说，而非已确立的结论。",
+      "tags": [
+        "interpretability",
+        "transformer",
+        "superposition"
+      ]
+    },
+    {
+      "section": "Blogs",
+      "category": "Blogs",
+      "source": "The Hacker News",
+      "role": null,
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "en": "The Hacker News reports that Switzerland's cybersecurity agency confirmed four successful intrusions among five attacks involving AI agents, the country's first confirmed cases. Three attacks targeted critical infrastructure operators and two succeeded, with no major disruptions reported. The report provides a concrete operational signal of AI-assisted attacks while leaving the attackers and victims unidentified.",
+      "zh": "据 The Hacker News 报道，Switzerland 的网络安全机构确认，五起涉及 AI agents 的攻击中有四起成功入侵，这是该国首次确认此类案例。其中三起针对关键基础设施运营方，两起成功，未报告重大运行中断。这为 AI 辅助攻击的实际落地提供了具体案例，攻击者和受害者身份尚未公开。",
+      "tags": [
+        "agents",
+        "AI security",
+        "critical infrastructure"
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-27T20:35:32.012Z"
+}
