@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-28",
+    "count": 6,
+    "headline_en": "AI progress increasingly depends on better evaluation, carefully designed post-training data, and deliberate choices about agent autonomy.",
+    "generatedAt": "2026-11-28T13:30:50.371Z"
+  },
+  {
     "date": "2026-11-27",
     "count": 15,
     "headline_en": "Agent research shifts toward reliable memory, diagnostic evaluation, and cheaper delegation, while practitioners argue for stronger human feedback loops.",
